@@ -1,20 +1,20 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   24.08  32  0.74   5  2 93  2.06 2.09 2.05
-Processes: 383 total, 3 running, 14 stuck, 366 sleeping, 2133 threads 
-2017/06/23 19:47:21
-Load Avg: 2.06, 2.09, 2.05 
-CPU usage: 6.15% user, 12.30% sys, 81.53% idle 
-SharedLibs: 153M resident, 25M data, 23M linkedit.
-MemRegions: 110580 total, 5871M resident, 162M private, 3623M shared.
-PhysMem: 16G used (3790M wired), 195M unused.
-VM: 5805G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 960282/621M in, 798721/199M out.
-Disks: 652069/12G read, 308874/9927M written.
+   26.41  11  0.28   5  2 93  9.46 5.13 3.26
+Processes: 304 total, 3 running, 11 stuck, 290 sleeping, 1886 threads 
+2017/06/24 12:41:01
+Load Avg: 9.46, 5.13, 3.26 
+CPU usage: 5.43% user, 14.13% sys, 80.43% idle 
+SharedLibs: 124M resident, 23M data, 11M linkedit.
+MemRegions: 68469 total, 871M resident, 68M private, 362M shared.
+PhysMem: 3948M used (1702M wired), 12G unused.
+VM: 3984G vsize, 533M framework vsize, 337361(0) swapins, 387981(0) swapouts.
+Networks: packets: 965809/623M in, 804385/200M out.
+Disks: 685439/14G read, 321312/11G written.
 
-COMMAND        MEM    %CPU #TH  
-kernel_task    1188M+ 0.0  139/8
-Safari         417M+  0.0  12   
-Rambox Helper  371M+  0.0  21   
-Spotify Helper 323M+  0.0  19   
-Rambox Helper  238M+  0.0  22   
+COMMAND          MEM    %CPU #TH  
+kernel_task      1075M+ 0.0  135/8
+SophosScanD      62M+   0.0  34   
+Adobe CEF Helper 57M+   0.0  14   
+WindowServer     37M+   0.0  5    
+CalNCService     28M+   0.0  6    
