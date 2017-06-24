@@ -1,19 +1,20 @@
-19:13  up  7:52, 14 users, load averages: 2.31 2.29 2.16
-USER     TTY      FROM              LOGIN@  IDLE WHAT
-tim.carlson console  -                11:21    7:51 -
-tim.carlson s000     -                15:15      50 -zsh
-tim.carlson s002     -                18:19      54 -zsh
-tim.carlson s003     -                18:34      26 -zsh
-tim.carlson s004     -                19:07       5 -zsh
-tim.carlson s005     -                19:08       4 -zsh
-tim.carlson s006     -                19:08       4 -zsh
-tim.carlson s007     -                19:08       4 -zsh
-tim.carlson s008     -                19:08       4 -zsh
-tim.carlson s009     -                19:08       4 -zsh
-tim.carlson s010     -                19:08       4 -zsh
-tim.carlson s011     -                19:09       - /opt/vagrant/embedded/gems/gem
-tim.carlson s012     -                19:12       - ssh vc@192.168.1.82 -p 22 -o
-tim.carlson s013     -                19:13       - -zsh
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   23.81  33  0.76   5  2 93  2.31 2.29 2.16
+   24.09  32  0.74   5  2 93  2.02 2.05 2.03
+Processes: 377 total, 2 running, 12 stuck, 363 sleeping, 2158 threads 
+2017/06/23 19:44:33
+Load Avg: 2.02, 2.05, 2.03 
+CPU usage: 6.56% user, 12.35% sys, 81.8% idle 
+SharedLibs: 152M resident, 24M data, 23M linkedit.
+MemRegions: 110032 total, 5819M resident, 158M private, 3672M shared.
+PhysMem: 16G used (3863M wired), 104M unused.
+VM: 5790G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 954841/619M in, 793823/198M out.
+Disks: 648567/12G read, 307113/9890M written.
+
+COMMAND        MEM    %CPU #TH  
+kernel_task    1185M+ 0.0  139/8
+Safari         416M+  0.0  12   
+Rambox Helper  371M+  0.0  21   
+Spotify Helper 329M+  0.0  19   
+Rambox Helper  237M+  0.0  22   
