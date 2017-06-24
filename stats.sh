@@ -5,8 +5,8 @@ NOW="$( date )"
 git --git-dir=$DIR/.git --work-tree=$DIR checkout $DIR/stats.txt
 git --git-dir=$DIR/.git --work-tree=$DIR pull
 
-w > $DIR/stats.txt
-iostat >> $DIR/stats.txt
+iostat > $DIR/stats.txt
+top -l 1 -ncols 7 -o mem -stats command,mem,cpu,threads -n 5 >> $DIR/stats.txt
 
 git --git-dir=$DIR/.git --work-tree=$DIR add $DIR/stats.txt
 git --git-dir=$DIR/.git --work-tree=$DIR commit -m "[stats] ${NOW}"
