@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   49.31 2804 135.02  48 34 18  29.31 6.25 2.21
+   58.30   6  0.36   4  3 93  1.72 1.95 1.96
 
-Processes: 238 total, 122 running, 12 stuck, 104 sleeping, 1861 threads 
-2017/06/24 18:37:45
-Load Avg: 29.31, 6.25, 2.21 
-CPU usage: 67.2% user, 32.97% sys, 0.0% idle 
-SharedLibs: 172M resident, 24M data, 25M linkedit.
-MemRegions: 23265 total, 1312M resident, 103M private, 449M shared.
-PhysMem: 3565M used (1417M wired), 13G unused.
-VM: 647G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1032/268K in, 1145/154K out.
-Disks: 40380/1910M read, 3476/162M written.
+Processes: 319 total, 2 running, 12 stuck, 305 sleeping, 1845 threads 
+2017/06/25 12:40:18
+Load Avg: 1.72, 1.95, 1.96 
+CPU usage: 1.85% user, 12.3% sys, 86.11% idle 
+SharedLibs: 153M resident, 27M data, 22M linkedit.
+MemRegions: 82696 total, 3149M resident, 105M private, 779M shared.
+PhysMem: 9509M used (1764M wired), 6866M unused.
+VM: 4054G vsize, 533M framework vsize, 1777261(0) swapins, 1812932(0) swapouts.
+Networks: packets: 164319/126M in, 93544/12M out.
+Disks: 312040/14G read, 96520/9105M written.
 
-COMMAND       MEM   %CPU #TH  
-kernel_task   870M+ 0.0  135/8
-mysqld        171M+ 0.0  27   
-WindowServer  74M+  0.0  9/1  
-Dock          38M+  0.0  9/1  
-Rambox Helper 33M+  0.0  8/1  
+COMMAND          MEM    %CPU #TH  
+kernel_task      1058M+ 0.0  134/8
+SophosScanD      289M+  0.0  37   
+Safari           266M+  0.0  22   
+com.apple.WebKit 195M+  0.0  11   
+Spotify Helper   126M+  0.0  21   
