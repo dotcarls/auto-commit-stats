@@ -1,21 +1,38 @@
           disk0           disk3       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   27.18  13  0.35   260.13   0  0.00   6  4 89  4.10 4.33 3.87
+   27.18  13  0.35   260.13   0  0.00   6  4 89  3.23 3.25 3.43
 
-Processes: 308 total, 4 running, 9 stuck, 295 sleeping, 1941 threads 
-2017/07/26 12:35:16
-Load Avg: 4.10, 4.33, 3.87 
-CPU usage: 23.37% user, 23.37% sys, 53.24% idle 
+Processes: 325 total, 7 running, 11 stuck, 307 sleeping, 1982 threads 
+2017/07/26 12:51:30
+Load Avg: 3.23, 3.25, 3.43 
+CPU usage: 44.40% user, 51.20% sys, 4.40% idle 
 SharedLibs: 128M resident, 23M data, 14M linkedit.
-MemRegions: 74621 total, 4523M resident, 93M private, 1409M shared.
-PhysMem: 11G used (2458M wired), 4898M unused.
-VM: 1910G vsize, 533M framework vsize, 6708096(0) swapins, 7238156(0) swapouts.
-Networks: packets: 7236999/6847M in, 6127576/3008M out.
-Disks: 4346707/88G read, 2752851/96G written.
+MemRegions: 78748 total, 5389M resident, 103M private, 1518M shared.
+PhysMem: 12G used (2433M wired), 4096M unused.
+VM: 1955G vsize, 533M framework vsize, 6716364(0) swapins, 7238156(0) swapouts.
+Networks: packets: 7548057/6920M in, 6496793/3111M out.
+Disks: 4352260/89G read, 2761571/96G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1395M+ 0.0  139/8
-com.apple.WebKit 590M+  0.0  26/1 
-Safari           349M+  0.0  15   
-SophosScanD      333M+  0.0  41   
-Rambox Helper    252M+  0.0  19   
+kernel_task      1415M+ 0.0  139/8
+com.apple.WebKit 819M+  0.0  25/1 
+Safari           381M+  0.0  11   
+SophosScanD      333M+  0.0  42/4 
+Rambox Helper    252M+  0.0  21   
+Processes: 326 total, 9 running, 12 stuck, 305 sleeping, 1984 threads 
+2017/07/26 12:51:30
+Load Avg: 3.23, 3.25, 3.43 
+CPU usage: 44.48% user, 50.73% sys, 4.77% idle 
+SharedLibs: 128M resident, 23M data, 14M linkedit.
+MemRegions: 78798 total, 5404M resident, 103M private, 1513M shared.
+PhysMem: 12G used (2383M wired), 4099M unused.
+VM: 1958G vsize, 533M framework vsize, 6716364(0) swapins, 7238156(0) swapouts.
+Networks: packets: 7548085/6920M in, 6496820/3111M out.
+Disks: 4352262/89G read, 2761571/96G written.
+
+COMMAND          MEM    %CPU #TH  
+kernel_task      1415M+ 0.0  139/8
+com.apple.WebKit 819M+  0.0  25/1 
+Safari           381M+  0.0  11   
+SophosScanD      333M+  0.0  42/4 
+Rambox Helper    252M+  0.0  21   
