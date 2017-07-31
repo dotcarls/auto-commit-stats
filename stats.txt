@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   45.80 4841 216.53  35 32 34  1.30 0.28 0.10
+   41.89 2047 83.74  40 21 39  8.83 2.53 0.94
 
-Processes: 220 total, 40 running, 32 stuck, 148 sleeping, 1778 threads 
-2017/07/31 16:39:47
-Load Avg: 1.30, 0.28, 0.10 
-CPU usage: 62.6% user, 34.48% sys, 3.44% idle 
-SharedLibs: 170M resident, 23M data, 25M linkedit.
-MemRegions: 20486 total, 1359M resident, 88M private, 430M shared.
-PhysMem: 3128M used (1187M wired), 13G unused.
-VM: 604G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 233/134K in, 288/37K out.
-Disks: 40493/1807M read, 3036/143M written.
+Processes: 263 total, 3 running, 18 stuck, 242 sleeping, 1657 threads 
+2017/07/31 16:40:23
+Load Avg: 8.83, 2.53, 0.94 
+CPU usage: 11.29% user, 17.74% sys, 70.96% idle 
+SharedLibs: 196M resident, 25M data, 27M linkedit.
+MemRegions: 44499 total, 3072M resident, 124M private, 1167M shared.
+PhysMem: 6336M used (1325M wired), 10G unused.
+VM: 1769G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 13926/16M in, 10318/1217K out.
+Disks: 79392/3293M read, 14034/528M written.
 
 COMMAND      MEM   %CPU #TH  
-kernel_task  846M+ 0.0  136/8
-mysqld       152M+ 0.0  13   
-mds_stores   136M+ 0.0  9    
-WindowServer 108M+ 0.0  6    
-Google Drive 40M+  0.0  4/1  
+kernel_task  947M+ 0.0  136/8
+SophosScanD  262M+ 0.0  71/1 
+mysqld       168M+ 0.0  27   
+Google Drive 163M+ 0.0  14   
+mds_stores   155M+ 0.0  8    
