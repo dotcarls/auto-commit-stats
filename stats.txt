@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   38.45  14  0.52   4  3 93  2.26 2.14 1.99
+   48.13 4733 222.49  38 32 29  1.14 0.25 0.09
 
-Processes: 420 total, 3 running, 15 stuck, 402 sleeping, 2572 threads 
-2017/08/03 18:01:23
-Load Avg: 2.26, 2.14, 1.99 
-CPU usage: 11.17% user, 24.46% sys, 64.36% idle 
-SharedLibs: 122M resident, 21M data, 13M linkedit.
-MemRegions: 143671 total, 6511M resident, 55M private, 3804M shared.
-PhysMem: 16G used (7458M wired), 48M unused.
-VM: 6455G vsize, 533M framework vsize, 6072826(0) swapins, 6438366(0) swapouts.
-Networks: packets: 1921710/1518M in, 1648559/508M out.
-Disks: 2355798/64G read, 1109973/63G written.
+Processes: 224 total, 76 running, 19 stuck, 129 sleeping, 1882 threads 
+2017/08/03 19:58:44
+Load Avg: 1.14, 0.25, 0.09 
+CPU usage: 65.51% user, 34.48% sys, 0.0% idle 
+SharedLibs: 172M resident, 25M data, 25M linkedit.
+MemRegions: 21435 total, 1307M resident, 92M private, 424M shared.
+PhysMem: 3457M used (1395M wired), 13G unused.
+VM: 613G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 54/7718B in, 60/9417B out.
+Disks: 39093/1821M read, 3131/161M written.
 
-COMMAND       MEM    %CPU #TH  
-VBoxHeadless  2666M+ 0.0  29   
-Atom Helper   1802M+ 0.0  22   
-kernel_task   1379M+ 0.0  145/8
-Rambox Helper 131M+  0.0  22   
-Safari        115M+  0.0  11   
+COMMAND      MEM   %CPU #TH  
+kernel_task  867M+ 0.0  135/8
+mysqld       168M+ 0.0  27   
+WindowServer 72M+  0.0  8    
+mds_stores   50M+  0.0  9    
+Dock         38M+  0.0  18/1 
