@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   28.62  31  0.86   8  4 88  1.67 1.79 1.17
+   30.10  39  1.13   8  4 88  1.99 1.84 1.23
 
-Processes: 280 total, 3 running, 17 stuck, 260 sleeping, 1914 threads 
-2017/08/16 08:58:40
-Load Avg: 1.67, 1.79, 1.17 
-CPU usage: 26.31% user, 39.47% sys, 34.21% idle 
+Processes: 280 total, 2 running, 18 stuck, 260 sleeping, 1449 threads 
+2017/08/16 08:59:34
+Load Avg: 1.99, 1.84, 1.23 
+CPU usage: 5.97% user, 14.92% sys, 79.10% idle 
 SharedLibs: 207M resident, 25M data, 31M linkedit.
-MemRegions: 46082 total, 3058M resident, 129M private, 1231M shared.
-PhysMem: 7060M used (1629M wired), 9319M unused.
-VM: 1811G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 46610/41M in, 40971/7472K out.
-Disks: 142009/3838M read, 23496/788M written.
+MemRegions: 49461 total, 3080M resident, 130M private, 1240M shared.
+PhysMem: 8591M used (1652M wired), 7783M unused.
+VM: 2339G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 46896/41M in, 41331/7526K out.
+Disks: 185318/5372M read, 24142/795M written.
 
 COMMAND      MEM    %CPU #TH  
-kernel_task  1034M+ 0.0  136/8
-SophosScanD  271M+  0.0  36   
+kernel_task  1053M+ 0.0  136/8
+SophosScanD  273M+  0.0  35   
 mysqld       168M+  0.0  27   
-Google Drive 164M+  0.0  16   
+Google Drive 164M+  0.0  13   
 hyperkit     150M+  0.0  17   
