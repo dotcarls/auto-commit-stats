@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   30.10  39  1.13   8  4 88  1.99 1.84 1.23
+   27.83  44  1.19   8  4 87  1.87 1.83 1.25
 
-Processes: 280 total, 2 running, 18 stuck, 260 sleeping, 1449 threads 
-2017/08/16 08:59:34
-Load Avg: 1.99, 1.84, 1.23 
-CPU usage: 5.97% user, 14.92% sys, 79.10% idle 
+Processes: 308 total, 3 running, 15 stuck, 290 sleeping, 1762 threads 
+2017/08/16 09:00:19
+Load Avg: 1.87, 1.83, 1.25 
+CPU usage: 6.97% user, 15.11% sys, 77.90% idle 
 SharedLibs: 207M resident, 25M data, 31M linkedit.
-MemRegions: 49461 total, 3080M resident, 130M private, 1240M shared.
-PhysMem: 8591M used (1652M wired), 7783M unused.
-VM: 2339G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 46896/41M in, 41331/7526K out.
-Disks: 185318/5372M read, 24142/795M written.
+MemRegions: 60770 total, 4556M resident, 140M private, 1588M shared.
+PhysMem: 11G used (1968M wired), 5525M unused.
+VM: 2945G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 49746/44M in, 44036/7807K out.
+Disks: 212817/5664M read, 26069/829M written.
 
-COMMAND      MEM    %CPU #TH  
-kernel_task  1053M+ 0.0  136/8
-SophosScanD  273M+  0.0  35   
-mysqld       168M+  0.0  27   
-Google Drive 164M+  0.0  13   
-hyperkit     150M+  0.0  17   
+COMMAND     MEM    %CPU #TH  
+kernel_task 1119M+ 0.0  138/8
+Atom Helper 292M+  0.0  21   
+Atom Helper 285M+  0.0  25   
+SophosScanD 273M+  0.0  33/1 
+Atom Helper 176M+  0.0  6    
