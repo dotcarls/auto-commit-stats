@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   44.55 4242 184.56  45 30 26  6.43 1.35 0.48
+   28.78  30  0.83   8  4 88  1.67 1.79 1.17
 
-Processes: 247 total, 3 running, 40 stuck, 204 sleeping, 2049 threads 
-2017/08/16 07:29:19
-Load Avg: 6.43, 1.35, 0.48 
-CPU usage: 29.54% user, 25.0% sys, 45.45% idle 
-SharedLibs: 191M resident, 24M data, 27M linkedit.
-MemRegions: 26506 total, 1774M resident, 117M private, 681M shared.
-PhysMem: 4161M used (1530M wired), 12G unused.
-VM: 670G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1224/595K in, 1360/157K out.
-Disks: 46891/2042M read, 4101/172M written.
+Processes: 272 total, 2 running, 16 stuck, 254 sleeping, 1858 threads 
+2017/08/16 08:58:38
+Load Avg: 1.67, 1.79, 1.17 
+CPU usage: 10.76% user, 24.61% sys, 64.61% idle 
+SharedLibs: 207M resident, 25M data, 31M linkedit.
+MemRegions: 45586 total, 3053M resident, 128M private, 1226M shared.
+PhysMem: 6924M used (1624M wired), 9450M unused.
+VM: 1792G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 46541/41M in, 40890/7461K out.
+Disks: 136143/3698M read, 23382/785M written.
 
-COMMAND        MEM   %CPU #TH  
-kernel_task    931M+ 0.0  135/8
-mysqld         168M+ 0.0  27   
-Google Drive   163M+ 0.0  22   
-Spotify Helper 103M+ 0.0  21   
-WindowServer   82M+  0.0  7    
+COMMAND      MEM    %CPU #TH  
+kernel_task  1032M+ 0.0  136/8
+SophosScanD  266M+  0.0  36   
+mysqld       168M+  0.0  27   
+Google Drive 164M+  0.0  16   
+hyperkit     150M+  0.0  17   
