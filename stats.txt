@@ -1,21 +1,21 @@
           disk0           disk2       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   28.11  17  0.48    85.11   0  0.00   6  4 90  2.16 2.16 2.25
+   28.08  17  0.48    85.11   0  0.00   6  4 90  3.04 2.38 2.33
 
-Processes: 355 total, 5 running, 21 stuck, 329 sleeping, 2146 threads 
-2017/08/23 10:16:56
-Load Avg: 2.16, 2.16, 2.25 
-CPU usage: 18.93% user, 24.24% sys, 56.81% idle 
-SharedLibs: 166M resident, 23M data, 18M linkedit.
-MemRegions: 91874 total, 4759M resident, 118M private, 1993M shared.
-PhysMem: 12G used (2091M wired), 3850M unused.
-VM: 2552G vsize, 533M framework vsize, 7846880(0) swapins, 8208364(0) swapouts.
-Networks: packets: 4804887/3174M in, 4302852/1551M out.
-Disks: 7223419/146G read, 3441661/140G written.
+Processes: 378 total, 4 running, 18 stuck, 356 sleeping, 2135 threads 
+2017/08/23 10:17:27
+Load Avg: 3.04, 2.38, 2.33 
+CPU usage: 31.61% user, 25.0% sys, 43.38% idle 
+SharedLibs: 166M resident, 23M data, 19M linkedit.
+MemRegions: 99688 total, 5601M resident, 125M private, 2880M shared.
+PhysMem: 14G used (2802M wired), 1873M unused.
+VM: 3144G vsize, 533M framework vsize, 7847708(0) swapins, 8208364(0) swapouts.
+Networks: packets: 4806954/3176M in, 4304823/1552M out.
+Disks: 7254439/147G read, 3443500/140G written.
 
 COMMAND       MEM    %CPU #TH  
-kernel_task   1507M+ 0.0  138/8
-Safari        441M+  0.0  13   
-SophosScanD   348M+  0.0  34/1 
-Rambox Helper 301M+  0.0  23   
-Rambox Helper 284M+  0.0  22   
+kernel_task   1610M+ 0.0  142/8
+Safari        441M+  0.0  12   
+SophosScanD   349M+  0.0  34   
+Atom Helper   311M+  0.0  20   
+Rambox Helper 300M+  0.0  23   
