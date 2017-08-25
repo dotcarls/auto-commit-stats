@@ -1,21 +1,21 @@
           disk0           disk2       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   30.42  19  0.56    84.95   0  0.00   6  4 90  2.58 2.09 2.21
+   30.32  19  0.57    84.95   0  0.00   6  4 90  2.25 2.35 2.34
 
-Processes: 335 total, 3 running, 24 stuck, 308 sleeping, 1993 threads 
-2017/08/25 10:36:40
-Load Avg: 2.58, 2.09, 2.21 
-CPU usage: 18.1% user, 24.32% sys, 57.65% idle 
-SharedLibs: 129M resident, 22M data, 15M linkedit.
-MemRegions: 81374 total, 1355M resident, 84M private, 519M shared.
-PhysMem: 4738M used (1924M wired), 11G unused.
-VM: 2481G vsize, 533M framework vsize, 13082005(0) swapins, 13888965(0) swapouts.
-Networks: packets: 6444964/4251M in, 5876444/2292M out.
-Disks: 10093900/229G read, 4866015/206G written.
+Processes: 377 total, 4 running, 11 stuck, 362 sleeping, 2239 threads 
+2017/08/25 10:44:20
+Load Avg: 2.25, 2.35, 2.34 
+CPU usage: 12.16% user, 24.32% sys, 63.51% idle 
+SharedLibs: 143M resident, 23M data, 22M linkedit.
+MemRegions: 103183 total, 5000M resident, 111M private, 2862M shared.
+PhysMem: 12G used (3851M wired), 4088M unused.
+VM: 3141G vsize, 533M framework vsize, 13145195(0) swapins, 13888965(0) swapouts.
+Networks: packets: 6477144/4279M in, 5907182/2303M out.
+Disks: 10215235/231G read, 4882104/206G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1403M+ 0.0  138/8
-SophosScanD      74M+   0.0  34   
-Adobe Desktop Se 61M+   0.0  30   
-WindowServer     51M+   0.0  5    
-Adobe CEF Helper 50M+   0.0  20   
+kernel_task      1609M+ 0.0  142/8
+Safari           368M+  0.0  11   
+SophosScanD      347M+  0.0  34   
+Rambox Helper    282M+  0.0  22   
+com.apple.WebKit 263M+  0.0  17   
