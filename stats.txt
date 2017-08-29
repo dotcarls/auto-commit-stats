@@ -1,21 +1,38 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   23.53 1778 40.85  36 18 46  6.08 4.86 2.26
+   19.10 2003 37.37  34 18 48  5.53 4.87 2.45
 
-Processes: 320 total, 3 running, 25 stuck, 292 sleeping, 2371 threads 
-2017/08/29 09:43:26
-Load Avg: 6.08, 4.86, 2.26 
-CPU usage: 27.47% user, 16.48% sys, 56.4% idle 
+Processes: 341 total, 8 running, 19 stuck, 314 sleeping, 2160 threads 
+2017/08/29 09:44:35
+Load Avg: 5.57, 4.89, 2.47 
+CPU usage: 59.0% user, 19.80% sys, 21.18% idle 
 SharedLibs: 209M resident, 28M data, 34M linkedit.
-MemRegions: 61982 total, 5861M resident, 153M private, 1857M shared.
-PhysMem: 11G used (1667M wired), 4867M unused.
-VM: 2464G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 156006/199M in, 52074/7134K out.
-Disks: 262026/5928M read, 77325/1866M written.
+MemRegions: 61987 total, 6081M resident, 156M private, 2842M shared.
+PhysMem: 13G used (2907M wired), 3121M unused.
+VM: 2518G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 159298/201M in, 55219/7593K out.
+Disks: 392146/7064M read, 126812/2616M written.
+
+COMMAND          MEM    %CPU #TH   
+kernel_task      1396M+ 0.0  139/10
+Safari           421M+  0.0  13    
+com.apple.WebKit 280M+  0.0  9     
+SophosScanD      268M+  0.0  40    
+Spotify Helper   261M+  0.0  26    
+Processes: 340 total, 5 running, 19 stuck, 316 sleeping, 2160 threads 
+2017/08/29 09:44:35
+Load Avg: 5.57, 4.89, 2.47 
+CPU usage: 58.82% user, 19.85% sys, 21.32% idle 
+SharedLibs: 209M resident, 28M data, 34M linkedit.
+MemRegions: 61938 total, 6076M resident, 156M private, 2842M shared.
+PhysMem: 13G used (2907M wired), 3121M unused.
+VM: 2516G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 159298/201M in, 55219/7593K out.
+Disks: 392146/7064M read, 126812/2616M written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1275M+ 0.0  135/8
-Safari           421M+  0.0  17   
-com.apple.WebKit 275M+  0.0  18   
-SophosScanD      269M+  0.0  36   
+kernel_task      1396M+ 0.0  139/8
+Safari           421M+  0.0  13   
+com.apple.WebKit 280M+  0.0  9    
+SophosScanD      268M+  0.0  40   
 Spotify Helper   261M+  0.0  26   
