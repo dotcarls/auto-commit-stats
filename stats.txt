@@ -1,21 +1,21 @@
-          disk0           disk2       cpu     load average
-    KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   31.66  17  0.53    82.30   0  0.00   6  4 90  2.06 2.03 2.07
+          disk0       cpu     load average
+    KB/t tps  MB/s  us sy id   1m   5m   15m
+   46.23 5875 265.23  37 28 35  3.21 0.69 0.24
 
-Processes: 402 total, 2 running, 16 stuck, 384 sleeping, 2410 threads 
-2017/08/28 12:48:19
-Load Avg: 2.06, 2.03, 2.07 
-CPU usage: 13.25% user, 20.44% sys, 66.29% idle 
-SharedLibs: 111M resident, 16M data, 10M linkedit.
-MemRegions: 136071 total, 4678M resident, 65M private, 5188M shared.
-PhysMem: 16G used (6150M wired), 118M unused.
-VM: 4278G vsize, 533M framework vsize, 17634456(0) swapins, 18476998(0) swapouts.
-Networks: packets: 8222161/5500M in, 7652788/3079M out.
-Disks: 12115838/284G read, 5991704/263G written.
+Processes: 217 total, 13 running, 30 stuck, 174 sleeping, 1690 threads 
+2017/08/29 09:40:29
+Load Avg: 3.21, 0.69, 0.24 
+CPU usage: 65.45% user, 34.54% sys, 0.0% idle 
+SharedLibs: 172M resident, 25M data, 26M linkedit.
+MemRegions: 22380 total, 1554M resident, 89M private, 606M shared.
+PhysMem: 3784M used (1263M wired), 12G unused.
+VM: 604G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 84/10K in, 78/12K out.
+Disks: 71739/3393M read, 10876/327M written.
 
-COMMAND          MEM    %CPU #TH  
-kernel_task      1473M+ 0.0  140/8
-Safari           359M+  0.0  19   
-Google Chrome He 267M+  0.0  15   
-Rambox Helper    243M+  0.0  20   
-Rambox Helper    211M+  0.0  21   
+COMMAND      MEM   %CPU #TH  
+kernel_task  894M+ 0.0  136/8
+talagent     121M+ 0.0  12   
+Dock         107M+ 0.0  23/1 
+Atom         101M+ 0.0  23/1 
+WindowServer 97M+  0.0  7    
