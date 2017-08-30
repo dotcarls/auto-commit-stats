@@ -1,57 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   17.56 1819 31.19  30 16 54  3.81 4.31 2.64
+   22.17  64  1.40   6  4 90  2.07 2.09 2.08
 
+Processes: 282 total, 2 running, 9 stuck, 271 sleeping, 1465 threads 
+2017/08/29 17:30:14
+Load Avg: 2.07, 2.09, 2.08 
+CPU usage: 9.58% user, 17.80% sys, 72.60% idle 
+SharedLibs: 147M resident, 21M data, 14M linkedit.
+MemRegions: 51721 total, 1074M resident, 61M private, 918M shared.
+PhysMem: 7309M used (2010M wired), 9066M unused.
+VM: 1819G vsize, 533M framework vsize, 67327(0) swapins, 116401(0) swapouts.
+Networks: packets: 719388/437M in, 625281/138M out.
+Disks: 1246671/22G read, 570426/16G written.
 
-
-Processes: 341 total, 17 running, 19 stuck, 305 sleeping, 2350 threads 
-2017/08/29 09:47:16
-Load Avg: 3.81, 4.31, 2.64 
-CPU usage: 50.69% user, 47.90% sys, 1.39% idle 
-SharedLibs: 128M resident, 24M data, 22M linkedit.
-MemRegions: 63135 total, 6534M resident, 157M private, 3813M shared.
-PhysMem: 16G used (3968M wired), 20M unused.
-VM: 2522G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 189457/232M in, 81020/10M out.
-Disks: 550096/9513M read, 213423/3577M written.
-
-COMMAND          MEM    %CPU #TH  
-kernel_task      1361M+ 0.0  139/8
-Safari           421M+  0.0  12   
-mds_stores       346M+  0.0  7/1  
-com.apple.WebKit 280M+  0.0  10   
-SophosScanD      273M+  0.0  97/2 
-Processes: 341 total, 19 running, 18 stuck, 304 sleeping, 2350 threads 
-2017/08/29 09:47:16
-Load Avg: 3.81, 4.31, 2.64 
-CPU usage: 50.85% user, 47.43% sys, 1.70% idle 
-SharedLibs: 128M resident, 24M data, 22M linkedit.
-MemRegions: 63134 total, 6535M resident, 157M private, 3813M shared.
-PhysMem: 16G used (3970M wired), 35M unused.
-VM: 2522G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 189552/232M in, 81099/10M out.
-Disks: 550131/9513M read, 213424/3577M written.
-
-COMMAND          MEM    %CPU #TH  
-kernel_task      1361M+ 0.0  139/8
-Safari           421M+  0.0  12   
-mds_stores       346M+  0.0  7/1  
-com.apple.WebKit 280M+  0.0  10   
-SophosScanD      273M+  0.0  97/2 
-Processes: 341 total, 17 running, 19 stuck, 305 sleeping, 2350 threads 
-2017/08/29 09:47:16
-Load Avg: 3.81, 4.31, 2.64 
-CPU usage: 49.62% user, 45.89% sys, 4.47% idle 
-SharedLibs: 128M resident, 24M data, 22M linkedit.
-MemRegions: 63145 total, 6540M resident, 157M private, 3813M shared.
-PhysMem: 16G used (3972M wired), 35M unused.
-VM: 2522G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 189639/232M in, 81170/10M out.
-Disks: 550152/9513M read, 213426/3577M written.
-
-COMMAND          MEM    %CPU #TH  
-kernel_task      1361M+ 0.0  139/8
-Safari           421M+  0.0  12   
-mds_stores       346M+  0.0  7/1  
-com.apple.WebKit 280M+  0.0  10   
-SophosScanD      273M+  0.0  97/2 
+COMMAND      MEM    %CPU #TH  
+kernel_task  1334M+ 0.0  134/8
+SophosScanD  119M+  0.0  34   
+WindowServer 59M+   0.0  6    
+hyperkit     35M+   0.0  17   
+mds_stores   32M+   0.0  7    
