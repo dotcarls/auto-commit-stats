@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   41.92 4386 179.54  44 30 26  10.05 2.23 0.80
+   43.81 3497 149.62  52 29 19  22.55 5.25 1.89
 
-Processes: 278 total, 17 running, 36 stuck, 225 sleeping, 2115 threads 
-2017/09/05 10:24:42
-Load Avg: 10.05, 2.23, 0.80 
-CPU usage: 62.92% user, 37.7% sys, 0.0% idle 
-SharedLibs: 196M resident, 29M data, 28M linkedit.
-MemRegions: 30767 total, 2183M resident, 112M private, 985M shared.
-PhysMem: 5014M used (1320M wired), 11G unused.
-VM: 757G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1992/861K in, 2272/384K out.
-Disks: 72523/3005M read, 8510/310M written.
+Processes: 313 total, 71 running, 28 stuck, 214 sleeping, 2099 threads 
+2017/09/05 10:24:49
+Load Avg: 22.55, 5.25, 1.89 
+CPU usage: 63.63% user, 36.36% sys, 0.0% idle 
+SharedLibs: 199M resident, 29M data, 29M linkedit.
+MemRegions: 38104 total, 3266M resident, 143M private, 1356M shared.
+PhysMem: 6604M used (1399M wired), 9773M unused.
+VM: 843G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 4198/2872K in, 4402/787K out.
+Disks: 77709/3211M read, 12484/645M written.
 
-COMMAND     MEM   %CPU #TH  
-kernel_task 963M+ 0.0  136/9
-talagent    148M+ 0.0  7    
-Atom        130M+ 0.0  35/1 
-Atom Helper 126M+ 0.0  22/1 
-Bear        114M+ 0.0  13/1 
+COMMAND     MEM    %CPU #TH  
+kernel_task 1033M+ 0.0  136/8
+Atom Helper 244M+  0.0  23/1 
+mysqld      168M+  0.0  27   
+Atom        137M+  0.0  33   
+talagent    137M+  0.0  7    
