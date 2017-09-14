@@ -1,38 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   60.59  77  4.57   7  6 87  2.23 2.16 2.10
+   59.14  75  4.33   7  6 88  1.52 1.79 1.89
 
-Processes: 267 total, 3 running, 14 stuck, 250 sleeping, 1521 threads 
-2017/09/14 08:12:19
-Load Avg: 2.23, 2.16, 2.10 
-CPU usage: 30.58% user, 32.94% sys, 36.47% idle 
-SharedLibs: 102M resident, 20M data, 12M linkedit.
-MemRegions: 52458 total, 1414M resident, 75M private, 611M shared.
-PhysMem: 6621M used (1966M wired), 9753M unused.
-VM: 2309G vsize, 533M framework vsize, 21271972(0) swapins, 21519632(0) swapouts.
-Networks: packets: 2736116/6554M in, 2520579/5521M out.
-Disks: 3351572/148G read, 1566045/136G written.
+Processes: 261 total, 2 running, 20 stuck, 239 sleeping, 1419 threads 
+2017/09/14 09:21:53
+Load Avg: 1.52, 1.79, 1.89 
+CPU usage: 7.24% user, 21.73% sys, 71.1% idle 
+SharedLibs: 120M resident, 22M data, 15M linkedit.
+MemRegions: 48436 total, 1660M resident, 79M private, 627M shared.
+PhysMem: 6877M used (1936M wired), 9500M unused.
+VM: 1767G vsize, 533M framework vsize, 21290516(0) swapins, 21519632(0) swapouts.
+Networks: packets: 2782767/6582M in, 2570756/5543M out.
+Disks: 3473897/150G read, 1604884/137G written.
 
-COMMAND      MEM    %CPU #TH  
-kernel_task  1323M+ 0.0  139/8
-SophosScanD  267M+  0.0  35   
-WindowServer 93M+   0.0  5    
-Terminal     40M+   0.0  15   
-mds_stores   35M+   0.0  7    
-Processes: 267 total, 4 running, 13 stuck, 250 sleeping, 1521 threads 
-2017/09/14 08:12:20
-Load Avg: 2.23, 2.16, 2.10 
-CPU usage: 28.57% user, 31.86% sys, 39.56% idle 
-SharedLibs: 102M resident, 20M data, 12M linkedit.
-MemRegions: 52447 total, 1415M resident, 75M private, 611M shared.
-PhysMem: 6617M used (1965M wired), 9762M unused.
-VM: 2309G vsize, 533M framework vsize, 21271972(0) swapins, 21519632(0) swapouts.
-Networks: packets: 2736117/6554M in, 2520582/5521M out.
-Disks: 3351574/148G read, 1566054/136G written.
-
-COMMAND      MEM    %CPU #TH  
-kernel_task  1323M+ 0.0  139/8
-SophosScanD  267M+  0.0  35/1 
-WindowServer 93M+   0.0  5    
-Terminal     40M+   0.0  15   
-mds_stores   35M+   0.0  7    
+COMMAND          MEM    %CPU #TH  
+kernel_task      1370M+ 0.0  141/8
+SophosScanD      273M+  0.0  34   
+WindowServer     69M+   0.0  6    
+Adobe CEF Helper 57M+   0.0  15   
+mds_stores       40M+   0.0  6    
