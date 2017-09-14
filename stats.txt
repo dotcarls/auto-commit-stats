@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   59.14  75  4.33   7  6 88  1.52 1.79 1.89
+   43.04 3926 165.01  33 27 41  11.65 2.43 0.86
 
-Processes: 261 total, 2 running, 20 stuck, 239 sleeping, 1419 threads 
-2017/09/14 09:21:53
-Load Avg: 1.52, 1.79, 1.89 
-CPU usage: 7.24% user, 21.73% sys, 71.1% idle 
-SharedLibs: 120M resident, 22M data, 15M linkedit.
-MemRegions: 48436 total, 1660M resident, 79M private, 627M shared.
-PhysMem: 6877M used (1936M wired), 9500M unused.
-VM: 1767G vsize, 533M framework vsize, 21290516(0) swapins, 21519632(0) swapouts.
-Networks: packets: 2782767/6582M in, 2570756/5543M out.
-Disks: 3473897/150G read, 1604884/137G written.
+Processes: 239 total, 104 running, 11 stuck, 124 sleeping, 1925 threads 
+2017/09/14 09:25:23
+Load Avg: 11.65, 2.43, 0.86 
+CPU usage: 68.5% user, 31.94% sys, 0.0% idle 
+SharedLibs: 175M resident, 23M data, 25M linkedit.
+MemRegions: 23155 total, 1341M resident, 103M private, 438M shared.
+PhysMem: 3244M used (1219M wired), 13G unused.
+VM: 647G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 48/6628B in, 67/10K out.
+Disks: 44883/1868M read, 3071/150M written.
 
-COMMAND          MEM    %CPU #TH  
-kernel_task      1370M+ 0.0  141/8
-SophosScanD      273M+  0.0  34   
-WindowServer     69M+   0.0  6    
-Adobe CEF Helper 57M+   0.0  15   
-mds_stores       40M+   0.0  6    
+COMMAND        MEM   %CPU #TH  
+kernel_task    874M+ 0.0  136/8
+mysqld         152M+ 0.0  13   
+WindowServer   56M+  0.0  6    
+Dock           46M+  0.0  20/2 
+Spotify Helper 32M+  0.0  8    
