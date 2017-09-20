@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   34.04  21  0.71   6  3 90  2.33 2.18 2.19
+   34.01  22  0.72   6  3 90  3.62 2.63 2.35
 
-Processes: 312 total, 5 running, 16 stuck, 291 sleeping, 2103 threads 
-2017/09/19 20:53:48
-Load Avg: 2.33, 2.18, 2.19 
-CPU usage: 23.66% user, 21.37% sys, 54.96% idle 
-SharedLibs: 131M resident, 20M data, 10M linkedit.
-MemRegions: 64327 total, 1015M resident, 67M private, 415M shared.
-PhysMem: 4191M used (2031M wired), 12G unused.
-VM: 1896G vsize, 533M framework vsize, 15118937(0) swapins, 15695357(0) swapouts.
-Networks: packets: 4015579/3105M in, 3306350/1213M out.
-Disks: 5724769/144G read, 2569394/125G written.
+Processes: 328 total, 5 running, 16 stuck, 307 sleeping, 2078 threads 
+2017/09/19 20:54:37
+Load Avg: 3.62, 2.63, 2.35 
+CPU usage: 30.70% user, 21.92% sys, 47.36% idle 
+SharedLibs: 135M resident, 20M data, 12M linkedit.
+MemRegions: 79265 total, 3122M resident, 81M private, 944M shared.
+PhysMem: 7438M used (1980M wired), 8938M unused.
+VM: 2475G vsize, 533M framework vsize, 15149613(0) swapins, 15695357(0) swapouts.
+Networks: packets: 4027995/3117M in, 3318084/1215M out.
+Disks: 5744763/144G read, 2571373/125G written.
 
 COMMAND       MEM    %CPU #TH  
-kernel_task   1337M+ 0.0  140/8
-SophosScanD   180M+  0.0  35   
-WindowServer  43M+   0.0  5    
-CalNCService  33M+   0.0  9    
-Rambox Helper 32M+   0.0  8    
+kernel_task   1360M+ 0.0  140/8
+SophosScanD   307M+  0.0  34   
+Rambox Helper 252M+  0.0  22/1 
+Rambox Helper 251M+  0.0  25   
+Rambox Helper 245M+  0.0  19   
