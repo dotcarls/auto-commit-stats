@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   21.08  71  1.47   4  3 93  1.68 1.83 1.83
+   27.13  85  2.25   4  3 93  1.68 1.57 1.61
 
-Processes: 369 total, 3 running, 26 stuck, 340 sleeping, 2129 threads 
-2017/09/22 14:49:23
-Load Avg: 1.68, 1.83, 1.83 
-CPU usage: 10.93% user, 23.43% sys, 65.62% idle 
-SharedLibs: 146M resident, 24M data, 23M linkedit.
-MemRegions: 95612 total, 5447M resident, 89M private, 4484M shared.
-PhysMem: 16G used (4303M wired), 298M unused.
-VM: 3128G vsize, 533M framework vsize, 448(0) swapins, 896(0) swapouts.
-Networks: packets: 574561/557M in, 492165/290M out.
-Disks: 796908/12G read, 306405/10G written.
+Processes: 374 total, 3 running, 17 stuck, 354 sleeping, 2101 threads 
+2017/09/22 15:29:38
+Load Avg: 1.68, 1.57, 1.61 
+CPU usage: 8.33% user, 22.72% sys, 68.93% idle 
+SharedLibs: 142M resident, 17M data, 8012K linkedit.
+MemRegions: 100154 total, 7019M resident, 68M private, 3313M shared.
+PhysMem: 16G used (8483M wired), 43M unused.
+VM: 3146G vsize, 533M framework vsize, 8274(0) swapins, 95827(0) swapouts.
+Networks: packets: 1475841/3251M in, 1341452/2783M out.
+Disks: 976893/20G read, 535975/19G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1315M+ 0.0  137/8
-Google Chrome He 681M+  0.0  15   
-Atom Helper      465M+  0.0  24   
-Safari           349M+  0.0  13   
-Rambox Helper    233M+  0.0  20   
+VBoxHeadless     4149M+ 0.0  27   
+kernel_task      1322M+ 0.0  142/8
+Safari           260M+  0.0  12   
+Rambox Helper    156M+  0.0  22   
+com.apple.WebKit 151M+  0.0  10   
