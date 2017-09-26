@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   53.76 4698 246.65  32 30 39  14.94 3.12 1.10
+   28.77  27  0.75   9  2 88  2.18 1.90 1.93
 
-Processes: 231 total, 100 running, 24 stuck, 107 sleeping, 1820 threads 
-2017/09/25 17:39:31
-Load Avg: 14.94, 3.12, 1.10 
-CPU usage: 62.85% user, 37.14% sys, 0.0% idle 
-SharedLibs: 184M resident, 28M data, 28M linkedit.
-MemRegions: 21481 total, 1313M resident, 94M private, 422M shared.
-PhysMem: 3340M used (1218M wired), 13G unused.
-VM: 631G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 527/62K in, 566/59K out.
-Disks: 45654/2414M read, 3370/156M written.
+Processes: 296 total, 2 running, 17 stuck, 277 sleeping, 1815 threads 
+2017/09/25 21:00:56
+Load Avg: 2.18, 1.90, 1.93 
+CPU usage: 14.11% user, 14.11% sys, 71.76% idle 
+SharedLibs: 214M resident, 29M data, 31M linkedit.
+MemRegions: 65343 total, 5662M resident, 146M private, 2190M shared.
+PhysMem: 13G used (1784M wired), 3470M unused.
+VM: 1872G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 193081/48M in, 175421/16M out.
+Disks: 255092/6717M read, 67299/2308M written.
 
-COMMAND      MEM   %CPU #TH  
-kernel_task  855M+ 0.0  134/8
-mysqld       153M+ 0.0  13/1 
-WindowServer 74M+  0.0  6/1  
-iTunes       61M+  0.0  34/3 
-Dock         61M+  0.0  17/1 
+COMMAND       MEM    %CPU #TH  
+kernel_task   1055M+ 0.0  134/8
+SophosScanD   323M+  0.0  37   
+Photos        272M+  0.0  4    
+Rambox Helper 269M+  0.0  5    
+Rambox Helper 264M+  0.0  21   
