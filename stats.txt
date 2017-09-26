@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   27.16  30  0.80   8  3 90  2.48 2.80 3.45
+   48.13 4720 221.87  37 31 32  0.98 0.21 0.08
 
-Processes: 359 total, 5 running, 14 stuck, 340 sleeping, 2176 threads 
-2017/09/26 10:25:01
-Load Avg: 2.48, 2.80, 3.45 
-CPU usage: 27.82% user, 19.13% sys, 53.4% idle 
-SharedLibs: 113M resident, 22M data, 11M linkedit.
-MemRegions: 83487 total, 5008M resident, 98M private, 4885M shared.
-PhysMem: 16G used (5895M wired), 171M unused.
-VM: 3100G vsize, 533M framework vsize, 2752762(0) swapins, 2876411(0) swapouts.
-Networks: packets: 501746/184M in, 496144/97M out.
-Disks: 1504475/29G read, 321414/18G written.
+Processes: 222 total, 72 running, 18 stuck, 132 sleeping, 1832 threads 
+2017/09/26 11:16:28
+Load Avg: 2.19, 0.47, 0.17 
+CPU usage: 61.16% user, 38.83% sys, 0.0% idle 
+SharedLibs: 171M resident, 23M data, 25M linkedit.
+MemRegions: 21125 total, 1337M resident, 92M private, 369M shared.
+PhysMem: 3117M used (1198M wired), 13G unused.
+VM: 608G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 277/148K in, 337/50K out.
+Disks: 39331/1836M read, 3136/162M written.
 
-COMMAND     MEM    %CPU #TH  
-kernel_task 1251M+ 0.0  140/8
-Atom Helper 295M+  0.0  23   
-Atom Helper 261M+  0.0  16   
-Atom Helper 242M+  0.0  25   
-Safari      215M+  0.0  12   
+COMMAND        MEM   %CPU #TH  
+kernel_task    863M+ 0.0  136/8
+mysqld         168M+ 0.0  27   
+Dock           56M+  0.0  20/2 
+WindowServer   45M+  0.0  6/1  
+Spotify Helper 32M+  0.0  8    
