@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   21.93  50  1.07   7  4 89  2.53 2.56 2.51
+   23.84  37  0.86   6  4 89  1.83 1.80 1.93
 
-Processes: 301 total, 2 running, 11 stuck, 288 sleeping, 1760 threads 
-2017/09/27 18:58:14
-Load Avg: 2.53, 2.56, 2.51 
-CPU usage: 1.31% user, 10.52% sys, 88.15% idle 
-SharedLibs: 130M resident, 21M data, 13M linkedit.
-MemRegions: 55052 total, 1367M resident, 75M private, 571M shared.
-PhysMem: 6409M used (2020M wired), 9967M unused.
-VM: 1868G vsize, 533M framework vsize, 5552254(0) swapins, 5846580(0) swapouts.
-Networks: packets: 2686716/1821M in, 2643669/810M out.
-Disks: 4247834/67G read, 1428375/51G written.
+Processes: 365 total, 4 running, 11 stuck, 350 sleeping, 2407 threads 
+2017/09/28 11:07:17
+Load Avg: 1.83, 1.80, 1.93 
+CPU usage: 15.96% user, 13.44% sys, 70.58% idle 
+SharedLibs: 152M resident, 24M data, 20M linkedit.
+MemRegions: 89691 total, 4436M resident, 106M private, 1545M shared.
+PhysMem: 11G used (2106M wired), 4907M unused.
+VM: 2079G vsize, 533M framework vsize, 7968569(0) swapins, 8406601(0) swapouts.
+Networks: packets: 2855338/1924M in, 2794289/853M out.
+Disks: 4766572/81G read, 1568614/63G written.
 
 COMMAND       MEM    %CPU #TH  
-kernel_task   1360M+ 0.0  136/8
-SophosScanD   101M+  0.0  35   
-WindowServer  74M+   0.0  6    
-com.docker.db 37M+   0.0  8    
-mds_stores    35M+   0.0  7    
+kernel_task   1417M+ 0.0  136/8
+SophosScanD   305M+  0.0  34   
+Rambox Helper 268M+  0.0  21   
+Safari        242M+  0.0  11   
+Rambox Helper 230M+  0.0  22   
