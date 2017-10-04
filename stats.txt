@@ -1,56 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   41.08 4303 172.63  43 28 28  6.42 1.43 0.51
+   33.65 2242 73.66  49 21 30  15.98 5.42 2.08
 
+Processes: 289 total, 4 running, 20 stuck, 265 sleeping, 1979 threads 
+2017/10/04 11:14:50
+Load Avg: 15.98, 5.42, 2.08 
+CPU usage: 33.82% user, 20.58% sys, 45.58% idle 
+SharedLibs: 203M resident, 25M data, 30M linkedit.
+MemRegions: 40532 total, 3015M resident, 133M private, 1504M shared.
+PhysMem: 7248M used (1496M wired), 9127M unused.
+VM: 1839G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 17494/19M in, 14444/2925K out.
+Disks: 122112/3948M read, 25001/884M written.
 
-Processes: 297 total, 91 running, 26 stuck, 180 sleeping, 2254 threads 
-2017/10/04 11:14:02
-Load Avg: 6.42, 1.43, 0.51 
-CPU usage: 52.73% user, 47.26% sys, 0.0% idle 
-SharedLibs: 181M resident, 24M data, 27M linkedit.
-MemRegions: 32029 total, 2560M resident, 124M private, 865M shared.
-PhysMem: 5240M used (1307M wired), 11G unused.
-VM: 797G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1197/459K in, 1369/196K out.
-Disks: 65846/2691M read, 11457/398M written.
-
-COMMAND     MEM   %CPU #TH  
-kernel_task 946M+ 0.0  136/8
-Safari      224M+ 0.0  20/7 
-Atom        173M+ 0.0  41/1 
-mysqld      152M+ 0.0  13/1 
-Atom Helper 136M+ 0.0  23/1 
-Processes: 299 total, 94 running, 26 stuck, 179 sleeping, 2256 threads 
-2017/10/04 11:14:03
-Load Avg: 6.42, 1.43, 0.51 
-CPU usage: 50.78% user, 49.21% sys, 0.0% idle 
-SharedLibs: 181M resident, 24M data, 27M linkedit.
-MemRegions: 32124 total, 2563M resident, 124M private, 865M shared.
-PhysMem: 5239M used (1307M wired), 11G unused.
-VM: 802G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1197/459K in, 1369/196K out.
-Disks: 65846/2691M read, 11457/398M written.
-
-COMMAND     MEM   %CPU #TH  
-kernel_task 946M+ 0.0  136/9
-Safari      224M+ 0.0  20/7 
-Atom        173M+ 0.0  41/1 
-mysqld      152M+ 0.0  13/1 
-Atom Helper 136M+ 0.0  23/1 
-Processes: 299 total, 93 running, 27 stuck, 179 sleeping, 2256 threads 
-2017/10/04 11:14:03
-Load Avg: 6.42, 1.43, 0.51 
-CPU usage: 52.60% user, 47.39% sys, 0.0% idle 
-SharedLibs: 181M resident, 24M data, 27M linkedit.
-MemRegions: 32124 total, 2566M resident, 124M private, 865M shared.
-PhysMem: 5237M used (1304M wired), 11G unused.
-VM: 802G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1197/459K in, 1369/196K out.
-Disks: 65846/2691M read, 11457/398M written.
-
-COMMAND     MEM   %CPU #TH   
-kernel_task 946M+ 0.0  136/11
-Safari      224M+ 0.0  20/7  
-Atom        173M+ 0.0  41/1  
-mysqld      152M+ 0.0  13/1  
-Atom Helper 136M+ 0.0  23/1  
+COMMAND         MEM    %CPU #TH  
+kernel_task     1129M+ 0.0  136/8
+SophosScanD     266M+  0.0  61/1 
+mysqld          173M+  0.0  27   
+Google Drive    166M+  0.0  14   
+softwareupdated 149M+  0.0  18   
