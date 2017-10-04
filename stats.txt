@@ -1,21 +1,23 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   41.42 5273 213.29  35 28 37  5.32 1.14 0.40
+   40.62 4958 196.65  39 28 33  5.32 1.14 0.40
 
-Processes: 218 total, 21 running, 42 stuck, 155 sleeping, 1805 threads 
-2017/10/04 11:13:55
-Load Avg: 5.32, 1.14, 0.40 
-CPU usage: 60.34% user, 39.65% sys, 0.0% idle 
-SharedLibs: 172M resident, 24M data, 26M linkedit.
-MemRegions: 22279 total, 1402M resident, 90M private, 517M shared.
-PhysMem: 3386M used (1240M wired), 13G unused.
-VM: 606G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 72/11K in, 107/15K out.
-Disks: 58582/2448M read, 8430/259M written.
+
+
+Processes: 239 total, 20 running, 35 stuck, 184 sleeping, 1968 threads 
+2017/10/04 11:13:59
+Load Avg: 6.42, 1.43, 0.51 
+CPU usage: 40.0% user, 60.0% sys, 0.0% idle 
+SharedLibs: 174M resident, 24M data, 26M linkedit.
+MemRegions: 24041 total, 1536M resident, 96M private, 644M shared.
+PhysMem: 3729M used (1270M wired), 12G unused.
+VM: 658G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 354/172K in, 436/53K out.
+Disks: 60024/2475M read, 9705/281M written.
 
 COMMAND      MEM   %CPU #TH  
-kernel_task  890M+ 0.0  136/8
-Atom         117M+ 0.0  13   
-Dock         111M+ 0.0  22   
-WindowServer 81M+  0.0  7    
+kernel_task  902M+ 0.0  136/8
+Atom         118M+ 0.0  24   
+Dock         116M+ 0.0  22   
+WindowServer 79M+  0.0  7    
 talagent     73M+  0.0  10   
