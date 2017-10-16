@@ -1,21 +1,21 @@
           disk0           disk2           disk3       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   48.23   7  0.31    84.12   0  0.00    86.94   0  0.00   4  3 93  1.69 2.12 2.21
+   47.86   7  0.32    83.45   0  0.00    86.22   0  0.00   4  3 93  2.06 1.98 2.13
 
-Processes: 346 total, 3 running, 10 stuck, 333 sleeping, 1993 threads 
-2017/10/16 09:28:17
-Load Avg: 1.69, 2.12, 2.21 
-CPU usage: 21.92% user, 23.68% sys, 54.38% idle 
-SharedLibs: 162M resident, 23M data, 19M linkedit.
-MemRegions: 81044 total, 6204M resident, 108M private, 3121M shared.
-PhysMem: 14G used (3899M wired), 1611M unused.
-VM: 3068G vsize, 533M framework vsize, 19740319(0) swapins, 20611436(0) swapouts.
-Networks: packets: 3221081/3574M in, 2378466/1047M out.
-Disks: 3362637/116G read, 1700631/117G written.
+Processes: 367 total, 4 running, 14 stuck, 349 sleeping, 2360 threads 
+2017/10/16 09:47:45
+Load Avg: 2.06, 1.98, 2.13 
+CPU usage: 10.29% user, 44.85% sys, 44.85% idle 
+SharedLibs: 120M resident, 21M data, 13M linkedit.
+MemRegions: 94302 total, 3925M resident, 67M private, 6674M shared.
+PhysMem: 16G used (7905M wired), 106M unused.
+VM: 3663G vsize, 533M framework vsize, 19753459(0) swapins, 20671908(0) swapouts.
+Networks: packets: 3408753/3776M in, 2519486/1086M out.
+Disks: 3499398/118G read, 1766980/122G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1511M+ 0.0  141/8
-com.apple.WebKit 434M+  0.0  20   
-Safari           430M+  0.0  12   
-Atom Helper      328M+  0.0  16   
-SophosScanD      324M+  0.0  34   
+kernel_task      1396M+ 0.0  141/8
+com.apple.WebKit 485M+  0.0  8    
+Safari           288M+  0.0  15   
+Atom Helper      165M+  0.0  26   
+Rambox Helper    159M+  0.0  23   
