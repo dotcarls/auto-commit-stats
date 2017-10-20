@@ -1,39 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   28.81  71  2.00   9  6 85  2.58 2.12 2.12
+   27.73  68  1.84   9  6 85  2.01 2.30 3.24
 
+Processes: 432 total, 4 running, 18 stuck, 410 sleeping, 2589 threads 
+2017/10/20 10:02:54
+Load Avg: 2.01, 2.30, 3.24 
+CPU usage: 9.87% user, 22.83% sys, 67.28% idle 
+SharedLibs: 87M resident, 16M data, 7260K linkedit.
+MemRegions: 121669 total, 7513M resident, 108M private, 3217M shared.
+PhysMem: 16G used (7285M wired), 139M unused.
+VM: 3312G vsize, 533M framework vsize, 11228323(0) swapins, 11990146(0) swapouts.
+Networks: packets: 4696593/5244M in, 4247795/1825M out.
+Disks: 6341839/119G read, 5323033/190G written.
 
-Processes: 427 total, 4 running, 19 stuck, 402 sleeping, 2 unknown, 2501 threads 
-2017/10/20 00:38:11
-Load Avg: 2.58, 2.12, 2.12 
-CPU usage: 35.52% user, 30.11% sys, 34.36% idle 
-SharedLibs: 120M resident, 21M data, 13M linkedit.
-MemRegions: 131582 total, 8554M resident, 99M private, 1720M shared.
-PhysMem: 16G used (4964M wired), 89M unused.
-VM: 3833G vsize, 533M framework vsize, 8851527(0) swapins, 9371813(0) swapouts.
-Networks: packets: 4546564/5205M in, 4078281/1796M out.
-Disks: 5080586/101G read, 4740068/169G written.
-
-COMMAND          MEM    %CPU #TH  
-VBoxHeadless     2628M+ 0.0  36   
-kernel_task      1267M+ 0.0  139/8
-Atom Helper      597M+  0.0  23   
-com.apple.WebKit 365M+  0.0  16   
-Google Chrome He 361M+  0.0  19   
-Processes: 427 total, 7 running, 18 stuck, 401 sleeping, 1 unknown, 2514 threads 
-2017/10/20 00:38:11
-Load Avg: 2.58, 2.12, 2.12 
-CPU usage: 35.52% user, 30.11% sys, 34.36% idle 
-SharedLibs: 120M resident, 21M data, 13M linkedit.
-MemRegions: 131828 total, 8589M resident, 100M private, 1720M shared.
-PhysMem: 16G used (4964M wired), 89M unused.
-VM: 3833G vsize, 533M framework vsize, 8851527(0) swapins, 9371813(0) swapouts.
-Networks: packets: 4546564/5205M in, 4078281/1796M out.
-Disks: 5080591/101G read, 4740068/169G written.
-
-COMMAND          MEM    %CPU #TH  
-VBoxHeadless     2628M+ 0.0  36   
-kernel_task      1267M+ 0.0  139/8
-Atom Helper      597M+  0.0  23   
-com.apple.WebKit 365M+  0.0  16   
-Google Chrome He 361M+  0.0  19   
+COMMAND       MEM    %CPU #TH  
+VBoxHeadless  2646M+ 0.0  36/1 
+kernel_task   1377M+ 0.0  145/8
+SophosScanD   296M+  0.0  35   
+Safari        248M+  0.0  11   
+Rambox Helper 243M+  0.0  22   
