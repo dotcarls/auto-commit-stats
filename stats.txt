@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   22.37 119  2.59   8  9 83  2.87 2.67 2.39
+   44.19 2787 120.28  48 27 25  13.20 3.29 1.20
 
-Processes: 304 total, 5 running, 13 stuck, 286 sleeping, 1750 threads 
-2017/10/23 10:35:53
-Load Avg: 2.87, 2.67, 2.39 
-CPU usage: 18.18% user, 15.90% sys, 65.90% idle 
-SharedLibs: 134M resident, 25M data, 18M linkedit.
-MemRegions: 60400 total, 1278M resident, 72M private, 424M shared.
-PhysMem: 5442M used (1868M wired), 11G unused.
-VM: 1875G vsize, 533M framework vsize, 28392831(0) swapins, 29212836(0) swapouts.
-Networks: packets: 8571106/9793M in, 5657444/2110M out.
-Disks: 26224916/477G read, 25142870/619G written.
+Processes: 267 total, 12 running, 13 stuck, 242 sleeping, 1868 threads 
+2017/10/23 10:38:37
+Load Avg: 13.20, 3.29, 1.20 
+CPU usage: 58.6% user, 32.25% sys, 9.67% idle 
+SharedLibs: 198M resident, 25M data, 28M linkedit.
+MemRegions: 39126 total, 2833M resident, 127M private, 1300M shared.
+PhysMem: 6068M used (1297M wired), 10G unused.
+VM: 1783G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 5833/5898K in, 5624/655K out.
+Disks: 66353/2813M read, 11181/527M written.
 
-COMMAND          MEM    %CPU #TH  
-kernel_task      1389M+ 0.0  141/8
-SophosScanD      102M+  0.0  34   
-Adobe CEF Helper 73M+   0.0  17   
-WindowServer     64M+   0.0  6/1  
-Dock             51M+   0.0  6    
+COMMAND      MEM   %CPU #TH  
+kernel_task  944M+ 0.0  136/8
+Safari       295M+ 0.0  29/1 
+hyperkit     174M+ 0.0  18   
+mysqld       168M+ 0.0  27   
+Google Drive 165M+ 0.0  19   
