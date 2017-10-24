@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   25.41  29  0.73   7  3 90  4.74 3.16 2.46
+   25.34  30  0.75   7  4 90  2.08 2.23 2.27
 
-Processes: 378 total, 4 running, 16 stuck, 358 sleeping, 2326 threads 
-2017/10/24 11:20:38
-Load Avg: 4.74, 3.16, 2.46 
-CPU usage: 36.84% user, 19.29% sys, 43.85% idle 
-SharedLibs: 106M resident, 10M data, 4540K linkedit.
-MemRegions: 115154 total, 3300M resident, 45M private, 6815M shared.
-PhysMem: 16G used (8325M wired), 227M unused.
-VM: 4747G vsize, 533M framework vsize, 1509455(0) swapins, 1993576(0) swapouts.
-Networks: packets: 714571/369M in, 702944/239M out.
-Disks: 2087710/38G read, 529862/25G written.
+Processes: 380 total, 4 running, 18 stuck, 358 sleeping, 2419 threads 
+2017/10/24 11:32:23
+Load Avg: 2.08, 2.23, 2.27 
+CPU usage: 10.58% user, 43.52% sys, 45.88% idle 
+SharedLibs: 109M resident, 16M data, 8212K linkedit.
+MemRegions: 114651 total, 3624M resident, 64M private, 6882M shared.
+PhysMem: 16G used (8345M wired), 41M unused.
+VM: 4752G vsize, 533M framework vsize, 1607620(0) swapins, 1993576(0) swapouts.
+Networks: packets: 762655/405M in, 754005/247M out.
+Disks: 2176577/40G read, 556620/27G written.
 
-COMMAND          MEM    %CPU #TH  
-kernel_task      1355M+ 0.0  140/8
-Atom Helper      774M+  0.0  13/1 
-Atom Helper      305M+  0.0  26   
-SophosScanD      124M+  0.0  36   
-Google Chrome He 100M+  0.0  20   
+COMMAND       MEM    %CPU #TH  
+kernel_task   1345M+ 0.0  140/8
+Atom Helper   225M+  0.0  7    
+Atom Helper   206M+  0.0  25   
+Safari        174M+  0.0  13   
+Rambox Helper 167M+  0.0  23   
