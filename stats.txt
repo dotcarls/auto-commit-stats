@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   18.70  81  1.48   6  4 90  1.88 1.92 2.01
+   22.95  26  0.59   7  4 90  2.42 1.99 2.00
 
-Processes: 271 total, 2 running, 13 stuck, 256 sleeping, 1603 threads 
-2017/10/23 17:14:10
-Load Avg: 1.88, 1.92, 2.01 
-CPU usage: 8.53% user, 23.17% sys, 68.29% idle 
-SharedLibs: 140M resident, 23M data, 15M linkedit.
-MemRegions: 53765 total, 927M resident, 55M private, 945M shared.
-PhysMem: 6203M used (1689M wired), 10G unused.
-VM: 1792G vsize, 533M framework vsize, 96282(0) swapins, 194529(0) swapouts.
-Networks: packets: 464701/267M in, 470687/189M out.
-Disks: 1569307/21G read, 357285/13G written.
+Processes: 299 total, 4 running, 19 stuck, 276 sleeping, 1952 threads 
+2017/10/24 10:16:38
+Load Avg: 2.42, 1.99, 2.00 
+CPU usage: 45.45% user, 26.26% sys, 28.28% idle 
+SharedLibs: 141M resident, 24M data, 12M linkedit.
+MemRegions: 58640 total, 1166M resident, 77M private, 404M shared.
+PhysMem: 4396M used (1720M wired), 12G unused.
+VM: 1862G vsize, 533M framework vsize, 1395239(0) swapins, 1590819(0) swapouts.
+Networks: packets: 626471/306M in, 620226/211M out.
+Disks: 1799856/29G read, 440303/20G written.
 
-COMMAND       MEM    %CPU #TH  
-kernel_task   1261M+ 0.0  135/8
-hyperkit      108M+  0.0  18   
-SophosScanD   85M+   0.0  34   
-Terminal      41M+   0.0  14   
-CalendarAgent 38M+   0.0  9    
+COMMAND          MEM    %CPU #TH  
+kernel_task      1264M+ 0.0  136/8
+WindowServer     96M+   0.0  5    
+Adobe CEF Helper 59M+   0.0  18   
+SophosScanD      52M+   0.0  36   
+Dock             40M+   0.0  7    
