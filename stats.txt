@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   22.94 206  4.62   6  7 87  2.40 2.38 2.33
+   28.06 145  3.98   6  6 88  2.56 2.63 2.48
 
-Processes: 352 total, 4 running, 15 stuck, 333 sleeping, 2324 threads 
-2017/10/31 12:45:04
-Load Avg: 2.40, 2.38, 2.33 
-CPU usage: 14.45% user, 13.85% sys, 71.68% idle 
-SharedLibs: 136M resident, 18M data, 10M linkedit.
-MemRegions: 136069 total, 2532M resident, 44M private, 9049M shared.
-PhysMem: 16G used (9519M wired), 106M unused.
-VM: 6802G vsize, 533M framework vsize, 559661(0) swapins, 938394(0) swapouts.
-Networks: packets: 438129/391M in, 301048/92M out.
-Disks: 1682112/26G read, 415681/20G written.
+Processes: 361 total, 3 running, 25 stuck, 333 sleeping, 2372 threads 
+2017/10/31 15:31:54
+Load Avg: 2.56, 2.63, 2.48 
+CPU usage: 9.59% user, 30.80% sys, 59.59% idle 
+SharedLibs: 138M resident, 19M data, 10M linkedit.
+MemRegions: 153929 total, 3233M resident, 45M private, 8710M shared.
+PhysMem: 16G used (8715M wired), 31M unused.
+VM: 7358G vsize, 533M framework vsize, 2011900(0) swapins, 2638566(0) swapouts.
+Networks: packets: 825215/766M in, 575992/128M out.
+Disks: 2206175/45G read, 725808/34G written.
 
-COMMAND       MEM    %CPU #TH  
-kernel_task   1324M+ 0.0  140/8
-Atom Helper   246M+  0.0  26   
-Rambox Helper 230M+  0.0  21   
-Atom Helper   158M+  0.0  16   
-hyperkit      121M+  0.0  18   
+COMMAND          MEM    %CPU #TH  
+kernel_task      1347M+ 0.0  140/9
+Atom Helper      672M+  0.0  25   
+Rambox Helper    239M+  0.0  24   
+Rambox Helper    162M+  0.0  23   
+Google Chrome He 150M+  0.0  27   
