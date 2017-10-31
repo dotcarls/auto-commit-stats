@@ -1,21 +1,21 @@
-          disk0           disk2       cpu     load average
-    KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   30.31  22  0.66   114.56   0  0.00   6  4 90  2.21 2.13 2.18
+          disk0       cpu     load average
+    KB/t tps  MB/s  us sy id   1m   5m   15m
+   45.80 3590 160.58  44 28 28  14.64 3.26 1.16
 
-Processes: 350 total, 2 running, 7 stuck, 341 sleeping, 2136 threads 
-2017/10/30 18:37:40
-Load Avg: 2.21, 2.13, 2.18 
-CPU usage: 12.0% user, 22.28% sys, 65.71% idle 
-SharedLibs: 120M resident, 20M data, 12M linkedit.
-MemRegions: 130121 total, 5455M resident, 69M private, 4801M shared.
-PhysMem: 15G used (6198M wired), 1125M unused.
-VM: 2044G vsize, 533M framework vsize, 18767557(0) swapins, 20694894(0) swapouts.
-Networks: packets: 8053973/9397M in, 6951849/5231M out.
-Disks: 9824503/193G read, 4243832/214G written.
+Processes: 265 total, 13 running, 43 stuck, 209 sleeping, 2063 threads 
+2017/10/31 09:55:57
+Load Avg: 14.64, 3.26, 1.16 
+CPU usage: 49.42% user, 31.3% sys, 19.54% idle 
+SharedLibs: 195M resident, 25M data, 27M linkedit.
+MemRegions: 42683 total, 2602M resident, 126M private, 935M shared.
+PhysMem: 5159M used (1280M wired), 11G unused.
+VM: 1776G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 3607/3182K in, 3178/624K out.
+Disks: 56523/2457M read, 8045/431M written.
 
-COMMAND          MEM    %CPU #TH  
-kernel_task      1460M+ 0.0  147/8
-Atom Helper      744M+  0.0  27   
-com.apple.WebKit 339M+  0.0  6    
-Rambox Helper    230M+  0.0  22   
-Atom Helper      202M+  0.0  27   
+COMMAND        MEM   %CPU #TH  
+kernel_task    930M+ 0.0  136/8
+mysqld         164M+ 0.0  25   
+Google Drive   164M+ 0.0  25   
+Spotify Helper 134M+ 0.0  24   
+mds_stores     90M+  0.0  11/1 
