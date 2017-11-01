@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   27.77 132  3.58   7  6 88  2.81 2.53 2.38
+   28.21 135  3.71   7  6 88  2.56 2.58 2.42
 
-Processes: 400 total, 2 running, 20 stuck, 378 sleeping, 2412 threads 
-2017/10/31 17:19:44
-Load Avg: 2.81, 2.53, 2.38 
-CPU usage: 22.22% user, 26.38% sys, 51.38% idle 
-SharedLibs: 137M resident, 17M data, 9136K linkedit.
-MemRegions: 174270 total, 3861M resident, 49M private, 8075M shared.
-PhysMem: 16G used (8342M wired), 28M unused.
-VM: 8512G vsize, 533M framework vsize, 2757932(0) swapins, 3555090(0) swapouts.
-Networks: packets: 1098089/1046M in, 724260/144M out.
-Disks: 2556624/52G read, 964053/41G written.
+Processes: 256 total, 3 running, 14 stuck, 239 sleeping, 1413 threads 
+2017/10/31 17:21:41
+Load Avg: 2.56, 2.58, 2.42 
+CPU usage: 8.64% user, 12.34% sys, 79.1% idle 
+SharedLibs: 139M resident, 20M data, 14M linkedit.
+MemRegions: 59923 total, 1226M resident, 59M private, 840M shared.
+PhysMem: 5714M used (1728M wired), 10G unused.
+VM: 1765G vsize, 533M framework vsize, 3186700(0) swapins, 3659343(0) swapouts.
+Networks: packets: 1099745/1047M in, 726169/145M out.
+Disks: 2616666/55G read, 984320/42G written.
 
-COMMAND        MEM    %CPU #TH  
-kernel_task    1366M+ 0.0  140/8
-Atom Helper    1028M+ 0.0  25   
-Safari         164M+  0.0  14   
-Spotify Helper 163M+  0.0  15   
-Rambox Helper  146M+  0.0  22   
+COMMAND          MEM    %CPU #TH  
+kernel_task      1310M+ 0.0  136/8
+Safari           223M+  0.0  10   
+SophosScanD      111M+  0.0  35   
+hyperkit         100M+  0.0  18   
+Google Chrome He 59M+   0.0  9    
