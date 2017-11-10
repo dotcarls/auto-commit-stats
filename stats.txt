@@ -1,21 +1,21 @@
           disk0           disk2       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   14.97 373  5.46     8.90   0  0.00  14  7 79  2.43 2.40 2.58
+   18.89 332  6.12     8.89   0  0.00  12 11 77  1.82 2.22 2.52
 
-Processes: 351 total, 2 running, 15 stuck, 334 sleeping, 2466 threads 
-2017/11/09 16:21:47
-Load Avg: 2.43, 2.40, 2.58 
-CPU usage: 12.24% user, 24.48% sys, 63.26% idle 
-SharedLibs: 116M resident, 22M data, 13M linkedit.
-MemRegions: 109397 total, 11G resident, 46M private, 1208M shared.
-PhysMem: 16G used (10G wired), 50M unused.
-VM: 2604G vsize, 533M framework vsize, 714787(0) swapins, 1503486(0) swapouts.
-Networks: packets: 2114334/3120M in, 1341747/1385M out.
-Disks: 6021050/58G read, 1856050/54G written.
+Processes: 299 total, 2 running, 14 stuck, 283 sleeping, 1701 threads 
+2017/11/09 18:50:45
+Load Avg: 1.82, 2.22, 2.52 
+CPU usage: 11.49% user, 12.64% sys, 75.86% idle 
+SharedLibs: 139M resident, 23M data, 14M linkedit.
+MemRegions: 56739 total, 1943M resident, 85M private, 1108M shared.
+PhysMem: 8184M used (2148M wired), 8193M unused.
+VM: 1872G vsize, 533M framework vsize, 2371929(0) swapins, 2870265(0) swapouts.
+Networks: packets: 4372336/6204M in, 2164247/1724M out.
+Disks: 7171255/87G read, 2793019/92G written.
 
-COMMAND          MEM    %CPU #TH  
-VBoxHeadless     8257M+ 0.0  37   
-kernel_task      1514M+ 0.0  143/8
-Rambox Helper    222M+  0.0  22   
-mds_stores       191M+  0.0  8    
-Google Chrome He 158M+  0.0  25   
+COMMAND        MEM    %CPU #TH  
+kernel_task    1480M+ 0.0  145/8
+Safari         291M+  0.0  18   
+WindowServer   130M+  0.0  6    
+Spotify Helper 118M+  0.0  15   
+hyperkit       110M+  0.0  18   
