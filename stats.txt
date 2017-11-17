@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   23.81  56  1.29   6  3 91  2.46 2.43 2.29
+   24.95  55  1.34   6  3 91  2.16 2.41 2.31
 
-Processes: 363 total, 4 running, 11 stuck, 348 sleeping, 2371 threads 
-2017/11/16 15:23:26
-Load Avg: 2.46, 2.43, 2.29 
-CPU usage: 13.66% user, 45.96% sys, 40.37% idle 
-SharedLibs: 137M resident, 24M data, 14M linkedit.
-MemRegions: 106107 total, 4588M resident, 66M private, 4227M shared.
-PhysMem: 16G used (4868M wired), 365M unused.
-VM: 3657G vsize, 533M framework vsize, 2238(0) swapins, 20642(0) swapouts.
-Networks: packets: 476475/460M in, 420479/264M out.
-Disks: 750960/13G read, 326321/12G written.
+Processes: 360 total, 4 running, 8 stuck, 348 sleeping, 2258 threads 
+2017/11/16 16:21:02
+Load Avg: 2.16, 2.41, 2.31 
+CPU usage: 15.10% user, 21.58% sys, 63.30% idle 
+SharedLibs: 138M resident, 24M data, 15M linkedit.
+MemRegions: 103737 total, 4701M resident, 63M private, 4196M shared.
+PhysMem: 16G used (5074M wired), 67M unused.
+VM: 3118G vsize, 533M framework vsize, 10510(0) swapins, 95775(0) swapouts.
+Networks: packets: 560578/544M in, 506057/335M out.
+Disks: 851176/14G read, 404260/16G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1154M+ 0.0  138/8
-plugin-container 710M+  0.0  35   
-Atom Helper      530M+  0.0  25   
-firefox          450M+  0.0  67   
-Atom Helper      225M+  0.0  16   
+kernel_task      1174M+ 0.0  138/8
+plugin-container 1009M+ 0.0  35   
+firefox          662M+  0.0  64   
+Atom Helper      570M+  0.0  24/1 
+Rambox Helper    269M+  0.0  21   
