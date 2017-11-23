@@ -1,21 +1,21 @@
           disk0           disk2       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   32.04  15  0.48    26.70   0  0.00   5  4 91  2.46 2.42 2.35
+   32.17  15  0.48    26.70   0  0.00   5  4 91  1.75 2.04 2.19
 
-Processes: 406 total, 4 running, 16 stuck, 386 sleeping, 2916 threads 
-2017/11/23 15:10:16
-Load Avg: 2.75, 2.48, 2.37 
-CPU usage: 20.93% user, 25.0% sys, 54.6% idle 
+Processes: 407 total, 4 running, 12 stuck, 391 sleeping, 2667 threads 
+2017/11/23 15:20:29
+Load Avg: 1.75, 2.04, 2.19 
+CPU usage: 20.54% user, 25.94% sys, 53.51% idle 
 SharedLibs: 124M resident, 22M data, 14M linkedit.
-MemRegions: 122748 total, 6957M resident, 100M private, 1346M shared.
-PhysMem: 15G used (3286M wired), 1203M unused.
-VM: 2726G vsize, 533M framework vsize, 12029273(0) swapins, 12975615(0) swapouts.
-Networks: packets: 10325368/10G in, 9363940/7501M out.
-Disks: 6059175/134G read, 3454232/157G written.
+MemRegions: 125335 total, 7886M resident, 97M private, 1491M shared.
+PhysMem: 16G used (4551M wired), 37M unused.
+VM: 2734G vsize, 533M framework vsize, 12030995(0) swapins, 12995404(0) swapouts.
+Networks: packets: 10429444/10G in, 9453820/7684M out.
+Disks: 6081778/134G read, 3495837/160G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1425M+ 0.0  145/8
-VBoxHeadless     861M+  0.0  26   
-Google Chrome He 455M+  0.0  21   
-Atom Helper      450M+  0.0  27   
-Safari           437M+  0.0  18   
+VBoxHeadless     2110M+ 0.0  26   
+kernel_task      1403M+ 0.0  145/8
+Google Chrome He 460M+  0.0  18   
+Safari           392M+  0.0  14   
+Rambox Helper    256M+  0.0  23   
