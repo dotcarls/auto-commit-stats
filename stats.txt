@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   38.75 277 10.48  10  8 82  5.96 4.12 3.33
+   40.08 303 11.86  10  9 81  3.15 3.47 3.38
 
-Processes: 302 total, 3 running, 15 stuck, 284 sleeping, 2078 threads 
-2017/11/28 11:34:58
-Load Avg: 5.96, 4.12, 3.33 
-CPU usage: 13.97% user, 25.0% sys, 61.2% idle 
-SharedLibs: 109M resident, 19M data, 11M linkedit.
-MemRegions: 80650 total, 9863M resident, 67M private, 732M shared.
-PhysMem: 15G used (10G wired), 1430M unused.
-VM: 2964G vsize, 533M framework vsize, 237915(0) swapins, 516893(0) swapouts.
-Networks: packets: 5271370/13G in, 3885364/9843M out.
-Disks: 1008977/26G read, 463374/29G written.
+Processes: 295 total, 4 running, 21 stuck, 270 sleeping, 2002 threads 
+2017/11/28 11:42:54
+Load Avg: 3.45, 3.52, 3.40 
+CPU usage: 18.31% user, 61.38% sys, 20.29% idle 
+SharedLibs: 83M resident, 18M data, 12M linkedit.
+MemRegions: 79247 total, 6949M resident, 55M private, 783M shared.
+PhysMem: 12G used (6180M wired), 4126M unused.
+VM: 2945G vsize, 533M framework vsize, 387406(0) swapins, 636752(0) swapouts.
+Networks: packets: 6768443/16G in, 4764933/11G out.
+Disks: 1186562/31G read, 568446/36G written.
 
-COMMAND      MEM    %CPU #TH  
-VBoxHeadless 4145M+ 0.0  28   
-VBoxHeadless 4144M+ 0.0  27/1 
-kernel_task  1296M+ 0.0  142/9
-mds_stores   234M+  0.0  9    
-SophosScanD  116M+  0.0  48   
+COMMAND      MEM    %CPU #TH   
+VBoxHeadless 3417M+ 0.0  27/2  
+kernel_task  1277M+ 0.0  142/10
+VBoxHeadless 1000M+ 0.0  27/1  
+mds_stores   303M+  0.0  6     
+Safari       257M+  0.0  9     
