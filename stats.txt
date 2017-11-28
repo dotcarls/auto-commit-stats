@@ -1,24 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   19.83 1733 33.58  16  9 75  2.40 1.79 0.83
+   28.72 228  6.41   9  5 85  4.72 3.50 2.79
 
+Processes: 343 total, 6 running, 11 stuck, 326 sleeping, 2082 threads 
+2017/11/28 11:07:06
+Load Avg: 4.72, 3.50, 2.79 
+CPU usage: 31.81% user, 37.66% sys, 30.51% idle 
+SharedLibs: 134M resident, 23M data, 15M linkedit.
+MemRegions: 80283 total, 9982M resident, 113M private, 1074M shared.
+PhysMem: 16G used (8248M wired), 26M unused.
+VM: 3059G vsize, 533M framework vsize, 320(0) swapins, 46848(0) swapouts.
+Networks: packets: 1649516/3744M in, 1213650/2552M out.
+Disks: 647359/13G read, 185173/9772M written.
 
-
-
-Processes: 328 total, 6 running, 22 stuck, 300 sleeping, 2069 threads 
-2017/11/28 10:09:54
-Load Avg: 2.40, 1.79, 0.83 
-CPU usage: 32.12% user, 63.63% sys, 4.24% idle 
-SharedLibs: 204M resident, 25M data, 30M linkedit.
-MemRegions: 58908 total, 4799M resident, 153M private, 1445M shared.
-PhysMem: 9577M used (1606M wired), 6799M unused.
-VM: 1946G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 32394/34M in, 28740/3617K out.
-Disks: 342469/6215M read, 26043/924M written.
-
-COMMAND       MEM    %CPU #TH  
-kernel_task   1169M+ 0.0  133/8
-SophosScanD   280M+  0.0  56   
-Rambox Helper 251M+  0.0  21   
-Rambox Helper 207M+  0.0  21   
-Rambox Helper 192M+  0.0  23   
+COMMAND      MEM    %CPU #TH  
+VBoxHeadless 4146M+ 0.0  27   
+VBoxHeadless 2399M+ 0.0  28/3 
+kernel_task  1211M+ 0.0  142/8
+SophosScanD  278M+  0.0  36   
+Safari       268M+  0.0  12   
