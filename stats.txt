@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   42.55 1100 45.70  16  9 75  2.76 1.45 0.60
+   35.59 190  6.60   7  3 90  1.93 1.98 1.68
 
-Processes: 296 total, 4 running, 21 stuck, 271 sleeping, 1750 threads 
-2017/11/30 09:21:48
-Load Avg: 2.76, 1.45, 0.60 
-CPU usage: 19.44% user, 27.77% sys, 52.77% idle 
-SharedLibs: 201M resident, 25M data, 28M linkedit.
-MemRegions: 45524 total, 3607M resident, 138M private, 1562M shared.
-PhysMem: 7509M used (1403M wired), 8866M unused.
-VM: 1858G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 9110/9517K in, 7602/1107K out.
-Disks: 109550/4442M read, 20205/948M written.
+Processes: 302 total, 4 running, 12 stuck, 286 sleeping, 1806 threads 
+2017/11/30 09:39:58
+Load Avg: 1.93, 1.98, 1.68 
+CPU usage: 21.79% user, 20.51% sys, 57.69% idle 
+SharedLibs: 207M resident, 25M data, 31M linkedit.
+MemRegions: 58828 total, 5716M resident, 147M private, 1646M shared.
+PhysMem: 12G used (1613M wired), 4080M unused.
+VM: 1890G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 60503/56M in, 54351/17M out.
+Disks: 194448/6644M read, 35147/1337M written.
 
-COMMAND     MEM    %CPU #TH  
-kernel_task 1031M+ 0.0  133/8
-SophosScanD 267M+  0.0  38/1 
-Atom        174M+  0.0  41   
-Atom Helper 173M+  0.0  25   
-mysqld      168M+  0.0  27   
+COMMAND       MEM    %CPU #TH  
+kernel_task   1187M+ 0.0  133/8
+Safari        458M+  0.0  11   
+SophosScanD   277M+  0.0  34/1 
+Rambox Helper 237M+  0.0  25   
+Rambox Helper 218M+  0.0  21   
