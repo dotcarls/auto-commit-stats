@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   42.58 2600 108.10  29 19 52  4.71 1.35 0.50
+   42.55 1100 45.70  16  9 75  2.76 1.45 0.60
 
-Processes: 280 total, 3 running, 19 stuck, 258 sleeping, 1679 threads 
-2017/11/30 09:20:31
-Load Avg: 4.71, 1.35, 0.50 
-CPU usage: 14.3% user, 19.29% sys, 66.66% idle 
-SharedLibs: 198M resident, 25M data, 28M linkedit.
-MemRegions: 42653 total, 2915M resident, 133M private, 1324M shared.
-PhysMem: 6322M used (1338M wired), 10G unused.
-VM: 1813G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 8445/9333K in, 6758/971K out.
-Disks: 93758/3936M read, 14086/547M written.
+Processes: 296 total, 4 running, 21 stuck, 271 sleeping, 1750 threads 
+2017/11/30 09:21:48
+Load Avg: 2.76, 1.45, 0.60 
+CPU usage: 19.44% user, 27.77% sys, 52.77% idle 
+SharedLibs: 201M resident, 25M data, 28M linkedit.
+MemRegions: 45524 total, 3607M resident, 138M private, 1562M shared.
+PhysMem: 7509M used (1403M wired), 8866M unused.
+VM: 1858G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 9110/9517K in, 7602/1107K out.
+Disks: 109550/4442M read, 20205/948M written.
 
-COMMAND      MEM   %CPU #TH  
-kernel_task  972M+ 0.0  133/8
-SophosScanD  264M+ 0.0  37   
-mysqld       168M+ 0.0  27   
-Google Drive 166M+ 0.0  19   
-hyperkit     154M+ 0.0  18   
+COMMAND     MEM    %CPU #TH  
+kernel_task 1031M+ 0.0  133/8
+SophosScanD 267M+  0.0  38/1 
+Atom        174M+  0.0  41   
+Atom Helper 173M+  0.0  25   
+mysqld      168M+  0.0  27   
