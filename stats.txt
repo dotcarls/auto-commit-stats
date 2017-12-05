@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   42.01 3609 148.07  39 26 35  11.90 2.67 0.95
+   28.22 419 11.56  11  7 82  2.76 2.88 2.10
 
-Processes: 266 total, 7 running, 42 stuck, 217 sleeping, 1966 threads 
-2017/12/05 09:32:50
-Load Avg: 11.90, 2.67, 0.95 
-CPU usage: 52.17% user, 33.69% sys, 14.13% idle 
-SharedLibs: 195M resident, 25M data, 27M linkedit.
-MemRegions: 35907 total, 2263M resident, 124M private, 838M shared.
-PhysMem: 4932M used (1296M wired), 11G unused.
-VM: 1246G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 4187/4001K in, 4090/732K out.
-Disks: 62644/2442M read, 6648/404M written.
+Processes: 298 total, 3 running, 6 stuck, 289 sleeping, 1932 threads 
+2017/12/05 09:44:34
+Load Avg: 2.76, 2.88, 2.10 
+CPU usage: 19.31% user, 13.63% sys, 67.4% idle 
+SharedLibs: 135M resident, 22M data, 23M linkedit.
+MemRegions: 62897 total, 7421M resident, 141M private, 1971M shared.
+PhysMem: 14G used (3622M wired), 1639M unused.
+VM: 2408G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 164512/117M in, 98469/25M out.
+Disks: 255848/7019M read, 48756/1350M written.
 
-COMMAND        MEM   %CPU #TH  
-kernel_task    926M+ 0.0  134/8
-mysqld         168M+ 0.0  27   
-Google Drive   163M+ 0.0  25   
-Spotify Helper 134M+ 0.0  20   
-Spotify Helper 74M+  0.0  5    
+COMMAND       MEM    %CPU #TH  
+VBoxHeadless  2114M+ 0.0  28   
+kernel_task   1115M+ 0.0  138/8
+Rambox Helper 506M+  0.0  22   
+Rambox Helper 439M+  0.0  5    
+Safari        417M+  0.0  13   
