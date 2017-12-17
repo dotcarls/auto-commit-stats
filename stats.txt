@@ -1,21 +1,21 @@
           disk0           disk2           disk3       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   17.77 150  2.61    40.24 113  4.43    54.79   0  0.00   9  5 86  2.71 3.77 3.62
+   17.86 121  2.11    43.70  29  1.23    53.88   0  0.00  16  5 79  1.41 1.66 2.24
 
-Processes: 372 total, 4 running, 22 stuck, 346 sleeping, 1995 threads 
-2017/12/16 19:33:48
-Load Avg: 2.71, 3.77, 3.62 
-CPU usage: 20.16% user, 16.80% sys, 63.2% idle 
-SharedLibs: 158M resident, 26M data, 23M linkedit.
-MemRegions: 79266 total, 6955M resident, 189M private, 2689M shared.
-PhysMem: 15G used (1970M wired), 765M unused.
-VM: 2086G vsize, 533M framework vsize, 0(0) swapins, 1088(0) swapouts.
-Networks: packets: 742327/802M in, 514248/199M out.
-Disks: 3899051/96G read, 569130/21G written.
+Processes: 347 total, 3 running, 6 stuck, 338 sleeping, 1772 threads 
+2017/12/17 09:28:22
+Load Avg: 1.41, 1.66, 2.24 
+CPU usage: 11.34% user, 12.37% sys, 76.28% idle 
+SharedLibs: 169M resident, 27M data, 17M linkedit.
+MemRegions: 70297 total, 4332M resident, 115M private, 2164M shared.
+PhysMem: 13G used (1844M wired), 2705M unused.
+VM: 2005G vsize, 533M framework vsize, 18289(0) swapins, 46076(0) swapouts.
+Networks: packets: 1758443/1594M in, 1675387/1245M out.
+Disks: 8204858/153G read, 1842607/66G written.
 
 COMMAND     MEM    %CPU #TH  
-kernel_task 1394M+ 0.0  135/8
-Safari      483M+  0.0  11   
-mds_stores  445M+  0.0  10   
-SophosScanD 339M+  0.0  34   
-Finder      326M+  0.0  14   
+kernel_task 1334M+ 0.0  136/8
+Safari      427M+  0.0  12   
+mds_stores  426M+  0.0  6    
+SophosScanD 336M+  0.0  35   
+Photos      335M+  0.0  16   
