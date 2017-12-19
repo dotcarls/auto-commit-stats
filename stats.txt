@@ -1,21 +1,21 @@
           disk0           disk2       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   24.55  32  0.78    53.53   0  0.00   5  2 93  1.87 1.93 2.06
+   24.44  32  0.77    53.53   0  0.00   5  2 93  1.75 1.97 2.05
 
-Processes: 308 total, 2 running, 18 stuck, 288 sleeping, 1582 threads 
-2017/12/18 19:38:36
-Load Avg: 1.87, 1.93, 2.06 
-CPU usage: 13.25% user, 20.48% sys, 66.26% idle 
+Processes: 315 total, 2 running, 12 stuck, 301 sleeping, 1513 threads 
+2017/12/18 19:43:07
+Load Avg: 1.75, 1.97, 2.05 
+CPU usage: 2.24% user, 11.23% sys, 86.51% idle 
 SharedLibs: 147M resident, 23M data, 23M linkedit.
-MemRegions: 56772 total, 4262M resident, 141M private, 1474M shared.
-PhysMem: 9893M used (2097M wired), 6482M unused.
-VM: 2419G vsize, 533M framework vsize, 0(0) swapins, 192(0) swapouts.
-Networks: packets: 446308/211M in, 473339/123M out.
-Disks: 783950/16G read, 334211/10G written.
+MemRegions: 65353 total, 4231M resident, 142M private, 1493M shared.
+PhysMem: 9989M used (2142M wired), 6386M unused.
+VM: 3492G vsize, 533M framework vsize, 0(0) swapins, 192(0) swapouts.
+Networks: packets: 450107/212M in, 477109/123M out.
+Disks: 789107/16G read, 335834/10G written.
 
 COMMAND     MEM    %CPU #TH  
 kernel_task 1223M+ 0.0  135/8
 SophosScanD 363M+  0.0  35   
-Atom Helper 322M+  0.0  23   
 Atom Helper 313M+  0.0  14   
-Atom Helper 171M+  0.0  9    
+Atom Helper 277M+  0.0  27   
+hyperkit    171M+  0.0  17   
