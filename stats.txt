@@ -1,21 +1,21 @@
           disk0           disk2       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   31.32 365 11.18    43.61   3  0.13   9  5 86  1.67 1.91 1.85
+   31.13 179  5.45    43.61   1  0.06   7  4 90  2.31 2.04 1.96
 
-Processes: 365 total, 3 running, 16 stuck, 346 sleeping, 2110 threads 
-2018/01/09 10:37:33
-Load Avg: 1.67, 1.91, 1.85 
-CPU usage: 2.94% user, 11.76% sys, 85.29% idle 
+Processes: 389 total, 3 running, 17 stuck, 369 sleeping, 2482 threads 
+2018/01/09 10:59:54
+Load Avg: 2.31, 2.04, 1.96 
+CPU usage: 5.83% user, 12.50% sys, 81.66% idle 
 SharedLibs: 137M resident, 23M data, 22M linkedit.
-MemRegions: 78884 total, 9141M resident, 178M private, 1722M shared.
-PhysMem: 16G used (3646M wired), 51M unused.
-VM: 2590G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 199077/250M in, 163693/35M out.
-Disks: 336308/9458M read, 57696/2634M written.
+MemRegions: 91137 total, 9271M resident, 169M private, 1575M shared.
+PhysMem: 15G used (3678M wired), 537M unused.
+VM: 2661G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 478530/586M in, 274725/57M out.
+Disks: 353648/9796M read, 82042/3481M written.
 
-COMMAND      MEM    %CPU #TH  
-VBoxHeadless 1906M+ 0.0  27   
-kernel_task  1297M+ 0.0  139/8
-Safari       392M+  0.0  12   
-Atom Helper  292M+  0.0  7    
-SophosScanD  283M+  0.0  34   
+COMMAND          MEM    %CPU #TH  
+VBoxHeadless     1926M+ 0.0  27   
+kernel_task      1228M+ 0.0  139/8
+Google Chrome He 492M+  0.0  21   
+com.apple.WebKit 334M+  0.0  15   
+Safari           282M+  0.0  15   
