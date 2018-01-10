@@ -1,21 +1,39 @@
           disk0           disk2           disk3       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   26.32  17  0.43    62.14   0  0.00   117.36   0  0.00   4  3 93  1.82 1.86 1.88
+   26.13  17  0.43    62.14   0  0.00   117.36   0  0.00   4  3 93  1.95 2.01 1.95
 
-Processes: 348 total, 2 running, 13 stuck, 333 sleeping, 2265 threads 
-2018/01/10 09:05:01
-Load Avg: 1.82, 1.86, 1.88 
-CPU usage: 17.59% user, 32.40% sys, 50.0% idle 
-SharedLibs: 130M resident, 21M data, 15M linkedit.
-MemRegions: 64543 total, 2415M resident, 90M private, 1425M shared.
-PhysMem: 9453M used (2411M wired), 6921M unused.
-VM: 2012G vsize, 533M framework vsize, 320(0) swapins, 11392(0) swapouts.
-Networks: packets: 1342354/1597M in, 960100/493M out.
-Disks: 913422/18G read, 457578/17G written.
 
-COMMAND     MEM    %CPU #TH  
-kernel_task 1354M+ 0.0  142/8
-Safari      446M+  0.0  17   
-SophosScanD 325M+  0.0  35   
-Bear        136M+  0.0  13   
-hyperkit    121M+  0.0  17   
+Processes: 374 total, 4 running, 24 stuck, 346 sleeping, 2049 threads 
+2018/01/10 09:07:36
+Load Avg: 1.95, 2.01, 1.95 
+CPU usage: 31.1% user, 39.87% sys, 29.11% idle 
+SharedLibs: 133M resident, 23M data, 15M linkedit.
+MemRegions: 70961 total, 3930M resident, 107M private, 1671M shared.
+PhysMem: 12G used (2300M wired), 4309M unused.
+VM: 2085G vsize, 533M framework vsize, 320(0) swapins, 11392(0) swapouts.
+Networks: packets: 1360743/1618M in, 973372/501M out.
+Disks: 931510/18G read, 461637/17G written.
+
+COMMAND          MEM    %CPU #TH  
+kernel_task      1395M+ 0.0  142/9
+Safari           444M+  0.0  15   
+com.apple.WebKit 397M+  0.0  9    
+com.apple.WebKit 365M+  0.0  13   
+SophosScanD      325M+  0.0  36/1 
+Processes: 374 total, 5 running, 23 stuck, 346 sleeping, 2049 threads 
+2018/01/10 09:07:36
+Load Avg: 1.95, 2.01, 1.95 
+CPU usage: 29.69% user, 40.60% sys, 29.69% idle 
+SharedLibs: 133M resident, 23M data, 15M linkedit.
+MemRegions: 70960 total, 3930M resident, 107M private, 1671M shared.
+PhysMem: 12G used (2271M wired), 4309M unused.
+VM: 2085G vsize, 533M framework vsize, 320(0) swapins, 11392(0) swapouts.
+Networks: packets: 1361182/1619M in, 973431/501M out.
+Disks: 931531/18G read, 461637/17G written.
+
+COMMAND          MEM    %CPU #TH  
+kernel_task      1395M+ 0.0  142/8
+Safari           444M+  0.0  15   
+com.apple.WebKit 397M+  0.0  9    
+com.apple.WebKit 365M+  0.0  13   
+SophosScanD      325M+  0.0  36/1 
