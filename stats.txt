@@ -1,21 +1,21 @@
           disk0           disk2       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   60.95  33  1.95   404.69   0  0.02   6  3 91  2.57 2.66 2.45
+   60.55  19  1.12   404.65   0  0.01   6  3 91  2.54 2.65 2.48
 
-Processes: 287 total, 2 running, 7 stuck, 278 sleeping, 1488 threads 
-2018/01/26 17:44:37
-Load Avg: 2.57, 2.66, 2.45 
-CPU usage: 12.69% user, 11.11% sys, 76.19% idle 
-SharedLibs: 133M resident, 24M data, 15M linkedit.
-MemRegions: 49629 total, 1610M resident, 70M private, 552M shared.
-PhysMem: 6553M used (1766M wired), 9823M unused.
-VM: 1832G vsize, 533M framework vsize, 35092087(0) swapins, 36042359(0) swapouts.
-Networks: packets: 6887263/7301M in, 5804864/4093M out.
-Disks: 4475080/201G read, 2080624/183G written.
+Processes: 308 total, 6 running, 18 stuck, 284 sleeping, 1943 threads 
+2018/01/28 10:59:07
+Load Avg: 2.54, 2.65, 2.48 
+CPU usage: 45.34% user, 20.93% sys, 33.72% idle 
+SharedLibs: 135M resident, 25M data, 15M linkedit.
+MemRegions: 52065 total, 1842M resident, 86M private, 691M shared.
+PhysMem: 7174M used (2107M wired), 9202M unused.
+VM: 1885G vsize, 533M framework vsize, 35098187(0) swapins, 36042359(0) swapouts.
+Networks: packets: 6889089/7302M in, 5807027/4093M out.
+Disks: 4518936/201G read, 2097360/184G written.
 
 COMMAND         MEM    %CPU #TH  
-kernel_task     1311M+ 0.0  140/8
-SophosScanD     340M+  0.0  34   
+kernel_task     1431M+ 0.0  140/8
+SophosScanD     341M+  0.0  35   
+WindowServer    123M+  0.0  5    
 softwareupdated 118M+  0.0  7    
-mds_stores      61M+   0.0  7    
-WindowServer    58M+   0.0  5    
+mds_stores      61M+   0.0  6    
