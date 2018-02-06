@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   39.59  20  0.77   6  4 90  2.07 2.13 2.09
+   39.53  20  0.77   6  4 90  2.08 2.40 2.24
 
-Processes: 403 total, 3 running, 15 stuck, 385 sleeping, 2439 threads 
-2018/02/05 17:43:09
-Load Avg: 2.07, 2.13, 2.09 
-CPU usage: 22.77% user, 21.28% sys, 55.94% idle 
-SharedLibs: 118M resident, 20M data, 12M linkedit.
-MemRegions: 156324 total, 8802M resident, 69M private, 1431M shared.
-PhysMem: 16G used (6255M wired), 330M unused.
-VM: 6911G vsize, 533M framework vsize, 17370643(0) swapins, 18481890(0) swapouts.
-Networks: packets: 8953465/6849M in, 7309859/3245M out.
-Disks: 5219706/141G read, 2221573/140G written.
+Processes: 300 total, 3 running, 10 stuck, 287 sleeping, 1748 threads 
+2018/02/05 17:54:42
+Load Avg: 2.08, 2.40, 2.24 
+CPU usage: 13.15% user, 11.84% sys, 75.0% idle 
+SharedLibs: 119M resident, 20M data, 13M linkedit.
+MemRegions: 58155 total, 5217M resident, 66M private, 528M shared.
+PhysMem: 9769M used (6008M wired), 6608M unused.
+VM: 1862G vsize, 533M framework vsize, 17430522(0) swapins, 18481890(0) swapouts.
+Networks: packets: 9034156/6952M in, 7368696/3288M out.
+Disks: 5238168/141G read, 2238557/140G written.
 
-COMMAND          MEM    %CPU #TH  
-VBoxHeadless     4110M+ 0.0  27   
-kernel_task      1419M+ 0.0  140/8
-com.apple.WebKit 804M+  0.0  9    
-com.apple.WebKit 460M+  0.0  19   
-Rambox Helper    399M+  0.0  23/1 
+COMMAND      MEM    %CPU #TH  
+VBoxHeadless 4110M+ 0.0  27   
+kernel_task  1406M+ 0.0  141/8
+SophosScanD  92M+   0.0  35   
+WindowServer 62M+   0.0  6    
+mds_stores   45M+   0.0  7    
