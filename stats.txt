@@ -1,21 +1,21 @@
           disk0           disk2       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   24.66  81  1.95   153.20   1  0.15   6  4 90  1.58 1.98 2.04
+   24.85  69  1.66   153.20   1  0.12   5  3 92  1.94 2.01 2.00
 
-Processes: 312 total, 3 running, 13 stuck, 296 sleeping, 1953 threads 
-2018/02/11 13:11:50
-Load Avg: 1.58, 1.98, 2.04 
-CPU usage: 9.27% user, 11.34% sys, 79.38% idle 
-SharedLibs: 143M resident, 25M data, 22M linkedit.
-MemRegions: 70380 total, 5916M resident, 155M private, 3332M shared.
-PhysMem: 14G used (1729M wired), 1905M unused.
-VM: 1923G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 761155/861M in, 554685/256M out.
-Disks: 519934/11G read, 106565/4977M written.
+Processes: 310 total, 3 running, 15 stuck, 292 sleeping, 1877 threads 
+2018/02/11 13:42:59
+Load Avg: 1.94, 2.01, 2.00 
+CPU usage: 19.38% user, 14.28% sys, 66.32% idle 
+SharedLibs: 144M resident, 25M data, 22M linkedit.
+MemRegions: 71093 total, 6046M resident, 157M private, 3365M shared.
+PhysMem: 14G used (1702M wired), 2163M unused.
+VM: 1921G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 788812/866M in, 582727/259M out.
+Disks: 536317/11G read, 124670/5645M written.
 
 COMMAND       MEM    %CPU #TH  
 hyperkit      1581M+ 0.0  19   
-kernel_task   1199M+ 0.0  136/8
+kernel_task   1224M+ 0.0  136/8
 Safari        527M+  0.0  14   
 Rambox Helper 481M+  0.0  5    
-Rambox Helper 405M+  0.0  25   
+Rambox Helper 419M+  0.0  23   
