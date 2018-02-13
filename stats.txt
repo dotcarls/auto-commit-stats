@@ -1,21 +1,39 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   24.26  35  0.82   4  3 92  2.37 2.24 2.10
+   24.00  34  0.80   4  3 92  1.62 1.90 1.98
 
-Processes: 395 total, 2 running, 21 stuck, 372 sleeping, 2397 threads 
-2018/02/12 16:12:14
-Load Avg: 2.37, 2.24, 2.10 
-CPU usage: 27.2% user, 23.24% sys, 49.72% idle 
+
+Processes: 324 total, 6 running, 11 stuck, 307 sleeping, 1961 threads 
+2018/02/12 17:22:17
+Load Avg: 1.62, 1.90, 1.98 
+CPU usage: 34.83% user, 11.2% sys, 54.13% idle 
 SharedLibs: 138M resident, 26M data, 15M linkedit.
-MemRegions: 132933 total, 6623M resident, 61M private, 2782M shared.
-PhysMem: 16G used (5534M wired), 29M unused.
-VM: 5856G vsize, 533M framework vsize, 2038822(0) swapins, 2935771(0) swapouts.
-Networks: packets: 2752151/2210M in, 2352615/891M out.
-Disks: 2666776/42G read, 985550/44G written.
+MemRegions: 67597 total, 3585M resident, 87M private, 2920M shared.
+PhysMem: 11G used (2193M wired), 4602M unused.
+VM: 1942G vsize, 533M framework vsize, 2115222(0) swapins, 2935771(0) swapouts.
+Networks: packets: 2773791/2226M in, 2373246/894M out.
+Disks: 2734702/42G read, 994927/44G written.
 
 COMMAND       MEM    %CPU #TH  
-VBoxHeadless  3508M+ 0.0  27   
 hyperkit      1462M+ 0.0  19   
-kernel_task   1381M+ 0.0  141/8
-Safari        288M+  0.0  13   
-Rambox Helper 254M+  0.0  20   
+kernel_task   1411M+ 0.0  141/8
+Rambox Helper 249M+  0.0  23   
+Rambox Helper 205M+  0.0  24   
+Rambox Helper 196M+  0.0  23   
+Processes: 324 total, 6 running, 11 stuck, 307 sleeping, 1961 threads 
+2018/02/12 17:22:17
+Load Avg: 1.62, 1.90, 1.98 
+CPU usage: 34.88% user, 11.4% sys, 54.7% idle 
+SharedLibs: 138M resident, 26M data, 15M linkedit.
+MemRegions: 67597 total, 3585M resident, 87M private, 2920M shared.
+PhysMem: 11G used (2193M wired), 4602M unused.
+VM: 1942G vsize, 533M framework vsize, 2115222(0) swapins, 2935771(0) swapouts.
+Networks: packets: 2773791/2226M in, 2373246/894M out.
+Disks: 2734702/42G read, 994927/44G written.
+
+COMMAND       MEM    %CPU #TH  
+hyperkit      1462M+ 0.0  19   
+kernel_task   1411M+ 0.0  141/8
+Rambox Helper 249M+  0.0  23   
+Rambox Helper 205M+  0.0  24   
+Rambox Helper 196M+  0.0  23   
