@@ -1,21 +1,21 @@
           disk0           disk2       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   27.41  23  0.61   309.33   0  0.01   5  4 92  1.88 1.84 1.86
+   27.32  23  0.61   309.33   0  0.01   5  4 92  1.88 1.98 1.99
 
-Processes: 359 total, 5 running, 9 stuck, 345 sleeping, 2052 threads 
-2018/02/15 17:08:42
-Load Avg: 1.97, 1.86, 1.87 
-CPU usage: 15.50% user, 24.80% sys, 59.68% idle 
+Processes: 370 total, 2 running, 14 stuck, 354 sleeping, 2272 threads 
+2018/02/15 17:54:03
+Load Avg: 1.88, 1.98, 1.99 
+CPU usage: 8.20% user, 17.91% sys, 73.88% idle 
 SharedLibs: 143M resident, 24M data, 14M linkedit.
-MemRegions: 90856 total, 5427M resident, 125M private, 1393M shared.
-PhysMem: 11G used (1996M wired), 4864M unused.
-VM: 2562G vsize, 533M framework vsize, 6541560(0) swapins, 7804113(0) swapouts.
-Networks: packets: 6225436/5402M in, 5191824/2922M out.
-Disks: 5789865/104G read, 2567629/118G written.
+MemRegions: 100090 total, 8141M resident, 128M private, 1499M shared.
+PhysMem: 15G used (3926M wired), 1530M unused.
+VM: 3122G vsize, 533M framework vsize, 6544114(0) swapins, 7804113(0) swapouts.
+Networks: packets: 6254868/5417M in, 5223538/2933M out.
+Disks: 5844637/105G read, 2593030/118G written.
 
-COMMAND       MEM    %CPU #TH  
-kernel_task   1441M+ 0.0  142/8
-Safari        526M+  0.0  13   
-Atom Helper   350M+  0.0  27   
-Rambox Helper 290M+  0.0  22   
-Rambox Helper 264M+  0.0  18   
+COMMAND      MEM    %CPU #TH  
+VBoxHeadless 1907M+ 0.0  27   
+kernel_task  1479M+ 0.0  142/8
+Safari       538M+  0.0  13   
+Atom Helper  452M+  0.0  27   
+Atom Helper  310M+  0.0  15   
