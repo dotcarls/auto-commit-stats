@@ -1,21 +1,21 @@
           disk0           disk2       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   27.15  23  0.60   309.33   0  0.01   5  4 92  2.10 1.82 1.87
+   27.14  23  0.60   309.33   0  0.01   5  4 92  1.98 1.82 1.86
 
-Processes: 318 total, 2 running, 14 stuck, 302 sleeping, 1763 threads 
-2018/02/15 20:06:47
-Load Avg: 2.10, 1.82, 1.87 
-CPU usage: 3.61% user, 10.84% sys, 85.54% idle 
+Processes: 318 total, 2 running, 16 stuck, 300 sleeping, 1554 threads 
+2018/02/15 20:08:06
+Load Avg: 1.98, 1.82, 1.86 
+CPU usage: 1.21% user, 10.97% sys, 87.80% idle 
 SharedLibs: 143M resident, 24M data, 14M linkedit.
-MemRegions: 57521 total, 4833M resident, 100M private, 675M shared.
-PhysMem: 10G used (4839M wired), 5809M unused.
-VM: 1905G vsize, 533M framework vsize, 6551079(0) swapins, 7804497(0) swapouts.
-Networks: packets: 6312413/5443M in, 5284447/2950M out.
-Disks: 5961513/106G read, 2643705/120G written.
+MemRegions: 61323 total, 4835M resident, 98M private, 676M shared.
+PhysMem: 10G used (4839M wired), 5791M unused.
+VM: 2432G vsize, 533M framework vsize, 6551271(0) swapins, 7804497(0) swapouts.
+Networks: packets: 6313618/5443M in, 5285559/2950M out.
+Disks: 5965546/106G read, 2644599/120G written.
 
 COMMAND         MEM    %CPU #TH  
 VBoxHeadless    2753M+ 0.0  27   
-kernel_task     1436M+ 0.0  142/8
-WindowServer    156M+  0.0  5    
+kernel_task     1437M+ 0.0  142/9
+WindowServer    152M+  0.0  5    
 SophosScanD     139M+  0.0  35   
-softwareupdated 101M+  0.0  7    
+softwareupdated 101M+  0.0  5    
