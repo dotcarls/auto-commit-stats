@@ -1,21 +1,21 @@
           disk0           disk2           disk3       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   33.14  25  0.80   266.90   0  0.02     7.59   0  0.00   5  4 91  2.06 2.24 2.39
+   33.14  25  0.80   266.90   0  0.02     7.59   0  0.00   5  4 91  3.48 2.53 2.49
 
-Processes: 346 total, 2 running, 16 stuck, 328 sleeping, 1790 threads 
-2018/02/22 09:30:10
-Load Avg: 2.06, 2.24, 2.39 
-CPU usage: 12.12% user, 17.17% sys, 70.70% idle 
+Processes: 360 total, 14 running, 10 stuck, 336 sleeping, 2201 threads 
+2018/02/22 09:30:19
+Load Avg: 3.48, 2.53, 2.49 
+CPU usage: 71.53% user, 28.46% sys, 0.0% idle 
 SharedLibs: 119M resident, 23M data, 13M linkedit.
-MemRegions: 68367 total, 1623M resident, 93M private, 589M shared.
-PhysMem: 8992M used (2067M wired), 7382M unused.
-VM: 2492G vsize, 533M framework vsize, 16214766(0) swapins, 19350356(0) swapouts.
-Networks: packets: 22217586/12G in, 28167299/26G out.
-Disks: 16146617/413G read, 7413523/347G written.
+MemRegions: 75204 total, 2655M resident, 102M private, 601M shared.
+PhysMem: 10G used (2364M wired), 6206M unused.
+VM: 2540G vsize, 533M framework vsize, 16215272(0) swapins, 19350356(0) swapouts.
+Networks: packets: 22268979/12G in, 28271236/26G out.
+Disks: 16149241/413G read, 7413772/347G written.
 
-COMMAND          MEM    %CPU #TH  
-kernel_task      1513M+ 0.0  143/8
-SophosScanD      88M+   0.0  36   
-launchservicesd  63M+   0.0  12   
-com.apple.photos 63M+   0.0  4    
-WindowServer     60M+   0.0  6    
+COMMAND       MEM    %CPU #TH  
+kernel_task   1517M+ 0.0  143/8
+VBoxHeadless  312M+  0.0  28   
+Rambox Helper 165M+  0.0  26   
+SophosScanD   90M+   0.0  40/4 
+Rambox Helper 72M+   0.0  21   
