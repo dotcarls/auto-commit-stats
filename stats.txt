@@ -1,21 +1,21 @@
           disk0           disk2       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   38.34  73  2.72   269.95   0  0.02   5  3 92  2.12 2.12 2.08
+   37.79  74  2.73   269.95   0  0.02   5  3 92  2.03 2.12 2.09
 
-Processes: 391 total, 4 running, 16 stuck, 371 sleeping, 2584 threads 
-2018/02/22 16:00:49
-Load Avg: 2.12, 2.12, 2.08 
-CPU usage: 15.0% user, 15.62% sys, 69.37% idle 
+Processes: 393 total, 2 running, 17 stuck, 374 sleeping, 2652 threads 
+2018/02/22 16:03:21
+Load Avg: 2.03, 2.12, 2.09 
+CPU usage: 20.11% user, 16.66% sys, 63.21% idle 
 SharedLibs: 145M resident, 26M data, 15M linkedit.
-MemRegions: 127621 total, 6574M resident, 73M private, 3055M shared.
-PhysMem: 16G used (4226M wired), 32M unused.
-VM: 4252G vsize, 533M framework vsize, 275779(0) swapins, 571668(0) swapouts.
-Networks: packets: 4196098/453M in, 7926765/6130M out.
-Disks: 1303123/47G read, 338810/13G written.
+MemRegions: 133522 total, 6658M resident, 71M private, 2978M shared.
+PhysMem: 16G used (4249M wired), 36M unused.
+VM: 4790G vsize, 533M framework vsize, 292277(0) swapins, 605369(0) swapouts.
+Networks: packets: 4204905/460M in, 7934908/6131M out.
+Disks: 1337805/48G read, 342820/13G written.
 
-COMMAND      MEM    %CPU #TH   
-VBoxHeadless 2339M+ 0.0  27    
-hyperkit     1456M+ 0.0  19    
-kernel_task  1204M+ 0.0  139/10
-Atom Helper  414M+  0.0  28    
-Atom Helper  316M+  0.0  26    
+COMMAND      MEM    %CPU #TH  
+VBoxHeadless 2356M+ 0.0  27   
+hyperkit     1455M+ 0.0  19   
+kernel_task  1206M+ 0.0  139/8
+Atom Helper  398M+  0.0  28   
+Atom Helper  305M+  0.0  25   
