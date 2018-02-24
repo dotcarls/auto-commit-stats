@@ -1,21 +1,21 @@
           disk0           disk2       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   51.01 127  6.33   257.71   9  2.23   6  7 87  1.45 1.56 1.72
+   50.87 127  6.33   257.71   9  2.23   6  7 87  1.45 1.56 1.72
 
-Processes: 270 total, 3 running, 14 stuck, 253 sleeping, 1418 threads 
-2018/02/24 14:24:38
+Processes: 280 total, 2 running, 12 stuck, 266 sleeping, 1511 threads 
+2018/02/24 14:24:39
 Load Avg: 1.45, 1.56, 1.72 
-CPU usage: 19.23% user, 20.51% sys, 60.25% idle 
+CPU usage: 3.94% user, 14.47% sys, 81.57% idle 
 SharedLibs: 137M resident, 21M data, 18M linkedit.
-MemRegions: 51876 total, 2914M resident, 126M private, 2815M shared.
-PhysMem: 12G used (1730M wired), 4160M unused.
-VM: 2320G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 419497/36M in, 721229/957M out.
-Disks: 250932/16G read, 56687/2942M written.
+MemRegions: 52654 total, 2962M resident, 128M private, 2829M shared.
+PhysMem: 12G used (1731M wired), 4085M unused.
+VM: 2345G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 419950/36M in, 722114/958M out.
+Disks: 251848/16G read, 56775/2943M written.
 
 COMMAND     MEM    %CPU #TH  
 hyperkit    1745M+ 0.0  18   
-kernel_task 1040M+ 0.0  135/8
-SophosScanD 279M+  0.0  37   
+kernel_task 1040M+ 0.0  140/8
+SophosScanD 279M+  0.0  38   
 mysqld      168M+  0.0  27   
 Atom        164M+  0.0  41   
