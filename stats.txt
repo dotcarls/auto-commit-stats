@@ -1,21 +1,21 @@
           disk0           disk2       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   50.87 127  6.33   257.71   9  2.23   6  7 87  1.45 1.56 1.72
+   38.74  72  2.72   257.71   3  0.64   6  6 88  2.03 2.19 2.07
 
-Processes: 280 total, 2 running, 12 stuck, 266 sleeping, 1511 threads 
-2018/02/24 14:24:39
-Load Avg: 1.45, 1.56, 1.72 
-CPU usage: 3.94% user, 14.47% sys, 81.57% idle 
-SharedLibs: 137M resident, 21M data, 18M linkedit.
-MemRegions: 52654 total, 2962M resident, 128M private, 2829M shared.
-PhysMem: 12G used (1731M wired), 4085M unused.
-VM: 2345G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 419950/36M in, 722114/958M out.
-Disks: 251848/16G read, 56775/2943M written.
+Processes: 291 total, 2 running, 20 stuck, 269 sleeping, 1759 threads 
+2018/02/24 15:59:18
+Load Avg: 2.03, 2.19, 2.07 
+CPU usage: 5.40% user, 14.86% sys, 79.72% idle 
+SharedLibs: 137M resident, 22M data, 21M linkedit.
+MemRegions: 50705 total, 1394M resident, 92M private, 2683M shared.
+PhysMem: 8610M used (1723M wired), 7766M unused.
+VM: 1834G vsize, 533M framework vsize, 23854(0) swapins, 47042(0) swapouts.
+Networks: packets: 997012/271M in, 1547151/1921M out.
+Disks: 494184/22G read, 97884/4300M written.
 
-COMMAND     MEM    %CPU #TH  
-hyperkit    1745M+ 0.0  18   
-kernel_task 1040M+ 0.0  140/8
-SophosScanD 279M+  0.0  38   
-mysqld      168M+  0.0  27   
-Atom        164M+  0.0  41   
+COMMAND          MEM    %CPU #TH  
+hyperkit         1580M+ 0.0  18   
+kernel_task      1047M+ 0.0  141/8
+WindowServer     145M+  0.0  5    
+SophosScanD      108M+  0.0  35   
+com.apple.photos 47M+   0.0  6    
