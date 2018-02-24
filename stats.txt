@@ -1,21 +1,21 @@
           disk0           disk2       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   29.73  29  0.83   217.23   0  0.00   4  4 92  1.75 1.98 1.97
+   52.16 125  6.35   257.71   9  2.25   6  7 87  1.16 1.51 1.71
 
-Processes: 360 total, 2 running, 12 stuck, 346 sleeping, 2220 threads 
-2018/02/24 13:43:10
-Load Avg: 1.75, 1.98, 1.97 
-CPU usage: 8.33% user, 15.15% sys, 76.51% idle 
-SharedLibs: 135M resident, 24M data, 14M linkedit.
-MemRegions: 93716 total, 6069M resident, 113M private, 3434M shared.
-PhysMem: 14G used (2053M wired), 2414M unused.
-VM: 3637G vsize, 533M framework vsize, 3406233(0) swapins, 4141546(0) swapouts.
-Networks: packets: 6019054/1355M in, 9678653/6579M out.
-Disks: 3949420/95G read, 1399777/57G written.
+Processes: 268 total, 2 running, 10 stuck, 256 sleeping, 1376 threads 
+2018/02/24 14:24:21
+Load Avg: 1.16, 1.51, 1.71 
+CPU usage: 8.57% user, 12.85% sys, 78.57% idle 
+SharedLibs: 137M resident, 21M data, 18M linkedit.
+MemRegions: 46582 total, 2566M resident, 125M private, 2709M shared.
+PhysMem: 11G used (1711M wired), 4688M unused.
+VM: 1785G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 414379/36M in, 712189/945M out.
+Disks: 243841/16G read, 56329/2937M written.
 
-COMMAND     MEM    %CPU #TH  
-kernel_task 1437M+ 0.0  140/8
-hyperkit    1159M+ 0.0  19   
-Atom Helper 558M+  0.0  27   
-Safari      455M+  0.0  10   
-firefox     344M+  0.0  69   
+COMMAND      MEM    %CPU #TH  
+hyperkit     1745M+ 0.0  18   
+kernel_task  1028M+ 0.0  135/8
+SophosScanD  279M+  0.0  37   
+mysqld       168M+  0.0  27   
+WindowServer 154M+  0.0  5    
