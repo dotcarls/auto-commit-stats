@@ -1,21 +1,21 @@
           disk0           disk2       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   38.74  72  2.72   257.71   3  0.64   6  6 88  2.03 2.19 2.07
+   37.69  70  2.59   257.71   2  0.56   6  6 89  1.88 2.18 2.16
 
-Processes: 291 total, 2 running, 20 stuck, 269 sleeping, 1759 threads 
-2018/02/24 15:59:18
-Load Avg: 2.03, 2.19, 2.07 
-CPU usage: 5.40% user, 14.86% sys, 79.72% idle 
-SharedLibs: 137M resident, 22M data, 21M linkedit.
-MemRegions: 50705 total, 1394M resident, 92M private, 2683M shared.
-PhysMem: 8610M used (1723M wired), 7766M unused.
-VM: 1834G vsize, 533M framework vsize, 23854(0) swapins, 47042(0) swapouts.
-Networks: packets: 997012/271M in, 1547151/1921M out.
-Disks: 494184/22G read, 97884/4300M written.
+Processes: 334 total, 4 running, 14 stuck, 316 sleeping, 2108 threads 
+2018/02/24 16:15:55
+Load Avg: 1.88, 2.18, 2.16 
+CPU usage: 12.87% user, 15.84% sys, 71.28% idle 
+SharedLibs: 138M resident, 22M data, 22M linkedit.
+MemRegions: 73951 total, 5653M resident, 124M private, 3489M shared.
+PhysMem: 14G used (1727M wired), 1531M unused.
+VM: 1972G vsize, 533M framework vsize, 23854(0) swapins, 47042(0) swapouts.
+Networks: packets: 1061118/311M in, 1608576/1947M out.
+Disks: 520208/22G read, 128755/5344M written.
 
 COMMAND          MEM    %CPU #TH  
 hyperkit         1580M+ 0.0  18   
-kernel_task      1047M+ 0.0  141/8
-WindowServer     145M+  0.0  5    
-SophosScanD      108M+  0.0  35   
-com.apple.photos 47M+   0.0  6    
+kernel_task      1120M+ 0.0  140/8
+Safari           432M+  0.0  21   
+com.apple.WebKit 409M+  0.0  16   
+com.apple.WebKit 363M+  0.0  9    
