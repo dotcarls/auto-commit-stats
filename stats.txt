@@ -2,3 +2,20 @@
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
    24.03  88  2.07   203.51   0  0.04   6  3 91  1.62 2.10 2.17
 
+Processes: 391 total, 3 running, 17 stuck, 371 sleeping, 2291 threads 
+2018/03/02 11:26:15
+Load Avg: 1.62, 2.10, 2.17 
+CPU usage: 22.89% user, 33.73% sys, 43.37% idle 
+SharedLibs: 135M resident, 23M data, 22M linkedit.
+MemRegions: 121319 total, 7535M resident, 82M private, 2937M shared.
+PhysMem: 16G used (3641M wired), 71M unused.
+VM: 6883G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 187861/108M in, 185896/53M out.
+Disks: 426944/8664M read, 96583/3811M written.
+
+COMMAND          MEM    %CPU #TH  
+VBoxHeadless     2015M+ 0.0  27   
+hyperkit         1581M+ 0.0  18   
+kernel_task      1043M+ 0.0  139/8
+com.apple.WebKit 583M+  0.0  33   
+com.apple.WebKit 383M+  0.0  17   
