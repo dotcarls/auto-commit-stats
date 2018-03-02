@@ -1,21 +1,21 @@
           disk0           disk2       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   42.83 2074 86.74   203.51  19  3.69  28 19 53  6.80 2.56 1.00
+   26.64  91  2.38   203.51   0  0.05   6  3 91  1.75 2.04 2.06
 
-Processes: 265 total, 4 running, 14 stuck, 247 sleeping, 1531 threads 
-2018/03/02 09:48:34
-Load Avg: 6.80, 2.56, 1.00 
-CPU usage: 20.68% user, 27.58% sys, 51.72% idle 
-SharedLibs: 202M resident, 25M data, 27M linkedit.
-MemRegions: 37160 total, 2529M resident, 122M private, 2677M shared.
-PhysMem: 7940M used (1352M wired), 8436M unused.
-VM: 1778G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 2767/1577K in, 3022/520K out.
-Disks: 108795/3984M read, 19842/1574M written.
+Processes: 345 total, 2 running, 18 stuck, 325 sleeping, 2374 threads 
+2018/03/02 11:08:42
+Load Avg: 1.75, 2.04, 2.06 
+CPU usage: 11.50% user, 20.35% sys, 68.14% idle 
+SharedLibs: 135M resident, 23M data, 22M linkedit.
+MemRegions: 84076 total, 7859M resident, 75M private, 3079M shared.
+PhysMem: 16G used (3446M wired), 98M unused.
+VM: 2547G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 170303/104M in, 167064/51M out.
+Disks: 361374/8217M read, 84561/3585M written.
 
-COMMAND     MEM    %CPU #TH  
-hyperkit    1751M+ 0.0  18   
-kernel_task 955M+  0.0  135/8
-SophosScanD 278M+  0.0  45/2 
-mysqld      168M+  0.0  27   
-Dock        134M+  0.0  7    
+COMMAND          MEM    %CPU #TH  
+VBoxHeadless     1873M+ 0.0  27   
+hyperkit         1589M+ 0.0  18   
+kernel_task      1032M+ 0.0  139/8
+com.apple.WebKit 582M+  0.0  34   
+com.apple.WebKit 515M+  0.0  19   
