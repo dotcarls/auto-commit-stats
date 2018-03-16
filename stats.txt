@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   44.38 3594 155.80  40 25 35  4.51 1.01 0.36
+   38.80 650 24.63  13  7 80  2.85 2.73 1.58
 
-Processes: 258 total, 7 running, 50 stuck, 201 sleeping, 2020 threads 
-2018/03/16 09:48:23
-Load Avg: 4.51, 1.01, 0.36 
-CPU usage: 53.84% user, 23.7% sys, 23.7% idle 
-SharedLibs: 191M resident, 24M data, 27M linkedit.
-MemRegions: 29323 total, 2079M resident, 123M private, 603M shared.
-PhysMem: 4312M used (1268M wired), 12G unused.
-VM: 698G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1989/1244K in, 2124/336K out.
-Disks: 54267/2260M read, 7750/423M written.
+Processes: 326 total, 2 running, 20 stuck, 304 sleeping, 2204 threads 
+2018/03/16 09:55:09
+Load Avg: 2.85, 2.73, 1.58 
+CPU usage: 25.55% user, 24.44% sys, 50.0% idle 
+SharedLibs: 124M resident, 22M data, 22M linkedit.
+MemRegions: 65319 total, 7779M resident, 168M private, 3515M shared.
+PhysMem: 16G used (1480M wired), 42M unused.
+VM: 1954G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 94120/103M in, 59447/10M out.
+Disks: 235045/7793M read, 40293/2637M written.
 
-COMMAND          MEM   %CPU #TH  
-kernel_task      912M+ 0.0  135/8
-mysqld           168M+ 0.0  27   
-Dock             89M+  0.0  14   
-Adobe CEF Helper 77M+  0.0  21   
-WindowServer     57M+  0.0  6    
+COMMAND          MEM    %CPU #TH  
+hyperkit         1747M+ 0.0  19   
+kernel_task      1061M+ 0.0  135/8
+Rambox Helper    485M+  0.0  5    
+com.apple.WebKit 455M+  0.0  15   
+Safari           454M+  0.0  16   
