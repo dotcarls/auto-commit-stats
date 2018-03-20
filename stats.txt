@@ -1,38 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   27.67  25  0.69   5  4 92  1.94 2.38 2.32
+   27.67  25  0.69   5  4 92  9.87 4.02 2.90
 
-Processes: 338 total, 4 running, 23 stuck, 311 sleeping, 2040 threads 
-2018/03/20 14:47:10
-Load Avg: 1.94, 2.38, 2.32 
-CPU usage: 46.32% user, 22.83% sys, 30.84% idle 
+Processes: 351 total, 36 running, 16 stuck, 299 sleeping, 2227 threads 
+2018/03/20 14:47:11
+Load Avg: 9.87, 4.02, 2.90 
+CPU usage: 58.73% user, 28.57% sys, 12.69% idle 
 SharedLibs: 160M resident, 22M data, 14M linkedit.
-MemRegions: 59424 total, 2475M resident, 100M private, 1081M shared.
-PhysMem: 8089M used (2468M wired), 8286M unused.
-VM: 1965G vsize, 533M framework vsize, 9553543(0) swapins, 10152890(0) swapouts.
-Networks: packets: 4624868/3968M in, 3787189/2550M out.
-Disks: 5851363/123G read, 3398518/121G written.
+MemRegions: 62125 total, 2885M resident, 106M private, 1582M shared.
+PhysMem: 8912M used (2496M wired), 7464M unused.
+VM: 2001G vsize, 533M framework vsize, 9553605(0) swapins, 10152890(0) swapouts.
+Networks: packets: 4625088/3968M in, 3787399/2550M out.
+Disks: 5852755/123G read, 3398725/121G written.
 
 COMMAND      MEM    %CPU #TH  
-kernel_task  1424M+ 0.0  143/9
-Atom         169M+  0.0  45   
-Atom Helper  162M+  0.0  25   
-Atom Helper  162M+  0.0  26   
-WindowServer 157M+  0.0  7    
-Processes: 340 total, 9 running, 21 stuck, 310 sleeping, 2055 threads 
-2018/03/20 14:47:10
-Load Avg: 1.94, 2.38, 2.32 
-CPU usage: 69.68% user, 25.59% sys, 4.72% idle 
-SharedLibs: 160M resident, 22M data, 14M linkedit.
-MemRegions: 59896 total, 2525M resident, 101M private, 1128M shared.
-PhysMem: 8253M used (2564M wired), 8119M unused.
-VM: 1970G vsize, 533M framework vsize, 9553543(0) swapins, 10152890(0) swapouts.
-Networks: packets: 4624912/3968M in, 3787247/2550M out.
-Disks: 5851454/123G read, 3398531/121G written.
-
-COMMAND      MEM    %CPU #TH  
-kernel_task  1425M+ 0.0  143/8
-Atom Helper  186M+  0.0  24/1 
-Atom Helper  175M+  0.0  25/1 
-Atom         170M+  0.0  45   
-WindowServer 157M+  0.0  7    
+kernel_task  1436M+ 0.0  143/9
+Atom Helper  204M+  0.0  26/1 
+Atom Helper  199M+  0.0  26/1 
+Atom         176M+  0.0  45   
+WindowServer 158M+  0.0  5    
