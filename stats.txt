@@ -1,39 +1,39 @@
           disk0           disk2       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   26.83 309  8.11    52.29   0  0.02   8  5 87  2.07 2.37 2.36
+   26.23 317  8.13    51.30  20  1.00   8  5 87  2.46 2.21 2.17
 
 
-Processes: 309 total, 6 running, 18 stuck, 285 sleeping, 1593 threads 
-2018/03/21 12:00:05
-Load Avg: 2.07, 2.37, 2.36 
-CPU usage: 18.5% user, 12.93% sys, 69.0% idle 
-SharedLibs: 180M resident, 24M data, 27M linkedit.
-MemRegions: 40291 total, 4044M resident, 153M private, 1030M shared.
-PhysMem: 8184M used (1796M wired), 8191M unused.
-VM: 814G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 855516/232M in, 1549674/2026M out.
-Disks: 1324256/32G read, 283507/9528M written.
+Processes: 328 total, 5 running, 16 stuck, 307 sleeping, 1635 threads 
+2018/03/21 12:12:46
+Load Avg: 2.46, 2.21, 2.17 
+CPU usage: 18.98% user, 14.1% sys, 67.0% idle 
+SharedLibs: 183M resident, 25M data, 27M linkedit.
+MemRegions: 43040 total, 4916M resident, 163M private, 1010M shared.
+PhysMem: 9398M used (1836M wired), 6976M unused.
+VM: 865G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 863559/239M in, 1557153/2027M out.
+Disks: 1624626/38G read, 381561/15G written.
 
 COMMAND     MEM    %CPU #TH  
-kernel_task 1335M+ 0.0  143/8
-mds_stores  398M+  0.0  7/3  
-SophosScanD 288M+  0.0  40/1 
-Atom        172M+  0.0  46   
+kernel_task 1378M+ 0.0  142/8
+mds_stores  647M+  0.0  7    
+Safari      419M+  0.0  11   
+SophosScanD 289M+  0.0  44/1 
 mysqld      168M+  0.0  27   
-Processes: 309 total, 5 running, 18 stuck, 286 sleeping, 1593 threads 
-2018/03/21 12:00:05
-Load Avg: 2.07, 2.37, 2.36 
-CPU usage: 17.86% user, 13.6% sys, 69.6% idle 
-SharedLibs: 180M resident, 24M data, 27M linkedit.
-MemRegions: 40290 total, 4044M resident, 153M private, 1030M shared.
-PhysMem: 8184M used (1796M wired), 8191M unused.
-VM: 814G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 855516/232M in, 1549674/2026M out.
-Disks: 1324256/32G read, 283507/9528M written.
+Processes: 328 total, 5 running, 16 stuck, 307 sleeping, 1635 threads 
+2018/03/21 12:12:46
+Load Avg: 2.46, 2.21, 2.17 
+CPU usage: 19.0% user, 13.90% sys, 67.9% idle 
+SharedLibs: 183M resident, 25M data, 27M linkedit.
+MemRegions: 43040 total, 4922M resident, 163M private, 1010M shared.
+PhysMem: 9399M used (1836M wired), 6976M unused.
+VM: 865G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 863559/239M in, 1557153/2027M out.
+Disks: 1624626/38G read, 381561/15G written.
 
 COMMAND     MEM    %CPU #TH  
-kernel_task 1335M+ 0.0  143/8
-mds_stores  398M+  0.0  7    
-SophosScanD 288M+  0.0  40/1 
-Atom        172M+  0.0  46   
+kernel_task 1378M+ 0.0  142/8
+mds_stores  647M+  0.0  7    
+Safari      419M+  0.0  11   
+SophosScanD 289M+  0.0  44/3 
 mysqld      168M+  0.0  27   
