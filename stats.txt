@@ -1,39 +1,21 @@
           disk0           disk2       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   26.23 317  8.13    51.30  20  1.00   8  5 87  2.46 2.21 2.17
+   26.02 351  8.93    63.82  31  1.95   8  5 87  2.62 2.35 2.24
 
-
-Processes: 328 total, 5 running, 16 stuck, 307 sleeping, 1635 threads 
-2018/03/21 12:12:46
-Load Avg: 2.46, 2.21, 2.17 
-CPU usage: 18.98% user, 14.1% sys, 67.0% idle 
+Processes: 348 total, 4 running, 17 stuck, 327 sleeping, 2063 threads 
+2018/03/21 12:16:43
+Load Avg: 2.62, 2.35, 2.24 
+CPU usage: 41.90% user, 28.57% sys, 29.52% idle 
 SharedLibs: 183M resident, 25M data, 27M linkedit.
-MemRegions: 43040 total, 4916M resident, 163M private, 1010M shared.
-PhysMem: 9398M used (1836M wired), 6976M unused.
-VM: 865G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 863559/239M in, 1557153/2027M out.
-Disks: 1624626/38G read, 381561/15G written.
+MemRegions: 56361 total, 6885M resident, 185M private, 1549M shared.
+PhysMem: 12G used (1921M wired), 4006M unused.
+VM: 925G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 898216/266M in, 1590673/2030M out.
+Disks: 1905651/45G read, 461775/21G written.
 
-COMMAND     MEM    %CPU #TH  
-kernel_task 1378M+ 0.0  142/8
-mds_stores  647M+  0.0  7    
-Safari      419M+  0.0  11   
-SophosScanD 289M+  0.0  44/1 
-mysqld      168M+  0.0  27   
-Processes: 328 total, 5 running, 16 stuck, 307 sleeping, 1635 threads 
-2018/03/21 12:12:46
-Load Avg: 2.46, 2.21, 2.17 
-CPU usage: 19.0% user, 13.90% sys, 67.9% idle 
-SharedLibs: 183M resident, 25M data, 27M linkedit.
-MemRegions: 43040 total, 4922M resident, 163M private, 1010M shared.
-PhysMem: 9399M used (1836M wired), 6976M unused.
-VM: 865G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 863559/239M in, 1557153/2027M out.
-Disks: 1624626/38G read, 381561/15G written.
-
-COMMAND     MEM    %CPU #TH  
-kernel_task 1378M+ 0.0  142/8
-mds_stores  647M+  0.0  7    
-Safari      419M+  0.0  11   
-SophosScanD 289M+  0.0  44/3 
-mysqld      168M+  0.0  27   
+COMMAND       MEM    %CPU #TH  
+kernel_task   1423M+ 0.0  142/8
+mds_stores    453M+  0.0  9    
+Safari        419M+  0.0  11   
+SophosScanD   294M+  0.0  43   
+Rambox Helper 276M+  0.0  20   
