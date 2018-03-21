@@ -1,21 +1,21 @@
           disk0       cpu     load average
     KB/t tps  MB/s  us sy id   1m   5m   15m
-   27.56  26  0.69   5  4 92  2.51 2.92 2.73
+   41.88 3466 141.74  42 25 33  8.64 1.92 0.69
 
-Processes: 346 total, 2 running, 11 stuck, 333 sleeping, 2070 threads 
-2018/03/20 14:53:00
-Load Avg: 2.51, 2.92, 2.73 
-CPU usage: 10.67% user, 23.30% sys, 66.1% idle 
-SharedLibs: 160M resident, 22M data, 14M linkedit.
-MemRegions: 70196 total, 4181M resident, 110M private, 1705M shared.
-PhysMem: 10G used (2312M wired), 5935M unused.
-VM: 2001G vsize, 533M framework vsize, 9554372(0) swapins, 10152890(0) swapouts.
-Networks: packets: 4645329/3982M in, 3805788/2552M out.
-Disks: 5906194/123G read, 3405382/121G written.
+Processes: 255 total, 3 running, 30 stuck, 221 sleeping, 1 unknown, 1885 threads 
+2018/03/21 10:33:57
+Load Avg: 8.35, 1.97, 0.71 
+CPU usage: 43.63% user, 21.81% sys, 34.54% idle 
+SharedLibs: 189M resident, 24M data, 27M linkedit.
+MemRegions: 29470 total, 1936M resident, 120M private, 646M shared.
+PhysMem: 4245M used (1275M wired), 12G unused.
+VM: 1221G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 4864/5321K in, 2661/383K out.
+Disks: 58751/2269M read, 7539/448M written.
 
-COMMAND       MEM    %CPU #TH  
-kernel_task   1447M+ 0.0  143/8
-Atom Helper   230M+  0.0  25   
-Rambox Helper 213M+  0.0  25   
-Rambox Helper 198M+  0.0  25   
-Rambox Helper 195M+  0.0  23   
+COMMAND          MEM   %CPU #TH  
+kernel_task      905M+ 0.0  135/8
+mysqld           168M+ 0.0  27   
+Adobe CEF Helper 76M+  0.0  19   
+WindowServer     62M+  0.0  6    
+node             56M+  0.0  13   
