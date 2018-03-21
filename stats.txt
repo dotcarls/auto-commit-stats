@@ -1,21 +1,39 @@
           disk0           disk2       cpu     load average
     KB/t tps  MB/s     KB/t tps  MB/s  us sy id   1m   5m   15m
-   33.73 136  4.49    73.69  28  1.98   6  4 90  2.46 2.24 2.16
+   26.83 309  8.11    52.29   0  0.02   8  5 87  2.07 2.37 2.36
 
-Processes: 293 total, 3 running, 18 stuck, 272 sleeping, 1677 threads 
-2018/03/21 11:14:02
-Load Avg: 2.42, 2.23, 2.16 
-CPU usage: 26.8% user, 26.8% sys, 47.82% idle 
-SharedLibs: 149M resident, 23M data, 24M linkedit.
-MemRegions: 46999 total, 2970M resident, 152M private, 3031M shared.
-PhysMem: 9957M used (1718M wired), 6418M unused.
-VM: 1830G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 150467/164M in, 95689/21M out.
-Disks: 274074/8497M read, 123220/7190M written.
 
-COMMAND      MEM    %CPU #TH  
-hyperkit     1755M+ 0.0  19   
-kernel_task  1229M+ 0.0  138/8
-SophosScanD  282M+  0.0  38   
-mysqld       168M+  0.0  27   
-WindowServer 143M+  0.0  6    
+Processes: 309 total, 6 running, 18 stuck, 285 sleeping, 1593 threads 
+2018/03/21 12:00:05
+Load Avg: 2.07, 2.37, 2.36 
+CPU usage: 18.5% user, 12.93% sys, 69.0% idle 
+SharedLibs: 180M resident, 24M data, 27M linkedit.
+MemRegions: 40291 total, 4044M resident, 153M private, 1030M shared.
+PhysMem: 8184M used (1796M wired), 8191M unused.
+VM: 814G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 855516/232M in, 1549674/2026M out.
+Disks: 1324256/32G read, 283507/9528M written.
+
+COMMAND     MEM    %CPU #TH  
+kernel_task 1335M+ 0.0  143/8
+mds_stores  398M+  0.0  7/3  
+SophosScanD 288M+  0.0  40/1 
+Atom        172M+  0.0  46   
+mysqld      168M+  0.0  27   
+Processes: 309 total, 5 running, 18 stuck, 286 sleeping, 1593 threads 
+2018/03/21 12:00:05
+Load Avg: 2.07, 2.37, 2.36 
+CPU usage: 17.86% user, 13.6% sys, 69.6% idle 
+SharedLibs: 180M resident, 24M data, 27M linkedit.
+MemRegions: 40290 total, 4044M resident, 153M private, 1030M shared.
+PhysMem: 8184M used (1796M wired), 8191M unused.
+VM: 814G vsize, 533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 855516/232M in, 1549674/2026M out.
+Disks: 1324256/32G read, 283507/9528M written.
+
+COMMAND     MEM    %CPU #TH  
+kernel_task 1335M+ 0.0  143/8
+mds_stores  398M+  0.0  7    
+SophosScanD 288M+  0.0  40/1 
+Atom        172M+  0.0  46   
+mysqld      168M+  0.0  27   
