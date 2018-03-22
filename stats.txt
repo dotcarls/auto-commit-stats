@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   28.80 2559 71.97  29 19 53  2.29 0.57 0.21
+   24.45  780 18.62  16 10 74  2.31 1.72 0.82
 
-Processes: 269 total, 5 running, 17 stuck, 247 sleeping, 1831 threads 
-2018/03/21 17:51:18
-Load Avg: 2.29, 0.57, 0.21 
-CPU usage: 41.33% user, 16.0% sys, 42.66% idle 
-SharedLibs: 234M resident, 49M data, 47M linkedit.
-MemRegions: 25027 total, 1882M resident, 135M private, 607M shared.
-PhysMem: 4838M used (1645M wired), 11G unused.
-VM: 723G vsize, 627M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 2046/1734K in, 2294/337K out.
-Disks: 88982/2551M read, 7793/167M written.
+Processes: 334 total, 5 running, 5 stuck, 324 sleeping, 1693 threads 
+2018/03/21 17:54:49
+Load Avg: 2.31, 1.72, 0.82 
+CPU usage: 23.71% user, 23.71% sys, 52.57% idle 
+SharedLibs: 262M resident, 51M data, 56M linkedit.
+MemRegions: 36289 total, 2957M resident, 181M private, 696M shared.
+PhysMem: 7151M used (1809M wired), 9224M unused.
+VM: 877G vsize, 627M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 74290/100M in, 44459/4094K out.
+Disks: 161333/3723M read, 32199/901M written.
 
-COMMAND        MEM    %CPU #TH  
-kernel_task    1208M+ 0.0  143/8
-Atom Helper    187M+  0.0  24/1 
-Atom           156M+  0.0  37   
-VShieldScanner 141M+  0.0  2    
-inSync         94M+   0.0  4/1  
+COMMAND          MEM    %CPU #TH  
+kernel_task      1318M+ 0.0  142/8
+inSync           201M+  0.0  44   
+Atom             150M+  0.0  40   
+VShieldScanner   142M+  0.0  2    
+inSyncDecommissi 87M+   0.0  4    
