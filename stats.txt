@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   98.16   24  2.25  10  8 82  1.94 2.04 2.42
+   46.66  707 32.24  19  9 72  3.62 3.21 1.48
 
-Processes: 403 total, 3 running, 1 stuck, 399 sleeping, 1990 threads 
-2018/03/25 10:03:56
-Load Avg: 1.94, 2.04, 2.42 
-CPU usage: 14.64% user, 12.10% sys, 73.24% idle 
-SharedLibs: 217M resident, 43M data, 62M linkedit.
-MemRegions: 77897 total, 4670M resident, 95M private, 1215M shared.
-PhysMem: 12G used (2226M wired), 3632M unused.
-VM: 1087G vsize, 627M framework vsize, 61085156(0) swapins, 63202278(0) swapouts.
-Networks: packets: 69795984/91G in, 48363088/15G out.
-Disks: 4298276/323G read, 3165613/376G written.
+Processes: 306 total, 3 running, 3 stuck, 300 sleeping, 1663 threads 
+2018/03/26 11:13:26
+Load Avg: 3.62, 3.21, 1.48 
+CPU usage: 24.44% user, 20.0% sys, 55.55% idle 
+SharedLibs: 224M resident, 49M data, 26M linkedit.
+MemRegions: 41324 total, 4261M resident, 168M private, 971M shared.
+PhysMem: 8410M used (1433M wired), 7965M unused.
+VM: 822G vsize, 627M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 14852/12M in, 14512/3102K out.
+Disks: 95967/4334M read, 19976/949M written.
 
-COMMAND          MEM    %CPU #TH  
-kernel_task      1536M+ 0.0  148/8
-inSync           371M+  0.0  46   
-Rambox Helper    302M+  0.0  23   
-Rambox Helper    276M+  0.0  22   
-com.apple.WebKit 265M+  0.0  9    
+COMMAND       MEM   %CPU #TH  
+kernel_task   996M+ 0.0  142/8
+Rambox Helper 352M+ 0.0  25   
+Rambox Helper 331M+ 0.0  5    
+Rambox Helper 224M+ 0.0  20/1 
+Rambox Helper 196M+ 0.0  25   
