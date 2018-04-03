@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   46.54 1827 83.05  31 19 49  4.35 1.21 0.45
+  139.04   50  6.74   7  6 87  3.13 3.57 4.36
 
-Processes: 295 total, 6 running, 7 stuck, 282 sleeping, 1471 threads 
-2018/04/02 19:24:16
-Load Avg: 4.35, 1.21, 0.45 
-CPU usage: 52.22% user, 33.33% sys, 14.44% idle 
-SharedLibs: 220M resident, 49M data, 24M linkedit.
-MemRegions: 28582 total, 2181M resident, 155M private, 413M shared.
-PhysMem: 5795M used (1614M wired), 10G unused.
-VM: 777G vsize, 627M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1487/741K in, 2072/357K out.
-Disks: 57476/2813M read, 9383/223M written.
+Processes: 335 total, 4 running, 331 sleeping, 1808 threads 
+2018/04/03 08:39:45
+Load Avg: 3.13, 3.57, 4.36 
+CPU usage: 16.37% user, 18.10% sys, 65.51% idle 
+SharedLibs: 141M resident, 43M data, 51M linkedit.
+MemRegions: 48710 total, 2341M resident, 82M private, 658M shared.
+PhysMem: 7613M used (1714M wired), 8760M unused.
+VM: 902G vsize, 627M framework vsize, 36359932(0) swapins, 37441074(0) swapouts.
+Networks: packets: 287149/174M in, 306288/58M out.
+Disks: 1574869/166G read, 796794/148G written.
 
-COMMAND          MEM   %CPU #TH   
-kernel_task      949M+ 0.0  145/10
-inSync           148M+ 0.0  33    
-VShieldScanner   141M+ 0.0  2     
-cloudd           110M+ 0.0  8/2   
-inSyncDecommissi 87M+  0.0  4     
+COMMAND          MEM    %CPU #TH  
+kernel_task      1033M+ 0.0  143/8
+com.apple.WebKit 316M+  0.0  14   
+Rambox Helper    213M+  0.0  26   
+Rambox Helper    186M+  0.0  23   
+Rambox Helper    105M+  0.0  24   
