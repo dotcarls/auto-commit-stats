@@ -1,21 +1,21 @@
-              disk0               disk2               disk3       cpu    load average
-    KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   36.71   22  0.77     1.40    0  0.00   776.24    0  0.00   7  6 88  3.30 2.86 2.66
+              disk0               disk2       cpu    load average
+    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
+   45.98 2730 122.59     6.61    2  0.01  54 27 19  5.02 1.25 0.45
 
-Processes: 346 total, 6 running, 340 sleeping, 1554 threads 
-2018/04/17 19:00:12
-Load Avg: 3.30, 2.86, 2.66 
-CPU usage: 27.97% user, 22.61% sys, 49.40% idle 
-SharedLibs: 141M resident, 38M data, 13M linkedit.
-MemRegions: 82093 total, 2176M resident, 56M private, 1109M shared.
-PhysMem: 8608M used (2128M wired), 7771M unused.
-VM: 2494G vsize, 627M framework vsize, 9214340(0) swapins, 10192177(0) swapouts.
-Networks: packets: 9545635/9472M in, 9052440/7509M out.
-Disks: 4817416/137G read, 3353216/149G written.
+Processes: 307 total, 11 running, 296 sleeping, 1812 threads 
+2018/04/17 20:12:15
+Load Avg: 5.02, 1.25, 0.45 
+CPU usage: 56.52% user, 28.69% sys, 14.78% idle 
+SharedLibs: 215M resident, 50M data, 24M linkedit.
+MemRegions: 37333 total, 2346M resident, 162M private, 539M shared.
+PhysMem: 6687M used (1471M wired), 9692M unused.
+VM: 1865G vsize, 627M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 4685/4485K in, 4617/642K out.
+Disks: 67711/3093M read, 5506/189M written.
 
-COMMAND          MEM    %CPU #TH  
-kernel_task      1534M+ 0.0  145/8
-com.docker.hyper 726M+  0.0  19   
-parentalcontrols 559M+  0.0  7/2  
-Terminal         77M+   0.0  15   
-WindowServer     68M+   0.0  6    
+COMMAND          MEM   %CPU #TH  
+kernel_task      927M+ 0.0  145/8
+VShieldScanner   144M+ 0.0  2    
+inSync           121M+ 0.0  4/1  
+inSyncDecommissi 96M+  0.0  6    
+akd              87M+  0.0  11   
