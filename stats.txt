@@ -1,57 +1,21 @@
-              disk0               disk2       cpu    load average
-    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   51.84   17  0.85    16.20    0  0.00   9  5 87  1.99 2.05 2.23
+              disk0               disk2               disk3       cpu    load average
+    KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
+   51.09   18  0.88    14.05    0  0.00   170.95    0  0.00   9  5 87  1.97 2.14 2.36
 
+Processes: 417 total, 3 running, 414 sleeping, 1955 threads 
+2018/04/28 16:03:46
+Load Avg: 1.97, 2.14, 2.36 
+CPU usage: 15.38% user, 11.83% sys, 72.78% idle 
+SharedLibs: 206M resident, 40M data, 52M linkedit.
+MemRegions: 84483 total, 3371M resident, 97M private, 3342M shared.
+PhysMem: 13G used (2697M wired), 3351M unused.
+VM: 2178G vsize, 627M framework vsize, 22288852(0) swapins, 26455903(0) swapouts.
+Networks: packets: 12328778/11G in, 9440954/6725M out.
+Disks: 4183099/190G read, 3511677/184G written.
 
-
-Processes: 419 total, 46 running, 1 stuck, 372 sleeping, 1935 threads 
-2018/04/28 11:56:57
-Load Avg: 1.99, 2.05, 2.23 
-CPU usage: 58.62% user, 41.20% sys, 0.16% idle 
-SharedLibs: 223M resident, 43M data, 60M linkedit.
-MemRegions: 91585 total, 5683M resident, 120M private, 1946M shared.
-PhysMem: 16G used (2134M wired), 64M unused.
-VM: 2182G vsize, 627M framework vsize, 21583052(0) swapins, 24763099(0) swapouts.
-Networks: packets: 10722283/9427M in, 7802454/5249M out.
-Disks: 3847899/180G read, 3241604/170G written.
-
-COMMAND          MEM    %CPU #TH  
-kernel_task      5534M+ 0.0  148/9
-Photos           904M+  0.0  13/1 
-Finder           508M+  0.0  9    
-com.apple.WebKit 358M+  0.0  7/1  
-Atom Helper      310M+  0.0  25/2 
-Processes: 419 total, 46 running, 373 sleeping, 1935 threads 
-2018/04/28 11:56:57
-Load Avg: 1.99, 2.05, 2.23 
-CPU usage: 58.73% user, 41.26% sys, 0.0% idle 
-SharedLibs: 223M resident, 43M data, 60M linkedit.
-MemRegions: 91580 total, 5682M resident, 120M private, 1946M shared.
-PhysMem: 16G used (2134M wired), 64M unused.
-VM: 2182G vsize, 627M framework vsize, 21583052(0) swapins, 24763099(0) swapouts.
-Networks: packets: 10722283/9427M in, 7802456/5249M out.
-Disks: 3847899/180G read, 3241604/170G written.
-
-COMMAND          MEM    %CPU #TH   
-kernel_task      5534M+ 0.0  148/10
-Photos           904M+  0.0  13/1  
-Finder           508M+  0.0  9     
-com.apple.WebKit 358M+  0.0  7/1   
-Atom Helper      308M+  0.0  25/2  
-Processes: 419 total, 44 running, 375 sleeping, 1933 threads 
-2018/04/28 11:56:57
-Load Avg: 1.99, 2.05, 2.23 
-CPU usage: 59.38% user, 40.46% sys, 0.15% idle 
-SharedLibs: 223M resident, 43M data, 60M linkedit.
-MemRegions: 91579 total, 5683M resident, 120M private, 1943M shared.
-PhysMem: 16G used (2134M wired), 63M unused.
-VM: 2182G vsize, 627M framework vsize, 21583052(0) swapins, 24763099(0) swapouts.
-Networks: packets: 10722315/9427M in, 7802496/5249M out.
-Disks: 3847900/180G read, 3241604/170G written.
-
-COMMAND          MEM    %CPU #TH  
-kernel_task      5534M+ 0.0  148/8
-Photos           904M+  0.0  13/1 
-Finder           508M+  0.0  9    
-com.apple.WebKit 358M+  0.0  7/1  
-Atom Helper      310M+  0.0  25/2 
+COMMAND     MEM    %CPU #TH  
+kernel_task 1463M+ 0.0  148/8
+node        254M+  0.0  12   
+Atom Helper 248M+  0.0  26   
+node        245M+  0.0  12   
+Atom Helper 126M+  0.0  9    
