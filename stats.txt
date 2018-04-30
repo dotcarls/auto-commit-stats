@@ -1,38 +1,21 @@
-              disk0       cpu    load average
-    KB/t  tps  MB/s  us sy id   1m   5m   15m
-   51.10 1935 96.57  40 24 36  17.24 5.15 1.93
+              disk0               disk2       cpu    load average
+    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
+   44.38  632 27.40   245.33    2  0.51  25 12 63  4.21 6.59 3.70
 
-Processes: 333 total, 6 running, 1 stuck, 326 sleeping, 2032 threads 
-2018/04/30 09:33:45
-Load Avg: 17.24, 5.15, 1.93 
-CPU usage: 29.3% user, 61.29% sys, 9.67% idle 
-SharedLibs: 236M resident, 50M data, 27M linkedit.
-MemRegions: 50817 total, 3326M resident, 187M private, 2541M shared.
-PhysMem: 10G used (1995M wired), 5911M unused.
-VM: 1955G vsize, 627M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 11584/7299K in, 13055/11M out.
-Disks: 109516/5124M read, 26688/1666M written.
+Processes: 347 total, 9 running, 338 sleeping, 1788 threads 
+2018/04/30 10:42:43
+Load Avg: 4.21, 6.59, 3.70 
+CPU usage: 76.53% user, 20.40% sys, 3.6% idle 
+SharedLibs: 243M resident, 50M data, 28M linkedit.
+MemRegions: 54055 total, 4005M resident, 177M private, 2545M shared.
+PhysMem: 11G used (1728M wired), 4963M unused.
+VM: 1983G vsize, 627M framework vsize, 36961(0) swapins, 44889(0) swapouts.
+Networks: packets: 73579/89M in, 32844/3766K out.
+Disks: 151019/5798M read, 31387/2229M written.
 
 COMMAND          MEM    %CPU #TH  
-com.docker.hyper 1324M+ 0.0  19/3 
-kernel_task      1039M+ 0.0  145/8
-Finder           241M+  0.0  11   
-inSync           148M+  0.0  34   
-VShieldScanner   145M+  0.0  2    
-Processes: 333 total, 5 running, 328 sleeping, 2032 threads 
-2018/04/30 09:33:45
-Load Avg: 17.24, 5.15, 1.93 
-CPU usage: 26.20% user, 59.82% sys, 13.97% idle 
-SharedLibs: 236M resident, 50M data, 27M linkedit.
-MemRegions: 50818 total, 3329M resident, 187M private, 2543M shared.
-PhysMem: 10G used (1994M wired), 5912M unused.
-VM: 1955G vsize, 627M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 11607/7300K in, 13094/11M out.
-Disks: 109533/5124M read, 26697/1666M written.
-
-COMMAND          MEM    %CPU #TH   
-com.docker.hyper 1324M+ 0.0  19/4  
-kernel_task      1041M+ 0.0  145/11
-Finder           241M+  0.0  11    
-inSync           148M+  0.0  34    
-VShieldScanner   145M+  0.0  2     
+com.docker.hyper 1333M+ 0.0  19   
+kernel_task      1163M+ 0.0  144/9
+com.apple.WebKit 307M+  0.0  15   
+inSync           153M+  0.0  33   
+VShieldScanner   147M+  0.0  2    
