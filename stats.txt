@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   34.59   52  1.77   8  4 88  2.04 2.25 2.25
+   30.55   40  1.18   8  4 88  5.74 4.55 3.26
 
-Processes: 410 total, 3 running, 407 sleeping, 2711 threads 
-2018/05/02 14:56:38
-Load Avg: 2.04, 2.25, 2.25 
-CPU usage: 14.21% user, 13.23% sys, 72.54% idle 
-SharedLibs: 161M resident, 40M data, 16M linkedit.
-MemRegions: 102724 total, 5155M resident, 81M private, 2492M shared.
-PhysMem: 15G used (2239M wired), 752M unused.
-VM: 2192G vsize, 627M framework vsize, 288123(0) swapins, 623493(0) swapouts.
-Networks: packets: 630469/307M in, 599730/141M out.
-Disks: 650993/22G read, 258958/8581M written.
+Processes: 329 total, 2 running, 1 stuck, 326 sleeping, 1304 threads 
+2018/05/02 19:03:35
+Load Avg: 5.74, 4.55, 3.26 
+CPU usage: 3.0% user, 9.0% sys, 88.0% idle 
+SharedLibs: 167M resident, 41M data, 18M linkedit.
+MemRegions: 46049 total, 1241M resident, 84M private, 1829M shared.
+PhysMem: 9239M used (1905M wired), 7139M unused.
+VM: 1922G vsize, 627M framework vsize, 477271(0) swapins, 706032(0) swapouts.
+Networks: packets: 1268318/557M in, 965589/247M out.
+Disks: 886354/26G read, 390008/11G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1399M+ 0.0  143/8
-com.docker.hyper 1110M+ 0.0  18   
-Google Chrome He 345M+  0.0  18   
-Atom Helper      314M+  0.0  26   
-Rambox Helper    285M+  0.0  22   
+kernel_task      1212M+ 0.0  144/8
+com.docker.hyper 1108M+ 0.0  18   
+WindowServer     96M+   0.0  5    
+mds_stores       59M+   0.0  6    
+TaniumClient     44M+   0.0  7    
