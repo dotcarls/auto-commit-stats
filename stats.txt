@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   48.71 1330 63.29  38 22 40  26.45 14.16 5.85
+   81.44   19  1.52   9  5 86  1.97 2.16 2.43
 
-Processes: 340 total, 10 running, 330 sleeping, 2114 threads 
-2018/05/24 19:37:16
-Load Avg: 26.45, 14.16, 5.85 
-CPU usage: 59.21% user, 36.31% sys, 4.46% idle 
-SharedLibs: 137M resident, 41M data, 18M linkedit.
-MemRegions: 52497 total, 4896M resident, 163M private, 3525M shared.
-PhysMem: 13G used (1728M wired), 2622M unused.
-VM: 1964G vsize, 627M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 16972/16M in, 13688/2165K out.
-Disks: 125989/5476M read, 25438/1723M written.
+Processes: 347 total, 2 running, 345 sleeping, 2092 threads 
+2018/05/25 09:56:25
+Load Avg: 1.97, 2.16, 2.43 
+CPU usage: 15.78% user, 15.78% sys, 68.42% idle 
+SharedLibs: 130M resident, 35M data, 13M linkedit.
+MemRegions: 63383 total, 3602M resident, 87M private, 1288M shared.
+PhysMem: 16G used (1748M wired), 256M unused.
+VM: 2000G vsize, 627M framework vsize, 1956397(0) swapins, 2162804(0) swapouts.
+Networks: packets: 385496/241M in, 407042/196M out.
+Disks: 708241/62G read, 277496/15G written.
 
-COMMAND          MEM    %CPU #TH  
-com.docker.hyper 2190M+ 0.0  20   
-kernel_task      1097M+ 0.0  145/8
-Rambox Helper    467M+  0.0  7    
-Rambox Helper    354M+  0.0  26   
-Rambox Helper    245M+  0.0  23   
-Processes: 341 total, 8 running, 1 stuck, 332 sleeping, 2115 threads 
-2018/05/24 19:37:16
-Load Avg: 26.45, 14.16, 5.85 
-CPU usage: 58.29% user, 33.17% sys, 8.53% idle 
-SharedLibs: 137M resident, 41M data, 18M linkedit.
-MemRegions: 52556 total, 4898M resident, 163M private, 3526M shared.
-PhysMem: 13G used (1727M wired), 2623M unused.
-VM: 1967G vsize, 627M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 16972/16M in, 13688/2165K out.
-Disks: 126004/5476M read, 25438/1723M written.
-
-COMMAND          MEM    %CPU #TH  
-com.docker.hyper 2190M+ 0.0  20   
-kernel_task      1097M+ 0.0  145/8
-Rambox Helper    467M+  0.0  7    
-Rambox Helper    354M+  0.0  26   
-Rambox Helper    245M+  0.0  23   
+COMMAND       MEM    %CPU #TH  
+kernel_task   1110M+ 0.0  144/8
+Rambox Helper 505M+  0.0  27   
+Rambox Helper 365M+  0.0  23   
+Rambox Helper 328M+  0.0  6    
+inSync        229M+  0.0  35   
