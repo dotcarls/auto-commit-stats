@@ -1,21 +1,38 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   30.39  149  4.42    32.30    2  0.07  17  4 79  2.28 2.73 2.98
+   30.39  149  4.42    32.30    2  0.07  17  4 79  2.50 2.76 2.99
 
-Processes: 413 total, 6 running, 407 sleeping, 1931 threads 
-2018/06/13 19:39:26
-Load Avg: 2.28, 2.73, 2.98 
-CPU usage: 64.36% user, 31.41% sys, 4.21% idle 
+Processes: 411 total, 5 running, 406 sleeping, 1855 threads 
+2018/06/13 19:39:28
+Load Avg: 2.50, 2.76, 2.99 
+CPU usage: 44.95% user, 21.55% sys, 33.48% idle 
 SharedLibs: 416M resident, 67M data, 146M linkedit.
-MemRegions: 77244 total, 4153M resident, 134M private, 3067M shared.
-PhysMem: 15G used (2401M wired), 1008M unused.
-VM: 3030G vsize, 1109M framework vsize, 401322(0) swapins, 658811(0) swapouts.
-Networks: packets: 2039670/1334M in, 2503649/2215M out.
-Disks: 3474513/110G read, 1357434/31G written.
+MemRegions: 77160 total, 4161M resident, 134M private, 3052M shared.
+PhysMem: 15G used (2365M wired), 1096M unused.
+VM: 3022G vsize, 1109M framework vsize, 401322(0) swapins, 658811(0) swapouts.
+Networks: packets: 2039833/1334M in, 2503784/2215M out.
+Disks: 3474928/110G read, 1357622/31G written.
 
 COMMAND          MEM    %CPU #TH  
 com.docker.hyper 1812M+ 0.0  19   
 kernel_task      1566M+ 0.0  150/8
-com.apple.WebKit 515M+  0.0  8    
+com.apple.WebKit 514M+  0.0  8    
 Atom Helper      239M+  0.0  27   
-Atom Helper      228M+  0.0  26   
+Atom Helper      230M+  0.0  26   
+Processes: 412 total, 7 running, 405 sleeping, 1855 threads 
+2018/06/13 19:39:28
+Load Avg: 2.50, 2.76, 2.99 
+CPU usage: 42.64% user, 19.85% sys, 37.50% idle 
+SharedLibs: 416M resident, 67M data, 146M linkedit.
+MemRegions: 77199 total, 4162M resident, 134M private, 3052M shared.
+PhysMem: 15G used (2365M wired), 1099M unused.
+VM: 3026G vsize, 1109M framework vsize, 401322(0) swapins, 658811(0) swapouts.
+Networks: packets: 2039833/1334M in, 2503784/2215M out.
+Disks: 3474928/110G read, 1357622/31G written.
+
+COMMAND          MEM    %CPU #TH  
+com.docker.hyper 1812M+ 0.0  19   
+kernel_task      1566M+ 0.0  150/8
+com.apple.WebKit 514M+  0.0  8    
+Atom Helper      239M+  0.0  27   
+Atom Helper      230M+  0.0  26   
