@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   37.54   31  1.15   169.94    0  0.02   8  6 86  2.08 2.11 2.15
+   37.52   31  1.15   169.94    0  0.02   8  6 86  2.16 2.11 2.14
 
-Processes: 445 total, 3 running, 442 sleeping, 2205 threads 
-2018/06/26 11:43:02
-Load Avg: 2.08, 2.11, 2.15 
-CPU usage: 11.91% user, 12.46% sys, 75.62% idle 
+Processes: 454 total, 5 running, 1 stuck, 448 sleeping, 2302 threads 
+2018/06/26 11:44:10
+Load Avg: 2.16, 2.11, 2.14 
+CPU usage: 28.82% user, 15.28% sys, 55.88% idle 
 SharedLibs: 304M resident, 57M data, 28M linkedit.
-MemRegions: 171494 total, 6755M resident, 151M private, 2594M shared.
-PhysMem: 16G used (2401M wired), 155M unused.
-VM: 4158G vsize, 1110M framework vsize, 54701836(0) swapins, 58107183(0) swapouts.
-Networks: packets: 53229695/39G in, 62781112/63G out.
-Disks: 19777874/698G read, 12908321/492G written.
+MemRegions: 173584 total, 7098M resident, 154M private, 2514M shared.
+PhysMem: 16G used (2455M wired), 70M unused.
+VM: 4198G vsize, 1110M framework vsize, 54702666(0) swapins, 58107183(0) swapouts.
+Networks: packets: 53231028/39G in, 62782390/63G out.
+Disks: 19786000/698G read, 12912803/492G written.
 
 COMMAND       MEM    %CPU #TH  
-kernel_task   1761M+ 0.0  153/8
+kernel_task   1766M+ 0.0  153/8
 Rambox Helper 474M+  0.0  5    
-WindowServer  424M+  0.0  10   
 Rambox Helper 409M+  0.0  23   
 Rambox Helper 346M+  0.0  25   
+Atom Helper   310M+  0.0  22   
