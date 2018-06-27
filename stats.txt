@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   36.55   31  1.10   164.95    0  0.02   8  5 86  3.66 2.81 2.53
+   36.47   31  1.10   164.95    0  0.02   8  5 86  101.80 36.53 15.54
 
-Processes: 488 total, 4 running, 1 stuck, 483 sleeping, 2331 threads 
-2018/06/27 11:55:56
-Load Avg: 3.66, 2.81, 2.53 
-CPU usage: 41.63% user, 19.9% sys, 39.27% idle 
-SharedLibs: 312M resident, 63M data, 35M linkedit.
-MemRegions: 207376 total, 8090M resident, 107M private, 1125M shared.
-PhysMem: 16G used (6696M wired), 83M unused.
-VM: 5554G vsize, 1110M framework vsize, 55255738(0) swapins, 59040886(0) swapouts.
-Networks: packets: 55126551/40G in, 64991039/65G out.
-Disks: 21052243/724G read, 13719177/508G written.
+Processes: 467 total, 6 running, 461 sleeping, 2284 threads 
+2018/06/27 11:58:21
+Load Avg: 101.80, 36.53, 15.54 
+CPU usage: 55.40% user, 19.44% sys, 25.15% idle 
+SharedLibs: 312M resident, 63M data, 34M linkedit.
+MemRegions: 191255 total, 7694M resident, 103M private, 856M shared.
+PhysMem: 14G used (6622M wired), 2071M unused.
+VM: 5354G vsize, 1110M framework vsize, 55292399(0) swapins, 59050823(0) swapouts.
+Networks: packets: 55129319/40G in, 64993706/65G out.
+Disks: 21142001/725G read, 13752262/508G written.
 
-COMMAND        MEM    %CPU #TH  
-VBoxHeadless   4077M+ 0.0  27   
-kernel_task    1891M+ 0.0  153/8
-PhotoSweeper X 565M+  0.0  12   
-Rambox Helper  310M+  0.0  23   
-Rambox Helper  205M+  0.0  22   
+COMMAND       MEM    %CPU #TH  
+VBoxHeadless  4077M+ 0.0  27   
+kernel_task   1870M+ 0.0  153/8
+Rambox Helper 294M+  0.0  22   
+Atom Helper   225M+  0.0  31/1 
+Finder        192M+  0.0  19   
