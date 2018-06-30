@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   36.68   27  0.98   301.34    0  0.04   8  5 86  4.95 6.04 4.91
+   36.66   27  0.98   301.34    0  0.04   8  5 86  1.92 3.58 4.08
 
-Processes: 426 total, 3 running, 423 sleeping, 1920 threads 
-2018/06/30 09:39:44
-Load Avg: 4.95, 6.04, 4.91 
-CPU usage: 12.97% user, 14.15% sys, 72.86% idle 
-SharedLibs: 316M resident, 63M data, 34M linkedit.
-MemRegions: 159298 total, 3224M resident, 129M private, 832M shared.
-PhysMem: 12G used (2475M wired), 4343M unused.
-VM: 3738G vsize, 1110M framework vsize, 56752820(0) swapins, 60357960(0) swapouts.
-Networks: packets: 56536353/40G in, 66669722/66G out.
-Disks: 22377951/795G read, 15401621/572G written.
+Processes: 443 total, 4 running, 439 sleeping, 1948 threads 
+2018/06/30 09:44:10
+Load Avg: 1.92, 3.58, 4.08 
+CPU usage: 41.79% user, 24.10% sys, 34.10% idle 
+SharedLibs: 316M resident, 64M data, 34M linkedit.
+MemRegions: 162076 total, 4378M resident, 136M private, 1172M shared.
+PhysMem: 13G used (2728M wired), 2842M unused.
+VM: 3703G vsize, 1110M framework vsize, 56753447(0) swapins, 60357960(0) swapouts.
+Networks: packets: 56624766/41G in, 66799515/66G out.
+Disks: 22403229/795G read, 15414488/572G written.
 
-COMMAND          MEM    %CPU #TH  
-kernel_task      1648M+ 0.0  153/8
-datalosste       277M+  0.0  3    
-nsurlsessiond    204M+  0.0  3    
-com.apple.WebKit 202M+  0.0  36/2 
-mds_stores       139M+  0.0  6    
+COMMAND       MEM    %CPU #TH  
+kernel_task   1679M+ 0.0  153/8
+datalosste    277M+  0.0  3    
+nsurlsessiond 205M+  0.0  3    
+node          202M+  0.0  26   
+Atom Helper   183M+  0.0  30   
