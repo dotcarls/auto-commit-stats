@@ -1,38 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   30.84   46  1.39     2.36    0  0.00   8  5 87  2.71 2.43 2.25
+   30.82   46  1.39     2.36    0  0.00   8  5 87  2.38 2.39 2.26
 
-Processes: 442 total, 8 running, 434 sleeping, 2228 threads 
-2018/07/06 14:49:20
-Load Avg: 2.71, 2.43, 2.25 
-CPU usage: 53.35% user, 18.79% sys, 27.85% idle 
+Processes: 441 total, 2 running, 439 sleeping, 2297 threads 
+2018/07/06 14:51:19
+Load Avg: 2.38, 2.39, 2.26 
+CPU usage: 9.75% user, 11.78% sys, 78.45% idle 
 SharedLibs: 244M resident, 55M data, 22M linkedit.
-MemRegions: 111934 total, 3338M resident, 81M private, 2948M shared.
-PhysMem: 12G used (2325M wired), 3878M unused.
-VM: 3395G vsize, 1110M framework vsize, 3410777(0) swapins, 4362956(0) swapouts.
-Networks: packets: 20539636/11G in, 30990695/34G out.
-Disks: 6579550/199G read, 2319017/63G written.
+MemRegions: 112553 total, 3572M resident, 82M private, 2988M shared.
+PhysMem: 13G used (2332M wired), 3487M unused.
+VM: 3394G vsize, 1110M framework vsize, 3428939(0) swapins, 4362956(0) swapouts.
+Networks: packets: 20541284/11G in, 30992377/34G out.
+Disks: 6584069/199G read, 2321951/63G written.
 
 COMMAND          MEM    %CPU #TH  
 com.docker.hyper 1743M+ 0.0  20   
-kernel_task      1674M+ 0.0  151/8
+kernel_task      1680M+ 0.0  151/8
 Rambox Helper    322M+  0.0  26   
-Atom Helper      278M+  0.0  22   
-Atom Helper      190M+  0.0  29   
-Processes: 440 total, 4 running, 436 sleeping, 2207 threads 
-2018/07/06 14:49:20
-Load Avg: 2.71, 2.43, 2.25 
-CPU usage: 35.81% user, 21.77% sys, 42.40% idle 
-SharedLibs: 244M resident, 55M data, 22M linkedit.
-MemRegions: 111421 total, 3292M resident, 80M private, 2944M shared.
-PhysMem: 12G used (2329M wired), 3898M unused.
-VM: 3387G vsize, 1110M framework vsize, 3410777(0) swapins, 4362956(0) swapouts.
-Networks: packets: 20539646/11G in, 30990710/34G out.
-Disks: 6579914/199G read, 2319026/63G written.
-
-COMMAND          MEM    %CPU #TH  
-com.docker.hyper 1743M+ 0.0  20   
-kernel_task      1675M+ 0.0  151/8
-Rambox Helper    322M+  0.0  26   
-Atom Helper      278M+  0.0  22   
-Atom Helper      190M+  0.0  29   
+Atom Helper      281M+  0.0  22   
+Atom Helper      205M+  0.0  23   
