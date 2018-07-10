@@ -1,38 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   27.38   24  0.63     1.67    0  0.00   7  4 88  2.82 2.95 2.89
+   27.38   24  0.63     1.67    0  0.00   7  4 88  3.15 3.02 2.91
 
-Processes: 467 total, 10 running, 457 sleeping, 2309 threads 
-2018/07/10 10:15:29
-Load Avg: 2.82, 2.95, 2.89 
-CPU usage: 56.40% user, 42.63% sys, 0.96% idle 
+Processes: 474 total, 8 running, 2 stuck, 464 sleeping, 2462 threads 
+2018/07/10 10:15:32
+Load Avg: 3.15, 3.02, 2.91 
+CPU usage: 65.44% user, 33.84% sys, 0.70% idle 
 SharedLibs: 255M resident, 59M data, 24M linkedit.
-MemRegions: 149601 total, 6858M resident, 118M private, 3119M shared.
-PhysMem: 16G used (4569M wired), 72M unused.
-VM: 4789G vsize, 1110M framework vsize, 4152728(0) swapins, 5035014(0) swapouts.
-Networks: packets: 23661292/14G in, 33663351/35G out.
-Disks: 8424300/232G read, 3954369/91G written.
+MemRegions: 151173 total, 6860M resident, 112M private, 3224M shared.
+PhysMem: 16G used (4484M wired), 42M unused.
+VM: 4822G vsize, 1110M framework vsize, 4152855(0) swapins, 5035334(0) swapouts.
+Networks: packets: 23662094/14G in, 33664682/35G out.
+Disks: 8427191/232G read, 3954636/91G written.
 
 COMMAND          MEM    %CPU #TH  
 VBoxHeadless     2161M+ 0.0  27   
 com.docker.hyper 1716M+ 0.0  20   
-kernel_task      1655M+ 0.0  151/8
-Rambox Helper    323M+  0.0  22   
-Google Chrome He 222M+  0.0  17   
-Processes: 466 total, 12 running, 454 sleeping, 2304 threads 
-2018/07/10 10:15:29
-Load Avg: 2.82, 2.95, 2.89 
-CPU usage: 56.84% user, 42.4% sys, 1.10% idle 
-SharedLibs: 255M resident, 59M data, 24M linkedit.
-MemRegions: 149564 total, 6852M resident, 117M private, 3099M shared.
-PhysMem: 16G used (4569M wired), 71M unused.
-VM: 4785G vsize, 1110M framework vsize, 4152728(0) swapins, 5035014(0) swapouts.
-Networks: packets: 23661292/14G in, 33663351/35G out.
-Disks: 8424301/232G read, 3954369/91G written.
-
-COMMAND          MEM    %CPU #TH  
-VBoxHeadless     2161M+ 0.0  27   
-com.docker.hyper 1716M+ 0.0  20   
-kernel_task      1656M+ 0.0  151/8
-Rambox Helper    323M+  0.0  22   
-Google Chrome He 222M+  0.0  17   
+kernel_task      1659M+ 0.0  151/8
+Rambox Helper    322M+  0.0  23   
+Google Chrome He 214M+  0.0  18   
