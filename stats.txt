@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   26.23   28  0.73     1.44    0  0.00   7  5 88  20.27 6.14 3.56
+   26.23   28  0.73     1.44    0  0.00   7  5 88  20.57 6.44 3.68
 
-Processes: 409 total, 9 running, 400 sleeping, 2012 threads 
-2018/07/13 19:14:46
-Load Avg: 20.27, 6.14, 3.56 
-CPU usage: 61.91% user, 26.30% sys, 11.78% idle 
-SharedLibs: 238M resident, 52M data, 22M linkedit.
-MemRegions: 130308 total, 1931M resident, 107M private, 1843M shared.
-PhysMem: 9569M used (2330M wired), 6812M unused.
-VM: 3347G vsize, 1109M framework vsize, 10532129(0) swapins, 12116740(0) swapouts.
-Networks: packets: 33017093/19G in, 42530118/40G out.
-Disks: 14400499/342G read, 8775799/237G written.
+Processes: 420 total, 11 running, 2 stuck, 407 sleeping, 1918 threads 
+2018/07/13 19:14:51
+Load Avg: 20.57, 6.44, 3.68 
+CPU usage: 64.22% user, 32.42% sys, 3.34% idle 
+SharedLibs: 239M resident, 52M data, 22M linkedit.
+MemRegions: 135617 total, 2159M resident, 111M private, 1904M shared.
+PhysMem: 9803M used (2336M wired), 6579M unused.
+VM: 3922G vsize, 1109M framework vsize, 10534197(0) swapins, 12116740(0) swapouts.
+Networks: packets: 33017334/19G in, 42530314/40G out.
+Disks: 14401165/342G read, 8776285/237G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1528M+ 0.0  151/8
+kernel_task      1529M+ 0.0  151/8
 com.docker.hyper 1198M+ 0.0  20   
-nsurlsessiond    192M+  0.0  4    
-WindowServer     162M+  0.0  10   
-TaniumClient     138M+  0.0  13   
+nsurlsessiond    192M+  0.0  3/1  
+WindowServer     162M+  0.0  9/1  
+TaniumClient     139M+  0.0  13   
