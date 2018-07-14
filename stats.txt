@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   26.23   28  0.73     1.44    0  0.00   7  5 88  20.57 6.44 3.68
+   26.23   29  0.73     1.44    0  0.00   7  5 88  18.40 6.44 3.71
 
-Processes: 420 total, 11 running, 2 stuck, 407 sleeping, 1918 threads 
-2018/07/13 19:14:51
-Load Avg: 20.57, 6.44, 3.68 
-CPU usage: 64.22% user, 32.42% sys, 3.34% idle 
+Processes: 419 total, 8 running, 411 sleeping, 1994 threads 
+2018/07/13 19:14:58
+Load Avg: 18.40, 6.44, 3.71 
+CPU usage: 60.49% user, 34.76% sys, 4.74% idle 
 SharedLibs: 239M resident, 52M data, 22M linkedit.
-MemRegions: 135617 total, 2159M resident, 111M private, 1904M shared.
-PhysMem: 9803M used (2336M wired), 6579M unused.
-VM: 3922G vsize, 1109M framework vsize, 10534197(0) swapins, 12116740(0) swapouts.
-Networks: packets: 33017334/19G in, 42530314/40G out.
-Disks: 14401165/342G read, 8776285/237G written.
+MemRegions: 137755 total, 2736M resident, 113M private, 2174M shared.
+PhysMem: 11G used (2675M wired), 5563M unused.
+VM: 3925G vsize, 1109M framework vsize, 10535659(0) swapins, 12116740(0) swapouts.
+Networks: packets: 33028663/20G in, 42535753/40G out.
+Disks: 14408752/343G read, 8776965/237G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1529M+ 0.0  151/8
+kernel_task      1542M+ 0.0  151/8
 com.docker.hyper 1198M+ 0.0  20   
-nsurlsessiond    192M+  0.0  3/1  
-WindowServer     162M+  0.0  9/1  
-TaniumClient     139M+  0.0  13   
+Atom Helper      218M+  0.0  28/2 
+nsurlsessiond    192M+  0.0  3    
+WindowServer     163M+  0.0  9    
