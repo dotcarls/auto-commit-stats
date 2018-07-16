@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   26.47   26  0.68     1.40    0  0.00   7  5 88  2.02 1.87 1.87
+   26.41   27  0.69     1.40    0  0.00   6  5 88  2.18 1.95 1.84
 
-Processes: 454 total, 4 running, 1 stuck, 449 sleeping, 1854 threads 
-2018/07/15 21:27:55
-Load Avg: 2.02, 1.87, 1.87 
-CPU usage: 35.43% user, 18.40% sys, 46.15% idle 
+Processes: 450 total, 3 running, 447 sleeping, 1922 threads 
+2018/07/15 21:53:40
+Load Avg: 2.18, 1.95, 1.84 
+CPU usage: 20.43% user, 13.97% sys, 65.59% idle 
 SharedLibs: 253M resident, 53M data, 21M linkedit.
-MemRegions: 175799 total, 7401M resident, 117M private, 2316M shared.
-PhysMem: 16G used (6772M wired), 200M unused.
-VM: 5551G vsize, 1110M framework vsize, 11554687(0) swapins, 13209046(0) swapouts.
-Networks: packets: 34464250/21G in, 43624623/40G out.
-Disks: 15863526/369G read, 10468473/295G written.
+MemRegions: 180008 total, 7501M resident, 106M private, 2344M shared.
+PhysMem: 16G used (6810M wired), 270M unused.
+VM: 5638G vsize, 1110M framework vsize, 11562759(0) swapins, 13209876(0) swapouts.
+Networks: packets: 34622631/21G in, 43775793/40G out.
+Disks: 15901103/370G read, 10549957/296G written.
 
 COMMAND          MEM    %CPU #TH  
 VBoxHeadless     4150M+ 0.0  27   
-kernel_task      1597M+ 0.0  152/8
+kernel_task      1682M+ 0.0  152/8
 com.docker.hyper 1177M+ 0.0  20   
-Atom Helper      324M+  0.0  23   
-JavaAppLauncher  263M+  0.0  29   
+Atom Helper      341M+  0.0  23   
+JavaAppLauncher  337M+  0.0  34   
