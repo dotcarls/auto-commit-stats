@@ -1,21 +1,21 @@
-              disk0               disk2       cpu    load average
-    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   28.00   31  0.86     1.31    0  0.00   7  5 88  2.48 2.41 2.29
+              disk0       cpu    load average
+    KB/t  tps  MB/s  us sy id   1m   5m   15m
+   29.06   31  0.89   7  5 88  2.46 2.32 2.29
 
-Processes: 461 total, 4 running, 457 sleeping, 2290 threads 
-2018/07/21 17:26:14
-Load Avg: 2.48, 2.41, 2.29 
-CPU usage: 29.19% user, 21.49% sys, 49.30% idle 
-SharedLibs: 249M resident, 57M data, 23M linkedit.
-MemRegions: 241499 total, 5217M resident, 125M private, 3104M shared.
-PhysMem: 14G used (2571M wired), 1726M unused.
-VM: 4614G vsize, 1111M framework vsize, 32293277(0) swapins, 35011079(0) swapouts.
-Networks: packets: 43775173/27G in, 51375513/43G out.
-Disks: 26599551/688G read, 20403145/567G written.
+Processes: 461 total, 3 running, 458 sleeping, 2435 threads 
+2018/07/22 11:27:39
+Load Avg: 2.46, 2.32, 2.29 
+CPU usage: 16.49% user, 10.99% sys, 72.51% idle 
+SharedLibs: 306M resident, 65M data, 32M linkedit.
+MemRegions: 242819 total, 4734M resident, 137M private, 1421M shared.
+PhysMem: 12G used (2646M wired), 4509M unused.
+VM: 4319G vsize, 1111M framework vsize, 39262795(0) swapins, 42195552(0) swapouts.
+Networks: packets: 45439729/29G in, 52120790/43G out.
+Disks: 27637800/734G read, 21420048/625G written.
 
 COMMAND          MEM    %CPU #TH  
-com.docker.hyper 2179M+ 0.0  20   
-kernel_task      1860M+ 0.0  152/8
-Atom Helper      473M+  0.0  23   
-nsurlsessiond    349M+  0.0  3    
-com.docker.vpnki 224M+  0.0  10   
+kernel_task      1916M+ 0.0  153/8
+Atom Helper      500M+  0.0  24   
+ruby             224M+  0.0  3/1  
+com.apple.WebKit 210M+  0.0  11   
+Rambox Helper    184M+  0.0  24   
