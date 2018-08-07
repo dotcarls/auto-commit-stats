@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   34.77   32  1.10   8  4 88  2.45 2.44 2.46
+   34.78   32  1.10   8  4 88  3.52 2.91 2.64
 
-Processes: 505 total, 3 running, 502 sleeping, 2596 threads 
-2018/08/07 13:19:44
-Load Avg: 2.45, 2.44, 2.46 
-CPU usage: 24.66% user, 20.11% sys, 55.21% idle 
+Processes: 506 total, 2 running, 2 stuck, 502 sleeping, 2574 threads 
+2018/08/07 13:21:18
+Load Avg: 3.52, 2.91, 2.64 
+CPU usage: 15.47% user, 15.7% sys, 69.44% idle 
 SharedLibs: 162M resident, 46M data, 15M linkedit.
-MemRegions: 260531 total, 10G resident, 60M private, 613M shared.
-PhysMem: 16G used (10G wired), 451M unused.
-VM: 11T vsize, 1110M framework vsize, 38311809(0) swapins, 41160734(0) swapouts.
-Networks: packets: 21634635/14G in, 17258023/4009M out.
-Disks: 11427386/378G read, 8492235/283G written.
+MemRegions: 261593 total, 10G resident, 59M private, 673M shared.
+PhysMem: 16G used (10G wired), 212M unused.
+VM: 11T vsize, 1110M framework vsize, 38381145(0) swapins, 41224249(0) swapouts.
+Networks: packets: 21636794/14G in, 17260277/4010M out.
+Disks: 11431445/378G read, 8495763/283G written.
 
 COMMAND          MEM    %CPU #TH  
 VBoxHeadless     4141M+ 0.0  27   
-VBoxHeadless     3700M+ 0.0  27   
-kernel_task      1878M+ 0.0  154/8
-Google Chrome He 192M+  0.0  24   
-Terminal         142M+  0.0  8    
+VBoxHeadless     3702M+ 0.0  27   
+kernel_task      1880M+ 0.0  154/8
+Google Chrome He 212M+  0.0  24   
+Terminal         182M+  0.0  8    
