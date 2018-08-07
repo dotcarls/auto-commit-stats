@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   32.66   33  1.04   8  4 88  3.00 2.57 2.60
+   32.64   33  1.04   8  4 88  4.79 2.95 2.71
 
-Processes: 486 total, 5 running, 481 sleeping, 2668 threads 
-2018/08/06 19:41:34
-Load Avg: 3.00, 2.57, 2.60 
-CPU usage: 29.7% user, 22.26% sys, 48.65% idle 
-SharedLibs: 233M resident, 53M data, 31M linkedit.
-MemRegions: 207863 total, 7179M resident, 152M private, 2317M shared.
-PhysMem: 15G used (2676M wired), 973M unused.
-VM: 5308G vsize, 1110M framework vsize, 29405290(0) swapins, 31263058(0) swapouts.
-Networks: packets: 20452087/13G in, 16274931/3520M out.
-Disks: 10084882/323G read, 7817106/234G written.
+Processes: 486 total, 4 running, 1 stuck, 481 sleeping, 2620 threads 
+2018/08/06 19:46:49
+Load Avg: 4.79, 2.95, 2.71 
+CPU usage: 10.95% user, 12.38% sys, 76.66% idle 
+SharedLibs: 182M resident, 54M data, 21M linkedit.
+MemRegions: 209134 total, 7402M resident, 156M private, 2163M shared.
+PhysMem: 16G used (2652M wired), 198M unused.
+VM: 5311G vsize, 1110M framework vsize, 29424872(0) swapins, 31263058(0) swapouts.
+Networks: packets: 20462166/13G in, 16281587/3521M out.
+Disks: 10092564/324G read, 7828052/234G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1883M+ 0.0  154/8
-com.apple.WebKit 752M+  0.0  14   
-com.apple.WebKit 490M+  0.0  10   
-Google Chrome He 439M+  0.0  20   
-Atom Helper      343M+  0.0  23   
+kernel_task      1884M+ 0.0  154/8
+com.apple.WebKit 752M+  0.0  15   
+Google Chrome He 440M+  0.0  20   
+Atom Helper      365M+  0.0  23   
+Rambox Helper    341M+  0.0  21   
