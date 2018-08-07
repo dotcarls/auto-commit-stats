@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   32.33   32  1.01   8  4 88  2.90 2.57 2.51
+   32.82   32  1.04   8  4 88  2.79 2.51 2.80
 
-Processes: 509 total, 2 running, 507 sleeping, 2791 threads 
-2018/08/06 16:22:22
-Load Avg: 2.90, 2.57, 2.51 
-CPU usage: 5.73% user, 11.25% sys, 83.1% idle 
-SharedLibs: 215M resident, 57M data, 22M linkedit.
-MemRegions: 242806 total, 8578M resident, 93M private, 1348M shared.
-PhysMem: 16G used (6718M wired), 47M unused.
-VM: 11T vsize, 1110M framework vsize, 27659592(0) swapins, 29649713(0) swapouts.
-Networks: packets: 20053705/13G in, 15896439/3465M out.
-Disks: 9787206/313G read, 7408266/217G written.
+Processes: 475 total, 2 running, 473 sleeping, 2548 threads 
+2018/08/06 19:24:40
+Load Avg: 2.79, 2.51, 2.80 
+CPU usage: 25.11% user, 17.5% sys, 57.83% idle 
+SharedLibs: 221M resident, 62M data, 29M linkedit.
+MemRegions: 198689 total, 4874M resident, 134M private, 2225M shared.
+PhysMem: 12G used (2562M wired), 3832M unused.
+VM: 4834G vsize, 1110M framework vsize, 29334232(0) swapins, 31263058(0) swapouts.
+Networks: packets: 20403781/13G in, 16233927/3513M out.
+Disks: 10035416/323G read, 7728009/233G written.
 
-COMMAND       MEM    %CPU #TH  
-VBoxHeadless  4127M+ 0.0  27   
-kernel_task   1842M+ 0.0  154/8
-Atom Helper   360M+  0.0  22   
-Rambox Helper 329M+  0.0  23   
-Code Helper   265M+  0.0  27   
+COMMAND         MEM    %CPU #TH  
+kernel_task     1795M+ 0.0  154/8
+Rambox Helper   353M+  0.0  23   
+Atom Helper     342M+  0.0  22   
+mds_stores      340M+  0.0  5    
+Microsoft Excel 247M+  0.0  26   
