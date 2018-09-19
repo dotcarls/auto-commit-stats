@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   43.59  206  8.78   6  4 90  3.05 2.39 2.24
+   43.37  206  8.73   6  4 90  3.55 2.54 2.30
 
-Processes: 427 total, 5 running, 422 sleeping, 2286 threads 
-2018/09/19 13:13:52
-Load Avg: 3.05, 2.39, 2.24 
-CPU usage: 27.53% user, 20.64% sys, 51.82% idle 
+Processes: 458 total, 5 running, 2 stuck, 451 sleeping, 2515 threads 
+2018/09/19 13:15:36
+Load Avg: 3.50, 2.54, 2.31 
+CPU usage: 37.3% user, 16.16% sys, 46.80% idle 
 SharedLibs: 235M resident, 50M data, 16M linkedit.
-MemRegions: 116571 total, 5978M resident, 102M private, 2920M shared.
-PhysMem: 16G used (4039M wired), 144M unused.
-VM: 5956G vsize, 1110M framework vsize, 1203110(0) swapins, 1616246(0) swapouts.
-Networks: packets: 524038/288M in, 556756/277M out.
-Disks: 1935004/82G read, 367342/14G written.
+MemRegions: 141145 total, 6022M resident, 99M private, 2886M shared.
+PhysMem: 16G used (4102M wired), 261M unused.
+VM: 8730G vsize, 1110M framework vsize, 1208312(0) swapins, 1617389(0) swapouts.
+Networks: packets: 527628/291M in, 560299/277M out.
+Disks: 1952184/82G read, 370654/14G written.
 
 COMMAND          MEM    %CPU #TH  
-VBoxHeadless     1952M+ 0.0  27   
+VBoxHeadless     1967M+ 0.0  27   
 com.docker.hyper 1831M+ 0.0  19   
-kernel_task      1470M+ 0.0  154/8
-com.apple.WebKit 527M+  0.0  12   
-Rambox Helper    349M+  0.0  23   
+kernel_task      1504M+ 0.0  154/8
+com.apple.WebKit 433M+  0.0  16   
+Rambox Helper    337M+  0.0  24   
