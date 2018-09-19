@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   36.03   64  2.24   7  5 88  3.60 3.98 4.05
+   35.99   64  2.24   7  5 88  3.07 3.81 3.98
 
-Processes: 383 total, 2 running, 381 sleeping, 1798 threads 
-2018/09/18 19:31:28
-Load Avg: 3.60, 3.98, 4.05 
-CPU usage: 10.36% user, 12.80% sys, 76.82% idle 
+Processes: 386 total, 3 running, 383 sleeping, 1636 threads 
+2018/09/18 19:31:56
+Load Avg: 3.07, 3.81, 3.98 
+CPU usage: 15.9% user, 11.32% sys, 73.58% idle 
 SharedLibs: 246M resident, 62M data, 37M linkedit.
-MemRegions: 75523 total, 2170M resident, 107M private, 895M shared.
-PhysMem: 10G used (2315M wired), 6198M unused.
-VM: 3768G vsize, 1110M framework vsize, 5704383(0) swapins, 6395531(0) swapouts.
-Networks: packets: 3468398/1255M in, 5085435/5526M out.
-Disks: 4110091/154G read, 2075202/59G written.
+MemRegions: 77155 total, 2777M resident, 111M private, 1094M shared.
+PhysMem: 11G used (2543M wired), 5415M unused.
+VM: 3784G vsize, 1110M framework vsize, 5705131(0) swapins, 6395531(0) swapouts.
+Networks: packets: 3469981/1256M in, 5086926/5527M out.
+Disks: 4119431/154G read, 2076889/59G written.
 
-COMMAND      MEM    %CPU #TH  
-kernel_task  1557M+ 0.0  153/8
-mds_stores   138M+  0.0  6    
-WindowServer 114M+  0.0  9    
-Messages     84M+   0.0  9    
-spindump     74M+   0.0  4    
+COMMAND      MEM    %CPU #TH   
+kernel_task  1571M+ 0.0  153/10
+Atom Helper  267M+  0.0  29    
+Atom         175M+  0.0  36    
+mds_stores   140M+  0.0  6     
+WindowServer 115M+  0.0  9     
