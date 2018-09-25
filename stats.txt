@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   26.72  700 18.27  20  9 71  2.63 3.92 3.51
+   35.58  345 11.98  11  6 83  3.84 3.24 2.76
 
-Processes: 397 total, 2 running, 1 stuck, 394 sleeping, 2057 threads 
-2018/09/25 10:48:47
-Load Avg: 2.63, 3.92, 3.51 
-CPU usage: 6.91% user, 11.17% sys, 81.91% idle 
-SharedLibs: 194M resident, 60M data, 22M linkedit.
-MemRegions: 89943 total, 6955M resident, 222M private, 3309M shared.
-PhysMem: 16G used (1800M wired), 408M unused.
-VM: 4621G vsize, 1110M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 229382/78M in, 457933/578M out.
-Disks: 350140/8652M read, 123903/3716M written.
+Processes: 415 total, 3 running, 3 stuck, 409 sleeping, 2117 threads 
+2018/09/25 11:52:37
+Load Avg: 3.84, 3.24, 2.76 
+CPU usage: 13.21% user, 21.14% sys, 65.63% idle 
+SharedLibs: 203M resident, 28M data, 4184K linkedit.
+MemRegions: 104837 total, 2816M resident, 63M private, 2567M shared.
+PhysMem: 16G used (1923M wired), 39M unused.
+VM: 4785G vsize, 1110M framework vsize, 168885(0) swapins, 300253(0) swapouts.
+Networks: packets: 1296779/181M in, 2639722/3239M out.
+Disks: 1241643/44G read, 312696/8969M written.
 
 COMMAND          MEM    %CPU #TH  
-com.docker.hyper 2089M+ 0.0  20   
-kernel_task      1274M+ 0.0  153/8
-com.apple.WebKit 445M+  0.0  11   
-Atom Helper      313M+  0.0  28   
-Rambox Helper    260M+  0.0  26   
+com.docker.hyper 1833M+ 0.0  20   
+kernel_task      1309M+ 0.0  153/8
+inSync           534M+  0.0  53/1 
+Rambox Helper    200M+  0.0  22   
+Rambox Helper    198M+  0.0  23   
