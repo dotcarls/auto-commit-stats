@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   31.04  116  3.53  14  8 79  2.03 2.37 3.22
+   38.83   36  1.36  11  6 83  3.92 8.18 8.45
 
-Processes: 446 total, 2 running, 444 sleeping, 2227 threads 
-2018/09/28 14:51:22
-Load Avg: 2.03, 2.37, 3.22 
-CPU usage: 4.88% user, 9.77% sys, 85.33% idle 
-SharedLibs: 251M resident, 57M data, 17M linkedit.
-MemRegions: 132789 total, 4024M resident, 105M private, 2940M shared.
-PhysMem: 15G used (2307M wired), 1236M unused.
-VM: 5936G vsize, 1111M framework vsize, 1227547(0) swapins, 1827717(0) swapouts.
-Networks: packets: 1828655/1384M in, 1675955/1183M out.
-Disks: 6335350/199G read, 1153795/22G written.
+Processes: 417 total, 2 running, 415 sleeping, 1804 threads 
+2018/09/30 20:29:56
+Load Avg: 3.92, 8.18, 8.45 
+CPU usage: 12.10% user, 15.26% sys, 72.63% idle 
+SharedLibs: 191M resident, 60M data, 44M linkedit.
+MemRegions: 87013 total, 1858M resident, 111M private, 857M shared.
+PhysMem: 7393M used (2575M wired), 8988M unused.
+VM: 4102G vsize, 1110M framework vsize, 13625821(0) swapins, 14747536(0) swapouts.
+Networks: packets: 2532377/2290M in, 1962750/1326M out.
+Disks: 7514150/265G read, 1711416/77G written.
 
 COMMAND          MEM    %CPU #TH  
-com.docker.hyper 1815M+ 0.0  20   
-kernel_task      1548M+ 0.0  153/8
-com.apple.WebKit 355M+  0.0  8    
-Rambox Helper    347M+  0.0  24   
-Rambox Helper    205M+  0.0  23   
+kernel_task      1439M+ 0.0  152/8
+Rambox Helper    140M+  0.0  20   
+TaniumClient     137M+  0.0  13   
+Safari           97M+   0.0  9    
+com.apple.WebKit 85M+   0.0  5    
