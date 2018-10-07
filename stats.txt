@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.35   42  0.80  11  8 81  2.74 2.65 2.49
+   19.48   48  0.91  11  8 81  3.60 2.85 2.70
 
-Processes: 427 total, 4 running, 423 sleeping, 2000 threads 
-2018/10/06 16:33:48
-Load Avg: 2.74, 2.65, 2.49 
-CPU usage: 16.7% user, 12.50% sys, 71.42% idle 
-SharedLibs: 199M resident, 60M data, 23M linkedit.
-MemRegions: 140991 total, 6774M resident, 114M private, 1132M shared.
-PhysMem: 13G used (6275M wired), 2908M unused.
-VM: 8907G vsize, 1110M framework vsize, 853742(0) swapins, 1278774(0) swapouts.
-Networks: packets: 4158082/4260M in, 3728409/2906M out.
-Disks: 3140344/49G read, 1320452/34G written.
+Processes: 398 total, 4 running, 394 sleeping, 1780 threads 
+2018/10/06 17:29:09
+Load Avg: 3.60, 2.85, 2.70 
+CPU usage: 24.21% user, 16.84% sys, 58.94% idle 
+SharedLibs: 181M resident, 48M data, 15M linkedit.
+MemRegions: 89475 total, 2393M resident, 91M private, 2619M shared.
+PhysMem: 11G used (2411M wired), 5181M unused.
+VM: 4677G vsize, 1110M framework vsize, 1027414(0) swapins, 1352447(0) swapouts.
+Networks: packets: 5034192/5161M in, 4216683/3009M out.
+Disks: 3610873/57G read, 1564757/40G written.
 
-COMMAND      MEM    %CPU #TH  
-VBoxHeadless 3722M+ 0.0  27   
-kernel_task  1449M+ 0.0  153/8
-Atom Helper  452M+  0.0  23   
-Safari       145M+  0.0  14   
-TaniumClient 142M+  0.0  13   
+COMMAND          MEM    %CPU #TH  
+kernel_task      1433M+ 0.0  153/8
+com.docker.hyper 1354M+ 0.0  20   
+Atom Helper      215M+  0.0  29   
+Safari           215M+  0.0  14   
+Atom             146M+  0.0  40   
