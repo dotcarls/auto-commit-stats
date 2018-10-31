@@ -1,21 +1,21 @@
-              disk0       cpu    load average
-    KB/t  tps  MB/s  us sy id   1m   5m   15m
-   42.25   42  1.73  15  7 78  2.31 2.31 2.32
+              disk0               disk2       cpu    load average
+    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
+   42.18   41  1.69   645.46    0  0.06  15  7 78  2.35 5.51 6.80
 
-Processes: 436 total, 3 running, 433 sleeping, 2681 threads 
-2018/10/30 22:45:30
-Load Avg: 2.31, 2.31, 2.32 
-CPU usage: 11.45% user, 11.76% sys, 76.78% idle 
-SharedLibs: 213M resident, 57M data, 32M linkedit.
-MemRegions: 154365 total, 6106M resident, 138M private, 1785M shared.
-PhysMem: 15G used (2539M wired), 1088M unused.
-VM: 4731G vsize, 1110M framework vsize, 91417098(0) swapins, 96533198(0) swapouts.
-Networks: packets: 71951966/31G in, 110589109/122G out.
-Disks: 31785792/1178G read, 13611953/712G written.
+Processes: 442 total, 4 running, 1 stuck, 436 sleeping, 1 unknown, 2459 threads 
+2018/10/31 08:56:24
+Load Avg: 2.35, 5.51, 6.80 
+CPU usage: 31.63% user, 48.46% sys, 19.89% idle 
+SharedLibs: 230M resident, 65M data, 33M linkedit.
+MemRegions: 143763 total, 4341M resident, 131M private, 1466M shared.
+PhysMem: 13G used (2334M wired), 3486M unused.
+VM: 4371G vsize, 1110M framework vsize, 91575082(0) swapins, 96620823(0) swapouts.
+Networks: packets: 72044777/31G in, 110718009/122G out.
+Disks: 32065250/1189G read, 13828207/720G written.
 
-COMMAND          MEM    %CPU #TH  
-kernel_task      1935M+ 0.0  155/8
-Finder           295M+  0.0  9    
-Rambox Helper    245M+  0.0  19   
-Safari           238M+  0.0  25   
-com.apple.WebKit 216M+  0.0  6    
+COMMAND       MEM    %CPU #TH  
+kernel_task   1746M+ 0.0  155/8
+Rambox Helper 242M+  0.0  19   
+Rambox Helper 232M+  0.0  19   
+Rambox Helper 222M+  0.0  17   
+TaniumClient  139M+  0.0  13   
