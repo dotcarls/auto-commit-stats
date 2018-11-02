@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   45.29   42  1.85   631.72    0  0.05  14  6 80  2.49 2.60 2.44
+   44.85   42  1.86   629.33    0  0.05  14  6 80  2.20 1.80 1.75
 
-Processes: 503 total, 3 running, 500 sleeping, 2682 threads 
-2018/11/02 13:27:23
-Load Avg: 2.49, 2.60, 2.44 
-CPU usage: 11.27% user, 11.89% sys, 76.82% idle 
-SharedLibs: 180M resident, 47M data, 29M linkedit.
-MemRegions: 233413 total, 7124M resident, 123M private, 1362M shared.
-PhysMem: 15G used (3022M wired), 608M unused.
-VM: 5806G vsize, 1111M framework vsize, 143586648(0) swapins, 149936015(0) swapouts.
-Networks: packets: 77504971/33G in, 117000107/128G out.
-Disks: 38316474/1482G read, 16541473/950G written.
+Processes: 472 total, 2 running, 470 sleeping, 2628 threads 
+2018/11/02 16:54:20
+Load Avg: 2.20, 1.80, 1.75 
+CPU usage: 4.34% user, 10.6% sys, 85.58% idle 
+SharedLibs: 191M resident, 48M data, 29M linkedit.
+MemRegions: 222503 total, 6719M resident, 101M private, 1354M shared.
+PhysMem: 16G used (4083M wired), 180M unused.
+VM: 4917G vsize, 1111M framework vsize, 145281450(0) swapins, 151474469(0) swapouts.
+Networks: packets: 77743247/33G in, 117206011/128G out.
+Disks: 39318812/1504G read, 16804201/959G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1975M+ 0.0  159/8
-com.apple.WebKit 671M+  0.0  6    
-com.apple.WebKit 644M+  0.0  8    
-Finder           469M+  0.0  8    
-mds_stores       449M+  0.0  6    
+kernel_task      2054M+ 0.0  159/8
+VBoxHeadless     989M+  0.0  27   
+com.apple.WebKit 588M+  0.0  5    
+com.apple.WebKit 288M+  0.0  5    
+com.apple.WebKit 286M+  0.0  5    
