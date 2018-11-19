@@ -1,21 +1,21 @@
               disk0               disk2               disk3       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   26.82   29  0.76     1.20    0  0.00    10.14    0  0.00   7  5 89  3.17 2.91 3.02
+   26.77   25  0.66     1.20    0  0.00     9.10    0  0.00   7  5 89  2.06 2.75 2.94
 
-Processes: 487 total, 2 running, 485 sleeping, 2354 threads 
-2018/11/17 12:29:30
-Load Avg: 3.17, 2.91, 3.02 
-CPU usage: 4.71% user, 12.50% sys, 82.78% idle 
-SharedLibs: 209M resident, 50M data, 16M linkedit.
-MemRegions: 267698 total, 7684M resident, 128M private, 1515M shared.
-PhysMem: 16G used (6021M wired), 305M unused.
-VM: 15T vsize, 1111M framework vsize, 14614897(0) swapins, 16227082(0) swapouts.
-Networks: packets: 17769705/16G in, 10326490/4979M out.
-Disks: 17668921/442G read, 6519463/174G written.
+Processes: 422 total, 3 running, 419 sleeping, 1828 threads 
+2018/11/19 10:52:32
+Load Avg: 2.05, 2.73, 2.93 
+CPU usage: 6.62% user, 10.95% sys, 82.42% idle 
+SharedLibs: 222M resident, 57M data, 41M linkedit.
+MemRegions: 170840 total, 4980M resident, 133M private, 1841M shared.
+PhysMem: 14G used (2561M wired), 2290M unused.
+VM: 4280G vsize, 1111M framework vsize, 15898727(0) swapins, 17455783(0) swapouts.
+Networks: packets: 18881099/17G in, 10930318/5128M out.
+Disks: 18403315/459G read, 7091111/189G written.
 
-COMMAND      MEM    %CPU #TH  
-VBoxHeadless 3212M+ 0.0  27   
-kernel_task  1592M+ 0.0  155/8
-Finder       479M+  0.0  7    
-Atom Helper  233M+  0.0  23   
-Safari       187M+  0.0  12   
+COMMAND          MEM    %CPU #TH  
+kernel_task      1589M+ 0.0  155/8
+Microsoft Outloo 491M+  0.0  19   
+Finder           302M+  0.0  6    
+com.apple.WebKit 286M+  0.0  6    
+WindowServer     277M+  0.0  10   
