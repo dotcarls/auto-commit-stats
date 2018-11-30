@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   41.94   89  3.65     1.40    0  0.00   9  4 87  2.94 2.57 2.49
+   41.62   88  3.56     1.38    0  0.00   9  4 87  2.77 2.75 2.69
 
-Processes: 348 total, 3 running, 345 sleeping, 1892 threads 
-2018/11/29 16:12:02
-Load Avg: 2.94, 2.57, 2.49 
-CPU usage: 16.81% user, 10.34% sys, 72.84% idle 
-SharedLibs: 156M resident, 46M data, 21M linkedit.
-MemRegions: 117632 total, 4268M resident, 103M private, 2743M shared.
-PhysMem: 15G used (2750M wired), 531M unused.
-VM: 5336G vsize, 1110M framework vsize, 11588523(0) swapins, 18392351(0) swapouts.
-Networks: packets: 7204596/8352M in, 2755900/932M out.
-Disks: 7627807/274G read, 2279929/123G written.
+Processes: 378 total, 3 running, 1 stuck, 374 sleeping, 2160 threads 
+2018/11/29 17:09:42
+Load Avg: 2.77, 2.75, 2.69 
+CPU usage: 19.85% user, 12.73% sys, 67.41% idle 
+SharedLibs: 157M resident, 46M data, 21M linkedit.
+MemRegions: 134127 total, 5223M resident, 120M private, 2861M shared.
+PhysMem: 16G used (2391M wired), 210M unused.
+VM: 5821G vsize, 1110M framework vsize, 11601217(0) swapins, 18407438(0) swapouts.
+Networks: packets: 7255196/8391M in, 2796454/937M out.
+Disks: 7696535/275G read, 2335750/123G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1555M+ 0.0  155/8
+kernel_task      1686M+ 0.0  155/8
 com.docker.hyper 893M+  0.0  21   
-Atom Helper      224M+  0.0  22   
-Finder           209M+  0.0  8    
-Atom Helper      175M+  0.0  24   
+Rambox Helper    328M+  0.0  19   
+Rambox Helper    305M+  0.0  5    
+Rambox Helper    231M+  0.0  17   
