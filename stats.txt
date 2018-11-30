@@ -1,21 +1,21 @@
               disk0               disk2               disk3       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   39.01   66  2.53     1.31    0  0.00    67.31    0  0.00   9  4 87  2.45 2.80 4.00
+   38.79   63  2.38     1.29    0  0.00    49.65    0  0.00   9  4 86  1.96 2.93 4.01
 
-Processes: 389 total, 3 running, 386 sleeping, 2118 threads 
-2018/11/30 09:49:12
-Load Avg: 2.45, 2.80, 4.00 
-CPU usage: 9.61% user, 11.53% sys, 78.84% idle 
-SharedLibs: 193M resident, 51M data, 32M linkedit.
-MemRegions: 123735 total, 5317M resident, 109M private, 2249M shared.
-PhysMem: 16G used (2347M wired), 289M unused.
-VM: 4401G vsize, 1110M framework vsize, 11750038(0) swapins, 18555092(0) swapouts.
-Networks: packets: 8056924/9032M in, 3475980/1310M out.
-Disks: 8760283/300G read, 2848634/132G written.
+Processes: 352 total, 2 running, 350 sleeping, 1587 threads 
+2018/11/30 13:17:02
+Load Avg: 1.96, 2.93, 4.01 
+CPU usage: 3.57% user, 16.66% sys, 79.76% idle 
+SharedLibs: 197M resident, 52M data, 32M linkedit.
+MemRegions: 81681 total, 3075M resident, 111M private, 2099M shared.
+PhysMem: 13G used (2502M wired), 3112M unused.
+VM: 3145G vsize, 1110M framework vsize, 11789091(0) swapins, 18569921(0) swapouts.
+Networks: packets: 8293595/9290M in, 3625491/1327M out.
+Disks: 8841079/302G read, 2940725/134G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1648M+ 0.0  155/8
+kernel_task      1538M+ 0.0  155/8
 com.docker.hyper 821M+  0.0  21   
-com.apple.WebKit 581M+  0.0  11   
-inSync           422M+  0.0  51   
-Rambox Helper    367M+  0.0  19   
+inSync           423M+  0.0  51   
+TaniumClient     139M+  0.0  14   
+Atom Helper      137M+  0.0  28   
