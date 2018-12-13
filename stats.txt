@@ -1,38 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.07 1015 15.93     3.11    0  0.00  16 24 60  10.39 6.10 5.67
+   16.07 1014 15.92     3.11    0  0.00  16 24 60  9.80 6.04 5.65
 
-Processes: 453 total, 2 running, 451 sleeping, 2254 threads 
-2018/12/13 13:38:33
-Load Avg: 10.39, 6.10, 5.67 
-CPU usage: 13.21% user, 30.17% sys, 56.60% idle 
+Processes: 457 total, 5 running, 452 sleeping, 2280 threads 
+2018/12/13 13:38:34
+Load Avg: 9.80, 6.04, 5.65 
+CPU usage: 12.85% user, 19.28% sys, 67.85% idle 
 SharedLibs: 152M resident, 46M data, 18M linkedit.
-MemRegions: 138033 total, 7873M resident, 40M private, 2492M shared.
-PhysMem: 16G used (8341M wired), 285M unused.
-VM: 10T vsize, 1110M framework vsize, 33741(0) swapins, 174938(0) swapouts.
-Networks: packets: 1829865/2367M in, 504439/55M out.
-Disks: 808279/12G read, 813507/13G written.
+MemRegions: 142456 total, 7884M resident, 42M private, 2492M shared.
+PhysMem: 16G used (8342M wired), 273M unused.
+VM: 11T vsize, 1110M framework vsize, 34061(0) swapins, 174938(0) swapouts.
+Networks: packets: 1834855/2373M in, 505308/56M out.
+Disks: 808316/12G read, 813573/13G written.
 
 COMMAND          MEM    %CPU #TH  
 VBoxHeadless     6237M+ 0.0  27   
 com.docker.hyper 1858M+ 0.0  20   
-kernel_task      1546M+ 0.0  172/8
+kernel_task      1547M+ 0.0  172/8
 Atom Helper      154M+  0.0  23   
 Atom Helper      146M+  0.0  24   
-Processes: 451 total, 2 running, 449 sleeping, 2234 threads 
-2018/12/13 13:38:33
-Load Avg: 10.39, 6.10, 5.67 
-CPU usage: 13.68% user, 28.94% sys, 57.36% idle 
-SharedLibs: 152M resident, 46M data, 18M linkedit.
-MemRegions: 129417 total, 7871M resident, 40M private, 2491M shared.
-PhysMem: 16G used (8339M wired), 283M unused.
-VM: 9175G vsize, 1110M framework vsize, 33741(0) swapins, 174938(0) swapouts.
-Networks: packets: 1830325/2368M in, 504484/55M out.
-Disks: 808293/12G read, 813516/13G written.
-
-COMMAND          MEM    %CPU #TH   
-VBoxHeadless     6237M+ 0.0  27    
-com.docker.hyper 1858M+ 0.0  20    
-kernel_task      1547M+ 0.0  172/11
-Atom Helper      154M+  0.0  23    
-Atom Helper      146M+  0.0  24    
