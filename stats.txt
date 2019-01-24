@@ -1,21 +1,39 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   56.32   31  1.69    11.47    0  0.00   9  6 85  45.06 16.92 10.17
+   56.32   31  1.69    11.47    0  0.00   9  6 85  38.37 16.41 10.07
 
-Processes: 432 total, 3 running, 429 sleeping, 2363 threads 
-2019/01/24 10:53:40
-Load Avg: 45.06, 16.92, 10.17 
-CPU usage: 11.74% user, 15.30% sys, 72.95% idle 
-SharedLibs: 239M resident, 64M data, 31M linkedit.
-MemRegions: 135408 total, 3369M resident, 131M private, 1228M shared.
-PhysMem: 10G used (2589M wired), 5634M unused.
-VM: 6135G vsize, 1111M framework vsize, 122241883(0) swapins, 125429177(0) swapouts.
-Networks: packets: 22625817/23G in, 21856649/21G out.
-Disks: 17759013/816G read, 8850558/612G written.
+
+Processes: 430 total, 5 running, 425 sleeping, 2164 threads 
+2019/01/24 10:53:48
+Load Avg: 38.37, 16.41, 10.07 
+CPU usage: 21.36% user, 25.47% sys, 53.15% idle 
+SharedLibs: 240M resident, 64M data, 31M linkedit.
+MemRegions: 136972 total, 3559M resident, 132M private, 1376M shared.
+PhysMem: 11G used (2606M wired), 5291M unused.
+VM: 6127G vsize, 1111M framework vsize, 122245285(0) swapins, 125429177(0) swapouts.
+Networks: packets: 22627469/23G in, 21857378/21G out.
+Disks: 17759807/816G read, 8850920/612G written.
 
 COMMAND       MEM    %CPU #TH  
-kernel_task   1775M+ 0.0  174/8
-Rambox Helper 192M+  0.0  22   
-Rambox Helper 140M+  0.0  23   
-Rambox Helper 139M+  0.0  23   
-Atom          127M+  0.0  37   
+kernel_task   1785M+ 0.0  174/8
+Rambox Helper 215M+  0.0  21   
+Finder        183M+  0.0  14   
+Rambox Helper 140M+  0.0  22   
+Rambox Helper 139M+  0.0  22   
+Processes: 430 total, 4 running, 426 sleeping, 2164 threads 
+2019/01/24 10:53:48
+Load Avg: 38.37, 16.41, 10.07 
+CPU usage: 20.0% user, 24.81% sys, 55.18% idle 
+SharedLibs: 240M resident, 64M data, 31M linkedit.
+MemRegions: 137145 total, 3559M resident, 132M private, 1375M shared.
+PhysMem: 11G used (2606M wired), 5291M unused.
+VM: 6127G vsize, 1111M framework vsize, 122245285(0) swapins, 125429177(0) swapouts.
+Networks: packets: 22627469/23G in, 21857378/21G out.
+Disks: 17759807/816G read, 8850920/612G written.
+
+COMMAND       MEM    %CPU #TH  
+kernel_task   1785M+ 0.0  174/8
+Rambox Helper 215M+  0.0  21   
+Finder        183M+  0.0  14   
+Rambox Helper 140M+  0.0  22   
+Rambox Helper 139M+  0.0  22   
