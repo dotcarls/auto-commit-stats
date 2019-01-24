@@ -2,38 +2,20 @@
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
    56.32   31  1.69    11.47    0  0.00   9  6 85  38.37 16.41 10.07
 
-
-Processes: 430 total, 5 running, 425 sleeping, 2164 threads 
-2019/01/24 10:53:48
+Processes: 430 total, 4 running, 1 stuck, 425 sleeping, 2156 threads 
+2019/01/24 10:53:49
 Load Avg: 38.37, 16.41, 10.07 
-CPU usage: 21.36% user, 25.47% sys, 53.15% idle 
+CPU usage: 11.34% user, 15.12% sys, 73.53% idle 
 SharedLibs: 240M resident, 64M data, 31M linkedit.
-MemRegions: 136972 total, 3559M resident, 132M private, 1376M shared.
-PhysMem: 11G used (2606M wired), 5291M unused.
-VM: 6127G vsize, 1111M framework vsize, 122245285(0) swapins, 125429177(0) swapouts.
-Networks: packets: 22627469/23G in, 21857378/21G out.
-Disks: 17759807/816G read, 8850920/612G written.
+MemRegions: 137677 total, 3552M resident, 131M private, 1371M shared.
+PhysMem: 11G used (2606M wired), 5264M unused.
+VM: 6127G vsize, 1111M framework vsize, 122245477(0) swapins, 125429177(0) swapouts.
+Networks: packets: 22627520/23G in, 21857451/21G out.
+Disks: 17759907/816G read, 8850936/612G written.
 
 COMMAND       MEM    %CPU #TH  
-kernel_task   1785M+ 0.0  174/8
+kernel_task   1786M+ 0.0  174/8
 Rambox Helper 215M+  0.0  21   
-Finder        183M+  0.0  14   
-Rambox Helper 140M+  0.0  22   
-Rambox Helper 139M+  0.0  22   
-Processes: 430 total, 4 running, 426 sleeping, 2164 threads 
-2019/01/24 10:53:48
-Load Avg: 38.37, 16.41, 10.07 
-CPU usage: 20.0% user, 24.81% sys, 55.18% idle 
-SharedLibs: 240M resident, 64M data, 31M linkedit.
-MemRegions: 137145 total, 3559M resident, 132M private, 1375M shared.
-PhysMem: 11G used (2606M wired), 5291M unused.
-VM: 6127G vsize, 1111M framework vsize, 122245285(0) swapins, 125429177(0) swapouts.
-Networks: packets: 22627469/23G in, 21857378/21G out.
-Disks: 17759807/816G read, 8850920/612G written.
-
-COMMAND       MEM    %CPU #TH  
-kernel_task   1785M+ 0.0  174/8
-Rambox Helper 215M+  0.0  21   
-Finder        183M+  0.0  14   
+Finder        195M+  0.0  14/2 
 Rambox Helper 140M+  0.0  22   
 Rambox Helper 139M+  0.0  22   
