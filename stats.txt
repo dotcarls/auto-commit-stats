@@ -1,21 +1,21 @@
-              disk0               disk2       cpu    load average
-    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   56.32   31  1.69    11.47    0  0.00   9  6 85  38.37 16.41 10.07
+              disk0       cpu    load average
+    KB/t  tps  MB/s  us sy id   1m   5m   15m
+   55.98   31  1.68   9  6 85  2.75 2.99 3.33
 
-Processes: 430 total, 4 running, 1 stuck, 425 sleeping, 2156 threads 
-2019/01/24 10:53:49
-Load Avg: 38.37, 16.41, 10.07 
-CPU usage: 11.34% user, 15.12% sys, 73.53% idle 
-SharedLibs: 240M resident, 64M data, 31M linkedit.
-MemRegions: 137677 total, 3552M resident, 131M private, 1371M shared.
-PhysMem: 11G used (2606M wired), 5264M unused.
-VM: 6127G vsize, 1111M framework vsize, 122245477(0) swapins, 125429177(0) swapouts.
-Networks: packets: 22627520/23G in, 21857451/21G out.
-Disks: 17759907/816G read, 8850936/612G written.
+Processes: 32 total, 2 running, 1 stuck, 29 sleeping, 444 threads 
+2019/01/24 13:10:28
+Load Avg: 2.75, 2.99, 3.33 
+CPU usage: 2.63% user, 7.89% sys, 89.47% idle 
+SharedLibs: 205M resident, 53M data, 30M linkedit.
+MemRegions: 23516 total, 296M resident, 7044K private, 618M shared.
+PhysMem: 6336M used (2250M wired), 10G unused.
+VM: 1267G vsize, 1111M framework vsize, 122393397(0) swapins, 125462288(0) swapouts.
+Networks: packets: 22816024/23G in, 22104299/21G out.
+Disks: 17891212/820G read, 8941898/613G written.
 
-COMMAND       MEM    %CPU #TH  
-kernel_task   1786M+ 0.0  174/8
-Rambox Helper 215M+  0.0  21   
-Finder        195M+  0.0  14/2 
-Rambox Helper 140M+  0.0  22   
-Rambox Helper 139M+  0.0  22   
+COMMAND         MEM    %CPU #TH  
+kernel_task     1639M+ 0.0  170/8
+WindowServer    91M+   0.0  11   
+logd            40M+   0.0  8    
+softwareupdated 38M+   0.0  6    
+airwatchd       30M+   0.0  11   
