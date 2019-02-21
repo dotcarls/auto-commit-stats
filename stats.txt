@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   47.64   39  1.80  11  6 83  3.16 3.77 3.82
+   47.00   40  1.84  11  6 83  6.13 5.34 4.60
 
-Processes: 415 total, 3 running, 412 sleeping, 2152 threads 
-2019/02/21 13:53:02
-Load Avg: 3.16, 3.77, 3.82 
-CPU usage: 20.0% user, 11.54% sys, 68.45% idle 
-SharedLibs: 204M resident, 55M data, 33M linkedit.
-MemRegions: 175154 total, 5948M resident, 140M private, 2121M shared.
-PhysMem: 14G used (2468M wired), 2134M unused.
-VM: 4130G vsize, 1112M framework vsize, 156670080(0) swapins, 161371605(0) swapouts.
-Networks: packets: 38547277/39G in, 30939899/22G out.
-Disks: 34099531/1358G read, 15233410/884G written.
+Processes: 441 total, 5 running, 3 stuck, 433 sleeping, 2399 threads 
+2019/02/21 14:57:44
+Load Avg: 6.13, 5.34, 4.60 
+CPU usage: 47.24% user, 34.49% sys, 18.26% idle 
+SharedLibs: 209M resident, 52M data, 28M linkedit.
+MemRegions: 196302 total, 4958M resident, 108M private, 3120M shared.
+PhysMem: 16G used (2514M wired), 232M unused.
+VM: 4962G vsize, 1112M framework vsize, 157163105(0) swapins, 161978916(0) swapouts.
+Networks: packets: 40553920/41G in, 31880268/22G out.
+Disks: 35120819/1375G read, 16121353/922G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1864M+ 0.0  175/8
-Rambox Helper    507M+  0.0  20   
-Microsoft Outloo 373M+  0.0  23   
-Rambox Helper    316M+  0.0  19   
-Safari           270M+  0.0  12   
+kernel_task      1766M+ 0.0  175/8
+com.docker.hyper 1748M+ 0.0  18/1 
+Rambox Helper    331M+  0.0  21   
+Photos           309M+  0.0  39   
+inSync           274M+  0.0  55   
