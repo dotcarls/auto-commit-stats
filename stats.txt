@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   41.63   81  3.28   7  8 85  2.80 2.65 2.49
+   41.57   81  3.28   7  8 85  2.33 2.16 2.19
 
-Processes: 346 total, 2 running, 344 sleeping, 1850 threads 
-2019/03/02 16:39:19
-Load Avg: 2.80, 2.65, 2.49 
-CPU usage: 5.36% user, 11.40% sys, 83.22% idle 
-SharedLibs: 162M resident, 48M data, 24M linkedit.
-MemRegions: 155709 total, 9673M resident, 67M private, 1150M shared.
-PhysMem: 16G used (11G wired), 81M unused.
-VM: 6655G vsize, 1111M framework vsize, 75889992(0) swapins, 78007220(0) swapouts.
-Networks: packets: 21591255/23G in, 18780287/16G out.
-Disks: 18515035/557G read, 10850065/609G written.
+Processes: 359 total, 2 running, 1 stuck, 356 sleeping, 1978 threads 
+2019/03/02 16:57:54
+Load Avg: 2.33, 2.16, 2.19 
+CPU usage: 4.14% user, 11.46% sys, 84.39% idle 
+SharedLibs: 166M resident, 49M data, 25M linkedit.
+MemRegions: 165569 total, 9757M resident, 62M private, 1129M shared.
+PhysMem: 16G used (11G wired), 174M unused.
+VM: 7515G vsize, 1111M framework vsize, 75923010(0) swapins, 78032427(0) swapouts.
+Networks: packets: 21598116/23G in, 18788297/16G out.
+Disks: 18583490/558G read, 10870823/610G written.
 
 COMMAND          MEM    %CPU #TH  
-VBoxHeadless     8172M+ 0.0  33   
-kernel_task      1661M+ 0.0  171/8
-com.docker.hyper 246M+  0.0  18   
-Atom Helper      167M+  0.0  23   
-Safari           89M+   0.0  11   
+VBoxHeadless     8164M+ 0.0  33   
+kernel_task      1623M+ 0.0  171/8
+Atom Helper      265M+  0.0  23   
+com.docker.hyper 238M+  0.0  18   
+Terminal         82M+   0.0  6    
