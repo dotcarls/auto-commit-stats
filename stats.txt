@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   17.70 3218 55.62  42 26 32  357.02 98.19 36.44
+   14.78  364  5.26  10  6 84  2.52 2.46 3.88
 
-Processes: 414 total, 167 running, 247 sleeping, 2482 threads 
-2019/03/26 11:04:07
-Load Avg: 357.02, 98.19, 36.44 
-CPU usage: 65.47% user, 34.52% sys, 0.0% idle 
-SharedLibs: 366M resident, 72M data, 77M linkedit.
-MemRegions: 78591 total, 4275M resident, 239M private, 1392M shared.
-PhysMem: 10G used (1900M wired), 5633M unused.
-VM: 5281G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 29217/26M in, 24351/3422K out.
-Disks: 357582/6112M read, 32658/634M written.
-
-COMMAND     MEM    %CPU #TH  
-kernel_task 1426M+ 0.0  171/8
-Safari      229M+  0.0  22/12
-Atom Helper 216M+  0.0  26/1 
-inSync      129M+  0.0  50/2 
-Atom        125M+  0.0  44/1 
-Processes: 407 total, 116 running, 291 sleeping, 2338 threads 
-2019/03/26 11:04:08
-Load Avg: 357.02, 98.19, 36.44 
-CPU usage: 61.27% user, 38.38% sys, 0.34% idle 
-SharedLibs: 366M resident, 72M data, 77M linkedit.
-MemRegions: 71865 total, 3928M resident, 234M private, 1159M shared.
-PhysMem: 10G used (1873M wired), 6175M unused.
-VM: 4718G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 29551/26M in, 24644/3488K out.
-Disks: 357860/6118M read, 33087/636M written.
+Processes: 401 total, 3 running, 398 sleeping, 1972 threads 
+2019/03/26 11:49:08
+Load Avg: 2.52, 2.46, 3.88 
+CPU usage: 8.29% user, 11.70% sys, 80.0% idle 
+SharedLibs: 245M resident, 60M data, 34M linkedit.
+MemRegions: 94979 total, 5796M resident, 220M private, 3270M shared.
+PhysMem: 15G used (2084M wired), 1225M unused.
+VM: 4346G vsize, 1111M framework vsize, 13447(0) swapins, 25209(0) swapouts.
+Networks: packets: 134611/124M in, 105495/18M out.
+Disks: 894412/12G read, 133747/2996M written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1428M+ 0.0  171/8
-Safari           229M+  0.0  22   
-inSync           129M+  0.0  50/1 
-inSync           104M+  0.0  2/1  
-inSyncDecommissi 104M+  0.0  5    
+com.docker.hyper 1809M+ 0.0  18   
+kernel_task      1562M+ 0.0  171/8
+Rambox Helper    529M+  0.0  26   
+com.apple.WebKit 529M+  0.0  15   
+com.apple.WebKit 325M+  0.0  5    
