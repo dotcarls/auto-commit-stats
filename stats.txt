@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   41.60   43  1.76   9  7 84  2.75 2.70 3.14
+   41.36   45  1.81   9  7 84  11.37 7.01 4.94
 
-Processes: 289 total, 3 running, 286 sleeping, 1577 threads 
-2019/04/01 13:17:04
-Load Avg: 2.75, 2.70, 3.14 
-CPU usage: 4.65% user, 26.51% sys, 68.83% idle 
-SharedLibs: 65M resident, 24M data, 5232K linkedit.
-MemRegions: 111328 total, 12G resident, 36M private, 279M shared.
-PhysMem: 16G used (14G wired), 74M unused.
-VM: 6061G vsize, 1111M framework vsize, 68698998(0) swapins, 70467488(0) swapouts.
-Networks: packets: 10643292/11G in, 8926046/8389M out.
-Disks: 13744373/479G read, 9000484/424G written.
+Processes: 321 total, 4 running, 5 stuck, 312 sleeping, 2164 threads 
+2019/04/01 13:25:00
+Load Avg: 10.62, 6.92, 4.92 
+CPU usage: 18.27% user, 18.27% sys, 63.44% idle 
+SharedLibs: 84M resident, 32M data, 10M linkedit.
+MemRegions: 135447 total, 12G resident, 40M private, 266M shared.
+PhysMem: 16G used (14G wired), 122M unused.
+VM: 7006G vsize, 1111M framework vsize, 70058593(0) swapins, 72146974(0) swapouts.
+Networks: packets: 10795542/12G in, 9065012/8438M out.
+Disks: 14230556/491G read, 9326234/438G written.
 
-COMMAND      MEM    %CPU #TH  
-VBoxHeadless 12G+   0.0  29/1 
-kernel_task  1684M+ 0.0  177/8
-Atom Helper  93M+   0.0  22   
-Terminal     65M+   0.0  9    
-ruby         36M+   0.0  4    
+COMMAND          MEM    %CPU #TH  
+VBoxHeadless     12G+   0.0  29   
+kernel_task      1723M+ 0.0  177/8
+ruby             53M+   0.0  5/1  
+Terminal         42M+   0.0  11   
+AddressBookSourc 36M+   0.0  7    
