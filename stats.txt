@@ -1,21 +1,21 @@
-              disk0               disk2               disk3       cpu    load average
-    KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   32.01   68  2.14    67.60    0  0.00     6.12    0  0.00   7  9 84  2.41 2.41 2.40
+              disk0       cpu    load average
+    KB/t  tps  MB/s  us sy id   1m   5m   15m
+   16.70 3649 59.50  36 26 38  55.79 17.69 6.72
 
-Processes: 452 total, 3 running, 1 stuck, 448 sleeping, 2318 threads 
-2019/04/05 12:33:21
-Load Avg: 2.41, 2.41, 2.40 
-CPU usage: 18.15% user, 12.32% sys, 69.52% idle 
-SharedLibs: 182M resident, 52M data, 24M linkedit.
-MemRegions: 145322 total, 7930M resident, 127M private, 1334M shared.
-PhysMem: 16G used (2289M wired), 89M unused.
-VM: 7010G vsize, 1111M framework vsize, 11408247(0) swapins, 11922893(0) swapouts.
-Networks: packets: 4987623/5108M in, 3561601/2455M out.
-Disks: 5502749/140G read, 3943187/148G written.
+Processes: 371 total, 11 running, 21 stuck, 339 sleeping, 1849 threads 
+2019/04/05 13:49:28
+Load Avg: 55.79, 17.69, 6.72 
+CPU usage: 40.95% user, 37.61% sys, 21.42% idle 
+SharedLibs: 353M resident, 71M data, 83M linkedit.
+MemRegions: 57958 total, 3397M resident, 223M private, 2537M shared.
+PhysMem: 11G used (1767M wired), 4658M unused.
+VM: 3739G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 40472/46M in, 22465/2436K out.
+Disks: 362642/5651M read, 29713/741M written.
 
-COMMAND          MEM    %CPU #TH  
-kernel_task      1680M+ 0.0  169/8
-com.apple.WebKit 532M+  0.0  13   
-com.apple.WebKit 378M+  0.0  12   
-com.apple.WebKit 373M+  0.0  11   
-com.apple.WebKit 351M+  0.0  11   
+COMMAND          MEM    %CPU #TH   
+com.docker.hyper 1516M+ 0.0  18/1  
+kernel_task      1321M+ 0.0  169/10
+EpicGamesLaunche 338M+  0.0  32/2  
+softwareupdated  139M+  0.0  25/1  
+inSync           131M+  0.0  51    
