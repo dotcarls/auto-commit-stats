@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.70 3649 59.50  36 26 38  55.79 17.69 6.72
+   21.90 2782 59.50  45 30 25  103.16 28.34 10.51
 
-Processes: 371 total, 11 running, 21 stuck, 339 sleeping, 1849 threads 
-2019/04/05 13:49:28
-Load Avg: 55.79, 17.69, 6.72 
-CPU usage: 40.95% user, 37.61% sys, 21.42% idle 
-SharedLibs: 353M resident, 71M data, 83M linkedit.
-MemRegions: 57958 total, 3397M resident, 223M private, 2537M shared.
-PhysMem: 11G used (1767M wired), 4658M unused.
-VM: 3739G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 40472/46M in, 22465/2436K out.
-Disks: 362642/5651M read, 29713/741M written.
+Processes: 342 total, 70 running, 272 sleeping, 2192 threads 
+2019/04/05 14:23:02
+Load Avg: 103.16, 28.34, 10.51 
+CPU usage: 64.74% user, 35.25% sys, 0.0% idle 
+SharedLibs: 315M resident, 70M data, 81M linkedit.
+MemRegions: 62395 total, 3875M resident, 204M private, 1899M shared.
+PhysMem: 10G used (1738M wired), 5719M unused.
+VM: 3105G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 19752/19M in, 12903/2107K out.
+Disks: 191307/4169M read, 15708/268M written.
 
-COMMAND          MEM    %CPU #TH   
-com.docker.hyper 1516M+ 0.0  18/1  
-kernel_task      1321M+ 0.0  169/10
-EpicGamesLaunche 338M+  0.0  32/2  
-softwareupdated  139M+  0.0  25/1  
-inSync           131M+  0.0  51    
+COMMAND          MEM    %CPU #TH  
+kernel_task      1162M+ 0.0  169/8
+com.docker.hyper 808M+  0.0  18/1 
+Rambox Helper    340M+  0.0  27/2 
+Rambox Helper    203M+  0.0  9/2  
+Rambox Helper    183M+  0.0  25/1 
