@@ -1,21 +1,21 @@
               disk0               disk2               disk4       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   30.38   64  1.89     1.79    0  0.00     5.14    0  0.00   8  9 84  3.91 3.22 3.15
+   30.06   64  1.89     1.79    0  0.00     4.99    0  0.00   8  9 84  1.71 2.24 2.35
 
-Processes: 505 total, 3 running, 1 stuck, 501 sleeping, 2757 threads 
-2019/04/22 15:11:35
-Load Avg: 3.91, 3.22, 3.15 
-CPU usage: 11.84% user, 15.3% sys, 73.12% idle 
-SharedLibs: 237M resident, 54M data, 60M linkedit.
-MemRegions: 259470 total, 6525M resident, 136M private, 1808M shared.
-PhysMem: 16G used (3475M wired), 326M unused.
-VM: 7904G vsize, 1112M framework vsize, 95030155(0) swapins, 98073044(0) swapouts.
-Networks: packets: 68169763/30G in, 24902683/10G out.
-Disks: 41337719/936G read, 23349682/944G written.
+Processes: 486 total, 4 running, 482 sleeping, 2595 threads 
+2019/04/22 17:39:34
+Load Avg: 1.82, 2.25, 2.35 
+CPU usage: 8.20% user, 12.60% sys, 79.20% idle 
+SharedLibs: 233M resident, 56M data, 54M linkedit.
+MemRegions: 260864 total, 6135M resident, 120M private, 1676M shared.
+PhysMem: 16G used (3432M wired), 280M unused.
+VM: 7296G vsize, 1112M framework vsize, 95470992(0) swapins, 98537452(0) swapouts.
+Networks: packets: 71293801/31G in, 26865181/11G out.
+Disks: 42334056/949G read, 23695852/949G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      2306M+ 0.0  242/8
-com.apple.WebKit 645M+  0.0  8    
-Slack Helper     343M+  0.0  23   
-mds_stores       276M+  0.0  7    
-Atom Helper      244M+  0.0  29   
+kernel_task      2500M+ 0.0  260/8
+Slack Helper     409M+  0.0  28   
+Microsoft Outloo 211M+  0.0  21   
+com.apple.WebKit 206M+  0.0  5    
+Safari           202M+  0.0  13   
