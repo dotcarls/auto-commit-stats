@@ -1,38 +1,21 @@
-              disk0               disk2               disk4       cpu    load average
-    KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   30.49   68  2.04     1.79    0  0.00     4.16    0  0.00   8  8 84  2.03 2.32 2.40
+              disk0       cpu    load average
+    KB/t  tps  MB/s  us sy id   1m   5m   15m
+   26.69 2405 62.70  45 31 24  85.92 36.49 14.61
 
-Processes: 408 total, 3 running, 405 sleeping, 2438 threads 
-2019/04/24 01:41:41
-Load Avg: 2.03, 2.32, 2.40 
-CPU usage: 7.74% user, 16.94% sys, 75.31% idle 
-SharedLibs: 157M resident, 45M data, 39M linkedit.
-MemRegions: 245043 total, 4800M resident, 124M private, 1257M shared.
-PhysMem: 16G used (3399M wired), 163M unused.
-VM: 7046G vsize, 1111M framework vsize, 106307151(0) swapins, 109702811(0) swapouts.
-Networks: packets: 85658924/45G in, 30791075/19G out.
-Disks: 50393932/1163G read, 27859186/1115G written.
-
-COMMAND          MEM    %CPU #TH  
-kernel_task      2111M+ 0.0  254/8
-Atom Helper      218M+  0.0  23   
-com.apple.WebKit 212M+  0.0  11   
-com.apple.WebKit 191M+  0.0  10   
-Safari           189M+  0.0  11   
-Processes: 404 total, 2 running, 1 stuck, 401 sleeping, 2408 threads 
-2019/04/24 01:41:42
-Load Avg: 3.15, 2.55, 2.48 
-CPU usage: 10.48% user, 22.17% sys, 67.33% idle 
-SharedLibs: 157M resident, 45M data, 39M linkedit.
-MemRegions: 240596 total, 4802M resident, 123M private, 1237M shared.
-PhysMem: 16G used (3422M wired), 154M unused.
-VM: 6501G vsize, 1111M framework vsize, 106307151(0) swapins, 109702811(0) swapouts.
-Networks: packets: 85660821/45G in, 30791522/19G out.
-Disks: 50394103/1163G read, 27860020/1115G written.
+Processes: 368 total, 6 running, 5 stuck, 357 sleeping, 2049 threads 
+2019/04/24 10:21:08
+Load Avg: 85.92, 36.49, 14.61 
+CPU usage: 34.55% user, 29.84% sys, 35.60% idle 
+SharedLibs: 308M resident, 70M data, 66M linkedit.
+MemRegions: 72109 total, 4195M resident, 221M private, 4017M shared.
+PhysMem: 13G used (1915M wired), 3002M unused.
+VM: 3741G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 39894/32M in, 21397/4578K out.
+Disks: 222145/4831M read, 59695/2521M written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      2111M+ 0.0  254/9
-Atom Helper      218M+  0.0  23   
-com.apple.WebKit 212M+  0.0  11   
-com.apple.WebKit 191M+  0.0  9    
-Safari           189M+  0.0  11   
+kernel_task      1443M+ 0.0  189/8
+com.docker.hyper 914M+  0.0  18/1 
+Rambox Helper    345M+  0.0  26/2 
+Rambox Helper    271M+  0.0  24   
+Rambox Helper    231M+  0.0  23   
