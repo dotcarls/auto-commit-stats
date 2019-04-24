@@ -1,21 +1,21 @@
               disk0               disk2               disk4       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   30.26   67  1.98     1.79    0  0.00     4.34    0  0.00   8  8 84  3.11 2.76 2.76
+   30.34   67  1.98     1.79    0  0.00     4.29    0  0.00   8  8 84  22.92 12.79 7.76
 
-Processes: 498 total, 3 running, 495 sleeping, 2656 threads 
-2019/04/23 17:15:25
-Load Avg: 3.11, 2.76, 2.76 
-CPU usage: 22.12% user, 19.33% sys, 58.53% idle 
-SharedLibs: 212M resident, 43M data, 36M linkedit.
-MemRegions: 276489 total, 5807M resident, 99M private, 1307M shared.
-PhysMem: 13G used (5162M wired), 2665M unused.
-VM: 8586G vsize, 1112M framework vsize, 103522855(0) swapins, 107301744(0) swapouts.
-Networks: packets: 83146484/37G in, 28990955/13G out.
-Disks: 48225377/1103G read, 26453237/1056G written.
+Processes: 423 total, 8 running, 13 stuck, 402 sleeping, 2104 threads 
+2019/04/23 22:14:29
+Load Avg: 21.64, 12.69, 7.76 
+CPU usage: 59.10% user, 38.57% sys, 2.32% idle 
+SharedLibs: 174M resident, 54M data, 34M linkedit.
+MemRegions: 187646 total, 2667M resident, 106M private, 1656M shared.
+PhysMem: 9278M used (3284M wired), 7105M unused.
+VM: 3455G vsize, 1111M framework vsize, 105084768(0) swapins, 108779174(0) swapouts.
+Networks: packets: 84082011/42G in, 29737714/17G out.
+Disks: 48733089/1118G read, 26705702/1068G written.
 
-COMMAND      MEM    %CPU #TH  
-kernel_task  2608M+ 0.0  266/8
-VBoxHeadless 1880M+ 0.0  37   
-Slack Helper 293M+  0.0  26   
-Terminal     199M+  0.0  8/1  
-Safari       168M+  0.0  19   
+COMMAND      MEM    %CPU #TH   
+kernel_task  2102M+ 0.0  250/10
+WindowServer 662M+  0.0  10    
+loginwindow  659M+  0.0  4     
+Atom Helper  206M+  0.0  28/2  
+Atom         127M+  0.0  39    
