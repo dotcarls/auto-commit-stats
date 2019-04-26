@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   28.37  813 22.52  14 15 71  2.59 4.10 5.82
+   27.32  832 22.21  13 15 72  3.14 3.88 5.56
 
-Processes: 383 total, 2 running, 381 sleeping, 1893 threads 
-2019/04/26 14:34:10
-Load Avg: 2.59, 4.10, 5.82 
-CPU usage: 7.56% user, 12.43% sys, 80.0% idle 
-SharedLibs: 175M resident, 55M data, 30M linkedit.
-MemRegions: 80547 total, 3711M resident, 189M private, 4039M shared.
-PhysMem: 16G used (2052M wired), 161M unused.
-VM: 3483G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 698539/1160M in, 315258/783M out.
-Disks: 577667/14G read, 171097/6178M written.
+Processes: 408 total, 4 running, 404 sleeping, 2047 threads 
+2019/04/26 14:35:42
+Load Avg: 3.14, 3.88, 5.56 
+CPU usage: 14.21% user, 28.42% sys, 57.36% idle 
+SharedLibs: 176M resident, 55M data, 29M linkedit.
+MemRegions: 83394 total, 4124M resident, 184M private, 3889M shared.
+PhysMem: 16G used (2630M wired), 182M unused.
+VM: 3590G vsize, 1111M framework vsize, 3066(0) swapins, 17890(0) swapouts.
+Networks: packets: 724096/1169M in, 318113/784M out.
+Disks: 646586/15G read, 197052/7255M written.
 
 COMMAND          MEM    %CPU #TH  
-com.docker.hyper 2749M+ 0.0  18   
-kernel_task      1563M+ 0.0  191/8
-Spotify Helper   260M+  0.0  22   
-Atom Helper      237M+  0.0  30   
-Safari           186M+  0.0  17   
+com.docker.hyper 2738M+ 0.0  18   
+kernel_task      1597M+ 0.0  191/8
+VirtualBoxVM     634M+  0.0  33/1 
+Spotify Helper   254M+  0.0  17   
+Atom Helper      213M+  0.0  28   
