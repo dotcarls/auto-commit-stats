@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   27.22  102  2.71   7  7 86  2.85 2.99 2.89
+   27.21  102  2.71   7  7 86  2.68 2.92 2.86
 
-Processes: 449 total, 3 running, 446 sleeping, 2374 threads 
-2019/04/26 11:11:57
-Load Avg: 2.85, 2.99, 2.89 
-CPU usage: 8.45% user, 13.59% sys, 77.94% idle 
+Processes: 452 total, 5 running, 2 stuck, 445 sleeping, 2454 threads 
+2019/04/26 11:12:42
+Load Avg: 2.68, 2.92, 2.86 
+CPU usage: 49.36% user, 35.16% sys, 15.46% idle 
 SharedLibs: 180M resident, 54M data, 18M linkedit.
-MemRegions: 157849 total, 5657M resident, 113M private, 981M shared.
-PhysMem: 15G used (4255M wired), 1187M unused.
-VM: 5169G vsize, 1112M framework vsize, 6359021(0) swapins, 7051286(0) swapouts.
-Networks: packets: 30845774/26G in, 9470593/15G out.
-Disks: 12661398/301G read, 5258067/164G written.
+MemRegions: 157697 total, 4853M resident, 115M private, 1180M shared.
+PhysMem: 14G used (3265M wired), 1707M unused.
+VM: 5086G vsize, 1112M framework vsize, 6360822(0) swapins, 7051286(0) swapouts.
+Networks: packets: 30854982/26G in, 9471398/15G out.
+Disks: 12671245/301G read, 5261157/164G written.
 
 COMMAND        MEM    %CPU #TH  
-kernel_task    1870M+ 0.0  221/8
-VBoxHeadless   1097M+ 0.0  33   
+kernel_task    1875M+ 0.0  221/8
 VBoxHeadless   437M+  0.0  29   
-Spotify Helper 208M+  0.0  22   
-Safari         202M+  0.0  13   
+Spotify Helper 208M+  0.0  16   
+Safari         201M+  0.0  12   
+Atom Helper    194M+  0.0  27   
