@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   21.16 2702 55.83  45 33 22  83.27 26.93 10.31
+   22.27 2761 60.03  46 34 21  81.16 27.43 10.59
 
-Processes: 377 total, 38 running, 2 stuck, 337 sleeping, 2124 threads 
-2019/04/26 14:20:20
-Load Avg: 83.27, 26.93, 10.31 
-CPU usage: 51.62% user, 47.19% sys, 1.17% idle 
-SharedLibs: 304M resident, 69M data, 67M linkedit.
-MemRegions: 56611 total, 3437M resident, 216M private, 2694M shared.
-PhysMem: 11G used (1689M wired), 5279M unused.
-VM: 3242G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 60119/67M in, 25925/4226K out.
-Disks: 215061/4124M read, 33288/1044M written.
+Processes: 378 total, 27 running, 8 stuck, 343 sleeping, 1999 threads 
+2019/04/26 14:20:27
+Load Avg: 81.16, 27.43, 10.59 
+CPU usage: 51.54% user, 48.16% sys, 0.28% idle 
+SharedLibs: 305M resident, 69M data, 67M linkedit.
+MemRegions: 57027 total, 3700M resident, 216M private, 3133M shared.
+PhysMem: 12G used (1803M wired), 4415M unused.
+VM: 3249G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 125140/151M in, 38317/5211K out.
+Disks: 224652/4213M read, 46183/1665M written.
 
-COMMAND          MEM    %CPU #TH  
-com.docker.hyper 1464M+ 0.0  18/2 
-kernel_task      1239M+ 0.0  191/8
-Spotify Helper   205M+  0.0  23   
-Atom Helper      169M+  0.0  27/1 
-Atom             139M+  0.0  40   
+COMMAND          MEM    %CPU #TH   
+com.docker.hyper 1715M+ 0.0  18/1  
+kernel_task      1337M+ 0.0  191/10
+Atom Helper      215M+  0.0  28/2  
+Spotify Helper   197M+  0.0  23    
+Atom             173M+  0.0  40/2  
