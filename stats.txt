@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   29.90  250  7.30    24.54    0  0.00   9  8 83  2.43 2.40 2.34
+   37.90   90  3.33    20.11    0  0.00   9 11 80  6.77 4.53 3.62
 
-Processes: 454 total, 2 running, 2 stuck, 450 sleeping, 2314 threads 
-2019/05/08 18:18:35
-Load Avg: 2.43, 2.40, 2.34 
-CPU usage: 6.73% user, 18.79% sys, 74.46% idle 
-SharedLibs: 223M resident, 52M data, 15M linkedit.
-MemRegions: 130179 total, 5079M resident, 42M private, 5511M shared.
-PhysMem: 16G used (6096M wired), 245M unused.
-VM: 5046G vsize, 1111M framework vsize, 1795109(0) swapins, 2694618(0) swapouts.
-Networks: packets: 10643006/6082M in, 2108246/2299M out.
-Disks: 3707893/91G read, 2476741/85G written.
+Processes: 479 total, 2 running, 1 stuck, 476 sleeping, 2391 threads 
+2019/05/09 13:50:55
+Load Avg: 6.77, 4.53, 3.62 
+CPU usage: 12.61% user, 22.22% sys, 65.16% idle 
+SharedLibs: 214M resident, 40M data, 12M linkedit.
+MemRegions: 152440 total, 4565M resident, 44M private, 5379M shared.
+PhysMem: 16G used (6175M wired), 163M unused.
+VM: 6697G vsize, 1111M framework vsize, 14597947(0) swapins, 15910963(0) swapouts.
+Networks: packets: 12280923/6278M in, 2308235/2563M out.
+Disks: 5081370/154G read, 3460043/154G written.
 
 COMMAND          MEM    %CPU #TH  
-com.docker.hyper 3652M+ 0.0  18   
 VBoxHeadless     3041M+ 0.0  34   
-kernel_task      1747M+ 0.0  194/8
-VBoxHeadless     612M+  0.0  31   
-Atom Helper      230M+  0.0  30   
+com.docker.hyper 2772M+ 0.0  18   
+kernel_task      1811M+ 0.0  198/8
+VBoxHeadless     620M+  0.0  31   
+mds_stores       112M+  0.0  7    
