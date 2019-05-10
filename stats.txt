@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   50.16 2478 121.36  24 15 61  4.05 7.07 6.28
+   46.10 1113 50.10  14 10 76  1.99 2.01 2.69
 
-Processes: 286 total, 4 running, 10 stuck, 272 sleeping, 1668 threads 
-2019/05/10 10:38:45
-Load Avg: 4.05, 7.07, 6.28 
-CPU usage: 36.0% user, 31.42% sys, 32.57% idle 
-SharedLibs: 163M resident, 34M data, 6360K linkedit.
-MemRegions: 53199 total, 1066M resident, 41M private, 3033M shared.
-PhysMem: 16G used (1912M wired), 274M unused.
-VM: 2346G vsize, 1111M framework vsize, 115203(0) swapins, 380297(0) swapouts.
-Networks: packets: 6917127/9883M in, 1134711/82M out.
-Disks: 592551/23G read, 794297/43G written.
+Processes: 365 total, 5 running, 360 sleeping, 2064 threads 
+2019/05/10 11:22:20
+Load Avg: 1.99, 2.01, 2.69 
+CPU usage: 22.93% user, 21.55% sys, 55.50% idle 
+SharedLibs: 168M resident, 45M data, 16M linkedit.
+MemRegions: 95632 total, 5725M resident, 123M private, 3387M shared.
+PhysMem: 16G used (2127M wired), 69M unused.
+VM: 3449G vsize, 1111M framework vsize, 259538(0) swapins, 423614(0) swapouts.
+Networks: packets: 391908/102M in, 694478/794M out.
+Disks: 2559711/108G read, 973894/47G written.
 
-COMMAND          MEM    %CPU #TH  
-kernel_task      9562M+ 0.0  185/8
-com.docker.hyper 2265M+ 0.0  18   
-EpicGamesLaunche 485M+  0.0  68/5 
-UnrealCEFSubProc 113M+  0.0  23   
-UnrealCEFSubProc 64M+   0.0  17/1 
+COMMAND          MEM    %CPU #TH   
+kernel_task      1559M+ 0.0  176/10
+com.docker.hyper 1554M+ 0.0  18    
+com.apple.WebKit 678M+  0.0  12    
+com.apple.WebKit 374M+  0.0  22    
+com.apple.WebKit 312M+  0.0  7     
