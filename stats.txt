@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   22.22 2372 51.46     3.11    2  0.01  40 31 29  52.52 18.84 7.29
+   27.85 1310 35.63     3.11    1  0.00  16 17 67  4.92 11.23 6.57
 
-Processes: 336 total, 10 running, 9 stuck, 317 sleeping, 1866 threads 
-2019/05/09 17:29:19
-Load Avg: 52.52, 18.84, 7.29 
-CPU usage: 25.0% user, 42.10% sys, 32.89% idle 
-SharedLibs: 306M resident, 70M data, 73M linkedit.
-MemRegions: 47163 total, 2754M resident, 199M private, 2336M shared.
-PhysMem: 10G used (1805M wired), 5792M unused.
-VM: 2541G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 37579/44M in, 18352/2962K out.
-Disks: 171236/3668M read, 22848/557M written.
+Processes: 358 total, 2 running, 356 sleeping, 1619 threads 
+2019/05/09 17:32:55
+Load Avg: 4.92, 11.23, 6.57 
+CPU usage: 10.44% user, 17.16% sys, 72.38% idle 
+SharedLibs: 163M resident, 55M data, 33M linkedit.
+MemRegions: 57645 total, 2870M resident, 191M private, 6796M shared.
+PhysMem: 16G used (1907M wired), 272M unused.
+VM: 3163G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 41652/46M in, 23071/3894K out.
+Disks: 259068/5701M read, 130306/4884M written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1363M+ 0.0  188/9
-com.docker.hyper 812M+  0.0  18/1 
-inSync           132M+  0.0  49   
+com.docker.hyper 4259M+ 0.0  18   
+kernel_task      1427M+ 0.0  187/8
+inSync           133M+  0.0  49   
 EpicGamesLaunche 130M+  0.0  54   
 inSyncDecommissi 103M+  0.0  4    
