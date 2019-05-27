@@ -1,21 +1,21 @@
               disk0               disk2               disk3       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   72.13   47  3.33    33.48    0  0.00     4.22    0  0.00   4  4 92  2.46 2.19 2.22
+   71.82   47  3.32    33.48    0  0.00     4.22    0  0.00   4  4 92  2.70 2.46 2.37
 
-Processes: 445 total, 2 running, 443 sleeping, 2323 threads 
-2019/05/27 10:37:11
-Load Avg: 2.46, 2.19, 2.22 
-CPU usage: 5.97% user, 9.96% sys, 84.6% idle 
-SharedLibs: 170M resident, 48M data, 24M linkedit.
-MemRegions: 129360 total, 5392M resident, 139M private, 1925M shared.
-PhysMem: 16G used (2850M wired), 412M unused.
-VM: 6499G vsize, 1111M framework vsize, 78571358(0) swapins, 80244678(0) swapouts.
-Networks: packets: 3631178/4045M in, 1839871/733M out.
-Disks: 7547088/421G read, 4156003/383G written.
+Processes: 457 total, 3 running, 454 sleeping, 2377 threads 
+2019/05/27 10:55:34
+Load Avg: 2.70, 2.46, 2.37 
+CPU usage: 16.8% user, 15.73% sys, 68.18% idle 
+SharedLibs: 164M resident, 47M data, 24M linkedit.
+MemRegions: 139352 total, 5461M resident, 144M private, 1981M shared.
+PhysMem: 16G used (2695M wired), 175M unused.
+VM: 6944G vsize, 1111M framework vsize, 78573771(0) swapins, 80244678(0) swapouts.
+Networks: packets: 3707481/4136M in, 1865561/737M out.
+Disks: 7582783/421G read, 4189563/383G written.
 
-COMMAND     MEM    %CPU #TH  
-kernel_task 1650M+ 0.0  172/8
-Atom Helper 353M+  0.0  23   
-java        221M+  0.0  38   
-Atom Helper 199M+  0.0  30   
-Safari      184M+  0.0  13   
+COMMAND      MEM    %CPU #TH  
+kernel_task  1659M+ 0.0  172/8
+Atom Helper  328M+  0.0  23   
+java         234M+  0.0  41   
+Safari       194M+  0.0  18   
+WindowServer 160M+  0.0  10   
