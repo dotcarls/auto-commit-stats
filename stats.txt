@@ -1,21 +1,21 @@
               disk0               disk2               disk3       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   69.29   40  2.71    24.67    0  0.00     3.62    0  0.00   5  4 91  5.48 3.63 3.74
+   66.45   42  2.74    23.50    0  0.00     3.54    0  0.00   5  4 91  3.13 2.97 2.99
 
-Processes: 529 total, 3 running, 526 sleeping, 3216 threads 
-2019/05/28 10:54:45
-Load Avg: 5.48, 3.63, 3.74 
-CPU usage: 29.22% user, 23.5% sys, 47.71% idle 
-SharedLibs: 180M resident, 49M data, 19M linkedit.
-MemRegions: 205640 total, 6566M resident, 117M private, 1321M shared.
-PhysMem: 16G used (3018M wired), 111M unused.
-VM: 8654G vsize, 1112M framework vsize, 85902531(0) swapins, 87863423(0) swapouts.
-Networks: packets: 5709707/6370M in, 2825808/875M out.
-Disks: 8603135/464G read, 4832885/422G written.
+Processes: 512 total, 3 running, 509 sleeping, 2889 threads 
+2019/05/28 12:05:51
+Load Avg: 3.13, 2.97, 2.99 
+CPU usage: 11.77% user, 14.53% sys, 73.68% idle 
+SharedLibs: 186M resident, 52M data, 20M linkedit.
+MemRegions: 197837 total, 6600M resident, 119M private, 1437M shared.
+PhysMem: 16G used (2903M wired), 161M unused.
+VM: 7767G vsize, 1112M framework vsize, 85960589(0) swapins, 87923712(0) swapouts.
+Networks: packets: 6314433/6480M in, 3795212/1659M out.
+Disks: 9282552/482G read, 5055392/424G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      2047M+ 0.0  202/8
-com.apple.WebKit 508M+  0.0  12   
-mds_stores       373M+  0.0  7    
-inSync           366M+  0.0  53   
-Microsoft Outloo 352M+  0.0  26   
+kernel_task      1950M+ 0.0  202/8
+com.apple.WebKit 581M+  0.0  11   
+inSync           387M+  0.0  52   
+Google Chrome He 330M+  0.0  16   
+Microsoft Outloo 313M+  0.0  23   
