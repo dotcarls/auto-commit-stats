@@ -1,21 +1,21 @@
               disk0               disk2               disk3       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   62.86   47  2.91    19.10    0  0.00     3.21    0  0.00   6  5 89  2.91 3.74 3.21
+   62.87   47  2.91    19.10    0  0.00     3.21    0  0.00   6  5 89  2.10 2.87 2.93
 
-Processes: 469 total, 3 running, 3 stuck, 463 sleeping, 2691 threads 
-2019/05/28 17:23:26
-Load Avg: 2.91, 3.74, 3.21 
-CPU usage: 8.60% user, 29.83% sys, 61.55% idle 
+Processes: 472 total, 4 running, 2 stuck, 466 sleeping, 2579 threads 
+2019/05/28 17:26:27
+Load Avg: 2.10, 2.87, 2.93 
+CPU usage: 23.11% user, 14.20% sys, 62.67% idle 
 SharedLibs: 196M resident, 49M data, 16M linkedit.
-MemRegions: 177926 total, 3616M resident, 94M private, 5832M shared.
-PhysMem: 16G used (2542M wired), 281M unused.
-VM: 6981G vsize, 1111M framework vsize, 94297743(0) swapins, 96990032(0) swapouts.
-Networks: packets: 5595183/4915M in, 4307881/2092M out.
-Disks: 10867811/532G read, 6106623/482G written.
+MemRegions: 174736 total, 4017M resident, 88M private, 5732M shared.
+PhysMem: 16G used (2551M wired), 116M unused.
+VM: 6465G vsize, 1112M framework vsize, 94532461(0) swapins, 97262485(0) swapouts.
+Networks: packets: 5616720/4930M in, 4322715/2095M out.
+Disks: 10889122/534G read, 6120297/484G written.
 
 COMMAND          MEM    %CPU #TH  
-com.docker.hyper 3862M+ 0.0  18/1 
-kernel_task      1851M+ 0.0  231/8
-Microsoft Outloo 228M+  0.0  25   
-Slack Helper     192M+  0.0  23   
-com.apple.WebKit 165M+  0.0  12   
+com.docker.hyper 3862M+ 0.0  18   
+kernel_task      1840M+ 0.0  231/8
+Google Chrome He 396M+  0.0  21   
+Google Chrome He 238M+  0.0  21   
+Microsoft Outloo 183M+  0.0  23   
