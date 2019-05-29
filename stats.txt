@@ -1,21 +1,21 @@
               disk0               disk2               disk3       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   61.69   49  2.93    17.80    0  0.00     3.11    0  0.00   6  5 89  3.18 2.57 2.40
+   67.49   49  3.22    16.69    0  0.00     3.03    0  0.00   6  6 89  3.03 5.61 9.19
 
-Processes: 491 total, 5 running, 486 sleeping, 2622 threads 
-2019/05/28 18:39:54
-Load Avg: 3.18, 2.57, 2.40 
-CPU usage: 20.35% user, 41.57% sys, 38.7% idle 
-SharedLibs: 201M resident, 52M data, 17M linkedit.
-MemRegions: 195591 total, 3076M resident, 74M private, 6229M shared.
-PhysMem: 16G used (2813M wired), 238M unused.
-VM: 7806G vsize, 1112M framework vsize, 95735505(0) swapins, 98625047(0) swapouts.
-Networks: packets: 5757838/4997M in, 4451473/2113M out.
-Disks: 11342924/544G read, 6324187/493G written.
+Processes: 411 total, 5 running, 1 stuck, 405 sleeping, 2081 threads 
+2019/05/29 08:34:15
+Load Avg: 3.75, 5.72, 9.20 
+CPU usage: 26.12% user, 27.74% sys, 46.12% idle 
+SharedLibs: 219M resident, 57M data, 31M linkedit.
+MemRegions: 118176 total, 2560M resident, 109M private, 1133M shared.
+PhysMem: 9512M used (2664M wired), 6869M unused.
+VM: 5083G vsize, 1111M framework vsize, 125368545(0) swapins, 128875233(0) swapouts.
+Networks: packets: 5823302/5003M in, 4512376/2123M out.
+Disks: 13046365/677G read, 7089598/615G written.
 
-COMMAND          MEM    %CPU #TH  
-com.docker.hyper 4424M+ 0.0  18/2 
-kernel_task      2089M+ 0.0  231/8
-com.apple.WebKit 371M+  0.0  11   
-Google Chrome He 158M+  0.0  16   
-Safari           130M+  0.0  12   
+COMMAND       MEM    %CPU #TH  
+kernel_task   1753M+ 0.0  177/8
+WindowServer  454M+  0.0  10   
+loginwindow   431M+  0.0  4    
+CalendarAgent 173M+  0.0  4    
+Safari        136M+  0.0  35/1 
