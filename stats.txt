@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   56.65   11  0.62   8  7 85  4.80 4.33 3.47
+   55.85   12  0.64   8  7 85  3.64 3.60 3.93
 
-Processes: 334 total, 6 running, 2 stuck, 326 sleeping, 1700 threads 
-2019/07/23 17:49:31
-Load Avg: 4.80, 4.33, 3.47 
-CPU usage: 18.60% user, 27.13% sys, 54.26% idle 
-SharedLibs: 102M resident, 32M data, 5460K linkedit.
-MemRegions: 253198 total, 10G resident, 62M private, 674M shared.
-PhysMem: 16G used (11G wired), 41M unused.
-VM: 4153G vsize, 1116M framework vsize, 193170854(0) swapins, 198287131(0) swapouts.
-Networks: packets: 14975690/29G in, 11793414/20G out.
-Disks: 26024629/1130G read, 14537138/1061G written.
+Processes: 382 total, 3 running, 379 sleeping, 1869 threads 
+2019/07/23 21:35:07
+Load Avg: 3.64, 3.60, 3.93 
+CPU usage: 18.5% user, 12.67% sys, 69.27% idle 
+SharedLibs: 147M resident, 43M data, 13M linkedit.
+MemRegions: 282597 total, 8158M resident, 83M private, 885M shared.
+PhysMem: 16G used (8207M wired), 194M unused.
+VM: 6023G vsize, 1116M framework vsize, 195520826(0) swapins, 200474298(0) swapouts.
+Networks: packets: 15145370/29G in, 11972700/20G out.
+Disks: 27209139/1166G read, 15403667/1104G written.
 
-COMMAND      MEM    %CPU #TH  
-VBoxHeadless 8202M+ 0.0  34   
-kernel_task  1988M+ 0.0  173/8
-Finder       328M+  0.0  11   
-mds_stores   246M+  0.0  9    
-WindowServer 190M+  0.0  11   
+COMMAND          MEM    %CPU #TH  
+VBoxHeadless     5050M+ 0.0  34   
+kernel_task      1982M+ 0.0  173/8
+Atom Helper      317M+  0.0  23   
+Microsoft Outloo 262M+  0.0  34   
+WindowServer     172M+  0.0  10   
