@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   28.38  761 21.08  10 11 79  2.12 1.97 3.36
+   29.26  327  9.36   5  7 88  2.40 2.31 2.22
 
-Processes: 412 total, 2 running, 410 sleeping, 1940 threads 
-2019/07/26 10:35:45
-Load Avg: 2.12, 1.97, 3.36 
-CPU usage: 5.6% user, 10.59% sys, 84.33% idle 
-SharedLibs: 203M resident, 45M data, 16M linkedit.
-MemRegions: 106896 total, 3672M resident, 118M private, 3970M shared.
-PhysMem: 16G used (2222M wired), 144M unused.
-VM: 5166G vsize, 1111M framework vsize, 36104(0) swapins, 76901(0) swapouts.
-Networks: packets: 892880/1247M in, 311578/193M out.
-Disks: 948909/23G read, 431783/15G written.
+Processes: 465 total, 4 running, 461 sleeping, 2349 threads 
+2019/07/26 13:19:10
+Load Avg: 2.40, 2.31, 2.22 
+CPU usage: 7.39% user, 12.32% sys, 80.28% idle 
+SharedLibs: 212M resident, 49M data, 17M linkedit.
+MemRegions: 135026 total, 5982M resident, 136M private, 4246M shared.
+PhysMem: 16G used (3232M wired), 32M unused.
+VM: 6740G vsize, 1111M framework vsize, 125530(0) swapins, 237480(0) swapouts.
+Networks: packets: 5245396/9406M in, 2322410/4392M out.
+Disks: 2337269/57G read, 1468180/49G written.
 
-COMMAND          MEM    %CPU #TH  
-com.docker.hyper 2882M+ 0.0  18   
-kernel_task      1658M+ 0.0  195/8
-Safari           214M+  0.0  14   
-Atom Helper      206M+  0.0  30   
-Microsoft Outloo 175M+  0.0  25   
+COMMAND          MEM    %CPU #TH   
+com.docker.hyper 2877M+ 0.0  18    
+kernel_task      1880M+ 0.0  196/10
+VBoxHeadless     828M+  0.0  35    
+com.apple.WebKit 331M+  0.0  5     
+Spotify Helper   166M+  0.0  17    
