@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   45.94   21  0.96   8  5 87  3.24 3.03 3.03
+   43.77   24  1.02   9  5 86  4.68 3.74 3.41
 
-Processes: 506 total, 6 running, 500 sleeping, 2705 threads 
-2019/08/06 16:22:09
-Load Avg: 3.24, 3.03, 3.03 
-CPU usage: 33.1% user, 33.72% sys, 33.25% idle 
-SharedLibs: 199M resident, 48M data, 15M linkedit.
-MemRegions: 170964 total, 6734M resident, 133M private, 978M shared.
-PhysMem: 15G used (6053M wired), 1485M unused.
-VM: 7056G vsize, 1112M framework vsize, 36606832(0) swapins, 37721009(0) swapouts.
-Networks: packets: 5722793/8404M in, 3020098/3392M out.
-Disks: 7405054/267G read, 3998248/233G written.
+Processes: 423 total, 6 running, 1 stuck, 416 sleeping, 2247 threads 
+2019/08/06 21:36:16
+Load Avg: 4.78, 3.78, 3.42 
+CPU usage: 36.72% user, 38.36% sys, 24.91% idle 
+SharedLibs: 195M resident, 57M data, 29M linkedit.
+MemRegions: 100276 total, 2739M resident, 116M private, 1107M shared.
+PhysMem: 8008M used (2868M wired), 8375M unused.
+VM: 3547G vsize, 1111M framework vsize, 37355502(0) swapins, 38579563(0) swapouts.
+Networks: packets: 4411308/6432M in, 2840553/3371M out.
+Disks: 8446840/290G read, 4727787/260G written.
 
-COMMAND          MEM    %CPU #TH  
-VBoxHeadless     3000M+ 0.0  34   
-kernel_task      2012M+ 0.0  210/9
-Atom Helper      267M+  0.0  27   
-Microsoft Outloo 211M+  0.0  25   
-Safari           158M+  0.0  16   
+COMMAND      MEM    %CPU #TH  
+kernel_task  1661M+ 0.0  193/8
+WindowServer 312M+  0.0  10   
+Atom Helper  248M+  0.0  31   
+loginwindow  229M+  0.0  5    
+Safari       204M+  0.0  33/2 
