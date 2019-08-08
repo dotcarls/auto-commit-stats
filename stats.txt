@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   44.06   27  1.18  11  5 84  4.85 7.44 15.62
+   44.00   27  1.18  11  5 84  4.58 7.25 15.41
 
-Processes: 484 total, 5 running, 479 sleeping, 2645 threads 
-2019/08/08 12:34:51
-Load Avg: 4.85, 7.44, 15.62 
-CPU usage: 40.33% user, 17.21% sys, 42.45% idle 
-SharedLibs: 172M resident, 47M data, 19M linkedit.
-MemRegions: 170104 total, 4181M resident, 140M private, 1268M shared.
-PhysMem: 14G used (2609M wired), 2526M unused.
-VM: 4979G vsize, 1113M framework vsize, 51260960(0) swapins, 53041580(0) swapouts.
-Networks: packets: 11421446/15G in, 4893678/3594M out.
-Disks: 11485349/404G read, 7413058/390G written.
+Processes: 459 total, 3 running, 3 stuck, 453 sleeping, 2548 threads 
+2019/08/08 12:35:03
+Load Avg: 4.58, 7.25, 15.41 
+CPU usage: 21.20% user, 22.61% sys, 56.18% idle 
+SharedLibs: 173M resident, 48M data, 22M linkedit.
+MemRegions: 130561 total, 2481M resident, 125M private, 1141M shared.
+PhysMem: 9442M used (2818M wired), 6940M unused.
+VM: 3611G vsize, 1111M framework vsize, 51291361(0) swapins, 53065258(0) swapouts.
+Networks: packets: 11421832/15G in, 4894084/3594M out.
+Disks: 11521411/405G read, 7416510/390G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1839M+ 0.0  221/8
-EpicGamesLaunche 633M+  0.0  67/1 
-com.apple.WebKit 352M+  0.0  5    
-Safari           163M+  0.0  11   
-Microsoft Outloo 154M+  0.0  18   
+kernel_task      1729M+ 0.0  221/8
+Microsoft Outloo 154M+  0.0  23   
+mds_stores       127M+  0.0  6    
+WindowServer     85M+   0.0  10   
+VMware Fusion    84M+   0.0  13   
