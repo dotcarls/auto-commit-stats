@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   41.43   23  0.92   5  4 91  1.97 1.94 2.10
+   29.46  671 19.31  12  9 79  1.47 5.20 4.52
 
-Processes: 468 total, 2 running, 466 sleeping, 2105 threads 
-2019/08/12 12:58:21
-Load Avg: 1.97, 1.94, 2.10 
-CPU usage: 4.2% user, 10.98% sys, 84.98% idle 
-SharedLibs: 209M resident, 53M data, 29M linkedit.
-MemRegions: 136992 total, 8210M resident, 90M private, 995M shared.
-PhysMem: 16G used (8801M wired), 289M unused.
-VM: 5529G vsize, 1111M framework vsize, 18724354(0) swapins, 19731432(0) swapouts.
-Networks: packets: 2105185/4043M in, 1497137/2717M out.
-Disks: 4047416/123G read, 1844634/109G written.
+Processes: 360 total, 2 running, 358 sleeping, 1647 threads 
+2019/08/12 13:33:44
+Load Avg: 1.47, 5.20, 4.52 
+CPU usage: 4.19% user, 10.48% sys, 85.31% idle 
+SharedLibs: 201M resident, 57M data, 33M linkedit.
+MemRegions: 64623 total, 4024M resident, 226M private, 2512M shared.
+PhysMem: 14G used (1697M wired), 2325M unused.
+VM: 2903G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 155946/201M in, 50020/7093K out.
+Disks: 276491/7497M read, 69365/2451M written.
 
 COMMAND          MEM    %CPU #TH  
-VBoxHeadless     6088M+ 0.0  34   
-kernel_task      1809M+ 0.0  196/8
-Microsoft Outloo 151M+  0.0  26   
-Safari           132M+  0.0  14   
-com.apple.WebKit 102M+  0.0  5    
+kernel_task      1244M+ 0.0  185/8
+com.docker.hyper 1196M+ 0.0  18   
+Safari           236M+  0.0  17   
+com.apple.WebKit 87M+   0.0  5    
+mds_stores       86M+   0.0  5    
