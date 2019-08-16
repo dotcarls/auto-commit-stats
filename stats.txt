@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   26.78   56  1.46   6  5 89  2.93 2.74 2.75
+   30.69   44  1.32   5  5 89  3.95 5.18 3.90
 
-Processes: 374 total, 2 running, 372 sleeping, 2144 threads 
-2019/08/14 11:57:38
-Load Avg: 2.93, 2.74, 2.75 
-CPU usage: 8.33% user, 15.74% sys, 75.92% idle 
-SharedLibs: 133M resident, 40M data, 9160K linkedit.
-MemRegions: 154224 total, 10G resident, 51M private, 695M shared.
-PhysMem: 16G used (11G wired), 146M unused.
-VM: 4775G vsize, 1113M framework vsize, 10478237(0) swapins, 11622641(0) swapouts.
-Networks: packets: 4322085/5015M in, 2438887/1848M out.
-Disks: 5792661/122G read, 3550631/116G written.
+Processes: 375 total, 2 running, 373 sleeping, 2018 threads 
+2019/08/15 20:31:07
+Load Avg: 3.95, 5.18, 3.90 
+CPU usage: 14.71% user, 19.91% sys, 65.36% idle 
+SharedLibs: 263M resident, 66M data, 32M linkedit.
+MemRegions: 100446 total, 5194M resident, 144M private, 2428M shared.
+PhysMem: 14G used (2636M wired), 2255M unused.
+VM: 2123G vsize, 1111M framework vsize, 22654759(0) swapins, 23736339(0) swapouts.
+Networks: packets: 4833983/5303M in, 2882989/1934M out.
+Disks: 7711338/190G read, 4780322/175G written.
 
 COMMAND          MEM    %CPU #TH  
-VBoxHeadless     8209M+ 0.0  34   
-kernel_task      1829M+ 0.0  193/8
-Atom Helper      224M+  0.0  30   
-Slack Helper     164M+  0.0  31   
-Microsoft Outloo 129M+  0.0  26   
+kernel_task      1690M+ 0.0  204/8
+mds_stores       434M+  0.0  8    
+WindowServer     406M+  0.0  10   
+Microsoft Outloo 376M+  0.0  26   
+loginwindow      319M+  0.0  3    
