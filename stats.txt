@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   30.68   44  1.32   5  5 89  3.73 5.09 3.88
+   34.73   42  1.43   5  5 89  6.43 11.36 9.03
 
-Processes: 379 total, 4 running, 375 sleeping, 2177 threads 
-2019/08/15 20:31:18
-Load Avg: 3.73, 5.09, 3.88 
-CPU usage: 12.97% user, 16.73% sys, 70.29% idle 
-SharedLibs: 263M resident, 66M data, 32M linkedit.
-MemRegions: 105454 total, 5093M resident, 149M private, 2479M shared.
-PhysMem: 14G used (2808M wired), 1952M unused.
-VM: 2546G vsize, 1111M framework vsize, 22654998(0) swapins, 23736339(0) swapouts.
-Networks: packets: 4836556/5305M in, 2884772/1934M out.
-Disks: 7711828/190G read, 4782011/175G written.
+Processes: 372 total, 3 running, 2 stuck, 367 sleeping, 2127 threads 
+2019/08/16 10:52:44
+Load Avg: 6.43, 11.36, 9.03 
+CPU usage: 27.61% user, 17.61% sys, 54.76% idle 
+SharedLibs: 236M resident, 62M data, 19M linkedit.
+MemRegions: 91262 total, 3309M resident, 121M private, 1106M shared.
+PhysMem: 10G used (2511M wired), 6108M unused.
+VM: 1829G vsize, 1111M framework vsize, 33372119(0) swapins, 34869793(0) swapouts.
+Networks: packets: 5034069/5436M in, 3059758/1966M out.
+Disks: 9014143/249G read, 5177498/221G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1697M+ 0.0  204/9
-mds_stores       449M+  0.0  6    
-WindowServer     406M+  0.0  10   
-Microsoft Outloo 384M+  0.0  25/1 
-loginwindow      319M+  0.0  3    
+kernel_task      1691M+ 0.0  223/8
+com.apple.WebKit 444M+  0.0  13   
+Microsoft Outloo 242M+  0.0  38   
+Slack Helper     207M+  0.0  31   
+WindowServer     134M+  0.0  10   
