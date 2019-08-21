@@ -1,39 +1,22 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   23.68 3685 85.22  39 32 29  224.52 53.86 19.49
+   23.54 3497 80.41  41 33 27  224.52 53.86 19.49
 
 
-Processes: 325 total, 180 running, 145 sleeping, 2206 threads 
-2019/08/21 10:58:33
+Processes: 320 total, 180 running, 1 stuck, 139 sleeping, 2343 threads 
+2019/08/21 10:58:36
 Load Avg: 224.52, 53.86, 19.49 
-CPU usage: 51.78% user, 48.21% sys, 0.0% idle 
+CPU usage: 58.24% user, 41.75% sys, 0.0% idle 
 SharedLibs: 308M resident, 70M data, 59M linkedit.
-MemRegions: 47932 total, 3977M resident, 170M private, 1949M shared.
-PhysMem: 10G used (1960M wired), 5919M unused.
-VM: 2087G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 60832/80M in, 18264/2604K out.
-Disks: 178740/4042M read, 24058/642M written.
+MemRegions: 49712 total, 4121M resident, 171M private, 1559M shared.
+PhysMem: 10G used (1925M wired), 5722M unused.
+VM: 2068G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 86460/108M in, 28243/3417K out.
+Disks: 182818/4104M read, 24573/665M written.
 
 COMMAND          MEM    %CPU #TH   
-kernel_task      1162M+ 0.0  179/10
-com.apple.WebKit 296M+  0.0  22/2  
-Microsoft Outloo 275M+  0.0  54/7  
-Safari           251M+  0.0  35/10 
-com.apple.WebKit 210M+  0.0  25/3  
-Processes: 323 total, 178 running, 145 sleeping, 2202 threads 
-2019/08/21 10:58:33
-Load Avg: 224.52, 53.86, 19.49 
-CPU usage: 51.64% user, 48.35% sys, 0.0% idle 
-SharedLibs: 308M resident, 70M data, 59M linkedit.
-MemRegions: 47849 total, 3976M resident, 169M private, 1948M shared.
-PhysMem: 10G used (1960M wired), 5918M unused.
-VM: 2078G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 60874/80M in, 18275/2605K out.
-Disks: 178740/4042M read, 24058/642M written.
-
-COMMAND          MEM    %CPU #TH   
-kernel_task      1161M+ 0.0  179/10
-com.apple.WebKit 295M+  0.0  22/1  
-Microsoft Outloo 276M+  0.0  54/7  
-Safari           251M+  0.0  35/10 
-com.apple.WebKit 210M+  0.0  25/3  
+kernel_task      1235M+ 0.0  185/10
+com.apple.WebKit 337M+  0.0  26/1  
+Microsoft Outloo 286M+  0.0  56/4  
+Safari           251M+  0.0  32/8  
+com.apple.WebKit 243M+  0.0  25/2  
