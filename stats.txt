@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   14.99 1415 20.71  19 24 57  2.27 28.89 24.07
+   22.43  446  9.77   8 21 71  3.78 3.78 3.52
 
-Processes: 387 total, 3 running, 1 stuck, 383 sleeping, 1918 threads 
-2019/08/26 11:15:43
-Load Avg: 2.27, 28.89, 24.07 
-CPU usage: 4.2% user, 22.41% sys, 73.56% idle 
-SharedLibs: 209M resident, 58M data, 32M linkedit.
-MemRegions: 80699 total, 5640M resident, 213M private, 3243M shared.
-PhysMem: 16G used (2463M wired), 92M unused.
-VM: 2903G vsize, 1111M framework vsize, 2479(0) swapins, 14816(0) swapouts.
-Networks: packets: 121234/120M in, 79924/13M out.
-Disks: 580486/8210M read, 73312/1359M written.
+Processes: 495 total, 4 running, 2 stuck, 489 sleeping, 2573 threads 
+2019/08/26 13:21:00
+Load Avg: 3.78, 3.78, 3.52 
+CPU usage: 18.14% user, 28.48% sys, 53.37% idle 
+SharedLibs: 217M resident, 59M data, 31M linkedit.
+MemRegions: 130374 total, 4574M resident, 97M private, 2960M shared.
+PhysMem: 16G used (3306M wired), 149M unused.
+VM: 5262G vsize, 1111M framework vsize, 370149(0) swapins, 590493(0) swapouts.
+Networks: packets: 1501420/1798M in, 453970/44M out.
+Disks: 2568309/39G read, 991516/37G written.
 
-COMMAND          MEM    %CPU #TH  
-kernel_task      1628M+ 0.0  190/8
-com.docker.hyper 1343M+ 0.0  18   
-com.apple.WebKit 343M+  0.0  5    
-EpicGamesLaunche 291M+  0.0  62/1 
-Microsoft Outloo 221M+  0.0  27   
+COMMAND          MEM    %CPU #TH   
+kernel_task      1818M+ 0.0  194/10
+com.docker.hyper 1263M+ 0.0  18    
+VirtualBoxVM     604M+  0.0  35    
+com.apple.WebKit 497M+  0.0  20    
+com.apple.WebKit 414M+  0.0  5     
