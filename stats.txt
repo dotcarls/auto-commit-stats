@@ -1,39 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.82 1731 28.43  27 28 45  12.39 48.98 28.87
+   16.62 1708 27.72  26 28 46  11.56 48.20 28.71
 
-
-Processes: 395 total, 3 running, 391 sleeping, 1 unknown, 2109 threads 
-2019/08/26 11:12:56
-Load Avg: 12.39, 48.98, 28.87 
-CPU usage: 8.35% user, 23.29% sys, 68.35% idle 
+Processes: 396 total, 3 running, 2 stuck, 391 sleeping, 2109 threads 
+2019/08/26 11:13:05
+Load Avg: 11.56, 48.20, 28.71 
+CPU usage: 22.26% user, 38.23% sys, 39.49% idle 
 SharedLibs: 218M resident, 59M data, 32M linkedit.
-MemRegions: 76945 total, 5595M resident, 220M private, 3254M shared.
-PhysMem: 16G used (2457M wired), 264M unused.
-VM: 2865G vsize, 1111M framework vsize, 448(0) swapins, 448(0) swapouts.
-Networks: packets: 105629/104M in, 70057/11M out.
-Disks: 445119/7165M read, 65378/1218M written.
+MemRegions: 77223 total, 5709M resident, 221M private, 3265M shared.
+PhysMem: 16G used (2487M wired), 100M unused.
+VM: 2874G vsize, 1111M framework vsize, 448(0) swapins, 448(0) swapouts.
+Networks: packets: 117028/118M in, 75270/12M out.
+Disks: 453050/7201M read, 67201/1241M written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1622M+ 0.0  190/8
+kernel_task      1628M+ 0.0  190/8
 com.docker.hyper 1343M+ 0.0  18   
-com.apple.WebKit 343M+  0.0  6    
+com.apple.WebKit 343M+  0.0  5    
 EpicGamesLaunche 291M+  0.0  62/1 
-Microsoft Outloo 286M+  0.0  32   
-Processes: 394 total, 3 running, 1 stuck, 390 sleeping, 2104 threads 
-2019/08/26 11:12:56
-Load Avg: 12.39, 48.98, 28.87 
-CPU usage: 8.0% user, 32.80% sys, 59.20% idle 
-SharedLibs: 218M resident, 59M data, 32M linkedit.
-MemRegions: 76914 total, 5595M resident, 220M private, 3254M shared.
-PhysMem: 16G used (2459M wired), 260M unused.
-VM: 2865G vsize, 1111M framework vsize, 448(0) swapins, 448(0) swapouts.
-Networks: packets: 105648/104M in, 70081/11M out.
-Disks: 445212/7165M read, 65387/1218M written.
-
-COMMAND          MEM    %CPU #TH  
-kernel_task      1623M+ 0.0  190/9
-com.docker.hyper 1343M+ 0.0  18   
-com.apple.WebKit 343M+  0.0  6    
-EpicGamesLaunche 291M+  0.0  62/1 
-Microsoft Outloo 286M+  0.0  32   
+Microsoft Outloo 285M+  0.0  26   
