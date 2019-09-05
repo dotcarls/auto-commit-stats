@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   57.16   33  1.83   6  6 89  4.28 3.93 3.73
+   56.83   33  1.85   6  6 89  4.70 4.53 4.07
 
-Processes: 457 total, 6 running, 3 stuck, 448 sleeping, 2704 threads 
-2019/09/05 11:33:46
-Load Avg: 4.89, 4.06, 3.78 
-CPU usage: 24.89% user, 50.42% sys, 24.68% idle 
-SharedLibs: 170M resident, 49M data, 16M linkedit.
-MemRegions: 155720 total, 6497M resident, 116M private, 1347M shared.
-PhysMem: 16G used (3702M wired), 207M unused.
-VM: 3470G vsize, 1112M framework vsize, 84282998(0) swapins, 86790352(0) swapouts.
-Networks: packets: 10363526/16G in, 7692983/11G out.
-Disks: 11329873/498G read, 5764999/434G written.
+Processes: 463 total, 2 running, 461 sleeping, 2607 threads 
+2019/09/05 11:38:29
+Load Avg: 4.70, 4.53, 4.07 
+CPU usage: 22.50% user, 18.88% sys, 58.61% idle 
+SharedLibs: 169M resident, 41M data, 8532K linkedit.
+MemRegions: 160758 total, 8331M resident, 49M private, 836M shared.
+PhysMem: 16G used (9280M wired), 208M unused.
+VM: 3501G vsize, 1112M framework vsize, 84305795(0) swapins, 87243255(0) swapouts.
+Networks: packets: 11095481/19G in, 8458316/14G out.
+Disks: 11518202/503G read, 5900805/441G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1755M+ 0.0  189/9
-com.apple.WebKit 567M+  0.0  15   
-com.apple.WebKit 565M+  0.0  5    
-VBoxHeadless     554M+  0.0  31/2 
-Microsoft Outloo 288M+  0.0  25   
+VBoxHeadless     6104M+ 0.0  31   
+kernel_task      1765M+ 0.0  189/8
+Terminal         112M+  0.0  9    
+com.apple.WebKit 112M+  0.0  12   
+Slack Helper     97M+   0.0  29   
