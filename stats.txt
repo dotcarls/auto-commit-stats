@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   41.79   93  3.79   6  9 86  2.39 2.29 2.26
+   42.63   99  4.13   6  9 85  2.76 2.55 3.02
 
-Processes: 483 total, 3 running, 480 sleeping, 2552 threads 
-2019/10/03 11:06:52
-Load Avg: 2.39, 2.29, 2.26 
-CPU usage: 16.48% user, 12.52% sys, 70.98% idle 
-SharedLibs: 176M resident, 48M data, 26M linkedit.
-MemRegions: 236872 total, 2949M resident, 71M private, 5733M shared.
-PhysMem: 16G used (3276M wired), 284M unused.
-VM: 6262G vsize, 1112M framework vsize, 110116906(0) swapins, 114793551(0) swapouts.
-Networks: packets: 26056239/23G in, 14627243/7898M out.
-Disks: 34976600/1080G read, 41050237/1950G written.
+Processes: 498 total, 2 running, 496 sleeping, 2743 threads 
+2019/10/03 21:29:38
+Load Avg: 2.70, 2.54, 3.01 
+CPU usage: 5.17% user, 12.21% sys, 82.60% idle 
+SharedLibs: 188M resident, 42M data, 12M linkedit.
+MemRegions: 249512 total, 2449M resident, 85M private, 5369M shared.
+PhysMem: 15G used (3166M wired), 852M unused.
+VM: 6054G vsize, 1112M framework vsize, 131431544(0) swapins, 136728979(0) swapouts.
+Networks: packets: 27120252/24G in, 15452041/8135M out.
+Disks: 38947973/1246G read, 45846930/2201G written.
 
 COMMAND          MEM    %CPU #TH  
-com.docker.hyper 4511M+ 0.0  18   
-kernel_task      1919M+ 0.0  172/9
-qemu-system-x86_ 499M+  0.0  11   
-com.apple.WebKit 219M+  0.0  5    
-Slack Helper     187M+  0.0  30   
+com.docker.hyper 3597M+ 0.0  18   
+kernel_task      1975M+ 0.0  171/8
+Slack Helper     162M+  0.0  27   
+Safari           132M+  0.0  11   
+Atom Helper      114M+  0.0  24   
