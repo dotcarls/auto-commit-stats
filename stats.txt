@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   34.99   95  3.26   8 10 83  4.56 6.55 5.71
+   37.13   97  3.53   8 10 83  2.52 2.61 2.42
 
-Processes: 412 total, 4 running, 408 sleeping, 2032 threads 
-2019/10/12 11:55:12
-Load Avg: 4.56, 6.55, 5.71 
-CPU usage: 8.17% user, 18.55% sys, 73.27% idle 
-SharedLibs: 215M resident, 54M data, 51M linkedit.
-MemRegions: 146758 total, 2271M resident, 102M private, 1086M shared.
-PhysMem: 7761M used (2654M wired), 8622M unused.
-VM: 1853G vsize, 1112M framework vsize, 39563108(0) swapins, 42814409(0) swapouts.
-Networks: packets: 10069004/12G in, 4135143/673M out.
-Disks: 16087033/411G read, 7141337/364G written.
+Processes: 443 total, 3 running, 440 sleeping, 2184 threads 
+2019/10/12 13:26:11
+Load Avg: 2.52, 2.61, 2.42 
+CPU usage: 17.46% user, 36.36% sys, 46.17% idle 
+SharedLibs: 133M resident, 40M data, 24M linkedit.
+MemRegions: 186668 total, 3016M resident, 62M private, 6104M shared.
+PhysMem: 16G used (2669M wired), 161M unused.
+VM: 4805G vsize, 1112M framework vsize, 46301051(0) swapins, 51359730(0) swapouts.
+Networks: packets: 10198926/12G in, 4211681/682M out.
+Disks: 16579233/445G read, 7628286/412G written.
 
-COMMAND      MEM    %CPU #TH  
-kernel_task  1576M+ 0.0  168/8
-WindowServer 235M+  0.0  10   
-Atom Helper  226M+  0.0  25   
-Finder       214M+  0.0  11   
-loginwindow  152M+  0.0  2    
+COMMAND          MEM    %CPU #TH  
+kernel_task      1591M+ 0.0  168/8
+com.docker.osxfs 1557M+ 0.0  25   
+Atom Helper      202M+  0.0  28   
+com.docker.hyper 144M+  0.0  18/2 
+Slack Helper (Re 116M+  0.0  29   
