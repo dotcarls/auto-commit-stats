@@ -1,21 +1,21 @@
-              disk0       cpu    load average
-    KB/t  tps  MB/s  us sy id   1m   5m   15m
-   23.89 2987 69.70  43 35 22  289.26 72.63 26.48
+              disk0               disk2       cpu    load average
+    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
+   24.26 2959 70.11     1.07    0  0.00  43 35 22  266.98 71.60 26.39
 
-Processes: 428 total, 27 running, 5 stuck, 396 sleeping, 2537 threads 
-2019/11/07 11:53:09
-Load Avg: 289.26, 72.63, 26.48 
-CPU usage: 38.55% user, 45.79% sys, 15.65% idle 
-SharedLibs: 309M resident, 69M data, 70M linkedit.
-MemRegions: 47025 total, 3466M resident, 211M private, 769M shared.
-PhysMem: 8335M used (1662M wired), 8046M unused.
-VM: 1865G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 14957/14M in, 12663/2126K out.
-Disks: 152848/3618M read, 25504/579M written.
+Processes: 429 total, 74 running, 1 stuck, 354 sleeping, 2592 threads 
+2019/11/07 11:53:10
+Load Avg: 266.98, 71.60, 26.39 
+CPU usage: 43.80% user, 49.58% sys, 6.61% idle 
+SharedLibs: 310M resident, 69M data, 70M linkedit.
+MemRegions: 47635 total, 3491M resident, 215M private, 793M shared.
+PhysMem: 8663M used (1673M wired), 7718M unused.
+VM: 1871G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 15341/14M in, 13101/2210K out.
+Disks: 155177/3731M read, 26852/597M written.
 
-COMMAND     MEM    %CPU #TH  
-kernel_task 1258M+ 0.0  187/8
-Atom Helper 249M+  0.0  30   
-Atom Helper 225M+  0.0  30   
-Atom        114M+  0.0  37   
-Terminal    110M+  0.0  10   
+COMMAND     MEM    %CPU #TH   
+kernel_task 1263M+ 0.0  188/14
+Atom Helper 249M+  0.0  30    
+Atom Helper 224M+  0.0  30    
+Atom        114M+  0.0  37    
+Terminal    113M+  0.0  9/2   
