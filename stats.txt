@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   36.36  221  7.86   8  8 84  3.78 2.95 3.05
+   35.74  209  7.31   8  8 85  3.11 3.11 2.77
 
-Processes: 460 total, 3 running, 1 stuck, 456 sleeping, 2291 threads 
-2019/11/08 12:57:23
-Load Avg: 3.78, 2.95, 3.05 
-CPU usage: 11.37% user, 15.5% sys, 73.57% idle 
-SharedLibs: 205M resident, 36M data, 15M linkedit.
-MemRegions: 137416 total, 2979M resident, 81M private, 6616M shared.
-PhysMem: 15G used (2752M wired), 803M unused.
-VM: 4032G vsize, 1112M framework vsize, 15377364(0) swapins, 16942157(0) swapouts.
-Networks: packets: 4853219/5738M in, 1521221/244M out.
-Disks: 13501482/380G read, 6474712/312G written.
+Processes: 477 total, 2 running, 2 stuck, 473 sleeping, 2706 threads 
+2019/11/08 15:57:36
+Load Avg: 3.11, 3.11, 2.77 
+CPU usage: 11.3% user, 17.53% sys, 71.42% idle 
+SharedLibs: 222M resident, 48M data, 22M linkedit.
+MemRegions: 137408 total, 3452M resident, 84M private, 5956M shared.
+PhysMem: 16G used (2948M wired), 50M unused.
+VM: 2988G vsize, 1112M framework vsize, 17539285(0) swapins, 19115539(0) swapouts.
+Networks: packets: 5246156/6019M in, 1821997/296M out.
+Disks: 14375313/397G read, 6802792/325G written.
 
 COMMAND          MEM    %CPU #TH  
-com.docker.hyper 5494M+ 0.0  18   
-kernel_task      1811M+ 0.0  195/8
-com.apple.WebKit 752M+  0.0  15/1 
-Slack Helper (Re 198M+  0.0  29   
-Terminal         171M+  0.0  14   
+com.docker.hyper 4682M+ 0.0  18   
+kernel_task      1609M+ 0.0  189/9
+Atom Helper      385M+  0.0  30   
+Slack Helper (Re 211M+  0.0  27   
+Atom Helper      181M+  0.0  27   
