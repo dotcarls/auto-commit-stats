@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   33.53  111  3.64   7  9 84  2.11 2.43 4.01
+   33.53  111  3.64   7  9 84  3.56 2.80 3.88
 
-Processes: 427 total, 3 running, 424 sleeping, 2211 threads 
-2019/11/18 10:36:11
-Load Avg: 2.11, 2.43, 4.01 
-CPU usage: 6.62% user, 12.34% sys, 81.2% idle 
-SharedLibs: 221M resident, 50M data, 66M linkedit.
-MemRegions: 158638 total, 5404M resident, 145M private, 1583M shared.
-PhysMem: 15G used (2789M wired), 672M unused.
-VM: 2728G vsize, 1112M framework vsize, 212982003(0) swapins, 217439965(0) swapouts.
-Networks: packets: 49392370/52G in, 24760021/3845M out.
-Disks: 76794235/1750G read, 28377849/1614G written.
-
-COMMAND          MEM    %CPU #TH  
-kernel_task      1990M+ 0.0  203/8
-mds_stores       535M+  0.0  5    
-Finder           348M+  0.0  5    
-com.apple.WebKit 303M+  0.0  5    
-WindowServer     246M+  0.0  10   
-Processes: 424 total, 3 running, 421 sleeping, 2194 threads 
-2019/11/18 10:36:11
-Load Avg: 2.11, 2.43, 4.01 
-CPU usage: 15.20% user, 16.37% sys, 68.42% idle 
-SharedLibs: 221M resident, 50M data, 66M linkedit.
-MemRegions: 158487 total, 5400M resident, 144M private, 1583M shared.
-PhysMem: 15G used (2789M wired), 670M unused.
-VM: 2716G vsize, 1112M framework vsize, 212982003(0) swapins, 217439965(0) swapouts.
-Networks: packets: 49392386/52G in, 24760044/3845M out.
-Disks: 76794243/1750G read, 28377858/1614G written.
+Processes: 430 total, 2 running, 5 stuck, 423 sleeping, 2459 threads 
+2019/11/18 10:38:53
+Load Avg: 3.56, 2.80, 3.88 
+CPU usage: 6.55% user, 11.11% sys, 82.33% idle 
+SharedLibs: 218M resident, 50M data, 66M linkedit.
+MemRegions: 166016 total, 5516M resident, 144M private, 1879M shared.
+PhysMem: 16G used (2826M wired), 248M unused.
+VM: 2745G vsize, 1112M framework vsize, 212985811(0) swapins, 217439965(0) swapouts.
+Networks: packets: 49406208/52G in, 24766095/3846M out.
+Disks: 76820299/1750G read, 28390576/1614G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1990M+ 0.0  203/8
-mds_stores       535M+  0.0  5    
-Finder           348M+  0.0  5    
+kernel_task      1966M+ 0.0  203/8
+Finder           348M+  0.0  7    
 com.apple.WebKit 303M+  0.0  5    
-WindowServer     246M+  0.0  10   
+Atom Helper      280M+  0.0  24   
+Code Helper (GPU 268M+  0.0  8    
