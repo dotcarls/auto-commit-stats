@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   14.64  476  6.80  13 11 76  4.33 3.30 2.93
+   21.11   35  0.72  11 19 70  5.57 4.69 4.34
 
-Processes: 406 total, 5 running, 2 stuck, 399 sleeping, 2048 threads 
-2020/01/03 22:30:32
-Load Avg: 4.33, 3.30, 2.93 
-CPU usage: 39.40% user, 35.59% sys, 25.0% idle 
-SharedLibs: 230M resident, 61M data, 41M linkedit.
-MemRegions: 74254 total, 3279M resident, 108M private, 5832M shared.
-PhysMem: 16G used (2657M wired), 48M unused.
-VM: 2431G vsize, 1111M framework vsize, 764546(0) swapins, 1022292(0) swapouts.
-Networks: packets: 1771849/2364M in, 1199411/136M out.
-Disks: 2873286/35G read, 487695/12G written.
+Processes: 408 total, 4 running, 404 sleeping, 1881 threads 
+2020/01/06 11:40:41
+Load Avg: 5.57, 4.69, 4.34 
+CPU usage: 31.47% user, 42.89% sys, 25.62% idle 
+SharedLibs: 162M resident, 38M data, 11M linkedit.
+MemRegions: 89768 total, 2130M resident, 72M private, 3345M shared.
+PhysMem: 16G used (2474M wired), 344M unused.
+VM: 2676G vsize, 1111M framework vsize, 6579899(0) swapins, 7014391(0) swapouts.
+Networks: packets: 3572836/4150M in, 2351781/274M out.
+Disks: 6388112/106G read, 1762102/58G written.
 
 COMMAND          MEM    %CPU #TH   
-com.docker.hyper 1798M+ 0.0  18    
-kernel_task      1537M+ 0.0  172/10
-Atom Helper      284M+  0.0  32/1  
-Safari           217M+  0.0  17    
-com.apple.WebKit 196M+  0.0  7     
-Processes: 404 total, 4 running, 400 sleeping, 2020 threads 
-2020/01/03 22:30:32
-Load Avg: 4.33, 3.30, 2.93 
-CPU usage: 42.62% user, 38.78% sys, 18.58% idle 
-SharedLibs: 230M resident, 61M data, 41M linkedit.
-MemRegions: 74077 total, 3149M resident, 106M private, 5835M shared.
-PhysMem: 16G used (2693M wired), 109M unused.
-VM: 2423G vsize, 1111M framework vsize, 764546(0) swapins, 1022292(0) swapouts.
-Networks: packets: 1771982/2364M in, 1199544/136M out.
-Disks: 2873872/35G read, 487716/12G written.
-
-COMMAND          MEM    %CPU #TH  
-com.docker.hyper 1798M+ 0.0  18   
-kernel_task      1536M+ 0.0  172/9
-Atom Helper      293M+  0.0  32   
-Slack Helper (Re 194M+  0.0  22   
-Safari           189M+  0.0  16   
+kernel_task      1613M+ 0.0  193/10
+Microsoft Outloo 607M+  0.0  30    
+com.apple.WebKit 258M+  0.0  5     
+com.docker.hyper 235M+  0.0  18/1  
+mds_stores       224M+  0.0  11    
