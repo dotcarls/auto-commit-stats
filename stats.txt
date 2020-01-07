@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   33.82   49  1.62   9 19 72  2.07 2.28 2.25
+   34.60   53  1.80   8 16 76  2.35 2.26 2.25
 
-Processes: 410 total, 3 running, 407 sleeping, 2150 threads 
-2020/01/07 10:02:09
-Load Avg: 2.07, 2.28, 2.25 
-CPU usage: 16.54% user, 14.28% sys, 69.17% idle 
-SharedLibs: 174M resident, 51M data, 26M linkedit.
-MemRegions: 128345 total, 5970M resident, 152M private, 1842M shared.
-PhysMem: 16G used (2589M wired), 412M unused.
-VM: 2791G vsize, 1111M framework vsize, 24672371(0) swapins, 25562078(0) swapouts.
-Networks: packets: 16183802/22G in, 9115444/4538M out.
-Disks: 10825228/274G read, 4610270/224G written.
+Processes: 432 total, 3 running, 429 sleeping, 2208 threads 
+2020/01/07 15:52:39
+Load Avg: 2.35, 2.26, 2.25 
+CPU usage: 16.95% user, 14.3% sys, 69.0% idle 
+SharedLibs: 179M resident, 46M data, 19M linkedit.
+MemRegions: 169798 total, 2758M resident, 60M private, 5863M shared.
+PhysMem: 16G used (2741M wired), 103M unused.
+VM: 4768G vsize, 1112M framework vsize, 29971758(0) swapins, 31744652(0) swapouts.
+Networks: packets: 18071781/24G in, 9908174/4623M out.
+Disks: 12044541/310G read, 5829689/280G written.
 
-COMMAND          MEM    %CPU #TH  
-kernel_task      1680M+ 0.0  200/8
-com.apple.WebKit 466M+  0.0  5    
-Microsoft Outloo 466M+  0.0  24   
-Google Chrome He 312M+  0.0  19   
-com.apple.WebKit 302M+  0.0  13   
+COMMAND          MEM    %CPU #TH   
+com.docker.hyper 3937M+ 0.0  18    
+kernel_task      1822M+ 0.0  211/10
+com.apple.WebKit 293M+  0.0  5     
+Google Chrome He 267M+  0.0  17    
+com.apple.WebKit 253M+  0.0  14    
