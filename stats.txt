@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   52.98   82  4.24   276.63    0  0.03   8 15 78  2.82 2.60 3.23
+   52.89   82  4.25   311.95    0  0.05   8 15 78  4.49 3.30 3.40
 
-Processes: 433 total, 5 running, 1 stuck, 427 sleeping, 2456 threads 
-2020/01/09 11:21:41
-Load Avg: 2.82, 2.60, 3.23 
-CPU usage: 19.8% user, 19.37% sys, 61.53% idle 
-SharedLibs: 148M resident, 42M data, 28M linkedit.
-MemRegions: 164047 total, 4326M resident, 94M private, 1303M shared.
-PhysMem: 16G used (2536M wired), 494M unused.
-VM: 2902G vsize, 1112M framework vsize, 167350536(0) swapins, 171088855(0) swapouts.
-Networks: packets: 22545602/29G in, 12081806/4871M out.
-Disks: 25819617/1017G read, 14579917/1037G written.
+Processes: 447 total, 5 running, 1 stuck, 441 sleeping, 2496 threads 
+2020/01/09 11:24:21
+Load Avg: 4.49, 3.30, 3.40 
+CPU usage: 19.86% user, 57.61% sys, 22.51% idle 
+SharedLibs: 153M resident, 41M data, 26M linkedit.
+MemRegions: 165724 total, 3249M resident, 85M private, 3387M shared.
+PhysMem: 16G used (2552M wired), 83M unused.
+VM: 2961G vsize, 1112M framework vsize, 167897700(0) swapins, 171314102(0) swapouts.
+Networks: packets: 22665647/29G in, 12139184/4877M out.
+Disks: 25976128/1024G read, 14628730/1043G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1799M+ 0.0  223/8
-mds_stores       349M+  0.0  8/1  
-Atom Helper      332M+  0.0  23   
-com.apple.WebKit 328M+  0.0  15   
-Google Chrome He 316M+  0.0  16   
+kernel_task      1818M+ 0.0  225/9
+com.docker.hyper 1125M+ 0.0  18/3 
+Microsoft Outloo 466M+  0.0  27   
+mds_stores       291M+  0.0  9    
+Spotify Helper   248M+  0.0  19   
