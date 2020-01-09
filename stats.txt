@@ -1,21 +1,21 @@
-              disk0       cpu    load average
-    KB/t  tps  MB/s  us sy id   1m   5m   15m
-   53.35   81  4.24   8 15 77  6.34 16.91 14.66
+              disk0               disk2       cpu    load average
+    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
+   53.19   81  4.23    88.90    0  0.01   8 15 78  3.34 2.63 3.85
 
-Processes: 417 total, 2 running, 415 sleeping, 2340 threads 
-2020/01/09 10:42:03
-Load Avg: 6.34, 16.91, 14.66 
-CPU usage: 18.94% user, 15.52% sys, 65.52% idle 
-SharedLibs: 219M resident, 62M data, 53M linkedit.
-MemRegions: 145708 total, 3534M resident, 121M private, 1387M shared.
-PhysMem: 13G used (2481M wired), 3397M unused.
-VM: 2084G vsize, 1112M framework vsize, 167254497(0) swapins, 170560376(0) swapouts.
-Networks: packets: 22179689/28G in, 11938388/4856M out.
-Disks: 25465116/1002G read, 14433800/1028G written.
+Processes: 426 total, 4 running, 1 stuck, 421 sleeping, 2306 threads 
+2020/01/09 11:12:50
+Load Avg: 3.34, 2.63, 3.85 
+CPU usage: 23.46% user, 15.83% sys, 60.70% idle 
+SharedLibs: 146M resident, 43M data, 28M linkedit.
+MemRegions: 158988 total, 4478M resident, 100M private, 1342M shared.
+PhysMem: 16G used (2650M wired), 92M unused.
+VM: 2563G vsize, 1112M framework vsize, 167304466(0) swapins, 170564085(0) swapouts.
+Networks: packets: 22395812/29G in, 12040528/4867M out.
+Disks: 25598652/1006G read, 14509948/1030G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1780M+ 0.0  222/8
-Microsoft Outloo 300M+  0.0  27   
-Slack Helper (Re 240M+  0.0  23   
-Atom Helper      205M+  0.0  26   
-WindowServer     126M+  0.0  10   
+kernel_task      1924M+ 0.0  223/8
+Atom Helper      336M+  0.0  23   
+Google Chrome He 312M+  0.0  16   
+Spotify Helper   306M+  0.0  22   
+Microsoft Outloo 301M+  0.0  25   
