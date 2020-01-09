@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   53.19   81  4.23    88.90    0  0.01   8 15 78  3.34 2.63 3.85
+   52.98   82  4.24   276.63    0  0.03   8 15 78  2.82 2.60 3.23
 
-Processes: 426 total, 4 running, 1 stuck, 421 sleeping, 2306 threads 
-2020/01/09 11:12:50
-Load Avg: 3.34, 2.63, 3.85 
-CPU usage: 23.46% user, 15.83% sys, 60.70% idle 
-SharedLibs: 146M resident, 43M data, 28M linkedit.
-MemRegions: 158988 total, 4478M resident, 100M private, 1342M shared.
-PhysMem: 16G used (2650M wired), 92M unused.
-VM: 2563G vsize, 1112M framework vsize, 167304466(0) swapins, 170564085(0) swapouts.
-Networks: packets: 22395812/29G in, 12040528/4867M out.
-Disks: 25598652/1006G read, 14509948/1030G written.
+Processes: 433 total, 5 running, 1 stuck, 427 sleeping, 2456 threads 
+2020/01/09 11:21:41
+Load Avg: 2.82, 2.60, 3.23 
+CPU usage: 19.8% user, 19.37% sys, 61.53% idle 
+SharedLibs: 148M resident, 42M data, 28M linkedit.
+MemRegions: 164047 total, 4326M resident, 94M private, 1303M shared.
+PhysMem: 16G used (2536M wired), 494M unused.
+VM: 2902G vsize, 1112M framework vsize, 167350536(0) swapins, 171088855(0) swapouts.
+Networks: packets: 22545602/29G in, 12081806/4871M out.
+Disks: 25819617/1017G read, 14579917/1037G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1924M+ 0.0  223/8
-Atom Helper      336M+  0.0  23   
-Google Chrome He 312M+  0.0  16   
-Spotify Helper   306M+  0.0  22   
-Microsoft Outloo 301M+  0.0  25   
+kernel_task      1799M+ 0.0  223/8
+mds_stores       349M+  0.0  8/1  
+Atom Helper      332M+  0.0  23   
+com.apple.WebKit 328M+  0.0  15   
+Google Chrome He 316M+  0.0  16   
