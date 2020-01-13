@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   21.93 3456 74.03  42 32 26  104.71 30.69 11.49
+   15.22 3983 59.19  31 23 46  87.83 20.76 7.50
 
-Processes: 365 total, 28 running, 7 stuck, 330 sleeping, 2224 threads 
-2020/01/13 10:27:56
-Load Avg: 104.71, 30.69, 11.49 
-CPU usage: 48.96% user, 45.87% sys, 5.15% idle 
-SharedLibs: 335M resident, 71M data, 71M linkedit.
-MemRegions: 41441 total, 2861M resident, 208M private, 1711M shared.
-PhysMem: 9536M used (1810M wired), 6846M unused.
-VM: 1724G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 167412/222M in, 44252/4902K out.
-Disks: 222532/4690M read, 32402/791M written.
+Processes: 363 total, 22 running, 4 stuck, 337 sleeping, 2350 threads 
+2020/01/13 10:42:28
+Load Avg: 87.83, 20.76, 7.50 
+CPU usage: 39.9% user, 52.27% sys, 8.63% idle 
+SharedLibs: 358M resident, 69M data, 88M linkedit.
+MemRegions: 45958 total, 2883M resident, 206M private, 1060M shared.
+PhysMem: 8265M used (1753M wired), 8117M unused.
+VM: 1906G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 8115/4883K in, 8355/1835K out.
+Disks: 310874/4468M read, 20841/461M written.
 
-COMMAND          MEM    %CPU #TH   
-kernel_task      1415M+ 0.0  190/11
-com.docker.hyper 345M+  0.0  18/1  
-node             152M+  0.0  10/1  
-mds_stores       128M+  0.0  9/1   
-Microsoft PowerP 86M+   0.0  61/1  
+COMMAND          MEM    %CPU #TH  
+kernel_task      1297M+ 0.0  190/9
+Microsoft PowerP 91M+   0.0  24   
+EpicGamesLaunche 86M+   0.0  48   
+ManagedClient    73M+   0.0  4    
+com.apple.WebKit 73M+   0.0  16   
