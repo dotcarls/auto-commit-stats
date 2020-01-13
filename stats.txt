@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   15.22 3983 59.19  31 23 46  87.83 20.76 7.50
+   16.31 2434 38.76  24 25 51  8.77 15.02 7.83
 
-Processes: 363 total, 22 running, 4 stuck, 337 sleeping, 2350 threads 
-2020/01/13 10:42:28
-Load Avg: 87.83, 20.76, 7.50 
-CPU usage: 39.9% user, 52.27% sys, 8.63% idle 
-SharedLibs: 358M resident, 69M data, 88M linkedit.
-MemRegions: 45958 total, 2883M resident, 206M private, 1060M shared.
-PhysMem: 8265M used (1753M wired), 8117M unused.
-VM: 1906G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 8115/4883K in, 8355/1835K out.
-Disks: 310874/4468M read, 20841/461M written.
+Processes: 397 total, 3 running, 6 stuck, 388 sleeping, 2023 threads 
+2020/01/13 10:45:32
+Load Avg: 8.77, 15.02, 7.83 
+CPU usage: 24.68% user, 19.62% sys, 55.69% idle 
+SharedLibs: 253M resident, 59M data, 50M linkedit.
+MemRegions: 56004 total, 3645M resident, 224M private, 4114M shared.
+PhysMem: 15G used (1937M wired), 666M unused.
+VM: 2291G vsize, 1111M framework vsize, 384(0) swapins, 384(0) swapouts.
+Networks: packets: 134998/165M in, 48264/9006K out.
+Disks: 594598/9145M read, 56075/1225M written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1297M+ 0.0  190/9
-Microsoft PowerP 91M+   0.0  24   
-EpicGamesLaunche 86M+   0.0  48   
-ManagedClient    73M+   0.0  4    
-com.apple.WebKit 73M+   0.0  16   
+com.docker.hyper 2583M+ 0.0  18   
+kernel_task      1450M+ 0.0  189/8
+webstorm         182M+  0.0  46   
+com.apple.WebKit 95M+   0.0  10   
+Microsoft PowerP 90M+   0.0  15   
