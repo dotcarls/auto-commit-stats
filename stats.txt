@@ -2,3 +2,20 @@
     KB/t  tps  MB/s  us sy id   1m   5m   15m
    16.95  661 10.94   9  8 83  3.32 2.76 2.80
 
+Processes: 448 total, 8 running, 1 stuck, 439 sleeping, 2165 threads 
+2020/01/13 11:24:15
+Load Avg: 3.32, 2.76, 2.80 
+CPU usage: 48.70% user, 45.24% sys, 6.5% idle 
+SharedLibs: 258M resident, 60M data, 50M linkedit.
+MemRegions: 93963 total, 5116M resident, 113M private, 4247M shared.
+PhysMem: 16G used (2331M wired), 167M unused.
+VM: 3864G vsize, 1112M framework vsize, 29738(0) swapins, 91128(0) swapouts.
+Networks: packets: 1096159/1568M in, 582197/576M out.
+Disks: 1440660/20G read, 271176/7551M written.
+
+COMMAND          MEM    %CPU #TH  
+com.docker.hyper 2498M+ 0.0  18   
+kernel_task      1748M+ 0.0  190/9
+mds_stores       519M+  0.0  7    
+com.apple.WebKit 439M+  0.0  10   
+com.apple.WebKit 324M+  0.0  9    
