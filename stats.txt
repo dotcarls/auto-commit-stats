@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   31.58  206  6.36   7 12 81  2.43 2.11 2.11
+   21.15 3448 71.23  34 35 31  47.65 15.08 5.71
 
-Processes: 463 total, 3 running, 460 sleeping, 2140 threads 
-2020/01/15 21:29:36
-Load Avg: 2.43, 2.11, 2.11 
-CPU usage: 22.22% user, 13.33% sys, 64.44% idle 
-SharedLibs: 179M resident, 40M data, 16M linkedit.
-MemRegions: 121084 total, 2060M resident, 71M private, 6133M shared.
-PhysMem: 16G used (2883M wired), 227M unused.
-VM: 3528G vsize, 1112M framework vsize, 30968623(0) swapins, 32503143(0) swapouts.
-Networks: packets: 16178187/20G in, 4841302/1112M out.
-Disks: 25727414/522G read, 17944947/793G written.
+Processes: 325 total, 4 running, 15 stuck, 306 sleeping, 1811 threads 
+2020/01/16 22:51:04
+Load Avg: 47.65, 15.08, 5.71 
+CPU usage: 23.7% user, 43.84% sys, 33.7% idle 
+SharedLibs: 308M resident, 68M data, 70M linkedit.
+MemRegions: 35873 total, 2470M resident, 189M private, 2292M shared.
+PhysMem: 11G used (2157M wired), 5558M unused.
+VM: 1443G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 87405/115M in, 26537/3765K out.
+Disks: 234711/4790M read, 40917/894M written.
 
 COMMAND          MEM    %CPU #TH  
-com.docker.hyper 4236M+ 0.0  18   
-kernel_task      1615M+ 0.0  192/8
-Atom Helper      218M+  0.0  25   
-Microsoft Outloo 154M+  0.0  24   
-Safari           147M+  0.0  19   
+kernel_task      1479M+ 0.0  171/8
+com.docker.hyper 1080M+ 0.0  18   
+EpicGamesLaunche 130M+  0.0  46   
+softwareupdated  93M+   0.0  22   
+WindowServer     71M+   0.0  10   
