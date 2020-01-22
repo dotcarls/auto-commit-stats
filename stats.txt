@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   22.49 3556 78.11  31 31 38  41.38 17.58 7.02
+   22.75 1926 42.79  24 30 46  9.48 14.57 7.52
 
-Processes: 372 total, 27 running, 7 stuck, 338 sleeping, 1920 threads 
-2020/01/22 15:18:53
-Load Avg: 41.38, 17.58, 7.02 
-CPU usage: 49.86% user, 50.13% sys, 0.0% idle 
-SharedLibs: 263M resident, 63M data, 45M linkedit.
-MemRegions: 43364 total, 3467M resident, 213M private, 3575M shared.
-PhysMem: 14G used (1950M wired), 2238M unused.
-VM: 1646G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 167608/218M in, 40087/4694K out.
-Disks: 333910/7254M read, 38427/949M written.
-
-COMMAND          MEM    %CPU #TH   
-com.docker.hyper 2068M+ 0.0  20/2  
-kernel_task      1498M+ 0.0  191/10
-Atom             278M+  0.0  43    
-Atom Helper      193M+  0.0  29    
-softwareupdated  143M+  0.0  17/1  
-Processes: 369 total, 29 running, 2 stuck, 338 sleeping, 1908 threads 
-2020/01/22 15:18:54
-Load Avg: 41.99, 18.10, 7.27 
-CPU usage: 43.35% user, 55.11% sys, 1.52% idle 
-SharedLibs: 263M resident, 63M data, 45M linkedit.
-MemRegions: 43280 total, 3485M resident, 212M private, 3583M shared.
-PhysMem: 14G used (1951M wired), 2145M unused.
-VM: 1633G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 168182/219M in, 40576/4747K out.
-Disks: 334409/7265M read, 39261/983M written.
+Processes: 359 total, 6 running, 3 stuck, 350 sleeping, 1714 threads 
+2020/01/22 15:21:12
+Load Avg: 9.48, 14.57, 7.52 
+CPU usage: 26.71% user, 58.95% sys, 14.33% idle 
+SharedLibs: 163M resident, 52M data, 27M linkedit.
+MemRegions: 48836 total, 3808M resident, 179M private, 5074M shared.
+PhysMem: 16G used (1947M wired), 150M unused.
+VM: 1614G vsize, 1111M framework vsize, 1661(0) swapins, 2422(0) swapouts.
+Networks: packets: 200889/258M in, 54917/7219K out.
+Disks: 402191/8782M read, 66734/1640M written.
 
 COMMAND          MEM    %CPU #TH  
-com.docker.hyper 2086M+ 0.0  20/1 
-kernel_task      1499M+ 0.0  191/8
-Atom             278M+  0.0  43/1 
-Atom Helper      194M+  0.0  29/1 
-softwareupdated  143M+  0.0  17/1 
+com.docker.hyper 2433M+ 0.0  20/5 
+kernel_task      1475M+ 0.0  190/8
+softwareupdated  313M+  0.0  4    
+Slack Helper (Re 234M+  0.0  25   
+Atom Helper      212M+  0.0  26   
