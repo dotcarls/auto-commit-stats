@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   21.72 3723 78.95  34 32 34  63.98 17.19 6.33
+   22.49 3556 78.11  31 31 38  41.38 17.58 7.02
 
-Processes: 332 total, 13 running, 14 stuck, 305 sleeping, 2149 threads 
-2020/01/22 15:18:07
-Load Avg: 63.98, 17.19, 6.33 
-CPU usage: 27.90% user, 39.53% sys, 32.55% idle 
-SharedLibs: 285M resident, 66M data, 64M linkedit.
-MemRegions: 36246 total, 2331M resident, 187M private, 1259M shared.
-PhysMem: 8346M used (1835M wired), 8037M unused.
-VM: 1472G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 26536/31M in, 13158/1743K out.
-Disks: 200099/4148M read, 19557/499M written.
+Processes: 372 total, 27 running, 7 stuck, 338 sleeping, 1920 threads 
+2020/01/22 15:18:53
+Load Avg: 41.38, 17.58, 7.02 
+CPU usage: 49.86% user, 50.13% sys, 0.0% idle 
+SharedLibs: 263M resident, 63M data, 45M linkedit.
+MemRegions: 43364 total, 3467M resident, 213M private, 3575M shared.
+PhysMem: 14G used (1950M wired), 2238M unused.
+VM: 1646G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 167608/218M in, 40087/4694K out.
+Disks: 333910/7254M read, 38427/949M written.
 
-COMMAND          MEM    %CPU #TH  
-kernel_task      1411M+ 0.0  191/8
-EpicGamesLaunche 147M+  0.0  46   
-com.docker.hyper 83M+   0.0  20   
-corebrightnessd  46M+   0.0  18   
-CalendarAgent    42M+   0.0  16/3 
+COMMAND          MEM    %CPU #TH   
+com.docker.hyper 2068M+ 0.0  20/2  
+kernel_task      1498M+ 0.0  191/10
+Atom             278M+  0.0  43    
+Atom Helper      193M+  0.0  29    
+softwareupdated  143M+  0.0  17/1  
