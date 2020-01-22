@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   49.94  154  7.49   7 19 74  7.34 5.51 3.95
+   21.72 3723 78.95  34 32 34  63.98 17.19 6.33
 
-Processes: 436 total, 5 running, 3 stuck, 428 sleeping, 2278 threads 
-2020/01/22 14:46:32
-Load Avg: 7.34, 5.51, 3.95 
-CPU usage: 26.39% user, 68.29% sys, 5.30% idle 
-SharedLibs: 186M resident, 46M data, 18M linkedit.
-MemRegions: 137067 total, 2237M resident, 34M private, 6776M shared.
-PhysMem: 16G used (3920M wired), 322M unused.
-VM: 3242G vsize, 1112M framework vsize, 244041208(0) swapins, 246431772(0) swapouts.
-Networks: packets: 34174274/44G in, 9389290/1339M out.
-Disks: 39239980/1490G read, 35848864/2087G written.
+Processes: 332 total, 13 running, 14 stuck, 305 sleeping, 2149 threads 
+2020/01/22 15:18:07
+Load Avg: 63.98, 17.19, 6.33 
+CPU usage: 27.90% user, 39.53% sys, 32.55% idle 
+SharedLibs: 285M resident, 66M data, 64M linkedit.
+MemRegions: 36246 total, 2331M resident, 187M private, 1259M shared.
+PhysMem: 8346M used (1835M wired), 8037M unused.
+VM: 1472G vsize, 1111M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 26536/31M in, 13158/1743K out.
+Disks: 200099/4148M read, 19557/499M written.
 
 COMMAND          MEM    %CPU #TH  
-com.docker.hyper 3248M+ 0.0  20/5 
-kernel_task      1694M+ 0.0  209/8
-VBoxHeadless     1275M+ 0.0  31   
-Atom Helper      198M+  0.0  27/1 
-com.apple.WebKit 160M+  0.0  7/1  
+kernel_task      1411M+ 0.0  191/8
+EpicGamesLaunche 147M+  0.0  46   
+com.docker.hyper 83M+   0.0  20   
+corebrightnessd  46M+   0.0  18   
+CalendarAgent    42M+   0.0  16/3 
