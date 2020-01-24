@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   44.34  235 10.19   8 13 80  424.32 118.66 45.79
+   21.57 2205 46.45  20 30 49  12.82 15.22 7.31
 
-Processes: 374 total, 208 running, 166 sleeping, 2568 threads 
-2020/01/24 12:41:32
-Load Avg: 424.32, 118.66, 45.79 
-CPU usage: 50.44% user, 49.55% sys, 0.0% idle 
-SharedLibs: 242M resident, 63M data, 78M linkedit.
-MemRegions: 65085 total, 3472M resident, 155M private, 1081M shared.
-PhysMem: 13G used (2243M wired), 3425M unused.
-VM: 1751G vsize, 1111M framework vsize, 107092740(0) swapins, 108495722(0) swapouts.
-Networks: packets: 17431854/21G in, 7695435/987M out.
-Disks: 22896741/716G read, 15568031/910G written.
+Processes: 336 total, 8 running, 4 stuck, 324 sleeping, 1699 threads 
+2020/01/24 13:20:40
+Load Avg: 12.82, 15.22, 7.31 
+CPU usage: 46.27% user, 49.1% sys, 4.70% idle 
+SharedLibs: 177M resident, 54M data, 34M linkedit.
+MemRegions: 46182 total, 2775M resident, 173M private, 6021M shared.
+PhysMem: 16G used (2188M wired), 260M unused.
+VM: 1602G vsize, 1111M framework vsize, 4184(0) swapins, 7859(0) swapouts.
+Networks: packets: 32398/30M in, 23961/5798K out.
+Disks: 383464/8248M read, 36352/564M written.
 
-COMMAND          MEM    %CPU #TH   
-kernel_task      1740M+ 0.0  208/10
-Atom             267M+  0.0  42/12 
-Microsoft Outloo 255M+  0.0  49/5  
-Atom Helper      182M+  0.0  28/4  
-Messages         133M+  0.0  16/5  
-Processes: 374 total, 207 running, 1 stuck, 166 sleeping, 2552 threads 
-2020/01/24 12:41:33
-Load Avg: 424.32, 118.66, 45.79 
-CPU usage: 50.73% user, 49.26% sys, 0.0% idle 
-SharedLibs: 242M resident, 63M data, 78M linkedit.
-MemRegions: 65114 total, 3486M resident, 155M private, 1076M shared.
-PhysMem: 13G used (2242M wired), 3430M unused.
-VM: 1751G vsize, 1111M framework vsize, 107092858(0) swapins, 108495722(0) swapouts.
-Networks: packets: 17432041/21G in, 7695594/987M out.
-Disks: 22896778/716G read, 15568042/910G written.
-
-COMMAND          MEM    %CPU #TH   
-kernel_task      1741M+ 0.0  208/10
-Atom             267M+  0.0  42/11 
-Microsoft Outloo 255M+  0.0  49/6  
-Atom Helper      183M+  0.0  28/4  
-Messages         133M+  0.0  16/5  
+COMMAND          MEM    %CPU #TH  
+com.docker.hyper 2989M+ 0.0  18/4 
+kernel_task      1484M+ 0.0  189/8
+Microsoft Outloo 206M+  0.0  36   
+Slack Helper (Re 195M+  0.0  25/4 
+Slack            85M+   0.0  48   
