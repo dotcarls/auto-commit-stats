@@ -1,21 +1,38 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   45.04   50  2.18   6  7 86  3.27 2.32 2.94
+   48.67   39  1.87   6  7 86  11.62 7.75 5.39
 
-Processes: 416 total, 2 running, 414 sleeping, 1923 threads 
-2020/01/26 14:42:23
-Load Avg: 3.27, 2.32, 2.94 
-CPU usage: 8.54% user, 14.52% sys, 76.92% idle 
-SharedLibs: 244M resident, 61M data, 27M linkedit.
-MemRegions: 108103 total, 3439M resident, 121M private, 1471M shared.
-PhysMem: 12G used (2748M wired), 3725M unused.
-VM: 3341G vsize, 1112M framework vsize, 30320147(0) swapins, 31943565(0) swapouts.
-Networks: packets: 4739559/5856M in, 1896737/208M out.
-Disks: 5990386/193G read, 2833807/186G written.
+Processes: 436 total, 6 running, 14 stuck, 416 sleeping, 2356 threads 
+2020/01/27 10:33:36
+Load Avg: 11.09, 7.70, 5.39 
+CPU usage: 30.90% user, 28.72% sys, 40.36% idle 
+SharedLibs: 261M resident, 61M data, 20M linkedit.
+MemRegions: 107123 total, 3219M resident, 132M private, 1202M shared.
+PhysMem: 11G used (2518M wired), 5258M unused.
+VM: 2922G vsize, 1112M framework vsize, 38760967(0) swapins, 40578294(0) swapouts.
+Networks: packets: 4806179/5899M in, 1955553/217M out.
+Disks: 6757010/236G read, 3075948/220G written.
 
-COMMAND          MEM    %CPU #TH  
-kernel_task      1610M+ 0.0  167/9
-com.apple.WebKit 370M+  0.0  5    
-com.apple.WebKit 275M+  0.0  15   
-com.apple.WebKit 165M+  0.0  10   
-Safari           128M+  0.0  9    
+COMMAND      MEM    %CPU #TH  
+kernel_task  1689M+ 0.0  187/9
+Atom Helper  245M+  0.0  31/1 
+Safari       133M+  0.0  10   
+Atom         121M+  0.0  35   
+WindowServer 91M+   0.0  9    
+Processes: 437 total, 5 running, 14 stuck, 418 sleeping, 2359 threads 
+2020/01/27 10:33:36
+Load Avg: 11.09, 7.70, 5.39 
+CPU usage: 29.13% user, 28.41% sys, 42.44% idle 
+SharedLibs: 261M resident, 61M data, 20M linkedit.
+MemRegions: 107174 total, 3229M resident, 133M private, 1202M shared.
+PhysMem: 11G used (2518M wired), 5242M unused.
+VM: 2926G vsize, 1112M framework vsize, 38761223(0) swapins, 40578294(0) swapouts.
+Networks: packets: 4806182/5899M in, 1955556/217M out.
+Disks: 6757120/236G read, 3075958/220G written.
+
+COMMAND      MEM    %CPU #TH  
+kernel_task  1689M+ 0.0  187/8
+Atom Helper  253M+  0.0  31/1 
+Safari       133M+  0.0  10   
+Atom         121M+  0.0  35   
+WindowServer 91M+   0.0  9    
