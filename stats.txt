@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   29.10 1299 36.91  13 16 71  3.56 8.39 5.55
+   30.48  650 19.36   9 17 74  6.13 4.35 4.22
 
-Processes: 337 total, 6 running, 2 stuck, 329 sleeping, 1678 threads 
-2020/01/27 13:38:02
-Load Avg: 3.56, 8.39, 5.55 
-CPU usage: 43.52% user, 45.88% sys, 10.58% idle 
-SharedLibs: 175M resident, 53M data, 31M linkedit.
-MemRegions: 44069 total, 3098M resident, 181M private, 3984M shared.
-PhysMem: 15G used (1935M wired), 522M unused.
-VM: 1499G vsize, 1111M framework vsize, 6281(0) swapins, 12275(0) swapouts.
-Networks: packets: 542243/733M in, 93519/8675K out.
-Disks: 394433/10G read, 87002/3555M written.
+Processes: 365 total, 4 running, 361 sleeping, 1749 threads 
+2020/01/27 13:55:19
+Load Avg: 6.13, 4.35, 4.22 
+CPU usage: 22.41% user, 64.5% sys, 13.52% idle 
+SharedLibs: 180M resident, 54M data, 30M linkedit.
+MemRegions: 58697 total, 1078M resident, 46M private, 8430M shared.
+PhysMem: 16G used (2042M wired), 113M unused.
+VM: 2368G vsize, 1111M framework vsize, 274127(0) swapins, 498007(0) swapouts.
+Networks: packets: 863585/1155M in, 159959/16M out.
+Disks: 636079/15G read, 278801/12G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1482M+ 0.0  191/9
-Atom Helper      248M+  0.0  31   
-Atom             124M+  0.0  36   
-Atom Helper      90M+   0.0  14   
-EpicGamesLaunche 86M+   0.0  45   
+com.docker.hyper 4783M+ 0.0  19/4 
+kernel_task      1522M+ 0.0  192/8
+com.apple.WebKit 166M+  0.0  12   
+com.apple.WebKit 96M+   0.0  7    
+dscl             81M+   0.0  4/1  
