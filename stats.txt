@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   29.65 1329 38.48  13 15 72  4.04 8.81 5.63
+   29.12 1299 36.94  13 16 71  3.56 8.39 5.55
 
-Processes: 328 total, 2 running, 326 sleeping, 1552 threads 
-2020/01/27 13:37:39
-Load Avg: 4.04, 8.81, 5.63 
-CPU usage: 6.79% user, 14.56% sys, 78.64% idle 
-SharedLibs: 164M resident, 52M data, 27M linkedit.
-MemRegions: 40247 total, 2432M resident, 178M private, 525M shared.
-PhysMem: 12G used (1845M wired), 4374M unused.
-VM: 1448G vsize, 1111M framework vsize, 5779(0) swapins, 12275(0) swapouts.
-Networks: packets: 540243/732M in, 91691/8409K out.
-Disks: 379395/9911M read, 82273/3459M written.
+Processes: 341 total, 10 running, 1 stuck, 330 sleeping, 1685 threads 
+2020/01/27 13:38:01
+Load Avg: 3.56, 8.39, 5.55 
+CPU usage: 61.36% user, 36.36% sys, 2.27% idle 
+SharedLibs: 175M resident, 53M data, 31M linkedit.
+MemRegions: 45752 total, 3169M resident, 182M private, 3819M shared.
+PhysMem: 15G used (1935M wired), 593M unused.
+VM: 1515G vsize, 1111M framework vsize, 6281(0) swapins, 12275(0) swapouts.
+Networks: packets: 541766/733M in, 93159/8643K out.
+Disks: 393505/10G read, 86986/3555M written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1416M+ 0.0  191/8
-EpicGamesLaunche 86M+   0.0  44   
-cloudphotosd     59M+   0.0  7    
-mds_stores       55M+   0.0  6    
-corebrightnessd  46M+   0.0  3    
+kernel_task      1481M+ 0.0  191/8
+Atom Helper      234M+  0.0  31/2 
+Atom             124M+  0.0  38   
+Atom Helper      90M+   0.0  14   
+EpicGamesLaunche 86M+   0.0  45   
