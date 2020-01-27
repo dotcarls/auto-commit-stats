@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   48.67   39  1.87   6  7 86  11.62 7.75 5.39
+   47.11   43  1.98   6  8 86  2.53 2.57 2.98
 
-Processes: 436 total, 6 running, 14 stuck, 416 sleeping, 2356 threads 
-2020/01/27 10:33:36
-Load Avg: 11.09, 7.70, 5.39 
-CPU usage: 30.90% user, 28.72% sys, 40.36% idle 
-SharedLibs: 261M resident, 61M data, 20M linkedit.
-MemRegions: 107123 total, 3219M resident, 132M private, 1202M shared.
-PhysMem: 11G used (2518M wired), 5258M unused.
-VM: 2922G vsize, 1112M framework vsize, 38760967(0) swapins, 40578294(0) swapouts.
-Networks: packets: 4806179/5899M in, 1955553/217M out.
-Disks: 6757010/236G read, 3075948/220G written.
+Processes: 406 total, 3 running, 403 sleeping, 2004 threads 
+2020/01/27 11:00:41
+Load Avg: 2.53, 2.57, 2.98 
+CPU usage: 17.51% user, 14.28% sys, 68.20% idle 
+SharedLibs: 146M resident, 40M data, 7672K linkedit.
+MemRegions: 100874 total, 904M resident, 39M private, 6830M shared.
+PhysMem: 16G used (2417M wired), 65M unused.
+VM: 2342G vsize, 1112M framework vsize, 39941571(0) swapins, 41093102(0) swapouts.
+Networks: packets: 5141972/6310M in, 2068586/228M out.
+Disks: 7220497/247G read, 3574140/238G written.
 
-COMMAND      MEM    %CPU #TH  
-kernel_task  1689M+ 0.0  187/9
-Atom Helper  245M+  0.0  31/1 
-Safari       133M+  0.0  10   
-Atom         121M+  0.0  35   
-WindowServer 91M+   0.0  9    
-Processes: 437 total, 5 running, 14 stuck, 418 sleeping, 2359 threads 
-2020/01/27 10:33:36
-Load Avg: 11.09, 7.70, 5.39 
-CPU usage: 29.13% user, 28.41% sys, 42.44% idle 
-SharedLibs: 261M resident, 61M data, 20M linkedit.
-MemRegions: 107174 total, 3229M resident, 133M private, 1202M shared.
-PhysMem: 11G used (2518M wired), 5242M unused.
-VM: 2926G vsize, 1112M framework vsize, 38761223(0) swapins, 40578294(0) swapouts.
-Networks: packets: 4806182/5899M in, 1955556/217M out.
-Disks: 6757120/236G read, 3075958/220G written.
-
-COMMAND      MEM    %CPU #TH  
-kernel_task  1689M+ 0.0  187/8
-Atom Helper  253M+  0.0  31/1 
-Safari       133M+  0.0  10   
-Atom         121M+  0.0  35   
-WindowServer 91M+   0.0  9    
+COMMAND          MEM    %CPU #TH  
+com.docker.hyper 4794M+ 0.0  18   
+kernel_task      1607M+ 0.0  187/8
+dscl             85M+   0.0  4/1  
+com.docker.vpnki 81M+   0.0  10   
+Atom Helper      79M+   0.0  25   
