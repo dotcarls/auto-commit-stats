@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   51.86  121  6.11   7 12 81  2.94 3.53 5.04
+   19.05 2277 42.37  26 38 36  19.75 16.73 7.56
 
-Processes: 420 total, 4 running, 9 stuck, 407 sleeping, 2503 threads 
-2020/02/07 10:33:59
-Load Avg: 2.94, 3.53, 5.04 
-CPU usage: 21.35% user, 21.62% sys, 57.2% idle 
-SharedLibs: 166M resident, 41M data, 17M linkedit.
-MemRegions: 158261 total, 1854M resident, 69M private, 2830M shared.
-PhysMem: 12G used (2871M wired), 4548M unused.
-VM: 2972G vsize, 1112M framework vsize, 482739383(0) swapins, 488972888(0) swapouts.
-Networks: packets: 78542234/81G in, 44198328/21G out.
-Disks: 62888560/2610G read, 50391692/2993G written.
+Processes: 361 total, 4 running, 14 stuck, 343 sleeping, 1676 threads 
+2020/02/07 10:39:38
+Load Avg: 19.75, 16.73, 7.56 
+CPU usage: 19.54% user, 58.63% sys, 21.81% idle 
+SharedLibs: 180M resident, 55M data, 29M linkedit.
+MemRegions: 50066 total, 2403M resident, 119M private, 8741M shared.
+PhysMem: 16G used (1958M wired), 402M unused.
+VM: 2391G vsize, 1111M framework vsize, 832(0) swapins, 1024(0) swapouts.
+Networks: packets: 61416/76M in, 35193/4668K out.
+Disks: 324455/5930M read, 40745/865M written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      2129M+ 0.0  197/8
-Microsoft Outloo 147M+  0.0  23   
-Safari           136M+  0.0  11   
-Terminal         113M+  0.0  6    
-Slack Helper (Re 110M+  0.0  22   
+com.docker.hyper 1555M+ 0.0  18/4 
+kernel_task      1487M+ 0.0  190/8
+softwareupdated  662M+  0.0  8/1  
+Safari           131M+  0.0  9    
+com.apple.WebKit 82M+   0.0  12   
