@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   38.17   42  1.56    10.33    0  0.00   9 13 78  6.07 14.67 11.41
+   38.06   42  1.57    10.33    0  0.00   9 13 78  4.43 12.12 10.72
 
-Processes: 397 total, 3 running, 394 sleeping, 1874 threads 
-2020/02/10 09:42:48
-Load Avg: 6.07, 14.67, 11.41 
-CPU usage: 15.87% user, 35.44% sys, 48.67% idle 
-SharedLibs: 146M resident, 49M data, 27M linkedit.
-MemRegions: 77770 total, 2855M resident, 137M private, 3878M shared.
-PhysMem: 16G used (2297M wired), 329M unused.
-VM: 2112G vsize, 1112M framework vsize, 32246676(0) swapins, 32915884(0) swapouts.
-Networks: packets: 4467804/3692M in, 4567739/2956M out.
-Disks: 6473628/187G read, 4279237/204G written.
+Processes: 400 total, 3 running, 5 stuck, 392 sleeping, 1920 threads 
+2020/02/10 09:44:10
+Load Avg: 4.43, 12.12, 10.72 
+CPU usage: 23.88% user, 28.35% sys, 47.76% idle 
+SharedLibs: 143M resident, 48M data, 27M linkedit.
+MemRegions: 78818 total, 2638M resident, 100M private, 6592M shared.
+PhysMem: 16G used (2303M wired), 211M unused.
+VM: 2125G vsize, 1112M framework vsize, 32294072(0) swapins, 33059379(0) swapouts.
+Networks: packets: 4480130/3708M in, 4573866/2956M out.
+Disks: 6531878/187G read, 4291540/204G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      5815M+ 0.0  197/8
-Microsoft Outloo 292M+  0.0  25   
-com.docker.hyper 290M+  0.0  18/4 
-Atom Helper      171M+  0.0  27   
-Safari           157M+  0.0  8    
+kernel_task      1720M+ 0.0  197/9
+com.docker.hyper 492M+  0.0  18   
+Microsoft Outloo 242M+  0.0  26   
+softwareupdated  217M+  0.0  8    
+Atom Helper      172M+  0.0  27   
