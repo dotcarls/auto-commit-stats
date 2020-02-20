@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   29.37  775 22.24  11 21 68  2.69 2.83 3.23
+   29.44  776 22.30  11 21 68  2.79 2.85 3.24
 
-Processes: 397 total, 19 running, 1 stuck, 377 sleeping, 1941 threads 
-2020/02/20 13:12:31
-Load Avg: 2.69, 2.83, 3.23 
-CPU usage: 51.94% user, 47.18% sys, 0.86% idle 
+Processes: 403 total, 3 running, 400 sleeping, 1997 threads 
+2020/02/20 13:12:38
+Load Avg: 3.21, 2.93, 3.26 
+CPU usage: 47.2% user, 29.46% sys, 23.51% idle 
 SharedLibs: 203M resident, 42M data, 18M linkedit.
-MemRegions: 83764 total, 629M resident, 42M private, 7482M shared.
-PhysMem: 16G used (2157M wired), 298M unused.
-VM: 3197G vsize, 1111M framework vsize, 3116625(0) swapins, 3609724(0) swapouts.
-Networks: packets: 2137715/2584M in, 722683/63M out.
-Disks: 1467326/35G read, 1937935/61G written.
-
-COMMAND          MEM    %CPU #TH   
-com.docker.hyper 5347M+ 0.0  18    
-kernel_task      1595M+ 0.0  192/10
-Slack Helper (Re 73M+   0.0  23/2  
-Atom Helper      63M+   0.0  18    
-Atom             62M+   0.0  39/2  
-Processes: 397 total, 6 running, 3 stuck, 388 sleeping, 1965 threads 
-2020/02/20 13:12:32
-Load Avg: 2.69, 2.83, 3.23 
-CPU usage: 48.70% user, 41.59% sys, 9.70% idle 
-SharedLibs: 203M resident, 42M data, 18M linkedit.
-MemRegions: 83998 total, 686M resident, 42M private, 7483M shared.
-PhysMem: 16G used (2157M wired), 259M unused.
-VM: 3198G vsize, 1111M framework vsize, 3117384(0) swapins, 3609915(0) swapouts.
-Networks: packets: 2137726/2584M in, 722694/63M out.
-Disks: 1467583/35G read, 1937976/61G written.
+MemRegions: 85028 total, 1105M resident, 48M private, 7544M shared.
+PhysMem: 16G used (2164M wired), 86M unused.
+VM: 3225G vsize, 1111M framework vsize, 3122032(0) swapins, 3686942(0) swapouts.
+Networks: packets: 2139467/2585M in, 724226/64M out.
+Disks: 1470646/35G read, 1939862/61G written.
 
 COMMAND          MEM    %CPU #TH  
 com.docker.hyper 5347M+ 0.0  18   
-kernel_task      1591M+ 0.0  192/8
+kernel_task      1598M+ 0.0  192/8
+Atom Helper      205M+  0.0  29/1 
+Atom Helper      90M+   0.0  15   
 Slack Helper (Re 75M+   0.0  23   
-Atom Helper      68M+   0.0  18/1 
-Atom Helper      64M+   0.0  18   
