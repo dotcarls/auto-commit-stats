@@ -1,21 +1,39 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   34.90   44  1.51   6  8 86  2.77 2.90 2.59
+   35.84   43  1.51   6  8 86  2.09 1.92 2.43
 
-Processes: 480 total, 4 running, 2 stuck, 474 sleeping, 2702 threads 
-2020/02/24 16:24:53
-Load Avg: 2.77, 2.90, 2.59 
-CPU usage: 31.90% user, 24.21% sys, 43.87% idle 
-SharedLibs: 211M resident, 56M data, 31M linkedit.
-MemRegions: 137834 total, 6316M resident, 162M private, 1659M shared.
-PhysMem: 15G used (3098M wired), 1218M unused.
-VM: 3928G vsize, 1112M framework vsize, 37933350(0) swapins, 40185625(0) swapouts.
-Networks: packets: 8008037/9026M in, 2947037/360M out.
-Disks: 9817558/254G read, 6207910/280G written.
+
+Processes: 464 total, 5 running, 459 sleeping, 2472 threads 
+2020/02/25 11:26:46
+Load Avg: 2.09, 1.92, 2.43 
+CPU usage: 32.53% user, 30.15% sys, 37.30% idle 
+SharedLibs: 172M resident, 47M data, 27M linkedit.
+MemRegions: 131134 total, 5140M resident, 129M private, 4821M shared.
+PhysMem: 16G used (5933M wired), 325M unused.
+VM: 3314G vsize, 1112M framework vsize, 44642976(0) swapins, 47366879(0) swapouts.
+Networks: packets: 8434906/9340M in, 3250748/406M out.
+Disks: 11327030/305G read, 7214972/329G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      2006M+ 0.0  209/8
-com.apple.WebKit 386M+  0.0  12   
-com.apple.WebKit 287M+  0.0  14   
-Slack Helper (Re 256M+  0.0  22   
-Microsoft Outloo 240M+  0.0  24   
+vmware-vmx       3521M+ 0.0  34   
+kernel_task      1856M+ 0.0  216/9
+Microsoft Outloo 351M+  0.0  25   
+com.apple.WebKit 339M+  0.0  6    
+Atom Helper      259M+  0.0  31/1 
+Processes: 464 total, 5 running, 1 stuck, 458 sleeping, 2474 threads 
+2020/02/25 11:26:46
+Load Avg: 2.09, 1.92, 2.43 
+CPU usage: 31.81% user, 30.30% sys, 37.87% idle 
+SharedLibs: 172M resident, 47M data, 27M linkedit.
+MemRegions: 131141 total, 5142M resident, 129M private, 4821M shared.
+PhysMem: 16G used (5933M wired), 324M unused.
+VM: 3314G vsize, 1112M framework vsize, 44643040(0) swapins, 47366879(0) swapouts.
+Networks: packets: 8434906/9340M in, 3250748/406M out.
+Disks: 11327030/305G read, 7214972/329G written.
+
+COMMAND          MEM    %CPU #TH  
+vmware-vmx       3521M+ 0.0  34/1 
+kernel_task      1856M+ 0.0  216/8
+Microsoft Outloo 351M+  0.0  25   
+com.apple.WebKit 339M+  0.0  6    
+Atom Helper      262M+  0.0  31   
