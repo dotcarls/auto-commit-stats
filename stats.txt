@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   25.80  753 18.97   403.06    0  0.17   8  6 86  4.54 4.33 3.61
+   26.85  698 18.31   402.82    0  0.15   9  6 85  2.40 3.54 3.92
 
-Processes: 523 total, 3 running, 520 sleeping, 2307 threads 
-2020/02/28 16:37:32
-Load Avg: 4.54, 4.33, 3.61 
-CPU usage: 19.46% user, 10.11% sys, 70.41% idle 
-SharedLibs: 333M resident, 63M data, 43M linkedit.
-MemRegions: 168308 total, 2292M resident, 106M private, 16G shared.
-PhysMem: 32G used (3205M wired), 147M unused.
-VM: 4404G vsize, 1887M framework vsize, 4230414(0) swapins, 4780493(0) swapouts.
-Networks: packets: 19148019/25G in, 19035631/2118M out.
-Disks: 1973453/55G read, 6799279/162G written.
+Processes: 539 total, 2 running, 537 sleeping, 2679 threads 
+2020/02/28 17:03:34
+Load Avg: 2.40, 3.54, 3.92 
+CPU usage: 17.60% user, 8.9% sys, 74.29% idle 
+SharedLibs: 341M resident, 64M data, 44M linkedit.
+MemRegions: 185684 total, 3721M resident, 127M private, 16G shared.
+PhysMem: 32G used (3413M wired), 395M unused.
+VM: 4710G vsize, 1887M framework vsize, 5963255(0) swapins, 6919733(0) swapouts.
+Networks: packets: 19254653/25G in, 19123309/2129M out.
+Disks: 2249355/65G read, 6978817/173G written.
 
 COMMAND          MEM  %CPU #TH
 com.docker.hyper 19G  0.0  22 
-Terminal         550M 0.0  12 
-WindowServer     442M 0.0  10 
-falcond          371M 0.0  22 
-mds_stores       309M 0.0  6  
+Terminal         604M 0.0  10 
+WindowServer     385M 0.0  10 
+falcond          377M 0.0  22 
+photoanalysisd   338M 0.0  19 
