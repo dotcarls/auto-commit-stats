@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   40.62   62  2.46    13.61    0  0.00   5  8 86  3.42 3.75 3.43
+   40.70   64  2.56    13.61    0  0.00   5  8 86  1.52 1.83 2.19
 
-Processes: 597 total, 3 running, 594 sleeping, 2867 threads 
-2020/03/03 11:54:22
-Load Avg: 3.42, 3.75, 3.43 
-CPU usage: 5.96% user, 21.30% sys, 72.72% idle 
+Processes: 580 total, 2 running, 578 sleeping, 2754 threads 
+2020/03/03 12:26:58
+Load Avg: 1.52, 1.83, 2.19 
+CPU usage: 3.86% user, 7.8% sys, 89.4% idle 
 SharedLibs: 330M resident, 78M data, 65M linkedit.
-MemRegions: 242277 total, 7935M resident, 175M private, 9814M shared.
-PhysMem: 32G used (3780M wired), 326M unused.
-VM: 5978G vsize, 1879M framework vsize, 14884422(0) swapins, 16047797(0) swapouts.
-Networks: packets: 137621341/158G in, 171941409/12G out.
-Disks: 10658378/321G read, 9533022/460G written.
+MemRegions: 232523 total, 6145M resident, 154M private, 9684M shared.
+PhysMem: 32G used (3743M wired), 142M unused.
+VM: 5462G vsize, 1879M framework vsize, 14998610(0) swapins, 16047797(0) swapouts.
+Networks: packets: 147369901/171G in, 181654965/12G out.
+Disks: 10993542/333G read, 10092283/485G written.
 
-COMMAND          MEM   %CPU #TH 
-com.docker.hyper 15G   0.0  18/3
-Microsoft Outloo 2012M 0.0  26  
-WindowServer     590M  0.0  9   
-mds_stores       426M  0.0  6   
-falcond          397M  0.0  22  
+COMMAND          MEM   %CPU #TH
+com.docker.hyper 15G   0.0  18 
+Microsoft Outloo 2021M 0.0  23 
+WindowServer     571M  0.0  10 
+falcond          404M  0.0  22 
+mds_stores       398M  0.0  6  
