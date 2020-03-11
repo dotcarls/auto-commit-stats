@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   33.59   61  2.01   5  5 90  3.99 2.83 2.49
+   33.40   62  2.01   4  5 90  2.62 2.57 2.50
 
-Processes: 509 total, 2 running, 1 stuck, 506 sleeping, 2715 threads 
-2020/03/11 12:25:25
-Load Avg: 3.99, 2.83, 2.49 
-CPU usage: 1.62% user, 6.69% sys, 91.68% idle 
-SharedLibs: 250M resident, 50M data, 13M linkedit.
-MemRegions: 199258 total, 4533M resident, 105M private, 14G shared.
-PhysMem: 32G used (14G wired), 47M unused.
-VM: 5017G vsize, 1886M framework vsize, 9897974(0) swapins, 10247487(0) swapouts.
-Networks: packets: 6712851/7785M in, 5849689/717M out.
-Disks: 3151014/81G read, 2195295/91G written.
+Processes: 511 total, 3 running, 508 sleeping, 2654 threads 
+2020/03/11 12:38:47
+Load Avg: 2.62, 2.57, 2.50 
+CPU usage: 2.18% user, 16.5% sys, 81.75% idle 
+SharedLibs: 252M resident, 51M data, 13M linkedit.
+MemRegions: 198783 total, 4154M resident, 107M private, 15G shared.
+PhysMem: 32G used (14G wired), 86M unused.
+VM: 4989G vsize, 1879M framework vsize, 9904092(0) swapins, 10247487(0) swapouts.
+Networks: packets: 6764882/7827M in, 5924087/731M out.
+Disks: 3220853/82G read, 2218680/91G written.
 
 COMMAND          MEM   %CPU #TH   
 com.docker.hyper 14G   0.0  18    
-vmware-vmx       10G   0.0  48    
-WindowServer     1666M 0.0  9     
-com.apple.WebKit 1248M 0.0  9     
-kernel_task      1083M 0.0  315/16
+vmware-vmx       10G   0.0  48/2  
+WindowServer     1587M 0.0  9     
+com.apple.WebKit 1281M 0.0  9     
+kernel_task      1019M 0.0  315/16
