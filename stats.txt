@@ -1,21 +1,55 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   38.44   41  1.55   4  4 92  1.42 1.69 2.06
+   18.75 3568 65.33  15 14 71  2.64 0.66 0.24
 
-Processes: 535 total, 2 running, 533 sleeping, 2762 threads 
-2020/03/18 14:08:32
-Load Avg: 1.42, 1.69, 2.06 
-CPU usage: 2.20% user, 6.10% sys, 91.69% idle 
-SharedLibs: 243M resident, 48M data, 13M linkedit.
-MemRegions: 238262 total, 7440M resident, 171M private, 10G shared.
-PhysMem: 32G used (4922M wired), 259M unused.
-VM: 6258G vsize, 1886M framework vsize, 56440861(0) swapins, 57972839(0) swapouts.
-Networks: packets: 55806904/69G in, 57457562/9202M out.
-Disks: 18733082/541G read, 10173973/519G written.
+Processes: 402 total, 21 running, 6 stuck, 375 sleeping, 2744 threads 
+2020/03/20 12:06:35
+Load Avg: 2.64, 0.66, 0.24 
+CPU usage: 57.23% user, 41.31% sys, 1.44% idle 
+SharedLibs: 413M resident, 82M data, 48M linkedit.
+MemRegions: 91609 total, 3524M resident, 212M private, 1614M shared.
+PhysMem: 8675M used (2581M wired), 24G unused.
+VM: 2285G vsize, 1886M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 10170/8255K in, 16596/3894K out.
+Disks: 143895/2766M read, 15837/155M written.
 
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 15G   0.0  18    
-WindowServer     2010M 0.0  9     
-kernel_task      1235M 0.0  317/17
-Microsoft Outloo 924M  0.0  39    
-com.docker.osxfs 842M  0.0  26    
+COMMAND          MEM  %CPU #TH 
+Slack Helper (Re 235M 0.0  32  
+Code Helper (Ren 173M 0.0  37/2
+Slack            163M 0.0  46  
+WindowServer     159M 0.0  10  
+Code Helper (Ren 123M 0.0  39/1
+Processes: 404 total, 24 running, 6 stuck, 374 sleeping, 2747 threads 
+2020/03/20 12:06:35
+Load Avg: 2.64, 0.66, 0.24 
+CPU usage: 57.52% user, 40.60% sys, 1.86% idle 
+SharedLibs: 413M resident, 82M data, 48M linkedit.
+MemRegions: 91872 total, 3529M resident, 212M private, 1614M shared.
+PhysMem: 8677M used (2583M wired), 24G unused.
+VM: 2294G vsize, 1886M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 10172/8256K in, 16608/3895K out.
+Disks: 143966/2767M read, 15838/155M written.
+
+COMMAND          MEM  %CPU #TH 
+Slack Helper (Re 235M 0.0  32  
+Code Helper (Ren 173M 0.0  37/2
+Slack            163M 0.0  46  
+WindowServer     159M 0.0  10  
+Code Helper (Ren 123M 0.0  39/1
+Processes: 404 total, 21 running, 5 stuck, 378 sleeping, 2744 threads 
+2020/03/20 12:06:35
+Load Avg: 2.64, 0.66, 0.24 
+CPU usage: 57.2% user, 40.82% sys, 2.14% idle 
+SharedLibs: 413M resident, 82M data, 48M linkedit.
+MemRegions: 91911 total, 3530M resident, 212M private, 1614M shared.
+PhysMem: 8678M used (2584M wired), 24G unused.
+VM: 2294G vsize, 1886M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 10173/8257K in, 16608/3895K out.
+Disks: 143993/2768M read, 15840/155M written.
+
+COMMAND          MEM  %CPU #TH 
+Slack Helper (Re 235M 0.0  32  
+Code Helper (Ren 173M 0.0  37/2
+Slack            163M 0.0  46  
+WindowServer     159M 0.0  10  
+Code Helper (Ren 123M 0.0  39/2
