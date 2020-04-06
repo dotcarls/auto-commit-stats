@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   49.77    7  0.33   5  2 92  4.44 2.86 2.30
+   51.78    7  0.36   5  3 92  2.73 2.76 2.66
 
-Processes: 519 total, 8 running, 511 sleeping, 2968 threads 
-2020/04/06 12:07:53
-Load Avg: 4.44, 2.86, 2.30 
-CPU usage: 8.12% user, 91.11% sys, 0.76% idle 
-SharedLibs: 429M resident, 68M data, 40M linkedit.
-MemRegions: 177360 total, 7161M resident, 227M private, 2686M shared.
-PhysMem: 23G used (3119M wired), 9548M unused.
-VM: 3198G vsize, 1886M framework vsize, 7214093(0) swapins, 7317094(0) swapouts.
-Networks: packets: 800407/790M in, 816294/247M out.
-Disks: 1058385/43G read, 631269/37G written.
+Processes: 546 total, 2 running, 544 sleeping, 3098 threads 
+2020/04/06 12:24:31
+Load Avg: 2.73, 2.76, 2.66 
+CPU usage: 3.49% user, 6.62% sys, 89.87% idle 
+SharedLibs: 276M resident, 68M data, 18M linkedit.
+MemRegions: 196224 total, 7956M resident, 251M private, 8782M shared.
+PhysMem: 32G used (9432M wired), 32M unused.
+VM: 4076G vsize, 1879M framework vsize, 7215495(0) swapins, 7317094(0) swapouts.
+Networks: packets: 1004747/917M in, 869391/255M out.
+Disks: 1099656/46G read, 682473/42G written.
 
 COMMAND          MEM   %CPU #TH
 com.docker.hyper 8712M 0.0  18 
-WindowServer     394M  0.0  9  
-Microsoft Teams  341M  0.0  24 
-Microsoft Outloo 339M  0.0  25 
-zoom.us          339M  0.0  44 
+vmware-vmx       6320M 0.0  49 
+WindowServer     403M  0.0  9  
+Microsoft Teams  345M  0.0  25 
+zoom.us          343M  0.0  47 
