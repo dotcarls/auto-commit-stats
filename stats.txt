@@ -1,3 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
    11.31 5874 64.89  14 14 72  41.62 9.54 3.42
+
+Processes: 403 total, 60 running, 7 stuck, 336 sleeping, 2931 threads 
+2020/04/10 16:01:33
+Load Avg: 41.62, 9.54, 3.42 
+CPU usage: 70.11% user, 28.48% sys, 1.39% idle 
+SharedLibs: 427M resident, 73M data, 46M linkedit.
+MemRegions: 104927 total, 4494M resident, 234M private, 3988M shared.
+PhysMem: 15G used (4975M wired), 17G unused.
+VM: 2447G vsize, 1886M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 26479/23M in, 16796/3805K out.
+Disks: 444454/4904M read, 17624/207M written.
+
+COMMAND          MEM   %CPU #TH   
+WindowServer     1536M 0.0  10    
+Microsoft Outloo 849M  0.0  51/4  
+Terminal         547M  0.0  9     
+kernel_task      348M  0.0  293/17
+Code Helper (GPU 310M  0.0  9     
