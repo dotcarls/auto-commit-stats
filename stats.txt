@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   15.66 3575 54.66  16 16 68  6.20 1.46 0.52
+   18.03 1182 20.82   7  7 85  2.67 2.00 0.92
 
-Processes: 403 total, 14 running, 1 stuck, 385 sleeping, 3 unknown, 2296 threads 
-2020/04/24 16:12:16
-Load Avg: 6.20, 1.46, 0.52 
-CPU usage: 37.74% user, 18.52% sys, 43.73% idle 
-SharedLibs: 424M resident, 73M data, 44M linkedit.
-MemRegions: 92546 total, 3017M resident, 230M private, 1246M shared.
-PhysMem: 9264M used (3681M wired), 23G unused.
-VM: 2479G vsize, 1886M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 11774/5566K in, 18922/7472K out.
-Disks: 136694/2188M read, 15225/170M written.
+Processes: 434 total, 2 running, 432 sleeping, 2224 threads 
+2020/04/24 16:14:56
+Load Avg: 2.67, 2.00, 0.92 
+CPU usage: 3.3% user, 6.39% sys, 90.57% idle 
+SharedLibs: 453M resident, 75M data, 49M linkedit.
+MemRegions: 114281 total, 4366M resident, 263M private, 18G shared.
+PhysMem: 29G used (3109M wired), 3028M unused.
+VM: 3450G vsize, 1879M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 87720/104M in, 71243/14M out.
+Disks: 191528/3513M read, 47486/696M written.
 
-COMMAND      MEM   %CPU #TH 
-WindowServer 1227M 0.0  11  
-zoom.us      155M  0.0  33  
-Photo Booth  103M  0.0  10  
-mds_stores   102M  0.0  15/1
-Terminal     101M  0.0  9/1 
-Processes: 390 total, 8 running, 3 stuck, 378 sleeping, 1 unknown, 2249 threads 
-2020/04/24 16:12:16
-Load Avg: 6.20, 1.46, 0.52 
-CPU usage: 37.50% user, 19.61% sys, 42.88% idle 
-SharedLibs: 424M resident, 73M data, 44M linkedit.
-MemRegions: 90865 total, 2970M resident, 223M private, 1245M shared.
-PhysMem: 9264M used (3681M wired), 23G unused.
-VM: 2426G vsize, 1886M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 11777/5569K in, 18922/7472K out.
-Disks: 136695/2188M read, 15225/170M written.
-
-COMMAND      MEM   %CPU #TH
-WindowServer 1234M 0.0  11 
-zoom.us      155M  0.0  33 
-Photo Booth  103M  0.0  10 
-mds_stores   102M  0.0  15 
-Terminal     101M  0.0  9/1
+COMMAND          MEM  %CPU #TH   
+com.docker.hyper 16G  0.0  24    
+WindowServer     545M 0.0  10    
+kernel_task      255M 0.0  284/16
+Code Helper (Ren 219M 0.0  40    
+Code Helper (GPU 207M 0.0  9     
