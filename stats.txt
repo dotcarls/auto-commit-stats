@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   45.60    3  0.13   4  3 93  2.99 2.29 2.41
+   37.77    6  0.21   4  4 93  1.43 3.01 3.44
 
-Processes: 485 total, 2 running, 483 sleeping, 2331 threads 
-2020/05/18 10:06:11
-Load Avg: 2.99, 2.29, 2.41 
-CPU usage: 1.77% user, 5.7% sys, 93.14% idle 
-SharedLibs: 389M resident, 62M data, 37M linkedit.
-MemRegions: 161338 total, 6455M resident, 195M private, 1776M shared.
-PhysMem: 23G used (3190M wired), 9372M unused.
-VM: 3647G vsize, 1886M framework vsize, 15451858(0) swapins, 15703936(0) swapouts.
-Networks: packets: 9203754/7718M in, 7054428/2031M out.
-Disks: 3730882/164G read, 2126156/90G written.
+Processes: 536 total, 3 running, 533 sleeping, 2633 threads 
+2020/05/18 14:22:14
+Load Avg: 1.43, 3.01, 3.44 
+CPU usage: 1.87% user, 6.63% sys, 91.49% idle 
+SharedLibs: 247M resident, 61M data, 16M linkedit.
+MemRegions: 236141 total, 3138M resident, 92M private, 17G shared.
+PhysMem: 32G used (3815M wired), 32M unused.
+VM: 6758G vsize, 1879M framework vsize, 16539396(0) swapins, 17243865(0) swapouts.
+Networks: packets: 17883214/19G in, 13035021/2924M out.
+Disks: 7583522/227G read, 3923908/188G written.
 
-COMMAND          MEM  %CPU #TH
-com.docker.hyper 16G  0.0  24 
-mds_stores       588M 0.0  5  
-Microsoft Outloo 434M 0.0  32 
-WindowServer     360M 0.0  9  
-com.apple.WebKit 279M 0.0  7  
+COMMAND          MEM  %CPU #TH 
+com.docker.hyper 29G  0.0  24/2
+Microsoft Outloo 703M 0.0  24  
+com.docker.osxfs 652M 0.0  10  
+Code Helper (Ren 439M 0.0  24  
+Safari           395M 0.0  7   
