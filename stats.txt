@@ -1,39 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.64 3199 58.24    28.46    5  0.15  12 13 75  4.10 1.05 0.38
+   17.28 3421 57.73    28.46    5  0.14  14 17 69  4.81 1.24 0.46
 
+Processes: 410 total, 9 running, 8 stuck, 393 sleeping, 2499 threads 
+2020/05/20 10:22:21
+Load Avg: 4.81, 1.24, 0.46 
+CPU usage: 17.65% user, 66.17% sys, 16.17% idle 
+SharedLibs: 417M resident, 70M data, 44M linkedit.
+MemRegions: 102779 total, 3526M resident, 223M private, 1575M shared.
+PhysMem: 9148M used (2738M wired), 23G unused.
+VM: 2954G vsize, 1886M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 10461/6587K in, 18798/4996K out.
+Disks: 182370/3205M read, 20326/221M written.
 
-Processes: 386 total, 10 running, 3 stuck, 373 sleeping, 2672 threads 
-2020/05/20 10:22:16
-Load Avg: 4.10, 1.05, 0.38 
-CPU usage: 58.62% user, 30.62% sys, 10.75% idle 
-SharedLibs: 412M resident, 70M data, 44M linkedit.
-MemRegions: 93587 total, 3190M resident, 211M private, 1415M shared.
-PhysMem: 8290M used (2640M wired), 24G unused.
-VM: 2747G vsize, 1886M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 9018/5613K in, 16030/4427K out.
-Disks: 154907/2949M read, 18469/201M written.
-
-COMMAND       MEM  %CPU #TH   
-WindowServer  168M 0.0  11    
-Google Chrome 114M 0.0  51    
-Safari        104M 0.0  38    
-kernel_task   103M 0.0  326/16
-Messages      96M  0.0  29    
-Processes: 386 total, 12 running, 3 stuck, 371 sleeping, 2672 threads 
-2020/05/20 10:22:16
-Load Avg: 4.10, 1.05, 0.38 
-CPU usage: 58.67% user, 30.57% sys, 10.74% idle 
-SharedLibs: 412M resident, 70M data, 44M linkedit.
-MemRegions: 93582 total, 3189M resident, 211M private, 1415M shared.
-PhysMem: 8290M used (2640M wired), 24G unused.
-VM: 2747G vsize, 1886M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 9018/5613K in, 16030/4427K out.
-Disks: 154907/2949M read, 18469/201M written.
-
-COMMAND       MEM  %CPU #TH   
-WindowServer  168M 0.0  11/1  
-Google Chrome 114M 0.0  51    
-Safari        104M 0.0  38    
-kernel_task   103M 0.0  326/18
-Messages      96M  0.0  29    
+COMMAND          MEM  %CPU #TH   
+Microsoft Outloo 188M 0.0  57/1  
+WindowServer     172M 0.0  11    
+Microsoft Excel  124M 0.0  48/1  
+Google Chrome    119M 0.0  42    
+kernel_task      104M 0.0  326/19
