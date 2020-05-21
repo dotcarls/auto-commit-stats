@@ -1,21 +1,39 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.77  163  3.14    13.77    0  0.00   3  3 94  1.65 2.01 2.04
+   10.33 5986 60.39    39.68    3  0.12   9  8 83  3.91 0.98 0.36
 
-Processes: 535 total, 3 running, 532 sleeping, 2629 threads 
-2020/05/20 13:57:32
-Load Avg: 1.65, 2.01, 2.04 
-CPU usage: 6.13% user, 26.36% sys, 67.49% idle 
-SharedLibs: 307M resident, 73M data, 22M linkedit.
-MemRegions: 215870 total, 4516M resident, 136M private, 17G shared.
-PhysMem: 32G used (3386M wired), 270M unused.
-VM: 6728G vsize, 1879M framework vsize, 73884(0) swapins, 145992(0) swapouts.
-Networks: packets: 1442607/1534M in, 1239398/331M out.
-Disks: 1549871/25G read, 559196/15G written.
 
-COMMAND          MEM  %CPU #TH 
-com.docker.hyper 17G  0.0  24/1
-Microsoft Outloo 511M 0.0  23  
-Slack Helper (Re 404M 0.0  31  
-Safari           361M 0.0  9   
-Google Chrome He 327M 0.0  16  
+Processes: 370 total, 19 running, 17 stuck, 334 sleeping, 2569 threads 
+2020/05/21 10:58:36
+Load Avg: 3.91, 0.98, 0.36 
+CPU usage: 22.37% user, 62.60% sys, 15.1% idle 
+SharedLibs: 394M resident, 71M data, 42M linkedit.
+MemRegions: 82103 total, 2806M resident, 193M private, 1431M shared.
+PhysMem: 7799M used (2452M wired), 24G unused.
+VM: 2218G vsize, 1886M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 3407/2206K in, 6816/1406K out.
+Disks: 393537/4011M read, 13281/111M written.
+
+COMMAND       MEM  %CPU #TH
+WindowServer  154M 0.0  10 
+talagent      130M 0.0  11 
+Google Chrome 102M 0.0  41 
+Messages      96M  0.0  47 
+Safari        77M  0.0  25 
+Processes: 370 total, 18 running, 10 stuck, 342 sleeping, 2569 threads 
+2020/05/21 10:58:36
+Load Avg: 3.91, 0.98, 0.36 
+CPU usage: 22.43% user, 62.52% sys, 15.3% idle 
+SharedLibs: 394M resident, 71M data, 42M linkedit.
+MemRegions: 82157 total, 2808M resident, 193M private, 1431M shared.
+PhysMem: 7799M used (2452M wired), 24G unused.
+VM: 2222G vsize, 1886M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 3407/2206K in, 6816/1406K out.
+Disks: 393537/4011M read, 13281/111M written.
+
+COMMAND       MEM  %CPU #TH 
+WindowServer  154M 0.0  10  
+talagent      130M 0.0  11  
+Google Chrome 102M 0.0  41/1
+Messages      96M  0.0  47  
+Safari        77M  0.0  25  
