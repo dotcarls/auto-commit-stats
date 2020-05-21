@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   17.66  233  4.02    16.16    0  0.00   5  3 92  1.60 1.79 1.91
+   18.16  183  3.25    14.02    0  0.00   5  3 92  1.43 1.64 1.80
 
-Processes: 510 total, 3 running, 507 sleeping, 2748 threads 
-2020/05/21 13:07:05
-Load Avg: 1.60, 1.79, 1.91 
-CPU usage: 3.4% user, 6.26% sys, 90.69% idle 
-SharedLibs: 311M resident, 78M data, 25M linkedit.
-MemRegions: 215232 total, 3775M resident, 125M private, 17G shared.
-PhysMem: 31G used (3288M wired), 740M unused.
-VM: 4762G vsize, 1886M framework vsize, 258356(0) swapins, 563767(0) swapouts.
-Networks: packets: 497047/366M in, 629290/118M out.
-Disks: 1440649/20G read, 374918/11G written.
+Processes: 498 total, 3 running, 495 sleeping, 2543 threads 
+2020/05/21 14:21:30
+Load Avg: 1.43, 1.64, 1.80 
+CPU usage: 3.22% user, 6.45% sys, 90.32% idle 
+SharedLibs: 303M resident, 77M data, 24M linkedit.
+MemRegions: 185483 total, 5927M resident, 151M private, 17G shared.
+PhysMem: 32G used (3221M wired), 69M unused.
+VM: 4403G vsize, 1879M framework vsize, 377270(0) swapins, 563767(0) swapouts.
+Networks: packets: 1175021/781M in, 1283020/222M out.
+Disks: 1722370/24G read, 518609/15G written.
 
-COMMAND          MEM  %CPU #TH
-com.docker.hyper 16G  0.0  24 
-Google Chrome He 478M 0.0  30 
-Microsoft Outloo 452M 0.0  36 
-mds_stores       412M 0.0  6  
-Code Helper (Ren 372M 0.0  23 
+COMMAND          MEM  %CPU #TH 
+com.docker.hyper 16G  0.0  24/1
+Microsoft Outloo 467M 0.0  31  
+com.apple.WebKit 421M 0.0  4   
+mds_stores       391M 0.0  6   
+Slack Helper (Re 390M 0.0  26  
