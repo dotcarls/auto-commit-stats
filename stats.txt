@@ -1,21 +1,38 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   11.55 5048 56.95    33.05    3  0.08  15 23 62  22.54 6.34 2.36
+   11.87 5096 59.09    33.05    3  0.08  15 23 62  22.54 6.34 2.36
 
-Processes: 495 total, 6 running, 9 stuck, 480 sleeping, 3062 threads 
+Processes: 480 total, 8 running, 5 stuck, 467 sleeping, 3014 threads 
 2020/05/21 10:59:07
 Load Avg: 22.54, 6.34, 2.36 
-CPU usage: 32.0% user, 23.84% sys, 44.14% idle 
+CPU usage: 35.30% user, 37.40% sys, 27.29% idle 
 SharedLibs: 429M resident, 73M data, 46M linkedit.
-MemRegions: 128182 total, 5046M resident, 271M private, 3227M shared.
-PhysMem: 13G used (2764M wired), 19G unused.
-VM: 2928G vsize, 1879M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 21320/13M in, 39834/10M out.
-Disks: 470775/5324M read, 29130/442M written.
+MemRegions: 126403 total, 5002M resident, 266M private, 3333M shared.
+PhysMem: 14G used (2774M wired), 18G unused.
+VM: 2872G vsize, 1886M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 21624/13M in, 40621/11M out.
+Disks: 478171/5450M read, 30143/468M written.
 
-COMMAND          MEM   %CPU #TH
-Terminal         1018M 0.0  11 
-Slack Helper (Re 376M  0.0  27 
-Microsoft Outloo 298M  0.0  44 
-App Store        185M  0.0  27 
-WindowServer     179M  0.0  10 
+COMMAND          MEM   %CPU #TH 
+Terminal         1018M 0.0  10  
+Slack Helper (Re 388M  0.0  27  
+Microsoft Outloo 298M  0.0  42  
+App Store        185M  0.0  27  
+WindowServer     180M  0.0  10/1
+Processes: 480 total, 7 running, 9 stuck, 464 sleeping, 3031 threads 
+2020/05/21 10:59:08
+Load Avg: 22.54, 6.34, 2.36 
+CPU usage: 33.94% user, 36.93% sys, 29.11% idle 
+SharedLibs: 429M resident, 73M data, 46M linkedit.
+MemRegions: 126491 total, 5008M resident, 266M private, 3338M shared.
+PhysMem: 14G used (2775M wired), 18G unused.
+VM: 2872G vsize, 1879M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 21646/13M in, 40648/11M out.
+Disks: 479542/5475M read, 30148/468M written.
+
+COMMAND          MEM   %CPU #TH 
+Terminal         1018M 0.0  10  
+Slack Helper (Re 388M  0.0  27  
+Microsoft Outloo 298M  0.0  42/1
+App Store        185M  0.0  27  
+WindowServer     180M  0.0  10  
