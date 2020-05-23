@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   31.80   74  2.29   4  3 93  21.59 10.58 6.32
+   16.33  202  3.23   4  3 93  3.93 2.78 2.45
 
-Processes: 591 total, 4 running, 587 sleeping, 3180 threads 
-2020/05/22 13:35:21
-Load Avg: 21.59, 10.58, 6.32 
-CPU usage: 8.50% user, 12.21% sys, 79.28% idle 
-SharedLibs: 229M resident, 58M data, 13M linkedit.
-MemRegions: 314734 total, 5168M resident, 135M private, 14G shared.
-PhysMem: 32G used (3966M wired), 461M unused.
-VM: 6622G vsize, 1879M framework vsize, 11088322(0) swapins, 11718549(0) swapouts.
-Networks: packets: 4586244/4283M in, 4155855/684M out.
-Disks: 5100154/111G read, 1965608/103G written.
+Processes: 434 total, 2 running, 432 sleeping, 2266 threads 
+2020/05/22 17:12:02
+Load Avg: 3.93, 2.78, 2.45 
+CPU usage: 4.46% user, 6.70% sys, 88.82% idle 
+SharedLibs: 263M resident, 65M data, 19M linkedit.
+MemRegions: 127937 total, 5420M resident, 219M private, 18G shared.
+PhysMem: 32G used (2948M wired), 94M unused.
+VM: 3622G vsize, 1879M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 1268057/670M in, 844240/359M out.
+Disks: 660042/9487M read, 182094/3946M written.
 
-COMMAND          MEM   %CPU #TH 
-com.docker.hyper 29G   0.0  24/1
-Microsoft Outloo 2320M 0.0  32  
-Google Chrome He 789M  0.0  16  
-Google Chrome He 629M  0.0  17  
-WindowServer     528M  0.0  10  
+COMMAND          MEM  %CPU #TH
+com.docker.hyper 17G  0.0  23 
+Microsoft Outloo 497M 0.0  39 
+zoom.us          398M 0.0  63 
+WindowServer     281M 0.0  10 
+com.apple.WebKit 260M 0.0  7  
