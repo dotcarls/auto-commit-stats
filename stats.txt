@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   28.25    8  0.22   4  3 94  2.73 2.17 2.08
+   28.03    9  0.25   4  3 94  4.65 2.92 2.38
 
-Processes: 376 total, 3 running, 373 sleeping, 1874 threads 
-2020/05/24 12:32:27
-Load Avg: 2.73, 2.17, 2.08 
-CPU usage: 8.5% user, 5.50% sys, 86.44% idle 
-SharedLibs: 293M resident, 56M data, 35M linkedit.
-MemRegions: 94307 total, 6673M resident, 131M private, 1120M shared.
-PhysMem: 12G used (2976M wired), 20G unused.
-VM: 2106G vsize, 1886M framework vsize, 2068589(0) swapins, 2263231(0) swapouts.
-Networks: packets: 2434892/1205M in, 1491671/667M out.
-Disks: 996239/22G read, 303981/13G written.
+Processes: 479 total, 17 running, 7 stuck, 455 sleeping, 2896 threads 
+2020/05/24 12:34:38
+Load Avg: 4.65, 2.92, 2.38 
+CPU usage: 39.4% user, 52.50% sys, 8.44% idle 
+SharedLibs: 219M resident, 58M data, 16M linkedit.
+MemRegions: 135928 total, 5118M resident, 114M private, 17G shared.
+PhysMem: 32G used (4853M wired), 116M unused.
+VM: 2940G vsize, 1886M framework vsize, 2162830(0) swapins, 2449959(0) swapouts.
+Networks: packets: 2421246/1193M in, 1502858/673M out.
+Disks: 1133605/24G read, 320830/14G written.
 
 COMMAND          MEM   %CPU #TH 
-Electron         4899M 0.0  31/1
-WindowServer     640M  0.0  9   
-Code Helper (GPU 376M  0.0  8   
-mds_stores       349M  0.0  6   
-Code Helper (Ren 265M  0.0  25  
+com.docker.hyper 17G   0.0  23/3
+Electron         17G   0.0  34/1
+WindowServer     1652M 0.0  10/1
+Microsoft Outloo 820M  0.0  39  
+Code Helper (GPU 377M  0.0  8   
