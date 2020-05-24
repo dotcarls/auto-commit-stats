@@ -1,39 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.59 3812 69.20  14 11 75  3.06 0.73 0.26
+   18.81 4488 82.43  19 13 68  3.53 0.91 0.33
 
+Processes: 440 total, 19 running, 3 stuck, 418 sleeping, 2912 threads 
+2020/05/24 12:49:19
+Load Avg: 3.53, 0.91, 0.33 
+CPU usage: 53.19% user, 31.1% sys, 15.78% idle 
+SharedLibs: 396M resident, 61M data, 43M linkedit.
+MemRegions: 112194 total, 4646M resident, 247M private, 3539M shared.
+PhysMem: 15G used (5148M wired), 17G unused.
+VM: 2601G vsize, 1879M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 10927/4847K in, 20948/7214K out.
+Disks: 201108/3761M read, 17529/199M written.
 
-Processes: 359 total, 11 running, 9 stuck, 339 sleeping, 2413 threads 
-2020/05/24 12:49:11
-Load Avg: 3.06, 0.73, 0.26 
-CPU usage: 37.2% user, 25.69% sys, 37.27% idle 
-SharedLibs: 384M resident, 59M data, 42M linkedit.
-MemRegions: 86121 total, 3316M resident, 195M private, 2496M shared.
-PhysMem: 10G used (4181M wired), 22G unused.
-VM: 2149G vsize, 1886M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 2676/1345K in, 4494/773K out.
-Disks: 140120/2662M read, 11956/97M written.
-
-COMMAND          MEM   %CPU #TH 
-WindowServer     1689M 0.0  13/1
-mds_stores       335M  0.0  21  
-Terminal         252M  0.0  22  
-Slack Helper (Re 171M  0.0  31/1
-talagent         169M  0.0  5   
-Processes: 359 total, 9 running, 9 stuck, 341 sleeping, 2413 threads 
-2020/05/24 12:49:11
-Load Avg: 3.06, 0.73, 0.26 
-CPU usage: 36.93% user, 25.62% sys, 37.43% idle 
-SharedLibs: 384M resident, 59M data, 42M linkedit.
-MemRegions: 86120 total, 3316M resident, 195M private, 2496M shared.
-PhysMem: 10G used (4181M wired), 22G unused.
-VM: 2149G vsize, 1879M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 2676/1345K in, 4494/773K out.
-Disks: 140120/2662M read, 11956/97M written.
-
-COMMAND          MEM   %CPU #TH 
-WindowServer     1689M 0.0  13  
-mds_stores       335M  0.0  21  
-Terminal         252M  0.0  22  
-Slack Helper (Re 171M  0.0  31/1
-talagent         169M  0.0  5   
+COMMAND          MEM   %CPU #TH   
+WindowServer     1830M 0.0  11    
+Microsoft Outloo 780M  0.0  53    
+mds_stores       347M  0.0  20/1  
+kernel_task      295M  0.0  266/17
+Slack Helper (Re 284M  0.0  30/2  
