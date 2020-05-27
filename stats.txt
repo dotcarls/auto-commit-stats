@@ -1,38 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   14.07 3219 44.23    39.44    5  0.21  12 10 78  1.95 0.50 0.18
+   16.17  121  1.92    13.35    0  0.00   2  2 96  1.63 1.41 1.31
 
-Processes: 327 total, 5 running, 3 stuck, 319 sleeping, 2220 threads 
-2020/05/27 10:34:49
-Load Avg: 1.95, 0.50, 0.18 
-CPU usage: 21.1% user, 17.50% sys, 61.47% idle 
-SharedLibs: 332M resident, 64M data, 40M linkedit.
-MemRegions: 68304 total, 2158M resident, 165M private, 1123M shared.
-PhysMem: 6570M used (2447M wired), 26G unused.
-VM: 1784G vsize, 1886M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 3687/1979K in, 7185/3532K out.
-Disks: 117887/1674M read, 8832/74M written.
+Processes: 477 total, 5 running, 1 stuck, 471 sleeping, 2554 threads 
+2020/05/27 14:59:52
+Load Avg: 1.63, 1.41, 1.31 
+CPU usage: 30.59% user, 57.22% sys, 12.18% idle 
+SharedLibs: 285M resident, 72M data, 21M linkedit.
+MemRegions: 174918 total, 6104M resident, 147M private, 17G shared.
+PhysMem: 31G used (3141M wired), 816M unused.
+VM: 4939G vsize, 1886M framework vsize, 42567(0) swapins, 128899(0) swapouts.
+Networks: packets: 1147387/941M in, 1302905/209M out.
+Disks: 1436360/19G read, 501901/11G written.
 
-COMMAND      MEM  %CPU #TH
-Terminal     253M 0.0  22 
-WindowServer 191M 0.0  12 
-mds_stores   77M  0.0  19 
-kextd        70M  0.0  3/1
-Preview      60M  0.0  22 
-Processes: 327 total, 4 running, 2 stuck, 321 sleeping, 2222 threads 
-2020/05/27 10:34:49
-Load Avg: 1.95, 0.50, 0.18 
-CPU usage: 19.64% user, 16.78% sys, 63.57% idle 
-SharedLibs: 332M resident, 64M data, 40M linkedit.
-MemRegions: 68472 total, 2162M resident, 165M private, 1123M shared.
-PhysMem: 6580M used (2447M wired), 26G unused.
-VM: 1785G vsize, 1886M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 3692/1979K in, 7191/3534K out.
-Disks: 118100/1676M read, 8846/74M written.
-
-COMMAND      MEM  %CPU #TH
-Terminal     253M 0.0  22 
-WindowServer 191M 0.0  12 
-mds_stores   77M  0.0  19 
-kextd        70M  0.0  3  
-Preview      60M  0.0  22 
+COMMAND          MEM  %CPU #TH
+com.docker.hyper 16G  0.0  24 
+Microsoft Outloo 664M 0.0  33 
+com.apple.WebKit 342M 0.0  10 
+Slack Helper (Re 324M 0.0  19 
+com.apple.WebKit 312M 0.0  4  
