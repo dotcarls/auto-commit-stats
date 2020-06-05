@@ -1,21 +1,38 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.54 3696 59.69  15 13 72  3.53 0.82 0.29
+   14.68 3746 53.71  13 12 75  11.43 2.45 0.87
 
-Processes: 337 total, 35 running, 1 stuck, 301 sleeping, 2507 threads 
-2020/06/05 16:19:06
-Load Avg: 3.53, 0.82, 0.29 
-CPU usage: 48.81% user, 40.74% sys, 10.43% idle 
-SharedLibs: 403M resident, 62M data, 43M linkedit.
-MemRegions: 77913 total, 2479M resident, 178M private, 1589M shared.
-PhysMem: 8090M used (3543M wired), 24G unused.
-VM: 2052G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 3866/2082K in, 3597/1385K out.
-Disks: 124510/2065M read, 7110/56M written.
+Processes: 327 total, 36 running, 1 stuck, 290 sleeping, 2517 threads 
+2020/06/05 16:22:00
+Load Avg: 11.43, 2.45, 0.87 
+CPU usage: 36.44% user, 62.9% sys, 1.45% idle 
+SharedLibs: 378M resident, 61M data, 42M linkedit.
+MemRegions: 70336 total, 2156M resident, 166M private, 1313M shared.
+PhysMem: 7515M used (3355M wired), 25G unused.
+VM: 1878G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 2404/693K in, 2359/697K out.
+Disks: 118656/1725M read, 4784/37M written.
 
-COMMAND          MEM   %CPU #TH   
-WindowServer     1026M 0.0  11    
-Terminal         265M  0.0  21    
-Console          181M  0.0  22/1  
-com.apple.WebKit 161M  0.0  19    
-kernel_task      104M  0.0  268/17
+COMMAND      MEM   %CPU #TH 
+WindowServer 1036M 0.0  13  
+Terminal     355M  0.0  21/1
+Console      121M  0.0  22/2
+talagent     89M   0.0  8/1 
+Safari       81M   0.0  26/2
+Processes: 327 total, 41 running, 1 stuck, 285 sleeping, 2517 threads 
+2020/06/05 16:22:00
+Load Avg: 11.43, 2.45, 0.87 
+CPU usage: 37.1% user, 61.59% sys, 1.39% idle 
+SharedLibs: 378M resident, 61M data, 42M linkedit.
+MemRegions: 70311 total, 2154M resident, 166M private, 1313M shared.
+PhysMem: 7515M used (3355M wired), 25G unused.
+VM: 1878G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 2404/693K in, 2359/697K out.
+Disks: 118657/1725M read, 4784/37M written.
+
+COMMAND      MEM   %CPU #TH 
+WindowServer 1036M 0.0  13  
+Terminal     298M  0.0  21  
+Console      119M  0.0  22/2
+talagent     89M   0.0  8/1 
+Safari       81M   0.0  26/2
