@@ -1,39 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   32.05   45  1.41   4  7 89  3.30 3.82 4.01
+   27.51   59  1.58   4  7 88  3.81 3.31 3.53
 
+Processes: 565 total, 4 running, 561 sleeping, 3114 threads 
+2020/06/05 11:17:58
+Load Avg: 3.91, 3.34, 3.54 
+CPU usage: 12.82% user, 13.88% sys, 73.29% idle 
+SharedLibs: 191M resident, 40M data, 10M linkedit.
+MemRegions: 285597 total, 8456M resident, 145M private, 9805M shared.
+PhysMem: 32G used (11G wired), 55M unused.
+VM: 7475G vsize, 1989M framework vsize, 24102382(0) swapins, 36551966(0) swapouts.
+Networks: packets: 10771460/11G in, 9868308/2301M out.
+Disks: 14051314/245G read, 3654700/219G written.
 
-Processes: 392 total, 4 running, 1 stuck, 387 sleeping, 2736 threads 
-2020/06/04 12:54:14
-Load Avg: 3.30, 3.82, 4.01 
-CPU usage: 9.49% user, 21.59% sys, 68.91% idle 
-SharedLibs: 295M resident, 71M data, 26M linkedit.
-MemRegions: 199779 total, 3089M resident, 114M private, 5540M shared.
-PhysMem: 18G used (4671M wired), 14G unused.
-VM: 5625G vsize, 1989M framework vsize, 17544297(0) swapins, 29829184(0) swapouts.
-Networks: packets: 9415173/10G in, 7964200/1945M out.
-Disks: 7531967/150G read, 2441387/155G written.
-
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 20G   0.0  24/1  
-kernel_task      3215M 0.0  363/16
-mds_stores       467M  0.0  20    
-Slack Helper (Re 400M  0.0  29    
-WindowServer     385M  0.0  10    
-Processes: 392 total, 4 running, 1 stuck, 387 sleeping, 2736 threads 
-2020/06/04 12:54:14
-Load Avg: 3.30, 3.82, 4.01 
-CPU usage: 9.42% user, 21.58% sys, 68.99% idle 
-SharedLibs: 295M resident, 71M data, 26M linkedit.
-MemRegions: 199778 total, 3089M resident, 114M private, 5540M shared.
-PhysMem: 18G used (4671M wired), 14G unused.
-VM: 5625G vsize, 1989M framework vsize, 17544297(0) swapins, 29829184(0) swapouts.
-Networks: packets: 9415173/10G in, 7964201/1945M out.
-Disks: 7532008/150G read, 2441388/155G written.
-
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 20G   0.0  24/1  
-kernel_task      3215M 0.0  363/16
-mds_stores       467M  0.0  20    
-Slack Helper (Re 400M  0.0  29    
-WindowServer     385M  0.0  10    
+COMMAND          MEM   %CPU #TH 
+com.docker.hyper 20G   0.0  24/1
+vmware-vmx       7666M 0.0  50  
+com.apple.WebKit 2146M 0.0  18/1
+Microsoft Outloo 647M  0.0  27  
+WindowServer     627M  0.0  11  
