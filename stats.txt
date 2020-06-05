@@ -1,21 +1,55 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   27.86   61  1.66   4  7 88  2.96 2.47 2.43
+   17.42 3506 59.64  13 11 76  10.13 2.23 0.80
 
-Processes: 506 total, 3 running, 503 sleeping, 2872 threads 
-2020/06/05 13:00:59
-Load Avg: 2.96, 2.47, 2.43 
-CPU usage: 5.78% user, 6.91% sys, 87.29% idle 
-SharedLibs: 241M resident, 49M data, 12M linkedit.
-MemRegions: 235727 total, 4995M resident, 137M private, 17G shared.
-PhysMem: 32G used (3838M wired), 56M unused.
-VM: 4259G vsize, 1996M framework vsize, 24555058(0) swapins, 36799067(0) swapouts.
-Networks: packets: 13141048/14G in, 11333642/2519M out.
-Disks: 14870501/256G read, 3930008/244G written.
+Processes: 371 total, 37 running, 9 stuck, 325 sleeping, 2802 threads 
+2020/06/05 16:13:18
+Load Avg: 10.13, 2.23, 0.80 
+CPU usage: 52.78% user, 38.42% sys, 8.79% idle 
+SharedLibs: 410M resident, 63M data, 45M linkedit.
+MemRegions: 84597 total, 2931M resident, 192M private, 1429M shared.
+PhysMem: 7481M used (2463M wired), 25G unused.
+VM: 2195G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 12431/14M in, 8648/1296K out.
+Disks: 137543/2478M read, 9659/91M written.
 
-COMMAND          MEM  %CPU #TH
-com.docker.hyper 18G  0.0  23 
-Microsoft Outloo 633M 0.0  34 
-WindowServer     614M 0.0  9  
-hubd             517M 0.0  9  
-Slack Helper (Re 489M 0.0  29 
+COMMAND       MEM  %CPU #TH 
+WindowServer  223M 0.0  11  
+Terminal      127M 0.0  21  
+Messages      119M 0.0  45/1
+talagent      97M  0.0  5   
+Google Chrome 92M  0.0  53  
+Processes: 372 total, 38 running, 11 stuck, 323 sleeping, 2801 threads 
+2020/06/05 16:13:18
+Load Avg: 10.13, 2.23, 0.80 
+CPU usage: 54.75% user, 35.29% sys, 9.95% idle 
+SharedLibs: 410M resident, 63M data, 45M linkedit.
+MemRegions: 84778 total, 2939M resident, 192M private, 1432M shared.
+PhysMem: 7501M used (2463M wired), 25G unused.
+VM: 2199G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 12434/14M in, 8654/1297K out.
+Disks: 137604/2481M read, 9671/91M written.
+
+COMMAND       MEM  %CPU #TH 
+WindowServer  223M 0.0  11/1
+Terminal      127M 0.0  21  
+Messages      105M 0.0  45/1
+talagent      97M  0.0  5   
+Google Chrome 92M  0.0  53  
+Processes: 372 total, 32 running, 11 stuck, 329 sleeping, 2803 threads 
+2020/06/05 16:13:18
+Load Avg: 10.13, 2.23, 0.80 
+CPU usage: 52.47% user, 38.53% sys, 8.99% idle 
+SharedLibs: 410M resident, 63M data, 45M linkedit.
+MemRegions: 84742 total, 2935M resident, 192M private, 1429M shared.
+PhysMem: 7500M used (2463M wired), 25G unused.
+VM: 2200G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 12434/14M in, 8654/1297K out.
+Disks: 137626/2481M read, 9677/91M written.
+
+COMMAND       MEM  %CPU #TH 
+WindowServer  223M 0.0  11/1
+Terminal      127M 0.0  21  
+Messages      122M 0.0  45/1
+talagent      97M  0.0  5   
+Google Chrome 92M  0.0  53  
