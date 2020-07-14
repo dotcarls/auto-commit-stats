@@ -1,38 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.90 3635 60.00    28.56    7  0.18  13 10 77  1.54 0.40 0.15
+   15.44 1325 19.98    22.41    1  0.02   9  5 86  2.32 1.94 1.04
 
-Processes: 370 total, 8 running, 8 stuck, 354 sleeping, 2551 threads 
-2020/07/14 11:04:13
-Load Avg: 1.54, 0.40, 0.15 
-CPU usage: 44.41% user, 23.43% sys, 32.15% idle 
-SharedLibs: 412M resident, 70M data, 44M linkedit.
-MemRegions: 83168 total, 2932M resident, 195M private, 1149M shared.
-PhysMem: 7872M used (2520M wired), 24G unused.
-VM: 2186G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 3353/1878K in, 5614/1079K out.
-Disks: 149158/2577M read, 12679/117M written.
+Processes: 411 total, 5 running, 406 sleeping, 2110 threads 
+2020/07/14 11:10:16
+Load Avg: 2.32, 1.94, 1.04 
+CPU usage: 12.50% user, 7.44% sys, 80.5% idle 
+SharedLibs: 469M resident, 75M data, 49M linkedit.
+MemRegions: 113697 total, 5031M resident, 237M private, 18G shared.
+PhysMem: 29G used (2823M wired), 2832M unused.
+VM: 2837G vsize, 1989M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 89094/79M in, 116809/26M out.
+Disks: 456844/6315M read, 82657/1822M written.
 
-COMMAND          MEM  %CPU #TH 
-WindowServer     163M 0.0  14  
-Slack            129M 0.0  48  
-Messages         115M 0.0  68  
-Slack Helper (Re 110M 0.0  24/2
-Safari           85M  0.0  32  
-Processes: 370 total, 8 running, 6 stuck, 356 sleeping, 2545 threads 
-2020/07/14 11:04:13
-Load Avg: 1.54, 0.40, 0.15 
-CPU usage: 36.84% user, 22.96% sys, 40.19% idle 
-SharedLibs: 412M resident, 70M data, 44M linkedit.
-MemRegions: 83468 total, 2954M resident, 195M private, 1155M shared.
-PhysMem: 7891M used (2515M wired), 24G unused.
-VM: 2186G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 3354/1879K in, 5616/1080K out.
-Disks: 149997/2594M read, 12692/117M written.
-
-COMMAND          MEM  %CPU #TH 
-WindowServer     163M 0.0  14  
-Slack            133M 0.0  48  
-Slack Helper (Re 129M 0.0  24/1
-Messages         115M 0.0  66  
-Safari           85M  0.0  32/1
+COMMAND          MEM  %CPU #TH
+com.docker.hyper 16G  0.0  24 
+com.apple.WebKit 391M 0.0  22 
+zoom.us          321M 0.0  50 
+Slack Helper (Re 217M 0.0  23 
+Microsoft Outloo 213M 0.0  20 
