@@ -1,21 +1,104 @@
-              disk0               disk2       cpu    load average
-    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   23.82  105  2.45    33.05    0  0.00   3  6 90  8.69 5.02 3.70
-
-Processes: 507 total, 3 running, 504 sleeping, 2676 threads 
-2020/07/15 15:35:49
-Load Avg: 8.69, 5.02, 3.70 
-CPU usage: 19.17% user, 52.81% sys, 28.1% idle 
-SharedLibs: 254M resident, 52M data, 16M linkedit.
-MemRegions: 201876 total, 5717M resident, 120M private, 17G shared.
-PhysMem: 32G used (3454M wired), 194M unused.
-VM: 3630G vsize, 1996M framework vsize, 6296745(0) swapins, 6556672(0) swapouts.
-Networks: packets: 6314498/7845M in, 6275546/1244M out.
-Disks: 6603198/102G read, 4214662/143G written.
+              disk0       cpu    load average
+    KB/t  tps  MB/s  us sy id   1m   5m   15m
+   17.02 3861 64.18  14 15 71  24.05 5.11 1.81
+user, 57.85% sys, 0.0% idle 
+SharedLibs: 406M resident, 69M data, 45M linkedit.
+MemRegions: 84626 total, 3031M resident, 205M private, 2315M shared.
+PhysMem: 12G used (3940M wired), 20G unused.
+VM: 2424G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 5362/4784K in, 7094/1264K out.
+Disks: 148547/2575M read, 14360/132M written.
 
 COMMAND          MEM   %CPU #TH 
-com.docker.hyper 30G   0.0  24/7
-com.docker.osxfs 1138M 0.0  16  
-Microsoft Outloo 1096M 0.0  21  
-Code Helper (GPU 647M  0.0  8   
-Terminal         565M  0.0  11  
+WindowServer     1369M 0.0  18/1
+Terminal         1000M 0.0  23/4
+Messages         145M  0.0  50  
+Safari           98M   0.0  35/3
+com.apple.WebKit 97M   0.0  17  
+Processes: 399 total, 144 running, 2 stuck, 253 sleeping, 2787 threads 
+2020/07/16 11:43:33
+Load Avg: 24.05, 5.11, 1.81 
+CPU usage: 42.37% user, 57.62% sys, 0.0% idle 
+SharedLibs: 406M resident, 69M data, 45M linkedit.
+MemRegions: 84648 total, 3031M resident, 205M private, 2315M shared.
+PhysMem: 12G used (3940M wired), 20G unused.
+VM: 2424G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 5362/4784K in, 7094/1264K out.
+Disks: 148547/2575M read, 14360/132M written.
+
+COMMAND          MEM   %CPU #TH 
+WindowServer     1370M 0.0  18/2
+Terminal         1000M 0.0  23/4
+Messages         145M  0.0  50  
+Safari           98M   0.0  35/3
+com.apple.WebKit 97M   0.0  17  
+
+Processes: 399 total, 138 running, 2 stuck, 259 sleeping, 2787 threads 
+2020/07/16 11:43:33
+Load Avg: 24.05, 5.11, 1.81 
+CPU usage: 42.33% user, 57.66% sys, 0.0% idle 
+SharedLibs: 406M resident, 69M data, 45M linkedit.
+MemRegions: 84633 total, 3031M resident, 205M private, 2316M shared.
+PhysMem: 12G used (3972M wired), 20G unused.
+VM: 2424G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 5423/4871K in, 7241/1274K out.
+Disks: 148707/2578M read, 14371/133M written.
+
+COMMAND          MEM   %CPU #TH 
+WindowServer     1370M 0.0  18/2
+Terminal         1000M 0.0  23/4
+Messages         145M  0.0  50  
+Safari           98M   0.0  35/3
+com.apple.WebKit 97M   0.0  17  
+Processes: 399 total, 145 running, 1 stuck, 253 sleeping, 2787 threads 
+2020/07/16 11:43:33
+Load Avg: 24.05, 5.11, 1.81 
+CPU usage: 41.94% user, 58.5% sys, 0.0% idle 
+SharedLibs: 406M resident, 69M data, 45M linkedit.
+MemRegions: 84619 total, 3031M resident, 205M private, 2315M shared.
+PhysMem: 12G used (3940M wired), 20G unused.
+VM: 2424G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 5362/4784K in, 7094/1264K out.
+Disks: 148547/2575M read, 14360/132M written.
+
+COMMAND          MEM   %CPU #TH 
+WindowServer     1370M 0.0  18/1
+Terminal         1000M 0.0  23/4
+Messages         145M  0.0  50  
+Safari           98M   0.0  35/3
+com.apple.WebKit 97M   0.0  17  
+Processes: 400 total, 140 running, 1 stuck, 259 sleeping, 2789 threads 
+2020/07/16 11:43:33
+Load Avg: 24.05, 5.11, 1.81 
+CPU usage: 43.36% user, 56.63% sys, 0.0% idle 
+SharedLibs: 406M resident, 69M data, 45M linkedit.
+MemRegions: 84783 total, 3033M resident, 205M private, 2315M shared.
+PhysMem: 12G used (3972M wired), 20G unused.
+VM: 2429G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 5400/4837K in, 7226/1271K out.
+Disks: 148615/2575M read, 14369/133M written.
+
+COMMAND          MEM   %CPU #TH 
+WindowServer     1370M 0.0  18/2
+Terminal         1000M 0.0  23/4
+Messages         145M  0.0  50  
+Safari           98M   0.0  35/3
+com.apple.WebKit 97M   0.0  17  
+
+Processes: 403 total, 135 running, 8 stuck, 260 sleeping, 2833 threads 
+2020/07/16 11:43:33
+Load Avg: 24.05, 5.11, 1.81 
+CPU usage: 53.86% user, 45.60% sys, 0.53% idle 
+SharedLibs: 406M resident, 69M data, 45M linkedit.
+MemRegions: 86095 total, 3087M resident, 207M private, 2409M shared.
+PhysMem: 12G used (3999M wired), 20G unused.
+VM: 2449G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 5436/4890K in, 7268/1275K out.
+Disks: 148729/2579M read, 14373/133M written.
+
+COMMAND          MEM   %CPU #TH 
+WindowServer     1398M 0.0  18/1
+Terminal         1000M 0.0  23/4
+Messages         193M  0.0  47/1
+Safari           98M   0.0  35/2
+com.apple.WebKit 97M   0.0  17/8
