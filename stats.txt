@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.28 3800 60.43  12 10 78  1.51 0.39 0.14
+   17.06 3945 65.71  16 12 72  10.46 2.36 0.85
 
-Processes: 356 total, 21 running, 9 stuck, 326 sleeping, 2533 threads 
-2020/07/17 16:26:16
-Load Avg: 1.51, 0.39, 0.14 
-CPU usage: 52.51% user, 39.38% sys, 8.10% idle 
-SharedLibs: 390M resident, 62M data, 41M linkedit.
-MemRegions: 77011 total, 2360M resident, 196M private, 854M shared.
-PhysMem: 7182M used (3081M wired), 25G unused.
-VM: 2196G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 2983/827K in, 4624/4687K out.
-Disks: 129851/2117M read, 7193/74M written.
+Processes: 415 total, 7 running, 9 stuck, 398 sleeping, 1 unknown, 2813 threads 
+2020/07/20 14:47:54
+Load Avg: 10.46, 2.36, 0.85 
+CPU usage: 36.76% user, 15.92% sys, 47.31% idle 
+SharedLibs: 447M resident, 74M data, 48M linkedit.
+MemRegions: 100055 total, 3551M resident, 235M private, 1568M shared.
+PhysMem: 10G used (4187M wired), 22G unused.
+VM: 2539G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 12387/8502K in, 19308/6689K out.
+Disks: 158820/2806M read, 15029/155M written.
 
-COMMAND          MEM  %CPU #TH 
-WindowServer     870M 0.0  18  
-com.apple.WebKit 109M 0.0  18  
-Safari           91M  0.0  21  
-krisp            69M  0.0  15/1
-kextd            65M  0.0  5/1 
+COMMAND          MEM   %CPU #TH   
+WindowServer     1184M 0.0  17    
+App Store        231M  0.0  53    
+kernel_task      223M  0.0  271/16
+Messages         209M  0.0  26    
+Spotify Helper ( 201M  0.0  9     
