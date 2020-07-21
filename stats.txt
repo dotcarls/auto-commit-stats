@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   83.31   56  4.53   2  2 96  1.67 1.29 1.27
+   72.31   59  4.17   2  2 96  3.78 2.71 2.42
 
-Processes: 564 total, 2 running, 562 sleeping, 2574 threads 
-2020/07/21 12:32:56
-Load Avg: 1.62, 1.29, 1.26 
-CPU usage: 2.24% user, 5.86% sys, 91.89% idle 
-SharedLibs: 363M resident, 57M data, 24M linkedit.
-MemRegions: 234645 total, 7746M resident, 212M private, 4488M shared.
-PhysMem: 29G used (4224M wired), 2767M unused.
-VM: 8422G vsize, 1989M framework vsize, 38091287(0) swapins, 38367804(0) swapouts.
-Networks: packets: 1123197/750M in, 1300679/223M out.
-Disks: 2915742/184G read, 1368266/157G written.
+Processes: 629 total, 3 running, 625 sleeping, 1 unknown, 2855 threads 
+2020/07/21 15:12:13
+Load Avg: 3.78, 2.71, 2.42 
+CPU usage: 3.67% user, 6.57% sys, 89.75% idle 
+SharedLibs: 246M resident, 51M data, 14M linkedit.
+MemRegions: 284970 total, 10G resident, 231M private, 4411M shared.
+PhysMem: 32G used (4560M wired), 315M unused.
+VM: 10T vsize, 1989M framework vsize, 38131193(0) swapins, 38367804(0) swapouts.
+Networks: packets: 1801666/1043M in, 2423366/481M out.
+Disks: 3500249/191G read, 1604005/161G written.
 
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 16G   0.0  24 
-WindowServer     1346M 0.0  9  
-Microsoft Outloo 852M  0.0  23 
-Code Helper (Ren 453M  0.0  26 
-Safari           441M  0.0  8  
+COMMAND          MEM   %CPU #TH 
+com.docker.hyper 16G   0.0  24  
+WindowServer     1754M 0.0  10  
+Microsoft Outloo 891M  0.0  23  
+zoom.us          626M  0.0  60/1
+Terminal         589M  0.0  13  
