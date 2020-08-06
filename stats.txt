@@ -1,39 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   22.44  253  5.55   4  4 93  2.17 2.14 2.21
+   21.17  186  3.84   3  3 94  1.92 1.94 1.92
 
+Processes: 438 total, 2 running, 436 sleeping, 2321 threads 
+2020/08/05 21:35:21
+Load Avg: 1.92, 1.94, 1.92 
+CPU usage: 2.72% user, 6.20% sys, 91.6% idle 
+SharedLibs: 254M resident, 70M data, 21M linkedit.
+MemRegions: 155196 total, 2230M resident, 81M private, 18G shared.
+PhysMem: 32G used (4796M wired), 98M unused.
+VM: 3591G vsize, 1989M framework vsize, 69138(0) swapins, 189260(0) swapouts.
+Networks: packets: 422271/235M in, 307905/70M out.
+Disks: 902102/15G read, 357580/11G written.
 
-Processes: 432 total, 3 running, 429 sleeping, 2595 threads 
-2020/08/05 20:37:55
-Load Avg: 2.17, 2.14, 2.21 
-CPU usage: 5.26% user, 12.71% sys, 82.1% idle 
-SharedLibs: 249M resident, 70M data, 22M linkedit.
-MemRegions: 142797 total, 3596M resident, 102M private, 18G shared.
-PhysMem: 32G used (3604M wired), 324M unused.
-VM: 3034G vsize, 1989M framework vsize, 11449(0) swapins, 72963(0) swapouts.
-Networks: packets: 131647/117M in, 165248/46M out.
-Disks: 639131/12G read, 205528/6229M written.
-
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 20G   0.0  23    
-Microsoft Outloo 1194M 0.0  23    
-WindowServer     1183M 0.0  10    
-TextEdit         1001M 0.0  3     
-kernel_task      604M  0.0  273/16
-Processes: 432 total, 3 running, 429 sleeping, 2595 threads 
-2020/08/05 20:37:55
-Load Avg: 2.17, 2.14, 2.21 
-CPU usage: 5.42% user, 12.58% sys, 81.99% idle 
-SharedLibs: 249M resident, 70M data, 22M linkedit.
-MemRegions: 142796 total, 3596M resident, 102M private, 18G shared.
-PhysMem: 32G used (3604M wired), 327M unused.
-VM: 3034G vsize, 1989M framework vsize, 11449(0) swapins, 72963(0) swapouts.
-Networks: packets: 131648/117M in, 165248/46M out.
-Disks: 639131/12G read, 205529/6229M written.
-
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 20G   0.0  23    
-Microsoft Outloo 1194M 0.0  23    
-WindowServer     1183M 0.0  10    
-TextEdit         1001M 0.0  3     
-kernel_task      604M  0.0  273/16
+COMMAND          MEM   %CPU #TH
+com.docker.hyper 20G   0.0  23 
+WindowServer     2070M 0.0  10 
+Microsoft Outloo 1084M 0.0  24 
+TextEdit         1001M 0.0  3  
+Code Helper (GPU 478M  0.0  8  
