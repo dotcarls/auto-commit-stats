@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   15.62 3864 58.93    33.18    6  0.19  13 12 76  2.54 0.62 0.22
+   16.23 4314 68.37    33.18    5  0.17  15 13 72  4.26 1.01 0.36
 
-Processes: 352 total, 11 running, 9 stuck, 332 sleeping, 2556 threads 
-2020/08/10 15:39:23
-Load Avg: 2.54, 0.62, 0.22 
-CPU usage: 53.18% user, 41.91% sys, 4.90% idle 
-SharedLibs: 382M resident, 68M data, 44M linkedit.
-MemRegions: 78933 total, 3062M resident, 184M private, 1391M shared.
-PhysMem: 7307M used (2490M wired), 25G unused.
-VM: 2030G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 3899/2491K in, 6784/1793K out.
-Disks: 149614/2351M read, 18558/218M written.
+Processes: 400 total, 5 running, 11 stuck, 384 sleeping, 2540 threads 
+2020/08/10 15:39:29
+Load Avg: 4.26, 1.01, 0.36 
+CPU usage: 25.65% user, 18.98% sys, 55.35% idle 
+SharedLibs: 400M resident, 70M data, 45M linkedit.
+MemRegions: 92624 total, 3337M resident, 216M private, 1534M shared.
+PhysMem: 8871M used (2777M wired), 23G unused.
+VM: 2285G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 10729/10M in, 16897/6286K out.
+Disks: 207463/3259M read, 21359/291M written.
 
-COMMAND          MEM  %CPU #TH 
-Installer Progre 504M 0.0  6   
-NotificationCent 240M 0.0  19  
-WindowServer     155M 0.0  12  
-repmgr           81M  0.0  23/2
-Messages         81M  0.0  24  
+COMMAND          MEM  %CPU #TH
+WindowServer     282M 0.0  12 
+NotificationCent 240M 0.0  10 
+Microsoft Outloo 200M 0.0  53 
+Terminal         86M  0.0  10 
+repmgr           85M  0.0  22 
