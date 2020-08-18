@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   49.64   45  2.20     3.00    0  0.00   3  4 93  1.60 1.68 1.46
+   48.97   45  2.14     2.89    0  0.00   3  4 93  1.90 2.16 2.24
 
-Processes: 502 total, 2 running, 500 sleeping, 2557 threads 
-2020/08/17 15:16:19
-Load Avg: 1.60, 1.68, 1.46 
-CPU usage: 1.52% user, 5.33% sys, 93.14% idle 
-SharedLibs: 301M resident, 65M data, 19M linkedit.
-MemRegions: 208769 total, 7393M resident, 195M private, 2981M shared.
-PhysMem: 24G used (3577M wired), 7926M unused.
-VM: 3340G vsize, 1996M framework vsize, 120143977(0) swapins, 122193879(0) swapouts.
-Networks: packets: 11818419/11G in, 14110133/3851M out.
-Disks: 18626173/683G read, 8872425/616G written.
+Processes: 453 total, 2 running, 451 sleeping, 2162 threads 
+2020/08/17 21:15:05
+Load Avg: 1.90, 2.16, 2.24 
+CPU usage: 5.66% user, 7.22% sys, 87.10% idle 
+SharedLibs: 312M resident, 70M data, 24M linkedit.
+MemRegions: 173108 total, 5464M resident, 173M private, 4596M shared.
+PhysMem: 27G used (3776M wired), 4871M unused.
+VM: 2781G vsize, 1989M framework vsize, 120178863(0) swapins, 122193879(0) swapouts.
+Networks: packets: 14366609/13G in, 16859800/5027M out.
+Disks: 18818685/685G read, 9230087/622G written.
 
-COMMAND          MEM  %CPU #TH
-com.docker.hyper 24G  0.0  23 
-WindowServer     517M 0.0  10 
-NotificationCent 417M 0.0  4  
-Code Helper (Ren 409M 0.0  15 
-mds_stores       386M 0.0  5  
+COMMAND          MEM  %CPU #TH   
+com.docker.hyper 24G  0.0  23    
+WindowServer     984M 0.0  11    
+com.apple.WebKit 525M 0.0  19    
+kernel_task      495M 0.0  297/16
+zoom.us          470M 0.0  75    
