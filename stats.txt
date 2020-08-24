@@ -1,39 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-    8.16 2732 21.78   7  7 85  3.91 1.44 0.57
+   19.50 1099 20.92   7  6 87  2.08 2.29 1.79
 
+Processes: 408 total, 2 running, 406 sleeping, 1902 threads 
+2020/08/24 14:11:55
+Load Avg: 2.08, 2.29, 1.79 
+CPU usage: 1.38% user, 5.90% sys, 92.70% idle 
+SharedLibs: 305M resident, 44M data, 34M linkedit.
+MemRegions: 114281 total, 2956M resident, 119M private, 6140M shared.
+PhysMem: 16G used (3946M wired), 16G unused.
+VM: 2567G vsize, 1996M framework vsize, 693755(0) swapins, 771423(0) swapouts.
+Networks: packets: 322817/497M in, 539471/182M out.
+Disks: 932574/14G read, 141255/6547M written.
 
-Processes: 329 total, 40 running, 2 stuck, 282 sleeping, 5 unknown, 2020 threads 
-2020/08/21 17:56:36
-Load Avg: 3.91, 1.44, 0.57 
-CPU usage: 58.37% user, 41.58% sys, 0.3% idle 
-SharedLibs: 334M resident, 59M data, 41M linkedit.
-MemRegions: 69615 total, 2611M resident, 169M private, 1640M shared.
-PhysMem: 9340M used (4120M wired), 23G unused.
-VM: 1774G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1980/285K in, 1710/3204K out.
-Disks: 407408/3333M read, 19618/218M written.
-
-COMMAND          MEM   %CPU #TH 
-WindowServer     1415M 0.0  12  
-TextEdit         313M  0.0  14  
-NotificationCent 292M  0.0  8   
-Terminal         288M  0.0  20/1
-talagent         124M  0.0  6   
-Processes: 328 total, 40 running, 3 stuck, 281 sleeping, 4 unknown, 2016 threads 
-2020/08/21 17:56:36
-Load Avg: 3.91, 1.44, 0.57 
-CPU usage: 58.33% user, 41.62% sys, 0.3% idle 
-SharedLibs: 334M resident, 59M data, 41M linkedit.
-MemRegions: 69599 total, 2609M resident, 169M private, 1640M shared.
-PhysMem: 9340M used (4120M wired), 23G unused.
-VM: 1774G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1980/285K in, 1710/3204K out.
-Disks: 407408/3333M read, 19618/218M written.
-
-COMMAND          MEM   %CPU #TH 
-WindowServer     1415M 0.0  12  
-TextEdit         313M  0.0  14  
-NotificationCent 292M  0.0  8   
-Terminal         288M  0.0  20/1
-talagent         124M  0.0  6   
+COMMAND          MEM   %CPU #TH
+com.docker.hyper 16G   0.0  23 
+WindowServer     1317M 0.0  10 
+Microsoft Outloo 619M  0.0  19 
+Terminal         415M  0.0  9  
+mds_stores       318M  0.0  5  
