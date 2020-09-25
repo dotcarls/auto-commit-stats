@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   15.80 1381 21.30    25.13    1  0.02  15 12 73  3.27 5.72 4.26
+   16.20 1347 21.31    25.13    1  0.02  15 12 73  3.55 5.46 4.23
 
-Processes: 443 total, 4 running, 439 sleeping, 2243 threads 
-2020/09/25 11:40:05
-Load Avg: 3.27, 5.72, 4.26 
-CPU usage: 10.75% user, 8.6% sys, 81.17% idle 
-SharedLibs: 269M resident, 73M data, 24M linkedit.
-MemRegions: 142648 total, 5422M resident, 230M private, 17G shared.
-PhysMem: 31G used (2824M wired), 599M unused.
-VM: 3780G vsize, 1989M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 376469/495M in, 231841/33M out.
-Disks: 527267/7379M read, 176974/3488M written.
+Processes: 459 total, 4 running, 2 stuck, 453 sleeping, 2179 threads 
+2020/09/25 11:40:43
+Load Avg: 3.55, 5.46, 4.23 
+CPU usage: 11.53% user, 6.92% sys, 81.53% idle 
+SharedLibs: 261M resident, 72M data, 22M linkedit.
+MemRegions: 145433 total, 5754M resident, 229M private, 17G shared.
+PhysMem: 32G used (2793M wired), 35M unused.
+VM: 3857G vsize, 1989M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 377568/495M in, 234273/34M out.
+Disks: 557925/7937M read, 181165/3750M written.
 
 COMMAND          MEM  %CPU #TH
 com.docker.hyper 16G  0.0  23 
-repmgr           384M 0.0  21 
-mds_stores       269M 0.0  7  
+repmgr           385M 0.0  21 
+mds_stores       342M 0.0  9/1
 NotificationCent 237M 0.0  4  
-com.apple.WebKit 233M 0.0  7  
+com.apple.WebKit 230M 0.0  6  
