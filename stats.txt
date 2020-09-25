@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.09 1202 18.89    25.13    0  0.01  13 10 77  1.93 4.00 3.84
+   16.06 1021 16.02    25.13    0  0.01  12  9 80  2.60 3.34 3.58
 
-Processes: 460 total, 3 running, 457 sleeping, 2309 threads 
-2020/09/25 11:43:23
-Load Avg: 1.93, 4.00, 3.84 
-CPU usage: 3.65% user, 5.48% sys, 90.86% idle 
+Processes: 465 total, 3 running, 462 sleeping, 2336 threads 
+2020/09/25 11:45:42
+Load Avg: 2.60, 3.34, 3.58 
+CPU usage: 5.19% user, 6.68% sys, 88.11% idle 
 SharedLibs: 265M resident, 73M data, 23M linkedit.
-MemRegions: 156585 total, 6387M resident, 235M private, 17G shared.
-PhysMem: 32G used (2857M wired), 387M unused.
-VM: 4394G vsize, 1996M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 391376/510M in, 258051/38M out.
-Disks: 657705/9341M read, 193186/4028M written.
+MemRegions: 158995 total, 6656M resident, 236M private, 17G shared.
+PhysMem: 32G used (2865M wired), 194M unused.
+VM: 4424G vsize, 1989M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 397926/511M in, 267576/41M out.
+Disks: 666545/9446M read, 198299/4121M written.
 
 COMMAND          MEM  %CPU #TH
 com.docker.hyper 16G  0.0  23 
-mds_stores       512M 0.0  6  
-repmgr           407M 0.0  21 
-Code Helper (Ren 252M 0.0  15 
+mds_stores       512M 0.0  5  
+repmgr           402M 0.0  21 
+Code Helper (Ren 270M 0.0  15 
 NotificationCent 237M 0.0  4  
