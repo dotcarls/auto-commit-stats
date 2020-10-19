@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   30.98   31  0.95   4  5 92  2.04 2.25 2.24
-Processes: 569 total, 5 running, 1 stuck, 563 sleeping, 3445 threads 
-2020/10/12 17:08:20
-Load Avg: 2.04, 2.25, 2.24 
-CPU usage: 10.85% user, 14.43% sys, 74.71% idle 
-SharedLibs: 299M resident, 72M data, 20M linkedit.
-MemRegions: 284660 total, 7398M resident, 189M private, 5933M shared.
-PhysMem: 31G used (5396M wired), 1219M unused.
-VM: 6015G vsize, 1989M framework vsize, 45284824(0) swapins, 48588500(0) swapouts.
-Networks: packets: 14486865/12G in, 21221229/8503M out.
-Disks: 17249927/404G read, 7932571/340G written.
+   46.22   50  2.25   4  4 92  2.39 2.42 2.43
 
-COMMAND          MEM   %CPU #TH 
-com.docker.hyper 30G   0.0  23/2
-Microsoft Outloo 2638M 0.0  25  
-WindowServer     1547M 0.0  9   
-Messages         1177M 0.0  20  
-Code Helper (GPU 1154M 0.0  8   
-
-Processes: 562 total, 2 running, 560 sleeping, 3421 threads 
-2020/10/12 17:08:21
-Load Avg: 2.04, 2.25, 2.24 
-CPU usage: 12.48% user, 17.12% sys, 70.38% idle 
-SharedLibs: 299M resident, 72M data, 20M linkedit.
-MemRegions: 284098 total, 7389M resident, 188M private, 5918M shared.
-PhysMem: 31G used (5394M wired), 1201M unused.
-VM: 5984G vsize, 1989M framework vsize, 45285016(0) swapins, 48588500(0) swapouts.
-Networks: packets: 14486964/12G in, 21221320/8503M out.
-Disks: 17250070/404G read, 7932599/340G written.
+Processes: 542 total, 4 running, 538 sleeping, 2954 threads 
+2020/10/19 14:10:24
+Load Avg: 2.39, 2.42, 2.43 
+CPU usage: 7.55% user, 10.93% sys, 81.51% idle 
+SharedLibs: 284M resident, 69M data, 29M linkedit.
+MemRegions: 239816 total, 9961M resident, 151M private, 2988M shared.
+PhysMem: 32G used (5425M wired), 78M unused.
+VM: 5346G vsize, 1989M framework vsize, 167321494(0) swapins, 172042811(0) swapouts.
+Networks: packets: 42484090/50G in, 68447987/13G out.
+Disks: 28975630/1003G read, 13819384/884G written.
 
 COMMAND          MEM   %CPU #TH
 com.docker.hyper 30G   0.0  23 
-Microsoft Outloo 2638M 0.0  25 
-WindowServer     1528M 0.0  9  
-Messages         1174M 0.0  20 
-Code Helper (GPU 1154M 0.0  8  
+WindowServer     2170M 0.0  13 
+Agent            1242M 0.0  54 
+com.docker.osxfs 923M  0.0  14 
+com.apple.WebKit 836M  0.0  23 
