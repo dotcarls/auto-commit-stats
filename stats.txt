@@ -1,39 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   24.99   76  1.86   4  3 93  3.93 3.12 2.85
+   24.81   77  1.87   4  3 93  5.88 3.19 2.87
 
+Processes: 523 total, 2 running, 521 sleeping, 2548 threads 
+2020/10/23 15:32:17
+Load Avg: 5.88, 3.19, 2.87 
+CPU usage: 2.84% user, 7.20% sys, 89.94% idle 
+SharedLibs: 285M resident, 74M data, 21M linkedit.
+MemRegions: 226254 total, 2989M resident, 72M private, 16G shared.
+PhysMem: 32G used (4410M wired), 75M unused.
+VM: 5209G vsize, 1996M framework vsize, 9412297(0) swapins, 11651146(0) swapouts.
+Networks: packets: 3353075/3029M in, 3556736/742M out.
+Disks: 5447502/100G read, 1941582/75G written.
 
-Processes: 524 total, 5 running, 518 sleeping, 1 unknown, 2695 threads 
-2020/10/23 15:17:53
-Load Avg: 3.93, 3.12, 2.85 
-CPU usage: 13.26% user, 30.23% sys, 56.49% idle 
-SharedLibs: 280M resident, 74M data, 25M linkedit.
-MemRegions: 216816 total, 3020M resident, 101M private, 16G shared.
-PhysMem: 32G used (4379M wired), 82M unused.
-VM: 4592G vsize, 1989M framework vsize, 9364159(0) swapins, 11573188(0) swapouts.
-Networks: packets: 3301305/2997M in, 3450350/720M out.
-Disks: 5334301/98G read, 1900580/74G written.
-
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 21G   0.0  22/2  
-Microsoft Outloo 1759M 0.0  24    
-WindowServer     1383M 0.0  10/1  
-Microsoft PowerP 1334M 0.0  22    
-kernel_task      744M  0.0  279/16
-Processes: 522 total, 5 running, 517 sleeping, 2669 threads 
-2020/10/23 15:17:53
-Load Avg: 3.93, 3.12, 2.85 
-CPU usage: 13.20% user, 30.19% sys, 56.60% idle 
-SharedLibs: 280M resident, 74M data, 25M linkedit.
-MemRegions: 216584 total, 3010M resident, 100M private, 16G shared.
-PhysMem: 32G used (4379M wired), 88M unused.
-VM: 4583G vsize, 1989M framework vsize, 9364159(0) swapins, 11573188(0) swapouts.
-Networks: packets: 3301305/2997M in, 3450351/720M out.
-Disks: 5334302/98G read, 1900581/74G written.
-
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 21G   0.0  22/1  
-Microsoft Outloo 1759M 0.0  24    
-WindowServer     1383M 0.0  10/1  
-Microsoft PowerP 1334M 0.0  22    
-kernel_task      744M  0.0  279/16
+COMMAND          MEM   %CPU #TH
+com.docker.hyper 21G   0.0  22 
+Microsoft Outloo 1759M 0.0  20 
+WindowServer     1551M 0.0  9  
+Microsoft PowerP 1334M 0.0  24 
+com.apple.WebKit 874M  0.0  17 
