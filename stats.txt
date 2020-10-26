@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   28.99   32  0.89   3  2 94  1.83 1.70 1.66
+   29.05   32  0.90   3  3 94  1.69 2.07 1.97
 
-Processes: 551 total, 3 running, 548 sleeping, 2478 threads 
-2020/10/26 13:13:12
-Load Avg: 1.83, 1.70, 1.66 
-CPU usage: 2.32% user, 6.63% sys, 91.3% idle 
-SharedLibs: 418M resident, 70M data, 42M linkedit.
-MemRegions: 216331 total, 6449M resident, 228M private, 4264M shared.
-PhysMem: 23G used (4446M wired), 9145M unused.
-VM: 6588G vsize, 1989M framework vsize, 18423788(0) swapins, 20818250(0) swapouts.
-Networks: packets: 7085793/8033M in, 5498988/1030M out.
-Disks: 7865737/169G read, 3086849/133G written.
+Processes: 506 total, 2 running, 2 stuck, 502 sleeping, 2269 threads 
+2020/10/26 13:22:24
+Load Avg: 1.88, 2.10, 1.98 
+CPU usage: 14.26% user, 14.78% sys, 70.95% idle 
+SharedLibs: 308M resident, 70M data, 21M linkedit.
+MemRegions: 183832 total, 5156M resident, 188M private, 9946M shared.
+PhysMem: 28G used (10G wired), 4137M unused.
+VM: 4101G vsize, 1989M framework vsize, 18426661(0) swapins, 20818250(0) swapouts.
+Networks: packets: 7101633/8049M in, 5526891/1033M out.
+Disks: 7909514/171G read, 3108661/134G written.
 
-COMMAND          MEM   %CPU #TH 
-WindowServer     1433M 0.0  10  
-Microsoft Outloo 860M  0.0  22  
-mds_stores       454M  0.0  8   
-NotificationCent 390M  0.0  4   
-Messages         384M  0.0  14/1
+COMMAND          MEM   %CPU #TH
+vmware-vmx       6278M 0.0  52 
+WindowServer     1383M 0.0  10 
+Microsoft Outloo 860M  0.0  20 
+mds_stores       452M  0.0  5  
+Terminal         431M  0.0  12 
