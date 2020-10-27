@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   31.01   35  1.06   3  3 94  2.03 2.64 2.43
+   30.97   35  1.06   3  3 94  1.13 2.00 2.20
 
-Processes: 527 total, 2 running, 525 sleeping, 2680 threads 
-2020/10/27 12:50:53
-Load Avg: 2.03, 2.64, 2.43 
-CPU usage: 4.25% user, 10.46% sys, 85.28% idle 
-SharedLibs: 338M resident, 57M data, 90M linkedit.
-MemRegions: 197229 total, 4214M resident, 160M private, 3007M shared.
-PhysMem: 19G used (3956M wired), 13G unused.
-VM: 3213G vsize, 1989M framework vsize, 27309575(0) swapins, 30163222(0) swapouts.
-Networks: packets: 7911494/8569M in, 6581250/1203M out.
-Disks: 10601305/237G read, 4501182/209G written.
-
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 17G   0.0  22 
-WindowServer     1178M 0.0  10 
-Microsoft Outloo 903M  0.0  22 
-mds_stores       836M  0.0  8  
-Terminal         635M  0.0  8  
-Processes: 526 total, 2 running, 524 sleeping, 2659 threads 
-2020/10/27 12:50:53
-Load Avg: 2.03, 2.64, 2.43 
-CPU usage: 4.71% user, 11.54% sys, 83.73% idle 
-SharedLibs: 338M resident, 57M data, 90M linkedit.
-MemRegions: 197053 total, 4205M resident, 160M private, 3007M shared.
-PhysMem: 19G used (3959M wired), 13G unused.
-VM: 3208G vsize, 1989M framework vsize, 27309575(0) swapins, 30163222(0) swapouts.
-Networks: packets: 7911516/8569M in, 6581288/1203M out.
-Disks: 10601341/237G read, 4501192/209G written.
+Processes: 527 total, 3 running, 1 stuck, 523 sleeping, 2529 threads 
+2020/10/27 12:54:22
+Load Avg: 1.13, 2.00, 2.20 
+CPU usage: 2.72% user, 63.35% sys, 33.91% idle 
+SharedLibs: 346M resident, 59M data, 92M linkedit.
+MemRegions: 206507 total, 4668M resident, 173M private, 3445M shared.
+PhysMem: 21G used (5108M wired), 11G unused.
+VM: 3855G vsize, 1996M framework vsize, 27328304(0) swapins, 30163222(0) swapouts.
+Networks: packets: 7922652/8577M in, 6604229/1210M out.
+Disks: 10626810/238G read, 4512647/210G written.
 
 COMMAND          MEM   %CPU #TH
 com.docker.hyper 17G   0.0  22 
-WindowServer     1178M 0.0  10 
-Microsoft Outloo 903M  0.0  22 
-mds_stores       836M  0.0  8  
-Terminal         635M  0.0  9  
+WindowServer     1939M 0.0  8  
+Microsoft Outloo 903M  0.0  21 
+mds_stores       836M  0.0  6  
+Terminal         744M  0.0  13 
