@@ -1,39 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.93  194  3.59     8.77    0  0.00   4  3 93  1.48 1.56 1.63
+   21.05  217  4.45     8.77    0  0.00   4  3 93  7.73 3.69 2.45
 
+Processes: 516 total, 3 running, 513 sleeping, 2642 threads 
+2020/11/09 14:37:26
+Load Avg: 7.73, 3.69, 2.45 
+CPU usage: 3.8% user, 56.9% sys, 40.82% idle 
+SharedLibs: 278M resident, 39M data, 12M linkedit.
+MemRegions: 201476 total, 1640M resident, 70M private, 18G shared.
+PhysMem: 29G used (7007M wired), 3279M unused.
+VM: 3892G vsize, 1991M framework vsize, 245762(0) swapins, 1033474(0) swapouts.
+Networks: packets: 1595331/1233M in, 1854445/549M out.
+Disks: 2488845/45G read, 762253/21G written.
 
-Processes: 518 total, 3 running, 515 sleeping, 2918 threads 
-2020/11/09 14:34:09
-Load Avg: 1.48, 1.56, 1.63 
-CPU usage: 8.92% user, 17.41% sys, 73.66% idle 
-SharedLibs: 300M resident, 78M data, 34M linkedit.
-MemRegions: 200275 total, 3661M resident, 131M private, 17G shared.
-PhysMem: 30G used (3285M wired), 1968M unused.
-VM: 3796G vsize, 1998M framework vsize, 109481(0) swapins, 172335(0) swapouts.
-Networks: packets: 1589148/1231M in, 1841896/545M out.
-Disks: 2228013/36G read, 652757/16G written.
-
-COMMAND          MEM  %CPU #TH
-com.docker.hyper 18G  0.0  23 
-Google Chrome He 428M 0.0  16 
-com.apple.WebKit 420M 0.0  4  
-Safari           328M 0.0  8  
-zoom.us          312M 0.0  19 
-Processes: 518 total, 3 running, 515 sleeping, 2918 threads 
-2020/11/09 14:34:09
-Load Avg: 1.48, 1.56, 1.63 
-CPU usage: 8.88% user, 17.48% sys, 73.62% idle 
-SharedLibs: 300M resident, 78M data, 34M linkedit.
-MemRegions: 200274 total, 3661M resident, 131M private, 17G shared.
-PhysMem: 30G used (3285M wired), 1972M unused.
-VM: 3796G vsize, 1991M framework vsize, 109481(0) swapins, 172335(0) swapouts.
-Networks: packets: 1589148/1231M in, 1841896/545M out.
-Disks: 2228013/36G read, 652767/16G written.
-
-COMMAND          MEM  %CPU #TH
-com.docker.hyper 18G  0.0  23 
-Google Chrome He 428M 0.0  16 
-com.apple.WebKit 420M 0.0  4  
-Safari           328M 0.0  8  
-zoom.us          312M 0.0  19 
+COMMAND          MEM   %CPU #TH 
+com.docker.hyper 18G   0.0  23  
+vmware-vmx       9137M 0.0  56/8
+Google Chrome He 428M  0.0  16  
+com.apple.WebKit 421M  0.0  4   
+Safari           329M  0.0  7   
