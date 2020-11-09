@@ -1,21 +1,4 @@
-              disk0       cpu    load average
-    KB/t  tps  MB/s  us sy id   1m   5m   15m
-   35.59   32  1.13   3  2 94  3.27 2.33 2.24
+              disk0               disk2       cpu    load average
+    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
+   17.38 4673 79.33    36.77    3  0.11  22 15 63  5.87 1.42 0.51
 
-Processes: 510 total, 2 running, 508 sleeping, 2586 threads 
-2020/11/07 14:35:58
-Load Avg: 3.27, 2.33, 2.24 
-CPU usage: 2.27% user, 6.26% sys, 91.46% idle 
-SharedLibs: 379M resident, 51M data, 37M linkedit.
-MemRegions: 211105 total, 9698M resident, 196M private, 4562M shared.
-PhysMem: 29G used (4490M wired), 3391M unused.
-VM: 6105G vsize, 1991M framework vsize, 5220178(0) swapins, 5626521(0) swapouts.
-Networks: packets: 1156295/1149M in, 1596681/277M out.
-Disks: 1710624/46G read, 559423/31G written.
-
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 16G   0.0  23 
-WindowServer     1484M 0.0  9  
-Microsoft Outloo 914M  0.0  22 
-com.apple.WebKit 817M  0.0  4  
-Terminal         663M  0.0  13 
