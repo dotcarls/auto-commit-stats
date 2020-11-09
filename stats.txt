@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   17.45 4665 79.50    36.77    3  0.10  24 17 59  7.32 1.79 0.65
+   17.96 4662 81.76    27.21    2  0.06  35 22 43  12.32 3.67 1.38
 
-Processes: 432 total, 65 running, 367 sleeping, 2698 threads 
-2020/11/09 10:28:01
-Load Avg: 7.32, 1.79, 0.65 
-CPU usage: 63.67% user, 36.23% sys, 0.9% idle 
-SharedLibs: 421M resident, 72M data, 51M linkedit.
-MemRegions: 106594 total, 4374M resident, 232M private, 1664M shared.
-PhysMem: 10G used (2938M wired), 22G unused.
-VM: 2556G vsize, 1998M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 6687/2434K in, 10533/5725K out.
-Disks: 178677/3105M read, 17446/197M written.
+Processes: 507 total, 14 running, 1 stuck, 492 sleeping, 3050 threads 
+2020/11/09 10:28:30
+Load Avg: 12.32, 3.67, 1.38 
+CPU usage: 43.16% user, 33.79% sys, 23.4% idle 
+SharedLibs: 442M resident, 74M data, 56M linkedit.
+MemRegions: 145999 total, 6224M resident, 292M private, 8048M shared.
+PhysMem: 20G used (2819M wired), 12G unused.
+VM: 3060G vsize, 1998M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 93780/99M in, 119618/19M out.
+Disks: 283035/5017M read, 46775/759M written.
 
-COMMAND          MEM  %CPU #TH 
-NotificationCent 525M 0.0  7   
-Slack Helper (Re 213M 0.0  25/1
-Safari           182M 0.0  33/3
-zoom.us          167M 0.0  34/1
-Finder           128M 0.0  20/2
+COMMAND          MEM   %CPU #TH 
+com.docker.hyper 5150M 0.0  13/1
+Microsoft Outloo 931M  0.0  42  
+NotificationCent 355M  0.0  7   
+Slack Helper (Re 299M  0.0  27  
+Safari           205M  0.0  10  
