@@ -1,4 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   17.38 4673 79.33    36.77    3  0.11  22 15 63  5.87 1.42 0.51
+   17.36 4669 79.16    36.77    3  0.11  22 15 63  5.87 1.42 0.51
 
+Processes: 422 total, 59 running, 6 stuck, 357 sleeping, 2773 threads 
+2020/11/09 10:27:58
+Load Avg: 5.87, 1.42, 0.51 
+CPU usage: 60.65% user, 36.27% sys, 3.7% idle 
+SharedLibs: 417M resident, 72M data, 49M linkedit.
+MemRegions: 99872 total, 4018M resident, 223M private, 1618M shared.
+PhysMem: 9524M used (2811M wired), 23G unused.
+VM: 2494G vsize, 1998M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 5224/1769K in, 8304/2483K out.
+Disks: 165208/2957M read, 15448/159M written.
+
+COMMAND          MEM  %CPU #TH   
+NotificationCent 525M 0.0  7     
+Safari           185M 0.0  33/9  
+Slack Helper (Re 135M 0.0  26/2  
+kernel_task      124M 0.0  314/16
+WindowServer     119M 0.0  10/1  
