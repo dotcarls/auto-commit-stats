@@ -1,21 +1,21 @@
-              disk0               disk2       cpu    load average
+              disk0               disk3       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   21.35  217  4.53     8.77    0  0.00   4  3 93  4.91 3.99 2.76
+   31.51   29  0.88     2.95    0  0.00   3  2 95  2.50 2.15 2.06
 
-Processes: 519 total, 2 running, 517 sleeping, 2686 threads 
-2020/11/09 14:39:54
-Load Avg: 4.60, 3.94, 2.75 
-CPU usage: 1.83% user, 6.6% sys, 92.9% idle 
-SharedLibs: 258M resident, 39M data, 10M linkedit.
-MemRegions: 201962 total, 1862M resident, 85M private, 23G shared.
-PhysMem: 32G used (11G wired), 43M unused.
-VM: 3905G vsize, 1998M framework vsize, 295424(0) swapins, 1033474(0) swapouts.
-Networks: packets: 1598750/1234M in, 1859948/550M out.
-Disks: 2520583/46G read, 771059/21G written.
+Processes: 452 total, 2 running, 450 sleeping, 2228 threads 
+2020/11/16 12:35:50
+Load Avg: 2.50, 2.15, 2.06 
+CPU usage: 2.91% user, 8.7% sys, 89.1% idle 
+SharedLibs: 337M resident, 44M data, 36M linkedit.
+MemRegions: 168727 total, 3681M resident, 147M private, 2965M shared.
+PhysMem: 18G used (3980M wired), 14G unused.
+VM: 3153G vsize, 1998M framework vsize, 33352951(0) swapins, 36578792(0) swapouts.
+Networks: packets: 7758718/5470M in, 10600084/2762M out.
+Disks: 11903602/300G read, 5646162/226G written.
 
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 18G   0.0  23 
-vmware-vmx       9219M 0.0  56 
-Google Chrome He 428M  0.0  16 
-com.apple.WebKit 423M  0.0  4  
-Safari           330M  0.0  8  
+COMMAND          MEM   %CPU #TH   
+com.docker.hyper 19G   0.0  23    
+WindowServer     1371M 0.0  11    
+kernel_task      1040M 0.0  338/17
+Microsoft Outloo 886M  0.0  22    
+mds_stores       750M  0.0  5     
