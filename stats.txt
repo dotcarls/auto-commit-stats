@@ -1,38 +1,21 @@
               disk0               disk3       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   36.68   24  0.85     2.10    0  0.00   4  3 94  3.06 3.10 3.04
+   36.90   23  0.84     2.09    0  0.00   4  3 94  2.88 2.72 2.58
 
-Processes: 524 total, 3 running, 1 stuck, 520 sleeping, 2762 threads 
-2020/12/22 11:53:40
-Load Avg: 3.13, 3.11, 3.05 
-CPU usage: 10.72% user, 12.8% sys, 77.18% idle 
-SharedLibs: 310M resident, 51M data, 23M linkedit.
-MemRegions: 273754 total, 7136M resident, 193M private, 4586M shared.
-PhysMem: 28G used (4467M wired), 4576M unused.
-VM: 3988G vsize, 1998M framework vsize, 244966702(0) swapins, 252261662(0) swapouts.
-Networks: packets: 55798788/48G in, 63136604/20G out.
-Disks: 58926461/1689G read, 29350434/1391G written.
-
-COMMAND          MEM   %CPU #TH   
-WindowServer     1806M 0.0  11    
-Microsoft Outloo 1015M 0.0  18    
-kernel_task      714M  0.0  409/16
-mds_stores       608M  0.0  6     
-zoom.us          563M  0.0  57    
-Processes: 523 total, 3 running, 520 sleeping, 2747 threads 
-2020/12/22 11:53:41
-Load Avg: 3.13, 3.11, 3.05 
-CPU usage: 11.92% user, 15.34% sys, 72.73% idle 
-SharedLibs: 310M resident, 51M data, 23M linkedit.
-MemRegions: 273680 total, 7134M resident, 193M private, 4586M shared.
-PhysMem: 28G used (4476M wired), 4585M unused.
-VM: 3984G vsize, 1998M framework vsize, 244966830(0) swapins, 252261662(0) swapouts.
-Networks: packets: 55798813/48G in, 63136747/20G out.
-Disks: 58926483/1689G read, 29350445/1391G written.
+Processes: 538 total, 5 running, 533 sleeping, 2821 threads 
+2020/12/23 15:10:46
+Load Avg: 2.88, 2.72, 2.58 
+CPU usage: 15.35% user, 7.85% sys, 76.78% idle 
+SharedLibs: 205M resident, 43M data, 13M linkedit.
+MemRegions: 293290 total, 4329M resident, 133M private, 18G shared.
+PhysMem: 32G used (5050M wired), 223M unused.
+VM: 4529G vsize, 1991M framework vsize, 249707166(0) swapins, 257638321(0) swapouts.
+Networks: packets: 56281822/48G in, 63780609/20G out.
+Disks: 59645332/1719G read, 29733499/1417G written.
 
 COMMAND          MEM   %CPU #TH   
-WindowServer     1806M 0.0  11    
-Microsoft Outloo 1015M 0.0  18    
-kernel_task      714M  0.0  409/16
-mds_stores       608M  0.0  6     
-zoom.us          563M  0.0  57    
+com.docker.hyper 16G   0.0  19    
+WindowServer     2239M 0.0  10    
+Microsoft Outloo 1143M 0.0  18    
+mds_stores       698M  0.0  5     
+kernel_task      686M  0.0  411/16
