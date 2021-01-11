@@ -1,21 +1,38 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   15.14 4223 62.42  15 11 74  2.84 0.68 0.25
+   19.51 4394 83.74  15 12 73  11.55 2.45 0.87
 
-Processes: 362 total, 5 running, 1 stuck, 355 sleeping, 1 unknown, 2339 threads 
-2021/01/11 10:35:13
-Load Avg: 2.84, 0.68, 0.25 
-CPU usage: 21.3% user, 17.34% sys, 61.62% idle 
-SharedLibs: 371M resident, 59M data, 44M linkedit.
-MemRegions: 80400 total, 3326M resident, 189M private, 1908M shared.
-PhysMem: 9740M used (3809M wired), 22G unused.
-VM: 2152G vsize, 1991M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 2264/634K in, 3477/656K out.
-Disks: 148903/2242M read, 6092/45M written.
+Processes: 358 total, 11 running, 10 stuck, 337 sleeping, 2554 threads 
+2021/01/11 10:42:23
+Load Avg: 11.55, 2.45, 0.87 
+CPU usage: 35.24% user, 29.24% sys, 35.50% idle 
+SharedLibs: 371M resident, 65M data, 43M linkedit.
+MemRegions: 81462 total, 3430M resident, 190M private, 2483M shared.
+PhysMem: 10G used (4105M wired), 22G unused.
+VM: 2265G vsize, 1998M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 10668/12M in, 15221/1680K out.
+Disks: 142469/2764M read, 6869/68M written.
 
-COMMAND          MEM   %CPU #TH 
-WindowServer     1223M 0.0  11  
-NotificationCent 518M  0.0  11  
-Terminal         374M  0.0  21  
-Safari           186M  0.0  33/1
-Google Chrome He 118M  0.0  13  
+COMMAND          MEM   %CPU #TH   
+WindowServer     1204M 0.0  10/1  
+Terminal         535M  0.0  22    
+NotificationCent 516M  0.0  19    
+kernel_task      239M  0.0  266/16
+Spotify Helper ( 188M  0.0  13    
+Processes: 358 total, 11 running, 12 stuck, 335 sleeping, 2554 threads 
+2021/01/11 10:42:23
+Load Avg: 11.55, 2.45, 0.87 
+CPU usage: 34.94% user, 28.49% sys, 36.55% idle 
+SharedLibs: 371M resident, 65M data, 43M linkedit.
+MemRegions: 81433 total, 3430M resident, 190M private, 2483M shared.
+PhysMem: 10G used (4105M wired), 22G unused.
+VM: 2265G vsize, 1998M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 10668/12M in, 15221/1680K out.
+Disks: 142469/2764M read, 6869/68M written.
+
+COMMAND          MEM   %CPU #TH   
+WindowServer     1204M 0.0  10    
+Terminal         535M  0.0  22    
+NotificationCent 516M  0.0  19    
+kernel_task      239M  0.0  266/16
+Spotify Helper ( 188M  0.0  13    
