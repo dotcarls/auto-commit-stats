@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   24.66   74  1.78   4  3 94  2.24 2.27 2.20
+   24.11   73  1.71   4  3 93  4.39 2.65 2.36
 
-Processes: 540 total, 2 running, 538 sleeping, 2835 threads 
-2021/01/12 15:47:07
-Load Avg: 2.24, 2.27, 2.20 
-CPU usage: 3.1% user, 6.78% sys, 90.19% idle 
-SharedLibs: 404M resident, 56M data, 37M linkedit.
-MemRegions: 246227 total, 8000M resident, 184M private, 5770M shared.
-PhysMem: 29G used (4413M wired), 3367M unused.
-VM: 5089G vsize, 1991M framework vsize, 10229991(0) swapins, 11498634(0) swapouts.
-Networks: packets: 4774011/4175M in, 5228664/840M out.
-Disks: 5781408/103G read, 1949590/78G written.
+Processes: 528 total, 3 running, 525 sleeping, 2754 threads 
+2021/01/12 17:31:36
+Load Avg: 4.39, 2.65, 2.36 
+CPU usage: 7.20% user, 7.6% sys, 85.73% idle 
+SharedLibs: 257M resident, 56M data, 15M linkedit.
+MemRegions: 246442 total, 8353M resident, 179M private, 5385M shared.
+PhysMem: 30G used (4795M wired), 1900M unused.
+VM: 4654G vsize, 1991M framework vsize, 10282726(0) swapins, 11498634(0) swapouts.
+Networks: packets: 4925368/4262M in, 5420763/867M out.
+Disks: 5924511/105G read, 2127674/81G written.
 
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 19G   0.0  19 
-WindowServer     1371M 0.0  10 
-Microsoft Outloo 1047M 0.0  23 
-Terminal         560M  0.0  12 
-NotificationCent 474M  0.0  4  
+COMMAND          MEM   %CPU #TH   
+com.docker.hyper 19G   0.0  19    
+WindowServer     1911M 0.0  10    
+Microsoft Outloo 1051M 0.0  25    
+Terminal         895M  0.0  11/1  
+kernel_task      620M  0.0  284/16
