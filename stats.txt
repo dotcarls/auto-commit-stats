@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   34.09   58  1.94   4  4 92  5.21 4.27 4.81
+    8.20 6680 53.50   8  7 86  1.59 0.44 0.16
 
-Processes: 458 total, 2 running, 456 sleeping, 2031 threads 
-2021/01/18 16:17:37
-Load Avg: 4.96, 4.23, 4.79 
-CPU usage: 11.94% user, 12.34% sys, 75.70% idle 
-SharedLibs: 308M resident, 74M data, 19M linkedit.
-MemRegions: 171701 total, 6136M resident, 161M private, 4012M shared.
-PhysMem: 31G used (6135M wired), 548M unused.
-VM: 3311G vsize, 1991M framework vsize, 82771943(0) swapins, 84532833(0) swapouts.
-Networks: packets: 16897881/13G in, 20790513/4444M out.
-Disks: 26816864/654G read, 9540505/528G written.
+Processes: 322 total, 6 running, 12 stuck, 304 sleeping, 2287 threads 
+2021/01/18 19:10:43
+Load Avg: 1.59, 0.44, 0.16 
+CPU usage: 22.98% user, 52.95% sys, 24.6% idle 
+SharedLibs: 386M resident, 72M data, 42M linkedit.
+MemRegions: 68724 total, 2826M resident, 172M private, 1009M shared.
+PhysMem: 8332M used (3559M wired), 24G unused.
+VM: 1932G vsize, 1998M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 3717/2277K in, 4634/868K out.
+Disks: 404089/3236M read, 14179/110M written.
 
-COMMAND          MEM   %CPU #TH   
-com.apple.photos 2142M 0.0  19    
-Photos           1120M 0.0  16    
-kernel_task      1015M 0.0  297/16
-WindowServer     930M  0.0  10    
-darktable        820M  0.0  86    
+COMMAND          MEM  %CPU #TH   
+WindowServer     938M 0.0  12    
+NotificationCent 519M 0.0  20    
+com.apple.WebKit 228M 0.0  11    
+Safari           130M 0.0  33    
+kernel_task      88M  0.0  268/17
