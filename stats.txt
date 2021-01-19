@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-    8.20 6680 53.50   8  7 86  1.59 0.44 0.16
+   26.35   41  1.06   7  6 87  1.65 1.50 1.44
 
-Processes: 322 total, 6 running, 12 stuck, 304 sleeping, 2287 threads 
-2021/01/18 19:10:43
-Load Avg: 1.59, 0.44, 0.16 
-CPU usage: 22.98% user, 52.95% sys, 24.6% idle 
-SharedLibs: 386M resident, 72M data, 42M linkedit.
-MemRegions: 68724 total, 2826M resident, 172M private, 1009M shared.
-PhysMem: 8332M used (3559M wired), 24G unused.
-VM: 1932G vsize, 1998M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 3717/2277K in, 4634/868K out.
-Disks: 404089/3236M read, 14179/110M written.
+Processes: 482 total, 3 running, 479 sleeping, 2482 threads 
+2021/01/19 12:50:13
+Load Avg: 1.65, 1.50, 1.44 
+CPU usage: 1.95% user, 5.43% sys, 92.60% idle 
+SharedLibs: 403M resident, 62M data, 41M linkedit.
+MemRegions: 193093 total, 6594M resident, 172M private, 2878M shared.
+PhysMem: 21G used (3228M wired), 11G unused.
+VM: 4024G vsize, 1991M framework vsize, 2494614(0) swapins, 3146025(0) swapouts.
+Networks: packets: 2106902/566M in, 6958951/8771M out.
+Disks: 1884679/42G read, 748930/25G written.
 
-COMMAND          MEM  %CPU #TH   
-WindowServer     938M 0.0  12    
-NotificationCent 519M 0.0  20    
-com.apple.WebKit 228M 0.0  11    
-Safari           130M 0.0  33    
-kernel_task      88M  0.0  268/17
+COMMAND          MEM   %CPU #TH
+darktable        2133M 0.0  184
+Microsoft Outloo 1080M 0.0  20 
+Photos           1060M 0.0  5  
+Google Chrome He 562M  0.0  16 
+WindowServer     479M  0.0  9  
