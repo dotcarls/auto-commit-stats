@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.33 3970 71.06  14 11 76  5.78 1.31 0.47
+   30.61  455 13.60   4 10 86  4.15 3.18 2.98
 
-Processes: 371 total, 57 running, 1 stuck, 313 sleeping, 2731 threads 
-2021/01/27 22:29:33
-Load Avg: 5.78, 1.31, 0.47 
-CPU usage: 67.32% user, 32.51% sys, 0.16% idle 
-SharedLibs: 404M resident, 69M data, 46M linkedit.
-MemRegions: 84825 total, 3804M resident, 203M private, 2080M shared.
-PhysMem: 11G used (4259M wired), 21G unused.
-VM: 2302G vsize, 1998M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 2884/323K in, 3015/347K out.
-Disks: 159319/2984M read, 11188/70M written.
+Processes: 441 total, 4 running, 437 sleeping, 2225 threads 
+2021/01/27 23:40:45
+Load Avg: 4.38, 3.24, 3.00 
+CPU usage: 8.35% user, 32.29% sys, 59.35% idle 
+SharedLibs: 283M resident, 78M data, 23M linkedit.
+MemRegions: 156302 total, 4536M resident, 119M private, 17G shared.
+PhysMem: 32G used (4212M wired), 154M unused.
+VM: 3718G vsize, 1998M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 3400982/4397M in, 2304201/338M out.
+Disks: 1347696/21G read, 615891/37G written.
 
 COMMAND          MEM   %CPU #TH 
-WindowServer     1087M 0.0  12  
-NotificationCent 519M  0.0  6   
-Code Helper (GPU 262M  0.0  12/1
-talagent         232M  0.0  8   
-Terminal         203M  0.0  21  
-Processes: 373 total, 63 running, 2 stuck, 308 sleeping, 2749 threads 
-2021/01/27 22:29:33
-Load Avg: 5.78, 1.31, 0.47 
-CPU usage: 72.88% user, 27.11% sys, 0.0% idle 
-SharedLibs: 405M resident, 69M data, 46M linkedit.
-MemRegions: 85229 total, 3823M resident, 204M private, 2092M shared.
-PhysMem: 11G used (4261M wired), 21G unused.
-VM: 2311G vsize, 1998M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 2888/324K in, 3019/348K out.
-Disks: 159582/2989M read, 11194/70M written.
-
-COMMAND          MEM   %CPU #TH
-WindowServer     1088M 0.0  12 
-NotificationCent 519M  0.0  6  
-Code Helper (GPU 263M  0.0  12 
-Terminal         260M  0.0  21 
-talagent         232M  0.0  7  
+com.docker.hyper 28G   0.0  20/3
+WindowServer     1265M 0.0  10  
+com.apple.WebKit 492M  0.0  10  
+com.apple.WebKit 444M  0.0  17  
+mds_stores       405M  0.0  5   
