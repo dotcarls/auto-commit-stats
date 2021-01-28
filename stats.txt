@@ -1,21 +1,38 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   32.53   62  1.96   4  3 93  1.85 2.32 2.61
+   18.33 3970 71.06  14 11 76  5.78 1.31 0.47
 
-Processes: 521 total, 2 running, 519 sleeping, 2745 threads 
-2021/01/27 21:31:20
-Load Avg: 1.85, 2.32, 2.61 
-CPU usage: 8.74% user, 40.53% sys, 50.72% idle 
-SharedLibs: 232M resident, 50M data, 17M linkedit.
-MemRegions: 278008 total, 2218M resident, 86M private, 16G shared.
-PhysMem: 32G used (5319M wired), 267M unused.
-VM: 4403G vsize, 1991M framework vsize, 94061290(0) swapins, 98037475(0) swapouts.
-Networks: packets: 37552816/28G in, 71929145/69G out.
-Disks: 32960273/832G read, 15572233/673G written.
+Processes: 371 total, 57 running, 1 stuck, 313 sleeping, 2731 threads 
+2021/01/27 22:29:33
+Load Avg: 5.78, 1.31, 0.47 
+CPU usage: 67.32% user, 32.51% sys, 0.16% idle 
+SharedLibs: 404M resident, 69M data, 46M linkedit.
+MemRegions: 84825 total, 3804M resident, 203M private, 2080M shared.
+PhysMem: 11G used (4259M wired), 21G unused.
+VM: 2302G vsize, 1998M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 2884/323K in, 3015/347K out.
+Disks: 159319/2984M read, 11188/70M written.
 
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 27G   0.0  20    
-Microsoft Outloo 2902M 0.0  27    
-WindowServer     2508M 0.0  10    
-kernel_task      1979M 0.0  298/16
-Messages         668M  0.0  16    
+COMMAND          MEM   %CPU #TH 
+WindowServer     1087M 0.0  12  
+NotificationCent 519M  0.0  6   
+Code Helper (GPU 262M  0.0  12/1
+talagent         232M  0.0  8   
+Terminal         203M  0.0  21  
+Processes: 373 total, 63 running, 2 stuck, 308 sleeping, 2749 threads 
+2021/01/27 22:29:33
+Load Avg: 5.78, 1.31, 0.47 
+CPU usage: 72.88% user, 27.11% sys, 0.0% idle 
+SharedLibs: 405M resident, 69M data, 46M linkedit.
+MemRegions: 85229 total, 3823M resident, 204M private, 2092M shared.
+PhysMem: 11G used (4261M wired), 21G unused.
+VM: 2311G vsize, 1998M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 2888/324K in, 3019/348K out.
+Disks: 159582/2989M read, 11194/70M written.
+
+COMMAND          MEM   %CPU #TH
+WindowServer     1088M 0.0  12 
+NotificationCent 519M  0.0  6  
+Code Helper (GPU 263M  0.0  12 
+Terminal         260M  0.0  21 
+talagent         232M  0.0  7  
