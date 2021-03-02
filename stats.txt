@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   31.10   25  0.77   3  3 93  1.41 1.66 1.99
+   31.22   25  0.77   3  3 93  2.39 2.10 2.07
 
-Processes: 539 total, 5 running, 534 sleeping, 3123 threads 
-2021/03/02 13:44:19
-Load Avg: 1.41, 1.66, 1.99 
-CPU usage: 8.10% user, 20.25% sys, 71.64% idle 
-SharedLibs: 242M resident, 51M data, 19M linkedit.
-MemRegions: 266142 total, 7378M resident, 164M private, 10G shared.
-PhysMem: 31G used (4610M wired), 646M unused.
-VM: 5582G vsize, 1991M framework vsize, 50423189(0) swapins, 52029896(0) swapouts.
-Networks: packets: 17586068/16G in, 17601116/3370M out.
-Disks: 16080242/383G read, 7590408/319G written.
-
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 29G   0.0  20    
-Microsoft Outloo 1645M 0.0  25    
-kernel_task      1616M 0.0  282/16
-WindowServer     1506M 0.0  9     
-Terminal         615M  0.0  9     
-Processes: 540 total, 4 running, 536 sleeping, 3124 threads 
-2021/03/02 13:44:19
-Load Avg: 1.41, 1.66, 1.99 
-CPU usage: 7.92% user, 20.47% sys, 71.59% idle 
-SharedLibs: 242M resident, 51M data, 19M linkedit.
-MemRegions: 266239 total, 7383M resident, 164M private, 10G shared.
-PhysMem: 31G used (4610M wired), 651M unused.
-VM: 5586G vsize, 1991M framework vsize, 50423189(0) swapins, 52029896(0) swapouts.
-Networks: packets: 17586068/16G in, 17601116/3370M out.
-Disks: 16080242/383G read, 7590409/319G written.
+Processes: 529 total, 6 running, 523 sleeping, 3000 threads 
+2021/03/02 13:56:41
+Load Avg: 2.39, 2.10, 2.07 
+CPU usage: 7.54% user, 8.11% sys, 84.33% idle 
+SharedLibs: 240M resident, 51M data, 18M linkedit.
+MemRegions: 263568 total, 6922M resident, 147M private, 10G shared.
+PhysMem: 31G used (5241M wired), 1101M unused.
+VM: 5173G vsize, 1991M framework vsize, 50435457(0) swapins, 52029896(0) swapouts.
+Networks: packets: 17637512/16G in, 17664359/3386M out.
+Disks: 16154934/385G read, 7629082/323G written.
 
 COMMAND          MEM   %CPU #TH   
 com.docker.hyper 29G   0.0  20    
-Microsoft Outloo 1645M 0.0  25    
-kernel_task      1616M 0.0  282/16
-WindowServer     1506M 0.0  9     
-Terminal         615M  0.0  9     
+WindowServer     2042M 0.0  10/1  
+Microsoft Outloo 1683M 0.0  23    
+kernel_task      1616M 0.0  281/16
+Terminal         670M  0.0  14    
