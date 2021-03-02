@@ -1,21 +1,38 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   33.44   23  0.74   3  3 93  4.40 3.22 2.64
+   31.10   25  0.77   3  3 93  1.41 1.66 1.99
 
-Processes: 510 total, 3 running, 507 sleeping, 2782 threads 
-2021/03/02 09:42:03
-Load Avg: 4.40, 3.22, 2.64 
-CPU usage: 6.33% user, 18.12% sys, 75.53% idle 
-SharedLibs: 221M resident, 48M data, 17M linkedit.
-MemRegions: 233598 total, 8642M resident, 167M private, 9888M shared.
-PhysMem: 32G used (5053M wired), 336M unused.
-VM: 4836G vsize, 1991M framework vsize, 50198583(0) swapins, 51792698(0) swapouts.
-Networks: packets: 13821823/12G in, 15785607/3141M out.
-Disks: 13906860/362G read, 7111921/309G written.
+Processes: 539 total, 5 running, 534 sleeping, 3123 threads 
+2021/03/02 13:44:19
+Load Avg: 1.41, 1.66, 1.99 
+CPU usage: 8.10% user, 20.25% sys, 71.64% idle 
+SharedLibs: 242M resident, 51M data, 19M linkedit.
+MemRegions: 266142 total, 7378M resident, 164M private, 10G shared.
+PhysMem: 31G used (4610M wired), 646M unused.
+VM: 5582G vsize, 1991M framework vsize, 50423189(0) swapins, 52029896(0) swapouts.
+Networks: packets: 17586068/16G in, 17601116/3370M out.
+Disks: 16080242/383G read, 7590408/319G written.
 
 COMMAND          MEM   %CPU #TH   
-com.docker.hyper 29G   0.0  20/3  
-WindowServer     2220M 0.0  10    
-kernel_task      2099M 0.0  281/16
-Microsoft Outloo 1525M 0.0  22    
-com.apple.WebKit 1074M 0.0  7     
+com.docker.hyper 29G   0.0  20    
+Microsoft Outloo 1645M 0.0  25    
+kernel_task      1616M 0.0  282/16
+WindowServer     1506M 0.0  9     
+Terminal         615M  0.0  9     
+Processes: 540 total, 4 running, 536 sleeping, 3124 threads 
+2021/03/02 13:44:19
+Load Avg: 1.41, 1.66, 1.99 
+CPU usage: 7.92% user, 20.47% sys, 71.59% idle 
+SharedLibs: 242M resident, 51M data, 19M linkedit.
+MemRegions: 266239 total, 7383M resident, 164M private, 10G shared.
+PhysMem: 31G used (4610M wired), 651M unused.
+VM: 5586G vsize, 1991M framework vsize, 50423189(0) swapins, 52029896(0) swapouts.
+Networks: packets: 17586068/16G in, 17601116/3370M out.
+Disks: 16080242/383G read, 7590409/319G written.
+
+COMMAND          MEM   %CPU #TH   
+com.docker.hyper 29G   0.0  20    
+Microsoft Outloo 1645M 0.0  25    
+kernel_task      1616M 0.0  282/16
+WindowServer     1506M 0.0  9     
+Terminal         615M  0.0  9     
