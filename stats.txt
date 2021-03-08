@@ -1,21 +1,39 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   14.21 2455 34.08  13 11 76  7.44 1.73 0.63
+   14.06 2894 39.74  23 17 60  9.11 5.07 2.19
 
-Processes: 324 total, 8 running, 8 stuck, 308 sleeping, 2152 threads 
-2021/03/05 17:51:39
-Load Avg: 7.44, 1.73, 0.63 
-CPU usage: 40.67% user, 24.15% sys, 35.16% idle 
-SharedLibs: 410M resident, 71M data, 45M linkedit.
-MemRegions: 76331 total, 3250M resident, 181M private, 1321M shared.
-PhysMem: 8884M used (3637M wired), 23G unused.
-VM: 2068G vsize, 1998M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 3696/443K in, 3657/467K out.
-Disks: 174486/2571M read, 31646/268M written.
 
-COMMAND          MEM  %CPU #TH   
-WindowServer     994M 0.0  10    
-NotificationCent 520M 0.0  6     
-Messages         145M 0.0  37    
-Safari           127M 0.0  44/1  
-kernel_task      124M 0.0  266/16
+Processes: 438 total, 4 running, 2 stuck, 432 sleeping, 2454 threads 
+2021/03/08 11:00:54
+Load Avg: 9.11, 5.07, 2.19 
+CPU usage: 7.38% user, 13.45% sys, 79.16% idle 
+SharedLibs: 237M resident, 70M data, 21M linkedit.
+MemRegions: 133393 total, 4304M resident, 214M private, 18G shared.
+PhysMem: 32G used (4671M wired), 106M unused.
+VM: 3049G vsize, 1991M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 176278/159M in, 229003/31M out.
+Disks: 578943/7358M read, 96616/1912M written.
+
+COMMAND          MEM   %CPU #TH
+com.docker.hyper 17G   0.0  19 
+WindowServer     1698M 0.0  10 
+Microsoft Outloo 758M  0.0  33 
+NotificationCent 347M  0.0  4  
+zoom.us          293M  0.0  34 
+Processes: 438 total, 4 running, 1 stuck, 433 sleeping, 2454 threads 
+2021/03/08 11:00:54
+Load Avg: 9.11, 5.07, 2.19 
+CPU usage: 7.45% user, 13.58% sys, 78.96% idle 
+SharedLibs: 237M resident, 70M data, 21M linkedit.
+MemRegions: 133394 total, 4304M resident, 214M private, 18G shared.
+PhysMem: 32G used (4671M wired), 106M unused.
+VM: 3049G vsize, 1991M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 176278/159M in, 229003/31M out.
+Disks: 578945/7358M read, 96616/1912M written.
+
+COMMAND          MEM   %CPU #TH 
+com.docker.hyper 17G   0.0  19  
+WindowServer     1698M 0.0  10  
+Microsoft Outloo 758M  0.0  33/1
+NotificationCent 347M  0.0  4   
+zoom.us          293M  0.0  34  
