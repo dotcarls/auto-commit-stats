@@ -1,39 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   14.06 2894 39.74  23 17 60  9.11 5.07 2.19
+   23.18 2465 55.80  18 15 67  4.23 4.97 2.67
 
-
-Processes: 438 total, 4 running, 2 stuck, 432 sleeping, 2454 threads 
-2021/03/08 11:00:54
-Load Avg: 9.11, 5.07, 2.19 
-CPU usage: 7.38% user, 13.45% sys, 79.16% idle 
-SharedLibs: 237M resident, 70M data, 21M linkedit.
-MemRegions: 133393 total, 4304M resident, 214M private, 18G shared.
-PhysMem: 32G used (4671M wired), 106M unused.
-VM: 3049G vsize, 1991M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 176278/159M in, 229003/31M out.
-Disks: 578943/7358M read, 96616/1912M written.
+Processes: 453 total, 2 running, 1 stuck, 450 sleeping, 2342 threads 
+2021/03/08 11:03:53
+Load Avg: 4.23, 4.97, 2.67 
+CPU usage: 2.92% user, 6.14% sys, 90.93% idle 
+SharedLibs: 303M resident, 34M data, 27M linkedit.
+MemRegions: 130276 total, 1879M resident, 119M private, 5455M shared.
+PhysMem: 15G used (4154M wired), 17G unused.
+VM: 3208G vsize, 1991M framework vsize, 958275(0) swapins, 1160301(0) swapouts.
+Networks: packets: 205037/197M in, 279669/43M out.
+Disks: 845799/15G read, 169616/7857M written.
 
 COMMAND          MEM   %CPU #TH
-com.docker.hyper 17G   0.0  19 
-WindowServer     1698M 0.0  10 
-Microsoft Outloo 758M  0.0  33 
-NotificationCent 347M  0.0  4  
-zoom.us          293M  0.0  34 
-Processes: 438 total, 4 running, 1 stuck, 433 sleeping, 2454 threads 
-2021/03/08 11:00:54
-Load Avg: 9.11, 5.07, 2.19 
-CPU usage: 7.45% user, 13.58% sys, 78.96% idle 
-SharedLibs: 237M resident, 70M data, 21M linkedit.
-MemRegions: 133394 total, 4304M resident, 214M private, 18G shared.
-PhysMem: 32G used (4671M wired), 106M unused.
-VM: 3049G vsize, 1991M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 176278/159M in, 229003/31M out.
-Disks: 578945/7358M read, 96616/1912M written.
-
-COMMAND          MEM   %CPU #TH 
-com.docker.hyper 17G   0.0  19  
-WindowServer     1698M 0.0  10  
-Microsoft Outloo 758M  0.0  33/1
-NotificationCent 347M  0.0  4   
-zoom.us          293M  0.0  34  
+com.docker.hyper 17G   0.0  20 
+WindowServer     1547M 0.0  10 
+mds_stores       467M  0.0  7  
+NotificationCent 349M  0.0  4  
+Code Helper (GPU 330M  0.0  8  
