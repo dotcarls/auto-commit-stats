@@ -1,21 +1,38 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   24.84   46  1.10   4  4 92  3.49 2.92 2.67
+   15.20 5762 85.54  17 13 70  2.58 0.64 0.23
 
-Processes: 540 total, 4 running, 536 sleeping, 3116 threads 
-2021/03/10 15:31:02
-Load Avg: 3.49, 2.92, 2.67 
-CPU usage: 11.21% user, 42.67% sys, 46.10% idle 
-SharedLibs: 237M resident, 48M data, 15M linkedit.
-MemRegions: 255988 total, 3169M resident, 87M private, 16G shared.
-PhysMem: 32G used (4827M wired), 73M unused.
-VM: 4880G vsize, 1998M framework vsize, 9093957(0) swapins, 9966113(0) swapouts.
-Networks: packets: 5824059/5583M in, 5806483/1272M out.
-Disks: 5546886/99G read, 3070281/105G written.
+Processes: 407 total, 18 running, 9 stuck, 380 sleeping, 2633 threads 
+2021/03/11 11:15:37
+Load Avg: 2.58, 0.64, 0.23 
+CPU usage: 51.63% user, 41.84% sys, 6.52% idle 
+SharedLibs: 416M resident, 71M data, 45M linkedit.
+MemRegions: 92119 total, 4304M resident, 216M private, 2999M shared.
+PhysMem: 12G used (4219M wired), 20G unused.
+VM: 2553G vsize, 1998M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 12426/13M in, 18588/3234K out.
+Disks: 192461/3129M read, 47233/430M written.
 
-COMMAND          MEM   %CPU #TH 
-com.docker.hyper 29G   0.0  20/5
-WindowServer     1647M 0.0  9   
-Microsoft Outloo 1643M 0.0  28  
-Terminal         731M  0.0  14  
-com.apple.WebKit 714M  0.0  8   
+COMMAND          MEM   %CPU #TH   
+WindowServer     1058M 0.0  12    
+Terminal         731M  0.0  20    
+NotificationCent 520M  0.0  6     
+com.apple.WebKit 258M  0.0  31    
+kernel_task      246M  0.0  262/16
+Processes: 407 total, 20 running, 9 stuck, 378 sleeping, 2633 threads 
+2021/03/11 11:15:37
+Load Avg: 2.58, 0.64, 0.23 
+CPU usage: 52.25% user, 41.9% sys, 6.65% idle 
+SharedLibs: 416M resident, 71M data, 45M linkedit.
+MemRegions: 92119 total, 4304M resident, 216M private, 2999M shared.
+PhysMem: 12G used (4219M wired), 20G unused.
+VM: 2553G vsize, 1998M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 12426/13M in, 18588/3234K out.
+Disks: 192461/3129M read, 47234/430M written.
+
+COMMAND          MEM   %CPU #TH   
+WindowServer     1058M 0.0  12    
+Terminal         731M  0.0  20    
+NotificationCent 520M  0.0  6     
+com.apple.WebKit 258M  0.0  31    
+kernel_task      246M  0.0  262/16
