@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   17.43  262  4.46   6  3 91  1.99 2.27 2.91
+   17.37  285  4.83   5  3 92  2.08 2.25 2.31
 
-Processes: 435 total, 3 running, 432 sleeping, 2233 threads 
-2021/03/16 00:40:21
-Load Avg: 1.99, 2.27, 2.91 
-CPU usage: 8.45% user, 8.93% sys, 82.60% idle 
-SharedLibs: 321M resident, 73M data, 28M linkedit.
-MemRegions: 136365 total, 7060M resident, 234M private, 2124M shared.
-PhysMem: 19G used (3537M wired), 13G unused.
-VM: 4030G vsize, 1991M framework vsize, 37651(0) swapins, 44971(0) swapouts.
-Networks: packets: 132701/129M in, 218041/52M out.
-Disks: 467156/8166M read, 146095/2274M written.
+Processes: 449 total, 2 running, 447 sleeping, 2273 threads 
+2021/03/16 01:06:52
+Load Avg: 2.08, 2.25, 2.31 
+CPU usage: 2.21% user, 6.37% sys, 91.41% idle 
+SharedLibs: 278M resident, 73M data, 28M linkedit.
+MemRegions: 144238 total, 4417M resident, 137M private, 18G shared.
+PhysMem: 32G used (3956M wired), 69M unused.
+VM: 3908G vsize, 1991M framework vsize, 79144(0) swapins, 179707(0) swapouts.
+Networks: packets: 330287/365M in, 451164/89M out.
+Disks: 840184/13G read, 279481/5205M written.
 
-COMMAND          MEM  %CPU #TH   
-WindowServer     821M 0.0  11    
-com.apple.WebKit 492M 0.0  24    
-com.apple.WebKit 470M 0.0  4     
-NotificationCent 336M 0.0  4     
-kernel_task      306M 0.0  266/19
-Processes: 434 total, 3 running, 431 sleeping, 2234 threads 
-2021/03/16 00:40:21
-Load Avg: 1.99, 2.27, 2.91 
-CPU usage: 8.83% user, 7.12% sys, 84.4% idle 
-SharedLibs: 321M resident, 73M data, 28M linkedit.
-MemRegions: 136304 total, 7059M resident, 234M private, 2122M shared.
-PhysMem: 19G used (3537M wired), 13G unused.
-VM: 4026G vsize, 1998M framework vsize, 37651(0) swapins, 44971(0) swapouts.
-Networks: packets: 132717/129M in, 218196/52M out.
-Disks: 467161/8166M read, 146107/2274M written.
-
-COMMAND          MEM  %CPU #TH
-WindowServer     824M 0.0  11 
-com.apple.WebKit 491M 0.0  24 
-com.apple.WebKit 470M 0.0  4  
-NotificationCent 336M 0.0  4  
-com.apple.WebKit 305M 0.0  9  
+COMMAND          MEM   %CPU #TH   
+com.docker.hyper 17G   0.0  19    
+WindowServer     1443M 0.0  10    
+com.apple.WebKit 646M  0.0  4     
+mds_stores       493M  0.0  5     
+kernel_task      406M  0.0  270/16
