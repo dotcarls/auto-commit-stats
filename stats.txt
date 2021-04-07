@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   15.26 4391 65.43  21 20 59  23.67 5.05 1.79
+   15.16 4391 65.03  21 20 59  23.67 5.05 1.79
 
-Processes: 415 total, 25 running, 7 stuck, 383 sleeping, 2731 threads 
+Processes: 403 total, 44 running, 2 stuck, 357 sleeping, 2665 threads 
 2021/04/07 08:52:47
 Load Avg: 23.67, 5.05, 1.79 
-CPU usage: 54.4% user, 32.97% sys, 12.97% idle 
-SharedLibs: 460M resident, 78M data, 41M linkedit.
-MemRegions: 99040 total, 2663M resident, 198M private, 1522M shared.
-PhysMem: 11G used (3767M wired), 21G unused.
-VM: 2952G vsize, 2312M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 9573/7414K in, 10836/2171K out.
-Disks: 132826/2104M read, 29241/297M written.
+CPU usage: 55.34% user, 44.8% sys, 0.57% idle 
+SharedLibs: 462M resident, 78M data, 41M linkedit.
+MemRegions: 99155 total, 2782M resident, 197M private, 1528M shared.
+PhysMem: 11G used (3920M wired), 21G unused.
+VM: 2904G vsize, 2312M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 10146/7856K in, 11653/2330K out.
+Disks: 134229/2118M read, 29571/299M written.
 
-COMMAND          MEM   %CPU #TH 
-WindowServer     1122M 0.0  30  
-MRT              307M  0.0  3/1 
-Terminal         245M  0.0  20  
-Safari           229M  0.0  34/3
-Slack Helper (Re 145M  0.0  26/1
+COMMAND      MEM   %CPU #TH   
+WindowServer 1180M 0.0  30    
+MRT          307M  0.0  3     
+Safari       246M  0.0  34/3  
+Terminal     191M  0.0  15/1  
+kernel_task  181M  0.0  262/17
