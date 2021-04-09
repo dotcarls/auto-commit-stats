@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   15.67 4454 68.16  22 21 57  11.38 2.58 0.92
+   14.50 4694 66.45  23 20 56  8.84 3.14 1.22
 
-Processes: 403 total, 16 running, 7 stuck, 380 sleeping, 2425 threads 
-2021/04/09 08:42:13
-Load Avg: 11.38, 2.58, 0.92 
-CPU usage: 47.56% user, 39.76% sys, 12.67% idle 
-SharedLibs: 465M resident, 88M data, 42M linkedit.
-MemRegions: 96815 total, 2737M resident, 208M private, 1272M shared.
-PhysMem: 11G used (3387M wired), 21G unused.
-VM: 2503G vsize, 2305M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 20011/20M in, 17670/3515K out.
-Disks: 139535/2209M read, 34928/463M written.
+Processes: 427 total, 3 running, 2 stuck, 422 sleeping, 1987 threads 
+2021/04/09 08:42:56
+Load Avg: 8.84, 3.14, 1.22 
+CPU usage: 5.7% user, 25.7% sys, 69.85% idle 
+SharedLibs: 491M resident, 91M data, 46M linkedit.
+MemRegions: 103652 total, 2313M resident, 221M private, 17G shared.
+PhysMem: 28G used (2698M wired), 4287M unused.
+VM: 2549G vsize, 2305M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 38660/36M in, 45430/18M out.
+Disks: 322123/4667M read, 64568/904M written.
 
-COMMAND      MEM  %CPU #TH 
-WindowServer 861M 0.0  29/1
-MRT          321M 0.0  4/1 
-Safari       184M 0.0  31  
-Terminal     170M 0.0  14  
-Finder       120M 0.0  20  
+COMMAND          MEM  %CPU #TH   
+com.docker.hyper 17G  0.0  19/1  
+WindowServer     414M 0.0  15    
+Finder           122M 0.0  6     
+repmgr           116M 0.0  21    
+kernel_task      81M  0.0  267/17
