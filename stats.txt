@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   23.32   47  1.07   4  3 92  2.96 2.97 2.96
+   23.38   48  1.09   5  3 92  2.31 2.38 2.46
 
-Processes: 581 total, 2 running, 579 sleeping, 2819 threads 
-2021/04/13 09:44:20
-Load Avg: 2.96, 2.97, 2.96 
-CPU usage: 3.12% user, 6.56% sys, 90.31% idle 
-SharedLibs: 492M resident, 82M data, 111M linkedit.
-MemRegions: 226484 total, 6553M resident, 206M private, 6523M shared.
-PhysMem: 31G used (4527M wired), 1456M unused.
-VM: 5410G vsize, 2305M framework vsize, 12520431(0) swapins, 13487717(0) swapouts.
-Networks: packets: 5939742/3724M in, 8898140/1903M out.
-Disks: 9300319/184G read, 7125316/182G written.
+Processes: 585 total, 3 running, 582 sleeping, 2788 threads 
+2021/04/13 10:53:35
+Load Avg: 2.31, 2.38, 2.46 
+CPU usage: 8.3% user, 7.75% sys, 84.20% idle 
+SharedLibs: 502M resident, 84M data, 112M linkedit.
+MemRegions: 239151 total, 7778M resident, 201M private, 6730M shared.
+PhysMem: 32G used (4318M wired), 354M unused.
+VM: 6277G vsize, 2305M framework vsize, 12528176(0) swapins, 13487717(0) swapouts.
+Networks: packets: 6073743/3793M in, 9021647/1923M out.
+Disks: 9506395/188G read, 7312015/187G written.
 
 COMMAND          MEM   %CPU #TH   
 com.docker.hyper 19G   0.0  20    
-kernel_task      1668M 0.0  271/16
-WindowServer     1564M 0.0  14    
-rust-analyzer-x8 941M  0.0  38    
-com.apple.WebKit 564M  0.0  6     
+kernel_task      1657M 0.0  271/16
+WindowServer     1559M 0.0  17    
+rust-analyzer-x8 1221M 0.0  38    
+Terminal         735M  0.0  12    
