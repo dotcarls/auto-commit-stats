@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   22.86   50  1.11   5  3 92  2.94 2.63 2.55
+   23.19   50  1.14   5  3 92  3.07 3.00 2.99
 
-Processes: 663 total, 3 running, 660 sleeping, 2971 threads 
-2021/04/13 13:03:01
-Load Avg: 2.94, 2.63, 2.55 
-CPU usage: 9.84% user, 7.12% sys, 83.3% idle 
-SharedLibs: 510M resident, 84M data, 115M linkedit.
-MemRegions: 291938 total, 8659M resident, 213M private, 7775M shared.
-PhysMem: 32G used (4462M wired), 293M unused.
-VM: 8482G vsize, 2305M framework vsize, 12613878(0) swapins, 13673177(0) swapouts.
-Networks: packets: 6348524/4093M in, 9259319/1964M out.
-Disks: 10222607/197G read, 7748872/195G written.
+Processes: 678 total, 3 running, 675 sleeping, 3333 threads 
+2021/04/13 13:38:33
+Load Avg: 3.07, 3.00, 2.99 
+CPU usage: 12.20% user, 8.2% sys, 79.76% idle 
+SharedLibs: 512M resident, 85M data, 115M linkedit.
+MemRegions: 310917 total, 1912M resident, 69M private, 17G shared.
+PhysMem: 32G used (5049M wired), 134M unused.
+VM: 8585G vsize, 2312M framework vsize, 13204536(0) swapins, 15086729(0) swapouts.
+Networks: packets: 6466572/4168M in, 9407301/1998M out.
+Disks: 10490175/204G read, 7850632/202G written.
 
 COMMAND          MEM   %CPU #TH   
-com.docker.hyper 19G   0.0  20    
-WindowServer     1833M 0.0  14    
-kernel_task      1537M 0.0  271/16
-rust-analyzer-x8 1398M 0.0  38    
-Terminal         872M  0.0  13    
+com.docker.hyper 17G   0.0  19    
+kernel_task      1851M 0.0  271/16
+WindowServer     1810M 0.0  15    
+rust-analyzer-x8 1605M 0.0  38    
+Terminal         578M  0.0  10    
