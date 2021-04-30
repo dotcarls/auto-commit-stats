@@ -1,21 +1,38 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   15.88 4697 72.85  23 20 57  20.40 4.58 1.64
+   15.84 4694 72.60  23 20 56  20.40 4.58 1.64
 
-Processes: 469 total, 29 running, 10 stuck, 430 sleeping, 2940 threads 
-2021/04/30 11:02:07
+Processes: 467 total, 30 running, 2 stuck, 435 sleeping, 2910 threads 
+2021/04/30 11:02:08
 Load Avg: 20.40, 4.58, 1.64 
-CPU usage: 52.0% user, 46.74% sys, 1.24% idle 
-SharedLibs: 482M resident, 92M data, 46M linkedit.
-MemRegions: 110392 total, 3006M resident, 239M private, 2559M shared.
-PhysMem: 13G used (3849M wired), 19G unused.
-VM: 2979G vsize, 2325M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 15043/13M in, 16524/2659K out.
-Disks: 175651/2954M read, 44317/454M written.
+CPU usage: 57.0% user, 42.25% sys, 0.73% idle 
+SharedLibs: 482M resident, 92M data, 47M linkedit.
+MemRegions: 111284 total, 3146M resident, 240M private, 2555M shared.
+PhysMem: 13G used (3742M wired), 19G unused.
+VM: 2972G vsize, 2325M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 15177/13M in, 16673/2725K out.
+Disks: 177451/2968M read, 44355/454M written.
 
 COMMAND          MEM   %CPU #TH 
-WindowServer     1190M 0.0  18/2
-Terminal         649M  0.0  21  
-com.apple.WebKit 192M  0.0  18/1
-Finder           185M  0.0  30  
-Safari           168M  0.0  27  
+WindowServer     1194M 0.0  18/1
+Terminal         705M  0.0  21/2
+com.apple.WebKit 257M  0.0  19/1
+Finder           198M  0.0  30/1
+Safari           168M  0.0  20/2
+Processes: 475 total, 33 running, 3 stuck, 439 sleeping, 2932 threads 
+2021/04/30 11:02:08
+Load Avg: 20.40, 4.58, 1.64 
+CPU usage: 56.20% user, 38.56% sys, 5.23% idle 
+SharedLibs: 482M resident, 92M data, 47M linkedit.
+MemRegions: 112128 total, 3177M resident, 241M private, 2555M shared.
+PhysMem: 13G used (3744M wired), 19G unused.
+VM: 3006G vsize, 2325M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 15217/13M in, 16953/2751K out.
+Disks: 177843/2975M read, 44360/454M written.
+
+COMMAND          MEM   %CPU #TH   
+WindowServer     1194M 0.0  18/1  
+Terminal         705M  0.0  21/2  
+com.apple.WebKit 295M  0.0  19/1  
+Finder           198M  0.0  30/4  
+kernel_task      171M  0.0  263/16
