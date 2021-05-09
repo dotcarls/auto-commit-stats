@@ -1,39 +1,23 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   14.16 5530 76.48  22 21 56  23.50 5.08 1.81
+   15.05 5508 80.98  25 23 52  57.09 12.35 4.39
 
 
-Processes: 432 total, 209 running, 223 sleeping, 3039 threads 
-2021/05/08 19:36:31
+
+Processes: 450 total, 111 running, 6 stuck, 333 sleeping, 3184 threads 
+2021/05/08 19:36:34
 Load Avg: 57.09, 12.35, 4.39 
-CPU usage: 59.81% user, 40.18% sys, 0.0% idle 
-SharedLibs: 447M resident, 88M data, 45M linkedit.
-MemRegions: 102796 total, 2536M resident, 230M private, 1535M shared.
-PhysMem: 11G used (3503M wired), 21G unused.
-VM: 2801G vsize, 2325M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 8472/5454K in, 10972/2441K out.
-Disks: 185488/3364M read, 93106/749M written.
-
-COMMAND       MEM  %CPU #TH   
-WindowServer  730M 0.0  29/3  
-kernel_task   215M 0.0  268/16
-Google Chrome 112M 0.0  48/8  
-Slack         82M  0.0  43/6  
-repmgr        79M  0.0  23/2  
-Processes: 429 total, 209 running, 220 sleeping, 3034 threads 
-2021/05/08 19:36:31
-Load Avg: 57.09, 12.35, 4.39 
-CPU usage: 60.48% user, 39.51% sys, 0.0% idle 
-SharedLibs: 448M resident, 88M data, 45M linkedit.
-MemRegions: 102697 total, 2540M resident, 229M private, 1545M shared.
-PhysMem: 11G used (3514M wired), 21G unused.
-VM: 2788G vsize, 2325M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 8493/5457K in, 10996/2448K out.
-Disks: 185606/3375M read, 93177/750M written.
+CPU usage: 60.77% user, 37.7% sys, 2.14% idle 
+SharedLibs: 460M resident, 88M data, 45M linkedit.
+MemRegions: 112114 total, 2868M resident, 240M private, 2199M shared.
+PhysMem: 12G used (3860M wired), 20G unused.
+VM: 3038G vsize, 2325M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 10046/6511K in, 13936/3048K out.
+Disks: 199112/3543M read, 94150/757M written.
 
 COMMAND          MEM  %CPU #TH   
-WindowServer     730M 0.0  29/2  
-kernel_task      215M 0.0  268/17
-Google Chrome    112M 0.0  46/8  
-Slack            82M  0.0  43/6  
-Slack Helper (Re 81M  0.0  19/3  
+WindowServer     922M 0.0  21    
+kernel_task      343M 0.0  269/18
+Terminal         331M 0.0  23/5  
+Finder           128M 0.0  30    
+Slack Helper (Re 126M 0.0  26/1  
