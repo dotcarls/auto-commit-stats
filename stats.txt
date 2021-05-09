@@ -1,21 +1,39 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   25.47   66  1.64   4  3 93  2.26 2.16 2.39
+   14.16 5530 76.48  22 21 56  23.50 5.08 1.81
 
-Processes: 780 total, 3 running, 777 sleeping, 3759 threads 
-2021/05/06 22:07:13
-Load Avg: 2.26, 2.16, 2.39 
-CPU usage: 4.25% user, 7.28% sys, 88.46% idle 
-SharedLibs: 584M resident, 99M data, 141M linkedit.
-MemRegions: 354189 total, 3095M resident, 77M private, 14G shared.
-PhysMem: 32G used (5529M wired), 336M unused.
-VM: 8969G vsize, 2318M framework vsize, 8698469(0) swapins, 10717037(0) swapouts.
-Networks: packets: 17417902/21G in, 12574271/1734M out.
-Disks: 7485669/136G read, 3608124/134G written.
 
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 29G   0.0  19    
-WindowServer     2349M 0.0  16    
-Microsoft Outloo 881M  0.0  24    
-kernel_task      792M  0.0  271/16
-Terminal         667M  0.0  12    
+Processes: 432 total, 209 running, 223 sleeping, 3039 threads 
+2021/05/08 19:36:31
+Load Avg: 57.09, 12.35, 4.39 
+CPU usage: 59.81% user, 40.18% sys, 0.0% idle 
+SharedLibs: 447M resident, 88M data, 45M linkedit.
+MemRegions: 102796 total, 2536M resident, 230M private, 1535M shared.
+PhysMem: 11G used (3503M wired), 21G unused.
+VM: 2801G vsize, 2325M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 8472/5454K in, 10972/2441K out.
+Disks: 185488/3364M read, 93106/749M written.
+
+COMMAND       MEM  %CPU #TH   
+WindowServer  730M 0.0  29/3  
+kernel_task   215M 0.0  268/16
+Google Chrome 112M 0.0  48/8  
+Slack         82M  0.0  43/6  
+repmgr        79M  0.0  23/2  
+Processes: 429 total, 209 running, 220 sleeping, 3034 threads 
+2021/05/08 19:36:31
+Load Avg: 57.09, 12.35, 4.39 
+CPU usage: 60.48% user, 39.51% sys, 0.0% idle 
+SharedLibs: 448M resident, 88M data, 45M linkedit.
+MemRegions: 102697 total, 2540M resident, 229M private, 1545M shared.
+PhysMem: 11G used (3514M wired), 21G unused.
+VM: 2788G vsize, 2325M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 8493/5457K in, 10996/2448K out.
+Disks: 185606/3375M read, 93177/750M written.
+
+COMMAND          MEM  %CPU #TH   
+WindowServer     730M 0.0  29/2  
+kernel_task      215M 0.0  268/17
+Google Chrome    112M 0.0  46/8  
+Slack            82M  0.0  43/6  
+Slack Helper (Re 81M  0.0  19/3  
