@@ -1,21 +1,52 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.81  181  2.97   3  2 95  2.05 1.91 2.01
+   15.88 4922 76.35  22 20 58  24.78 5.47 1.95
+ser, 39.82% sys, 0.55% idle 
+SharedLibs: 419M resident, 85M data, 43M linkedit.
+MemRegions: 94937 total, 2030M resident, 208M private, 2292M shared.
+PhysMem: 11G used (3664M wired), 21G unused.
+VM: 2724G vsize, 2325M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 8064/4903K in, 10393/1902K out.
+Disks: 151141/2639M read, 50835/496M written.
 
-Processes: 528 total, 2 running, 526 sleeping, 2384 threads 
-2021/05/08 21:19:45
-Load Avg: 2.05, 1.91, 2.01 
-CPU usage: 2.5% user, 5.92% sys, 92.2% idle 
-SharedLibs: 535M resident, 91M data, 48M linkedit.
-MemRegions: 176409 total, 3158M resident, 107M private, 18G shared.
-PhysMem: 32G used (3582M wired), 249M unused.
-VM: 4600G vsize, 2318M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 185700/128M in, 209618/61M out.
-Disks: 776448/12G read, 355121/6440M written.
+COMMAND       MEM  %CPU #TH   
+WindowServer  983M 0.0  30    
+Terminal      706M 0.0  24    
+kernel_task   177M 0.0  268/16
+Finder        128M 0.0  24/2  
+Google Chrome 107M 0.0  46    
+Processes: 437 total, 60 running, 6 stuck, 371 sleeping, 2651 threads 
+2021/05/10 11:09:32
+Load Avg: 24.78, 5.47, 1.95 
+CPU usage: 56.17% user, 42.97% sys, 0.84% idle 
+SharedLibs: 420M resident, 85M data, 43M linkedit.
+MemRegions: 95420 total, 2044M resident, 209M private, 2425M shared.
+PhysMem: 11G used (3672M wired), 21G unused.
+VM: 2742G vsize, 2325M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 8068/4904K in, 10397/1905K out.
+Disks: 151344/2643M read, 50927/497M written.
 
-COMMAND          MEM  %CPU #TH   
-com.docker.hyper 17G  0.0  20    
-WindowServer     879M 0.0  14    
-Terminal         568M 0.0  14    
-kernel_task      388M 0.0  270/16
-Safari           264M 0.0  6     
+COMMAND       MEM   %CPU #TH   
+WindowServer  1012M 0.0  29    
+Terminal      491M  0.0  24/3  
+kernel_task   175M  0.0  268/16
+Finder        127M  0.0  24/1  
+Google Chrome 107M  0.0  46/3  
+
+Processes: 433 total, 59 running, 3 stuck, 371 sleeping, 2631 threads 
+2021/05/10 11:09:32
+Load Avg: 24.78, 5.47, 1.95 
+CPU usage: 52.7% user, 47.14% sys, 0.77% idle 
+SharedLibs: 421M resident, 85M data, 43M linkedit.
+MemRegions: 95488 total, 2056M resident, 209M private, 2418M shared.
+PhysMem: 11G used (3696M wired), 21G unused.
+VM: 2727G vsize, 2325M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 8172/5040K in, 10447/1912K out.
+Disks: 151756/2651M read, 50936/497M written.
+
+COMMAND       MEM   %CPU #TH   
+WindowServer  1014M 0.0  29    
+Terminal      547M  0.0  24/2  
+kernel_task   176M  0.0  268/16
+Finder        128M  0.0  25/1  
+Google Chrome 110M  0.0  46/2  
