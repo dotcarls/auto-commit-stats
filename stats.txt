@@ -1,86 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   17.32 5000 84.55  25 22 53  8.36 2.01 0.73
-ser, 48.26% sys, 3.16% idle 
-SharedLibs: 487M resident, 91M data, 47M linkedit.
-MemRegions: 128850 total, 3224M resident, 266M private, 3824M shared.
-PhysMem: 15G used (4431M wired), 17G unused.
-VM: 3678G vsize, 2325M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 10455/6248K in, 14760/12M out.
-Disks: 196306/3725M read, 51360/466M written.
+   17.87 5062 88.37  28 22 50  9.64 2.61 0.96
+
+Processes: 581 total, 8 running, 2 stuck, 571 sleeping, 2955 threads 
+2021/05/16 14:32:37
+Load Avg: 9.64, 2.61, 0.96 
+CPU usage: 24.71% user, 20.27% sys, 55.1% idle 
+SharedLibs: 497M resident, 92M data, 48M linkedit.
+MemRegions: 145211 total, 3998M resident, 292M private, 11G shared.
+PhysMem: 25G used (4168M wired), 7535M unused.
+VM: 3913G vsize, 2318M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 39526/16M in, 31272/17M out.
+Disks: 257481/4841M read, 65962/805M written.
 
 COMMAND          MEM   %CPU #TH   
-WindowServer     1364M 0.0  16/1  
-Terminal         867M  0.0  21    
-kernel_task      256M  0.0  272/16
-Safari           215M  0.0  23/4  
-Microsoft Outloo 187M  0.0  30/6  
-Processes: 546 total, 56 running, 7 stuck, 483 sleeping, 3241 threads 
-2021/05/16 14:32:23
-Load Avg: 8.36, 2.01, 0.73 
-CPU usage: 48.57% user, 47.76% sys, 3.65% idle 
-SharedLibs: 487M resident, 91M data, 47M linkedit.
-MemRegions: 128868 total, 3224M resident, 266M private, 3824M shared.
-PhysMem: 15G used (4430M wired), 17G unused.
-VM: 3678G vsize, 2325M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 10455/6248K in, 14760/12M out.
-Disks: 196306/3725M read, 51360/466M written.
-
-COMMAND          MEM   %CPU #TH   
-WindowServer     1364M 0.0  16/1  
-Terminal         867M  0.0  21    
-kernel_task      256M  0.0  272/16
-Safari           215M  0.0  23/4  
-Microsoft Outloo 187M  0.0  30/3  
-
-Processes: 546 total, 48 running, 9 stuck, 489 sleeping, 3241 threads 
-2021/05/16 14:32:23
-Load Avg: 8.36, 2.01, 0.73 
-CPU usage: 47.38% user, 46.84% sys, 5.76% idle 
-SharedLibs: 487M resident, 91M data, 47M linkedit.
-MemRegions: 129003 total, 3227M resident, 266M private, 3824M shared.
-PhysMem: 15G used (4463M wired), 17G unused.
-VM: 3679G vsize, 2325M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 10494/6259K in, 14798/12M out.
-Disks: 196875/3733M read, 51370/466M written.
-
-COMMAND          MEM   %CPU #TH   
-WindowServer     1364M 0.0  16/1  
-Terminal         867M  0.0  21    
-kernel_task      256M  0.0  272/16
-Safari           215M  0.0  23/4  
-Microsoft Outloo 187M  0.0  30/2  
-Processes: 545 total, 48 running, 10 stuck, 487 sleeping, 3240 threads 
-2021/05/16 14:32:23
-Load Avg: 8.36, 2.01, 0.73 
-CPU usage: 47.27% user, 47.4% sys, 5.68% idle 
-SharedLibs: 487M resident, 91M data, 47M linkedit.
-MemRegions: 128932 total, 3225M resident, 266M private, 3824M shared.
-PhysMem: 15G used (4461M wired), 17G unused.
-VM: 3674G vsize, 2325M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 10494/6259K in, 14798/12M out.
-Disks: 196875/3733M read, 51370/466M written.
-
-COMMAND          MEM   %CPU #TH   
-WindowServer     1364M 0.0  16/1  
-Terminal         867M  0.0  21    
-kernel_task      256M  0.0  272/16
-Safari           215M  0.0  23    
-Microsoft Outloo 187M  0.0  30    
-Processes: 543 total, 43 running, 17 stuck, 483 sleeping, 3239 threads 
-2021/05/16 14:32:24
-Load Avg: 9.05, 2.25, 0.82 
-CPU usage: 49.4% user, 42.51% sys, 8.44% idle 
-SharedLibs: 487M resident, 91M data, 47M linkedit.
-MemRegions: 131446 total, 3357M resident, 270M private, 3860M shared.
-PhysMem: 16G used (4405M wired), 16G unused.
-VM: 3675G vsize, 2325M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 10759/6379K in, 15304/12M out.
-Disks: 199559/3756M read, 51500/468M written.
-
-COMMAND          MEM   %CPU #TH   
-WindowServer     1402M 0.0  16    
-Terminal         868M  0.0  21    
-kernel_task      293M  0.0  272/17
-Microsoft Outloo 226M  0.0  32/6  
-Safari           215M  0.0  22    
+com.docker.hyper 8228M 0.0  10/1  
+WindowServer     1062M 0.0  15    
+Terminal         762M  0.0  7     
+kernel_task      294M  0.0  274/17
+Microsoft Outloo 275M  0.0  29    
