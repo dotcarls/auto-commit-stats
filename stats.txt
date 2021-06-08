@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.15 1123 19.90   8  8 83  8.75 10.17 5.40
+   18.12 1386 24.52  11 11 78  4.67 5.97 5.00
 
-Processes: 420 total, 7 running, 29 stuck, 384 sleeping, 2046 threads 
-2021/06/08 10:44:11
-Load Avg: 8.75, 10.17, 5.40 
-CPU usage: 47.11% user, 34.22% sys, 18.66% idle 
-SharedLibs: 238M resident, 59M data, 40M linkedit.
-MemRegions: 67103 total, 1302M resident, 81M private, 8785M shared.
-PhysMem: 16G used (2432M wired), 91M unused.
-VM: 2379G vsize, 1112M framework vsize, 122627(0) swapins, 239651(0) swapouts.
-Networks: packets: 2028854/2891M in, 839426/60M out.
-Disks: 1100651/15G read, 219351/7747M written.
+Processes: 430 total, 5 running, 8 stuck, 417 sleeping, 1875 threads 
+2021/06/08 10:50:39
+Load Avg: 4.67, 5.97, 5.00 
+CPU usage: 34.72% user, 38.42% sys, 26.85% idle 
+SharedLibs: 244M resident, 60M data, 41M linkedit.
+MemRegions: 69908 total, 1023M resident, 63M private, 8587M shared.
+PhysMem: 16G used (2735M wired), 97M unused.
+VM: 2468G vsize, 1112M framework vsize, 284965(0) swapins, 457631(0) swapouts.
+Networks: packets: 2684847/3796M in, 1113142/96M out.
+Disks: 1665986/23G read, 501485/15G written.
 
 COMMAND          MEM    %CPU #TH  
-kernel_task      1512M+ 0.0  170/8
-com.docker.hyper 392M+  0.0  18   
-EpicGamesLaunche 75M+   0.0  45   
-com.apple.WebKit 55M+   0.0  7    
-cloudphotosd     55M+   0.0  18/1 
+com.docker.hyper 1666M+ 0.0  14   
+kernel_task      1549M+ 0.0  170/8
+Terminal         88M+   0.0  8    
+node             87M+   0.0  10   
+dscl             78M+   0.0  4/1  
