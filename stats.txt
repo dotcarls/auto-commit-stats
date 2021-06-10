@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   28.88  206  5.82     2.74    0  0.00   6  4 90  1.83 1.98 1.79
+   28.88  206  5.82     2.74    0  0.00   6  4 90  1.77 1.97 1.78
 
-Processes: 662 total, 2 running, 660 sleeping, 3080 threads 
-2021/06/10 14:12:37
-Load Avg: 1.83, 1.98, 1.79 
-CPU usage: 3.19% user, 6.38% sys, 90.42% idle 
+Processes: 657 total, 5 running, 652 sleeping, 3039 threads 
+2021/06/10 14:12:43
+Load Avg: 1.77, 1.97, 1.78 
+CPU usage: 5.53% user, 7.32% sys, 87.14% idle 
 SharedLibs: 388M resident, 88M data, 33M linkedit.
-MemRegions: 370296 total, 6002M resident, 171M private, 11G shared.
-PhysMem: 32G used (4543M wired), 87M unused.
-VM: 9788G vsize, 1993M framework vsize, 6028258(0) swapins, 7077029(0) swapouts.
-Networks: packets: 245457442/318G in, 256766925/23G out.
-Disks: 14321602/350G read, 20589494/611G written.
+MemRegions: 370076 total, 6000M resident, 170M private, 11G shared.
+PhysMem: 32G used (4570M wired), 166M unused.
+VM: 9767G vsize, 2000M framework vsize, 6028258(0) swapins, 7077029(0) swapouts.
+Networks: packets: 245457602/318G in, 256767251/23G out.
+Disks: 14322820/350G read, 20589886/611G written.
 
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 18G   0.0  16 
-WindowServer     1478M 0.0  9  
-Safari           597M  0.0  10 
-Code Helper (GPU 484M  0.0  8  
-mds_stores       478M  0.0  5  
+COMMAND          MEM   %CPU #TH 
+com.docker.hyper 18G   0.0  16  
+WindowServer     1471M 0.0  10/1
+Safari           597M  0.0  9   
+Terminal         510M  0.0  10  
+Code Helper (GPU 480M  0.0  8   
