@@ -1,34 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   29.24  208  5.94     2.83    0  0.00   6  4 90  1.59 1.61 1.67
-nkedit.
-MemRegions: 302019 total, 5982M resident, 180M private, 13G shared.
-PhysMem: 32G used (4589M wired), 146M unused.
-VM: 6448G vsize, 2000M framework vsize, 5897525(0) swapins, 6868215(0) swapouts.
-Networks: packets: 243842626/316G in, 255741971/22G out.
-Disks: 13413163/333G read, 20116628/601G written.
+   29.24  208  5.94     2.83    0  0.00   6  4 90  1.62 1.62 1.67
+
+Processes: 582 total, 3 running, 579 sleeping, 2756 threads 
+2021/06/10 12:00:53
+Load Avg: 1.62, 1.62, 1.67 
+CPU usage: 2.86% user, 12.64% sys, 84.48% idle 
+SharedLibs: 387M resident, 87M data, 33M linkedit.
+MemRegions: 302167 total, 6021M resident, 181M private, 13G shared.
+PhysMem: 32G used (4467M wired), 190M unused.
+VM: 6441G vsize, 1993M framework vsize, 5897589(0) swapins, 6868215(0) swapouts.
+Networks: packets: 243843630/316G in, 255743933/22G out.
+Disks: 13416976/333G read, 20116715/601G written.
 
 COMMAND          MEM   %CPU #TH
 com.docker.hyper 18G   0.0  16 
-WindowServer     1459M 0.0  10 
-Terminal         758M  0.0  11 
-Safari           521M  0.0  11 
+WindowServer     1486M 0.0  10 
+Terminal         648M  0.0  10 
+Safari           520M  0.0  9  
 com.apple.WebKit 504M  0.0  18 
-
-Processes: 580 total, 5 running, 575 sleeping, 2710 threads 
-2021/06/10 12:00:48
-Load Avg: 1.59, 1.61, 1.67 
-CPU usage: 3.64% user, 6.84% sys, 89.51% idle 
-SharedLibs: 387M resident, 87M data, 33M linkedit.
-MemRegions: 301839 total, 5977M resident, 179M private, 13G shared.
-PhysMem: 32G used (4574M wired), 143M unused.
-VM: 6432G vsize, 1993M framework vsize, 5897525(0) swapins, 6868215(0) swapouts.
-Networks: packets: 243842643/316G in, 255741988/22G out.
-Disks: 13413180/333G read, 20116640/601G written.
-
-COMMAND          MEM   %CPU #TH 
-com.docker.hyper 18G   0.0  16  
-WindowServer     1491M 0.0  10/2
-Terminal         649M  0.0  11  
-Safari           521M  0.0  11  
-com.apple.WebKit 504M  0.0  18  
