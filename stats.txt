@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   40.12   11  0.44   3  2 95  2.23 2.50 2.62
+   40.08   11  0.44   3  2 95  4.30 2.53 2.57
 
-Processes: 474 total, 2 running, 472 sleeping, 2074 threads 
-2021/09/08 20:39:36
-Load Avg: 2.23, 2.50, 2.62 
-CPU usage: 9.5% user, 8.63% sys, 82.31% idle 
+Processes: 542 total, 13 running, 3 stuck, 526 sleeping, 2837 threads 
+2021/09/08 20:42:16
+Load Avg: 4.30, 2.53, 2.57 
+CPU usage: 52.27% user, 32.71% sys, 15.0% idle 
 SharedLibs: 342M resident, 42M data, 32M linkedit.
-MemRegions: 181274 total, 2879M resident, 142M private, 1555M shared.
-PhysMem: 13G used (3530M wired), 19G unused.
-VM: 3527G vsize, 1993M framework vsize, 75907877(0) swapins, 78700001(0) swapouts.
-Networks: packets: 23666478/20G in, 35076509/16G out.
-Disks: 14603282/475G read, 8149817/395G written.
+MemRegions: 227681 total, 4379M resident, 180M private, 2134M shared.
+PhysMem: 18G used (4961M wired), 14G unused.
+VM: 4946G vsize, 2000M framework vsize, 75942958(0) swapins, 78700001(0) swapouts.
+Networks: packets: 23674293/20G in, 35086008/16G out.
+Disks: 14636504/476G read, 8158194/396G written.
 
 COMMAND          MEM   %CPU #TH   
-WindowServer     1347M 0.0  8     
-kernel_task      483M  0.0  368/16
-mds_stores       416M  0.0  5     
+WindowServer     1541M 0.0  10    
+kernel_task      890M  0.0  368/16
+Code Helper (GPU 809M  0.0  10    
+mds_stores       420M  0.0  6/1   
 softwareupdated  347M  0.0  6     
-QuickLookUIServi 342M  0.0  16    
