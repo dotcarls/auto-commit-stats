@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   50.49   16  0.79   5  4 91  8.68 3.44 2.72
+   49.64   17  0.81   5  4 91  3.24 3.09 2.67
 
-Processes: 504 total, 5 running, 4 stuck, 495 sleeping, 2835 threads 
-2021/10/04 15:13:19
-Load Avg: 8.68, 3.44, 2.72 
-CPU usage: 39.85% user, 33.66% sys, 26.48% idle 
-SharedLibs: 373M resident, 49M data, 33M linkedit.
-MemRegions: 180440 total, 4917M resident, 192M private, 2278M shared.
-PhysMem: 20G used (4886M wired), 12G unused.
-VM: 4727G vsize, 2000M framework vsize, 4710294(0) swapins, 5115940(0) swapouts.
-Networks: packets: 2511885/3373M in, 3540617/540M out.
-Disks: 927401/35G read, 358855/27G written.
-
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 10G   0.0  16    
-WindowServer     1481M 0.0  11/1  
-Code Helper (GPU 771M  0.0  10    
-Microsoft Outloo 550M  0.0  33    
-kernel_task      491M  0.0  272/16
-Processes: 501 total, 8 running, 2 stuck, 491 sleeping, 2824 threads 
-2021/10/04 15:13:19
-Load Avg: 8.68, 3.44, 2.72 
-CPU usage: 37.3% user, 31.41% sys, 31.55% idle 
-SharedLibs: 373M resident, 49M data, 33M linkedit.
-MemRegions: 180511 total, 4923M resident, 192M private, 2279M shared.
-PhysMem: 20G used (4836M wired), 12G unused.
-VM: 4715G vsize, 1993M framework vsize, 4710358(0) swapins, 5115940(0) swapouts.
-Networks: packets: 2512560/3373M in, 3541599/540M out.
-Disks: 927954/35G read, 358976/27G written.
+Processes: 488 total, 3 running, 485 sleeping, 2569 threads 
+2021/10/04 15:15:20
+Load Avg: 3.24, 3.09, 2.67 
+CPU usage: 6.38% user, 18.76% sys, 74.85% idle 
+SharedLibs: 390M resident, 51M data, 34M linkedit.
+MemRegions: 182986 total, 5272M resident, 191M private, 2375M shared.
+PhysMem: 20G used (3845M wired), 12G unused.
+VM: 4572G vsize, 2000M framework vsize, 4722908(0) swapins, 5115940(0) swapouts.
+Networks: packets: 2609300/3506M in, 3614245/548M out.
+Disks: 956695/35G read, 378490/28G written.
 
 COMMAND          MEM   %CPU #TH   
 com.docker.hyper 10G   0.0  16    
-WindowServer     1481M 0.0  11/1  
-Code Helper (GPU 776M  0.0  10    
-Microsoft Outloo 551M  0.0  33/1  
-kernel_task      491M  0.0  272/16
+WindowServer     1264M 0.0  10    
+Microsoft Outloo 601M  0.0  16    
+Code Helper (GPU 587M  0.0  9     
+kernel_task      448M  0.0  272/16
