@@ -1,39 +1,21 @@
-              disk0               disk2       cpu    load average
-    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.85 3933 80.07    22.58    5  0.10  26 14 60  8.88 2.09 0.76
+              disk0       cpu    load average
+    KB/t  tps  MB/s  us sy id   1m   5m   15m
+   51.03   16  0.79   5  4 91  1.95 1.98 2.20
 
+Processes: 477 total, 19 running, 2 stuck, 456 sleeping, 2674 threads 
+2021/10/04 15:13:13
+Load Avg: 1.95, 1.98, 2.20 
+CPU usage: 62.9% user, 37.50% sys, 0.40% idle 
+SharedLibs: 371M resident, 49M data, 33M linkedit.
+MemRegions: 164679 total, 4436M resident, 180M private, 2129M shared.
+PhysMem: 18G used (4871M wired), 14G unused.
+VM: 4503G vsize, 2000M framework vsize, 4703414(0) swapins, 5115940(0) swapouts.
+Networks: packets: 2503899/3362M in, 3528806/539M out.
+Disks: 914339/34G read, 355653/27G written.
 
-Processes: 460 total, 70 running, 9 stuck, 379 sleeping, 2 unknown, 3123 threads 
-2021/10/03 16:58:38
-Load Avg: 9.13, 2.26, 0.82 
-CPU usage: 56.42% user, 35.48% sys, 8.9% idle 
-SharedLibs: 414M resident, 64M data, 43M linkedit.
-MemRegions: 142481 total, 4876M resident, 264M private, 2017M shared.
-PhysMem: 14G used (2991M wired), 18G unused.
-VM: 3843G vsize, 1993M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1989/257K in, 1788/3129K out.
-Disks: 204147/4347M read, 22355/318M written.
-
-COMMAND          MEM  %CPU #TH 
-Microsoft Outloo 298M 0.0  30/1
-Code Helper (Ren 237M 0.0  39  
-Code Helper (Ren 222M 0.0  38  
-Code Helper (Ren 204M 0.0  38  
-Code Helper (Ren 189M 0.0  36  
-Processes: 460 total, 75 running, 7 stuck, 376 sleeping, 2 unknown, 3123 threads 
-2021/10/03 16:58:38
-Load Avg: 9.13, 2.26, 0.82 
-CPU usage: 56.40% user, 35.50% sys, 8.9% idle 
-SharedLibs: 414M resident, 64M data, 43M linkedit.
-MemRegions: 142488 total, 4877M resident, 264M private, 2016M shared.
-PhysMem: 14G used (2991M wired), 18G unused.
-VM: 3843G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1989/257K in, 1788/3129K out.
-Disks: 204147/4347M read, 22355/318M written.
-
-COMMAND          MEM  %CPU #TH 
-Microsoft Outloo 298M 0.0  30/1
-Code Helper (Ren 237M 0.0  39  
-Code Helper (Ren 222M 0.0  38  
-Code Helper (Ren 204M 0.0  38  
-Code Helper (Ren 189M 0.0  36  
+COMMAND          MEM   %CPU #TH   
+com.docker.hyper 10G   0.0  16    
+WindowServer     1416M 0.0  10/1  
+Code Helper (GPU 749M  0.0  10    
+Microsoft Outloo 675M  0.0  35/1  
+kernel_task      425M  0.0  272/16
