@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   61.00    9  0.56   5  3 92  2.02 4.68 3.93
+   61.59    9  0.55   5  3 92  3.20 2.86 3.23
 
-Processes: 463 total, 3 running, 1 stuck, 459 sleeping, 2112 threads 
-2021/10/21 13:20:36
-Load Avg: 2.02, 4.68, 3.93 
-CPU usage: 2.92% user, 8.51% sys, 88.56% idle 
-SharedLibs: 341M resident, 47M data, 35M linkedit.
-MemRegions: 163443 total, 3853M resident, 155M private, 1306M shared.
-PhysMem: 14G used (3398M wired), 18G unused.
-VM: 3228G vsize, 2000M framework vsize, 83994256(0) swapins, 86427468(0) swapouts.
-Networks: packets: 11143122/11G in, 14007411/2973M out.
-Disks: 9874401/453G read, 4590246/388G written.
+Processes: 499 total, 13 running, 2 stuck, 484 sleeping, 2888 threads 
+2021/10/22 13:17:35
+Load Avg: 3.20, 2.86, 3.23 
+CPU usage: 39.25% user, 27.36% sys, 33.38% idle 
+SharedLibs: 221M resident, 30M data, 28M linkedit.
+MemRegions: 162502 total, 1783M resident, 126M private, 780M shared.
+PhysMem: 8786M used (3842M wired), 23G unused.
+VM: 2951G vsize, 1993M framework vsize, 87807177(0) swapins, 90511471(0) swapouts.
+Networks: packets: 11235513/11G in, 14126964/2988M out.
+Disks: 10263322/473G read, 4677939/404G written.
 
-COMMAND          MEM  %CPU #TH
-WindowServer     906M 0.0  9  
-hubd             522M 0.0  16 
-repmgr           393M 0.0  21 
-com.apple.WebKit 375M 0.0  15 
-com.apple.WebKit 346M 0.0  11 
+COMMAND      MEM  %CPU #TH   
+WindowServer 921M 0.0  10    
+hubd         563M 0.0  23/1  
+repmgr       379M 0.0  22    
+mds_stores   355M 0.0  19    
+kernel_task  273M 0.0  304/16
