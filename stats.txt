@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   61.25    9  0.55   5  3 92  2.39 1.72 1.78
+   61.16    9  0.55   5  3 92  7.64 2.82 2.16
 
-Processes: 523 total, 17 running, 1 stuck, 505 sleeping, 2839 threads 
-2021/10/22 13:51:02
-Load Avg: 2.39, 1.72, 1.78 
-CPU usage: 61.17% user, 30.27% sys, 8.55% idle 
-SharedLibs: 350M resident, 44M data, 32M linkedit.
-MemRegions: 222454 total, 5514M resident, 199M private, 2360M shared.
-PhysMem: 21G used (4919M wired), 11G unused.
-VM: 5356G vsize, 2000M framework vsize, 88069290(0) swapins, 90585438(0) swapouts.
-Networks: packets: 11389603/11G in, 14338329/3017M out.
-Disks: 10344929/476G read, 4747219/406G written.
-
-COMMAND          MEM   %CPU #TH   
-WindowServer     1235M 0.0  10/1  
-Code Helper (GPU 890M  0.0  10/1  
-kernel_task      825M  0.0  304/16
-hubd             518M  0.0  16    
-com.apple.WebKit 405M  0.0  10    
-Processes: 525 total, 13 running, 1 stuck, 511 sleeping, 2839 threads 
-2021/10/22 13:51:03
-Load Avg: 2.39, 1.72, 1.78 
-CPU usage: 50.66% user, 31.14% sys, 18.18% idle 
-SharedLibs: 350M resident, 44M data, 32M linkedit.
-MemRegions: 223957 total, 5543M resident, 200M private, 2361M shared.
-PhysMem: 22G used (4921M wired), 10G unused.
-VM: 5367G vsize, 2000M framework vsize, 88069479(0) swapins, 90585438(0) swapouts.
-Networks: packets: 11389671/11G in, 14338417/3017M out.
-Disks: 10346997/476G read, 4747249/406G written.
+Processes: 533 total, 20 running, 513 sleeping, 2863 threads 
+2021/10/22 13:51:09
+Load Avg: 7.64, 2.82, 2.16 
+CPU usage: 61.87% user, 37.96% sys, 0.15% idle 
+SharedLibs: 351M resident, 44M data, 32M linkedit.
+MemRegions: 234132 total, 6693M resident, 203M private, 2468M shared.
+PhysMem: 24G used (4884M wired), 8227M unused.
+VM: 5499G vsize, 2000M framework vsize, 88073475(0) swapins, 90585438(0) swapouts.
+Networks: packets: 11406646/11G in, 14355733/3022M out.
+Disks: 10374247/476G read, 4750736/406G written.
 
 COMMAND          MEM   %CPU #TH   
-WindowServer     1235M 0.0  10/1  
-Code Helper (GPU 847M  0.0  10    
-kernel_task      837M  0.0  304/16
+WindowServer     1263M 0.0  10/1  
+kernel_task      923M  0.0  304/16
+Code Helper (GPU 771M  0.0  10/1  
 hubd             518M  0.0  16    
 com.apple.WebKit 405M  0.0  10    
