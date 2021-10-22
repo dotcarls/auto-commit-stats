@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   61.59    9  0.55   5  3 92  3.20 2.86 3.23
+   61.45    9  0.55   5  3 92  2.19 2.62 3.08
 
-Processes: 499 total, 13 running, 2 stuck, 484 sleeping, 2888 threads 
-2021/10/22 13:17:35
-Load Avg: 3.20, 2.86, 3.23 
-CPU usage: 39.25% user, 27.36% sys, 33.38% idle 
-SharedLibs: 221M resident, 30M data, 28M linkedit.
-MemRegions: 162502 total, 1783M resident, 126M private, 780M shared.
-PhysMem: 8786M used (3842M wired), 23G unused.
-VM: 2951G vsize, 1993M framework vsize, 87807177(0) swapins, 90511471(0) swapouts.
-Networks: packets: 11235513/11G in, 14126964/2988M out.
-Disks: 10263322/473G read, 4677939/404G written.
+Processes: 479 total, 3 running, 476 sleeping, 2069 threads 
+2021/10/22 13:19:51
+Load Avg: 2.19, 2.62, 3.08 
+CPU usage: 8.86% user, 6.65% sys, 84.48% idle 
+SharedLibs: 304M resident, 40M data, 31M linkedit.
+MemRegions: 161746 total, 2511M resident, 148M private, 1434M shared.
+PhysMem: 12G used (3915M wired), 20G unused.
+VM: 3056G vsize, 1993M framework vsize, 88013315(0) swapins, 90585438(0) swapouts.
+Networks: packets: 11277594/11G in, 14204324/2998M out.
+Disks: 10319913/475G read, 4701012/405G written.
 
-COMMAND      MEM  %CPU #TH   
-WindowServer 921M 0.0  10    
-hubd         563M 0.0  23/1  
-repmgr       379M 0.0  22    
-mds_stores   355M 0.0  19    
-kernel_task  273M 0.0  304/16
+COMMAND         MEM   %CPU #TH 
+WindowServer    1432M 0.0  10  
+hubd            518M  0.0  16  
+repmgr          393M  0.0  21  
+mds_stores      359M  0.0  6   
+softwareupdated 275M  0.0  23/1
