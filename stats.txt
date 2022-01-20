@@ -2,20 +2,20 @@
     KB/t  tps  MB/s  us sy id   1m   5m   15m
    44.43   11  0.48   3  2 95  2.99 2.11 1.99
 
-Processes: 568 total, 13 running, 555 sleeping, 3287 threads 
-2022/01/20 11:14:40
+Processes: 568 total, 6 running, 3 stuck, 559 sleeping, 3253 threads 
+2022/01/20 11:14:42
 Load Avg: 2.99, 2.11, 1.99 
-CPU usage: 67.46% user, 20.23% sys, 12.29% idle 
+CPU usage: 32.16% user, 22.1% sys, 45.82% idle 
 SharedLibs: 265M resident, 56M data, 15M linkedit.
-MemRegions: 326140 total, 8767M resident, 240M private, 3623M shared.
-PhysMem: 32G used (5246M wired), 489M unused.
-VM: 6652G vsize, 2000M framework vsize, 263688607(0) swapins, 270227501(0) swapouts.
-Networks: packets: 57614394/53G in, 74127820/14G out.
-Disks: 42780394/1570G read, 26810564/1379G written.
+MemRegions: 329661 total, 8896M resident, 241M private, 3632M shared.
+PhysMem: 31G used (5251M wired), 513M unused.
+VM: 6670G vsize, 2000M framework vsize, 263689364(0) swapins, 270227501(0) swapouts.
+Networks: packets: 57614745/53G in, 74128606/14G out.
+Disks: 42786810/1570G read, 26811574/1379G written.
 
 COMMAND          MEM   %CPU #TH   
 com.docker.hyper 11G   0.0  16    
-WindowServer     1630M 0.0  10    
+WindowServer     1631M 0.0  10    
 softwareupdated  698M  0.0  8     
-Code Helper (GPU 641M  0.0  12    
-kernel_task      513M  0.0  390/16
+Code Helper (GPU 645M  0.0  10    
+kernel_task      536M  0.0  390/16
