@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   44.41   11  0.48   3  2 95  6.25 2.84 2.25
+   44.51   11  0.49   3  2 95  2.15 2.52 2.76
 
-Processes: 589 total, 23 running, 4 stuck, 562 sleeping, 3377 threads 
-2022/01/20 11:14:52
-Load Avg: 6.25, 2.84, 2.25 
-CPU usage: 54.54% user, 44.37% sys, 1.8% idle 
-SharedLibs: 265M resident, 56M data, 15M linkedit.
-MemRegions: 347957 total, 9379M resident, 247M private, 3435M shared.
-PhysMem: 32G used (5305M wired), 177M unused.
-VM: 7023G vsize, 2000M framework vsize, 263701220(0) swapins, 270227501(0) swapouts.
-Networks: packets: 57632381/53G in, 74152908/14G out.
-Disks: 42841070/1571G read, 26820970/1379G written.
+Processes: 481 total, 3 running, 478 sleeping, 2350 threads 
+2022/01/21 14:11:52
+Load Avg: 2.15, 2.52, 2.76 
+CPU usage: 3.24% user, 6.79% sys, 89.95% idle 
+SharedLibs: 304M resident, 39M data, 28M linkedit.
+MemRegions: 248772 total, 3391M resident, 133M private, 2081M shared.
+PhysMem: 14G used (4424M wired), 18G unused.
+VM: 3355G vsize, 1993M framework vsize, 269850598(0) swapins, 277037011(0) swapouts.
+Networks: packets: 58538427/54G in, 75560714/15G out.
+Disks: 43816367/1608G read, 27291836/1410G written.
 
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 11G   0.0  16    
-WindowServer     1555M 0.0  10/1  
-Code Helper (GPU 774M  0.0  9/1   
-softwareupdated  698M  0.0  8     
-kernel_task      630M  0.0  390/16
-Processes: 587 total, 29 running, 4 stuck, 554 sleeping, 3374 threads 
-2022/01/20 11:14:52
-Load Avg: 6.25, 2.84, 2.25 
-CPU usage: 54.73% user, 44.19% sys, 1.6% idle 
-SharedLibs: 265M resident, 56M data, 15M linkedit.
-MemRegions: 346900 total, 9322M resident, 247M private, 3426M shared.
-PhysMem: 32G used (5305M wired), 177M unused.
-VM: 7012G vsize, 2000M framework vsize, 263701220(0) swapins, 270227501(0) swapouts.
-Networks: packets: 57632381/53G in, 74152908/14G out.
-Disks: 42841070/1571G read, 26820970/1379G written.
-
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 11G   0.0  16    
-WindowServer     1555M 0.0  10/1  
-Code Helper (GPU 774M  0.0  9/1   
-softwareupdated  698M  0.0  8     
-kernel_task      626M  0.0  390/18
+COMMAND          MEM   %CPU #TH
+com.docker.hyper 11G   0.0  16 
+WindowServer     1543M 0.0  10 
+com.apple.WebKit 780M  0.0  17 
+softwareupdated  713M  0.0  8  
+Terminal         425M  0.0  13 
