@@ -1,38 +1,21 @@
-              disk0               disk2       cpu    load average
-    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   44.82   18  0.79     8.80    0  0.00   3  3 94  1.94 1.88 1.81
+              disk0       cpu    load average
+    KB/t  tps  MB/s  us sy id   1m   5m   15m
+   44.77   18  0.79   3  3 94  2.73 2.65 2.53
 
-Processes: 581 total, 4 running, 577 sleeping, 3257 threads 
-2022/03/15 15:38:16
-Load Avg: 1.94, 1.88, 1.81 
-CPU usage: 11.45% user, 23.57% sys, 64.96% idle 
-SharedLibs: 316M resident, 66M data, 22M linkedit.
-MemRegions: 398483 total, 8558M resident, 216M private, 4534M shared.
-PhysMem: 31G used (5178M wired), 1416M unused.
-VM: 5799G vsize, 2000M framework vsize, 427693051(0) swapins, 439785186(0) swapouts.
-Networks: packets: 123368032/115G in, 174002104/88G out.
-Disks: 77263615/2753G read, 41712159/2332G written.
-
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 18G   0.0  16 
-WindowServer     1884M 0.0  10 
-softwareupdated  891M  0.0  8  
-com.apple.photos 840M  0.0  3  
-Microsoft Outloo 766M  0.0  43 
-Processes: 581 total, 2 running, 1 stuck, 578 sleeping, 3238 threads 
-2022/03/15 15:38:16
-Load Avg: 1.94, 1.88, 1.81 
-CPU usage: 9.66% user, 17.24% sys, 73.8% idle 
-SharedLibs: 316M resident, 66M data, 22M linkedit.
-MemRegions: 398433 total, 8582M resident, 216M private, 4534M shared.
-PhysMem: 30G used (5182M wired), 1681M unused.
-VM: 5800G vsize, 2000M framework vsize, 427693051(0) swapins, 439785186(0) swapouts.
-Networks: packets: 123368060/115G in, 174002166/88G out.
-Disks: 77266434/2753G read, 41712183/2332G written.
+Processes: 590 total, 4 running, 1 stuck, 585 sleeping, 3229 threads 
+2022/03/15 16:15:07
+Load Avg: 2.73, 2.65, 2.53 
+CPU usage: 10.7% user, 12.48% sys, 77.43% idle 
+SharedLibs: 293M resident, 65M data, 21M linkedit.
+MemRegions: 400836 total, 8459M resident, 212M private, 3742M shared.
+PhysMem: 31G used (5342M wired), 974M unused.
+VM: 5293G vsize, 2000M framework vsize, 427889721(0) swapins, 439785186(0) swapouts.
+Networks: packets: 132188878/126G in, 176889637/88G out.
+Disks: 77541582/2758G read, 41863799/2340G written.
 
 COMMAND          MEM   %CPU #TH
 com.docker.hyper 18G   0.0  16 
-WindowServer     1884M 0.0  10 
-softwareupdated  891M  0.0  8  
+WindowServer     1970M 0.0  9  
+softwareupdated  891M  0.0  6  
 com.apple.photos 840M  0.0  3  
-Microsoft Outloo 766M  0.0  33 
+Microsoft Outloo 770M  0.0  24 
