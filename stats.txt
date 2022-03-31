@@ -1,38 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   44.75   20  0.87     9.08    0  0.00   3  3 94  2.09 2.30 2.44
+   44.75   20  0.87     9.08    0  0.00   3  3 94  2.67 2.41 2.48
 
-Processes: 552 total, 3 running, 549 sleeping, 2976 threads 
-2022/03/31 13:54:30
-Load Avg: 2.09, 2.30, 2.44 
-CPU usage: 11.67% user, 16.26% sys, 72.6% idle 
+Processes: 595 total, 5 running, 590 sleeping, 3280 threads 
+2022/03/31 13:54:43
+Load Avg: 2.67, 2.41, 2.48 
+CPU usage: 25.87% user, 20.62% sys, 53.49% idle 
 SharedLibs: 230M resident, 46M data, 16M linkedit.
-MemRegions: 393351 total, 8857M resident, 165M private, 6832M shared.
-PhysMem: 29G used (8636M wired), 2816M unused.
-VM: 5658G vsize, 1993M framework vsize, 477944619(0) swapins, 491176115(0) swapouts.
-Networks: packets: 117069807/109G in, 182871012/90G out.
-Disks: 86258665/3059G read, 46415503/2604G written.
+MemRegions: 413061 total, 9287M resident, 182M private, 7128M shared.
+PhysMem: 31G used (9067M wired), 1104M unused.
+VM: 6197G vsize, 2000M framework vsize, 477949206(0) swapins, 491176115(0) swapouts.
+Networks: packets: 117071184/109G in, 182875089/90G out.
+Disks: 86265493/3059G read, 46416916/2604G written.
 
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 18G   0.0  16 
-WindowServer     2879M 0.0  10 
-ManagedClient    2715M 0.0  4  
-softwareupdated  1038M 0.0  7  
-com.apple.photos 843M  0.0  4  
-Processes: 552 total, 4 running, 548 sleeping, 2963 threads 
-2022/03/31 13:54:31
-Load Avg: 2.09, 2.30, 2.44 
-CPU usage: 8.94% user, 14.76% sys, 76.29% idle 
-SharedLibs: 230M resident, 46M data, 16M linkedit.
-MemRegions: 393332 total, 8888M resident, 165M private, 6832M shared.
-PhysMem: 29G used (8645M wired), 2781M unused.
-VM: 5658G vsize, 2000M framework vsize, 477944619(0) swapins, 491176115(0) swapouts.
-Networks: packets: 117069843/109G in, 182871056/90G out.
-Disks: 86258693/3059G read, 46415513/2604G written.
-
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 18G   0.0  16 
-WindowServer     2878M 0.0  10 
-ManagedClient    2715M 0.0  4  
-softwareupdated  1038M 0.0  7  
-com.apple.photos 843M  0.0  4  
+COMMAND          MEM   %CPU #TH   
+com.docker.hyper 18G   0.0  16    
+WindowServer     2886M 0.0  10    
+ManagedClient    2717M 0.0  4     
+kernel_task      1069M 0.0  539/16
+softwareupdated  1038M 0.0  7     
