@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   44.71   20  0.86   3  3 94  3.25 2.17 2.16
+   44.70   20  0.86   3  3 94  2.13 2.27 2.23
 
-Processes: 597 total, 4 running, 593 sleeping, 3448 threads 
-2022/03/31 10:46:40
-Load Avg: 3.25, 2.17, 2.16 
-CPU usage: 4.58% user, 10.82% sys, 84.59% idle 
-SharedLibs: 207M resident, 45M data, 11M linkedit.
-MemRegions: 421789 total, 7243M resident, 176M private, 5313M shared.
-PhysMem: 32G used (8944M wired), 182M unused.
-VM: 6027G vsize, 2000M framework vsize, 471475727(0) swapins, 483588625(0) swapouts.
-Networks: packets: 115446032/108G in, 181372862/90G out.
-Disks: 85265156/3024G read, 45838480/2566G written.
+Processes: 605 total, 3 running, 602 sleeping, 3483 threads 
+2022/03/31 12:50:31
+Load Avg: 2.13, 2.27, 2.23 
+CPU usage: 4.26% user, 10.12% sys, 85.61% idle 
+SharedLibs: 212M resident, 44M data, 13M linkedit.
+MemRegions: 435400 total, 9833M resident, 170M private, 5751M shared.
+PhysMem: 31G used (7607M wired), 560M unused.
+VM: 6031G vsize, 1993M framework vsize, 473204708(0) swapins, 485972535(0) swapouts.
+Networks: packets: 116353247/109G in, 182176690/90G out.
+Disks: 85614770/3035G read, 46102662/2580G written.
 
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 18G   0.0  16    
-WindowServer     3280M 0.0  9/1   
-kernel_task      1113M 0.0  506/16
-softwareupdated  1014M 0.0  8     
-Microsoft Outloo 895M  0.0  27    
-Processes: 597 total, 3 running, 594 sleeping, 3447 threads 
-2022/03/31 10:46:40
-Load Avg: 3.25, 2.17, 2.16 
-CPU usage: 4.9% user, 11.44% sys, 84.45% idle 
-SharedLibs: 207M resident, 45M data, 11M linkedit.
-MemRegions: 421809 total, 7243M resident, 176M private, 5308M shared.
-PhysMem: 32G used (8854M wired), 275M unused.
-VM: 6027G vsize, 1993M framework vsize, 471475727(0) swapins, 483588625(0) swapouts.
-Networks: packets: 115446035/108G in, 181372868/90G out.
-Disks: 85265229/3024G read, 45838490/2566G written.
-
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 18G   0.0  16    
-WindowServer     3280M 0.0  9     
-kernel_task      1113M 0.0  506/16
-softwareupdated  1014M 0.0  8     
-Microsoft Outloo 895M  0.0  27    
+COMMAND          MEM   %CPU #TH
+com.docker.hyper 18G   0.0  16 
+WindowServer     2605M 0.0  10 
+ManagedClient    2038M 0.0  4  
+softwareupdated  1042M 0.0  7  
+Microsoft Outloo 877M  0.0  29 
