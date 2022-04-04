@@ -1,38 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   44.87   21  0.90     7.61    0  0.00   3  3 94  3.50 3.21 2.94
+   44.87   21  0.90     7.61    0  0.00   3  3 94  5.79 3.71 3.12
 
-Processes: 554 total, 5 running, 1 stuck, 548 sleeping, 3159 threads 
-2022/04/04 17:24:26
-Load Avg: 3.50, 3.21, 2.94 
-CPU usage: 15.97% user, 19.70% sys, 64.32% idle 
-SharedLibs: 252M resident, 49M data, 16M linkedit.
-MemRegions: 396592 total, 8814M resident, 171M private, 5959M shared.
-PhysMem: 32G used (9969M wired), 259M unused.
-VM: 4620G vsize, 2000M framework vsize, 501758224(0) swapins, 515118571(0) swapouts.
-Networks: packets: 124635202/118G in, 191736096/92G out.
-Disks: 90015893/3194G read, 48232846/2722G written.
+Processes: 584 total, 10 running, 2 stuck, 572 sleeping, 3305 threads 
+2022/04/04 17:24:33
+Load Avg: 5.79, 3.71, 3.12 
+CPU usage: 36.13% user, 38.33% sys, 25.52% idle 
+SharedLibs: 252M resident, 48M data, 15M linkedit.
+MemRegions: 413318 total, 8693M resident, 166M private, 6034M shared.
+PhysMem: 32G used (10G wired), 149M unused.
+VM: 4996G vsize, 2000M framework vsize, 501974514(0) swapins, 515335474(0) swapouts.
+Networks: packets: 124655841/118G in, 191749890/92G out.
+Disks: 90036519/3195G read, 48238295/2723G written.
 
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 18G   0.0  16 
-WindowServer     4610M 0.0  10 
-ManagedClient    2919M 0.0  4  
-softwareupdated  1045M 0.0  7  
-com.apple.WebKit 937M  0.0  7  
-Processes: 553 total, 6 running, 1 stuck, 546 sleeping, 3149 threads 
-2022/04/04 17:24:27
-Load Avg: 4.82, 3.49, 3.04 
-CPU usage: 31.46% user, 29.61% sys, 38.92% idle 
-SharedLibs: 252M resident, 48M data, 16M linkedit.
-MemRegions: 397095 total, 8785M resident, 171M private, 5970M shared.
-PhysMem: 32G used (10G wired), 286M unused.
-VM: 4617G vsize, 2000M framework vsize, 501760066(0) swapins, 515174043(0) swapouts.
-Networks: packets: 124637711/118G in, 191737636/92G out.
-Disks: 90016368/3194G read, 48233989/2722G written.
-
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 18G   0.0  16 
-WindowServer     4610M 0.0  10 
-ManagedClient    2922M 0.0  4  
-softwareupdated  1045M 0.0  7  
-com.apple.WebKit 937M  0.0  7  
+COMMAND          MEM   %CPU #TH 
+com.docker.hyper 18G   0.0  16/1
+WindowServer     4627M 0.0  11/1
+ManagedClient    2938M 0.0  4   
+softwareupdated  1047M 0.0  7   
+com.apple.WebKit 936M  0.0  7   
