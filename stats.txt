@@ -1,38 +1,21 @@
-              disk0       cpu    load average
-    KB/t  tps  MB/s  us sy id   1m   5m   15m
-   44.82   21  0.90   3  3 94  2.96 3.05 2.81
+              disk0               disk2       cpu    load average
+    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
+   44.87   21  0.90     7.61    0  0.00   3  3 94  3.50 3.21 2.94
 
-Processes: 534 total, 3 running, 531 sleeping, 2879 threads 
-2022/04/04 17:19:59
-Load Avg: 2.96, 3.05, 2.81 
-CPU usage: 8.14% user, 12.28% sys, 79.57% idle 
-SharedLibs: 271M resident, 51M data, 17M linkedit.
-MemRegions: 390726 total, 9634M resident, 177M private, 4095M shared.
-PhysMem: 29G used (9902M wired), 3266M unused.
-VM: 4449G vsize, 1993M framework vsize, 500204618(0) swapins, 514539462(0) swapouts.
-Networks: packets: 124001101/117G in, 191333285/92G out.
-Disks: 89973586/3187G read, 48203965/2719G written.
-
-COMMAND          MEM   %CPU #TH 
-com.docker.hyper 18G   0.0  16  
-WindowServer     4605M 0.0  10/1
-ManagedClient    2837M 0.0  3   
-softwareupdated  1042M 0.0  9   
-com.apple.WebKit 1034M 0.0  6   
-Processes: 534 total, 2 running, 532 sleeping, 2861 threads 
-2022/04/04 17:19:59
-Load Avg: 2.96, 3.05, 2.81 
-CPU usage: 6.73% user, 13.8% sys, 80.17% idle 
-SharedLibs: 271M resident, 51M data, 17M linkedit.
-MemRegions: 390670 total, 9633M resident, 177M private, 4095M shared.
-PhysMem: 29G used (9894M wired), 3294M unused.
-VM: 4449G vsize, 1993M framework vsize, 500204618(0) swapins, 514539462(0) swapouts.
-Networks: packets: 124001134/117G in, 191333312/92G out.
-Disks: 89973608/3187G read, 48204178/2719G written.
+Processes: 554 total, 5 running, 1 stuck, 548 sleeping, 3159 threads 
+2022/04/04 17:24:26
+Load Avg: 3.50, 3.21, 2.94 
+CPU usage: 15.97% user, 19.70% sys, 64.32% idle 
+SharedLibs: 252M resident, 49M data, 16M linkedit.
+MemRegions: 396592 total, 8814M resident, 171M private, 5959M shared.
+PhysMem: 32G used (9969M wired), 259M unused.
+VM: 4620G vsize, 2000M framework vsize, 501758224(0) swapins, 515118571(0) swapouts.
+Networks: packets: 124635202/118G in, 191736096/92G out.
+Disks: 90015893/3194G read, 48232846/2722G written.
 
 COMMAND          MEM   %CPU #TH
 com.docker.hyper 18G   0.0  16 
-WindowServer     4576M 0.0  10 
-ManagedClient    2837M 0.0  3  
-softwareupdated  1042M 0.0  9  
-com.apple.WebKit 1034M 0.0  6  
+WindowServer     4610M 0.0  10 
+ManagedClient    2919M 0.0  4  
+softwareupdated  1045M 0.0  7  
+com.apple.WebKit 937M  0.0  7  
