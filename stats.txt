@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   44.92   22  0.96   3  3 94  1.99 1.81 1.72
+   44.82   22  0.97   3  3 94  1.03 1.40 1.66
 
-Processes: 537 total, 4 running, 533 sleeping, 2845 threads 
-2022/04/18 16:12:47
-Load Avg: 1.99, 1.81, 1.72 
-CPU usage: 4.98% user, 6.90% sys, 88.11% idle 
-SharedLibs: 388M resident, 54M data, 44M linkedit.
-MemRegions: 390011 total, 9576M resident, 194M private, 2330M shared.
-PhysMem: 27G used (6182M wired), 5280M unused.
-VM: 5246G vsize, 1993M framework vsize, 540293843(0) swapins, 556756695(0) swapouts.
-Networks: packets: 134929073/129G in, 203318461/94G out.
-Disks: 97129101/3446G read, 52156357/2950G written.
+Processes: 521 total, 3 running, 518 sleeping, 2713 threads 
+2022/04/19 11:38:17
+Load Avg: 1.03, 1.40, 1.66 
+CPU usage: 2.61% user, 7.95% sys, 89.42% idle 
+SharedLibs: 396M resident, 55M data, 40M linkedit.
+MemRegions: 367133 total, 8181M resident, 175M private, 1301M shared.
+PhysMem: 20G used (4484M wired), 12G unused.
+VM: 4227G vsize, 1993M framework vsize, 543688116(0) swapins, 560281880(0) swapouts.
+Networks: packets: 135570331/130G in, 204169649/94G out.
+Disks: 97937984/3468G read, 52730903/2971G written.
 
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 18G   0.0  16    
-ManagedClient    3660M 0.0  4     
-WindowServer     1348M 0.0  10    
-softwareupdated  1147M 0.0  8     
-kernel_task      1132M 0.0  526/16
+COMMAND          MEM   %CPU #TH
+ManagedClient    1775M 0.0  4  
+softwareupdated  1167M 0.0  7  
+WindowServer     1093M 0.0  10 
+accountsd        842M  0.0  6  
+com.apple.photos 840M  0.0  5  
