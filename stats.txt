@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   44.86   22  0.98   3  3 94  1.40 2.18 2.88
+   44.86   22  0.98   3  3 94  2.33 2.36 2.93
 
-Processes: 588 total, 3 running, 585 sleeping, 3330 threads 
-2022/04/20 12:15:26
-Load Avg: 1.40, 2.18, 2.88 
-CPU usage: 11.30% user, 10.97% sys, 77.72% idle 
+Processes: 605 total, 4 running, 2 stuck, 599 sleeping, 3469 threads 
+2022/04/20 12:15:30
+Load Avg: 2.33, 2.36, 2.93 
+CPU usage: 22.83% user, 20.39% sys, 56.76% idle 
 SharedLibs: 312M resident, 39M data, 27M linkedit.
-MemRegions: 416959 total, 4757M resident, 161M private, 2638M shared.
-PhysMem: 17G used (5902M wired), 15G unused.
-VM: 4644G vsize, 1993M framework vsize, 552765130(0) swapins, 570538315(0) swapouts.
-Networks: packets: 137186269/131G in, 205778631/94G out.
-Disks: 99601016/3527G read, 53365149/3018G written.
+MemRegions: 423214 total, 4885M resident, 161M private, 2692M shared.
+PhysMem: 18G used (6031M wired), 14G unused.
+VM: 4889G vsize, 1993M framework vsize, 552790322(0) swapins, 570538315(0) swapouts.
+Networks: packets: 137187018/131G in, 205780245/94G out.
+Disks: 99609155/3527G read, 53366509/3018G written.
 
 COMMAND          MEM   %CPU #TH
 com.docker.hyper 11G   0.0  16 
-WindowServer     2068M 0.0  9  
+WindowServer     2068M 0.0  10 
 softwareupdated  1185M 0.0  8  
-accountsd        846M  0.0  4  
-com.apple.photos 840M  0.0  4  
-Processes: 587 total, 5 running, 582 sleeping, 3331 threads 
-2022/04/20 12:15:26
-Load Avg: 1.40, 2.18, 2.88 
-CPU usage: 20.44% user, 15.66% sys, 63.89% idle 
-SharedLibs: 312M resident, 39M data, 27M linkedit.
-MemRegions: 417395 total, 4755M resident, 161M private, 2583M shared.
-PhysMem: 17G used (5976M wired), 15G unused.
-VM: 4641G vsize, 2000M framework vsize, 552771422(0) swapins, 570538315(0) swapouts.
-Networks: packets: 137186313/131G in, 205778723/94G out.
-Disks: 99601792/3527G read, 53365500/3018G written.
-
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 11G   0.0  16 
-WindowServer     2068M 0.0  9  
-softwareupdated  1185M 0.0  8  
-accountsd        846M  0.0  4  
-com.apple.photos 840M  0.0  4  
+accountsd        846M  0.0  5  
+com.apple.photos 840M  0.0  3  
