@@ -1,39 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-    9.86 5372 51.73   7  6 88  2.97 0.82 0.31
+   11.62 2004 22.73  13  9 77  4.52 3.66 1.95
 
+Processes: 411 total, 2 running, 409 sleeping, 2145 threads 
+2022/04/25 10:39:52
+Load Avg: 4.52, 3.66, 1.95 
+CPU usage: 6.50% user, 9.75% sys, 83.75% idle 
+SharedLibs: 474M resident, 76M data, 45M linkedit.
+MemRegions: 141699 total, 5143M resident, 239M private, 13G shared.
+PhysMem: 28G used (4385M wired), 4598M unused.
+VM: 5170G vsize, 1993M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 13818/5829K in, 24506/9190K out.
+Disks: 871684/10G read, 115145/1053M written.
 
-Processes: 333 total, 13 running, 13 stuck, 307 sleeping, 2390 threads 
-2022/04/25 10:33:09
-Load Avg: 3.69, 1.01, 0.38 
-CPU usage: 40.59% user, 27.52% sys, 31.88% idle 
-SharedLibs: 371M resident, 61M data, 38M linkedit.
-MemRegions: 80375 total, 2653M resident, 172M private, 1654M shared.
-PhysMem: 8773M used (3231M wired), 23G unused.
-VM: 2090G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1295/176K in, 1556/217K out.
-Disks: 460453/4491M read, 23509/173M written.
-
-COMMAND      MEM  %CPU #TH 
-WindowServer 885M 0.0  11/1
-mds_stores   254M 0.0  20  
-Terminal     247M 0.0  22/1
-Safari       112M 0.0  44  
-talagent     97M  0.0  5   
-Processes: 334 total, 6 running, 15 stuck, 313 sleeping, 2423 threads 
-2022/04/25 10:33:09
-Load Avg: 3.69, 1.01, 0.38 
-CPU usage: 41.69% user, 26.82% sys, 31.48% idle 
-SharedLibs: 371M resident, 61M data, 38M linkedit.
-MemRegions: 80496 total, 2654M resident, 172M private, 1653M shared.
-PhysMem: 8773M used (3231M wired), 23G unused.
-VM: 2094G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1295/176K in, 1556/217K out.
-Disks: 460453/4491M read, 23509/173M written.
-
-COMMAND      MEM  %CPU #TH 
-WindowServer 886M 0.0  11  
-mds_stores   254M 0.0  20  
-Terminal     247M 0.0  22/1
-Safari       112M 0.0  44  
-talagent     97M  0.0  5   
+COMMAND          MEM   %CPU #TH
+com.docker.hyper 10G   0.0  15 
+WindowServer     1464M 0.0  10 
+Microsoft Outloo 601M  0.0  27 
+mds_stores       597M  0.0  7  
+repmgr           280M  0.0  23 
