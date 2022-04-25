@@ -1,38 +1,39 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   43.69   24  1.01   3  3 94  1.82 2.00 2.31
+    8.56 5318 44.47   5  5 90  2.97 0.82 0.31
 
-Processes: 582 total, 4 running, 578 sleeping, 3324 threads 
-2022/04/24 20:52:42
-Load Avg: 1.82, 2.00, 2.31 
-CPU usage: 19.60% user, 15.26% sys, 65.12% idle 
-SharedLibs: 244M resident, 50M data, 14M linkedit.
-MemRegions: 429713 total, 5304M resident, 143M private, 10G shared.
-PhysMem: 29G used (6386M wired), 3389M unused.
-VM: 6876G vsize, 1993M framework vsize, 565147501(0) swapins, 584009830(0) swapouts.
-Networks: packets: 147098421/142G in, 212766667/95G out.
-Disks: 106402524/3653G read, 56338595/3128G written.
 
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 17G   0.0  16    
-ManagedClient    3274M 0.0  4     
-WindowServer     2217M 0.0  10    
-softwareupdated  1194M 0.0  8     
-kernel_task      968M  0.0  584/16
-Processes: 580 total, 8 running, 572 sleeping, 3296 threads 
-2022/04/24 20:52:42
-Load Avg: 1.82, 2.00, 2.31 
-CPU usage: 25.6% user, 19.72% sys, 55.20% idle 
-SharedLibs: 244M resident, 50M data, 14M linkedit.
-MemRegions: 429478 total, 5300M resident, 141M private, 10G shared.
-PhysMem: 29G used (6380M wired), 3384M unused.
-VM: 6866G vsize, 2000M framework vsize, 565147949(0) swapins, 584009830(0) swapouts.
-Networks: packets: 147098450/142G in, 212766701/95G out.
-Disks: 106402779/3653G read, 56338963/3128G written.
+Processes: 299 total, 37 running, 4 stuck, 258 sleeping, 2054 threads 
+2022/04/25 10:33:06
+Load Avg: 2.97, 0.82, 0.31 
+CPU usage: 60.10% user, 39.14% sys, 0.75% idle 
+SharedLibs: 319M resident, 56M data, 32M linkedit.
+MemRegions: 65443 total, 2223M resident, 147M private, 1416M shared.
+PhysMem: 7796M used (3321M wired), 24G unused.
+VM: 1735G vsize, 1993M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 1225/159K in, 1318/184K out.
+Disks: 441414/3792M read, 21356/150M written.
 
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 17G   0.0  16    
-ManagedClient    3274M 0.0  4     
-WindowServer     2217M 0.0  10/1  
-softwareupdated  1194M 0.0  8     
-kernel_task      969M  0.0  584/16
+COMMAND      MEM  %CPU #TH 
+WindowServer 840M 0.0  12  
+mds_stores   252M 0.0  20  
+Terminal     246M 0.0  21/4
+talagent     97M  0.0  6   
+kextd        82M  0.0  3   
+Processes: 300 total, 40 running, 3 stuck, 257 sleeping, 2055 threads 
+2022/04/25 10:33:06
+Load Avg: 2.97, 0.82, 0.31 
+CPU usage: 60.0% user, 39.25% sys, 0.74% idle 
+SharedLibs: 319M resident, 56M data, 32M linkedit.
+MemRegions: 65488 total, 2226M resident, 147M private, 1416M shared.
+PhysMem: 7826M used (3321M wired), 24G unused.
+VM: 1739G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 1225/159K in, 1318/184K out.
+Disks: 441519/3793M read, 21357/150M written.
+
+COMMAND      MEM  %CPU #TH 
+WindowServer 840M 0.0  12  
+mds_stores   252M 0.0  20  
+Terminal     246M 0.0  21/1
+talagent     97M  0.0  6   
+kextd        82M  0.0  3   
