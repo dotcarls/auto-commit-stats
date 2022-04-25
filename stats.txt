@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   11.62 2004 22.73  13  9 77  4.52 3.66 1.95
+   11.72 1967 22.51  14  9 77  6.34 4.10 2.14
 
-Processes: 411 total, 2 running, 409 sleeping, 2145 threads 
-2022/04/25 10:39:52
-Load Avg: 4.52, 3.66, 1.95 
-CPU usage: 6.50% user, 9.75% sys, 83.75% idle 
-SharedLibs: 474M resident, 76M data, 45M linkedit.
-MemRegions: 141699 total, 5143M resident, 239M private, 13G shared.
-PhysMem: 28G used (4385M wired), 4598M unused.
-VM: 5170G vsize, 1993M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 13818/5829K in, 24506/9190K out.
-Disks: 871684/10G read, 115145/1053M written.
+Processes: 456 total, 10 running, 5 stuck, 441 sleeping, 2513 threads 
+2022/04/25 10:40:14
+Load Avg: 6.34, 4.10, 2.14 
+CPU usage: 33.1% user, 18.70% sys, 48.28% idle 
+SharedLibs: 352M resident, 76M data, 32M linkedit.
+MemRegions: 162182 total, 5704M resident, 254M private, 13G shared.
+PhysMem: 29G used (3998M wired), 2834M unused.
+VM: 5720G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 15779/6402K in, 29380/13M out.
+Disks: 892668/10G read, 119164/1081M written.
 
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 10G   0.0  15 
-WindowServer     1464M 0.0  10 
-Microsoft Outloo 601M  0.0  27 
-mds_stores       597M  0.0  7  
-repmgr           280M  0.0  23 
-Processes: 410 total, 4 running, 406 sleeping, 2109 threads 
-2022/04/25 10:39:52
-Load Avg: 4.52, 3.66, 1.95 
-CPU usage: 22.7% user, 20.70% sys, 57.22% idle 
-SharedLibs: 474M resident, 76M data, 45M linkedit.
-MemRegions: 141443 total, 5134M resident, 238M private, 13G shared.
-PhysMem: 28G used (4385M wired), 4569M unused.
-VM: 5165G vsize, 1993M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 13824/5830K in, 24517/9194K out.
-Disks: 871771/10G read, 115155/1053M written.
-
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 10G   0.0  15 
-WindowServer     1412M 0.0  10 
-Microsoft Outloo 601M  0.0  23 
-mds_stores       597M  0.0  7  
-repmgr           280M  0.0  23 
+COMMAND          MEM  %CPU #TH   
+com.docker.hyper 10G  0.0  15    
+WindowServer     965M 0.0  10    
+mds_stores       661M 0.0  7/1   
+Microsoft Outloo 601M 0.0  21    
+kernel_task      379M 0.0  298/16
