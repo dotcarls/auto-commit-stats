@@ -1,55 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   43.72   24  1.01   3  3 94  2.67 2.73 2.64
+   43.69   24  1.01   3  3 94  1.82 2.00 2.31
 
-Processes: 604 total, 5 running, 599 sleeping, 3258 threads 
-2022/04/24 20:32:12
-Load Avg: 2.67, 2.73, 2.64 
-CPU usage: 14.28% user, 19.0% sys, 66.70% idle 
-SharedLibs: 242M resident, 49M data, 14M linkedit.
-MemRegions: 423308 total, 6275M resident, 136M private, 11G shared.
-PhysMem: 30G used (5867M wired), 2159M unused.
-VM: 5993G vsize, 1993M framework vsize, 565086662(0) swapins, 583960807(0) swapouts.
-Networks: packets: 146898140/142G in, 212651152/95G out.
-Disks: 106239415/3650G read, 56275185/3126G written.
+Processes: 582 total, 4 running, 578 sleeping, 3324 threads 
+2022/04/24 20:52:42
+Load Avg: 1.82, 2.00, 2.31 
+CPU usage: 19.60% user, 15.26% sys, 65.12% idle 
+SharedLibs: 244M resident, 50M data, 14M linkedit.
+MemRegions: 429713 total, 5304M resident, 143M private, 10G shared.
+PhysMem: 29G used (6386M wired), 3389M unused.
+VM: 6876G vsize, 1993M framework vsize, 565147501(0) swapins, 584009830(0) swapouts.
+Networks: packets: 147098421/142G in, 212766667/95G out.
+Disks: 106402524/3653G read, 56338595/3128G written.
 
-COMMAND          MEM   %CPU #TH 
-com.docker.hyper 17G   0.0  16  
-ManagedClient    3057M 0.0  5   
-WindowServer     1774M 0.0  9   
-softwareupdated  1191M 0.0  8   
-com.apple.WebKit 1057M 0.0  20/1
-Processes: 604 total, 3 running, 601 sleeping, 3259 threads 
-2022/04/24 20:32:13
-Load Avg: 2.67, 2.73, 2.64 
-CPU usage: 12.18% user, 18.31% sys, 69.49% idle 
-SharedLibs: 242M resident, 49M data, 14M linkedit.
-MemRegions: 423315 total, 6276M resident, 136M private, 10G shared.
-PhysMem: 30G used (5868M wired), 2218M unused.
-VM: 5993G vsize, 2000M framework vsize, 565086726(0) swapins, 583960807(0) swapouts.
-Networks: packets: 146898172/142G in, 212651197/95G out.
-Disks: 106239451/3650G read, 56275199/3126G written.
-
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 17G   0.0  16 
-ManagedClient    3057M 0.0  5  
-WindowServer     1774M 0.0  10 
-softwareupdated  1191M 0.0  8  
-com.apple.WebKit 1057M 0.0  20 
-Processes: 604 total, 3 running, 601 sleeping, 3255 threads 
-2022/04/24 20:32:13
-Load Avg: 2.67, 2.73, 2.64 
-CPU usage: 11.91% user, 13.75% sys, 74.32% idle 
-SharedLibs: 242M resident, 49M data, 14M linkedit.
-MemRegions: 423045 total, 6279M resident, 136M private, 10G shared.
-PhysMem: 30G used (5856M wired), 2290M unused.
-VM: 5992G vsize, 1993M framework vsize, 565086918(0) swapins, 583960807(0) swapouts.
-Networks: packets: 146898248/142G in, 212651425/95G out.
-Disks: 106239519/3650G read, 56275213/3126G written.
-
-COMMAND          MEM   %CPU #TH 
-com.docker.hyper 17G   0.0  16  
-ManagedClient    3057M 0.0  5   
-WindowServer     1774M 0.0  10  
-softwareupdated  1191M 0.0  8   
-com.apple.WebKit 1058M 0.0  20/8
+COMMAND          MEM   %CPU #TH   
+com.docker.hyper 17G   0.0  16    
+ManagedClient    3274M 0.0  4     
+WindowServer     2217M 0.0  10    
+softwareupdated  1194M 0.0  8     
+kernel_task      968M  0.0  584/16
