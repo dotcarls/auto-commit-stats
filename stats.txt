@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   26.86   50  1.32   5  4 92  3.71 3.28 2.84
+   26.46   51  1.33   4  3 92  3.16 2.68 2.55
 
-Processes: 482 total, 5 running, 477 sleeping, 2931 threads 
-2022/04/26 08:54:00
-Load Avg: 3.71, 3.28, 2.84 
-CPU usage: 9.0% user, 8.33% sys, 82.66% idle 
-SharedLibs: 349M resident, 46M data, 29M linkedit.
-MemRegions: 232479 total, 3910M resident, 145M private, 3036M shared.
-PhysMem: 16G used (3957M wired), 16G unused.
-VM: 8924G vsize, 1993M framework vsize, 6111851(0) swapins, 7606771(0) swapouts.
-Networks: packets: 4606315/5774M in, 4040859/508M out.
-Disks: 3207861/57G read, 850991/47G written.
+Processes: 516 total, 2 running, 3 stuck, 511 sleeping, 3163 threads 
+2022/04/26 09:10:09
+Load Avg: 3.16, 2.68, 2.55 
+CPU usage: 5.24% user, 7.94% sys, 86.80% idle 
+SharedLibs: 372M resident, 50M data, 30M linkedit.
+MemRegions: 265655 total, 6030M resident, 178M private, 4205M shared.
+PhysMem: 23G used (4907M wired), 9359M unused.
+VM: 10T vsize, 2000M framework vsize, 6162051(0) swapins, 7606771(0) swapouts.
+Networks: packets: 4676681/5844M in, 4097738/524M out.
+Disks: 3272283/58G read, 922984/48G written.
 
-COMMAND          MEM  %CPU #TH
-com.docker.hyper 15G  0.0  16 
-WindowServer     885M 0.0  10 
-firefox          637M 0.0  98 
-terraform-ls     556M 0.0  23 
-Google Chrome He 543M 0.0  11 
+COMMAND          MEM   %CPU #TH
+com.docker.hyper 15G   0.0  16 
+WindowServer     1532M 0.0  10 
+firefox          642M  0.0  93 
+Microsoft Outloo 603M  0.0  18 
+Google Chrome He 543M  0.0  11 
