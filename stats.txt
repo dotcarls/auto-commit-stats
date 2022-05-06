@@ -2,20 +2,37 @@
     KB/t  tps  MB/s  us sy id   1m   5m   15m
    34.16   31  1.04   4  2 94  2.69 2.88 2.85
 
-Processes: 580 total, 4 running, 3 stuck, 573 sleeping, 3165 threads 
+Processes: 578 total, 5 running, 2 stuck, 571 sleeping, 3198 threads 
 2022/05/06 14:13:41
 Load Avg: 2.69, 2.88, 2.85 
-CPU usage: 22.38% user, 33.36% sys, 44.24% idle 
-SharedLibs: 277M resident, 61M data, 16M linkedit.
-MemRegions: 254722 total, 11G resident, 224M private, 3659M shared.
-PhysMem: 32G used (4256M wired), 188M unused.
-VM: 5279G vsize, 2000M framework vsize, 66042783(0) swapins, 73028279(0) swapouts.
-Networks: packets: 31589701/34G in, 36788924/13G out.
-Disks: 20574971/500G read, 9333249/475G written.
+CPU usage: 17.28% user, 20.17% sys, 62.54% idle 
+SharedLibs: 278M resident, 61M data, 16M linkedit.
+MemRegions: 254866 total, 11G resident, 225M private, 3659M shared.
+PhysMem: 32G used (4283M wired), 159M unused.
+VM: 5272G vsize, 1993M framework vsize, 66043039(0) swapins, 73028279(0) swapouts.
+Networks: packets: 31589805/34G in, 36789186/13G out.
+Disks: 20576687/500G read, 9333406/475G written.
 
 COMMAND          MEM   %CPU #TH
 com.docker.hyper 18G   0.0  16 
 ManagedClient    3384M 0.0  4  
-WindowServer     1029M 0.0  10 
+WindowServer     1025M 0.0  10 
+Microsoft Outloo 962M  0.0  22 
+hubd             462M  0.0  24 
+Processes: 577 total, 6 running, 2 stuck, 569 sleeping, 3199 threads 
+2022/05/06 14:13:41
+Load Avg: 2.69, 2.88, 2.85 
+CPU usage: 16.33% user, 19.71% sys, 63.94% idle 
+SharedLibs: 278M resident, 61M data, 16M linkedit.
+MemRegions: 254737 total, 11G resident, 225M private, 3659M shared.
+PhysMem: 32G used (4283M wired), 163M unused.
+VM: 5268G vsize, 1993M framework vsize, 66043039(0) swapins, 73028279(0) swapouts.
+Networks: packets: 31589805/34G in, 36789186/13G out.
+Disks: 20576820/500G read, 9333407/475G written.
+
+COMMAND          MEM   %CPU #TH
+com.docker.hyper 18G   0.0  16 
+ManagedClient    3384M 0.0  4  
+WindowServer     1025M 0.0  10 
 Microsoft Outloo 962M  0.0  22 
 hubd             462M  0.0  24 
