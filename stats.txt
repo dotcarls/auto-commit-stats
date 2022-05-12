@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   41.59   14  0.59   3  2 95  2.22 1.96 2.01
+   34.41   18  0.61   3  2 96  2.65 2.50 2.44
 
-Processes: 537 total, 4 running, 533 sleeping, 3032 threads 
-2022/05/10 11:52:23
-Load Avg: 2.22, 1.96, 2.01 
-CPU usage: 10.20% user, 14.72% sys, 75.7% idle 
-SharedLibs: 337M resident, 42M data, 32M linkedit.
-MemRegions: 210791 total, 5336M resident, 164M private, 3480M shared.
-PhysMem: 21G used (4547M wired), 11G unused.
-VM: 4210G vsize, 2000M framework vsize, 8188461(0) swapins, 8955653(0) swapouts.
-Networks: packets: 1172470/1173M in, 1399753/313M out.
-Disks: 1640186/55G read, 953770/48G written.
+Processes: 515 total, 4 running, 2 stuck, 509 sleeping, 2742 threads 
+2022/05/12 10:17:28
+Load Avg: 2.65, 2.50, 2.44 
+CPU usage: 12.45% user, 11.5% sys, 76.49% idle 
+SharedLibs: 316M resident, 38M data, 28M linkedit.
+MemRegions: 193030 total, 3568M resident, 155M private, 1837M shared.
+PhysMem: 15G used (4275M wired), 17G unused.
+VM: 4029G vsize, 2000M framework vsize, 14224307(0) swapins, 16049260(0) swapouts.
+Networks: packets: 3925388/4591M in, 4139278/611M out.
+Disks: 4100705/109G read, 2236441/99G written.
 
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 11G   0.0  15 
-WindowServer     1269M 0.0  10 
-Microsoft Outloo 671M  0.0  21 
-terraform-ls     574M  0.0  24 
-com.apple.WebKit 561M  0.0  8  
-Processes: 542 total, 3 running, 539 sleeping, 3048 threads 
-2022/05/10 11:52:24
-Load Avg: 2.22, 1.96, 2.01 
-CPU usage: 5.46% user, 11.7% sys, 83.46% idle 
-SharedLibs: 337M resident, 42M data, 32M linkedit.
-MemRegions: 211073 total, 5342M resident, 165M private, 3480M shared.
-PhysMem: 21G used (4548M wired), 11G unused.
-VM: 4231G vsize, 1993M framework vsize, 8188461(0) swapins, 8955653(0) swapouts.
-Networks: packets: 1172528/1173M in, 1399884/313M out.
-Disks: 1640207/55G read, 953784/48G written.
-
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 11G   0.0  15 
-WindowServer     1269M 0.0  10 
-Microsoft Outloo 671M  0.0  21 
-terraform-ls     574M  0.0  24 
-com.apple.WebKit 561M  0.0  8  
+COMMAND          MEM   %CPU #TH   
+com.docker.hyper 11G   0.0  16    
+WindowServer     1100M 0.0  10    
+kernel_task      371M  0.0  272/16
+Slack Helper (Re 324M  0.0  25    
+repmgr           298M  0.0  24    
