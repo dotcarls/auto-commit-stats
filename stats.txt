@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   36.65    8  0.29   3  2 95  3.88 2.38 2.10
+   36.60    8  0.29   3  2 95  3.67 2.39 2.11
 
-Processes: 489 total, 3 running, 2 stuck, 484 sleeping, 2349 threads 
-2022/05/19 16:55:19
-Load Avg: 3.88, 2.38, 2.10 
-CPU usage: 14.79% user, 20.11% sys, 65.8% idle 
-SharedLibs: 239M resident, 32M data, 26M linkedit.
-MemRegions: 148923 total, 1331M resident, 108M private, 764M shared.
-PhysMem: 7492M used (3757M wired), 25G unused.
-VM: 2992G vsize, 2000M framework vsize, 19906954(0) swapins, 22439971(0) swapouts.
-Networks: packets: 5282389/5837M in, 5401927/954M out.
-Disks: 5097689/142G read, 2760275/132G written.
-
-COMMAND          MEM  %CPU #TH
-com.docker.hyper 11G  0.0  16 
-WindowServer     909M 0.0  9  
-com.apple.WebKit 606M 0.0  11 
-hubd             293M 0.0  27 
-repmgr           276M 0.0  24 
-Processes: 490 total, 4 running, 1 stuck, 485 sleeping, 2407 threads 
-2022/05/19 16:55:19
-Load Avg: 3.88, 2.38, 2.10 
-CPU usage: 12.62% user, 19.92% sys, 67.45% idle 
-SharedLibs: 239M resident, 32M data, 26M linkedit.
-MemRegions: 149195 total, 1336M resident, 108M private, 765M shared.
-PhysMem: 7484M used (3757M wired), 25G unused.
-VM: 2997G vsize, 2000M framework vsize, 19907017(0) swapins, 22439971(0) swapouts.
-Networks: packets: 5282389/5837M in, 5401927/954M out.
-Disks: 5097849/142G read, 2760276/132G written.
+Processes: 490 total, 5 running, 4 stuck, 481 sleeping, 2274 threads 
+2022/05/19 16:55:26
+Load Avg: 3.67, 2.39, 2.11 
+CPU usage: 7.64% user, 17.19% sys, 75.15% idle 
+SharedLibs: 245M resident, 33M data, 27M linkedit.
+MemRegions: 149741 total, 1373M resident, 109M private, 806M shared.
+PhysMem: 7674M used (3728M wired), 25G unused.
+VM: 3001G vsize, 1993M framework vsize, 19916282(0) swapins, 22439971(0) swapouts.
+Networks: packets: 5282446/5837M in, 5402052/954M out.
+Disks: 5119264/143G read, 2761522/132G written.
 
 COMMAND          MEM  %CPU #TH
 com.docker.hyper 11G  0.0  16 
-WindowServer     917M 0.0  9  
-com.apple.WebKit 606M 0.0  11 
-hubd             293M 0.0  27 
-repmgr           276M 0.0  24 
+WindowServer     925M 0.0  9  
+com.apple.WebKit 604M 0.0  9  
+hubd             293M 0.0  31 
+repmgr           276M 0.0  23 
