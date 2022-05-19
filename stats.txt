@@ -1,21 +1,38 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.56 3786 68.63  17 13 69  5.67 1.69 0.64
+   18.45 3711 66.85  17 13 69  5.67 1.69 0.64
 
-Processes: 486 total, 5 running, 481 sleeping, 2708 threads 
-2022/05/19 16:58:04
-Load Avg: 5.67, 1.69, 0.64 
-CPU usage: 20.42% user, 11.50% sys, 68.7% idle 
+Processes: 480 total, 2 running, 478 sleeping, 2659 threads 
+2022/05/19 16:58:07
+Load Avg: 5.54, 1.73, 0.66 
+CPU usage: 13.44% user, 18.0% sys, 68.54% idle 
 SharedLibs: 411M resident, 64M data, 42M linkedit.
-MemRegions: 138905 total, 4445M resident, 251M private, 12G shared.
-PhysMem: 25G used (3624M wired), 7096M unused.
-VM: 3522G vsize, 1993M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 78484/97M in, 142868/17M out.
-Disks: 286294/4901M read, 42212/1050M written.
+MemRegions: 140071 total, 4413M resident, 254M private, 12G shared.
+PhysMem: 25G used (3529M wired), 6994M unused.
+VM: 3540G vsize, 1993M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 86046/107M in, 157099/18M out.
+Disks: 288983/4911M read, 44416/1088M written.
 
 COMMAND          MEM  %CPU #TH   
 com.docker.hyper 10G  0.0  15    
-WindowServer     627M 0.0  10    
-Code Helper (GPU 417M 0.0  11    
-kernel_task      404M 0.0  261/16
-Electron         295M 0.0  16    
+WindowServer     617M 0.0  10    
+kernel_task      388M 0.0  261/16
+Code Helper (GPU 373M 0.0  11    
+Electron         300M 0.0  16    
+Processes: 481 total, 5 running, 476 sleeping, 2660 threads 
+2022/05/19 16:58:07
+Load Avg: 5.54, 1.73, 0.66 
+CPU usage: 13.97% user, 17.84% sys, 68.17% idle 
+SharedLibs: 411M resident, 64M data, 42M linkedit.
+MemRegions: 140184 total, 4415M resident, 254M private, 12G shared.
+PhysMem: 25G used (3529M wired), 6995M unused.
+VM: 3544G vsize, 1993M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 86085/107M in, 157131/18M out.
+Disks: 288987/4911M read, 44421/1088M written.
+
+COMMAND          MEM  %CPU #TH   
+com.docker.hyper 10G  0.0  15    
+WindowServer     617M 0.0  10    
+kernel_task      388M 0.0  261/16
+Code Helper (GPU 373M 0.0  11    
+Electron         300M 0.0  16    
