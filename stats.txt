@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.48 2099 41.98  13  9 79  3.50 2.22 0.99
+   20.90 2095 42.76  13  9 78  3.62 2.27 1.02
 
-Processes: 433 total, 11 running, 422 sleeping, 2501 threads 
-2022/05/19 17:00:12
-Load Avg: 3.50, 2.22, 0.99 
-CPU usage: 26.68% user, 32.79% sys, 40.51% idle 
-SharedLibs: 440M resident, 72M data, 43M linkedit.
-MemRegions: 148425 total, 5076M resident, 248M private, 12G shared.
-PhysMem: 28G used (4357M wired), 4469M unused.
-VM: 3632G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 540215/712M in, 934228/82M out.
-Disks: 365406/5845M read, 85425/3172M written.
-
-COMMAND          MEM  %CPU #TH   
-com.docker.hyper 10G  0.0  15    
-WindowServer     649M 0.0  11    
-kernel_task      505M 0.0  261/16
-Messages         451M 0.0  127   
-Code Helper (GPU 431M 0.0  12    
-Processes: 434 total, 6 running, 428 sleeping, 2534 threads 
-2022/05/19 17:00:12
+Processes: 443 total, 8 running, 4 stuck, 431 sleeping, 2817 threads 
+2022/05/19 17:00:17
 Load Avg: 3.62, 2.27, 1.02 
-CPU usage: 10.99% user, 14.94% sys, 74.5% idle 
+CPU usage: 23.1% user, 17.92% sys, 59.6% idle 
 SharedLibs: 440M resident, 72M data, 43M linkedit.
-MemRegions: 148928 total, 5071M resident, 249M private, 12G shared.
-PhysMem: 28G used (4385M wired), 4437M unused.
-VM: 3636G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 541855/715M in, 936319/82M out.
-Disks: 365411/5845M read, 85514/3172M written.
+MemRegions: 154878 total, 5227M resident, 255M private, 13G shared.
+PhysMem: 28G used (3957M wired), 4021M unused.
+VM: 3867G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 559870/738M in, 946408/83M out.
+Disks: 367223/6007M read, 93479/3394M written.
 
 COMMAND          MEM  %CPU #TH   
 com.docker.hyper 10G  0.0  15    
-WindowServer     712M 0.0  11    
-kernel_task      505M 0.0  261/17
-Messages         451M 0.0  127   
-Code Helper (GPU 424M 0.0  12    
+WindowServer     792M 0.0  9     
+Messages         430M 0.0  127   
+kernel_task      389M 0.0  261/16
+Code Helper (GPU 326M 0.0  12    
