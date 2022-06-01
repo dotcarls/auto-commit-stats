@@ -1,39 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.70 2661 48.59  14 11 76  4.70 2.29 0.95
+   19.57 1738 33.22  10  8 81  2.47 2.27 1.11
 
+Processes: 441 total, 4 running, 437 sleeping, 2276 threads 
+2022/06/01 11:40:19
+Load Avg: 2.47, 2.27, 1.11 
+CPU usage: 9.34% user, 6.79% sys, 83.85% idle 
+SharedLibs: 444M resident, 72M data, 44M linkedit.
+MemRegions: 134242 total, 4527M resident, 245M private, 12G shared.
+PhysMem: 26G used (3491M wired), 6410M unused.
+VM: 3196G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 303989/386M in, 367986/38M out.
+Disks: 348935/6007M read, 109672/2759M written.
 
-Processes: 451 total, 6 running, 445 sleeping, 2369 threads 
-2022/06/01 11:38:25
-Load Avg: 4.70, 2.29, 0.95 
-CPU usage: 12.19% user, 25.81% sys, 61.99% idle 
-SharedLibs: 432M resident, 71M data, 43M linkedit.
-MemRegions: 132184 total, 4474M resident, 247M private, 12G shared.
-PhysMem: 24G used (2868M wired), 7849M unused.
-VM: 3242G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 154872/192M in, 252083/29M out.
-Disks: 320088/5388M read, 77121/1872M written.
-
-COMMAND          MEM  %CPU #TH
-com.docker.hyper 10G  0.0  16 
-WindowServer     560M 0.0  10 
-com.apple.WebKit 343M 0.0  5  
-Messages         230M 0.0  10 
-Electron         227M 0.0  16 
-Processes: 451 total, 5 running, 446 sleeping, 2370 threads 
-2022/06/01 11:38:25
-Load Avg: 4.70, 2.29, 0.95 
-CPU usage: 12.14% user, 25.70% sys, 62.14% idle 
-SharedLibs: 432M resident, 71M data, 43M linkedit.
-MemRegions: 132183 total, 4474M resident, 247M private, 12G shared.
-PhysMem: 24G used (2868M wired), 7848M unused.
-VM: 3242G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 154883/192M in, 252146/29M out.
-Disks: 320090/5388M read, 77131/1872M written.
-
-COMMAND          MEM  %CPU #TH
-com.docker.hyper 10G  0.0  16 
-WindowServer     560M 0.0  10 
-com.apple.WebKit 343M 0.0  5  
-Messages         230M 0.0  10 
-Electron         227M 0.0  16 
+COMMAND          MEM   %CPU #TH
+com.docker.hyper 10G   0.0  16 
+WindowServer     1188M 0.0  10 
+com.apple.WebKit 343M  0.0  5  
+Terminal         257M  0.0  10 
+Electron         227M  0.0  16 
