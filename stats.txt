@@ -1,21 +1,75 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   31.11   38  1.16   3  2 95  2.02 2.60 2.37
+   15.44 3499 52.77  11  9 79  3.20 0.75 0.27
 
-Processes: 476 total, 3 running, 473 sleeping, 2779 threads 
-2022/05/20 11:35:20
-Load Avg: 2.02, 2.60, 2.37 
-CPU usage: 3.2% user, 7.37% sys, 89.60% idle 
-SharedLibs: 300M resident, 41M data, 27M linkedit.
-MemRegions: 215606 total, 2948M resident, 131M private, 2175M shared.
-PhysMem: 13G used (3952M wired), 19G unused.
-VM: 6364G vsize, 1993M framework vsize, 3873816(0) swapins, 4797099(0) swapouts.
-Networks: packets: 3888188/4881M in, 5068682/965M out.
-Disks: 1644815/39G read, 912964/37G written.
 
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 10G   0.0  16 
-WindowServer     1175M 0.0  10 
-Microsoft Outloo 673M  0.0  20 
-Messages         590M  0.0  123
-Code Helper (GPU 413M  0.0  10 
+
+
+Processes: 304 total, 10 running, 4 stuck, 290 sleeping, 2169 threads 
+2022/06/01 11:36:31
+Load Avg: 3.20, 0.75, 0.27 
+CPU usage: 36.36% user, 32.46% sys, 31.16% idle 
+SharedLibs: 318M resident, 56M data, 37M linkedit.
+MemRegions: 68130 total, 2028M resident, 149M private, 894M shared.
+PhysMem: 6786M used (3002M wired), 25G unused.
+VM: 1653G vsize, 1993M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 1186/150K in, 1308/163K out.
+Disks: 117034/1803M read, 8257/81M written.
+
+COMMAND      MEM  %CPU #TH 
+WindowServer 756M 0.0  11  
+mds_stores   120M 0.0  20  
+repmgr       91M  0.0  25/1
+kextd        65M  0.0  3   
+workflowd    64M  0.0  35  
+Processes: 304 total, 8 running, 7 stuck, 289 sleeping, 2169 threads 
+2022/06/01 11:36:31
+Load Avg: 3.20, 0.75, 0.27 
+CPU usage: 35.93% user, 32.18% sys, 31.87% idle 
+SharedLibs: 318M resident, 56M data, 37M linkedit.
+MemRegions: 68129 total, 2029M resident, 149M private, 894M shared.
+PhysMem: 6783M used (3002M wired), 25G unused.
+VM: 1653G vsize, 1993M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 1190/150K in, 1312/164K out.
+Disks: 117100/1803M read, 8258/81M written.
+
+COMMAND      MEM  %CPU #TH
+WindowServer 756M 0.0  11 
+mds_stores   120M 0.0  20 
+repmgr       91M  0.0  25 
+kextd        65M  0.0  3  
+workflowd    64M  0.0  35 
+Processes: 304 total, 7 running, 6 stuck, 291 sleeping, 2169 threads 
+2022/06/01 11:36:31
+Load Avg: 3.20, 0.75, 0.27 
+CPU usage: 35.73% user, 31.66% sys, 32.60% idle 
+SharedLibs: 318M resident, 56M data, 37M linkedit.
+MemRegions: 68128 total, 2029M resident, 149M private, 894M shared.
+PhysMem: 6782M used (3002M wired), 25G unused.
+VM: 1653G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 1194/151K in, 1318/165K out.
+Disks: 117160/1803M read, 8259/81M written.
+
+COMMAND      MEM  %CPU #TH
+WindowServer 756M 0.0  11 
+mds_stores   120M 0.0  20 
+repmgr       91M  0.0  25 
+kextd        65M  0.0  3  
+workflowd    64M  0.0  35 
+Processes: 304 total, 9 running, 5 stuck, 290 sleeping, 2169 threads 
+2022/06/01 11:36:31
+Load Avg: 3.20, 0.75, 0.27 
+CPU usage: 36.16% user, 32.38% sys, 31.44% idle 
+SharedLibs: 318M resident, 56M data, 37M linkedit.
+MemRegions: 68131 total, 2029M resident, 149M private, 894M shared.
+PhysMem: 6782M used (3002M wired), 25G unused.
+VM: 1653G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 1194/151K in, 1318/165K out.
+Disks: 117161/1803M read, 8259/81M written.
+
+COMMAND      MEM  %CPU #TH
+WindowServer 756M 0.0  11 
+mds_stores   120M 0.0  20 
+repmgr       91M  0.0  25 
+kextd        65M  0.0  3  
+workflowd    64M  0.0  35 
