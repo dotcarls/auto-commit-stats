@@ -1,75 +1,39 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   15.44 3499 52.77  11  9 79  3.20 0.75 0.27
+   18.70 2669 48.74  14 11 76  4.70 2.29 0.95
 
 
+Processes: 452 total, 9 running, 443 sleeping, 2375 threads 
+2022/06/01 11:38:24
+Load Avg: 4.70, 2.29, 0.95 
+CPU usage: 18.93% user, 27.65% sys, 53.40% idle 
+SharedLibs: 432M resident, 71M data, 43M linkedit.
+MemRegions: 132097 total, 4465M resident, 247M private, 12G shared.
+PhysMem: 24G used (2860M wired), 7858M unused.
+VM: 3246G vsize, 1993M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 154572/192M in, 251516/29M out.
+Disks: 320042/5388M read, 77057/1864M written.
 
+COMMAND          MEM  %CPU #TH
+com.docker.hyper 10G  0.0  16 
+WindowServer     560M 0.0  10 
+com.apple.WebKit 343M 0.0  5  
+Messages         230M 0.0  10 
+Electron         227M 0.0  16 
+Processes: 452 total, 7 running, 1 stuck, 444 sleeping, 2375 threads 
+2022/06/01 11:38:24
+Load Avg: 4.70, 2.29, 0.95 
+CPU usage: 18.89% user, 27.60% sys, 53.50% idle 
+SharedLibs: 432M resident, 71M data, 43M linkedit.
+MemRegions: 132096 total, 4465M resident, 247M private, 12G shared.
+PhysMem: 24G used (2860M wired), 7858M unused.
+VM: 3246G vsize, 1993M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 154572/192M in, 251516/29M out.
+Disks: 320042/5388M read, 77057/1864M written.
 
-Processes: 304 total, 10 running, 4 stuck, 290 sleeping, 2169 threads 
-2022/06/01 11:36:31
-Load Avg: 3.20, 0.75, 0.27 
-CPU usage: 36.36% user, 32.46% sys, 31.16% idle 
-SharedLibs: 318M resident, 56M data, 37M linkedit.
-MemRegions: 68130 total, 2028M resident, 149M private, 894M shared.
-PhysMem: 6786M used (3002M wired), 25G unused.
-VM: 1653G vsize, 1993M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1186/150K in, 1308/163K out.
-Disks: 117034/1803M read, 8257/81M written.
-
-COMMAND      MEM  %CPU #TH 
-WindowServer 756M 0.0  11  
-mds_stores   120M 0.0  20  
-repmgr       91M  0.0  25/1
-kextd        65M  0.0  3   
-workflowd    64M  0.0  35  
-Processes: 304 total, 8 running, 7 stuck, 289 sleeping, 2169 threads 
-2022/06/01 11:36:31
-Load Avg: 3.20, 0.75, 0.27 
-CPU usage: 35.93% user, 32.18% sys, 31.87% idle 
-SharedLibs: 318M resident, 56M data, 37M linkedit.
-MemRegions: 68129 total, 2029M resident, 149M private, 894M shared.
-PhysMem: 6783M used (3002M wired), 25G unused.
-VM: 1653G vsize, 1993M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1190/150K in, 1312/164K out.
-Disks: 117100/1803M read, 8258/81M written.
-
-COMMAND      MEM  %CPU #TH
-WindowServer 756M 0.0  11 
-mds_stores   120M 0.0  20 
-repmgr       91M  0.0  25 
-kextd        65M  0.0  3  
-workflowd    64M  0.0  35 
-Processes: 304 total, 7 running, 6 stuck, 291 sleeping, 2169 threads 
-2022/06/01 11:36:31
-Load Avg: 3.20, 0.75, 0.27 
-CPU usage: 35.73% user, 31.66% sys, 32.60% idle 
-SharedLibs: 318M resident, 56M data, 37M linkedit.
-MemRegions: 68128 total, 2029M resident, 149M private, 894M shared.
-PhysMem: 6782M used (3002M wired), 25G unused.
-VM: 1653G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1194/151K in, 1318/165K out.
-Disks: 117160/1803M read, 8259/81M written.
-
-COMMAND      MEM  %CPU #TH
-WindowServer 756M 0.0  11 
-mds_stores   120M 0.0  20 
-repmgr       91M  0.0  25 
-kextd        65M  0.0  3  
-workflowd    64M  0.0  35 
-Processes: 304 total, 9 running, 5 stuck, 290 sleeping, 2169 threads 
-2022/06/01 11:36:31
-Load Avg: 3.20, 0.75, 0.27 
-CPU usage: 36.16% user, 32.38% sys, 31.44% idle 
-SharedLibs: 318M resident, 56M data, 37M linkedit.
-MemRegions: 68131 total, 2029M resident, 149M private, 894M shared.
-PhysMem: 6782M used (3002M wired), 25G unused.
-VM: 1653G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1194/151K in, 1318/165K out.
-Disks: 117161/1803M read, 8259/81M written.
-
-COMMAND      MEM  %CPU #TH
-WindowServer 756M 0.0  11 
-mds_stores   120M 0.0  20 
-repmgr       91M  0.0  25 
-kextd        65M  0.0  3  
-workflowd    64M  0.0  35 
+COMMAND          MEM  %CPU #TH
+com.docker.hyper 10G  0.0  16 
+WindowServer     560M 0.0  10 
+com.apple.WebKit 343M 0.0  5  
+Messages         230M 0.0  10 
+Electron         227M 0.0  16 
