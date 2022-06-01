@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.53 1653 31.53  10  8 82  2.36 2.26 1.12
+   19.53 1645 31.37  10  8 82  2.36 2.26 1.12
 
-Processes: 437 total, 3 running, 434 sleeping, 2202 threads 
-2022/06/01 11:40:34
+Processes: 445 total, 3 running, 442 sleeping, 2252 threads 
+2022/06/01 11:40:36
 Load Avg: 2.36, 2.26, 1.12 
-CPU usage: 6.12% user, 8.63% sys, 85.23% idle 
+CPU usage: 10.20% user, 11.47% sys, 78.31% idle 
 SharedLibs: 444M resident, 72M data, 44M linkedit.
-MemRegions: 133991 total, 4530M resident, 244M private, 12G shared.
-PhysMem: 26G used (3168M wired), 6108M unused.
-VM: 3179G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 307110/390M in, 372840/38M out.
-Disks: 349074/6008M read, 111820/2784M written.
+MemRegions: 134678 total, 4538M resident, 245M private, 12G shared.
+PhysMem: 26G used (3484M wired), 5949M unused.
+VM: 3214G vsize, 1993M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 307227/390M in, 373134/38M out.
+Disks: 349100/6008M read, 111887/2784M written.
 
-COMMAND          MEM  %CPU #TH
-com.docker.hyper 10G  0.0  16 
-WindowServer     930M 0.0  8  
-com.apple.WebKit 343M 0.0  12 
-Terminal         257M 0.0  9  
-Electron         227M 0.0  16 
+COMMAND          MEM   %CPU #TH
+com.docker.hyper 10G   0.0  16 
+WindowServer     1129M 0.0  9  
+Terminal         362M  0.0  22 
+com.apple.WebKit 343M  0.0  12 
+Electron         227M  0.0  16 
