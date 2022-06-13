@@ -1,21 +1,38 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   28.79   10  0.29   3  2 95  2.67 2.11 2.02
+   28.78   10  0.29   3  2 95  2.67 2.11 2.02
 
-Processes: 476 total, 5 running, 471 sleeping, 2418 threads 
-2022/06/13 15:54:41
+Processes: 480 total, 3 running, 477 sleeping, 2349 threads 
+2022/06/13 15:54:43
 Load Avg: 2.67, 2.11, 2.02 
-CPU usage: 7.30% user, 11.22% sys, 81.46% idle 
+CPU usage: 14.65% user, 18.1% sys, 67.32% idle 
 SharedLibs: 279M resident, 68M data, 16M linkedit.
-MemRegions: 208043 total, 15G resident, 197M private, 2876M shared.
-PhysMem: 31G used (3598M wired), 691M unused.
-VM: 6041G vsize, 1993M framework vsize, 11488788(0) swapins, 11970664(0) swapouts.
-Networks: packets: 3908538/3899M in, 4723432/841M out.
-Disks: 3943501/91G read, 2328789/81G written.
+MemRegions: 208261 total, 15G resident, 198M private, 2901M shared.
+PhysMem: 31G used (3726M wired), 702M unused.
+VM: 6058G vsize, 1993M framework vsize, 11488788(0) swapins, 11970664(0) swapouts.
+Networks: packets: 3908543/3899M in, 4723432/841M out.
+Disks: 3945956/91G read, 2328835/81G written.
 
 COMMAND          MEM   %CPU #TH 
 com.docker.hyper 10G   0.0  16  
-ManagedClient    8060M 0.0  4   
+ManagedClient    8061M 0.0  4   
 Microsoft Outloo 1550M 0.0  25  
-WindowServer     999M  0.0  10/1
+WindowServer     1105M 0.0  10/1
 com.apple.WebKit 504M  0.0  4   
+Processes: 481 total, 4 running, 477 sleeping, 2348 threads 
+2022/06/13 15:54:43
+Load Avg: 2.67, 2.11, 2.02 
+CPU usage: 12.55% user, 17.33% sys, 70.10% idle 
+SharedLibs: 279M resident, 68M data, 16M linkedit.
+MemRegions: 208381 total, 15G resident, 198M private, 2908M shared.
+PhysMem: 31G used (3720M wired), 706M unused.
+VM: 6063G vsize, 2000M framework vsize, 11488788(0) swapins, 11970664(0) swapouts.
+Networks: packets: 3908543/3899M in, 4723432/841M out.
+Disks: 3945956/91G read, 2328836/81G written.
+
+COMMAND          MEM   %CPU #TH
+com.docker.hyper 10G   0.0  16 
+ManagedClient    8061M 0.0  4  
+Microsoft Outloo 1550M 0.0  25 
+WindowServer     1105M 0.0  10 
+com.apple.WebKit 504M  0.0  4  
