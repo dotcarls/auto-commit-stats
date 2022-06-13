@@ -1,75 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.64 4018 65.30  13 10 76  3.35 0.80 0.29
+   15.93  395  6.15   3  3 94  1.37 1.59 1.37
 
+Processes: 425 total, 2 running, 423 sleeping, 2129 threads 
+2022/06/13 18:31:29
+Load Avg: 1.37, 1.59, 1.37 
+CPU usage: 2.93% user, 6.9% sys, 90.97% idle 
+SharedLibs: 475M resident, 77M data, 48M linkedit.
+MemRegions: 182422 total, 5042M resident, 254M private, 13G shared.
+PhysMem: 25G used (3079M wired), 6786M unused.
+VM: 8559G vsize, 1993M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 45764/35M in, 81179/20M out.
+Disks: 368248/6032M read, 78820/925M written.
 
-
-
-Processes: 335 total, 62 running, 4 stuck, 269 sleeping, 2428 threads 
-2022/06/13 18:13:13
-Load Avg: 3.35, 0.80, 0.29 
-CPU usage: 54.12% user, 45.87% sys, 0.0% idle 
-SharedLibs: 361M resident, 60M data, 39M linkedit.
-MemRegions: 86283 total, 2600M resident, 176M private, 1114M shared.
-PhysMem: 7620M used (3031M wired), 25G unused.
-VM: 2207G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1672/197K in, 1837/220K out.
-Disks: 140369/2441M read, 6916/57M written.
-
-COMMAND         MEM  %CPU #TH 
-WindowServer    882M 0.0  12  
-talagent        107M 0.0  5   
-repmgr          88M  0.0  23  
-mds_stores      87M  0.0  21/1
-Keychain Access 77M  0.0  19/1
-Processes: 335 total, 55 running, 10 stuck, 269 sleeping, 1 unknown, 2425 threads 
-2022/06/13 18:13:13
-Load Avg: 3.35, 0.80, 0.29 
-CPU usage: 53.87% user, 46.12% sys, 0.0% idle 
-SharedLibs: 361M resident, 60M data, 39M linkedit.
-MemRegions: 86256 total, 2601M resident, 175M private, 1116M shared.
-PhysMem: 7623M used (3031M wired), 25G unused.
-VM: 2208G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1675/197K in, 1839/220K out.
-Disks: 140414/2450M read, 6916/57M written.
-
-COMMAND         MEM  %CPU #TH 
-WindowServer    882M 0.0  12  
-talagent        107M 0.0  5   
-repmgr          88M  0.0  23  
-mds_stores      87M  0.0  21/1
-Keychain Access 77M  0.0  19/2
-Processes: 335 total, 57 running, 8 stuck, 270 sleeping, 2428 threads 
-2022/06/13 18:13:13
-Load Avg: 3.35, 0.80, 0.29 
-CPU usage: 54.20% user, 45.79% sys, 0.0% idle 
-SharedLibs: 361M resident, 60M data, 39M linkedit.
-MemRegions: 86297 total, 2601M resident, 176M private, 1114M shared.
-PhysMem: 7624M used (3031M wired), 25G unused.
-VM: 2207G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1675/197K in, 1839/220K out.
-Disks: 140416/2450M read, 6917/57M written.
-
-COMMAND         MEM  %CPU #TH 
-WindowServer    882M 0.0  12  
-talagent        107M 0.0  5   
-repmgr          88M  0.0  23  
-mds_stores      87M  0.0  21/1
-Keychain Access 77M  0.0  19/1
-Processes: 335 total, 62 running, 9 stuck, 264 sleeping, 2428 threads 
-2022/06/13 18:13:13
-Load Avg: 3.35, 0.80, 0.29 
-CPU usage: 54.50% user, 45.49% sys, 0.0% idle 
-SharedLibs: 361M resident, 60M data, 39M linkedit.
-MemRegions: 86303 total, 2601M resident, 176M private, 1114M shared.
-PhysMem: 7624M used (3031M wired), 25G unused.
-VM: 2207G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1675/197K in, 1839/220K out.
-Disks: 140416/2450M read, 6917/57M written.
-
-COMMAND         MEM  %CPU #TH 
-WindowServer    882M 0.0  12/1
-talagent        107M 0.0  5   
-repmgr          88M  0.0  23  
-mds_stores      87M  0.0  21/1
-Keychain Access 77M  0.0  19/1
+COMMAND          MEM  %CPU #TH   
+com.docker.hyper 10G  0.0  16    
+WindowServer     688M 0.0  10    
+Microsoft Outloo 392M 0.0  21    
+kernel_task      218M 0.0  266/16
+Keychain Access  206M 0.0  3     
