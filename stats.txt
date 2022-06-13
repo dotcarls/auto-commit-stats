@@ -1,75 +1,75 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.97 3625 60.08  12  9 79  2.40 0.57 0.21
+   16.64 4018 65.30  13 10 76  3.35 0.80 0.29
 
 
 
 
-Processes: 326 total, 48 running, 14 stuck, 264 sleeping, 2301 threads 
-2022/06/13 16:41:32
-Load Avg: 2.40, 0.57, 0.21 
-CPU usage: 59.84% user, 40.0% sys, 0.15% idle 
-SharedLibs: 335M resident, 58M data, 39M linkedit.
-MemRegions: 81043 total, 2329M resident, 166M private, 1158M shared.
-PhysMem: 6783M used (2868M wired), 25G unused.
-VM: 2055G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1206/153K in, 1271/167K out.
-Disks: 128699/2269M read, 7476/58M written.
+Processes: 335 total, 62 running, 4 stuck, 269 sleeping, 2428 threads 
+2022/06/13 18:13:13
+Load Avg: 3.35, 0.80, 0.29 
+CPU usage: 54.12% user, 45.87% sys, 0.0% idle 
+SharedLibs: 361M resident, 60M data, 39M linkedit.
+MemRegions: 86283 total, 2600M resident, 176M private, 1114M shared.
+PhysMem: 7620M used (3031M wired), 25G unused.
+VM: 2207G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 1672/197K in, 1837/220K out.
+Disks: 140369/2441M read, 6916/57M written.
 
-COMMAND      MEM  %CPU #TH
-WindowServer 792M 0.0  11 
-mds_stores   93M  0.0  20 
-repmgr       86M  0.0  25 
-workflowd    69M  0.0  33 
-kextd        63M  0.0  2  
-Processes: 326 total, 49 running, 15 stuck, 262 sleeping, 2300 threads 
-2022/06/13 16:41:32
-Load Avg: 2.40, 0.57, 0.21 
-CPU usage: 59.52% user, 39.43% sys, 1.4% idle 
-SharedLibs: 335M resident, 58M data, 39M linkedit.
-MemRegions: 81123 total, 2332M resident, 166M private, 1168M shared.
-PhysMem: 6795M used (2869M wired), 25G unused.
-VM: 2055G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1206/153K in, 1271/167K out.
-Disks: 128788/2284M read, 7479/58M written.
+COMMAND         MEM  %CPU #TH 
+WindowServer    882M 0.0  12  
+talagent        107M 0.0  5   
+repmgr          88M  0.0  23  
+mds_stores      87M  0.0  21/1
+Keychain Access 77M  0.0  19/1
+Processes: 335 total, 55 running, 10 stuck, 269 sleeping, 1 unknown, 2425 threads 
+2022/06/13 18:13:13
+Load Avg: 3.35, 0.80, 0.29 
+CPU usage: 53.87% user, 46.12% sys, 0.0% idle 
+SharedLibs: 361M resident, 60M data, 39M linkedit.
+MemRegions: 86256 total, 2601M resident, 175M private, 1116M shared.
+PhysMem: 7623M used (3031M wired), 25G unused.
+VM: 2208G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 1675/197K in, 1839/220K out.
+Disks: 140414/2450M read, 6916/57M written.
 
-COMMAND      MEM  %CPU #TH 
-WindowServer 792M 0.0  11/1
-mds_stores   93M  0.0  20  
-repmgr       86M  0.0  25/1
-workflowd    69M  0.0  33  
-kextd        63M  0.0  2   
-Processes: 326 total, 43 running, 16 stuck, 267 sleeping, 2301 threads 
-2022/06/13 16:41:32
-Load Avg: 2.40, 0.57, 0.21 
-CPU usage: 60.6% user, 39.63% sys, 0.30% idle 
-SharedLibs: 335M resident, 58M data, 39M linkedit.
-MemRegions: 81101 total, 2331M resident, 166M private, 1168M shared.
-PhysMem: 6795M used (2869M wired), 25G unused.
-VM: 2055G vsize, 1993M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1206/153K in, 1271/167K out.
-Disks: 128788/2284M read, 7479/58M written.
+COMMAND         MEM  %CPU #TH 
+WindowServer    882M 0.0  12  
+talagent        107M 0.0  5   
+repmgr          88M  0.0  23  
+mds_stores      87M  0.0  21/1
+Keychain Access 77M  0.0  19/2
+Processes: 335 total, 57 running, 8 stuck, 270 sleeping, 2428 threads 
+2022/06/13 18:13:13
+Load Avg: 3.35, 0.80, 0.29 
+CPU usage: 54.20% user, 45.79% sys, 0.0% idle 
+SharedLibs: 361M resident, 60M data, 39M linkedit.
+MemRegions: 86297 total, 2601M resident, 176M private, 1114M shared.
+PhysMem: 7624M used (3031M wired), 25G unused.
+VM: 2207G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 1675/197K in, 1839/220K out.
+Disks: 140416/2450M read, 6917/57M written.
 
-COMMAND      MEM  %CPU #TH 
-WindowServer 792M 0.0  11/1
-mds_stores   93M  0.0  20  
-repmgr       86M  0.0  25/1
-workflowd    69M  0.0  33  
-kextd        63M  0.0  2   
-Processes: 326 total, 44 running, 17 stuck, 265 sleeping, 2299 threads 
-2022/06/13 16:41:32
-Load Avg: 2.40, 0.57, 0.21 
-CPU usage: 58.89% user, 39.35% sys, 1.74% idle 
-SharedLibs: 335M resident, 58M data, 39M linkedit.
-MemRegions: 81128 total, 2333M resident, 166M private, 1168M shared.
-PhysMem: 6795M used (2869M wired), 25G unused.
-VM: 2055G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1206/153K in, 1271/167K out.
-Disks: 128788/2284M read, 7479/58M written.
+COMMAND         MEM  %CPU #TH 
+WindowServer    882M 0.0  12  
+talagent        107M 0.0  5   
+repmgr          88M  0.0  23  
+mds_stores      87M  0.0  21/1
+Keychain Access 77M  0.0  19/1
+Processes: 335 total, 62 running, 9 stuck, 264 sleeping, 2428 threads 
+2022/06/13 18:13:13
+Load Avg: 3.35, 0.80, 0.29 
+CPU usage: 54.50% user, 45.49% sys, 0.0% idle 
+SharedLibs: 361M resident, 60M data, 39M linkedit.
+MemRegions: 86303 total, 2601M resident, 176M private, 1114M shared.
+PhysMem: 7624M used (3031M wired), 25G unused.
+VM: 2207G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 1675/197K in, 1839/220K out.
+Disks: 140416/2450M read, 6917/57M written.
 
-COMMAND      MEM  %CPU #TH 
-WindowServer 792M 0.0  11  
-mds_stores   93M  0.0  20  
-repmgr       86M  0.0  25/2
-workflowd    69M  0.0  33  
-kextd        63M  0.0  2   
+COMMAND         MEM  %CPU #TH 
+WindowServer    882M 0.0  12/1
+talagent        107M 0.0  5   
+repmgr          88M  0.0  23  
+mds_stores      87M  0.0  21/1
+Keychain Access 77M  0.0  19/1
