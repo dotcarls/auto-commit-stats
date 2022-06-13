@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   14.47  234  3.31   5  3 92  3.53 2.50 2.09
+   28.79   10  0.29   3  2 95  2.67 2.11 2.02
 
-Processes: 574 total, 5 running, 1 stuck, 568 sleeping, 3398 threads 
-2022/06/01 15:22:48
-Load Avg: 3.53, 2.50, 2.09 
-CPU usage: 16.57% user, 11.36% sys, 72.5% idle 
-SharedLibs: 273M resident, 73M data, 20M linkedit.
-MemRegions: 242749 total, 5600M resident, 135M private, 13G shared.
-PhysMem: 32G used (4885M wired), 140M unused.
-VM: 6166G vsize, 1993M framework vsize, 90782(0) swapins, 99126(0) swapouts.
-Networks: packets: 2120441/2365M in, 2467549/295M out.
-Disks: 2545454/31G read, 641042/13G written.
+Processes: 476 total, 5 running, 471 sleeping, 2418 threads 
+2022/06/13 15:54:41
+Load Avg: 2.67, 2.11, 2.02 
+CPU usage: 7.30% user, 11.22% sys, 81.46% idle 
+SharedLibs: 279M resident, 68M data, 16M linkedit.
+MemRegions: 208043 total, 15G resident, 197M private, 2876M shared.
+PhysMem: 31G used (3598M wired), 691M unused.
+VM: 6041G vsize, 1993M framework vsize, 11488788(0) swapins, 11970664(0) swapouts.
+Networks: packets: 3908538/3899M in, 4723432/841M out.
+Disks: 3943501/91G read, 2328789/81G written.
 
 COMMAND          MEM   %CPU #TH 
-com.docker.hyper 11G   0.0  16  
-WindowServer     1841M 0.0  10/1
-ManagedClient    1678M 0.0  4   
-Code Helper (GPU 1076M 0.0  10  
-Microsoft Outloo 769M  0.0  20  
-Processes: 569 total, 7 running, 1 stuck, 561 sleeping, 3376 threads 
-2022/06/01 15:22:49
-Load Avg: 3.53, 2.50, 2.09 
-CPU usage: 27.60% user, 13.17% sys, 59.22% idle 
-SharedLibs: 273M resident, 73M data, 20M linkedit.
-MemRegions: 242461 total, 5650M resident, 134M private, 13G shared.
-PhysMem: 32G used (4882M wired), 115M unused.
-VM: 6145G vsize, 2000M framework vsize, 90782(0) swapins, 99126(0) swapouts.
-Networks: packets: 2120466/2365M in, 2467610/295M out.
-Disks: 2548690/31G read, 641257/13G written.
-
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 11G   0.0  16 
-WindowServer     1838M 0.0  10 
-ManagedClient    1678M 0.0  4  
-Code Helper (GPU 1075M 0.0  10 
-Microsoft Outloo 769M  0.0  20 
+com.docker.hyper 10G   0.0  16  
+ManagedClient    8060M 0.0  4   
+Microsoft Outloo 1550M 0.0  25  
+WindowServer     999M  0.0  10/1
+com.apple.WebKit 504M  0.0  4   
