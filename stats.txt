@@ -1,21 +1,38 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   15.93  395  6.14   3  3 94  1.50 1.61 1.38
+   15.78  156  2.40   3  2 95  1.41 2.25 2.13
 
-Processes: 424 total, 2 running, 422 sleeping, 2089 threads 
-2022/06/13 18:31:30
-Load Avg: 1.50, 1.61, 1.38 
-CPU usage: 2.53% user, 5.76% sys, 91.70% idle 
-SharedLibs: 475M resident, 77M data, 48M linkedit.
-MemRegions: 182218 total, 5034M resident, 254M private, 13G shared.
-PhysMem: 25G used (3076M wired), 6789M unused.
-VM: 8554G vsize, 1993M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 45786/35M in, 81246/20M out.
-Disks: 368261/6032M read, 78834/925M written.
+Processes: 427 total, 3 running, 424 sleeping, 2026 threads 
+2022/06/13 19:10:09
+Load Avg: 1.41, 2.25, 2.13 
+CPU usage: 3.1% user, 10.53% sys, 86.45% idle 
+SharedLibs: 482M resident, 77M data, 49M linkedit.
+MemRegions: 168105 total, 6555M resident, 259M private, 13G shared.
+PhysMem: 28G used (2984M wired), 3919M unused.
+VM: 6435G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 109615/83M in, 174453/39M out.
+Disks: 380684/6222M read, 156875/2061M written.
 
-COMMAND          MEM  %CPU #TH   
-com.docker.hyper 10G  0.0  16    
-WindowServer     688M 0.0  10    
-Microsoft Outloo 392M 0.0  21    
-kernel_task      218M 0.0  266/16
-Keychain Access  206M 0.0  3     
+COMMAND          MEM  %CPU #TH
+com.docker.hyper 10G  0.0  16 
+WindowServer     777M 0.0  9  
+ManagedClient    572M 0.0  4  
+com.apple.WebKit 398M 0.0  10 
+Microsoft Outloo 397M 0.0  22 
+Processes: 428 total, 4 running, 424 sleeping, 2027 threads 
+2022/06/13 19:10:09
+Load Avg: 1.41, 2.25, 2.13 
+CPU usage: 2.70% user, 10.83% sys, 86.45% idle 
+SharedLibs: 482M resident, 77M data, 49M linkedit.
+MemRegions: 168173 total, 6558M resident, 259M private, 13G shared.
+PhysMem: 28G used (2984M wired), 3920M unused.
+VM: 6439G vsize, 1993M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 109615/83M in, 174453/39M out.
+Disks: 380684/6222M read, 156876/2061M written.
+
+COMMAND          MEM  %CPU #TH
+com.docker.hyper 10G  0.0  16 
+WindowServer     777M 0.0  9  
+ManagedClient    572M 0.0  4  
+com.apple.WebKit 398M 0.0  10 
+Microsoft Outloo 397M 0.0  22 
