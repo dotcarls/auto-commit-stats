@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   40.14    7  0.29   3  2 95  3.76 2.88 2.62
+   20.19 3964 78.17  14 10 75  3.93 0.91 0.33
 
-Processes: 548 total, 3 running, 1 stuck, 544 sleeping, 2925 threads 
-2022/06/27 09:41:03
-Load Avg: 3.76, 2.88, 2.62 
-CPU usage: 10.46% user, 13.23% sys, 76.30% idle 
-SharedLibs: 395M resident, 52M data, 36M linkedit.
-MemRegions: 219609 total, 7225M resident, 194M private, 3030M shared.
-PhysMem: 25G used (4047M wired), 7139M unused.
-VM: 5580G vsize, 1993M framework vsize, 24659778(0) swapins, 27358380(0) swapouts.
-Networks: packets: 8698423/5922M in, 6861146/1069M out.
-Disks: 5080190/168G read, 3537919/162G written.
+Processes: 314 total, 22 running, 18 stuck, 274 sleeping, 2308 threads 
+2022/06/27 17:18:12
+Load Avg: 3.93, 0.91, 0.33 
+CPU usage: 51.70% user, 37.35% sys, 10.93% idle 
+SharedLibs: 364M resident, 66M data, 39M linkedit.
+MemRegions: 82166 total, 2443M resident, 166M private, 1585M shared.
+PhysMem: 7835M used (3323M wired), 24G unused.
+VM: 1890G vsize, 2000M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 7734/8299K in, 11560/1268K out.
+Disks: 144087/2877M read, 8429/110M written.
 
-COMMAND          MEM  %CPU #TH
-com.docker.hyper 10G  0.0  16 
-Microsoft Outloo 929M 0.0  23 
-WindowServer     866M 0.0  9/1
-hubd             553M 0.0  21 
-com.apple.WebKit 472M 0.0  4  
-Processes: 547 total, 5 running, 542 sleeping, 2915 threads 
-2022/06/27 09:41:03
-Load Avg: 3.76, 2.88, 2.62 
-CPU usage: 10.95% user, 12.10% sys, 76.94% idle 
-SharedLibs: 395M resident, 52M data, 36M linkedit.
-MemRegions: 219590 total, 7225M resident, 193M private, 3030M shared.
-PhysMem: 25G used (4044M wired), 7136M unused.
-VM: 5576G vsize, 1993M framework vsize, 24659778(0) swapins, 27358380(0) swapouts.
-Networks: packets: 8699059/5923M in, 6862143/1069M out.
-Disks: 5080204/168G read, 3538088/162G written.
-
-COMMAND          MEM  %CPU #TH
-com.docker.hyper 10G  0.0  16 
-Microsoft Outloo 929M 0.0  24 
-WindowServer     866M 0.0  9  
-hubd             553M 0.0  21 
-com.apple.WebKit 472M 0.0  4  
+COMMAND      MEM   %CPU #TH 
+WindowServer 1148M 0.0  12  
+Terminal     140M  0.0  19  
+repmgr       90M   0.0  25/1
+workflowd    72M   0.0  36  
+Finder       70M   0.0  19  
