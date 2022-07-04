@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   54.64   13  0.67   5  3 93  1.57 1.60 1.64
+   54.28   13  0.67   5  3 93  2.36 2.06 1.98
 
-Processes: 585 total, 4 running, 581 sleeping, 3175 threads 
-2022/07/04 10:33:24
-Load Avg: 1.57, 1.60, 1.64 
-CPU usage: 3.70% user, 8.84% sys, 87.45% idle 
-SharedLibs: 283M resident, 52M data, 16M linkedit.
-MemRegions: 293365 total, 10G resident, 210M private, 3048M shared.
-PhysMem: 31G used (4133M wired), 576M unused.
-VM: 8515G vsize, 1993M framework vsize, 35892244(0) swapins, 37647726(0) swapouts.
-Networks: packets: 5995764/6176M in, 10000136/3718M out.
-Disks: 4665755/197G read, 2611949/182G written.
+Processes: 600 total, 2 running, 598 sleeping, 3330 threads 
+2022/07/04 11:07:51
+Load Avg: 2.36, 2.06, 1.98 
+CPU usage: 5.63% user, 8.78% sys, 85.58% idle 
+SharedLibs: 235M resident, 52M data, 13M linkedit.
+MemRegions: 302313 total, 11G resident, 223M private, 2946M shared.
+PhysMem: 32G used (4204M wired), 86M unused.
+VM: 8911G vsize, 1993M framework vsize, 36039522(0) swapins, 37721121(0) swapouts.
+Networks: packets: 6054173/6202M in, 10101127/3736M out.
+Disks: 4700714/198G read, 2665360/183G written.
 
-COMMAND          MEM   %CPU #TH 
-com.docker.hyper 10G   0.0  16  
-WindowServer     1436M 0.0  10  
-ManagedClient    1218M 0.0  4   
-com.apple.WebKit 1190M 0.0  6   
-com.apple.WebKit 785M  0.0  23/2
-Processes: 584 total, 2 running, 582 sleeping, 3156 threads 
-2022/07/04 10:33:25
-Load Avg: 1.57, 1.60, 1.64 
-CPU usage: 4.59% user, 9.62% sys, 85.77% idle 
-SharedLibs: 283M resident, 52M data, 16M linkedit.
-MemRegions: 293275 total, 10G resident, 210M private, 3045M shared.
-PhysMem: 31G used (4133M wired), 577M unused.
-VM: 8511G vsize, 1993M framework vsize, 35892244(0) swapins, 37647726(0) swapouts.
-Networks: packets: 5995770/6176M in, 10000146/3718M out.
-Disks: 4665766/197G read, 2611961/182G written.
-
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 10G   0.0  16 
-WindowServer     1436M 0.0  10 
-ManagedClient    1218M 0.0  4  
-com.apple.WebKit 1190M 0.0  6  
-com.apple.WebKit 785M  0.0  23 
+COMMAND          MEM   %CPU #TH   
+com.docker.hyper 10G   0.0  16    
+ManagedClient    1595M 0.0  4     
+WindowServer     1356M 0.0  10    
+com.apple.WebKit 834M  0.0  16    
+kernel_task      686M  0.0  310/16
