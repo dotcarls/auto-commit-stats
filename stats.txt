@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   56.34   12  0.67   5  3 93  1.94 1.75 2.02
+   56.30   12  0.67   5  3 93  3.55 2.08 2.13
 
-Processes: 541 total, 18 running, 523 sleeping, 3029 threads 
-2022/07/04 09:19:53
-Load Avg: 1.94, 1.75, 2.02 
-CPU usage: 70.96% user, 26.11% sys, 2.92% idle 
-SharedLibs: 367M resident, 49M data, 32M linkedit.
-MemRegions: 254136 total, 8316M resident, 186M private, 2199M shared.
-PhysMem: 25G used (4351M wired), 7306M unused.
-VM: 7162G vsize, 2000M framework vsize, 35840936(0) swapins, 37647726(0) swapouts.
-Networks: packets: 5789103/6080M in, 9698966/3675M out.
-Disks: 4527776/196G read, 2471919/180G written.
-
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 10G   0.0  16 
-com.apple.WebKit 1076M 0.0  6  
-WindowServer     992M  0.0  9/1
-com.apple.WebKit 780M  0.0  16 
-com.apple.WebKit 576M  0.0  10 
-Processes: 547 total, 18 running, 529 sleeping, 3001 threads 
-2022/07/04 09:19:54
-Load Avg: 1.94, 1.75, 2.02 
-CPU usage: 67.78% user, 27.6% sys, 5.15% idle 
-SharedLibs: 367M resident, 49M data, 32M linkedit.
-MemRegions: 256365 total, 8380M resident, 187M private, 2226M shared.
-PhysMem: 25G used (4373M wired), 7165M unused.
-VM: 7230G vsize, 2000M framework vsize, 35841512(0) swapins, 37647726(0) swapouts.
-Networks: packets: 5789194/6080M in, 9699082/3675M out.
-Disks: 4527947/196G read, 2472372/180G written.
+Processes: 605 total, 10 running, 4 stuck, 591 sleeping, 3274 threads 
+2022/07/04 09:19:58
+Load Avg: 3.55, 2.08, 2.13 
+CPU usage: 44.41% user, 30.62% sys, 24.96% idle 
+SharedLibs: 367M resident, 49M data, 33M linkedit.
+MemRegions: 268646 total, 8864M resident, 195M private, 2298M shared.
+PhysMem: 26G used (4573M wired), 5846M unused.
+VM: 7616G vsize, 2000M framework vsize, 35843984(0) swapins, 37647726(0) swapouts.
+Networks: packets: 5791234/6081M in, 9703248/3675M out.
+Disks: 4533433/196G read, 2473508/180G written.
 
 COMMAND          MEM   %CPU #TH   
 com.docker.hyper 10G   0.0  16    
 com.apple.WebKit 1076M 0.0  6     
-WindowServer     992M  0.0  9     
+WindowServer     1033M 0.0  10/1  
 com.apple.WebKit 780M  0.0  16    
-kernel_task      593M  0.0  277/16
+kernel_task      723M  0.0  277/16
