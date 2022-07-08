@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   51.87   12  0.62   4  2 94  2.70 2.46 2.53
+   49.88   13  0.64   4  2 94  1.93 2.29 2.31
 
-Processes: 536 total, 12 running, 4 stuck, 520 sleeping, 2998 threads 
-2022/07/08 11:38:36
-Load Avg: 2.70, 2.46, 2.53 
-CPU usage: 33.26% user, 58.34% sys, 8.39% idle 
-SharedLibs: 342M resident, 45M data, 31M linkedit.
-MemRegions: 207516 total, 4450M resident, 161M private, 4750M shared.
-PhysMem: 21G used (4830M wired), 11G unused.
-VM: 4078G vsize, 2000M framework vsize, 51882831(0) swapins, 54989297(0) swapouts.
-Networks: packets: 8286166/8742M in, 13220494/4263M out.
-Disks: 7381173/296G read, 4074278/271G written.
+Processes: 581 total, 2 running, 579 sleeping, 3156 threads 
+2022/07/08 12:10:49
+Load Avg: 2.02, 2.30, 2.31 
+CPU usage: 4.69% user, 9.53% sys, 85.77% idle 
+SharedLibs: 269M resident, 53M data, 19M linkedit.
+MemRegions: 246145 total, 8023M resident, 223M private, 5639M shared.
+PhysMem: 31G used (4153M wired), 1234M unused.
+VM: 6334G vsize, 2000M framework vsize, 52021523(0) swapins, 54989297(0) swapouts.
+Networks: packets: 8923462/9607M in, 13962549/4333M out.
+Disks: 7940806/306G read, 4293192/276G written.
 
 COMMAND          MEM   %CPU #TH
 com.docker.hyper 10G   0.0  16 
-WindowServer     1280M 0.0  10 
-Microsoft Outloo 883M  0.0  29 
-Terminal         674M  0.0  9  
-hubd             586M  0.0  24 
-Processes: 546 total, 14 running, 1 stuck, 531 sleeping, 3156 threads 
-2022/07/08 11:38:37
-Load Avg: 2.70, 2.46, 2.53 
-CPU usage: 41.32% user, 49.83% sys, 8.84% idle 
-SharedLibs: 342M resident, 45M data, 31M linkedit.
-MemRegions: 210013 total, 4637M resident, 163M private, 4831M shared.
-PhysMem: 22G used (4831M wired), 10G unused.
-VM: 4128G vsize, 2000M framework vsize, 51883405(0) swapins, 54989297(0) swapouts.
-Networks: packets: 8287718/8745M in, 13221842/4263M out.
-Disks: 7381884/296G read, 4074834/271G written.
-
-COMMAND          MEM   %CPU #TH 
-com.docker.hyper 10G   0.0  16  
-WindowServer     1280M 0.0  10/1
-Microsoft Outloo 883M  0.0  28  
-Terminal         674M  0.0  9   
-hubd             586M  0.0  24  
+WindowServer     1319M 0.0  9  
+Microsoft Outloo 1033M 0.0  25 
+Terminal         759M  0.0  13 
+ManagedClient    633M  0.0  4  
