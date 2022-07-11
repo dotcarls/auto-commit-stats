@@ -1,21 +1,21 @@
               disk0               disk2               disk3       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   49.96   12  0.57   520.81    0  0.00     4.09    0  0.00   4  2 94  2.22 2.03 2.13
+   49.95   12  0.57   520.81    0  0.00     4.09    0  0.00   4  2 94  2.19 2.02 2.13
 
-Processes: 598 total, 2 running, 596 sleeping, 3387 threads 
-2022/07/11 15:06:33
-Load Avg: 2.20, 2.03, 2.13 
-CPU usage: 12.2% user, 7.92% sys, 80.5% idle 
+Processes: 542 total, 2 running, 540 sleeping, 2977 threads 
+2022/07/11 15:06:42
+Load Avg: 2.19, 2.02, 2.13 
+CPU usage: 2.66% user, 5.92% sys, 91.40% idle 
 SharedLibs: 265M resident, 68M data, 21M linkedit.
-MemRegions: 264678 total, 7511M resident, 214M private, 4067M shared.
-PhysMem: 28G used (5189M wired), 4083M unused.
-VM: 6216G vsize, 1993M framework vsize, 59591661(0) swapins, 62864195(0) swapouts.
-Networks: packets: 9798755/10G in, 15210125/4546M out.
-Disks: 9092611/351G read, 4932908/317G written.
+MemRegions: 254068 total, 7500M resident, 213M private, 3804M shared.
+PhysMem: 28G used (5159M wired), 3740M unused.
+VM: 5954G vsize, 1993M framework vsize, 59596314(0) swapins, 62864195(0) swapouts.
+Networks: packets: 9799146/10G in, 15211174/4547M out.
+Disks: 9094436/352G read, 4934020/317G written.
 
 COMMAND          MEM   %CPU #TH
 com.docker.hyper 10G   0.0  16 
-WindowServer     1807M 0.0  10 
-Microsoft Outloo 1329M 0.0  26 
-ManagedClient    952M  0.0  4  
-Terminal         765M  0.0  10 
+WindowServer     2348M 0.0  10 
+Microsoft Outloo 1329M 0.0  25 
+ManagedClient    954M  0.0  4  
+hubd             622M  0.0  25 
