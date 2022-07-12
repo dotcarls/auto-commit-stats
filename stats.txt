@@ -1,38 +1,21 @@
               disk0               disk2               disk3       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   43.84   14  0.60    72.77    0  0.00     2.19    0  0.00   4  2 94  2.42 2.27 2.22
+   43.62   14  0.60    72.76    0  0.00     2.19    0  0.00   4  2 94  2.40 2.25 2.19
 
-Processes: 587 total, 3 running, 1 stuck, 583 sleeping, 3173 threads 
-2022/07/12 10:42:05
-Load Avg: 2.42, 2.27, 2.22 
-CPU usage: 8.80% user, 9.76% sys, 81.42% idle 
-SharedLibs: 243M resident, 75M data, 19M linkedit.
-MemRegions: 406797 total, 12G resident, 226M private, 3884M shared.
-PhysMem: 32G used (4500M wired), 119M unused.
-VM: 20T vsize, 1993M framework vsize, 61576648(0) swapins, 65350788(0) swapouts.
-Networks: packets: 11184017/11G in, 16982346/4819M out.
-Disks: 11347506/391G read, 6416035/351G written.
-
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 10G   0.0  16 
-ManagedClient    4267M 0.0  4  
-WindowServer     1477M 0.0  9  
-hubd             794M  0.0  24 
-Terminal         702M  0.0  10 
-Processes: 587 total, 3 running, 584 sleeping, 3226 threads 
-2022/07/12 10:42:06
-Load Avg: 2.55, 2.30, 2.23 
-CPU usage: 8.22% user, 10.52% sys, 81.25% idle 
-SharedLibs: 243M resident, 75M data, 19M linkedit.
-MemRegions: 406874 total, 12G resident, 226M private, 3883M shared.
-PhysMem: 32G used (4501M wired), 116M unused.
-VM: 20T vsize, 1993M framework vsize, 61576648(0) swapins, 65350788(0) swapouts.
-Networks: packets: 11184054/11G in, 16982440/4819M out.
-Disks: 11347553/391G read, 6416045/351G written.
+Processes: 616 total, 3 running, 613 sleeping, 3289 threads 
+2022/07/12 11:12:31
+Load Avg: 2.40, 2.25, 2.19 
+CPU usage: 9.92% user, 10.77% sys, 79.30% idle 
+SharedLibs: 209M resident, 68M data, 16M linkedit.
+MemRegions: 433781 total, 12G resident, 201M private, 4195M shared.
+PhysMem: 32G used (4930M wired), 400M unused.
+VM: 21T vsize, 1993M framework vsize, 61584057(0) swapins, 65350788(0) swapouts.
+Networks: packets: 11304469/11G in, 17150969/4844M out.
+Disks: 11416008/392G read, 6478468/352G written.
 
 COMMAND          MEM   %CPU #TH
 com.docker.hyper 10G   0.0  16 
-ManagedClient    4267M 0.0  4  
-WindowServer     1477M 0.0  9  
-hubd             794M  0.0  25 
-Terminal         702M  0.0  10 
+ManagedClient    4658M 0.0  4  
+WindowServer     1693M 0.0  10 
+hubd             820M  0.0  26 
+Terminal         760M  0.0  11 
