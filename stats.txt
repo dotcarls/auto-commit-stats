@@ -1,38 +1,21 @@
-              disk0               disk2               disk3       cpu    load average
-    KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   36.42   18  0.65   103.83    0  0.00     2.22    0  0.00   4  2 94  2.85 2.57 2.30
+              disk0       cpu    load average
+    KB/t  tps  MB/s  us sy id   1m   5m   15m
+    9.55 6127 57.12   8  7 85  7.20 1.92 0.71
 
-Processes: 610 total, 2 running, 608 sleeping, 3499 threads 
-2022/07/13 01:27:31
-Load Avg: 2.85, 2.57, 2.30 
-CPU usage: 9.50% user, 9.40% sys, 81.8% idle 
-SharedLibs: 258M resident, 73M data, 20M linkedit.
-MemRegions: 337368 total, 8482M resident, 153M private, 4397M shared.
-PhysMem: 32G used (4544M wired), 489M unused.
-VM: 6802G vsize, 1993M framework vsize, 62464005(0) swapins, 67495045(0) swapouts.
-Networks: packets: 14032798/13G in, 20688671/5432M out.
-Disks: 16106815/458G read, 8221292/387G written.
+Processes: 312 total, 20 running, 3 stuck, 289 sleeping, 2368 threads 
+2022/07/13 10:58:33
+Load Avg: 7.20, 1.92, 0.71 
+CPU usage: 50.26% user, 32.63% sys, 17.10% idle 
+SharedLibs: 413M resident, 66M data, 44M linkedit.
+MemRegions: 82558 total, 2636M resident, 163M private, 1126M shared.
+PhysMem: 8209M used (3071M wired), 24G unused.
+VM: 1821G vsize, 1998M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 4200/870K in, 5269/1211K out.
+Disks: 484226/4485M read, 20590/224M written.
 
-COMMAND          MEM   %CPU #TH
-ManagedClient    12G   0.0  4  
-com.docker.hyper 11G   0.0  16 
-WindowServer     1554M 0.0  10 
-hubd             1011M 0.0  26 
-Microsoft Outloo 989M  0.0  23 
-Processes: 610 total, 3 running, 607 sleeping, 3488 threads 
-2022/07/13 01:27:31
-Load Avg: 2.85, 2.57, 2.30 
-CPU usage: 8.73% user, 10.66% sys, 80.60% idle 
-SharedLibs: 258M resident, 73M data, 20M linkedit.
-MemRegions: 337349 total, 8482M resident, 153M private, 4454M shared.
-PhysMem: 32G used (4488M wired), 488M unused.
-VM: 6803G vsize, 1993M framework vsize, 62464005(0) swapins, 67495045(0) swapouts.
-Networks: packets: 14032807/13G in, 20688713/5432M out.
-Disks: 16106875/458G read, 8221302/387G written.
-
-COMMAND          MEM   %CPU #TH
-ManagedClient    12G   0.0  4  
-com.docker.hyper 11G   0.0  16 
-WindowServer     1553M 0.0  10 
-hubd             1011M 0.0  26 
-Microsoft Outloo 989M  0.0  23 
+COMMAND      MEM  %CPU #TH 
+WindowServer 804M 0.0  11  
+Safari       189M 0.0  26/1
+repmgr       90M  0.0  24  
+workflowd    76M  0.0  37  
+kextd        73M  0.0  3   
