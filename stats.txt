@@ -1,33 +1,21 @@
               disk0               disk2               disk3       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   11.51  165  1.85   925.92    0  0.03     6.81    0  0.00   3  2 96  1.57 1.91 1.94
-te, 14G shared.
-PhysMem: 30G used (3686M wired), 2363M unused.
-VM: 4479G vsize, 1991M framework vsize, 14778(0) swapins, 16830(0) swapouts.
-Networks: packets: 653673/476M in, 737217/108M out.
-Disks: 1733786/18G read, 586997/8072M written.
+   11.57  101  1.14   925.92    0  0.02     6.81    0  0.00   3  2 96  2.05 1.86 1.83
+
+Processes: 515 total, 4 running, 511 sleeping, 2776 threads 
+2022/07/13 18:48:52
+Load Avg: 2.05, 1.86, 1.83 
+CPU usage: 3.6% user, 7.50% sys, 89.43% idle 
+SharedLibs: 329M resident, 73M data, 32M linkedit.
+MemRegions: 244959 total, 4911M resident, 177M private, 13G shared.
+PhysMem: 31G used (3827M wired), 715M unused.
+VM: 7664G vsize, 1991M framework vsize, 14842(0) swapins, 16830(0) swapouts.
+Networks: packets: 1119038/623M in, 1377972/207M out.
+Disks: 1975607/21G read, 890517/11G written.
 
 COMMAND          MEM   %CPU #TH
 com.docker.hyper 10G   0.0  16 
-WindowServer     1160M 0.0  10 
-Microsoft Outloo 676M  0.0  17 
-Safari           668M  0.0  9  
-Code Helper (GPU 403M  0.0  10 
-
-Processes: 481 total, 3 running, 478 sleeping, 2424 threads 
-2022/07/13 14:51:31
-Load Avg: 2.01, 1.99, 1.97 
-CPU usage: 3.34% user, 7.30% sys, 89.35% idle 
-SharedLibs: 325M resident, 74M data, 29M linkedit.
-MemRegions: 186227 total, 4035M resident, 154M private, 14G shared.
-PhysMem: 30G used (3657M wired), 2358M unused.
-VM: 4466G vsize, 1991M framework vsize, 14778(0) swapins, 16830(0) swapouts.
-Networks: packets: 653682/476M in, 737265/108M out.
-Disks: 1733833/18G read, 587009/8072M written.
-
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 10G   0.0  16 
-WindowServer     1160M 0.0  10 
-Microsoft Outloo 676M  0.0  17 
-Safari           668M  0.0  9  
-Code Helper (GPU 403M  0.0  10 
+WindowServer     1232M 0.0  10 
+Safari           675M  0.0  9  
+Microsoft Outloo 486M  0.0  18 
+Code Helper (GPU 408M  0.0  10 
