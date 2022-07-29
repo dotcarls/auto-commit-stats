@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   37.83  135  4.99   5  3 92  4.31 4.11 3.30
+   20.32 4852 96.31  39 24 37  35.67 10.44 3.90
 
-Processes: 763 total, 3 running, 760 sleeping, 2924 threads 
-2022/07/29 16:11:42
-Load Avg: 4.31, 4.11, 3.30 
-CPU usage: 3.99% user, 7.34% sys, 88.65% idle 
-SharedLibs: 613M resident, 113M data, 352M linkedit.
-MemRegions: 194416 total, 5284M resident, 213M private, 12G shared.
-PhysMem: 31G used (4201M wired), 1009M unused.
-VM: 26T vsize, 3152M framework vsize, 1907831(0) swapins, 3501398(0) swapouts.
-Networks: packets: 13638449/6136M in, 29774526/43G out.
-Disks: 8381759/355G read, 6080649/166G written.
+Processes: 494 total, 11 running, 3 stuck, 480 sleeping, 2860 threads 
+2022/07/29 16:13:57
+Load Avg: 35.67, 10.44, 3.90 
+CPU usage: 33.46% user, 28.46% sys, 38.7% idle 
+SharedLibs: 601M resident, 103M data, 42M linkedit.
+MemRegions: 108721 total, 4446M resident, 287M private, 2563M shared.
+PhysMem: 18G used (3838M wired), 14G unused.
+VM: 17T vsize, 3152M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 38270/42M in, 21072/12M out.
+Disks: 213324/4592M read, 42990/618M written.
 
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 10G   0.0  16 
-WindowServer     1327M 0.0  15 
-Photos           803M  0.0  11 
-Microsoft Outloo 712M  0.0  20 
-repmgr           696M  0.0  24 
-Processes: 763 total, 2 running, 761 sleeping, 2920 threads 
-2022/07/29 16:11:42
-Load Avg: 4.31, 4.11, 3.30 
-CPU usage: 5.68% user, 10.36% sys, 83.94% idle 
-SharedLibs: 613M resident, 113M data, 352M linkedit.
-MemRegions: 194386 total, 5290M resident, 213M private, 12G shared.
-PhysMem: 31G used (4201M wired), 1033M unused.
-VM: 26T vsize, 3152M framework vsize, 1907831(0) swapins, 3501398(0) swapouts.
-Networks: packets: 13638455/6136M in, 29774537/43G out.
-Disks: 8381804/355G read, 6080714/166G written.
-
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 10G   0.0  16 
-WindowServer     1327M 0.0  15 
-Photos           803M  0.0  11 
-Microsoft Outloo 712M  0.0  20 
-repmgr           696M  0.0  24 
+COMMAND          MEM  %CPU #TH   
+Safari           766M 0.0  12    
+WindowServer     689M 0.0  16    
+efilogin-helper  457M 0.0  17/1  
+kernel_task      399M 0.0  267/16
+Microsoft Outloo 330M 0.0  21    
