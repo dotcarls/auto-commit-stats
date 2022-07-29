@@ -1,35 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   21.66  599 12.68  10  7 83  2.10 2.46 3.22
-sys, 92.2% idle 
-SharedLibs: 672M resident, 113M data, 45M linkedit.
-MemRegions: 129018 total, 5128M resident, 336M private, 12G shared.
-PhysMem: 32G used (3364M wired), 302M unused.
-VM: 20T vsize, 3152M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1750794/2446M in, 713349/69M out.
-Disks: 595159/11G read, 305259/7555M written.
+   21.90  584 12.49  10  7 84  3.08 2.59 3.20
+
+Processes: 649 total, 3 running, 646 sleeping, 3020 threads 
+2022/07/29 16:39:18
+Load Avg: 3.08, 2.59, 3.20 
+CPU usage: 3.12% user, 7.42% sys, 89.45% idle 
+SharedLibs: 640M resident, 112M data, 42M linkedit.
+MemRegions: 156019 total, 5395M resident, 301M private, 12G shared.
+PhysMem: 32G used (4622M wired), 116M unused.
+VM: 22T vsize, 3025M framework vsize, 5237(0) swapins, 27794(0) swapouts.
+Networks: packets: 1756659/2452M in, 718444/70M out.
+Disks: 609268/12G read, 309799/7707M written.
 
 COMMAND          MEM  %CPU #TH   
 com.docker.hyper 10G  0.0  16    
-Safari           774M 0.0  8     
-WindowServer     724M 0.0  15    
-repmgr           573M 0.0  24    
-kernel_task      402M 0.0  267/16
-
-Processes: 606 total, 3 running, 603 sleeping, 2428 threads 
-2022/07/29 16:38:07
-Load Avg: 2.10, 2.46, 3.22 
-CPU usage: 5.36% user, 8.39% sys, 86.24% idle 
-SharedLibs: 672M resident, 113M data, 45M linkedit.
-MemRegions: 128903 total, 5126M resident, 336M private, 12G shared.
-PhysMem: 32G used (3365M wired), 296M unused.
-VM: 20T vsize, 3152M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1750812/2446M in, 713380/69M out.
-Disks: 595166/11G read, 305273/7555M written.
-
-COMMAND          MEM  %CPU #TH   
-com.docker.hyper 10G  0.0  16    
-Safari           774M 0.0  8     
-WindowServer     724M 0.0  15    
-repmgr           573M 0.0  24    
-kernel_task      403M 0.0  267/16
+kernel_task      834M 0.0  267/16
+Safari           776M 0.0  12    
+WindowServer     728M 0.0  17    
+repmgr           576M 0.0  24    
