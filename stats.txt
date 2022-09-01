@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   36.96   14  0.51   3  3 94  9.65 4.50 3.38
+   32.60 3815 121.45  44 25 31  97.74 34.89 13.48
 
-Processes: 772 total, 8 running, 4 stuck, 760 sleeping, 3495 threads 
-2022/08/31 14:43:27
-Load Avg: 9.65, 4.50, 3.38 
-CPU usage: 25.60% user, 27.58% sys, 46.81% idle 
-SharedLibs: 632M resident, 97M data, 42M linkedit.
-MemRegions: 223649 total, 8959M resident, 255M private, 3157M shared.
-PhysMem: 32G used (4087M wired), 137M unused.
-VM: 27T vsize, 3032M framework vsize, 51931820(0) swapins, 52656645(0) swapouts.
-Networks: packets: 37464035/17G in, 55398212/74G out.
-Disks: 24557301/951G read, 15619910/465G written.
+Processes: 539 total, 14 running, 1 stuck, 524 sleeping, 2960 threads 
+2022/09/01 10:32:38
+Load Avg: 97.74, 34.89, 13.48 
+CPU usage: 32.19% user, 34.14% sys, 33.65% idle 
+SharedLibs: 635M resident, 107M data, 42M linkedit.
+MemRegions: 111197 total, 3786M resident, 310M private, 11G shared.
+PhysMem: 30G used (3218M wired), 1658M unused.
+VM: 18T vsize, 3032M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 154974/206M in, 46097/21M out.
+Disks: 253368/8783M read, 72286/1571M written.
 
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 10G   0.0  16 
-WindowServer     1277M 0.0  17 
-terraform-ls     643M  0.0  22 
-Safari           641M  0.0  7  
-Microsoft Outloo 548M  0.0  17 
+COMMAND          MEM   %CPU #TH   
+com.docker.hyper 9029M 0.0  10/1  
+Safari           607M  0.0  15    
+WindowServer     492M  0.0  17    
+kernel_task      299M  0.0  301/18
+Slack Helper (Re 263M  0.0  29    
