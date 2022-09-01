@@ -1,4 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   24.07 3550 83.46  41 26 33  10.71 3.21 1.21
+   23.78 3553 82.51  40 26 34  10.71 3.21 1.21
 
+Processes: 526 total, 6 running, 7 stuck, 513 sleeping, 2777 threads 
+2022/09/01 14:56:18
+Load Avg: 10.71, 3.21, 1.21 
+CPU usage: 27.20% user, 38.13% sys, 34.65% idle 
+SharedLibs: 617M resident, 105M data, 41M linkedit.
+MemRegions: 122040 total, 5013M resident, 294M private, 12G shared.
+PhysMem: 30G used (3276M wired), 2358M unused.
+VM: 18T vsize, 3032M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 204496/274M in, 42440/17M out.
+Disks: 229887/4856M read, 46835/1557M written.
+
+COMMAND          MEM  %CPU #TH   
+com.docker.hyper 10G  0.0  15/4  
+terraform-ls     701M 0.0  23    
+Safari           587M 0.0  8     
+WindowServer     578M 0.0  15    
+kernel_task      311M 0.0  308/16
