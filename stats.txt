@@ -1,35 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   11.96   56  0.65   2  2 96  3.60 3.71 3.39
-sys, 87.11% idle 
-SharedLibs: 610M resident, 79M data, 36M linkedit.
-MemRegions: 222698 total, 7474M resident, 239M private, 12G shared.
-PhysMem: 31G used (3495M wired), 721M unused.
-VM: 27T vsize, 3152M framework vsize, 3823726(0) swapins, 4181404(0) swapouts.
-Networks: packets: 9497859/8025M in, 4649873/1165M out.
-Disks: 24352018/238G read, 14019296/200G written.
+   13.13   66  0.85   3  2 95  2.32 2.46 2.36
 
-COMMAND          MEM  %CPU #TH
-com.docker.hyper 16G  0.0  16 
-Microsoft Outloo 780M 0.0  20 
-WindowServer     674M 0.0  17 
-Safari           640M 0.0  9  
-Terminal         509M 0.0  13 
+Processes: 783 total, 2 running, 781 sleeping, 3701 threads 
+2022/09/15 21:03:11
+Load Avg: 2.32, 2.46, 2.36 
+CPU usage: 3.65% user, 6.75% sys, 89.59% idle 
+SharedLibs: 508M resident, 67M data, 36M linkedit.
+MemRegions: 237823 total, 4024M resident, 215M private, 2419M shared.
+PhysMem: 21G used (4866M wired), 11G unused.
+VM: 26T vsize, 3152M framework vsize, 20875943(0) swapins, 22729008(0) swapouts.
+Networks: packets: 26101653/20G in, 16439383/6551M out.
+Disks: 55775844/600G read, 25528358/418G written.
 
-Processes: 762 total, 4 running, 758 sleeping, 3385 threads 
-2022/09/09 13:41:34
-Load Avg: 3.60, 3.71, 3.39 
-CPU usage: 7.80% user, 8.74% sys, 83.44% idle 
-SharedLibs: 610M resident, 79M data, 36M linkedit.
-MemRegions: 222333 total, 7452M resident, 238M private, 12G shared.
-PhysMem: 31G used (3496M wired), 681M unused.
-VM: 27T vsize, 3152M framework vsize, 3823726(0) swapins, 4181404(0) swapouts.
-Networks: packets: 9497893/8025M in, 4649942/1165M out.
-Disks: 24352042/238G read, 14019311/200G written.
-
-COMMAND          MEM  %CPU #TH 
-com.docker.hyper 16G  0.0  16  
-Microsoft Outloo 780M 0.0  20  
-WindowServer     674M 0.0  17/1
-Safari           640M 0.0  9   
-terraform-ls     507M 0.0  22  
+COMMAND          MEM   %CPU #TH
+com.docker.hyper 17G   0.0  16 
+WindowServer     2097M 0.0  16 
+Microsoft Outloo 964M  0.0  23 
+Terminal         541M  0.0  11 
+terraform-ls     507M  0.0  22 
