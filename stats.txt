@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   13.56   37  0.48   3  2 95  12.33 4.75 3.32
+   13.56   37  0.48   3  2 95  13.10 5.04 3.43
 
-Processes: 782 total, 26 running, 1 stuck, 755 sleeping, 3562 threads 
-2022/09/30 11:24:26
-Load Avg: 12.33, 4.75, 3.32 
-CPU usage: 46.68% user, 26.41% sys, 26.89% idle 
+Processes: 784 total, 14 running, 7 stuck, 763 sleeping, 3544 threads 
+2022/09/30 11:24:32
+Load Avg: 13.10, 5.04, 3.43 
+CPU usage: 38.56% user, 30.42% sys, 31.1% idle 
 SharedLibs: 589M resident, 79M data, 37M linkedit.
-MemRegions: 217088 total, 7031M resident, 243M private, 3760M shared.
-PhysMem: 32G used (5146M wired), 283M unused.
-VM: 27T vsize, 3032M framework vsize, 27330359(0) swapins, 28883454(0) swapouts.
-Networks: packets: 31011729/24G in, 19549534/7749M out.
-Disks: 61326894/676G read, 29921195/504G written.
+MemRegions: 219317 total, 7359M resident, 244M private, 3515M shared.
+PhysMem: 32G used (5148M wired), 192M unused.
+VM: 27T vsize, 3032M framework vsize, 27330487(0) swapins, 28883454(0) swapouts.
+Networks: packets: 31039156/24G in, 19552103/7749M out.
+Disks: 61332094/676G read, 29924754/504G written.
 
 COMMAND          MEM   %CPU #TH   
 com.docker.hyper 17G   0.0  16    
-WindowServer     1643M 0.0  16/1  
-kernel_task      1566M 0.0  331/16
-Safari           589M  0.0  13    
-Microsoft Outloo 499M  0.0  17    
-Processes: 777 total, 30 running, 1 stuck, 746 sleeping, 3507 threads 
-2022/09/30 11:24:28
-Load Avg: 12.33, 4.75, 3.32 
-CPU usage: 46.69% user, 26.13% sys, 27.17% idle 
-SharedLibs: 589M resident, 79M data, 37M linkedit.
-MemRegions: 216700 total, 7039M resident, 243M private, 3643M shared.
-PhysMem: 32G used (5101M wired), 225M unused.
-VM: 27T vsize, 3032M framework vsize, 27330423(0) swapins, 28883454(0) swapouts.
-Networks: packets: 31020309/24G in, 19550207/7749M out.
-Disks: 61328858/676G read, 29921833/504G written.
-
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 17G   0.0  16    
-WindowServer     1645M 0.0  16    
-kernel_task      1486M 0.0  331/16
-Safari           589M  0.0  10    
-Microsoft Outloo 499M  0.0  17    
+WindowServer     1641M 0.0  16    
+kernel_task      1590M 0.0  331/16
+terraform-ls     610M  0.0  23/1  
+Safari           591M  0.0  10    
