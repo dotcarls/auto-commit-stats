@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   13.65   41  0.55   3  2 95  5.00 7.11 5.00
+   13.56   37  0.48   3  2 95  7.22 3.63 2.92
 
-Processes: 714 total, 3 running, 711 sleeping, 2950 threads 
-2022/09/25 23:07:45
-Load Avg: 5.00, 7.11, 5.00 
-CPU usage: 11.83% user, 10.49% sys, 77.67% idle 
-SharedLibs: 650M resident, 87M data, 36M linkedit.
-MemRegions: 154085 total, 4415M resident, 236M private, 2439M shared.
-PhysMem: 23G used (3982M wired), 9491M unused.
-VM: 23T vsize, 3152M framework vsize, 27072643(0) swapins, 28790665(0) swapouts.
-Networks: packets: 29053648/23G in, 18438504/7404M out.
-Disks: 58952246/656G read, 27738578/473G written.
-
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 17G   0.0  16    
-WindowServer     1218M 0.0  15    
-kernel_task      745M  0.0  427/16
-Safari           506M  0.0  8     
-IMDPersistenceAg 359M  0.0  2     
-Processes: 713 total, 4 running, 709 sleeping, 2939 threads 
-2022/09/25 23:07:45
-Load Avg: 5.00, 7.11, 5.00 
-CPU usage: 11.50% user, 12.33% sys, 76.16% idle 
-SharedLibs: 650M resident, 87M data, 36M linkedit.
-MemRegions: 154012 total, 4412M resident, 235M private, 2439M shared.
-PhysMem: 23G used (3982M wired), 9496M unused.
-VM: 23T vsize, 3152M framework vsize, 27072643(0) swapins, 28790665(0) swapouts.
-Networks: packets: 29053654/23G in, 18438510/7404M out.
-Disks: 58952257/656G read, 27738677/473G written.
+Processes: 782 total, 25 running, 2 stuck, 755 sleeping, 3563 threads 
+2022/09/30 11:24:24
+Load Avg: 7.22, 3.63, 2.92 
+CPU usage: 40.97% user, 32.71% sys, 26.30% idle 
+SharedLibs: 588M resident, 79M data, 37M linkedit.
+MemRegions: 214972 total, 6977M resident, 243M private, 3882M shared.
+PhysMem: 32G used (5667M wired), 118M unused.
+VM: 27T vsize, 3032M framework vsize, 27330296(0) swapins, 28883454(0) swapouts.
+Networks: packets: 30991233/24G in, 19547758/7749M out.
+Disks: 61322057/676G read, 29918044/503G written.
 
 COMMAND          MEM   %CPU #TH   
 com.docker.hyper 17G   0.0  16    
-WindowServer     1218M 0.0  15    
-kernel_task      745M  0.0  427/18
-Safari           506M  0.0  8     
-IMDPersistenceAg 359M  0.0  2     
+WindowServer     1794M 0.0  16/1  
+kernel_task      1585M 0.0  331/16
+Safari           589M  0.0  13    
+Microsoft Outloo 499M  0.0  18    
