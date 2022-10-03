@@ -2,20 +2,37 @@
     KB/t  tps  MB/s  us sy id   1m   5m   15m
    13.51   34  0.45   3  2 95  10.52 4.18 2.74
 
-Processes: 781 total, 4 running, 7 stuck, 770 sleeping, 3277 threads 
-2022/10/03 13:37:51
+Processes: 777 total, 7 running, 5 stuck, 765 sleeping, 3298 threads 
+2022/10/03 13:37:54
 Load Avg: 10.52, 4.18, 2.74 
-CPU usage: 6.24% user, 19.36% sys, 74.40% idle 
+CPU usage: 7.2% user, 24.33% sys, 68.64% idle 
 SharedLibs: 697M resident, 100M data, 41M linkedit.
-MemRegions: 191676 total, 6798M resident, 266M private, 3544M shared.
-PhysMem: 32G used (4560M wired), 253M unused.
+MemRegions: 191483 total, 6806M resident, 266M private, 3522M shared.
+PhysMem: 32G used (4625M wired), 240M unused.
 VM: 26T vsize, 3032M framework vsize, 27516436(0) swapins, 29005509(0) swapouts.
-Networks: packets: 32309649/25G in, 20438792/8161M out.
-Disks: 63018318/692G read, 31018056/520G written.
+Networks: packets: 32309661/25G in, 20438805/8161M out.
+Disks: 63018426/692G read, 31019192/520G written.
 
 COMMAND          MEM   %CPU #TH   
 com.docker.hyper 17G   0.0  16    
-WindowServer     1683M 0.0  16    
-kernel_task      1147M 0.0  332/16
+WindowServer     1696M 0.0  17    
+kernel_task      1167M 0.0  332/16
+terraform-ls     630M  0.0  24    
+Safari           576M  0.0  7     
+Processes: 778 total, 7 running, 6 stuck, 765 sleeping, 3300 threads 
+2022/10/03 13:37:54
+Load Avg: 10.52, 4.18, 2.74 
+CPU usage: 7.14% user, 25.7% sys, 67.78% idle 
+SharedLibs: 697M resident, 100M data, 41M linkedit.
+MemRegions: 191587 total, 6810M resident, 266M private, 3522M shared.
+PhysMem: 32G used (4625M wired), 243M unused.
+VM: 26T vsize, 3032M framework vsize, 27516436(0) swapins, 29005509(0) swapouts.
+Networks: packets: 32309662/25G in, 20438805/8161M out.
+Disks: 63018426/692G read, 31019192/520G written.
+
+COMMAND          MEM   %CPU #TH   
+com.docker.hyper 17G   0.0  16    
+WindowServer     1696M 0.0  17    
+kernel_task      1167M 0.0  332/16
 terraform-ls     630M  0.0  24    
 Safari           576M  0.0  7     
