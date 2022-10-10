@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   30.20   33  0.97   8  5 87  3.52 2.80 2.93
+   20.50   22  0.45   3  2 95  14.14 5.63 3.45
 
-Processes: 755 total, 3 running, 752 sleeping, 3505 threads 
-2022/10/06 13:06:45
-Load Avg: 3.52, 2.80, 2.93 
-CPU usage: 5.21% user, 6.99% sys, 87.79% idle 
-SharedLibs: 532M resident, 66M data, 27M linkedit.
-MemRegions: 221497 total, 7295M resident, 211M private, 2544M shared.
-PhysMem: 32G used (4694M wired), 46M unused.
-VM: 28T vsize, 3152M framework vsize, 7065703(0) swapins, 7461663(0) swapouts.
-Networks: packets: 3359458/3449M in, 2272697/1046M out.
-Disks: 4392156/109G read, 1229401/53G written.
+Processes: 729 total, 4 running, 1 stuck, 724 sleeping, 3396 threads 
+2022/10/10 13:03:42
+Load Avg: 14.14, 5.63, 3.45 
+CPU usage: 18.41% user, 15.83% sys, 65.74% idle 
+SharedLibs: 678M resident, 95M data, 35M linkedit.
+MemRegions: 173951 total, 6424M resident, 262M private, 2828M shared.
+PhysMem: 28G used (4106M wired), 4213M unused.
+VM: 25T vsize, 3025M framework vsize, 7130511(0) swapins, 7461663(0) swapouts.
+Networks: packets: 6419734/5223M in, 4069643/1716M out.
+Disks: 7605954/136G read, 3951376/90G written.
 
 COMMAND          MEM   %CPU #TH
 com.docker.hyper 11G   0.0  16 
-WindowServer     2260M 0.0  17 
-Terminal         665M  0.0  11 
-com.apple.WebKit 625M  0.0  7  
-com.apple.WebKit 559M  0.0  7  
-Processes: 753 total, 4 running, 749 sleeping, 3486 threads 
-2022/10/06 13:06:46
-Load Avg: 3.52, 2.80, 2.93 
-CPU usage: 8.54% user, 10.90% sys, 80.55% idle 
-SharedLibs: 532M resident, 66M data, 27M linkedit.
-MemRegions: 221355 total, 7291M resident, 211M private, 2544M shared.
-PhysMem: 32G used (4726M wired), 40M unused.
-VM: 27T vsize, 3152M framework vsize, 7065703(0) swapins, 7461663(0) swapouts.
-Networks: packets: 3359465/3449M in, 2272703/1046M out.
-Disks: 4392291/109G read, 1229418/53G written.
-
-COMMAND          MEM   %CPU #TH 
-com.docker.hyper 11G   0.0  16  
-WindowServer     2260M 0.0  17/1
-Terminal         691M  0.0  13  
-com.apple.WebKit 625M  0.0  7   
-com.apple.WebKit 559M  0.0  7   
+WindowServer     1427M 0.0  17 
+terraform-ls     639M  0.0  22 
+Microsoft Outloo 570M  0.0  20 
+com.apple.WebKit 556M  0.0  9  
