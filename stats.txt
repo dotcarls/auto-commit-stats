@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.50   22  0.45   3  2 95  14.14 5.63 3.45
+   20.48   22  0.45   3  2 95  10.77 5.53 3.47
 
-Processes: 729 total, 4 running, 1 stuck, 724 sleeping, 3359 threads 
-2022/10/10 13:03:43
-Load Avg: 14.14, 5.63, 3.45 
-CPU usage: 11.11% user, 21.88% sys, 67.0% idle 
+Processes: 702 total, 3 running, 699 sleeping, 3204 threads 
+2022/10/10 13:04:08
+Load Avg: 10.77, 5.53, 3.47 
+CPU usage: 5.89% user, 9.70% sys, 84.40% idle 
 SharedLibs: 678M resident, 95M data, 35M linkedit.
-MemRegions: 173782 total, 6431M resident, 262M private, 2827M shared.
-PhysMem: 28G used (4125M wired), 4199M unused.
-VM: 25T vsize, 3025M framework vsize, 7130511(0) swapins, 7461663(0) swapouts.
-Networks: packets: 6420149/5224M in, 4069971/1716M out.
-Disks: 7610437/136G read, 3951548/90G written.
+MemRegions: 171763 total, 6396M resident, 258M private, 2816M shared.
+PhysMem: 28G used (4262M wired), 4312M unused.
+VM: 24T vsize, 3025M framework vsize, 7130511(0) swapins, 7461663(0) swapouts.
+Networks: packets: 6424123/5226M in, 4071979/1717M out.
+Disks: 7621490/136G read, 3952766/90G written.
 
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 11G   0.0  16 
-WindowServer     1427M 0.0  16 
-terraform-ls     639M  0.0  22 
-Microsoft Outloo 570M  0.0  20 
-com.apple.WebKit 556M  0.0  9  
+COMMAND          MEM   %CPU #TH   
+com.docker.hyper 11G   0.0  16    
+WindowServer     1563M 0.0  15    
+terraform-ls     639M  0.0  22    
+Microsoft Outloo 570M  0.0  25    
+kernel_task      567M  0.0  302/17
