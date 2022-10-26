@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.49   22  0.45   3  2 95  2.31 3.34 3.11
+   15.38   16  0.25   3  2 95  13.55 5.64 3.71
 
-Processes: 711 total, 3 running, 708 sleeping, 3265 threads 
-2022/10/10 13:10:01
-Load Avg: 2.31, 3.34, 3.11 
-CPU usage: 5.98% user, 9.96% sys, 84.5% idle 
-SharedLibs: 678M resident, 95M data, 35M linkedit.
-MemRegions: 174266 total, 6379M resident, 260M private, 2928M shared.
-PhysMem: 28G used (3830M wired), 3813M unused.
-VM: 25T vsize, 3152M framework vsize, 7130511(0) swapins, 7461663(0) swapouts.
-Networks: packets: 6471802/5257M in, 4099393/1723M out.
-Disks: 7628041/136G read, 3962311/90G written.
+Processes: 793 total, 6 running, 2 stuck, 785 sleeping, 3629 threads 
+2022/10/26 13:21:48
+Load Avg: 13.55, 5.64, 3.71 
+CPU usage: 15.78% user, 25.48% sys, 58.73% idle 
+SharedLibs: 663M resident, 101M data, 51M linkedit.
+MemRegions: 209062 total, 7762M resident, 270M private, 3750M shared.
+PhysMem: 32G used (4329M wired), 243M unused.
+VM: 28T vsize, 3152M framework vsize, 7155582(0) swapins, 7467551(0) swapouts.
+Networks: packets: 16067481/14G in, 9381115/4832M out.
+Disks: 18890367/240G read, 12122962/215G written.
 
-COMMAND          MEM   %CPU #TH 
-com.docker.hyper 11G   0.0  16  
-WindowServer     1456M 0.0  17/1
-Microsoft Outloo 605M  0.0  22  
-com.apple.WebKit 530M  0.0  16  
-Safari           519M  0.0  9   
-Processes: 710 total, 3 running, 707 sleeping, 3253 threads 
-2022/10/10 13:10:01
-Load Avg: 2.31, 3.34, 3.11 
-CPU usage: 5.84% user, 11.69% sys, 82.45% idle 
-SharedLibs: 678M resident, 95M data, 35M linkedit.
-MemRegions: 174203 total, 6377M resident, 260M private, 2927M shared.
-PhysMem: 28G used (3831M wired), 3814M unused.
-VM: 25T vsize, 3152M framework vsize, 7130511(0) swapins, 7461663(0) swapouts.
-Networks: packets: 6473152/5259M in, 4099621/1723M out.
-Disks: 7628047/136G read, 3962322/90G written.
-
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 11G   0.0  16 
-WindowServer     1456M 0.0  17 
-Microsoft Outloo 605M  0.0  22 
-com.apple.WebKit 530M  0.0  16 
-Safari           519M  0.0  9  
+COMMAND          MEM   %CPU #TH   
+com.docker.hyper 11G   0.0  16    
+WindowServer     1483M 0.0  17/1  
+kernel_task      747M  0.0  309/16
+terraform-ls     582M  0.0  24/1  
+Safari           498M  0.0  10    
