@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   15.41   16  0.25   3  2 95  11.36 6.02 3.93
+   15.41   16  0.25   3  2 95  9.42 5.91 3.94
 
-Processes: 742 total, 3 running, 739 sleeping, 3399 threads 
-2022/10/26 13:22:26
-Load Avg: 11.36, 6.02, 3.93 
-CPU usage: 8.96% user, 8.42% sys, 82.60% idle 
-SharedLibs: 666M resident, 101M data, 51M linkedit.
-MemRegions: 209360 total, 7498M resident, 267M private, 3323M shared.
-PhysMem: 32G used (4467M wired), 312M unused.
-VM: 27T vsize, 3025M framework vsize, 7155774(0) swapins, 7467551(0) swapouts.
-Networks: packets: 16235418/15G in, 9404002/4835M out.
-Disks: 18915822/241G read, 12157975/216G written.
+Processes: 759 total, 10 running, 1 stuck, 748 sleeping, 3438 threads 
+2022/10/26 13:22:45
+Load Avg: 9.42, 5.91, 3.94 
+CPU usage: 29.70% user, 45.87% sys, 24.41% idle 
+SharedLibs: 666M resident, 101M data, 52M linkedit.
+MemRegions: 212369 total, 7465M resident, 270M private, 3686M shared.
+PhysMem: 32G used (4688M wired), 194M unused.
+VM: 27T vsize, 3152M framework vsize, 7155774(0) swapins, 7467551(0) swapouts.
+Networks: packets: 16237364/15G in, 9406047/4835M out.
+Disks: 18921822/241G read, 12168767/216G written.
 
 COMMAND          MEM   %CPU #TH   
 com.docker.hyper 11G   0.0  16    
-WindowServer     1709M 0.0  17/1  
-kernel_task      673M  0.0  309/16
+WindowServer     1760M 0.0  18    
+kernel_task      716M  0.0  309/16
 terraform-ls     583M  0.0  24    
 Safari           503M  0.0  9     
