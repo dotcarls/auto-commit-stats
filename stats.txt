@@ -1,38 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.55   16  0.30     2.96    0  0.00   4  2 94  1.96 2.59 2.94
+   19.55   16  0.30     2.96    0  0.00   4  2 94  2.26 2.63 2.95
 
-Processes: 799 total, 3 running, 796 sleeping, 3555 threads 
-2022/11/30 15:58:13
-Load Avg: 2.28, 2.64, 2.96 
-CPU usage: 8.50% user, 16.5% sys, 75.44% idle 
+Processes: 803 total, 4 running, 799 sleeping, 3547 threads 
+2022/11/30 15:58:20
+Load Avg: 2.26, 2.63, 2.95 
+CPU usage: 8.45% user, 7.71% sys, 83.83% idle 
 SharedLibs: 615M resident, 94M data, 39M linkedit.
-MemRegions: 259939 total, 5222M resident, 145M private, 9495M shared.
-PhysMem: 32G used (5017M wired), 135M unused.
-VM: 29T vsize, 3152M framework vsize, 60282111(0) swapins, 61695696(0) swapouts.
-Networks: packets: 46679514/48G in, 20422801/7365M out.
-Disks: 48799783/779G read, 29894632/686G written.
+MemRegions: 261349 total, 5209M resident, 146M private, 9575M shared.
+PhysMem: 32G used (5022M wired), 33M unused.
+VM: 29T vsize, 3152M framework vsize, 60282239(0) swapins, 61695696(0) swapouts.
+Networks: packets: 46679706/48G in, 20422997/7365M out.
+Disks: 48801760/779G read, 29895365/686G written.
 
 COMMAND          MEM   %CPU #TH   
 com.docker.hyper 18G   0.0  16    
-WindowServer     1959M 0.0  15    
+WindowServer     1957M 0.0  15    
 IMTranscoderAgen 886M  0.0  2     
-kernel_task      667M  0.0  288/16
 Microsoft Outloo 665M  0.0  21    
-Processes: 798 total, 6 running, 792 sleeping, 3543 threads 
-2022/11/30 15:58:13
-Load Avg: 2.28, 2.64, 2.96 
-CPU usage: 9.48% user, 16.37% sys, 74.13% idle 
-SharedLibs: 615M resident, 94M data, 39M linkedit.
-MemRegions: 259970 total, 5225M resident, 145M private, 9489M shared.
-PhysMem: 32G used (5017M wired), 128M unused.
-VM: 29T vsize, 3152M framework vsize, 60282111(0) swapins, 61695696(0) swapouts.
-Networks: packets: 46679516/48G in, 20422801/7365M out.
-Disks: 48799808/779G read, 29894642/686G written.
-
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 18G   0.0  16    
-WindowServer     1959M 0.0  15/1  
-IMTranscoderAgen 886M  0.0  2     
-kernel_task      667M  0.0  288/17
-Microsoft Outloo 665M  0.0  21    
+kernel_task      635M  0.0  288/16
