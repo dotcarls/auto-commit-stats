@@ -1,21 +1,17 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
    21.37   13  0.26     2.03    0  0.00   4  2 93  6.45 3.71 3.15
-
-Processes: 880 total, 2 running, 878 sleeping, 3943 threads 
-2023/02/02 14:11:15
-Load Avg: 6.45, 3.71, 3.15 
-CPU usage: 7.91% user, 9.11% sys, 82.96% idle 
-SharedLibs: 576M resident, 88M data, 62M linkedit.
-MemRegions: 283129 total, 9189M resident, 267M private, 3545M shared.
-PhysMem: 30G used (3940M wired), 1821M unused.
-VM: 34T vsize, 3032M framework vsize, 129982292(0) swapins, 133896782(0) swapouts.
-Networks: packets: 85822595/90G in, 37874345/13G out.
-Disks: 81362242/1396G read, 50003921/1270G written.
+ linkedit.
+MemRegions: 281609 total, 8486M resident, 264M private, 3460M shared.
+PhysMem: 30G used (3931M wired), 2436M unused.
+VM: 33T vsize, 3032M framework vsize, 129982292(0) swapins, 133896782(0) swapouts.
+Networks: packets: 85834025/90G in, 37874782/13G out.
+Disks: 81362267/1396G read, 50003939/1270G written.
 
 COMMAND          MEM   %CPU #TH   
 com.docker.hyper 18G   0.0  16    
 IMTranscoderAgen 1397M 0.0  2     
 WindowServer     913M  0.0  14    
 softwareupdated  824M  0.0  4     
-kernel_task      753M  0.0  365/16
+kernel_task      752M  0.0  365/16
+
