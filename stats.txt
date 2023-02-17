@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.65   14  0.29     1.98    0  0.00   4  2 94  2.72 2.46 2.70
+   20.63   14  0.29     1.98    0  0.00   4  2 94  3.87 3.58 3.18
 
-Processes: 845 total, 2 running, 843 sleeping, 3608 threads 
-2023/02/17 17:35:39
-Load Avg: 2.72, 2.46, 2.70 
-CPU usage: 3.12% user, 5.94% sys, 90.92% idle 
-SharedLibs: 483M resident, 62M data, 24M linkedit.
-MemRegions: 328261 total, 6828M resident, 202M private, 2582M shared.
-PhysMem: 24G used (5137M wired), 8058M unused.
-VM: 34T vsize, 3152M framework vsize, 172706718(0) swapins, 177694546(0) swapouts.
-Networks: packets: 91072308/94G in, 41387342/13G out.
-Disks: 106617431/1731G read, 62905207/1594G written.
+Processes: 877 total, 3 running, 874 sleeping, 4041 threads 
+2023/02/17 17:41:02
+Load Avg: 3.87, 3.58, 3.18 
+CPU usage: 9.47% user, 7.6% sys, 83.46% idle 
+SharedLibs: 537M resident, 71M data, 29M linkedit.
+MemRegions: 351822 total, 8050M resident, 236M private, 2784M shared.
+PhysMem: 29G used (5287M wired), 3237M unused.
+VM: 36T vsize, 3152M framework vsize, 172818560(0) swapins, 177861119(0) swapouts.
+Networks: packets: 91211912/95G in, 41425614/13G out.
+Disks: 106889529/1734G read, 63029189/1596G written.
 
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 18G   0.0  16 
-WindowServer     1989M 0.0  13 
-IMTranscoderAgen 1449M 0.0  2  
-softwareupdated  1058M 0.0  4  
-Safari           669M  0.0  23 
+COMMAND          MEM   %CPU #TH   
+com.docker.hyper 18G   0.0  16    
+WindowServer     2100M 0.0  18    
+IMTranscoderAgen 1449M 0.0  2     
+softwareupdated  1056M 0.0  5     
+kernel_task      751M  0.0  371/16
