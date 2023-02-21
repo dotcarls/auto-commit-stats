@@ -1,21 +1,38 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.63   14  0.29     1.98    0  0.00   4  2 94  3.87 3.58 3.18
+   20.80   14  0.29     1.98    0  0.00   4  2 94  2.31 2.40 2.56
 
-Processes: 876 total, 3 running, 873 sleeping, 3965 threads 
-2023/02/17 17:41:03
-Load Avg: 3.80, 3.57, 3.18 
-CPU usage: 5.93% user, 7.0% sys, 87.5% idle 
-SharedLibs: 537M resident, 71M data, 29M linkedit.
-MemRegions: 351617 total, 8035M resident, 236M private, 2784M shared.
-PhysMem: 29G used (5287M wired), 3252M unused.
-VM: 36T vsize, 3152M framework vsize, 172818560(0) swapins, 177861119(0) swapouts.
-Networks: packets: 91211968/95G in, 41425681/13G out.
-Disks: 106889991/1734G read, 63030501/1596G written.
+Processes: 853 total, 3 running, 850 sleeping, 3744 threads 
+2023/02/21 11:31:16
+Load Avg: 2.31, 2.40, 2.56 
+CPU usage: 3.84% user, 11.63% sys, 84.52% idle 
+SharedLibs: 554M resident, 72M data, 35M linkedit.
+MemRegions: 341422 total, 7358M resident, 207M private, 4528M shared.
+PhysMem: 31G used (5457M wired), 802M unused.
+VM: 35T vsize, 3152M framework vsize, 180157858(0) swapins, 184312019(0) swapouts.
+Networks: packets: 93046971/97G in, 42193925/14G out.
+Disks: 109709418/1793G read, 64157174/1641G written.
 
 COMMAND          MEM   %CPU #TH   
 com.docker.hyper 18G   0.0  16    
-WindowServer     2100M 0.0  17/1  
-IMTranscoderAgen 1449M 0.0  2     
-softwareupdated  1056M 0.0  5     
-kernel_task      751M  0.0  371/16
+WindowServer     2297M 0.0  17    
+IMTranscoderAgen 1527M 0.0  2     
+softwareupdated  1067M 0.0  4     
+kernel_task      754M  0.0  323/16
+Processes: 854 total, 3 running, 851 sleeping, 3745 threads 
+2023/02/21 11:31:16
+Load Avg: 2.31, 2.40, 2.56 
+CPU usage: 3.66% user, 11.57% sys, 84.76% idle 
+SharedLibs: 554M resident, 72M data, 35M linkedit.
+MemRegions: 341536 total, 7363M resident, 207M private, 4528M shared.
+PhysMem: 31G used (5457M wired), 808M unused.
+VM: 35T vsize, 3152M framework vsize, 180157858(0) swapins, 184312019(0) swapouts.
+Networks: packets: 93046971/97G in, 42193925/14G out.
+Disks: 109709418/1793G read, 64157174/1641G written.
+
+COMMAND          MEM   %CPU #TH   
+com.docker.hyper 18G   0.0  16    
+WindowServer     2296M 0.0  17    
+IMTranscoderAgen 1527M 0.0  2     
+softwareupdated  1067M 0.0  4     
+kernel_task      754M  0.0  323/16
