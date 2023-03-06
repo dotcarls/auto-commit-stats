@@ -1,21 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   21.70   14  0.30     1.97    0  0.00   4  2 94  1.98 2.07 2.22
+   21.69   14  0.30     1.97    0  0.00   4  2 94  2.22 2.41 2.35
 
-Processes: 877 total, 2 running, 875 sleeping, 4404 threads 
-2023/03/06 13:31:57
-Load Avg: 1.98, 2.06, 2.22 
-CPU usage: 3.16% user, 6.83% sys, 90.0% idle 
-SharedLibs: 608M resident, 77M data, 32M linkedit.
-MemRegions: 345793 total, 8329M resident, 245M private, 4441M shared.
-PhysMem: 32G used (4057M wired), 75M unused.
-VM: 35T vsize, 3032M framework vsize, 219882969(0) swapins, 225112953(0) swapouts.
-Networks: packets: 87030076/89G in, 43036645/15G out.
-Disks: 120251956/2051G read, 70187626/1875G written.
+Processes: 882 total, 5 running, 877 sleeping, 4336 threads 
+2023/03/06 14:48:14
+Load Avg: 2.22, 2.41, 2.35 
+CPU usage: 6.70% user, 7.26% sys, 86.3% idle 
+SharedLibs: 609M resident, 78M data, 32M linkedit.
+MemRegions: 347052 total, 8151M resident, 244M private, 4280M shared.
+PhysMem: 31G used (4095M wired), 559M unused.
+VM: 34T vsize, 3025M framework vsize, 219925586(0) swapins, 225112953(0) swapouts.
+Networks: packets: 87168703/89G in, 43152923/15G out.
+Disks: 120391815/2053G read, 70350811/1877G written.
 
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 18G   0.0  16 
-IMTranscoderAgen 1678M 0.0  2  
-WindowServer     1280M 0.0  17 
-softwareupdated  1134M 0.0  5  
-Code Helper (GPU 904M  0.0  11 
+COMMAND          MEM   %CPU #TH 
+com.docker.hyper 18G   0.0  16/1
+IMTranscoderAgen 1676M 0.0  2   
+WindowServer     1274M 0.0  17  
+softwareupdated  1134M 0.0  4   
+Code Helper (GPU 912M  0.0  11  
