@@ -1,38 +1,21 @@
               disk0               disk2       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   23.26   18  0.40     1.93    0  0.00   4  2 94  6.73 3.14 2.43
+   23.26   18  0.40     1.93    0  0.00   4  2 94  15.56 5.03 3.10
 
-Processes: 798 total, 41 running, 757 sleeping, 3654 threads 
-2023/03/22 17:29:39
-Load Avg: 6.73, 3.14, 2.43 
-CPU usage: 43.65% user, 18.39% sys, 37.95% idle 
+Processes: 816 total, 76 running, 740 sleeping, 3966 threads 
+2023/03/22 17:29:46
+Load Avg: 24.00, 6.96, 3.79 
+CPU usage: 49.43% user, 35.27% sys, 15.29% idle 
 SharedLibs: 600M resident, 90M data, 33M linkedit.
-MemRegions: 280244 total, 8878M resident, 222M private, 3047M shared.
-PhysMem: 32G used (6148M wired), 50M unused.
-VM: 30T vsize, 3032M framework vsize, 240447460(0) swapins, 246398170(0) swapouts.
-Networks: packets: 141329866/97G in, 167040581/137G out.
-Disks: 168478381/3339G read, 92850433/2436G written.
-
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 18G   0.0  16 
-IMTranscoderAgen 1794M 0.0  5  
-WindowServer     1780M 0.0  16 
-softwareupdated  1486M 0.0  4  
-com.apple.WebKit 958M  0.0  5  
-Processes: 805 total, 65 running, 740 sleeping, 3807 threads 
-2023/03/22 17:29:41
-Load Avg: 15.56, 5.03, 3.10 
-CPU usage: 50.30% user, 19.21% sys, 30.47% idle 
-SharedLibs: 600M resident, 90M data, 33M linkedit.
-MemRegions: 288114 total, 9150M resident, 227M private, 2932M shared.
-PhysMem: 32G used (5949M wired), 25M unused.
-VM: 31T vsize, 3032M framework vsize, 240447716(0) swapins, 246398170(0) swapouts.
-Networks: packets: 141330012/97G in, 167040755/137G out.
-Disks: 168479977/3339G read, 92850804/2436G written.
+MemRegions: 297281 total, 9499M resident, 231M private, 2986M shared.
+PhysMem: 32G used (5762M wired), 61M unused.
+VM: 31T vsize, 3032M framework vsize, 240448100(0) swapins, 246398170(0) swapouts.
+Networks: packets: 141350603/97G in, 167044750/137G out.
+Disks: 168487720/3339G read, 92852092/2436G written.
 
 COMMAND          MEM   %CPU #TH   
 com.docker.hyper 18G   0.0  16    
 IMTranscoderAgen 1794M 0.0  5     
-WindowServer     1780M 0.0  16/1  
+WindowServer     1774M 0.0  16/1  
 softwareupdated  1486M 0.0  4     
-kernel_task      980M  0.0  392/16
+kernel_task      975M  0.0  392/16
