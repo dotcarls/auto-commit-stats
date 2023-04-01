@@ -1,21 +1,21 @@
-              disk0       cpu    load average
-    KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.04  290  5.39   6  4 91  2.84 2.41 2.31
+              disk0               disk2       cpu    load average
+    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
+   16.89 4267 70.38    31.13    9  0.26  24 21 55  19.32 6.69 2.57
 
-Processes: 785 total, 2 running, 783 sleeping, 3072 threads 
-2023/03/28 15:28:15
-Load Avg: 2.84, 2.41, 2.31 
-CPU usage: 4.94% user, 7.49% sys, 87.56% idle 
-SharedLibs: 789M resident, 118M data, 126M linkedit.
-MemRegions: 181932 total, 4773M resident, 225M private, 13G shared.
-PhysMem: 31G used (4101M wired, 995M compressor), 721M unused.
-VM: 29T vsize, 3444M framework vsize, 1033411(0) swapins, 1271339(0) swapouts.
-Networks: packets: 2358816/2125M in, 1371779/249M out.
-Disks: 17578726/391G read, 13264053/169G written.
+Processes: 521 total, 3 running, 518 sleeping, 2632 threads 
+2023/04/01 15:52:36
+Load Avg: 19.32, 6.69, 2.57 
+CPU usage: 5.46% user, 9.0% sys, 85.53% idle 
+SharedLibs: 667M resident, 100M data, 52M linkedit.
+MemRegions: 91878 total, 2828M resident, 301M private, 11G shared.
+PhysMem: 24G used (2949M wired, 0B compressor), 7902M unused.
+VM: 17T vsize, 3444M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 12559/7871K in, 10848/18M out.
+Disks: 266620/4972M read, 87498/877M written.
 
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 10G   0.0  16    
-WindowServer     1226M 0.0  17    
-Safari           796M  0.0  18    
-kernel_task      592M  0.0  281/16
-Microsoft Outloo 442M  0.0  18    
+COMMAND          MEM  %CPU #TH   
+com.docker.hyper 10G  0.0  15    
+WindowServer     269M 0.0  16    
+Photos           200M 0.0  29    
+kernel_task      141M 0.0  316/16
+Spotify Helper ( 117M 0.0  9     
