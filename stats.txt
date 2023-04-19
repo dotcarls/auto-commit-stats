@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   12.82   39  0.48  18 18 64  56.36 28.52 13.88
+   12.29   49  0.59  18 17 65  14.54 21.76 12.80
 
-Processes: 799 total, 5 running, 794 sleeping, 3585 threads 
-2023/04/19 12:13:09
-Load Avg: 56.36, 28.52, 13.88 
-CPU usage: 7.44% user, 12.40% sys, 80.15% idle 
-SharedLibs: 809M resident, 108M data, 246M linkedit.
-MemRegions: 360556 total, 6151M resident, 407M private, 12G shared.
-PhysMem: 31G used (3526M wired, 193M compressor), 632M unused.
+Processes: 768 total, 3 running, 2 stuck, 763 sleeping, 3645 threads 
+2023/04/19 12:14:45
+Load Avg: 14.54, 21.76, 12.80 
+CPU usage: 6.51% user, 9.81% sys, 83.67% idle 
+SharedLibs: 813M resident, 109M data, 247M linkedit.
+MemRegions: 379379 total, 5938M resident, 382M private, 12G shared.
+PhysMem: 32G used (3923M wired, 492M compressor), 210M unused.
 VM: 47T vsize, 3525M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 259973/325M in, 78607/36M out.
-Disks: 1247998/12G read, 199700/5573M written.
+Networks: packets: 316092/396M in, 92130/40M out.
+Disks: 1576104/15G read, 279807/7166M written.
 
-COMMAND          MEM  %CPU #TH
-com.docker.hyper 10G  0.0  15 
-WindowServer     681M 0.0  16 
-Safari           376M 0.0  9  
-Google Chrome He 303M 0.0  25 
-Slack Helper (Re 270M 0.0  29 
-Processes: 795 total, 4 running, 791 sleeping, 3562 threads 
-2023/04/19 12:13:10
-Load Avg: 56.36, 28.52, 13.88 
-CPU usage: 7.64% user, 12.87% sys, 79.47% idle 
-SharedLibs: 809M resident, 108M data, 246M linkedit.
-MemRegions: 360403 total, 6160M resident, 407M private, 12G shared.
-PhysMem: 31G used (3527M wired, 193M compressor), 585M unused.
-VM: 47T vsize, 3525M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 261100/327M in, 78811/36M out.
-Disks: 1253886/12G read, 199783/5576M written.
-
-COMMAND          MEM  %CPU #TH
-com.docker.hyper 10G  0.0  15 
-WindowServer     681M 0.0  16 
-Safari           376M 0.0  9  
-Google Chrome He 303M 0.0  25 
-Slack Helper (Re 267M 0.0  29 
+COMMAND          MEM  %CPU #TH   
+com.docker.hyper 10G  0.0  15    
+WindowServer     694M 0.0  16    
+kernel_task      606M 0.0  269/16
+Safari           377M 0.0  8     
+Google Chrome He 303M 0.0  26    
