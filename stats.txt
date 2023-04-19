@@ -1,21 +1,38 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   15.54  443  6.72   5  3 92  1.98 2.16 2.16
+   12.88   38  0.48  18 18 64  61.18 28.98 13.95
 
-Processes: 731 total, 3 running, 728 sleeping, 3203 threads 
-2023/04/19 00:34:12
-Load Avg: 1.98, 2.16, 2.16 
-CPU usage: 4.30% user, 6.12% sys, 89.56% idle 
-SharedLibs: 751M resident, 105M data, 60M linkedit.
-MemRegions: 420463 total, 5691M resident, 190M private, 12G shared.
-PhysMem: 32G used (3459M wired, 1363M compressor), 176M unused.
-VM: 50T vsize, 3444M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 3984992/4819M in, 1214274/853M out.
-Disks: 4788683/67G read, 1810147/31G written.
+Processes: 799 total, 7 running, 4 stuck, 788 sleeping, 3722 threads 
+2023/04/19 12:13:05
+Load Avg: 61.18, 28.98, 13.95 
+CPU usage: 10.69% user, 15.4% sys, 74.26% idle 
+SharedLibs: 809M resident, 108M data, 246M linkedit.
+MemRegions: 360617 total, 6126M resident, 407M private, 12G shared.
+PhysMem: 31G used (3548M wired, 194M compressor), 720M unused.
+VM: 47T vsize, 3525M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 250973/312M in, 77198/36M out.
+Disks: 1224360/12G read, 197924/5483M written.
 
-COMMAND          MEM  %CPU #TH   
-com.docker.hyper 10G  0.0  16    
-WindowServer     597M 0.0  15    
-Safari           539M 0.0  8     
-kernel_task      433M 0.0  272/17
-repmgr           362M 0.0  25    
+COMMAND          MEM  %CPU #TH
+com.docker.hyper 10G  0.0  15 
+WindowServer     678M 0.0  17 
+Safari           376M 0.0  12 
+Google Chrome He 304M 0.0  25 
+Slack Helper (Re 291M 0.0  29 
+Processes: 800 total, 5 running, 3 stuck, 792 sleeping, 3723 threads 
+2023/04/19 12:13:06
+Load Avg: 61.18, 28.98, 13.95 
+CPU usage: 11.36% user, 15.12% sys, 73.51% idle 
+SharedLibs: 809M resident, 108M data, 246M linkedit.
+MemRegions: 360726 total, 6129M resident, 407M private, 12G shared.
+PhysMem: 31G used (3548M wired, 194M compressor), 725M unused.
+VM: 47T vsize, 3525M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 251186/313M in, 77238/36M out.
+Disks: 1224681/12G read, 197956/5485M written.
+
+COMMAND          MEM  %CPU #TH
+com.docker.hyper 10G  0.0  15 
+WindowServer     678M 0.0  18 
+Safari           376M 0.0  12 
+Google Chrome He 304M 0.0  25 
+Slack Helper (Re 291M 0.0  29 
