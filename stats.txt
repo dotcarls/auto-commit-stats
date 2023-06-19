@@ -1,21 +1,39 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.33 5736 102.69  39 28 32  106.48 33.51 12.68
+   11.18 2421 26.44  16 14 70  32.16 12.36 6.39
 
-Processes: 477 total, 7 running, 4 stuck, 466 sleeping, 2549 threads 
-2023/06/19 09:38:45
-Load Avg: 106.48, 33.51, 12.68 
-CPU usage: 33.57% user, 23.33% sys, 43.9% idle 
-SharedLibs: 646M resident, 103M data, 61M linkedit.
-MemRegions: 99051 total, 2339M resident, 271M private, 1442M shared.
-PhysMem: 16G used (2856M wired, 0B compressor), 16G unused.
-VM: 18T vsize, 3405M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 16655/11M in, 12610/18M out.
-Disks: 331592/6375M read, 56658/560M written.
 
-COMMAND          MEM  %CPU #TH 
-WindowServer     465M 0.0  15/1
-Slack Helper (Re 193M 0.0  28  
-Finder           129M 0.0  7   
-repmgr           117M 0.0  26  
-Microsoft Outloo 98M  0.0  19  
+Processes: 787 total, 5 running, 10 stuck, 772 sleeping, 3402 threads 
+2023/06/19 09:59:10
+Load Avg: 30.78, 12.41, 6.44 
+CPU usage: 13.22% user, 22.39% sys, 64.38% idle 
+SharedLibs: 853M resident, 112M data, 67M linkedit.
+MemRegions: 266809 total, 6026M resident, 435M private, 12G shared.
+PhysMem: 32G used (3183M wired, 13M compressor), 338M unused.
+VM: 39T vsize, 3416M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 187481/232M in, 62403/30M out.
+Disks: 1239545/11G read, 442653/6841M written.
+
+COMMAND          MEM  %CPU #TH   
+com.docker.hyper 10G  0.0  15    
+QuickLookSatelli 411M 0.0  4     
+kernel_task      405M 0.0  268/16
+WindowServer     353M 0.0  9     
+Microsoft Outloo 243M 0.0  35    
+Processes: 787 total, 5 running, 10 stuck, 772 sleeping, 3402 threads 
+2023/06/19 09:59:10
+Load Avg: 30.78, 12.41, 6.44 
+CPU usage: 13.23% user, 22.41% sys, 64.34% idle 
+SharedLibs: 853M resident, 112M data, 67M linkedit.
+MemRegions: 266809 total, 6026M resident, 435M private, 12G shared.
+PhysMem: 32G used (3165M wired, 13M compressor), 339M unused.
+VM: 39T vsize, 3536M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 187535/232M in, 62427/30M out.
+Disks: 1239607/11G read, 442788/6841M written.
+
+COMMAND          MEM  %CPU #TH   
+com.docker.hyper 10G  0.0  15    
+QuickLookSatelli 411M 0.0  4     
+kernel_task      405M 0.0  268/17
+WindowServer     353M 0.0  9     
+Microsoft Outloo 243M 0.0  35    
