@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.89 3658 60.34  25 19 57  37.83 21.68 9.08
+   10.80 2018 21.29  15 13 71  7.98 5.44 3.25
 
-Processes: 613 total, 6 running, 1 stuck, 606 sleeping, 2869 threads 
-2023/07/27 13:03:19
-Load Avg: 37.83, 21.68, 9.08 
-CPU usage: 10.12% user, 14.66% sys, 75.20% idle 
-SharedLibs: 774M resident, 111M data, 63M linkedit.
-MemRegions: 138562 total, 4498M resident, 397M private, 12G shared.
-PhysMem: 30G used (3127M wired, 0B compressor), 1713M unused.
-VM: 23T vsize, 3536M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 653900/903M in, 152235/31M out.
-Disks: 438342/7197M read, 152812/2547M written.
+Processes: 693 total, 17 running, 676 sleeping, 3096 threads 
+2023/07/27 14:02:12
+Load Avg: 7.98, 5.44, 3.25 
+CPU usage: 44.67% user, 20.35% sys, 34.97% idle 
+SharedLibs: 865M resident, 113M data, 229M linkedit.
+MemRegions: 135859 total, 4517M resident, 399M private, 1717M shared.
+PhysMem: 20G used (3183M wired, 0B compressor), 12G unused.
+VM: 25T vsize, 3537M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 30861/16M in, 28564/27M out.
+Disks: 1020685/9335M read, 302269/4647M written.
 
-COMMAND          MEM  %CPU #TH   
-com.docker.hyper 10G  0.0  16    
-WindowServer     491M 0.0  14    
-Safari           408M 0.0  9     
-QuickLookSatelli 376M 0.0  4     
-kernel_task      286M 0.0  269/16
+COMMAND          MEM  %CPU #TH 
+Safari           443M 0.0  24  
+WindowServer     356M 0.0  30  
+repmgr           169M 0.0  25/1
+MTLCompilerServi 152M 0.0  4/1 
+MTLCompilerServi 119M 0.0  3   
