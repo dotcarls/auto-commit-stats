@@ -1,21 +1,39 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   15.43 2032 30.63  15 13 72  5.44 6.27 5.37
+   18.90 3044 56.17  48 34 18  213.91 126.09 53.22
 
-Processes: 744 total, 4 running, 740 sleeping, 3108 threads 
-2023/07/27 14:12:47
-Load Avg: 5.44, 6.27, 5.37 
-CPU usage: 7.39% user, 12.17% sys, 80.43% idle 
-SharedLibs: 848M resident, 110M data, 228M linkedit.
-MemRegions: 284243 total, 5713M resident, 249M private, 12G shared.
-PhysMem: 32G used (3820M wired, 640M compressor), 178M unused.
-VM: 39T vsize, 3410M framework vsize, 61691(0) swapins, 105579(0) swapouts.
-Networks: packets: 784177/1056M in, 128241/46M out.
-Disks: 1973289/24G read, 652103/15G written.
+
+Processes: 575 total, 14 running, 2 stuck, 559 sleeping, 2880 threads 
+2023/08/02 14:52:31
+Load Avg: 213.91, 126.09, 53.22 
+CPU usage: 29.39% user, 44.86% sys, 25.73% idle 
+SharedLibs: 694M resident, 100M data, 57M linkedit.
+MemRegions: 254595 total, 5238M resident, 341M private, 12G shared.
+PhysMem: 32G used (3724M wired, 0B compressor), 214M unused.
+VM: 34T vsize, 3417M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 518054/717M in, 78177/26M out.
+Disks: 395879/6870M read, 112143/2544M written.
 
 COMMAND          MEM  %CPU #TH   
-com.docker.hyper 10G  0.0  16    
-WindowServer     614M 0.0  15    
-Safari           613M 0.0  10    
-repmgr           518M 0.0  25    
-kernel_task      455M 0.0  277/16
+com.docker.hyper 10G  0.0  15/3  
+WindowServer     554M 0.0  15    
+Safari           501M 0.0  16    
+kernel_task      414M 0.0  274/18
+OneDriveUpdaterD 327M 0.0  19/1  
+Processes: 575 total, 14 running, 1 stuck, 560 sleeping, 2880 threads 
+2023/08/02 14:52:31
+Load Avg: 213.91, 126.09, 53.22 
+CPU usage: 29.34% user, 44.88% sys, 25.77% idle 
+SharedLibs: 695M resident, 100M data, 57M linkedit.
+MemRegions: 254595 total, 5238M resident, 341M private, 12G shared.
+PhysMem: 32G used (3724M wired, 0B compressor), 216M unused.
+VM: 34T vsize, 3537M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 518329/718M in, 78290/26M out.
+Disks: 395999/6871M read, 112211/2544M written.
+
+COMMAND          MEM  %CPU #TH   
+com.docker.hyper 10G  0.0  15    
+WindowServer     554M 0.0  15    
+Safari           501M 0.0  16    
+kernel_task      414M 0.0  274/18
+OneDriveUpdaterD 327M 0.0  19/1  
