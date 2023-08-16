@@ -1,39 +1,22 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.25   28  0.45   4  4 92  246.01 66.47 25.73
+   19.36 5070 95.87  44 27 28  87.42 33.70 13.20
 
 
-Processes: 633 total, 33 running, 7 stuck, 593 sleeping, 3223 threads 
-2023/08/16 12:34:24
-Load Avg: 246.01, 66.47, 25.73 
-CPU usage: 52.86% user, 28.62% sys, 18.50% idle 
-SharedLibs: 823M resident, 110M data, 62M linkedit.
-MemRegions: 263080 total, 4950M resident, 241M private, 2410M shared.
-PhysMem: 24G used (4844M wired, 325M compressor), 8259M unused.
-VM: 36T vsize, 3417M framework vsize, 11256125(0) swapins, 11581350(0) swapouts.
-Networks: packets: 5573874/4792M in, 2655553/900M out.
-Disks: 19377845/342G read, 14373855/181G written.
-
-COMMAND          MEM  %CPU #TH   
-Code Helper (GPU 876M 0.0  11/2  
-WindowServer     676M 0.0  14    
-repmgr           410M 0.0  26    
-kernel_task      310M 0.0  330/17
-Safari           302M 0.0  12    
-Processes: 632 total, 38 running, 7 stuck, 587 sleeping, 3219 threads 
-2023/08/16 12:34:24
-Load Avg: 246.01, 66.47, 25.73 
-CPU usage: 53.1% user, 28.52% sys, 18.46% idle 
-SharedLibs: 823M resident, 110M data, 62M linkedit.
-MemRegions: 262901 total, 4947M resident, 241M private, 2408M shared.
-PhysMem: 24G used (4844M wired, 325M compressor), 8265M unused.
-VM: 36T vsize, 3537M framework vsize, 11256125(0) swapins, 11581350(0) swapouts.
-Networks: packets: 5573880/4792M in, 2655558/900M out.
-Disks: 19377852/342G read, 14373856/181G written.
+Processes: 591 total, 9 running, 2 stuck, 580 sleeping, 3230 threads 
+2023/08/16 13:03:28
+Load Avg: 87.42, 33.70, 13.20 
+CPU usage: 28.81% user, 45.22% sys, 25.95% idle 
+SharedLibs: 717M resident, 108M data, 55M linkedit.
+MemRegions: 263957 total, 4980M resident, 343M private, 12G shared.
+PhysMem: 32G used (3727M wired, 4728K compressor), 349M unused.
+VM: 35T vsize, 3417M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 122991/154M in, 21288/21M out.
+Disks: 381003/6895M read, 85366/1866M written.
 
 COMMAND          MEM  %CPU #TH   
-Code Helper (GPU 876M 0.0  11/2  
-WindowServer     676M 0.0  14    
-repmgr           410M 0.0  26    
-kernel_task      310M 0.0  330/16
-Safari           302M 0.0  12    
+com.docker.hyper 10G  0.0  15    
+WindowServer     680M 0.0  14    
+Safari           474M 0.0  17/1  
+com.apple.WebKit 463M 0.0  17/1  
+kernel_task      267M 0.0  268/16
