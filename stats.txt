@@ -1,21 +1,55 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.35   28  0.44   4  4 92  2.40 2.35 2.20
+   16.29   28  0.44   4  4 92  96.90 22.33 9.25
 
-Processes: 794 total, 3 running, 791 sleeping, 3341 threads 
-2023/08/16 11:31:00
-Load Avg: 2.40, 2.35, 2.20 
-CPU usage: 4.10% user, 6.87% sys, 89.2% idle 
-SharedLibs: 711M resident, 86M data, 47M linkedit.
-MemRegions: 319877 total, 6350M resident, 292M private, 2851M shared.
-PhysMem: 27G used (4072M wired, 864M compressor), 5586M unused.
-VM: 42T vsize, 3537M framework vsize, 11189814(0) swapins, 11565448(0) swapouts.
-Networks: packets: 5450867/4704M in, 2571717/873M out.
-Disks: 18999132/338G read, 14136712/179G written.
+Processes: 603 total, 319 running, 284 sleeping, 3738 threads 
+2023/08/16 12:34:02
+Load Avg: 96.90, 22.33, 9.25 
+CPU usage: 50.15% user, 44.51% sys, 5.32% idle 
+SharedLibs: 817M resident, 108M data, 62M linkedit.
+MemRegions: 143531 total, 3439M resident, 213M private, 1471M shared.
+PhysMem: 20G used (4057M wired, 326M compressor), 12G unused.
+VM: 24T vsize, 3537M framework vsize, 11256125(0) swapins, 11581350(0) swapouts.
+Networks: packets: 5568666/4789M in, 2651797/898M out.
+Disks: 19250123/341G read, 14363592/181G written.
 
-COMMAND          MEM   %CPU #TH
-com.docker.hyper 10G   0.0  16 
-WindowServer     1478M 0.0  16 
-repmgr           456M  0.0  26 
-Safari           437M  0.0  9  
-zoom.us          356M  0.0  56 
+COMMAND      MEM  %CPU #TH   
+WindowServer 673M 0.0  31/5  
+repmgr       410M 0.0  26    
+Safari       210M 0.0  37/11 
+Terminal     149M 0.0  24/6  
+kernel_task  144M 0.0  285/16
+Processes: 603 total, 317 running, 286 sleeping, 3736 threads 
+2023/08/16 12:34:02
+Load Avg: 162.65, 37.20, 14.58 
+CPU usage: 49.58% user, 45.42% sys, 4.98% idle 
+SharedLibs: 817M resident, 108M data, 62M linkedit.
+MemRegions: 143533 total, 3443M resident, 213M private, 1467M shared.
+PhysMem: 20G used (4080M wired, 326M compressor), 12G unused.
+VM: 24T vsize, 3417M framework vsize, 11256125(0) swapins, 11581350(0) swapouts.
+Networks: packets: 5568674/4789M in, 2651801/898M out.
+Disks: 19252813/341G read, 14363593/181G written.
+
+COMMAND      MEM  %CPU #TH   
+WindowServer 673M 0.0  31/5  
+repmgr       410M 0.0  26    
+Safari       210M 0.0  37/9  
+Terminal     149M 0.0  24/6  
+kernel_task  144M 0.0  285/16
+Processes: 606 total, 326 running, 280 sleeping, 3752 threads 
+2023/08/16 12:34:02
+Load Avg: 162.65, 37.20, 14.58 
+CPU usage: 49.16% user, 45.77% sys, 5.6% idle 
+SharedLibs: 817M resident, 108M data, 62M linkedit.
+MemRegions: 144211 total, 3458M resident, 214M private, 1490M shared.
+PhysMem: 20G used (4107M wired, 326M compressor), 12G unused.
+VM: 24T vsize, 3537M framework vsize, 11256125(0) swapins, 11581350(0) swapouts.
+Networks: packets: 5568691/4789M in, 2651815/898M out.
+Disks: 19258073/341G read, 14363727/181G written.
+
+COMMAND      MEM  %CPU #TH   
+WindowServer 673M 0.0  31/5  
+repmgr       410M 0.0  26    
+Safari       210M 0.0  37/11 
+Terminal     149M 0.0  24/6  
+kernel_task  148M 0.0  285/18
