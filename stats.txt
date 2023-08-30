@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   12.98   47  0.59   6  4 90  2.27 2.48 2.67
+   13.81   54  0.73  12  7 81  1.45 2.31 2.16
 
-Processes: 722 total, 2 running, 720 sleeping, 3286 threads 
-2023/08/30 11:03:17
-Load Avg: 2.27, 2.48, 2.67 
-CPU usage: 7.16% user, 7.49% sys, 85.33% idle 
-SharedLibs: 742M resident, 106M data, 73M linkedit.
-MemRegions: 426843 total, 5791M resident, 215M private, 12G shared.
-PhysMem: 32G used (3974M wired, 1875M compressor), 405M unused.
-VM: 52T vsize, 3410M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 881781/1003M in, 316028/102M out.
-Disks: 1813607/21G read, 976745/13G written.
+Processes: 483 total, 13 running, 470 sleeping, 1795 threads 
+2023/08/30 11:03:44
+Load Avg: 4.30, 2.88, 2.36 
+CPU usage: 38.94% user, 35.32% sys, 25.72% idle 
+SharedLibs: 334M resident, 69M data, 18M linkedit.
+MemRegions: 194504 total, 1691M resident, 118M private, 855M shared.
+PhysMem: 8136M used (2926M wired), 55M unused.
+VM: 27T vsize, 3152M framework vsize, 92715856(0) swapins, 100802106(0) swapouts.
+Networks: packets: 58835633/79G in, 40713108/57G out.
+Disks: 149594507/1554G read, 27625457/780G written.
 
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 10G   0.0  15    
-WindowServer     1090M 0.0  15    
-kernel_task      579M  0.0  274/16
-repmgr           493M  0.0  26    
-Safari           445M  0.0  13    
-Processes: 722 total, 4 running, 718 sleeping, 3248 threads 
-2023/08/30 11:03:18
-Load Avg: 2.27, 2.48, 2.67 
-CPU usage: 10.7% user, 13.45% sys, 76.47% idle 
-SharedLibs: 742M resident, 106M data, 73M linkedit.
-MemRegions: 426795 total, 5786M resident, 215M private, 12G shared.
-PhysMem: 32G used (3963M wired, 1875M compressor), 415M unused.
-VM: 52T vsize, 3417M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 881831/1003M in, 316073/102M out.
-Disks: 1813631/21G read, 977205/13G written.
-
-COMMAND          MEM   %CPU #TH   
-com.docker.hyper 10G   0.0  15    
-WindowServer     1090M 0.0  15    
-kernel_task      578M  0.0  274/16
-repmgr           493M  0.0  26    
-Safari           445M  0.0  13    
+COMMAND          MEM   %CPU #TH  
+WindowServer     1328M 0.0  15   
+kernel_task      584M  0.0  199/4
+Safari           476M  0.0  9    
+com.apple.WebKit 301M  0.0  4    
+Code Helper (Ren 165M  0.0  16   
