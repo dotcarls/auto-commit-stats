@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   15.98 1484 23.16  41 24 35  233.28 126.13 52.52
+   15.37 1418 21.28  38 22 40  67.54 99.01 48.80
 
-Processes: 520 total, 9 running, 1 stuck, 510 sleeping, 2161 threads 
-2023/09/01 16:05:24
-Load Avg: 233.28, 126.13, 52.52 
-CPU usage: 42.78% user, 29.85% sys, 27.36% idle 
-SharedLibs: 432M resident, 92M data, 35M linkedit.
-MemRegions: 206997 total, 2172M resident, 158M private, 1129M shared.
-PhysMem: 8132M used (2228M wired, 761M compressor), 58M unused.
-VM: 33T vsize, 3537M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 24772/22M in, 16952/8653K out.
-Disks: 214054/3492M read, 43908/530M written.
+Processes: 492 total, 2 running, 490 sleeping, 1898 threads 
+2023/09/01 16:06:43
+Load Avg: 67.54, 99.01, 48.80 
+CPU usage: 7.87% user, 20.60% sys, 71.51% idle 
+SharedLibs: 451M resident, 93M data, 36M linkedit.
+MemRegions: 212385 total, 1469M resident, 100M private, 901M shared.
+PhysMem: 7230M used (2214M wired, 635M compressor), 961M unused.
+VM: 33T vsize, 3537M framework vsize, 38495(0) swapins, 81839(0) swapouts.
+Networks: packets: 27348/24M in, 18679/9129K out.
+Disks: 298368/4321M read, 59154/1044M written.
 
-COMMAND        MEM  %CPU #TH  
-kernel_task    617M 0.0  186/4
-swift-frontend 510M 0.0  2/1  
-Safari         405M 0.0  12   
-WindowServer   278M 0.0  15   
-Terminal       171M 0.0  11   
+COMMAND          MEM  %CPU #TH  
+kernel_task      600M 0.0  186/4
+Safari           406M 0.0  8    
+WindowServer     170M 0.0  14   
+com.apple.WebKit 149M 0.0  4    
+App Store        109M 0.0  24   
