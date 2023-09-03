@@ -1,21 +1,39 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   48.31  139  6.54  12 14 74  2.18 2.02 2.12
+   47.55   90  4.20  12 14 74  2.02 1.82 2.31
 
-Processes: 370 total, 2 running, 2 stuck, 366 sleeping, 1375 threads 
-2023/09/02 21:25:51
-Load Avg: 2.18, 2.02, 2.12 
-CPU usage: 21.87% user, 32.29% sys, 45.83% idle 
-SharedLibs: 373M resident, 67M data, 20M linkedit.
-MemRegions: 96284 total, 624M resident, 40M private, 1776M shared.
-PhysMem: 8119M used (1920M wired, 2763M compressor), 73M unused.
-VM: 18T vsize, 3537M framework vsize, 52763368(0) swapins, 53706612(0) swapouts.
-Networks: packets: 10753780/14G in, 2437867/293M out.
-Disks: 9737479/302G read, 4930784/374G written.
+
+Processes: 428 total, 22 running, 406 sleeping, 1576 threads 
+2023/09/03 14:57:37
+Load Avg: 2.02, 1.82, 2.31 
+CPU usage: 38.67% user, 43.35% sys, 17.96% idle 
+SharedLibs: 408M resident, 75M data, 23M linkedit.
+MemRegions: 133977 total, 1423M resident, 93M private, 729M shared.
+PhysMem: 7553M used (2207M wired, 904M compressor), 638M unused.
+VM: 21T vsize, 3537M framework vsize, 54240167(0) swapins, 55318195(0) swapouts.
+Networks: packets: 10886673/14G in, 2566241/317M out.
+Disks: 10230762/311G read, 5040052/381G written.
 
 COMMAND          MEM  %CPU #TH  
-qemu-system-x86_ 11G  0.0  6    
-Safari           421M 0.0  10   
-WindowServer     348M 0.0  13   
-kernel_task      340M 0.0  193/4
-com.apple.WebKit 292M 0.0  4    
+WindowServer     515M 0.0  14   
+kernel_task      512M 0.0  193/4
+Safari           446M 0.0  17/2 
+com.apple.WebKit 415M 0.0  5/2  
+Terminal         245M 0.0  9    
+Processes: 428 total, 23 running, 405 sleeping, 1576 threads 
+2023/09/03 14:57:37
+Load Avg: 2.02, 1.82, 2.31 
+CPU usage: 38.61% user, 43.24% sys, 18.14% idle 
+SharedLibs: 408M resident, 75M data, 23M linkedit.
+MemRegions: 133974 total, 1423M resident, 93M private, 729M shared.
+PhysMem: 7551M used (2206M wired, 904M compressor), 640M unused.
+VM: 21T vsize, 3537M framework vsize, 54240167(0) swapins, 55318195(0) swapouts.
+Networks: packets: 10886673/14G in, 2566241/317M out.
+Disks: 10230762/311G read, 5040052/381G written.
+
+COMMAND          MEM  %CPU #TH  
+WindowServer     515M 0.0  14   
+kernel_task      512M 0.0  193/4
+Safari           446M 0.0  17/2 
+com.apple.WebKit 415M 0.0  5/2  
+Terminal         245M 0.0  9    
