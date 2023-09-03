@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   23.40   83  1.89  15 11 73  4.62 8.83 8.44
+   47.68  140  6.51  13 14 73  4.22 2.55 2.41
 
-Processes: 580 total, 66 running, 514 sleeping, 2111 threads 
-2023/09/02 13:37:33
-Load Avg: 4.62, 8.83, 8.44 
-CPU usage: 50.88% user, 37.1% sys, 12.9% idle 
-SharedLibs: 365M resident, 57M data, 27M linkedit.
-MemRegions: 141494 total, 1447M resident, 106M private, 1408M shared.
-PhysMem: 7899M used (2155M wired, 1158M compressor), 293M unused.
-VM: 28T vsize, 3410M framework vsize, 8572738(0) swapins, 8920163(0) swapouts.
-Networks: packets: 2948386/3681M in, 1192682/166M out.
-Disks: 3878894/64G read, 2535466/79G written.
+Processes: 368 total, 2 running, 366 sleeping, 1548 threads 
+2023/09/02 20:00:00
+Load Avg: 4.22, 2.55, 2.41 
+CPU usage: 15.17% user, 22.75% sys, 62.6% idle 
+SharedLibs: 425M resident, 70M data, 19M linkedit.
+MemRegions: 171559 total, 775M resident, 30M private, 2512M shared.
+PhysMem: 8173M used (2138M wired, 1805M compressor), 18M unused.
+VM: 25T vsize, 3410M framework vsize, 49873600(0) swapins, 50856138(0) swapouts.
+Networks: packets: 10124456/13G in, 2305525/278M out.
+Disks: 9326412/287G read, 4746047/353G written.
 
-COMMAND          MEM   %CPU #TH  
-qemu-system-x86_ 3903M 0.0  7    
-WindowServer     376M  0.0  16   
-Safari           371M  0.0  16   
-kernel_task      368M  0.0  188/4
-Terminal         160M  0.0  7    
+COMMAND          MEM  %CPU #TH  
+qemu-system-x86_ 11G  0.0  6    
+kernel_task      484M 0.0  193/4
+WindowServer     435M 0.0  13   
+Safari           401M 0.0  11   
+Code Helper (Ren 239M 0.0  18   
