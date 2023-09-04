@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   11.83  521  6.02  17 11 72  1.95 11.86 12.04
+   11.07  106  1.15  12  6 82  1.60 1.96 1.99
 
-Processes: 477 total, 2 running, 475 sleeping, 1596 threads 
-2023/09/03 16:41:30
-Load Avg: 1.95, 11.86, 12.04 
-CPU usage: 7.0% user, 21.0% sys, 72.0% idle 
-SharedLibs: 620M resident, 104M data, 50M linkedit.
-MemRegions: 109796 total, 2027M resident, 248M private, 910M shared.
-PhysMem: 8161M used (2025M wired, 39M compressor), 30M unused.
-VM: 22T vsize, 3537M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 39136/37M in, 22211/8313K out.
-Disks: 250104/2950M read, 55093/575M written.
+Processes: 551 total, 3 running, 2 stuck, 546 sleeping, 1764 threads 
+2023/09/03 19:43:56
+Load Avg: 1.60, 1.96, 1.99 
+CPU usage: 20.93% user, 23.25% sys, 55.81% idle 
+SharedLibs: 498M resident, 109M data, 37M linkedit.
+MemRegions: 134025 total, 2139M resident, 135M private, 959M shared.
+PhysMem: 8136M used (2070M wired, 765M compressor), 55M unused.
+VM: 26T vsize, 3537M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 208801/85M in, 168094/31M out.
+Disks: 830180/7345M read, 395596/5897M written.
 
 COMMAND          MEM  %CPU #TH  
-Safari           391M 0.0  12   
-kernel_task      313M 0.0  192/5
-com.apple.WebKit 236M 0.0  9    
-WindowServer     236M 0.0  15   
-Terminal         143M 0.0  11   
+WindowServer     476M 0.0  15   
+kernel_task      433M 0.0  192/4
+Safari           411M 0.0  9    
+com.apple.WebKit 301M 0.0  3    
+Terminal         248M 0.0  11   
