@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   25.23    4  0.09  12  7 81  100.11 47.20 30.98
+   25.22    4  0.09  12  7 81  130.37 54.35 33.59
 
-Processes: 443 total, 238 running, 1 stuck, 204 sleeping, 2098 threads 
-2023/09/22 10:37:24
-Load Avg: 100.11, 47.20, 30.98 
-CPU usage: 59.39% user, 38.57% sys, 2.3% idle 
-SharedLibs: 391M resident, 68M data, 108M linkedit.
-MemRegions: 44076 total, 1360M resident, 140M private, 906M shared.
-PhysMem: 6685M used (1908M wired, 275M compressor), 1506M unused.
-VM: 15T vsize, 3537M framework vsize, 9614975(0) swapins, 9840944(0) swapouts.
-Networks: packets: 1453615/1712M in, 535694/220M out.
-Disks: 4469514/83G read, 1579726/63G written.
+Processes: 453 total, 253 running, 200 sleeping, 2289 threads 
+2023/09/22 10:37:30
+Load Avg: 130.37, 54.35, 33.59 
+CPU usage: 54.55% user, 36.75% sys, 8.68% idle 
+SharedLibs: 441M resident, 72M data, 111M linkedit.
+MemRegions: 57771 total, 1165M resident, 150M private, 1494M shared.
+PhysMem: 7687M used (1976M wired, 108M compressor), 504M unused.
+VM: 17T vsize, 3410M framework vsize, 9615081(0) swapins, 9840944(0) swapouts.
+Networks: packets: 1453669/1712M in, 535763/220M out.
+Disks: 4476298/83G read, 1582025/63G written.
 
 COMMAND      MEM  %CPU #TH  
-Safari       405M 0.0  24/8 
-WindowServer 295M 0.0  19/5 
-kernel_task  225M 0.0  184/4
-Terminal     187M 0.0  15/4 
-launchd      33M  0.0  6/2  
+Safari       630M 0.0  16/9 
+WindowServer 240M 0.0  20/4 
+kernel_task  180M 0.0  188/4
+Terminal     154M 0.0  13/4 
+Electron     53M  0.0  47/7 
