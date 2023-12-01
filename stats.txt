@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   31.92  248  7.73  11  4 84  2.33 2.11 2.74
+   31.63  182  5.61  11  4 85  3.97 3.73 2.98
 
-Processes: 845 total, 3 running, 842 sleeping, 3711 threads 
-2023/11/29 19:50:38
-Load Avg: 2.33, 2.11, 2.74 
-CPU usage: 1.88% user, 8.96% sys, 89.15% idle 
-SharedLibs: 562M resident, 82M data, 36M linkedit.
-MemRegions: 168809 total, 3599M resident, 358M private, 1844M shared.
-PhysMem: 15G used (2455M wired, 3545M compressor), 495M unused.
-VM: 325T vsize, 4729M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 178282031/224G in, 36304976/5709M out.
-Disks: 28603393/937G read, 40233870/1158G written.
+Processes: 889 total, 37 running, 852 sleeping, 4374 threads 
+2023/12/01 13:47:49
+Load Avg: 3.97, 3.73, 2.98 
+CPU usage: 33.33% user, 15.9% sys, 51.57% idle 
+SharedLibs: 634M resident, 86M data, 33M linkedit.
+MemRegions: 293269 total, 4849M resident, 392M private, 1948M shared.
+PhysMem: 15G used (2580M wired, 2605M compressor), 317M unused.
+VM: 353T vsize, 4729M framework vsize, 245485(0) swapins, 444111(0) swapouts.
+Networks: packets: 182103717/227G in, 37845906/6223M out.
+Disks: 35175814/1084G read, 42591929/1262G written.
 
-COMMAND       MEM   %CPU #TH  
-WindowServer  1453M 0.0  22   
-Webex         811M  0.0  113/1
-storekitagent 483M  0.0  3    
-Messenger     418M  0.0  83   
-Code42Service 399M  0.0  100  
+COMMAND       MEM   %CPU #TH   
+WindowServer  1676M 0.0  21    
+Webex         981M  0.0  118   
+kernel_task   853M  0.0  582/13
+storekitagent 629M  0.0  3     
+Messenger     529M  0.0  100   
