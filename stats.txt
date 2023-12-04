@@ -1,38 +1,21 @@
-              disk0               disk4               disk5       cpu    load average
-    KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   30.51  144  4.28    10.43    0  0.00   176.44    0  0.00  10  4 85  2.91 2.49 2.61
+              disk0               disk4       cpu    load average
+    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
+   29.24  147  4.20     5.87    0  0.00  10  4 86  2.25 2.42 2.61
 
-Processes: 566 total, 2 running, 564 sleeping, 3232 threads 
-2023/12/03 18:27:45
-Load Avg: 2.91, 2.49, 2.61 
-CPU usage: 10.8% user, 11.84% sys, 78.7% idle 
-SharedLibs: 767M resident, 130M data, 50M linkedit.
-MemRegions: 229359 total, 5328M resident, 499M private, 1796M shared.
-PhysMem: 15G used (2232M wired, 1002M compressor), 174M unused.
-VM: 230T vsize, 4729M framework vsize, 418887(0) swapins, 686526(0) swapouts.
-Networks: packets: 186656694/229G in, 45621415/14G out.
-Disks: 43623538/1253G read, 45105894/1328G written.
+Processes: 654 total, 6 running, 648 sleeping, 3423 threads 
+2023/12/04 11:53:40
+Load Avg: 2.25, 2.42, 2.61 
+CPU usage: 6.99% user, 10.48% sys, 82.51% idle 
+SharedLibs: 712M resident, 111M data, 45M linkedit.
+MemRegions: 100383 total, 4683M resident, 428M private, 1701M shared.
+PhysMem: 15G used (2192M wired, 1420M compressor), 451M unused.
+VM: 248T vsize, 4729M framework vsize, 421067(0) swapins, 686526(0) swapouts.
+Networks: packets: 192410273/230G in, 67986154/27G out.
+Disks: 52674687/1416G read, 47463279/1376G written.
 
-COMMAND          MEM   %CPU #TH
-WindowServer     1494M 0.0  22 
-Code42Service    416M  0.0  118
-Code Helper (GPU 310M  0.0  27 
-Spotlight        194M  0.0  9  
-Code Helper (Ren 183M  0.0  29 
-Processes: 566 total, 2 running, 564 sleeping, 3232 threads 
-2023/12/03 18:27:46
-Load Avg: 2.91, 2.49, 2.61 
-CPU usage: 6.78% user, 12.21% sys, 80.99% idle 
-SharedLibs: 767M resident, 130M data, 50M linkedit.
-MemRegions: 229362 total, 5328M resident, 499M private, 1798M shared.
-PhysMem: 15G used (2226M wired, 1002M compressor), 177M unused.
-VM: 230T vsize, 4729M framework vsize, 418887(0) swapins, 686526(0) swapouts.
-Networks: packets: 186656709/229G in, 45621451/14G out.
-Disks: 43623554/1253G read, 45105904/1328G written.
-
-COMMAND          MEM   %CPU #TH
-WindowServer     1496M 0.0  22 
-Code42Service    416M  0.0  118
-Code Helper (GPU 310M  0.0  27 
-Spotlight        194M  0.0  9  
-Code Helper (Ren 183M  0.0  29 
+COMMAND       MEM   %CPU #TH 
+WindowServer  1516M 0.0  24/1
+Code42Service 428M  0.0  118 
+Webex         308M  0.0  111 
+Spotlight     210M  0.0  25  
+Safari        163M  0.0  8   
