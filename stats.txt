@@ -1,21 +1,21 @@
               disk0               disk4               disk5       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   27.67  158  4.26    96.80    0  0.00     6.14    0  0.00  10  4 87  5.23 3.48 3.14
+   26.61  147  3.83    42.13    0  0.00     6.06    0  0.00   9  4 87  1.99 3.62 4.87
 
-Processes: 646 total, 3 running, 643 sleeping, 4348 threads 
-2023/12/05 14:44:50
-Load Avg: 5.23, 3.48, 3.14 
-CPU usage: 11.19% user, 11.95% sys, 76.84% idle 
-SharedLibs: 581M resident, 95M data, 35M linkedit.
-MemRegions: 421946 total, 4357M resident, 322M private, 1842M shared.
-PhysMem: 15G used (2633M wired, 3910M compressor), 183M unused.
-VM: 277T vsize, 4729M framework vsize, 424165(0) swapins, 686526(0) swapouts.
-Networks: packets: 198532710/236G in, 71155175/29G out.
-Disks: 71305606/1771G read, 51319553/1465G written.
+Processes: 702 total, 3 running, 699 sleeping, 3872 threads 
+2023/12/07 12:12:29
+Load Avg: 1.99, 3.62, 4.87 
+CPU usage: 5.12% user, 9.89% sys, 84.98% idle 
+SharedLibs: 507M resident, 86M data, 33M linkedit.
+MemRegions: 242775 total, 4494M resident, 353M private, 1659M shared.
+PhysMem: 15G used (2667M wired, 3576M compressor), 425M unused.
+VM: 278T vsize, 4729M framework vsize, 425028(0) swapins, 686526(0) swapouts.
+Networks: packets: 199231184/235G in, 73734147/31G out.
+Disks: 84602155/2007G read, 54063091/1512G written.
 
-COMMAND          MEM   %CPU #TH   
-WindowServer     1678M 0.0  23    
-Webex            855M  0.0  114   
-VTDecoderXPCServ 692M  0.0  5     
-Code42Service    428M  0.0  117   
-kernel_task      312M  0.0  809/12
+COMMAND          MEM   %CPU #TH
+WindowServer     1981M 0.0  22 
+Webex            1261M 0.0  116
+VTDecoderXPCServ 775M  0.0  4  
+Code42Service    451M  0.0  118
+Microsoft Outloo 389M  0.0  27 
