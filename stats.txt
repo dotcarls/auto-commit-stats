@@ -1,21 +1,21 @@
               disk0               disk4       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   25.29  164  4.04    30.30    0  0.00   9  3 87  1.82 1.91 2.39
+   23.31  172  3.91    17.42    0  0.00  10  3 87  5.43 5.12 4.96
 
-Processes: 505 total, 4 running, 501 sleeping, 3622 threads 
-2023/12/08 12:19:06
-Load Avg: 1.82, 1.91, 2.39 
-CPU usage: 18.23% user, 16.3% sys, 65.72% idle 
-SharedLibs: 498M resident, 94M data, 26M linkedit.
-MemRegions: 299287 total, 2767M resident, 212M private, 1451M shared.
-PhysMem: 15G used (2712M wired, 7080M compressor), 206M unused.
-VM: 203T vsize, 4729M framework vsize, 426903(0) swapins, 709778(0) swapouts.
-Networks: packets: 201548729/237G in, 76108502/34G out.
-Disks: 110600365/2457G read, 57642059/1600G written.
+Processes: 707 total, 7 running, 700 sleeping, 3902 threads 
+2023/12/12 08:55:34
+Load Avg: 5.43, 5.12, 4.96 
+CPU usage: 14.48% user, 10.22% sys, 75.28% idle 
+SharedLibs: 584M resident, 105M data, 46M linkedit.
+MemRegions: 325496 total, 3676M resident, 266M private, 1664M shared.
+PhysMem: 14G used (2823M wired, 4128M compressor), 1319M unused.
+VM: 282T vsize, 4729M framework vsize, 432092(0) swapins, 716494(0) swapouts.
+Networks: packets: 212185045/241G in, 94067413/48G out.
+Disks: 168537090/3482G read, 65386716/1719G written.
 
-COMMAND          MEM   %CPU #TH   
-Aiko             3157M 0.0  11    
-WindowServer     2124M 0.0  21    
-Webex            714M  0.0  113   
-VTDecoderXPCServ 561M  0.0  4     
-kernel_task      561M  0.0  834/13
+COMMAND       MEM   %CPU #TH   
+WindowServer  2052M 0.0  24/1  
+kernel_task   559M  0.0  871/13
+coreaudiod    503M  0.0  8     
+Code42Service 386M  0.0  118   
+Terminal      343M  0.0  8     
