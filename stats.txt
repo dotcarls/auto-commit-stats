@@ -1,21 +1,21 @@
-              disk0               disk4       cpu    load average
-    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   23.31  172  3.91    17.42    0  0.00  10  3 87  5.43 5.12 4.96
+              disk0       cpu    load average
+    KB/t  tps  MB/s  us sy id   1m   5m   15m
+   21.82 1351 28.79  26  8 65  12.21 17.73 10.00
 
-Processes: 707 total, 7 running, 700 sleeping, 3902 threads 
-2023/12/12 08:55:34
-Load Avg: 5.43, 5.12, 4.96 
-CPU usage: 14.48% user, 10.22% sys, 75.28% idle 
-SharedLibs: 584M resident, 105M data, 46M linkedit.
-MemRegions: 325496 total, 3676M resident, 266M private, 1664M shared.
-PhysMem: 14G used (2823M wired, 4128M compressor), 1319M unused.
-VM: 282T vsize, 4729M framework vsize, 432092(0) swapins, 716494(0) swapouts.
-Networks: packets: 212185045/241G in, 94067413/48G out.
-Disks: 168537090/3482G read, 65386716/1719G written.
+Processes: 640 total, 5 running, 635 sleeping, 3138 threads 
+2023/12/12 09:23:39
+Load Avg: 12.21, 17.73, 10.00 
+CPU usage: 31.91% user, 14.89% sys, 53.19% idle 
+SharedLibs: 793M resident, 150M data, 161M linkedit.
+MemRegions: 68079 total, 3454M resident, 720M private, 2354M shared.
+PhysMem: 15G used (1651M wired, 574M compressor), 236M unused.
+VM: 242T vsize, 4769M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 67556/56M in, 39533/12M out.
+Disks: 604431/10G read, 223617/7129M written.
 
-COMMAND       MEM   %CPU #TH   
-WindowServer  2052M 0.0  24/1  
-kernel_task   559M  0.0  871/13
-coreaudiod    503M  0.0  8     
-Code42Service 386M  0.0  118   
-Terminal      343M  0.0  8     
+COMMAND         MEM  %CPU #TH
+Webex           307M 0.0  108
+System Settings 287M 0.0  3  
+WindowServer    258M 0.0  21 
+Code42Service   242M 0.0  108
+log             171M 0.0  2/1
