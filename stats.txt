@@ -2,37 +2,37 @@
     KB/t  tps  MB/s  us sy id   1m   5m   15m
    22.83   49  1.09   7  3 90  2.35 2.96 3.70
 
-Processes: 808 total, 4 running, 804 sleeping, 3963 threads 
-2023/12/14 07:52:56
+Processes: 811 total, 11 running, 1 stuck, 799 sleeping, 4017 threads 
+2023/12/14 07:52:57
 Load Avg: 2.35, 2.96, 3.70 
-CPU usage: 20.64% user, 16.97% sys, 62.38% idle 
+CPU usage: 36.47% user, 24.92% sys, 38.60% idle 
 SharedLibs: 633M resident, 109M data, 42M linkedit.
-MemRegions: 195305 total, 5172M resident, 378M private, 2280M shared.
-PhysMem: 15G used (2133M wired, 2045M compressor), 362M unused.
-VM: 317T vsize, 4769M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 7108557/3872M in, 9525049/10G out.
-Disks: 4891303/106G read, 3286588/72G written.
+MemRegions: 234812 total, 5427M resident, 377M private, 2362M shared.
+PhysMem: 15G used (2069M wired, 2071M compressor), 188M unused.
+VM: 322T vsize, 4769M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 7108925/3873M in, 9525433/10G out.
+Disks: 4896742/106G read, 3286942/72G written.
 
-COMMAND          MEM  %CPU #TH
-com.apple.WebKit 687M 0.0  7  
-com.apple.WebKit 611M 0.0  10 
-WindowServer     517M 0.0  23 
-com.apple.WebKit 379M 0.0  4  
-Code42Service    370M 0.0  118
-Processes: 808 total, 3 running, 805 sleeping, 3963 threads 
-2023/12/14 07:52:56
+COMMAND          MEM  %CPU #TH  
+com.apple.WebKit 687M 0.0  6    
+com.apple.WebKit 611M 0.0  8    
+WindowServer     501M 0.0  23   
+com.apple.WebKit 379M 0.0  4    
+Code42Service    370M 0.0  118/2
+Processes: 812 total, 10 running, 1 stuck, 801 sleeping, 4018 threads 
+2023/12/14 07:52:57
 Load Avg: 2.35, 2.96, 3.70 
-CPU usage: 16.12% user, 16.58% sys, 67.28% idle 
+CPU usage: 35.0% user, 25.31% sys, 39.68% idle 
 SharedLibs: 633M resident, 109M data, 42M linkedit.
-MemRegions: 195338 total, 5180M resident, 378M private, 2281M shared.
-PhysMem: 15G used (2133M wired, 2045M compressor), 360M unused.
-VM: 317T vsize, 4769M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 7108644/3873M in, 9525125/10G out.
-Disks: 4891308/106G read, 3286604/72G written.
+MemRegions: 234862 total, 5431M resident, 377M private, 2363M shared.
+PhysMem: 15G used (2069M wired, 2071M compressor), 191M unused.
+VM: 322T vsize, 4769M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 7108925/3873M in, 9525433/10G out.
+Disks: 4896772/106G read, 3286942/72G written.
 
-COMMAND          MEM  %CPU #TH
-com.apple.WebKit 687M 0.0  7  
-com.apple.WebKit 611M 0.0  10 
-WindowServer     517M 0.0  23 
-com.apple.WebKit 379M 0.0  4  
-Code42Service    370M 0.0  118
+COMMAND          MEM  %CPU #TH  
+com.apple.WebKit 687M 0.0  6    
+com.apple.WebKit 611M 0.0  8    
+WindowServer     501M 0.0  23/1 
+com.apple.WebKit 379M 0.0  4    
+Code42Service    370M 0.0  118/2
