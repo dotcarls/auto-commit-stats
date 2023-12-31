@@ -1,75 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.72   51  0.83   7  3 91  4.19 3.38 3.81
+   16.68   50  0.81   7  3 91  3.33 3.35 2.81
 
+Processes: 755 total, 5 running, 750 sleeping, 3773 threads 
+2023/12/31 09:43:28
+Load Avg: 3.33, 3.35, 2.81 
+CPU usage: 10.52% user, 12.7% sys, 77.39% idle 
+SharedLibs: 672M resident, 110M data, 90M linkedit.
+MemRegions: 318913 total, 3509M resident, 422M private, 2081M shared.
+PhysMem: 13G used (2144M wired, 2340M compressor), 1971M unused.
+VM: 310T vsize, 4769M framework vsize, 144006(0) swapins, 262628(0) swapouts.
+Networks: packets: 27011844/13G in, 43494089/36G out.
+Disks: 44645814/771G read, 36777555/524G written.
 
-
-
-Processes: 785 total, 40 running, 2 stuck, 743 sleeping, 4113 threads 
-2023/12/30 15:52:45
-Load Avg: 4.19, 3.38, 3.81 
-CPU usage: 26.49% user, 39.3% sys, 34.47% idle 
-SharedLibs: 717M resident, 108M data, 40M linkedit.
-MemRegions: 339208 total, 5402M resident, 395M private, 2253M shared.
-PhysMem: 15G used (2252M wired, 1794M compressor), 135M unused.
-VM: 323T vsize, 4769M framework vsize, 143014(0) swapins, 262628(0) swapouts.
-Networks: packets: 26136277/12G in, 43223532/36G out.
-Disks: 44151241/766G read, 36391103/518G written.
-
-COMMAND          MEM   %CPU #TH  
-storekitagent    1016M 0.0  3    
-WindowServer     707M  0.0  24   
-Code Helper (GPU 550M  0.0  26   
-Code42Service    424M  0.0  117/4
-Code Helper (Ren 260M  0.0  27   
-Processes: 785 total, 31 running, 2 stuck, 752 sleeping, 4113 threads 
-2023/12/30 15:52:45
-Load Avg: 4.19, 3.38, 3.81 
-CPU usage: 25.61% user, 38.56% sys, 35.81% idle 
-SharedLibs: 717M resident, 108M data, 40M linkedit.
-MemRegions: 339203 total, 5402M resident, 395M private, 2253M shared.
-PhysMem: 15G used (2252M wired, 1794M compressor), 140M unused.
-VM: 323T vsize, 4769M framework vsize, 143014(0) swapins, 262628(0) swapouts.
-Networks: packets: 26136277/12G in, 43223532/36G out.
-Disks: 44151241/766G read, 36391103/518G written.
-
-COMMAND          MEM   %CPU #TH  
-storekitagent    1016M 0.0  3    
-WindowServer     707M  0.0  24   
-Code Helper (GPU 550M  0.0  26   
-Code42Service    424M  0.0  117/4
-Code Helper (Ren 260M  0.0  27   
-Processes: 779 total, 30 running, 2 stuck, 747 sleeping, 4107 threads 
-2023/12/30 15:52:46
-Load Avg: 4.19, 3.38, 3.81 
-CPU usage: 22.13% user, 34.42% sys, 43.44% idle 
-SharedLibs: 717M resident, 108M data, 40M linkedit.
-MemRegions: 338990 total, 5391M resident, 394M private, 2253M shared.
-PhysMem: 15G used (2253M wired, 1794M compressor), 146M unused.
-VM: 321T vsize, 4769M framework vsize, 143014(0) swapins, 262628(0) swapouts.
-Networks: packets: 26136277/12G in, 43223532/36G out.
-Disks: 44151285/766G read, 36391118/518G written.
-
-COMMAND          MEM   %CPU #TH  
-storekitagent    1016M 0.0  3    
-WindowServer     707M  0.0  24/1 
-Code Helper (GPU 550M  0.0  26   
-Code42Service    424M  0.0  117/4
-Code Helper (Ren 260M  0.0  27   
-Processes: 779 total, 29 running, 2 stuck, 748 sleeping, 4107 threads 
-2023/12/30 15:52:46
-Load Avg: 4.19, 3.38, 3.81 
-CPU usage: 22.24% user, 34.48% sys, 43.26% idle 
-SharedLibs: 717M resident, 108M data, 40M linkedit.
-MemRegions: 338990 total, 5391M resident, 394M private, 2253M shared.
-PhysMem: 15G used (2253M wired, 1794M compressor), 151M unused.
-VM: 321T vsize, 4769M framework vsize, 143014(0) swapins, 262628(0) swapouts.
-Networks: packets: 26136277/12G in, 43223532/36G out.
-Disks: 44151301/766G read, 36391118/518G written.
-
-COMMAND          MEM   %CPU #TH  
-storekitagent    1016M 0.0  3    
-WindowServer     707M  0.0  24   
-Code Helper (GPU 550M  0.0  26   
-Code42Service    424M  0.0  117/4
-Code Helper (Ren 260M  0.0  27   
+COMMAND          MEM   %CPU #TH
+storekitagent    1058M 0.0  3  
+WindowServer     1055M 0.0  21 
+Code42Service    448M  0.0  117
+Code Helper (GPU 337M  0.0  23 
+Code Helper (Ren 319M  0.0  23 
