@@ -1,55 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   21.00 4284 87.83  20 10 70  102.74 24.75 8.99
+   35.37 2554 88.22  22  8 70  5.15 18.27 11.37
 
-Processes: 575 total, 122 running, 6 stuck, 447 sleeping, 3697 threads 
-2024/01/03 11:50:01
-Load Avg: 102.74, 24.75, 8.99 
-CPU usage: 63.93% user, 36.6% sys, 0.0% idle 
-SharedLibs: 829M resident, 155M data, 163M linkedit.
-MemRegions: 259169 total, 3890M resident, 458M private, 1928M shared.
-PhysMem: 13G used (1905M wired, 622M compressor), 1975M unused.
-VM: 240T vsize, 4769M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 14700/6175K in, 13120/3442K out.
-Disks: 429544/7181M read, 102462/3692M written.
+Processes: 666 total, 5 running, 661 sleeping, 3818 threads 
+2024/01/03 11:55:18
+Load Avg: 5.15, 18.27, 11.37 
+CPU usage: 29.58% user, 16.39% sys, 54.1% idle 
+SharedLibs: 664M resident, 101M data, 212M linkedit.
+MemRegions: 332074 total, 2876M resident, 319M private, 3480M shared.
+PhysMem: 14G used (2165M wired, 3183M compressor), 1374M unused.
+VM: 280T vsize, 4769M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 59081/44M in, 38176/10M out.
+Disks: 882579/18G read, 241738/20G written.
 
-COMMAND          MEM  %CPU #TH 
-Code Helper (GPU 453M 0.0  29/3
-System Settings  284M 0.0  21/6
-Code Helper (Ren 270M 0.0  26  
-WindowServer     233M 0.0  20  
-Code Helper (Ren 231M 0.0  26  
-Processes: 574 total, 116 running, 8 stuck, 450 sleeping, 3693 threads 
-2024/01/03 11:50:01
-Load Avg: 102.74, 24.75, 8.99 
-CPU usage: 63.95% user, 36.4% sys, 0.0% idle 
-SharedLibs: 829M resident, 155M data, 163M linkedit.
-MemRegions: 259113 total, 3886M resident, 458M private, 1928M shared.
-PhysMem: 13G used (1676M wired, 622M compressor), 2051M unused.
-VM: 240T vsize, 4769M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 14700/6175K in, 13120/3442K out.
-Disks: 429930/7184M read, 102471/3692M written.
-
-COMMAND          MEM  %CPU #TH 
-Code Helper (GPU 453M 0.0  29/5
-System Settings  284M 0.0  21/6
-Code Helper (Ren 270M 0.0  26  
-WindowServer     233M 0.0  20  
-Code Helper (Ren 231M 0.0  26  
-Processes: 575 total, 129 running, 10 stuck, 436 sleeping, 3722 threads 
-2024/01/03 11:50:01
-Load Avg: 102.74, 24.75, 8.99 
-CPU usage: 65.43% user, 34.56% sys, 0.0% idle 
-SharedLibs: 830M resident, 155M data, 163M linkedit.
-MemRegions: 259502 total, 3915M resident, 462M private, 1930M shared.
-PhysMem: 13G used (1710M wired, 621M compressor), 2009M unused.
-VM: 240T vsize, 4769M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 14725/6187K in, 13146/3451K out.
-Disks: 431620/7194M read, 102738/3693M written.
-
-COMMAND          MEM  %CPU #TH 
-Code Helper (GPU 453M 0.0  29/2
-System Settings  284M 0.0  21/6
-Code Helper (Ren 271M 0.0  26/1
-WindowServer     233M 0.0  20  
-Code Helper (Ren 232M 0.0  26/2
+COMMAND          MEM   %CPU #TH 
+com.apple.Virtua 2027M 0.0  17  
+WindowServer     1012M 0.0  20/1
+Code Helper (GPU 494M  0.0  27  
+Plexamp          330M  0.0  39  
+com.apple.WebKit 305M  0.0  3   
