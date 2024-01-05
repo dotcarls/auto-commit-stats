@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   21.42   37  0.78  10  3 86  2.87 4.57 5.68
+   21.41   37  0.78  10  3 86  3.20 4.61 5.68
 
-Processes: 742 total, 2 running, 740 sleeping, 3696 threads 
-2024/01/05 09:34:20
-Load Avg: 2.87, 4.57, 5.68 
-CPU usage: 7.66% user, 19.66% sys, 72.66% idle 
+Processes: 760 total, 2 running, 1 stuck, 757 sleeping, 3847 threads 
+2024/01/05 09:34:26
+Load Avg: 3.20, 4.61, 5.68 
+CPU usage: 4.9% user, 9.21% sys, 86.68% idle 
 SharedLibs: 508M resident, 84M data, 39M linkedit.
-MemRegions: 211689 total, 3600M resident, 272M private, 2370M shared.
-PhysMem: 15G used (2112M wired, 4302M compressor), 775M unused.
-VM: 294T vsize, 4769M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1650998/1591M in, 734309/228M out.
-Disks: 3367928/66G read, 2720630/58G written.
+MemRegions: 302449 total, 4175M resident, 263M private, 2203M shared.
+PhysMem: 15G used (2084M wired, 4444M compressor), 208M unused.
+VM: 311T vsize, 4769M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 1652562/1592M in, 735325/228M out.
+Disks: 3372535/67G read, 2722306/58G written.
 
 COMMAND          MEM   %CPU #TH
 com.apple.Virtua 2060M 0.0  15 
-com.apple.WebKit 1195M 0.0  7  
-WindowServer     500M  0.0  23 
-Webex            482M  0.0  108
-Code Helper (GPU 353M  0.0  26 
-Processes: 743 total, 3 running, 740 sleeping, 3697 threads 
-2024/01/05 09:34:20
-Load Avg: 2.87, 4.57, 5.68 
-CPU usage: 7.93% user, 19.65% sys, 72.41% idle 
-SharedLibs: 508M resident, 84M data, 39M linkedit.
-MemRegions: 211725 total, 3604M resident, 272M private, 2370M shared.
-PhysMem: 15G used (2112M wired, 4302M compressor), 777M unused.
-VM: 295T vsize, 4769M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1650998/1591M in, 734309/228M out.
-Disks: 3367928/66G read, 2720630/58G written.
-
-COMMAND          MEM   %CPU #TH
-com.apple.Virtua 2060M 0.0  15 
-com.apple.WebKit 1195M 0.0  7  
-WindowServer     500M  0.0  23 
-Webex            482M  0.0  108
-Code Helper (GPU 353M  0.0  26 
+com.apple.WebKit 1198M 0.0  9  
+WindowServer     502M  0.0  23 
+Webex            483M  0.0  108
+Code Helper (GPU 454M  0.0  26 
