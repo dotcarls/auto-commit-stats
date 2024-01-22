@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.04   34  0.63   6  3 91  25.93 15.60 9.46
+   19.04   34  0.63   6  3 91  29.01 20.80 12.55
 
-Processes: 745 total, 22 running, 723 sleeping, 4162 threads 
-2024/01/22 17:40:49
-Load Avg: 25.93, 15.60, 9.46 
-CPU usage: 56.9% user, 33.79% sys, 10.10% idle 
-SharedLibs: 472M resident, 84M data, 36M linkedit.
-MemRegions: 254641 total, 3341M resident, 201M private, 2195M shared.
-PhysMem: 14G used (2962M wired, 4047M compressor), 920M unused.
-VM: 297T vsize, 4769M framework vsize, 27338(0) swapins, 115588(0) swapouts.
-Networks: packets: 14562246/11G in, 7527162/2681M out.
-Disks: 37659158/702G read, 18641934/320G written.
+Processes: 730 total, 9 running, 721 sleeping, 4102 threads 
+2024/01/22 17:43:15
+Load Avg: 29.01, 20.80, 12.55 
+CPU usage: 27.33% user, 18.34% sys, 54.31% idle 
+SharedLibs: 490M resident, 86M data, 34M linkedit.
+MemRegions: 265279 total, 3689M resident, 233M private, 2153M shared.
+PhysMem: 15G used (2748M wired, 3971M compressor), 207M unused.
+VM: 293T vsize, 4769M framework vsize, 27346(0) swapins, 115588(0) swapouts.
+Networks: packets: 14564781/11G in, 7529513/2682M out.
+Disks: 37701793/703G read, 18663250/320G written.
 
-COMMAND          MEM   %CPU #TH 
-com.apple.Virtua 2058M 0.0  15  
-VTDecoderXPCServ 1034M 0.0  6   
-WindowServer     1034M 0.0  23  
-com.apple.WebKit 641M  0.0  4   
-Code Helper (GPU 573M  0.0  29/2
-Processes: 740 total, 14 running, 726 sleeping, 4137 threads 
-2024/01/22 17:40:49
-Load Avg: 25.93, 15.60, 9.46 
-CPU usage: 45.48% user, 20.21% sys, 34.29% idle 
-SharedLibs: 472M resident, 84M data, 36M linkedit.
-MemRegions: 254614 total, 3377M resident, 197M private, 2194M shared.
-PhysMem: 14G used (2957M wired, 4046M compressor), 946M unused.
-VM: 295T vsize, 4769M framework vsize, 27338(0) swapins, 115588(0) swapouts.
-Networks: packets: 14562322/11G in, 7527336/2681M out.
-Disks: 37659212/702G read, 18641951/320G written.
-
-COMMAND          MEM   %CPU #TH
-com.apple.Virtua 2058M 0.0  15 
-WindowServer     1035M 0.0  23 
-VTDecoderXPCServ 1034M 0.0  6  
-com.apple.WebKit 641M  0.0  4  
-Code Helper (GPU 573M  0.0  27 
+COMMAND          MEM   %CPU #TH  
+com.apple.Virtua 2058M 0.0  15   
+WindowServer     1093M 0.0  24   
+VTDecoderXPCServ 1034M 0.0  6    
+com.apple.WebKit 641M  0.0  4    
+Code42Service    569M  0.0  117/2
