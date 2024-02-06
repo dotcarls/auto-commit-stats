@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.64   47  0.90  12  4 84  2.74 2.94 3.00
+   22.39 3896 85.18  18  9 73  79.99 17.92 6.43
 
-Processes: 725 total, 5 running, 720 sleeping, 4153 threads 
-2024/02/02 10:48:39
-Load Avg: 2.74, 2.94, 3.00 
-CPU usage: 13.1% user, 12.24% sys, 74.74% idle 
-SharedLibs: 528M resident, 86M data, 36M linkedit.
-MemRegions: 406177 total, 3527M resident, 238M private, 2169M shared.
-PhysMem: 15G used (2490M wired, 4897M compressor), 101M unused.
-VM: 307T vsize, 4769M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 8183940/5059M in, 3330685/879M out.
-Disks: 28442461/489G read, 8095707/196G written.
+Processes: 567 total, 262 running, 305 sleeping, 4108 threads 
+2024/02/06 11:44:10
+Load Avg: 79.99, 17.92, 6.43 
+CPU usage: 67.36% user, 32.63% sys, 0.0% idle 
+SharedLibs: 745M resident, 147M data, 161M linkedit.
+MemRegions: 167962 total, 6446M resident, 439M private, 2325M shared.
+PhysMem: 15G used (2239M wired, 884M compressor), 624M unused.
+VM: 227T vsize, 4773M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 10622/4138K in, 9690/2169K out.
+Disks: 368743/7048M read, 96066/3127M written.
 
-COMMAND          MEM   %CPU #TH
-WindowServer     1023M 0.0  22 
-Webex            790M  0.0  111
-storekitagent    674M  0.0  3  
-VTDecoderXPCServ 563M  0.0  3  
-Code Helper (GPU 424M  0.0  25 
+COMMAND          MEM   %CPU #TH 
+oahd-helper      3808M 0.0  2/1 
+Code Helper (GPU 540M  0.0  17/4
+System Settings  288M  0.0  18/5
+WindowServer     207M  0.0  21/2
+Code Helper (Ren 177M  0.0  21/4
