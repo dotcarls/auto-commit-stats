@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   23.69 4075 94.27  22 11 67  173.82 39.95 14.38
+   23.31  471 10.71  21  5 74  3.89 5.68 4.97
 
-Processes: 634 total, 279 running, 355 sleeping, 4459 threads 
-2024/02/06 11:44:21
-Load Avg: 173.82, 39.95, 14.38 
-CPU usage: 70.69% user, 28.39% sys, 0.90% idle 
-SharedLibs: 798M resident, 121M data, 50M linkedit.
-MemRegions: 271141 total, 3982M resident, 319M private, 2539M shared.
-PhysMem: 14G used (1884M wired, 1311M compressor), 1645M unused.
-VM: 263T vsize, 4773M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 20168/13M in, 15126/3755K out.
-Disks: 417639/8509M read, 109813/3696M written.
+Processes: 777 total, 6 running, 771 sleeping, 3898 threads 
+2024/02/06 13:18:09
+Load Avg: 3.89, 5.68, 4.97 
+CPU usage: 16.49% user, 14.81% sys, 68.68% idle 
+SharedLibs: 810M resident, 99M data, 361M linkedit.
+MemRegions: 301160 total, 3848M resident, 383M private, 2887M shared.
+PhysMem: 15G used (2604M wired, 2248M compressor), 124M unused.
+VM: 317T vsize, 4773M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 631207/695M in, 219978/55M out.
+Disks: 2251227/42G read, 458239/18G written.
 
-COMMAND          MEM  %CPU #TH 
-Code Helper (GPU 635M 0.0  29/1
-gopls            346M 0.0  36/8
-System Settings  288M 0.0  18/6
-Code Helper (Ren 264M 0.0  23  
-Terminal         255M 0.0  20/5
-Processes: 634 total, 269 running, 365 sleeping, 4460 threads 
-2024/02/06 11:44:21
-Load Avg: 173.82, 39.95, 14.38 
-CPU usage: 58.13% user, 39.92% sys, 1.93% idle 
-SharedLibs: 798M resident, 121M data, 50M linkedit.
-MemRegions: 271368 total, 4007M resident, 320M private, 2544M shared.
-PhysMem: 14G used (1893M wired, 1308M compressor), 1541M unused.
-VM: 263T vsize, 4773M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 20385/13M in, 15211/3765K out.
-Disks: 418429/8527M read, 109886/3698M written.
-
-COMMAND          MEM  %CPU #TH 
-Code Helper (GPU 635M 0.0  29  
-gopls            327M 0.0  36  
-System Settings  288M 0.0  18/6
-Code Helper (Ren 265M 0.0  23  
-Terminal         255M 0.0  20/5
+COMMAND          MEM  %CPU #TH  
+WindowServer     503M 0.0  22/1 
+Code Helper (GPU 477M 0.0  17   
+Terminal         470M 0.0  9    
+Webex            315M 0.0  105  
+Code42Service    276M 0.0  115/1
