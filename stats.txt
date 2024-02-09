@@ -1,38 +1,35 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   23.05 6573 147.92  27 13 60  70.63 15.03 5.33
+   21.84 6962 148.48  28 14 58  131.60 28.59 10.17
+ser, 35.8% sys, 0.0% idle 
+SharedLibs: 637M resident, 135M data, 49M linkedit.
+MemRegions: 251021 total, 5844M resident, 714M private, 2791M shared.
+PhysMem: 15G used (1735M wired, 82M compressor), 320M unused.
+VM: 226T vsize, 4773M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 3241/1305K in, 2809/727K out.
+Disks: 179619/4010M read, 26465/390M written.
 
-Processes: 535 total, 283 running, 252 sleeping, 4119 threads 
-2024/02/09 13:02:49
-Load Avg: 70.63, 15.03, 5.33 
-CPU usage: 73.40% user, 26.59% sys, 0.0% idle 
-SharedLibs: 873M resident, 133M data, 72M linkedit.
-MemRegions: 226970 total, 4400M resident, 725M private, 2839M shared.
-PhysMem: 14G used (1766M wired, 0B compressor), 1612M unused.
-VM: 222T vsize, 4773M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 2971/1165K in, 2540/634K out.
-Disks: 162074/3864M read, 25586/358M written.
+COMMAND          MEM   %CPU #TH 
+oahd-helper      1209M 0.0  2/1 
+Code Helper (GPU 772M  0.0  15/4
+Code Helper (Ren 319M  0.0  24/1
+System Settings  287M  0.0  14/8
+WindowServer     285M  0.0  25/3
 
-COMMAND          MEM  %CPU #TH 
-Code Helper (GPU 788M 0.0  15/6
-Code Helper (Ren 310M 0.0  24/1
-Terminal         306M 0.0  22/5
-System Settings  287M 0.0  13/9
-Code Helper (Ren 271M 0.0  25/2
-Processes: 534 total, 278 running, 1 stuck, 255 sleeping, 4118 threads 
-2024/02/09 13:02:49
-Load Avg: 70.63, 15.03, 5.33 
-CPU usage: 73.25% user, 26.75% sys, 0.0% idle 
-SharedLibs: 848M resident, 133M data, 67M linkedit.
-MemRegions: 227045 total, 4423M resident, 724M private, 2848M shared.
-PhysMem: 14G used (1770M wired, 0B compressor), 1398M unused.
-VM: 222T vsize, 4773M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 2995/1184K in, 2562/638K out.
-Disks: 162191/3866M read, 25615/360M written.
+Processes: 539 total, 281 running, 3 stuck, 255 sleeping, 4172 threads 
+2024/02/09 13:02:50
+Load Avg: 131.60, 28.59, 10.17 
+CPU usage: 58.43% user, 41.56% sys, 0.0% idle 
+SharedLibs: 637M resident, 135M data, 49M linkedit.
+MemRegions: 251966 total, 6317M resident, 679M private, 2717M shared.
+PhysMem: 15G used (1779M wired, 196M compressor), 306M unused.
+VM: 226T vsize, 4773M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 3286/1327K in, 2867/746K out.
+Disks: 186060/4061M read, 26661/393M written.
 
-COMMAND          MEM  %CPU #TH 
-Code Helper (GPU 803M 0.0  15/7
-Code Helper (Ren 310M 0.0  24/6
-Terminal         306M 0.0  22/5
-System Settings  287M 0.0  13/9
-Code Helper (Ren 271M 0.0  25/2
+COMMAND          MEM   %CPU #TH 
+oahd-helper      1357M 0.0  2/1 
+Code Helper (GPU 754M  0.0  15/4
+oahd-helper      552M  0.0  2/1 
+Code Helper (Ren 325M  0.0  24/1
+System Settings  288M  0.0  14/8
