@@ -1,21 +1,21 @@
               disk0               disk4       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   25.60   65  1.63     6.27    0  0.00   8  4 88  5.07 2.71 2.62
+   25.59   65  1.63     6.27    0  0.00   8  4 88  2.74 2.47 2.53
 
-Processes: 812 total, 5 running, 807 sleeping, 4954 threads 
-2024/02/09 12:40:28
-Load Avg: 5.07, 2.71, 2.62 
-CPU usage: 25.86% user, 16.79% sys, 57.33% idle 
+Processes: 804 total, 3 running, 801 sleeping, 4672 threads 
+2024/02/09 12:41:36
+Load Avg: 2.74, 2.47, 2.53 
+CPU usage: 6.88% user, 10.10% sys, 83.1% idle 
 SharedLibs: 611M resident, 108M data, 42M linkedit.
-MemRegions: 564430 total, 4596M resident, 326M private, 1927M shared.
-PhysMem: 15G used (2270M wired, 4195M compressor), 126M unused.
-VM: 356T vsize, 4773M framework vsize, 123869(0) swapins, 245595(0) swapouts.
-Networks: packets: 8175062/9372M in, 2971058/903M out.
-Disks: 12218580/257G read, 4916682/162G written.
+MemRegions: 513342 total, 4277M resident, 309M private, 1884M shared.
+PhysMem: 15G used (2260M wired, 4153M compressor), 716M unused.
+VM: 348T vsize, 4773M framework vsize, 123873(0) swapins, 245595(0) swapouts.
+Networks: packets: 8176682/9372M in, 2972651/904M out.
+Disks: 12223830/257G read, 4920915/162G written.
 
-COMMAND          MEM  %CPU #TH 
-WindowServer     610M 0.0  21/1
-Webex            342M 0.0  109 
-Code42Service    338M 0.0  117 
-VTDecoderXPCServ 276M 0.0  3   
-Code Helper (GPU 253M 0.0  12  
+COMMAND          MEM  %CPU #TH
+WindowServer     619M 0.0  23 
+Webex            342M 0.0  109
+Code42Service    338M 0.0  117
+VTDecoderXPCServ 276M 0.0  3  
+Terminal         238M 0.0  8  
