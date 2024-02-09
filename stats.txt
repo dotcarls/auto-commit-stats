@@ -1,21 +1,39 @@
-              disk0               disk4       cpu    load average
-    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   25.58   66  1.66     6.27    0  0.00   8  4 88  1.65 2.44 2.56
+              disk0       cpu    load average
+    KB/t  tps  MB/s  us sy id   1m   5m   15m
+   20.94 7047 144.08  20 12 67  74.08 15.93 5.66
 
-Processes: 804 total, 6 running, 798 sleeping, 4599 threads 
-2024/02/09 12:54:55
-Load Avg: 1.65, 2.44, 2.56 
-CPU usage: 4.80% user, 14.82% sys, 80.37% idle 
-SharedLibs: 481M resident, 85M data, 29M linkedit.
-MemRegions: 526032 total, 4198M resident, 300M private, 1952M shared.
-PhysMem: 15G used (2334M wired, 4451M compressor), 531M unused.
-VM: 349T vsize, 4773M framework vsize, 123976(0) swapins, 245595(0) swapouts.
-Networks: packets: 8435196/9703M in, 3044420/913M out.
-Disks: 12428277/261G read, 5075392/166G written.
 
-COMMAND          MEM  %CPU #TH
-WindowServer     616M 0.0  22 
-Terminal         382M 0.0  9  
-Webex            345M 0.0  110
-Code42Service    336M 0.0  117
-VTDecoderXPCServ 276M 0.0  3  
+Processes: 491 total, 296 running, 1 stuck, 194 sleeping, 4010 threads 
+2024/02/09 12:57:07
+Load Avg: 74.08, 15.93, 5.66 
+CPU usage: 72.19% user, 27.80% sys, 0.0% idle 
+SharedLibs: 834M resident, 129M data, 68M linkedit.
+MemRegions: 198258 total, 3936M resident, 609M private, 2635M shared.
+PhysMem: 12G used (2078M wired, 0B compressor), 2969M unused.
+VM: 203T vsize, 4773M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 8028/8367K in, 3583/774K out.
+Disks: 149546/3266M read, 28571/413M written.
+
+COMMAND          MEM  %CPU #TH 
+Code Helper (GPU 684M 0.0  14/3
+Terminal         253M 0.0  24/6
+Installer Progre 250M 0.0  6   
+WindowServer     219M 0.0  26/5
+Code Helper (Ren 199M 0.0  24/3
+Processes: 491 total, 296 running, 1 stuck, 194 sleeping, 4010 threads 
+2024/02/09 12:57:07
+Load Avg: 74.08, 15.93, 5.66 
+CPU usage: 71.94% user, 28.5% sys, 0.0% idle 
+SharedLibs: 834M resident, 129M data, 68M linkedit.
+MemRegions: 198253 total, 3936M resident, 609M private, 2632M shared.
+PhysMem: 12G used (2075M wired, 0B compressor), 2939M unused.
+VM: 203T vsize, 4773M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 8117/8495K in, 3600/776K out.
+Disks: 149640/3271M read, 28571/413M written.
+
+COMMAND          MEM  %CPU #TH 
+Code Helper (GPU 682M 0.0  14/3
+Terminal         253M 0.0  24/6
+Installer Progre 250M 0.0  6   
+WindowServer     219M 0.0  26/5
+Code Helper (Ren 199M 0.0  24/3
