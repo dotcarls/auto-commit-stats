@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   21.90  339  7.25  14  3 83  3.45 3.57 3.14
+   21.83  325  6.93  14  3 84  2.26 2.46 2.71
 
-Processes: 724 total, 7 running, 717 sleeping, 3792 threads 
-2024/02/09 16:23:37
-Load Avg: 3.45, 3.57, 3.14 
-CPU usage: 26.44% user, 17.35% sys, 56.19% idle 
-SharedLibs: 645M resident, 116M data, 81M linkedit.
-MemRegions: 230058 total, 4411M resident, 314M private, 3099M shared.
-PhysMem: 15G used (2854M wired, 2948M compressor), 173M unused.
-VM: 289T vsize, 4773M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 2315342/3090M in, 594739/68M out.
-Disks: 2388494/45G read, 640319/18G written.
+Processes: 736 total, 11 running, 725 sleeping, 3896 threads 
+2024/02/09 16:33:24
+Load Avg: 2.26, 2.46, 2.71 
+CPU usage: 53.60% user, 27.20% sys, 19.20% idle 
+SharedLibs: 642M resident, 116M data, 80M linkedit.
+MemRegions: 226937 total, 4061M resident, 298M private, 2810M shared.
+PhysMem: 15G used (2345M wired, 2872M compressor), 158M unused.
+VM: 293T vsize, 4773M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 2407665/3202M in, 621382/74M out.
+Disks: 2425112/45G read, 673900/19G written.
 
-COMMAND          MEM  %CPU #TH 
-Code Helper (GPU 916M 0.0  12  
-WindowServer     704M 0.0  20/1
-com.apple.WebKit 535M 0.0  9   
-com.apple.WebKit 516M 0.0  5   
-Preview          369M 0.0  9   
+COMMAND          MEM  %CPU #TH  
+WindowServer     712M 0.0  21   
+com.apple.WebKit 519M 0.0  3    
+Preview          369M 0.0  7    
+Code42Service    341M 0.0  116/4
+Terminal         330M 0.0  12   
