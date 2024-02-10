@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   23.61  114  2.63  13  4 82  2.68 2.76 2.87
+   23.44  111  2.54  13  4 83  2.38 2.25 2.10
 
-Processes: 729 total, 6 running, 723 sleeping, 3731 threads 
-2024/02/10 08:21:23
-Load Avg: 2.68, 2.76, 2.87 
-CPU usage: 26.31% user, 15.78% sys, 57.89% idle 
-SharedLibs: 646M resident, 103M data, 46M linkedit.
-MemRegions: 182614 total, 4256M resident, 318M private, 2346M shared.
-PhysMem: 15G used (2198M wired, 2821M compressor), 126M unused.
-VM: 283T vsize, 4773M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 4185934/5342M in, 1230046/314M out.
-Disks: 4229604/79G read, 3345076/91G written.
+Processes: 709 total, 5 running, 704 sleeping, 3430 threads 
+2024/02/10 09:46:00
+Load Avg: 2.38, 2.25, 2.10 
+CPU usage: 17.22% user, 15.0% sys, 67.77% idle 
+SharedLibs: 704M resident, 124M data, 52M linkedit.
+MemRegions: 153420 total, 3970M resident, 401M private, 2780M shared.
+PhysMem: 15G used (2323M wired, 2086M compressor), 99M unused.
+VM: 275T vsize, 4773M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 4355639/5514M in, 1287228/326M out.
+Disks: 4443572/83G read, 3478954/94G written.
 
 COMMAND          MEM  %CPU #TH
-WindowServer     631M 0.0  22 
+WindowServer     713M 0.0  21 
 VTDecoderXPCServ 492M 0.0  5  
-Terminal         404M 0.0  11 
-GB Studio Helper 343M 0.0  57 
-Code42Service    339M 0.0  118
+Terminal         413M 0.0  10 
+Code42Service    337M 0.0  117
+java             268M 0.0  39 
