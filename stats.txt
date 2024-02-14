@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.38   58  1.09  13  5 83  16.86 8.58 4.89
+   19.37   58  1.09  13  5 83  21.68 10.06 5.48
 
-Processes: 710 total, 5 running, 705 sleeping, 3809 threads 
-2024/02/14 10:13:18
-Load Avg: 16.86, 8.58, 4.89 
-CPU usage: 16.82% user, 13.55% sys, 69.62% idle 
-SharedLibs: 572M resident, 103M data, 42M linkedit.
-MemRegions: 172162 total, 4103M resident, 410M private, 2245M shared.
-PhysMem: 14G used (2604M wired, 2406M compressor), 1360M unused.
-VM: 277T vsize, 4773M framework vsize, 11615(0) swapins, 72044(0) swapouts.
-Networks: packets: 7224734/7528M in, 3190513/1133M out.
-Disks: 15834785/264G read, 8374943/184G written.
+Processes: 740 total, 3 running, 737 sleeping, 3965 threads 
+2024/02/14 10:13:30
+Load Avg: 21.68, 10.06, 5.48 
+CPU usage: 12.45% user, 11.76% sys, 75.77% idle 
+SharedLibs: 559M resident, 103M data, 41M linkedit.
+MemRegions: 265001 total, 5018M resident, 433M private, 2459M shared.
+PhysMem: 15G used (2600M wired, 2383M compressor), 154M unused.
+VM: 298T vsize, 4773M framework vsize, 11615(0) swapins, 72044(0) swapouts.
+Networks: packets: 7229816/7532M in, 3193050/1134M out.
+Disks: 15846262/264G read, 8379656/184G written.
 
-COMMAND          MEM  %CPU #TH 
-WindowServer     967M 0.0  22/1
-VTDecoderXPCServ 487M 0.0  5   
-Microsoft Outloo 421M 0.0  28  
-Code42Service    362M 0.0  119 
-storekitagent    329M 0.0  4   
+COMMAND          MEM  %CPU #TH
+WindowServer     964M 0.0  23 
+VTDecoderXPCServ 487M 0.0  5  
+Microsoft Outloo 421M 0.0  31 
+Code Helper (GPU 383M 0.0  12 
+Code42Service    362M 0.0  119
