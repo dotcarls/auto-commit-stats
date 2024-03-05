@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.72   49  1.00  11  5 84  2.72 2.58 2.68
+   20.73   49  1.00  11  5 84  1.87 2.22 2.51
 
-Processes: 650 total, 2 running, 648 sleeping, 4321 threads 
-2024/03/05 10:46:18
-Load Avg: 2.72, 2.58, 2.68 
-CPU usage: 3.49% user, 8.56% sys, 87.93% idle 
-SharedLibs: 475M resident, 88M data, 36M linkedit.
-MemRegions: 626014 total, 3135M resident, 167M private, 2438M shared.
-PhysMem: 15G used (3109M wired, 5645M compressor), 181M unused.
-VM: 296T vsize, 4773M framework vsize, 807131(0) swapins, 1137501(0) swapouts.
-Networks: packets: 22126433/18G in, 12982044/6166M out.
-Disks: 82216328/1612G read, 23713205/481G written.
+Processes: 649 total, 3 running, 646 sleeping, 4360 threads 
+2024/03/05 10:48:51
+Load Avg: 1.87, 2.22, 2.51 
+CPU usage: 2.14% user, 8.57% sys, 89.28% idle 
+SharedLibs: 471M resident, 86M data, 36M linkedit.
+MemRegions: 626328 total, 4020M resident, 187M private, 2547M shared.
+PhysMem: 15G used (3068M wired, 4681M compressor), 237M unused.
+VM: 295T vsize, 4773M framework vsize, 807171(0) swapins, 1137501(0) swapouts.
+Networks: packets: 22133598/18G in, 12986841/6167M out.
+Disks: 82228760/1613G read, 23718327/481G written.
 
 COMMAND          MEM   %CPU #TH
-Code Helper (GPU 1640M 0.0  11 
+Code Helper (GPU 1653M 0.0  12 
 WindowServer     1347M 0.0  23 
-com.apple.Virtua 1148M 0.0  35 
-com.apple.WebKit 1001M 0.0  15 
 VTDecoderXPCServ 977M  0.0  6  
+com.apple.WebKit 743M  0.0  14 
+terraform-ls     575M  0.0  20 
