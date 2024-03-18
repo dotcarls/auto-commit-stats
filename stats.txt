@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.30 3748 66.96   9  7 84  10.37 2.33 0.83
+   18.76 3945 72.26  10  7 82  31.40 6.82 2.43
 
-Processes: 396 total, 121 running, 2 stuck, 273 sleeping, 3168 threads 
-2024/03/18 08:55:34
+Processes: 424 total, 172 running, 6 stuck, 246 sleeping, 3456 threads 
+2024/03/18 08:55:35
 Load Avg: 31.40, 6.82, 2.43 
-CPU usage: 32.25% user, 37.9% sys, 30.64% idle 
-SharedLibs: 700M resident, 114M data, 59M linkedit.
-MemRegions: 47823 total, 2094M resident, 507M private, 1286M shared.
-PhysMem: 8443M used (1406M wired, 0B compressor), 7288M unused.
-VM: 151T vsize, 4773M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 666/93K in, 614/81K out.
-Disks: 135181/2543M read, 14859/128M written.
+CPU usage: 63.11% user, 36.88% sys, 0.0% idle 
+SharedLibs: 743M resident, 120M data, 64M linkedit.
+MemRegions: 80958 total, 2795M resident, 555M private, 1521M shared.
+PhysMem: 9902M used (1592M wired, 0B compressor), 5831M unused.
+VM: 165T vsize, 4773M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 673/98K in, 619/84K out.
+Disks: 145356/2826M read, 16122/137M written.
 
-COMMAND         MEM  %CPU #TH   
-Terminal        200M 0.0  21/1  
-WindowServer    190M 0.0  26/7  
-System Settings 133M 0.0  6/1   
-kernel_task     96M  0.0  559/12
-talagent        80M  0.0  7     
+COMMAND          MEM  %CPU #TH 
+System Settings  298M 0.0  8/3 
+Terminal         252M 0.0  21  
+WindowServer     191M 0.0  26/8
+Code Helper (Ren 136M 0.0  20/9
+Code Helper (GPU 105M 0.0  13/5
