@@ -1,21 +1,21 @@
-              disk0       cpu    load average
-    KB/t  tps  MB/s  us sy id   1m   5m   15m
-   17.13   22  0.36   6  2 92  3.70 2.34 2.55
+              disk0               disk4       cpu    load average
+    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
+   17.45   22  0.38   668.11    0  0.00   6  2 92  2.91 2.57 2.59
 
-Processes: 724 total, 6 running, 718 sleeping, 3588 threads 
-2024/03/18 08:35:01
-Load Avg: 3.70, 2.34, 2.55 
-CPU usage: 38.57% user, 15.23% sys, 46.19% idle 
-SharedLibs: 562M resident, 90M data, 38M linkedit.
-MemRegions: 184875 total, 3693M resident, 299M private, 2240M shared.
-PhysMem: 14G used (2182M wired, 2747M compressor), 1761M unused.
-VM: 283T vsize, 4773M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 2626462/2454M in, 1143443/382M out.
-Disks: 3456584/54G read, 2102123/36G written.
+Processes: 730 total, 3 running, 727 sleeping, 3506 threads 
+2024/03/18 08:38:23
+Load Avg: 2.91, 2.57, 2.59 
+CPU usage: 11.86% user, 9.74% sys, 78.38% idle 
+SharedLibs: 446M resident, 84M data, 23M linkedit.
+MemRegions: 226453 total, 4559M resident, 228M private, 1467M shared.
+PhysMem: 15G used (2354M wired, 4653M compressor), 375M unused.
+VM: 290T vsize, 4773M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 4279567/4496M in, 1427094/422M out.
+Disks: 3587598/57G read, 2113606/38G written.
 
-COMMAND          MEM  %CPU #TH 
-Webex            694M 0.0  80  
-WindowServer     641M 0.0  20/1
-Microsoft Outloo 335M 0.0  29  
-Code42Service    322M 0.0  115 
-Code Helper (Ren 297M 0.0  27/1
+COMMAND          MEM   %CPU #TH 
+xz               2595M 0.0  11/1
+WindowServer     713M  0.0  20  
+Webex            695M  0.0  76  
+podman           645M  0.0  18  
+Microsoft Outloo 332M  0.0  26  
