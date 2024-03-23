@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.60   97  1.96   8  4 89  2.67 3.75 3.90
+   20.61   98  1.98   8  4 88  3.57 3.56 3.60
 
-Processes: 624 total, 3 running, 621 sleeping, 3880 threads 
-2024/03/22 17:28:06
-Load Avg: 2.67, 3.75, 3.90 
-CPU usage: 5.71% user, 8.57% sys, 85.71% idle 
-SharedLibs: 417M resident, 79M data, 19M linkedit.
-MemRegions: 623188 total, 3272M resident, 158M private, 1897M shared.
-PhysMem: 15G used (2843M wired, 6861M compressor), 118M unused.
-VM: 278T vsize, 4773M framework vsize, 514051(0) swapins, 1105460(0) swapouts.
-Networks: packets: 10264442/8503M in, 5288661/2637M out.
-Disks: 24733278/476G read, 11806231/242G written.
+Processes: 502 total, 4 running, 498 sleeping, 3661 threads 
+2024/03/22 19:04:52
+Load Avg: 3.57, 3.56, 3.60 
+CPU usage: 13.33% user, 14.33% sys, 72.33% idle 
+SharedLibs: 502M resident, 91M data, 26M linkedit.
+MemRegions: 632557 total, 3922M resident, 152M private, 1988M shared.
+PhysMem: 15G used (2807M wired, 6191M compressor), 96M unused.
+VM: 232T vsize, 4773M framework vsize, 536100(0) swapins, 1114772(0) swapouts.
+Networks: packets: 10595430/8667M in, 5500887/2743M out.
+Disks: 25524708/493G read, 12022708/245G written.
 
-COMMAND          MEM   %CPU #TH
-qemu-system-aarc 14G   0.0  8  
-Code Helper (GPU 5355M 0.0  11 
-WindowServer     1504M 0.0  22 
-com.apple.WebKit 1102M 0.0  15 
-com.apple.WebKit 823M  0.0  7  
+COMMAND          MEM   %CPU #TH   
+qemu-system-aarc 14G   0.0  8     
+Code Helper (GPU 6590M 0.0  12    
+com.apple.WebKit 1723M 0.0  18    
+WindowServer     1323M 0.0  23/2  
+kernel_task      870M  0.0  603/12
