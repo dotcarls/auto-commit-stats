@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.41   98  1.95   8  4 88  2.55 2.55 2.44
+   21.52   99  2.08   8  4 88  3.47 3.19 2.77
 
-Processes: 526 total, 3 running, 523 sleeping, 3290 threads 
-2024/03/23 18:49:00
-Load Avg: 2.55, 2.55, 2.44 
-CPU usage: 8.18% user, 12.78% sys, 79.2% idle 
-SharedLibs: 529M resident, 97M data, 29M linkedit.
-MemRegions: 404068 total, 3616M resident, 219M private, 2981M shared.
-PhysMem: 15G used (2605M wired, 4172M compressor), 234M unused.
-VM: 217T vsize, 4773M framework vsize, 707015(0) swapins, 1157794(0) swapouts.
-Networks: packets: 10077959/8393M in, 5711522/2888M out.
-Disks: 28965226/568G read, 16701523/321G written.
+Processes: 681 total, 2 running, 679 sleeping, 4125 threads 
+2024/03/23 19:20:51
+Load Avg: 3.47, 3.19, 2.77 
+CPU usage: 5.41% user, 8.80% sys, 85.77% idle 
+SharedLibs: 542M resident, 113M data, 32M linkedit.
+MemRegions: 440130 total, 3206M resident, 287M private, 2187M shared.
+PhysMem: 15G used (2695M wired, 5874M compressor), 85M unused.
+VM: 278T vsize, 4773M framework vsize, 709100(0) swapins, 1157794(0) swapouts.
+Networks: packets: 10144250/7946M in, 6693212/4216M out.
+Disks: 29545784/598G read, 16837632/354G written.
 
 COMMAND          MEM   %CPU #TH   
-qemu-system-aarc 14G   0.0  10    
-WindowServer     1505M 0.0  21    
-kernel_task      1280M 0.0  603/12
-Terminal         1006M 0.0  10    
+qemu-system-aarc 14G   0.0  8     
+WindowServer     1677M 0.0  21    
+kernel_task      1282M 0.0  601/12
+Terminal         1159M 0.0  11    
 Webex            773M  0.0  75    
