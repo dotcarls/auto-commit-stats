@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   31.12 7993 242.89  44 20 37  191.33 46.45 16.85
+   22.39  633 13.84  20  4 76  2.85 3.56 4.62
 
-Processes: 666 total, 211 running, 6 stuck, 449 sleeping, 4518 threads 
-2024/03/27 14:47:30
-Load Avg: 191.33, 46.45, 16.85 
-CPU usage: 44.11% user, 31.25% sys, 24.63% idle 
-SharedLibs: 563M resident, 77M data, 31M linkedit.
-MemRegions: 250006 total, 5326M resident, 226M private, 1960M shared.
-PhysMem: 15G used (1704M wired, 3547M compressor), 531M unused.
-VM: 272T vsize, 4892M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 10730/7557K in, 8289/2954K out.
-Disks: 364677/9922M read, 83862/3712M written.
+Processes: 754 total, 4 running, 750 sleeping, 3796 threads 
+2024/03/27 15:52:39
+Load Avg: 2.85, 3.56, 4.62 
+CPU usage: 14.55% user, 10.79% sys, 74.64% idle 
+SharedLibs: 706M resident, 118M data, 153M linkedit.
+MemRegions: 197806 total, 4676M resident, 308M private, 3330M shared.
+PhysMem: 15G used (2014M wired, 2094M compressor), 158M unused.
+VM: 299T vsize, 4892M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 873327/1145M in, 186163/35M out.
+Disks: 2077475/40G read, 431724/14G written.
 
-COMMAND          MEM   %CPU #TH 
-oahd-helper      5244M 0.0  2/1 
-Code Helper (GPU 434M  0.0  14/2
-WindowServer     324M  0.0  23  
-System Settings  284M  0.0  21/7
-Webex            274M  0.0  86/1
-Processes: 666 total, 245 running, 2 stuck, 419 sleeping, 4533 threads 
-2024/03/27 14:47:30
-Load Avg: 191.33, 46.45, 16.85 
-CPU usage: 50.84% user, 29.83% sys, 19.32% idle 
-SharedLibs: 563M resident, 77M data, 31M linkedit.
-MemRegions: 250083 total, 5398M resident, 229M private, 1953M shared.
-PhysMem: 15G used (1705M wired, 3571M compressor), 510M unused.
-VM: 272T vsize, 4892M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 10923/7762K in, 8353/2971K out.
-Disks: 365106/9934M read, 84138/3713M written.
-
-COMMAND          MEM   %CPU #TH 
-oahd-helper      5412M 0.0  2/1 
-Code Helper (GPU 434M  0.0  14/2
-WindowServer     324M  0.0  23  
-System Settings  284M  0.0  21/7
-Webex            274M  0.0  86/1
+COMMAND          MEM  %CPU #TH
+WindowServer     469M 0.0  21 
+com.apple.WebKit 462M 0.0  6  
+log              456M 0.0  2/1
+Webex            361M 0.0  77 
+Code Helper (Ren 299M 0.0  25 
