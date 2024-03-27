@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.76  124  2.38   8  4 88  4.48 3.39 3.27
+   26.09 7544 192.22  39 18 44  96.78 22.03 7.90
 
-Processes: 672 total, 7 running, 665 sleeping, 3867 threads 
-2024/03/27 14:36:30
-Load Avg: 4.48, 3.39, 3.27 
-CPU usage: 38.24% user, 13.82% sys, 47.92% idle 
-SharedLibs: 702M resident, 81M data, 21M linkedit.
-MemRegions: 420732 total, 3224M resident, 239M private, 2854M shared.
-PhysMem: 15G used (2695M wired, 3432M compressor), 293M unused.
-VM: 274T vsize, 4773M framework vsize, 747949(0) swapins, 1353982(0) swapouts.
-Networks: packets: 22288263/19G in, 14105020/8769M out.
-Disks: 54365211/1042G read, 44118629/814G written.
+Processes: 564 total, 246 running, 318 sleeping, 3907 threads 
+2024/03/27 14:47:17
+Load Avg: 96.78, 22.03, 7.90 
+CPU usage: 62.80% user, 35.53% sys, 1.65% idle 
+SharedLibs: 786M resident, 149M data, 169M linkedit.
+MemRegions: 74911 total, 6952M resident, 214M private, 1519M shared.
+PhysMem: 15G used (1600M wired, 2382M compressor), 609M unused.
+VM: 216T vsize, 4892M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 5706/4137K in, 4302/1075K out.
+Disks: 253735/5529M read, 69237/2692M written.
 
-COMMAND          MEM  %CPU #TH
-qemu-system-aarc 14G  0.0  9  
-WindowServer     989M 0.0  23 
-VTDecoderXPCServ 560M 0.0  4  
-Code Helper (GPU 509M 0.0  12 
-Code42Service    365M 0.0  119
+COMMAND         MEM   %CPU #TH 
+oahd-helper     3189M 0.0  2/1 
+oahd-helper     2292M 0.0  2/1 
+oahd-helper     2101M 0.0  2/1 
+System Settings 301M  0.0  21/6
+WindowServer    249M  0.0  23  
