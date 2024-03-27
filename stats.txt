@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.45  121  2.29   8  4 88  4.05 3.59 3.51
+   19.52  121  2.31   8  4 88  1.82 2.50 3.04
 
-Processes: 626 total, 4 running, 622 sleeping, 3405 threads 
-2024/03/27 14:21:31
-Load Avg: 4.05, 3.59, 3.51 
-CPU usage: 7.39% user, 10.56% sys, 82.4% idle 
-SharedLibs: 742M resident, 127M data, 46M linkedit.
-MemRegions: 245951 total, 3734M resident, 471M private, 2325M shared.
-PhysMem: 15G used (2524M wired, 1722M compressor), 255M unused.
-VM: 238T vsize, 4773M framework vsize, 747132(0) swapins, 1353982(0) swapouts.
-Networks: packets: 20629519/17G in, 13827736/8719M out.
-Disks: 52330209/986G read, 43805497/797G written.
+Processes: 641 total, 6 running, 635 sleeping, 3484 threads 
+2024/03/27 14:29:03
+Load Avg: 1.82, 2.50, 3.04 
+CPU usage: 20.28% user, 11.71% sys, 68.0% idle 
+SharedLibs: 691M resident, 104M data, 34M linkedit.
+MemRegions: 322032 total, 3959M resident, 402M private, 2051M shared.
+PhysMem: 15G used (2581M wired, 2115M compressor), 289M unused.
+VM: 252T vsize, 4773M framework vsize, 747728(0) swapins, 1353982(0) swapouts.
+Networks: packets: 21552990/18G in, 13987107/8742M out.
+Disks: 52534535/993G read, 43923098/802G written.
 
 COMMAND          MEM  %CPU #TH
 qemu-system-aarc 14G  0.0  8  
-WindowServer     961M 0.0  23 
+WindowServer     950M 0.0  23 
 VTDecoderXPCServ 560M 0.0  4  
-Code42Service    365M 0.0  119
-System Settings  297M 0.0  4  
+Code42Service    365M 0.0  117
+com.apple.WebKit 347M 0.0  3  
