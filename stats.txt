@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   26.09 7544 192.22  39 18 44  96.78 22.03 7.90
+   27.43 8125 217.65  43 19 39  158.10 37.56 13.58
 
-Processes: 564 total, 246 running, 318 sleeping, 3907 threads 
-2024/03/27 14:47:17
-Load Avg: 96.78, 22.03, 7.90 
-CPU usage: 62.80% user, 35.53% sys, 1.65% idle 
-SharedLibs: 786M resident, 149M data, 169M linkedit.
-MemRegions: 74911 total, 6952M resident, 214M private, 1519M shared.
-PhysMem: 15G used (1600M wired, 2382M compressor), 609M unused.
-VM: 216T vsize, 4892M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 5706/4137K in, 4302/1075K out.
-Disks: 253735/5529M read, 69237/2692M written.
+Processes: 622 total, 303 running, 2 stuck, 317 sleeping, 4233 threads 
+2024/03/27 14:47:25
+Load Avg: 158.10, 37.56, 13.58 
+CPU usage: 58.12% user, 41.68% sys, 0.19% idle 
+SharedLibs: 731M resident, 107M data, 42M linkedit.
+MemRegions: 232621 total, 5613M resident, 313M private, 2371M shared.
+PhysMem: 15G used (1916M wired, 2272M compressor), 513M unused.
+VM: 254T vsize, 4892M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 7598/5234K in, 5932/1468K out.
+Disks: 336692/7848M read, 79801/3308M written.
 
-COMMAND         MEM   %CPU #TH 
-oahd-helper     3189M 0.0  2/1 
-oahd-helper     2292M 0.0  2/1 
-oahd-helper     2101M 0.0  2/1 
-System Settings 301M  0.0  21/6
-WindowServer    249M  0.0  23  
+COMMAND          MEM   %CPU #TH 
+oahd-helper      3901M 0.0  2/1 
+Code Helper (GPU 639M  0.0  14/2
+System Settings  283M  0.0  21/7
+WindowServer     251M  0.0  22/2
+Code Helper (Ren 231M  0.0  23/1
