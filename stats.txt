@@ -1,39 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.72   92  1.51   9  3 88  3.73 3.79 4.19
+   16.69   93  1.52   9  3 88  3.05 2.50 2.20
 
+Processes: 717 total, 2 running, 715 sleeping, 4292 threads 
+2024/05/03 12:52:37
+Load Avg: 3.05, 2.50, 2.20 
+CPU usage: 9.96% user, 17.62% sys, 72.41% idle 
+SharedLibs: 660M resident, 115M data, 58M linkedit.
+MemRegions: 231907 total, 4506M resident, 413M private, 2124M shared.
+PhysMem: 15G used (2852M wired, 3038M compressor), 167M unused.
+VM: 287T vsize, 4892M framework vsize, 1094274(0) swapins, 1555823(0) swapouts.
+Networks: packets: 42345601/36G in, 22303873/9761M out.
+Disks: 138775057/2127G read, 159371058/2617G written.
 
-Processes: 670 total, 5 running, 665 sleeping, 5075 threads 
-2024/05/02 09:19:31
-Load Avg: 3.73, 3.79, 4.19 
-CPU usage: 14.64% user, 21.33% sys, 64.1% idle 
-SharedLibs: 469M resident, 82M data, 27M linkedit.
-MemRegions: 310155 total, 4180M resident, 230M private, 2233M shared.
-PhysMem: 15G used (3349M wired, 4700M compressor), 103M unused.
-VM: 274T vsize, 4892M framework vsize, 1093403(0) swapins, 1555823(0) swapouts.
-Networks: packets: 39602095/34G in, 21369393/9417M out.
-Disks: 134665202/2069G read, 150655299/2480G written.
-
-COMMAND          MEM   %CPU #TH 
-Webex            1603M 0.0  88/1
-WindowServer     1523M 0.0  21  
-VTDecoderXPCServ 1423M 0.0  4   
-CharacterPalette 1164M 0.0  5   
-WebexHelper      487M  0.0  77  
-Processes: 670 total, 6 running, 664 sleeping, 5075 threads 
-2024/05/02 09:19:31
-Load Avg: 3.73, 3.79, 4.19 
-CPU usage: 14.61% user, 21.29% sys, 64.9% idle 
-SharedLibs: 469M resident, 82M data, 27M linkedit.
-MemRegions: 310155 total, 4180M resident, 230M private, 2233M shared.
-PhysMem: 15G used (3359M wired, 4700M compressor), 97M unused.
-VM: 274T vsize, 4892M framework vsize, 1093403(0) swapins, 1555823(0) swapouts.
-Networks: packets: 39602095/34G in, 21369417/9417M out.
-Disks: 134665202/2069G read, 150655299/2480G written.
-
-COMMAND          MEM   %CPU #TH 
-Webex            1603M 0.0  88/1
-WindowServer     1523M 0.0  21  
-VTDecoderXPCServ 1423M 0.0  4   
-CharacterPalette 1164M 0.0  5   
-WebexHelper      487M  0.0  77/1
+COMMAND          MEM   %CPU #TH
+WindowServer     1358M 0.0  21 
+CharacterPalette 1249M 0.0  4  
+VTDecoderXPCServ 1155M 0.0  3  
+Webex            599M  0.0  78 
+Code42Service    423M  0.0  120
