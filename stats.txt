@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.69   93  1.52   9  3 88  2.67 2.08 2.08
+   16.78   93  1.53   9  3 88  7.49 5.59 4.40
 
-Processes: 638 total, 5 running, 633 sleeping, 3599 threads 
-2024/05/03 17:13:44
-Load Avg: 2.67, 2.08, 2.08 
-CPU usage: 14.83% user, 9.67% sys, 75.48% idle 
-SharedLibs: 539M resident, 89M data, 29M linkedit.
-MemRegions: 131232 total, 2630M resident, 272M private, 1469M shared.
-PhysMem: 12G used (2621M wired, 2652M compressor), 3665M unused.
-VM: 248T vsize, 4892M framework vsize, 1094301(0) swapins, 1555823(0) swapouts.
-Networks: packets: 43109722/36G in, 22527490/9846M out.
-Disks: 139445761/2140G read, 159605171/2621G written.
+Processes: 678 total, 25 running, 6 stuck, 647 sleeping, 4277 threads 
+2024/05/03 21:44:00
+Load Avg: 7.49, 5.59, 4.40 
+CPU usage: 47.25% user, 35.89% sys, 16.84% idle 
+SharedLibs: 592M resident, 94M data, 40M linkedit.
+MemRegions: 220721 total, 3907M resident, 324M private, 1522M shared.
+PhysMem: 15G used (2852M wired, 5179M compressor), 371M unused.
+VM: 271T vsize, 4892M framework vsize, 1094651(0) swapins, 1555823(0) swapouts.
+Networks: packets: 43574044/37G in, 22709244/9807M out.
+Disks: 140747966/2164G read, 160248862/2653G written.
 
-COMMAND          MEM   %CPU #TH
-CharacterPalette 1259M 0.0  4  
-VTDecoderXPCServ 1155M 0.0  3  
-WindowServer     1004M 0.0  22 
-Code42Service    424M  0.0  119
-com.docker.backe 329M  0.0  101
+COMMAND          MEM   %CPU #TH 
+ruby             2456M 0.0  5   
+CharacterPalette 1259M 0.0  4   
+VTDecoderXPCServ 1155M 0.0  3   
+WindowServer     1038M 0.0  23/1
+com.apple.WebKit 584M  0.0  12  
