@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.78   93  1.53   9  3 88  7.53 5.63 4.42
+   16.73   92  1.51   9  3 88  3.09 1.73 1.57
 
-Processes: 698 total, 14 running, 684 sleeping, 4247 threads 
-2024/05/03 21:44:03
-Load Avg: 7.53, 5.63, 4.42 
-CPU usage: 42.38% user, 30.4% sys, 27.57% idle 
-SharedLibs: 593M resident, 94M data, 40M linkedit.
-MemRegions: 223217 total, 3810M resident, 295M private, 1456M shared.
-PhysMem: 15G used (2772M wired, 5335M compressor), 263M unused.
-VM: 279T vsize, 4892M framework vsize, 1094651(0) swapins, 1555823(0) swapouts.
-Networks: packets: 43576056/37G in, 22710810/9808M out.
-Disks: 140767382/2165G read, 160254261/2653G written.
+Processes: 602 total, 4 running, 598 sleeping, 3909 threads 
+2024/05/06 14:07:57
+Load Avg: 3.09, 1.73, 1.57 
+CPU usage: 7.19% user, 9.71% sys, 83.9% idle 
+SharedLibs: 571M resident, 94M data, 33M linkedit.
+MemRegions: 296361 total, 4285M resident, 267M private, 2269M shared.
+PhysMem: 15G used (2964M wired, 3723M compressor), 144M unused.
+VM: 250T vsize, 4892M framework vsize, 1094872(0) swapins, 1555823(0) swapouts.
+Networks: packets: 46549470/40G in, 24189388/10G out.
+Disks: 145959676/2237G read, 173110151/2853G written.
 
-COMMAND          MEM   %CPU #TH
-ruby             2456M 0.0  5  
-CharacterPalette 1259M 0.0  4  
-VTDecoderXPCServ 1155M 0.0  3  
-WindowServer     1052M 0.0  23 
-com.apple.WebKit 503M  0.0  8  
+COMMAND          MEM   %CPU #TH 
+WindowServer     1387M 0.0  21/1
+CharacterPalette 1259M 0.0  3   
+VTDecoderXPCServ 1235M 0.0  3   
+com.apple.WebKit 696M  0.0  3   
+Webex            656M  0.0  79  
