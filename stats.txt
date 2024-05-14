@@ -1,21 +1,21 @@
-              disk0       cpu    load average
-    KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.86   89  1.46   9  3 88  5.19 2.70 2.33
+              disk0               disk4       cpu    load average
+    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
+   16.86   89  1.46     4.86    0  0.00   9  3 88  3.96 2.66 2.33
 
-Processes: 593 total, 4 running, 589 sleeping, 3513 threads 
-2024/05/14 14:23:50
-Load Avg: 5.19, 2.70, 2.33 
-CPU usage: 13.69% user, 24.20% sys, 62.10% idle 
-SharedLibs: 555M resident, 96M data, 34M linkedit.
-MemRegions: 125739 total, 2685M resident, 262M private, 1529M shared.
-PhysMem: 11G used (2829M wired, 2101M compressor), 3990M unused.
-VM: 230T vsize, 4892M framework vsize, 1111200(0) swapins, 1638411(0) swapouts.
-Networks: packets: 54783017/44G in, 33774882/20G out.
-Disks: 167351400/2598G read, 200924512/3325G written.
+Processes: 579 total, 3 running, 576 sleeping, 3543 threads 
+2024/05/14 14:24:22
+Load Avg: 3.96, 2.66, 2.33 
+CPU usage: 7.74% user, 11.61% sys, 80.64% idle 
+SharedLibs: 585M resident, 99M data, 37M linkedit.
+MemRegions: 125755 total, 3027M resident, 314M private, 2014M shared.
+PhysMem: 12G used (2850M wired, 1706M compressor), 3190M unused.
+VM: 225T vsize, 4892M framework vsize, 1111513(0) swapins, 1638411(0) swapouts.
+Networks: packets: 54784453/44G in, 33776286/20G out.
+Disks: 167358364/2598G read, 200930430/3325G written.
 
-COMMAND          MEM   %CPU #TH  
-VTDecoderXPCServ 1672M 0.0  4    
-CharacterPalette 1503M 0.0  4    
-WindowServer     1307M 0.0  22   
-com.docker.backe 381M  0.0  105  
-Code42Service    355M  0.0  107/2
+COMMAND          MEM   %CPU #TH
+VTDecoderXPCServ 1672M 0.0  4  
+WindowServer     1302M 0.0  23 
+CharacterPalette 1078M 0.0  4  
+com.docker.backe 383M  0.0  105
+Code42Service    296M  0.0  114
