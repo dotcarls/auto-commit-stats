@@ -1,21 +1,21 @@
-              disk0               disk4       cpu    load average
-    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.86   89  1.46     4.86    0  0.00   9  3 88  3.96 2.66 2.33
+              disk0       cpu    load average
+    KB/t  tps  MB/s  us sy id   1m   5m   15m
+   16.92   89  1.47   9  3 88  3.07 2.73 2.65
 
-Processes: 579 total, 3 running, 576 sleeping, 3543 threads 
-2024/05/14 14:24:22
-Load Avg: 3.96, 2.66, 2.33 
-CPU usage: 7.74% user, 11.61% sys, 80.64% idle 
-SharedLibs: 585M resident, 99M data, 37M linkedit.
-MemRegions: 125755 total, 3027M resident, 314M private, 2014M shared.
-PhysMem: 12G used (2850M wired, 1706M compressor), 3190M unused.
-VM: 225T vsize, 4892M framework vsize, 1111513(0) swapins, 1638411(0) swapouts.
-Networks: packets: 54784453/44G in, 33776286/20G out.
-Disks: 167358364/2598G read, 200930430/3325G written.
+Processes: 717 total, 4 running, 3 stuck, 710 sleeping, 4401 threads 
+2024/05/14 20:45:56
+Load Avg: 3.07, 2.73, 2.65 
+CPU usage: 24.29% user, 13.76% sys, 61.94% idle 
+SharedLibs: 540M resident, 97M data, 32M linkedit.
+MemRegions: 227641 total, 3765M resident, 300M private, 2411M shared.
+PhysMem: 15G used (2934M wired, 3521M compressor), 130M unused.
+VM: 286T vsize, 4892M framework vsize, 1112853(0) swapins, 1638411(0) swapouts.
+Networks: packets: 54519495/43G in, 34622858/21G out.
+Disks: 169734313/2646G read, 202138784/3354G written.
 
-COMMAND          MEM   %CPU #TH
-VTDecoderXPCServ 1672M 0.0  4  
-WindowServer     1302M 0.0  23 
-CharacterPalette 1078M 0.0  4  
-com.docker.backe 383M  0.0  105
-Code42Service    296M  0.0  114
+COMMAND          MEM   %CPU #TH 
+VTDecoderXPCServ 1674M 0.0  4   
+CharacterPalette 1523M 0.0  5   
+WindowServer     1495M 0.0  21/1
+Webex            465M  0.0  80  
+com.apple.WebKit 447M  0.0  8   
