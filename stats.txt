@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   17.00   92  1.53   9  3 88  1.99 2.51 2.59
+   17.01   92  1.52   9  3 88  8.96 6.94 5.11
 
-Processes: 567 total, 3 running, 564 sleeping, 4712 threads 
-2024/05/18 02:16:38
-Load Avg: 1.99, 2.51, 2.59 
-CPU usage: 9.82% user, 11.23% sys, 78.93% idle 
-SharedLibs: 415M resident, 81M data, 26M linkedit.
-MemRegions: 720156 total, 3486M resident, 116M private, 1834M shared.
-PhysMem: 15G used (3283M wired, 6372M compressor), 186M unused.
-VM: 279T vsize, 4892M framework vsize, 1468589(0) swapins, 2205648(0) swapouts.
-Networks: packets: 61649664/48G in, 42197463/26G out.
-Disks: 189215766/2970G read, 221566128/3689G written.
+Processes: 671 total, 15 running, 3 stuck, 653 sleeping, 5342 threads 
+2024/05/18 12:02:46
+Load Avg: 8.96, 6.94, 5.11 
+CPU usage: 39.39% user, 28.51% sys, 32.9% idle 
+SharedLibs: 399M resident, 82M data, 23M linkedit.
+MemRegions: 757796 total, 2925M resident, 121M private, 1755M shared.
+PhysMem: 15G used (3514M wired, 6713M compressor), 315M unused.
+VM: 322T vsize, 4892M framework vsize, 1469475(0) swapins, 2205648(0) swapouts.
+Networks: packets: 62593458/49G in, 42544435/26G out.
+Disks: 189839098/2981G read, 221802555/3694G written.
 
 COMMAND          MEM   %CPU #TH 
-Code Helper (GPU 2923M 0.0  12  
-WindowServer     2123M 0.0  23/2
-CharacterPalette 1954M 0.0  3   
+Code Helper (GPU 2325M 0.0  12/1
+WindowServer     2119M 0.0  22  
+CharacterPalette 1954M 0.0  4   
 VTDecoderXPCServ 1498M 0.0  3   
-Webex            866M  0.0  76  
+Webex            882M  0.0  84  
