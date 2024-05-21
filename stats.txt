@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.98   96  1.59   9  4 87  3.88 2.59 2.57
+   16.98   96  1.59   9  4 87  3.04 3.13 2.82
 
-Processes: 647 total, 5 running, 1 stuck, 641 sleeping, 4469 threads 
-2024/05/21 15:33:15
-Load Avg: 3.88, 2.59, 2.57 
-CPU usage: 15.74% user, 17.49% sys, 66.76% idle 
-SharedLibs: 450M resident, 89M data, 35M linkedit.
-MemRegions: 336234 total, 2872M resident, 173M private, 2497M shared.
-PhysMem: 15G used (3411M wired, 6008M compressor), 202M unused.
-VM: 266T vsize, 4892M framework vsize, 1648326(0) swapins, 2517392(0) swapouts.
-Networks: packets: 64082944/49G in, 44383895/27G out.
-Disks: 217157178/3406G read, 237419283/3955G written.
+Processes: 544 total, 4 running, 540 sleeping, 4363 threads 
+2024/05/21 15:36:15
+Load Avg: 3.04, 3.13, 2.82 
+CPU usage: 20.0% user, 10.54% sys, 69.45% idle 
+SharedLibs: 439M resident, 89M data, 29M linkedit.
+MemRegions: 370969 total, 3495M resident, 163M private, 1901M shared.
+PhysMem: 15G used (3174M wired, 5758M compressor), 137M unused.
+VM: 231T vsize, 4892M framework vsize, 1648617(0) swapins, 2517392(0) swapouts.
+Networks: packets: 64097864/49G in, 44395476/27G out.
+Disks: 217218953/3407G read, 237432858/3955G written.
 
 COMMAND          MEM   %CPU #TH
-WindowServer     2129M 0.0  22 
+WindowServer     2132M 0.0  24 
 CharacterPalette 2020M 0.0  4  
-Webex            1533M 0.0  78 
 VTDecoderXPCServ 1498M 0.0  3  
-Code Helper (GPU 1021M 0.0  12 
+Webex            1467M 0.0  77 
+com.docker.backe 566M  0.0  107
