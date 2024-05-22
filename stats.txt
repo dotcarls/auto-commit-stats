@@ -1,21 +1,38 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.05  398  7.40   9  3 88  2.60 2.50 2.31
+   18.68  355  6.48   9  3 88  2.69 2.51 2.32
 
-Processes: 740 total, 6 running, 734 sleeping, 4065 threads 
-2024/05/22 16:53:55
-Load Avg: 2.60, 2.50, 2.31 
-CPU usage: 39.50% user, 14.50% sys, 45.98% idle 
-SharedLibs: 574M resident, 108M data, 51M linkedit.
-MemRegions: 326488 total, 4902M resident, 267M private, 2005M shared.
-PhysMem: 15G used (2186M wired, 3639M compressor), 128M unused.
-VM: 304T vsize, 4892M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 11813130/11G in, 5163743/1236M out.
-Disks: 5817018/107G read, 5782448/104G written.
+Processes: 752 total, 3 running, 749 sleeping, 4094 threads 
+2024/05/22 18:23:55
+Load Avg: 2.69, 2.51, 2.32 
+CPU usage: 9.0% user, 17.36% sys, 73.63% idle 
+SharedLibs: 501M resident, 93M data, 31M linkedit.
+MemRegions: 327233 total, 4272M resident, 271M private, 2286M shared.
+PhysMem: 15G used (2116M wired, 4254M compressor), 208M unused.
+VM: 308T vsize, 4892M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 12046523/11G in, 5337377/1298M out.
+Disks: 6257062/112G read, 6010681/107G written.
 
 COMMAND          MEM   %CPU #TH
-Code Helper (GPU 1629M 0.0  12 
-WindowServer     809M  0.0  20 
-Webex            789M  0.0  76 
-com.apple.WebKit 468M  0.0  7  
-Microsoft Outloo 332M  0.0  28 
+Code Helper (GPU 1222M 0.0  12 
+WindowServer     837M  0.0  19 
+Webex            805M  0.0  77 
+Microsoft Outloo 339M  0.0  28 
+Code Helper (Ren 317M  0.0  24 
+Processes: 753 total, 3 running, 750 sleeping, 4095 threads 
+2024/05/22 18:23:55
+Load Avg: 2.69, 2.51, 2.32 
+CPU usage: 9.52% user, 17.0% sys, 73.46% idle 
+SharedLibs: 501M resident, 93M data, 31M linkedit.
+MemRegions: 327268 total, 4276M resident, 272M private, 2286M shared.
+PhysMem: 15G used (2117M wired, 4254M compressor), 212M unused.
+VM: 308T vsize, 4892M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 12046523/11G in, 5337377/1298M out.
+Disks: 6257062/112G read, 6010681/107G written.
+
+COMMAND          MEM   %CPU #TH
+Code Helper (GPU 1222M 0.0  12 
+WindowServer     837M  0.0  19 
+Webex            805M  0.0  77 
+Microsoft Outloo 338M  0.0  28 
+Code Helper (Ren 317M  0.0  24 
