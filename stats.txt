@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   23.98 7653 179.21  34 16 49  56.29 12.89 4.64
+   24.49 7246 173.33  40 18 42  225.94 52.50 18.91
 
-Processes: 548 total, 290 running, 1 stuck, 257 sleeping, 4162 threads 
-2024/05/23 11:34:07
-Load Avg: 108.96, 24.53, 8.79 
-CPU usage: 69.10% user, 30.89% sys, 0.0% idle 
-SharedLibs: 770M resident, 150M data, 167M linkedit.
-MemRegions: 276653 total, 4613M resident, 508M private, 2421M shared.
-PhysMem: 15G used (2071M wired, 863M compressor), 271M unused.
-VM: 232T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 49727/64M in, 19117/2613K out.
-Disks: 302036/5832M read, 75649/3014M written.
+Processes: 679 total, 320 running, 359 sleeping, 5061 threads 
+2024/05/23 11:34:18
+Load Avg: 225.94, 52.50, 18.91 
+CPU usage: 68.82% user, 31.17% sys, 0.0% idle 
+SharedLibs: 681M resident, 145M data, 166M linkedit.
+MemRegions: 382563 total, 5787M resident, 421M private, 2637M shared.
+PhysMem: 15G used (1814M wired, 1380M compressor), 378M unused.
+VM: 291T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 54407/67M in, 23362/4343K out.
+Disks: 349597/7095M read, 84491/3291M written.
 
-COMMAND          MEM   %CPU #TH 
-Code Helper (GPU 1017M 0.0  16/8
-log              460M  0.0  2/1 
-WindowServer     357M  0.0  21/1
-terraform-ls     319M  0.0  18/2
-System Settings  235M  0.0  20/5
-Processes: 543 total, 347 running, 2 stuck, 194 sleeping, 4171 threads 
-2024/05/23 11:34:07
-Load Avg: 108.96, 24.53, 8.79 
-CPU usage: 71.79% user, 28.20% sys, 0.0% idle 
-SharedLibs: 770M resident, 150M data, 167M linkedit.
-MemRegions: 274838 total, 5032M resident, 564M private, 2362M shared.
-PhysMem: 15G used (2165M wired, 864M compressor), 245M unused.
-VM: 230T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 49747/64M in, 19142/2614K out.
-Disks: 302223/5841M read, 75665/3014M written.
-
-COMMAND          MEM   %CPU #TH 
-Code Helper (GPU 1013M 0.0  16/7
-log              451M  0.0  2/1 
-WindowServer     362M  0.0  21/1
-terraform-ls     357M  0.0  18/3
-System Settings  230M  0.0  20/5
+COMMAND          MEM  %CPU #TH 
+Code Helper (GPU 954M 0.0  16/5
+log              469M 0.0  2/1 
+WindowServer     394M 0.0  21/2
+System Settings  385M 0.0  20/5
+Code Helper (Ren 342M 0.0  27/1
