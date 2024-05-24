@@ -1,39 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.53  232  4.42   9  4 87  3.94 4.01 3.14
+   19.43  225  4.27   9  4 87  3.59 2.82 2.79
 
+Processes: 657 total, 4 running, 653 sleeping, 4007 threads 
+2024/05/24 17:29:24
+Load Avg: 3.59, 2.82, 2.79 
+CPU usage: 23.52% user, 30.39% sys, 46.7% idle 
+SharedLibs: 542M resident, 96M data, 34M linkedit.
+MemRegions: 257639 total, 5032M resident, 265M private, 2694M shared.
+PhysMem: 15G used (2285M wired, 2363M compressor), 120M unused.
+VM: 266T vsize, 4921M framework vsize, 282110(0) swapins, 552417(0) swapouts.
+Networks: packets: 9153454/9559M in, 4449262/1576M out.
+Disks: 11767526/209G read, 12486639/240G written.
 
-Processes: 654 total, 6 running, 648 sleeping, 4017 threads 
-2024/05/24 15:44:53
-Load Avg: 4.51, 4.13, 3.19 
-CPU usage: 23.72% user, 28.62% sys, 47.64% idle 
-SharedLibs: 632M resident, 114M data, 39M linkedit.
-MemRegions: 317209 total, 5293M resident, 358M private, 2578M shared.
-PhysMem: 15G used (2298M wired, 2192M compressor), 181M unused.
-VM: 272T vsize, 4921M framework vsize, 281695(0) swapins, 552417(0) swapouts.
-Networks: packets: 8867135/9395M in, 4272360/1527M out.
-Disks: 11443157/204G read, 12065855/234G written.
-
-COMMAND          MEM  %CPU #TH
-Code Helper (GPU 779M 0.0  12 
-WindowServer     666M 0.0  22 
-Webex            557M 0.0  75 
-Code42Service    333M 0.0  117
-Code Helper (Ren 313M 0.0  24 
-Processes: 654 total, 7 running, 647 sleeping, 4017 threads 
-2024/05/24 15:44:53
-Load Avg: 4.51, 4.13, 3.19 
-CPU usage: 23.72% user, 28.62% sys, 47.64% idle 
-SharedLibs: 632M resident, 114M data, 39M linkedit.
-MemRegions: 317209 total, 5293M resident, 358M private, 2578M shared.
-PhysMem: 15G used (2298M wired, 2192M compressor), 185M unused.
-VM: 272T vsize, 4921M framework vsize, 281695(0) swapins, 552417(0) swapouts.
-Networks: packets: 8867144/9395M in, 4272360/1527M out.
-Disks: 11443157/204G read, 12065923/234G written.
-
-COMMAND          MEM  %CPU #TH
-Code Helper (GPU 779M 0.0  12 
-WindowServer     666M 0.0  22 
-Webex            557M 0.0  75 
-Code42Service    333M 0.0  117
-Code Helper (Ren 313M 0.0  24 
+COMMAND          MEM  %CPU #TH 
+WindowServer     601M 0.0  21/1
+Webex            575M 0.0  75  
+Code Helper (GPU 555M 0.0  14  
+terraform-ls     346M 0.0  18  
+Code42Service    334M 0.0  119 
