@@ -1,21 +1,38 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.69  212  4.29  11  4 85  1.99 2.46 2.55
+   20.77  213  4.31  11  4 85  1.30 1.92 2.30
 
-Processes: 550 total, 2 running, 548 sleeping, 3493 threads 
-2024/05/24 07:40:50
-Load Avg: 1.99, 2.46, 2.55 
-CPU usage: 3.16% user, 9.4% sys, 87.78% idle 
-SharedLibs: 360M resident, 54M data, 25M linkedit.
-MemRegions: 197503 total, 2728M resident, 177M private, 2171M shared.
-PhysMem: 12G used (2172M wired, 3461M compressor), 3903M unused.
-VM: 221T vsize, 4921M framework vsize, 148707(0) swapins, 515040(0) swapouts.
-Networks: packets: 6519829/7423M in, 2389440/716M out.
-Disks: 8471412/158G read, 6918880/146G written.
+Processes: 574 total, 5 running, 1 stuck, 568 sleeping, 3782 threads 
+2024/05/24 07:44:24
+Load Avg: 1.30, 1.92, 2.30 
+CPU usage: 24.93% user, 26.24% sys, 48.81% idle 
+SharedLibs: 428M resident, 64M data, 35M linkedit.
+MemRegions: 251194 total, 4193M resident, 253M private, 2503M shared.
+PhysMem: 12G used (2111M wired, 678M compressor), 3896M unused.
+VM: 235T vsize, 4921M framework vsize, 218280(0) swapins, 544945(0) swapouts.
+Networks: packets: 6525755/7425M in, 2395862/719M out.
+Disks: 8510154/159G read, 6935508/147G written.
 
-COMMAND          MEM   %CPU #TH
-com.apple.Virtua 8083M 0.0  33 
-WindowServer     634M  0.0  21 
-Terminal         535M  0.0  9  
-com.apple.WebKit 404M  0.0  4  
-Webex            394M  0.0  76 
+COMMAND          MEM  %CPU #TH 
+WindowServer     671M 0.0  21/2
+Code Helper (GPU 447M 0.0  12  
+Terminal         423M 0.0  9   
+com.apple.WebKit 404M 0.0  3   
+Webex            401M 0.0  75  
+Processes: 573 total, 4 running, 1 stuck, 568 sleeping, 3781 threads 
+2024/05/24 07:44:24
+Load Avg: 1.30, 1.92, 2.30 
+CPU usage: 25.6% user, 26.37% sys, 48.56% idle 
+SharedLibs: 428M resident, 64M data, 35M linkedit.
+MemRegions: 251150 total, 4189M resident, 252M private, 2503M shared.
+PhysMem: 12G used (2111M wired, 678M compressor), 3900M unused.
+VM: 235T vsize, 4921M framework vsize, 218280(0) swapins, 544945(0) swapouts.
+Networks: packets: 6525757/7425M in, 2395863/719M out.
+Disks: 8510154/159G read, 6935508/147G written.
+
+COMMAND          MEM  %CPU #TH 
+WindowServer     671M 0.0  21/1
+Code Helper (GPU 447M 0.0  12  
+Terminal         423M 0.0  9   
+com.apple.WebKit 404M 0.0  3   
+Webex            401M 0.0  75  
