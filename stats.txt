@@ -1,21 +1,38 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.43  225  4.27   9  4 87  3.59 2.82 2.79
+   19.41  224  4.24   9  4 87  2.89 2.23 2.38
 
-Processes: 666 total, 4 running, 662 sleeping, 3970 threads 
-2024/05/24 17:29:25
-Load Avg: 3.59, 2.82, 2.79 
-CPU usage: 6.59% user, 10.25% sys, 83.15% idle 
-SharedLibs: 541M resident, 96M data, 33M linkedit.
-MemRegions: 257955 total, 5061M resident, 274M private, 2683M shared.
-PhysMem: 15G used (2216M wired, 2371M compressor), 125M unused.
-VM: 270T vsize, 4921M framework vsize, 282110(0) swapins, 552417(0) swapouts.
-Networks: packets: 9156711/9562M in, 4451040/1577M out.
-Disks: 11768052/209G read, 12487462/240G written.
+Processes: 646 total, 4 running, 642 sleeping, 3912 threads 
+2024/05/24 17:45:18
+Load Avg: 2.89, 2.23, 2.38 
+CPU usage: 23.1% user, 23.28% sys, 53.69% idle 
+SharedLibs: 540M resident, 97M data, 32M linkedit.
+MemRegions: 245078 total, 5144M resident, 290M private, 2516M shared.
+PhysMem: 15G used (2064M wired, 2178M compressor), 79M unused.
+VM: 261T vsize, 4921M framework vsize, 282122(0) swapins, 552417(0) swapouts.
+Networks: packets: 9204643/9586M in, 4485566/1590M out.
+Disks: 11817974/210G read, 12530387/241G written.
 
-COMMAND          MEM  %CPU #TH 
-WindowServer     608M 0.0  21/3
-Webex            575M 0.0  75  
-Code Helper (GPU 561M 0.0  14  
-terraform-ls     346M 0.0  18  
-Code42Service    334M 0.0  119 
+COMMAND          MEM  %CPU #TH
+WindowServer     603M 0.0  22 
+Webex            580M 0.0  75 
+Code Helper (GPU 341M 0.0  14 
+Code42Service    335M 0.0  119
+com.apple.WebKit 312M 0.0  3  
+Processes: 646 total, 3 running, 643 sleeping, 3912 threads 
+2024/05/24 17:45:18
+Load Avg: 2.89, 2.23, 2.38 
+CPU usage: 23.1% user, 23.28% sys, 53.69% idle 
+SharedLibs: 540M resident, 97M data, 32M linkedit.
+MemRegions: 245078 total, 5144M resident, 290M private, 2516M shared.
+PhysMem: 15G used (2065M wired, 2178M compressor), 83M unused.
+VM: 261T vsize, 4921M framework vsize, 282122(0) swapins, 552417(0) swapouts.
+Networks: packets: 9204646/9586M in, 4485566/1590M out.
+Disks: 11817974/210G read, 12530387/241G written.
+
+COMMAND          MEM  %CPU #TH
+WindowServer     603M 0.0  22 
+Webex            580M 0.0  75 
+Code Helper (GPU 341M 0.0  14 
+Code42Service    335M 0.0  119
+com.apple.WebKit 312M 0.0  3  
