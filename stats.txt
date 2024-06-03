@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.49  108  1.95   8  4 89  2.84 3.28 3.63
+   23.36 7292 166.35  28 13 59  47.88 12.21 4.46
 
-Processes: 653 total, 2 running, 651 sleeping, 3431 threads 
-2024/06/03 09:56:27
-Load Avg: 2.84, 3.28, 3.63 
-CPU usage: 8.28% user, 10.5% sys, 81.65% idle 
-SharedLibs: 638M resident, 109M data, 79M linkedit.
-MemRegions: 136418 total, 3470M resident, 376M private, 2129M shared.
-PhysMem: 14G used (2117M wired, 1697M compressor), 1888M unused.
-VM: 252T vsize, 4921M framework vsize, 40777(0) swapins, 83232(0) swapouts.
-Networks: packets: 9307358/10G in, 5838002/2783M out.
-Disks: 9975397/159G read, 16545179/308G written.
+Processes: 556 total, 14 running, 542 sleeping, 3632 threads 
+2024/06/03 10:01:34
+Load Avg: 47.88, 12.21, 4.46 
+CPU usage: 41.61% user, 24.83% sys, 33.55% idle 
+SharedLibs: 631M resident, 135M data, 48M linkedit.
+MemRegions: 128726 total, 3731M resident, 694M private, 3403M shared.
+PhysMem: 15G used (1544M wired, 37M compressor), 607M unused.
+VM: 218T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 13419/7143K in, 12820/3670K out.
+Disks: 339133/7686M read, 55513/1304M written.
 
-COMMAND       MEM  %CPU #TH
-WindowServer  720M 0.0  23 
-Webex         654M 0.0  80 
-Terminal      566M 0.0  11 
-Code42Service 326M 0.0  115
-java          246M 0.0  39 
+COMMAND          MEM   %CPU #TH 
+com.apple.Virtua 1024M 0.0  40  
+Webex            284M  0.0  76  
+WindowServer     243M  0.0  20/2
+Podman Desktop   192M  0.0  38  
+Docker Desktop H 157M  0.0  25  
