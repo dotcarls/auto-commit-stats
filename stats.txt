@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.70  127  2.08   8  2 90  1.39 1.61 1.76
+   16.68  132  2.16   8  2 90  1.90 1.83 1.83
 
-Processes: 598 total, 2 running, 596 sleeping, 2997 threads 
-2024/06/12 08:20:26
-Load Avg: 1.39, 1.61, 1.76 
-CPU usage: 0.77% user, 8.52% sys, 90.69% idle 
-SharedLibs: 809M resident, 146M data, 67M linkedit.
-MemRegions: 93833 total, 4034M resident, 769M private, 1569M shared.
-PhysMem: 15G used (1644M wired, 77M compressor), 545M unused.
-VM: 229T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 259730/179M in, 169459/42M out.
-Disks: 2755109/35G read, 964584/25G written.
+Processes: 617 total, 2 running, 615 sleeping, 3227 threads 
+2024/06/12 08:24:11
+Load Avg: 1.90, 1.83, 1.83 
+CPU usage: 7.19% user, 13.66% sys, 79.13% idle 
+SharedLibs: 749M resident, 140M data, 63M linkedit.
+MemRegions: 104855 total, 4369M resident, 633M private, 2773M shared.
+PhysMem: 15G used (1624M wired, 413M compressor), 77M unused.
+VM: 237T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 288126/199M in, 191695/49M out.
+Disks: 2900388/37G read, 997593/25G written.
 
 COMMAND          MEM  %CPU #TH
-Code42Service    274M 0.0  120
+WindowServer     369M 0.0  20 
+Webex            319M 0.0  73 
+Microsoft Outloo 297M 0.0  27 
+Code42Service    279M 0.0  114
 java             259M 0.0  39 
-WindowServer     210M 0.0  21 
-osqueryd         189M 0.0  14 
-com.code42.agent 101M 0.0  124
