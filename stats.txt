@@ -1,21 +1,38 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   17.42 7835 133.29  24 13 63  57.73 16.96 6.34
+   17.38 7792 132.28  24 14 63  57.73 16.96 6.34
 
-Processes: 552 total, 6 running, 7 stuck, 539 sleeping, 3466 threads 
-2024/06/12 00:14:19
+Processes: 571 total, 11 running, 2 stuck, 558 sleeping, 3538 threads 
+2024/06/12 00:14:20
 Load Avg: 57.73, 16.96, 6.34 
-CPU usage: 29.90% user, 19.60% sys, 50.49% idle 
-SharedLibs: 575M resident, 127M data, 49M linkedit.
-MemRegions: 210411 total, 4324M resident, 693M private, 2432M shared.
-PhysMem: 15G used (1606M wired, 0B compressor), 816M unused.
-VM: 225T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1075/187K in, 981/135K out.
-Disks: 395590/6305M read, 40997/1114M written.
+CPU usage: 50.42% user, 38.65% sys, 10.92% idle 
+SharedLibs: 552M resident, 127M data, 48M linkedit.
+MemRegions: 212479 total, 4446M resident, 697M private, 2491M shared.
+PhysMem: 15G used (1647M wired, 0B compressor), 408M unused.
+VM: 232T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 1085/190K in, 983/135K out.
+Disks: 401283/6436M read, 41321/1145M written.
+
+COMMAND          MEM  %CPU #TH 
+Code Helper (GPU 527M 0.0  14  
+Code Helper (Ren 330M 0.0  27  
+Webex            272M 0.0  72  
+Code Helper (Ren 269M 0.0  25  
+WindowServer     261M 0.0  22/1
+Processes: 567 total, 10 running, 2 stuck, 555 sleeping, 3510 threads 
+2024/06/12 00:14:20
+Load Avg: 57.73, 16.96, 6.34 
+CPU usage: 50.59% user, 39.4% sys, 10.35% idle 
+SharedLibs: 552M resident, 127M data, 48M linkedit.
+MemRegions: 212037 total, 4438M resident, 695M private, 2491M shared.
+PhysMem: 15G used (1647M wired, 0B compressor), 415M unused.
+VM: 231T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 1085/190K in, 983/135K out.
+Disks: 401302/6436M read, 41435/1146M written.
 
 COMMAND          MEM  %CPU #TH
-Code Helper (GPU 531M 0.0  14 
-Code Helper (Ren 335M 0.0  27 
-Code Helper (Ren 274M 0.0  25 
+Code Helper (GPU 527M 0.0  14 
+Code Helper (Ren 330M 0.0  27 
 Webex            272M 0.0  72 
-WindowServer     192M 0.0  22 
+Code Helper (Ren 269M 0.0  25 
+WindowServer     261M 0.0  22 
