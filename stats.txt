@@ -1,21 +1,38 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.12  108  1.92   8  3 90  2.62 2.06 2.28
+   18.12  109  1.92   8  3 90  3.01 2.17 2.31
 
-Processes: 691 total, 4 running, 687 sleeping, 4163 threads 
-2024/06/13 09:25:34
-Load Avg: 2.62, 2.06, 2.28 
-CPU usage: 8.14% user, 10.43% sys, 81.42% idle 
-SharedLibs: 610M resident, 116M data, 40M linkedit.
-MemRegions: 405943 total, 4553M resident, 304M private, 2567M shared.
-PhysMem: 15G used (2306M wired, 3702M compressor), 110M unused.
-VM: 295T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 3400771/2140M in, 2715449/1499M out.
-Disks: 9790737/163G read, 3173429/61G written.
+Processes: 742 total, 4 running, 738 sleeping, 4587 threads 
+2024/06/13 09:25:55
+Load Avg: 3.01, 2.17, 2.31 
+CPU usage: 12.94% user, 18.39% sys, 68.65% idle 
+SharedLibs: 561M resident, 110M data, 37M linkedit.
+MemRegions: 471376 total, 4420M resident, 277M private, 2303M shared.
+PhysMem: 15G used (2550M wired, 4242M compressor), 147M unused.
+VM: 321T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 3404861/2141M in, 2717099/1499M out.
+Disks: 9801212/163G read, 3177471/61G written.
 
 COMMAND          MEM   %CPU #TH   
-Code Helper (GPU 1243M 0.0  10    
-WindowServer     907M  0.0  21    
-Webex            663M  0.0  77/1  
+Code Helper (GPU 1644M 0.0  13    
+WindowServer     909M  0.0  21/1  
+kernel_task      623M  0.0  572/13
+Webex            600M  0.0  78    
+Code Helper (Ren 534M  0.0  24    
+Processes: 743 total, 5 running, 738 sleeping, 4588 threads 
+2024/06/13 09:25:55
+Load Avg: 3.01, 2.17, 2.31 
+CPU usage: 12.34% user, 18.60% sys, 69.4% idle 
+SharedLibs: 561M resident, 110M data, 37M linkedit.
+MemRegions: 471419 total, 4425M resident, 277M private, 2303M shared.
+PhysMem: 15G used (2550M wired, 4242M compressor), 154M unused.
+VM: 321T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 3404862/2141M in, 2717099/1499M out.
+Disks: 9801212/163G read, 3177471/61G written.
+
+COMMAND          MEM   %CPU #TH   
+Code Helper (GPU 1644M 0.0  13/1  
+WindowServer     909M  0.0  21    
 kernel_task      623M  0.0  572/12
-Code Helper (Ren 532M  0.0  24    
+Webex            600M  0.0  78    
+Code Helper (Ren 534M  0.0  24    
