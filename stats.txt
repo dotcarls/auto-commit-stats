@@ -2,20 +2,54 @@
     KB/t  tps  MB/s  us sy id   1m   5m   15m
    17.40   87  1.49   8  3 89  3.07 3.16 3.24
 
-Processes: 686 total, 8 running, 678 sleeping, 4166 threads 
-2024/06/17 11:03:53
+Processes: 716 total, 5 running, 1 stuck, 710 sleeping, 4213 threads 
+2024/06/17 11:03:56
 Load Avg: 3.07, 3.16, 3.24 
-CPU usage: 55.33% user, 37.75% sys, 6.91% idle 
-SharedLibs: 591M resident, 106M data, 33M linkedit.
-MemRegions: 286223 total, 5154M resident, 290M private, 2455M shared.
-PhysMem: 15G used (2393M wired, 2262M compressor), 195M unused.
-VM: 280T vsize, 4921M framework vsize, 122971(0) swapins, 275173(0) swapouts.
-Networks: packets: 12869658/7965M in, 9600224/5004M out.
-Disks: 31410717/514G read, 9787223/170G written.
+CPU usage: 41.10% user, 40.14% sys, 18.75% idle 
+SharedLibs: 588M resident, 106M data, 32M linkedit.
+MemRegions: 289475 total, 5200M resident, 290M private, 2305M shared.
+PhysMem: 15G used (2658M wired, 2427M compressor), 131M unused.
+VM: 291T vsize, 4921M framework vsize, 122971(0) swapins, 275173(0) swapouts.
+Networks: packets: 12875245/7969M in, 9603312/5005M out.
+Disks: 31421648/514G read, 9789387/170G written.
 
 COMMAND          MEM  %CPU #TH
-WindowServer     836M 0.0  24 
-CharacterPalette 635M 0.0  5  
+WindowServer     867M 0.0  24 
+CharacterPalette 635M 0.0  4  
 Webex            570M 0.0  86 
-Code Helper (GPU 556M 0.0  14 
+Code Helper (GPU 527M 0.0  13 
+Code42Service    359M 0.0  117
+Processes: 715 total, 5 running, 1 stuck, 709 sleeping, 4212 threads 
+2024/06/17 11:03:56
+Load Avg: 3.07, 3.16, 3.24 
+CPU usage: 42.62% user, 39.11% sys, 18.26% idle 
+SharedLibs: 588M resident, 106M data, 32M linkedit.
+MemRegions: 289429 total, 5196M resident, 290M private, 2305M shared.
+PhysMem: 15G used (2658M wired, 2431M compressor), 144M unused.
+VM: 291T vsize, 4921M framework vsize, 122971(0) swapins, 275173(0) swapouts.
+Networks: packets: 12875245/7969M in, 9603312/5005M out.
+Disks: 31421657/514G read, 9789387/170G written.
+
+COMMAND          MEM  %CPU #TH
+WindowServer     867M 0.0  24 
+CharacterPalette 635M 0.0  4  
+Webex            570M 0.0  86 
+Code Helper (GPU 527M 0.0  13 
+Code42Service    359M 0.0  117
+Processes: 717 total, 7 running, 2 stuck, 708 sleeping, 4219 threads 
+2024/06/17 11:03:56
+Load Avg: 3.07, 3.16, 3.24 
+CPU usage: 40.70% user, 38.93% sys, 20.35% idle 
+SharedLibs: 588M resident, 106M data, 32M linkedit.
+MemRegions: 289547 total, 5205M resident, 291M private, 2296M shared.
+PhysMem: 15G used (2658M wired, 2431M compressor), 153M unused.
+VM: 292T vsize, 4921M framework vsize, 122971(0) swapins, 275173(0) swapouts.
+Networks: packets: 12875245/7969M in, 9603312/5005M out.
+Disks: 31421685/514G read, 9789387/170G written.
+
+COMMAND          MEM  %CPU #TH
+WindowServer     867M 0.0  24 
+CharacterPalette 635M 0.0  4  
+Webex            570M 0.0  86 
+Code Helper (GPU 527M 0.0  13 
 Code42Service    359M 0.0  117
