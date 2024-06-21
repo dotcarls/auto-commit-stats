@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.76   41  0.67  10  4 87  6.75 4.76 3.78
+   16.93   43  0.71  10  4 86  3.38 4.28 3.82
 
-Processes: 650 total, 5 running, 3 stuck, 642 sleeping, 3483 threads 
-2024/06/21 09:25:04
-Load Avg: 6.75, 4.76, 3.78 
-CPU usage: 28.93% user, 25.38% sys, 45.68% idle 
-SharedLibs: 550M resident, 88M data, 26M linkedit.
-MemRegions: 161790 total, 3752M resident, 207M private, 2557M shared.
-PhysMem: 15G used (2084M wired, 3132M compressor), 332M unused.
+Processes: 651 total, 3 running, 648 sleeping, 3467 threads 
+2024/06/21 09:28:47
+Load Avg: 3.38, 4.28, 3.82 
+CPU usage: 11.22% user, 11.73% sys, 77.4% idle 
+SharedLibs: 553M resident, 88M data, 27M linkedit.
+MemRegions: 161866 total, 4347M resident, 216M private, 2848M shared.
+PhysMem: 15G used (2255M wired, 2976M compressor), 99M unused.
 VM: 254T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 4641249/4640M in, 2634931/677M out.
-Disks: 2508736/31G read, 969444/24G written.
+Networks: packets: 4915962/4944M in, 2858982/737M out.
+Disks: 2606020/33G read, 1052468/26G written.
 
-COMMAND          MEM   %CPU #TH 
-ruby             1283M 0.0  5   
-WindowServer     908M  0.0  20/2
-Webex            654M  0.0  78  
-WebexHelper      476M  0.0  76/1
-Microsoft Outloo 364M  0.0  30  
+COMMAND      MEM   %CPU #TH
+ruby         1570M 0.0  5  
+WindowServer 949M  0.0  22 
+Webex        662M  0.0  78 
+Terminal     488M  0.0  10 
+WebexHelper  486M  0.0  75 
