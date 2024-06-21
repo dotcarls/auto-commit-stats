@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.92 6680 123.42  18 10 72  74.55 16.57 5.92
+   12.41   34  0.42   9  3 87  1.92 2.36 3.11
 
-Processes: 498 total, 162 running, 2 stuck, 334 sleeping, 4023 threads 
-2024/06/20 09:55:18
-Load Avg: 74.55, 16.57, 5.92 
-CPU usage: 42.1% user, 21.84% sys, 36.13% idle 
-SharedLibs: 800M resident, 130M data, 68M linkedit.
-MemRegions: 92596 total, 3036M resident, 632M private, 1714M shared.
-PhysMem: 11G used (1420M wired, 0B compressor), 4396M unused.
-VM: 192T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 3335/1854K in, 2819/742K out.
-Disks: 248317/4864M read, 31541/298M written.
+Processes: 629 total, 4 running, 625 sleeping, 3320 threads 
+2024/06/21 08:59:23
+Load Avg: 1.92, 2.36, 3.11 
+CPU usage: 5.78% user, 10.40% sys, 83.81% idle 
+SharedLibs: 699M resident, 110M data, 43M linkedit.
+MemRegions: 130436 total, 5114M resident, 368M private, 2819M shared.
+PhysMem: 15G used (1961M wired, 1241M compressor), 125M unused.
+VM: 243T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 1534175/943M in, 906008/417M out.
+Disks: 2217418/23G read, 646368/11G written.
 
-COMMAND        MEM  %CPU #TH 
-Webex          271M 0.0  87/3
-WindowServer   196M 0.0  25  
-Finder         111M 0.0  22/8
-java           111M 0.0  36  
-Podman Desktop 107M 0.0  26  
+COMMAND          MEM  %CPU #TH
+WindowServer     661M 0.0  21 
+Webex            553M 0.0  75 
+Microsoft Outloo 374M 0.0  32 
+com.apple.WebKit 332M 0.0  3  
+Code42Service    283M 0.0  118
