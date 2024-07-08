@@ -1,22 +1,18 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
    16.98  145  2.40   9  3 88  6.93 3.82 3.27
-
-
-Processes: 741 total, 16 running, 1 stuck, 724 sleeping, 4628 threads 
-2024/07/08 10:04:02
-Load Avg: 6.93, 3.82, 3.27 
-CPU usage: 62.3% user, 37.96% sys, 0.0% idle 
+5% sys, 0.8% idle 
 SharedLibs: 524M resident, 74M data, 20M linkedit.
-MemRegions: 403514 total, 3939M resident, 164M private, 2289M shared.
-PhysMem: 15G used (2882M wired, 4966M compressor), 112M unused.
-VM: 308T vsize, 4921M framework vsize, 193957(0) swapins, 409673(0) swapouts.
-Networks: packets: 31585040/31G in, 14819042/5769M out.
-Disks: 202005929/3222G read, 23518965/430G written.
+MemRegions: 403584 total, 3939M resident, 162M private, 2289M shared.
+PhysMem: 15G used (2885M wired, 4968M compressor), 169M unused.
+VM: 307T vsize, 4921M framework vsize, 193957(0) swapins, 409673(0) swapouts.
+Networks: packets: 31585380/31G in, 14819230/5769M out.
+Disks: 202006722/3222G read, 23519019/430G written.
 
 COMMAND          MEM   %CPU #TH   
 com.apple.Virtua 2051M 0.0  34    
 WindowServer     1076M 0.0  22    
 csc_iseagentd    761M  0.0  6     
-kernel_task      561M  0.0  735/13
+kernel_task      561M  0.0  735/12
 com.docker.backe 515M  0.0  77    
+
