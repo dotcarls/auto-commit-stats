@@ -1,89 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.98  145  2.40   9  3 88  6.93 3.82 3.27
+   17.01  140  2.32   9  3 88  14.96 6.82 4.55
 
-Processes: 747 total, 21 running, 726 sleeping, 4689 threads 
-2024/07/08 10:04:02
-Load Avg: 6.93, 3.82, 3.27 
-CPU usage: 57.34% user, 42.36% sys, 0.29% idle 
-SharedLibs: 519M resident, 74M data, 20M linkedit.
-MemRegions: 405882 total, 3977M resident, 163M private, 2229M shared.
-PhysMem: 15G used (2829M wired, 5003M compressor), 144M unused.
-VM: 310T vsize, 4921M framework vsize, 193957(0) swapins, 409673(0) swapouts.
-Networks: packets: 31586421/31G in, 14819768/5769M out.
-Disks: 202008049/3222G read, 23519129/430G written.
-
-COMMAND          MEM   %CPU #TH   
-com.apple.Virtua 2051M 0.0  34    
-WindowServer     1087M 0.0  22/3  
-csc_iseagentd    761M  0.0  6     
-kernel_task      561M  0.0  735/12
-com.docker.backe 515M  0.0  77    
-Processes: 748 total, 11 running, 737 sleeping, 4687 threads 
-2024/07/08 10:04:03
-Load Avg: 6.93, 3.82, 3.27 
-CPU usage: 56.35% user, 43.25% sys, 0.38% idle 
-SharedLibs: 519M resident, 74M data, 20M linkedit.
-MemRegions: 405968 total, 3958M resident, 163M private, 2220M shared.
-PhysMem: 15G used (2842M wired, 5001M compressor), 115M unused.
-VM: 310T vsize, 4921M framework vsize, 193957(0) swapins, 409673(0) swapouts.
-Networks: packets: 31586597/31G in, 14819885/5769M out.
-Disks: 202008352/3222G read, 23519147/430G written.
-
-COMMAND          MEM   %CPU #TH   
-com.apple.Virtua 2051M 0.0  34    
-WindowServer     1079M 0.0  22    
-csc_iseagentd    761M  0.0  6     
-kernel_task      561M  0.0  735/15
-com.docker.backe 515M  0.0  77    
-Processes: 748 total, 13 running, 735 sleeping, 4688 threads 
-2024/07/08 10:04:03
-Load Avg: 6.93, 3.82, 3.27 
-CPU usage: 55.94% user, 43.68% sys, 0.36% idle 
-SharedLibs: 519M resident, 74M data, 20M linkedit.
-MemRegions: 405986 total, 3970M resident, 163M private, 2219M shared.
-PhysMem: 15G used (2845M wired, 5001M compressor), 116M unused.
-VM: 310T vsize, 4921M framework vsize, 193957(0) swapins, 409673(0) swapouts.
-Networks: packets: 31586682/31G in, 14819905/5769M out.
-Disks: 202008390/3222G read, 23519147/430G written.
-
-COMMAND          MEM   %CPU #TH   
-com.apple.Virtua 2051M 0.0  34    
-WindowServer     1079M 0.0  22/1  
-csc_iseagentd    761M  0.0  6     
-kernel_task      561M  0.0  735/14
-com.docker.backe 515M  0.0  77    
-Processes: 747 total, 14 running, 733 sleeping, 4674 threads 
-2024/07/08 10:04:03
-Load Avg: 6.93, 3.82, 3.27 
-CPU usage: 50.84% user, 48.82% sys, 0.33% idle 
-SharedLibs: 519M resident, 74M data, 20M linkedit.
-MemRegions: 405866 total, 3945M resident, 160M private, 2196M shared.
-PhysMem: 15G used (2843M wired, 5001M compressor), 117M unused.
-VM: 310T vsize, 4921M framework vsize, 193961(0) swapins, 409673(0) swapouts.
-Networks: packets: 31586787/31G in, 14819965/5769M out.
-Disks: 202008575/3222G read, 23519170/430G written.
-
-COMMAND          MEM   %CPU #TH   
-com.apple.Virtua 2051M 0.0  34    
-WindowServer     1079M 0.0  22/1  
-csc_iseagentd    761M  0.0  6     
-kernel_task      561M  0.0  735/13
-com.docker.backe 515M  0.0  77    
-Processes: 752 total, 9 running, 743 sleeping, 4670 threads 
-2024/07/08 10:04:03
-Load Avg: 6.93, 3.82, 3.27 
-CPU usage: 50.55% user, 41.32% sys, 8.11% idle 
-SharedLibs: 519M resident, 74M data, 20M linkedit.
-MemRegions: 406166 total, 3954M resident, 163M private, 2201M shared.
-PhysMem: 15G used (2833M wired, 4995M compressor), 68M unused.
-VM: 312T vsize, 4921M framework vsize, 193961(0) swapins, 409673(0) swapouts.
-Networks: packets: 31587410/31G in, 14820318/5769M out.
-Disks: 202008836/3222G read, 23519342/430G written.
+Processes: 571 total, 18 running, 2 stuck, 551 sleeping, 4455 threads 
+2024/07/09 09:58:44
+Load Avg: 16.01, 7.17, 4.69 
+CPU usage: 35.23% user, 25.34% sys, 39.41% idle 
+SharedLibs: 426M resident, 75M data, 29M linkedit.
+MemRegions: 414886 total, 3737M resident, 243M private, 2232M shared.
+PhysMem: 15G used (3116M wired, 4965M compressor), 192M unused.
+VM: 245T vsize, 4921M framework vsize, 194434(0) swapins, 409673(0) swapouts.
+Networks: packets: 36608760/38G in, 15981134/5968M out.
+Disks: 204896710/3274G read, 24210984/442G written.
 
 COMMAND          MEM   %CPU #TH   
 com.apple.Virtua 2051M 0.0  33    
-WindowServer     1082M 0.0  22/1  
-csc_iseagentd    761M  0.0  6     
-kernel_task      561M  0.0  735/12
-com.docker.backe 515M  0.0  77    
+WindowServer     1209M 0.0  24    
+csc_iseagentd    762M  0.0  80/2  
+kernel_task      704M  0.0  712/12
+VTDecoderXPCServ 620M  0.0  4     
