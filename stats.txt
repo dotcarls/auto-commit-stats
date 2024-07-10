@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   17.03  140  2.32   9  3 88  2.17 2.32 2.88
+   17.05  136  2.27   9  3 88  2.29 4.12 4.59
 
-Processes: 535 total, 5 running, 2 stuck, 528 sleeping, 4391 threads 
-2024/07/09 12:59:39
-Load Avg: 2.17, 2.32, 2.88 
-CPU usage: 27.74% user, 32.25% sys, 40.0% idle 
-SharedLibs: 406M resident, 79M data, 25M linkedit.
-MemRegions: 464695 total, 3327M resident, 140M private, 2367M shared.
-PhysMem: 15G used (3101M wired, 5735M compressor), 178M unused.
-VM: 237T vsize, 4921M framework vsize, 194610(0) swapins, 409673(0) swapouts.
-Networks: packets: 39366224/40G in, 16776429/6333M out.
-Disks: 205982545/3296G read, 24637609/449G written.
+Processes: 659 total, 3 running, 656 sleeping, 4912 threads 
+2024/07/10 08:43:22
+Load Avg: 2.29, 4.12, 4.59 
+CPU usage: 10.0% user, 12.72% sys, 77.27% idle 
+SharedLibs: 422M resident, 75M data, 20M linkedit.
+MemRegions: 550138 total, 2624M resident, 135M private, 1988M shared.
+PhysMem: 15G used (3120M wired, 7164M compressor), 217M unused.
+VM: 291T vsize, 4921M framework vsize, 210111(0) swapins, 515829(0) swapouts.
+Networks: packets: 45807071/50G in, 18167345/6405M out.
+Disks: 209461045/3358G read, 25477406/462G written.
 
-COMMAND          MEM   %CPU #TH   
-com.apple.Virtua 2051M 0.0  33    
-WindowServer     1331M 0.0  22/1  
-Code Helper (GPU 994M  0.0  13    
-csc_iseagentd    764M  0.0  6     
-kernel_task      701M  0.0  713/12
-Processes: 535 total, 5 running, 530 sleeping, 4391 threads 
-2024/07/09 12:59:39
-Load Avg: 2.17, 2.32, 2.88 
-CPU usage: 24.69% user, 30.86% sys, 44.44% idle 
-SharedLibs: 406M resident, 79M data, 25M linkedit.
-MemRegions: 464698 total, 3321M resident, 141M private, 2345M shared.
-PhysMem: 15G used (3100M wired, 5684M compressor), 167M unused.
-VM: 237T vsize, 4921M framework vsize, 194610(0) swapins, 409673(0) swapouts.
-Networks: packets: 39366365/40G in, 16776459/6333M out.
-Disks: 205982911/3296G read, 24637649/449G written.
-
-COMMAND          MEM   %CPU #TH   
-com.apple.Virtua 2051M 0.0  33    
-WindowServer     1331M 0.0  22    
-Code Helper (GPU 994M  0.0  13    
-csc_iseagentd    764M  0.0  6     
-kernel_task      701M  0.0  713/12
+COMMAND          MEM   %CPU #TH
+com.apple.Virtua 2056M 0.0  34 
+WindowServer     1366M 0.0  24 
+Code Helper (GPU 1032M 0.0  13 
+com.apple.WebKit 1003M 0.0  18 
+csc_iseagentd    767M  0.0  7  
