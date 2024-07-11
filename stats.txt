@@ -2,20 +2,38 @@
     KB/t  tps  MB/s  us sy id   1m   5m   15m
    19.12  318  5.94   5  2 93  2.88 1.83 2.35
 
-Processes: 633 total, 6 running, 627 sleeping, 3676 threads 
-2024/07/11 11:17:52
+
+Processes: 629 total, 10 running, 1 stuck, 618 sleeping, 3652 threads 
+2024/07/11 11:17:53
 Load Avg: 2.88, 1.83, 2.35 
-CPU usage: 13.92% user, 15.18% sys, 70.88% idle 
+CPU usage: 36.72% user, 29.75% sys, 33.51% idle 
 SharedLibs: 701M resident, 140M data, 50M linkedit.
-MemRegions: 236868 total, 4725M resident, 639M private, 2890M shared.
-PhysMem: 15G used (1744M wired, 527M compressor), 111M unused.
-VM: 257T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 201532/219M in, 90156/29M out.
-Disks: 544572/10G read, 158663/2670M written.
+MemRegions: 236988 total, 4779M resident, 630M private, 2931M shared.
+PhysMem: 15G used (1781M wired, 556M compressor), 64M unused.
+VM: 256T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 203988/222M in, 91564/30M out.
+Disks: 544687/10G read, 158923/2674M written.
 
 COMMAND          MEM  %CPU #TH 
-WindowServer     568M 0.0  22/2
-Code Helper (GPU 513M 0.0  13  
-Webex            387M 0.0  76  
+WindowServer     568M 0.0  22  
+Code Helper (GPU 559M 0.0  13  
+Webex            388M 0.0  76  
+Code Helper (Ren 379M 0.0  27/1
 com.apple.WebKit 328M 0.0  4   
-Code Helper (Ren 300M 0.0  27  
+Processes: 629 total, 8 running, 1 stuck, 620 sleeping, 3652 threads 
+2024/07/11 11:17:53
+Load Avg: 2.88, 1.83, 2.35 
+CPU usage: 36.63% user, 29.94% sys, 33.42% idle 
+SharedLibs: 701M resident, 140M data, 50M linkedit.
+MemRegions: 236987 total, 4784M resident, 630M private, 2931M shared.
+PhysMem: 15G used (1781M wired, 556M compressor), 63M unused.
+VM: 256T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 203988/222M in, 91564/30M out.
+Disks: 544687/10G read, 158923/2674M written.
+
+COMMAND          MEM  %CPU #TH 
+WindowServer     568M 0.0  22  
+Code Helper (GPU 559M 0.0  13  
+Webex            388M 0.0  76  
+Code Helper (Ren 379M 0.0  27/1
+com.apple.WebKit 328M 0.0  4   
