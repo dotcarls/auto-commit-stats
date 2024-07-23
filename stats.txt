@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   15.62   61  0.93   9  4 87  4.56 4.37 3.67
+   15.62   61  0.93   9  4 87  7.14 4.93 3.90
 
-Processes: 602 total, 3 running, 599 sleeping, 5093 threads 
-2024/07/23 10:31:13
-Load Avg: 4.56, 4.37, 3.67 
-CPU usage: 8.69% user, 11.93% sys, 79.37% idle 
-SharedLibs: 446M resident, 88M data, 29M linkedit.
-MemRegions: 873586 total, 2586M resident, 142M private, 2175M shared.
-PhysMem: 15G used (3120M wired, 7013M compressor), 205M unused.
-VM: 309T vsize, 4921M framework vsize, 1335077(0) swapins, 1762953(0) swapouts.
-Networks: packets: 24794277/25G in, 10890087/3966M out.
-Disks: 49683533/730G read, 13174248/207G written.
+Processes: 627 total, 30 running, 4 stuck, 593 sleeping, 5427 threads 
+2024/07/23 10:31:59
+Load Avg: 7.14, 4.93, 3.90 
+CPU usage: 30.54% user, 27.46% sys, 41.99% idle 
+SharedLibs: 389M resident, 78M data, 21M linkedit.
+MemRegions: 897967 total, 2765M resident, 144M private, 2165M shared.
+PhysMem: 15G used (3364M wired, 7276M compressor), 196M unused.
+VM: 321T vsize, 4921M framework vsize, 1335177(0) swapins, 1762953(0) swapouts.
+Networks: packets: 24818719/25G in, 10904606/3969M out.
+Disks: 49710282/730G read, 13182038/207G written.
 
-COMMAND          MEM   %CPU #TH
-Code Helper (GPU 1516M 0.0  15 
-WindowServer     1471M 0.0  23 
-CharacterPalette 891M  0.0  4  
-VTDecoderXPCServ 719M  0.0  4  
-com.apple.WebKit 577M  0.0  11 
+COMMAND          MEM   %CPU #TH 
+Code Helper (GPU 1752M 0.0  15  
+WindowServer     1477M 0.0  23/1
+CharacterPalette 891M  0.0  4   
+VTDecoderXPCServ 719M  0.0  4   
+com.apple.WebKit 577M  0.0  9   
