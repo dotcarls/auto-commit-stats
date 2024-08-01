@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   13.16 3370 43.32  17  7 76  4.05 10.38 6.74
+   13.23 3364 43.48  17  7 76  4.53 10.38 6.76
 
-Processes: 593 total, 6 running, 587 sleeping, 3475 threads 
-2024/08/01 17:33:24
-Load Avg: 4.05, 10.38, 6.74 
-CPU usage: 30.22% user, 15.55% sys, 54.22% idle 
-SharedLibs: 695M resident, 139M data, 52M linkedit.
-MemRegions: 223311 total, 4837M resident, 683M private, 2761M shared.
-PhysMem: 15G used (1959M wired, 172M compressor), 59M unused.
-VM: 241T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 278811/357M in, 82756/13M out.
-Disks: 1029370/12G read, 179719/3372M written.
+Processes: 614 total, 4 running, 610 sleeping, 3810 threads 
+2024/08/01 17:33:27
+Load Avg: 4.53, 10.38, 6.76 
+CPU usage: 24.52% user, 14.17% sys, 61.30% idle 
+SharedLibs: 694M resident, 139M data, 52M linkedit.
+MemRegions: 267935 total, 5144M resident, 655M private, 2995M shared.
+PhysMem: 15G used (2114M wired, 322M compressor), 125M unused.
+VM: 253T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 282467/360M in, 84619/14M out.
+Disks: 1037100/12G read, 181648/3393M written.
 
-COMMAND       MEM  %CPU #TH
-WindowServer  370M 0.0  20 
-Terminal      363M 0.0  9  
-Webex         333M 0.0  75 
-terraform     263M 0.0  19 
-Code42Service 226M 0.0  115
+COMMAND          MEM  %CPU #TH 
+Code Helper (GPU 540M 0.0  14/1
+WindowServer     374M 0.0  21  
+Webex            334M 0.0  75  
+Code Helper (Ren 263M 0.0  25  
+terraform        263M 0.0  19  
