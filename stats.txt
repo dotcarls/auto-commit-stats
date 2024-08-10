@@ -1,21 +1,38 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.07  101  1.78   9  4 87  1.70 1.84 2.05
+   18.06  101  1.78   9  4 87  3.18 2.43 2.22
 
-Processes: 660 total, 5 running, 655 sleeping, 4160 threads 
-2024/08/10 09:08:45
-Load Avg: 1.70, 1.84, 2.05 
-CPU usage: 7.92% user, 11.74% sys, 80.32% idle 
-SharedLibs: 509M resident, 95M data, 25M linkedit.
-MemRegions: 364637 total, 5188M resident, 263M private, 2434M shared.
-PhysMem: 15G used (2689M wired, 2553M compressor), 164M unused.
-VM: 278T vsize, 4921M framework vsize, 7754818(0) swapins, 8528668(0) swapouts.
-Networks: packets: 16450235/10G in, 11367420/4837M out.
-Disks: 60420289/987G read, 15039768/313G written.
+Processes: 673 total, 6 running, 667 sleeping, 4311 threads 
+2024/08/10 09:23:15
+Load Avg: 3.18, 2.43, 2.22 
+CPU usage: 22.12% user, 28.19% sys, 49.67% idle 
+SharedLibs: 519M resident, 98M data, 26M linkedit.
+MemRegions: 474272 total, 4576M resident, 226M private, 2021M shared.
+PhysMem: 15G used (2836M wired, 3666M compressor), 145M unused.
+VM: 295T vsize, 4921M framework vsize, 7756332(0) swapins, 8528668(0) swapouts.
+Networks: packets: 16499264/11G in, 11401805/4848M out.
+Disks: 60488453/988G read, 15076329/313G written.
 
 COMMAND          MEM   %CPU #TH   
-WindowServer     1347M 0.0  22    
+WindowServer     1406M 0.0  21/1  
 CharacterPalette 1292M 0.0  4     
 kernel_task      1181M 0.0  840/12
-com.apple.WebKit 812M  0.0  3     
-Webex            776M  0.0  76    
+com.apple.WebKit 813M  0.0  7     
+Code Helper (GPU 798M  0.0  15    
+Processes: 674 total, 6 running, 668 sleeping, 4311 threads 
+2024/08/10 09:23:15
+Load Avg: 3.18, 2.43, 2.22 
+CPU usage: 22.0% user, 28.0% sys, 50.0% idle 
+SharedLibs: 519M resident, 98M data, 26M linkedit.
+MemRegions: 474355 total, 4583M resident, 226M private, 2021M shared.
+PhysMem: 15G used (2836M wired, 3666M compressor), 147M unused.
+VM: 296T vsize, 4921M framework vsize, 7756332(0) swapins, 8528668(0) swapouts.
+Networks: packets: 16499264/11G in, 11401805/4848M out.
+Disks: 60488453/988G read, 15076329/313G written.
+
+COMMAND          MEM   %CPU #TH   
+WindowServer     1406M 0.0  21/1  
+CharacterPalette 1292M 0.0  4     
+kernel_task      1181M 0.0  840/13
+com.apple.WebKit 813M  0.0  7     
+Code Helper (GPU 798M  0.0  15    
