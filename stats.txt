@@ -1,21 +1,39 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   17.48 5284 90.18  29 13 58  89.56 34.64 13.63
+   17.12 5163 86.31  32 16 52  99.11 38.52 15.25
 
-Processes: 617 total, 33 running, 2 stuck, 582 sleeping, 3612 threads 
-2024/08/15 10:19:33
-Load Avg: 89.56, 34.64, 13.63 
-CPU usage: 61.13% user, 19.17% sys, 19.68% idle 
-SharedLibs: 668M resident, 142M data, 54M linkedit.
-MemRegions: 161818 total, 4772M resident, 817M private, 2325M shared.
-PhysMem: 15G used (1699M wired, 69M compressor), 180M unused.
-VM: 244T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 128397/143M in, 33451/8092K out.
-Disks: 434537/7529M read, 69897/1074M written.
+
+Processes: 787 total, 26 running, 1 stuck, 760 sleeping, 4461 threads 
+2024/08/15 10:19:46
+Load Avg: 99.11, 38.52, 15.25 
+CPU usage: 45.5% user, 53.47% sys, 1.47% idle 
+SharedLibs: 670M resident, 142M data, 54M linkedit.
+MemRegions: 409050 total, 5971M resident, 369M private, 2606M shared.
+PhysMem: 15G used (2048M wired, 1365M compressor), 276M unused.
+VM: 333T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 141635/150M in, 41845/14M out.
+Disks: 487294/8233M read, 75289/1149M written.
 
 COMMAND          MEM  %CPU #TH
-Webex            303M 0.0  75 
-WindowServer     288M 0.0  21 
-System Settings  288M 0.0  4  
-Code Helper (GPU 216M 0.0  16 
-java             140M 0.0  39 
+Code Helper (Plu 728M 0.0  30 
+Code Helper (GPU 619M 0.0  15 
+WindowServer     344M 0.0  23 
+Code Helper (Plu 330M 0.0  22 
+Code Helper (Ren 327M 0.0  29 
+Processes: 787 total, 26 running, 2 stuck, 759 sleeping, 4461 threads 
+2024/08/15 10:19:46
+Load Avg: 99.11, 38.52, 15.25 
+CPU usage: 45.20% user, 53.33% sys, 1.46% idle 
+SharedLibs: 670M resident, 142M data, 54M linkedit.
+MemRegions: 409046 total, 5969M resident, 369M private, 2606M shared.
+PhysMem: 15G used (2048M wired, 1365M compressor), 279M unused.
+VM: 333T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 141635/150M in, 41849/14M out.
+Disks: 487385/8233M read, 75298/1149M written.
+
+COMMAND          MEM  %CPU #TH 
+Code Helper (Plu 728M 0.0  30  
+Code Helper (GPU 619M 0.0  15/1
+WindowServer     344M 0.0  23  
+Code Helper (Plu 330M 0.0  22  
+Code Helper (Ren 327M 0.0  29  
