@@ -1,39 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   15.11   70  1.03   8  3 89  15.05 4.59 2.86
+   14.20   78  1.08   8  3 89  1.97 2.12 2.34
 
+Processes: 623 total, 2 running, 621 sleeping, 4136 threads 
+2024/08/16 11:29:51
+Load Avg: 1.97, 2.12, 2.34 
+CPU usage: 5.54% user, 9.3% sys, 85.42% idle 
+SharedLibs: 497M resident, 90M data, 26M linkedit.
+MemRegions: 537506 total, 4142M resident, 224M private, 2019M shared.
+PhysMem: 15G used (2373M wired, 5104M compressor), 131M unused.
+VM: 283T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 2064473/1253M in, 1294522/409M out.
+Disks: 5263084/71G read, 1832711/25G written.
 
-Processes: 656 total, 50 running, 606 sleeping, 4267 threads 
-2024/08/16 11:04:59
-Load Avg: 15.05, 4.59, 2.86 
-CPU usage: 41.18% user, 52.27% sys, 6.53% idle 
-SharedLibs: 510M resident, 88M data, 26M linkedit.
-MemRegions: 415450 total, 4791M resident, 203M private, 1973M shared.
-PhysMem: 15G used (2297M wired, 3980M compressor), 109M unused.
-VM: 282T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1901443/1094M in, 1204572/386M out.
-Disks: 4504456/66G read, 1699122/23G written.
-
-COMMAND          MEM  %CPU #TH 
-Webex            808M 0.0  77  
-WindowServer     791M 0.0  23  
-Code Helper (Plu 723M 0.0  30  
-Code Helper (GPU 520M 0.0  17/1
-CharacterPalette 457M 0.0  4   
-Processes: 656 total, 49 running, 607 sleeping, 4267 threads 
-2024/08/16 11:04:59
-Load Avg: 15.05, 4.59, 2.86 
-CPU usage: 41.71% user, 51.4% sys, 7.23% idle 
-SharedLibs: 510M resident, 88M data, 26M linkedit.
-MemRegions: 415450 total, 4791M resident, 203M private, 1973M shared.
-PhysMem: 15G used (2297M wired, 3979M compressor), 110M unused.
-VM: 282T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 1901455/1094M in, 1204585/386M out.
-Disks: 4504457/66G read, 1699135/23G written.
-
-COMMAND          MEM  %CPU #TH 
-Webex            808M 0.0  77  
-WindowServer     791M 0.0  23  
-Code Helper (Plu 723M 0.0  30  
-Code Helper (GPU 520M 0.0  17/1
-CharacterPalette 457M 0.0  4   
+COMMAND          MEM  %CPU #TH
+WindowServer     839M 0.0  24 
+Webex            814M 0.0  79 
+Code Helper (Plu 598M 0.0  29 
+Code Helper (GPU 567M 0.0  16 
+com.apple.WebKit 536M 0.0  2  
