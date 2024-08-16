@@ -1,17 +1,30 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.42 1325 23.84  10  5 85  11.79 9.68 9.89
-
-Processes: 791 total, 8 running, 783 sleeping, 4474 threads 
-2024/08/16 15:24:44
-Load Avg: 11.79, 9.68, 9.89 
-CPU usage: 32.95% user, 63.62% sys, 3.42% idle 
+   18.42 1326 23.84  10  5 85  11.79 9.68 9.89
+er, 47.83% sys, 16.34% idle 
 SharedLibs: 727M resident, 144M data, 51M linkedit.
-MemRegions: 430992 total, 5551M resident, 279M private, 2676M shared.
-PhysMem: 15G used (2064M wired, 2695M compressor), 268M unused.
-VM: 336T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 185544/225M in, 66867/12M out.
-Disks: 736997/13G read, 144649/2736M written.
+MemRegions: 430980 total, 5590M resident, 279M private, 2688M shared.
+PhysMem: 15G used (2012M wired, 2688M compressor), 249M unused.
+VM: 335T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 185640/225M in, 66990/12M out.
+Disks: 737085/13G read, 145113/2742M written.
+
+COMMAND          MEM   %CPU #TH
+com.apple.Virtua 2247M 0.0  34 
+Code Helper (Plu 725M  0.0  29 
+Code Helper (GPU 581M  0.0  16 
+com.apple.WebKit 577M  0.0  2  
+WindowServer     544M  0.0  20 
+Processes: 787 total, 8 running, 779 sleeping, 4466 threads 
+2024/08/16 15:24:45
+Load Avg: 11.79, 9.68, 9.89 
+CPU usage: 35.28% user, 54.80% sys, 9.90% idle 
+SharedLibs: 727M resident, 144M data, 51M linkedit.
+MemRegions: 430929 total, 5588M resident, 279M private, 2688M shared.
+PhysMem: 15G used (2012M wired, 2688M compressor), 249M unused.
+VM: 335T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 185640/225M in, 66990/12M out.
+Disks: 737085/13G read, 145113/2742M written.
 
 COMMAND          MEM   %CPU #TH
 com.apple.Virtua 2247M 0.0  34 
@@ -19,20 +32,4 @@ Code Helper (Plu 725M  0.0  29
 Code Helper (GPU 588M  0.0  16 
 com.apple.WebKit 577M  0.0  2  
 WindowServer     544M  0.0  20 
-Processes: 791 total, 6 running, 785 sleeping, 4474 threads 
-2024/08/16 15:24:44
-Load Avg: 11.79, 9.68, 9.89 
-CPU usage: 35.50% user, 59.92% sys, 4.56% idle 
-SharedLibs: 727M resident, 144M data, 51M linkedit.
-MemRegions: 430959 total, 5555M resident, 280M private, 2682M shared.
-PhysMem: 15G used (2064M wired, 2693M compressor), 260M unused.
-VM: 336T vsize, 4921M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 185546/225M in, 66872/12M out.
-Disks: 737022/13G read, 144663/2736M written.
 
-COMMAND          MEM   %CPU #TH
-com.apple.Virtua 2247M 0.0  34 
-Code Helper (Plu 725M  0.0  29 
-Code Helper (GPU 588M  0.0  16 
-com.apple.WebKit 577M  0.0  2  
-WindowServer     544M  0.0  20 
