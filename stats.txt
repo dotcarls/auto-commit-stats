@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   21.66 6076 128.54  29 15 55  96.87 29.01 10.90
+   18.58 1244 22.57  18  9 74  101.52 33.18 17.08
 
-Processes: 520 total, 33 running, 1 stuck, 486 sleeping, 3208 threads 
-2024/08/29 10:21:20
-Load Avg: 96.87, 29.01, 10.90 
-CPU usage: 29.46% user, 22.32% sys, 48.21% idle 
-SharedLibs: 628M resident, 136M data, 87M linkedit.
-MemRegions: 96059 total, 3374M resident, 703M private, 2100M shared.
-PhysMem: 15G used (1406M wired, 0B compressor), 736M unused.
-VM: 201T vsize, 4915M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 54619/56M in, 21109/6286K out.
-Disks: 314413/7162M read, 62809/803M written.
+Processes: 919 total, 57 running, 1 stuck, 861 sleeping, 5548 threads 
+2024/08/29 10:29:08
+Load Avg: 101.52, 33.18, 17.08 
+CPU usage: 34.17% user, 65.59% sys, 0.23% idle 
+SharedLibs: 377M resident, 80M data, 26M linkedit.
+MemRegions: 879575 total, 2896M resident, 107M private, 2245M shared.
+PhysMem: 15G used (2944M wired, 6990M compressor), 176M unused.
+VM: 432T vsize, 4915M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 199981/131M in, 115279/49M out.
+Disks: 530138/10G read, 128207/1768M written.
 
-COMMAND      MEM  %CPU #TH 
-Webex        326M 0.0  76/1
-WindowServer 276M 0.0  21  
-WebexHelper  179M 0.0  67  
-java         136M 0.0  40  
-Finder       99M  0.0  6   
+COMMAND          MEM   %CPU #TH 
+Code Helper (GPU 1365M 0.0  16  
+Code Helper (Plu 734M  0.0  29  
+WindowServer     667M  0.0  20/1
+Webex            494M  0.0  84  
+com.cisco.endpoi 344M  0.0  4   
