@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.13  166  2.61  11  5 84  4.35 5.99 5.87
+   18.72 7862 143.73  30 16 54  78.03 30.47 11.95
 
-Processes: 541 total, 2 running, 539 sleeping, 3268 threads 
-2024/09/05 12:23:51
-Load Avg: 4.35, 5.99, 5.87 
-CPU usage: 13.57% user, 12.14% sys, 74.28% idle 
-SharedLibs: 489M resident, 77M data, 27M linkedit.
-MemRegions: 125082 total, 2421M resident, 231M private, 1515M shared.
-PhysMem: 14G used (2438M wired, 2012M compressor), 1336M unused.
-VM: 209T vsize, 4915M framework vsize, 2507159(0) swapins, 3204177(0) swapouts.
-Networks: packets: 17161348/12G in, 10757147/4326M out.
-Disks: 87400686/1293G read, 14110934/268G written.
+Processes: 596 total, 17 running, 1 stuck, 578 sleeping, 3821 threads 
+2024/09/05 13:16:29
+Load Avg: 78.03, 30.47, 11.95 
+CPU usage: 25.50% user, 17.44% sys, 57.4% idle 
+SharedLibs: 678M resident, 138M data, 52M linkedit.
+MemRegions: 109064 total, 3704M resident, 653M private, 3222M shared.
+PhysMem: 15G used (1503M wired, 685M compressor), 732M unused.
+VM: 230T vsize, 4915M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 155697/201M in, 42499/7008K out.
+Disks: 520256/9390M read, 108815/2108M written.
 
 COMMAND          MEM   %CPU #TH
-com.apple.Virtua 1084M 0.0  34 
-WindowServer     673M  0.0  21 
-ruby             533M  0.0  5  
-CharacterPalette 505M  0.0  4  
-Webex            375M  0.0  85 
+com.apple.Virtua 1867M 0.0  34 
+Webex            344M  0.0  85 
+WindowServer     328M  0.0  21 
+Microsoft Outloo 288M  0.0  30 
+Docker Desktop H 164M  0.0  19 
