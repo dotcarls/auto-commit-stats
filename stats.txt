@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   17.54 1698 29.09   5  3 91  79.95 18.87 6.87
+   16.83 1910 31.40  12  7 81  22.98 15.43 9.58
 
-Processes: 492 total, 90 running, 402 sleeping, 3771 threads 
-2024/09/09 07:51:27
-Load Avg: 79.95, 18.87, 6.87 
-CPU usage: 36.66% user, 22.50% sys, 40.83% idle 
-SharedLibs: 869M resident, 133M data, 72M linkedit.
-MemRegions: 114191 total, 3476M resident, 654M private, 2012M shared.
-PhysMem: 13G used (1463M wired, 0B compressor), 2386M unused.
-VM: 192T vsize, 4915M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 6566/3678K in, 5603/1594K out.
-Disks: 328984/5790M read, 44151/612M written.
+Processes: 739 total, 6 running, 733 sleeping, 4209 threads 
+2024/09/09 07:57:42
+Load Avg: 22.98, 15.43, 9.58 
+CPU usage: 44.15% user, 44.33% sys, 11.50% idle 
+SharedLibs: 708M resident, 143M data, 51M linkedit.
+MemRegions: 466396 total, 5955M resident, 165M private, 2353M shared.
+PhysMem: 15G used (2184M wired, 2591M compressor), 186M unused.
+VM: 319T vsize, 4915M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 109503/81M in, 81857/24M out.
+Disks: 959923/15G read, 175395/3777M written.
 
-COMMAND          MEM  %CPU #TH 
-Webex            278M 0.0  84/1
-WindowServer     204M 0.0  24/4
-Podman Desktop   177M 0.0  40  
-java             139M 0.0  42  
-Podman Desktop H 131M 0.0  20  
+COMMAND          MEM   %CPU #TH
+Code Helper (Plu 1063M 0.0  38 
+Code Helper (GPU 798M  0.0  14 
+WindowServer     395M  0.0  22 
+Code Helper (Ren 350M  0.0  25 
+Webex            336M  0.0  74 
