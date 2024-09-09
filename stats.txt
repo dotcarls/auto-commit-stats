@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   17.66  210  3.63  12  8 80  4.31 5.37 5.56
+   17.66  211  3.63  12  8 80  18.62 8.13 6.50
 
-Processes: 518 total, 7 running, 511 sleeping, 3319 threads 
-2024/09/09 07:42:00
-Load Avg: 4.31, 5.37, 5.56 
-CPU usage: 18.4% user, 12.78% sys, 69.17% idle 
-SharedLibs: 696M resident, 116M data, 46M linkedit.
-MemRegions: 124888 total, 3366M resident, 483M private, 2178M shared.
-PhysMem: 14G used (2326M wired, 1056M compressor), 1187M unused.
-VM: 201T vsize, 4915M framework vsize, 4025184(0) swapins, 5183725(0) swapouts.
-Networks: packets: 11295337/8601M in, 8036263/3922M out.
-Disks: 56223044/891G read, 12296331/263G written.
+Processes: 563 total, 20 running, 1 stuck, 542 sleeping, 3843 threads 
+2024/09/09 07:43:52
+Load Avg: 18.62, 8.13, 6.50 
+CPU usage: 54.14% user, 45.60% sys, 0.24% idle 
+SharedLibs: 573M resident, 104M data, 38M linkedit.
+MemRegions: 401641 total, 5244M resident, 204M private, 2279M shared.
+PhysMem: 15G used (2886M wired, 2378M compressor), 154M unused.
+VM: 246T vsize, 4915M framework vsize, 4025481(0) swapins, 5183725(0) swapouts.
+Networks: packets: 11319958/8613M in, 8054557/3934M out.
+Disks: 56286557/892G read, 12309155/263G written.
 
 COMMAND          MEM   %CPU #TH 
 com.apple.Virtua 8088M 0.0  33  
-WindowServer     600M  0.0  22/1
-CharacterPalette 533M  0.0  4   
-com.docker.backe 415M  0.0  29  
-Code42Service    346M  0.0  121 
+Code Helper (Plu 978M  0.0  38/1
+WindowServer     882M  0.0  23  
+Code Helper (GPU 697M  0.0  14  
+CharacterPalette 532M  0.0  4   
