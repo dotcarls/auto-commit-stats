@@ -1,21 +1,38 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   17.68 8114 140.07  34 18 49  185.55 41.32 14.76
+   19.19 7500 140.53  40 23 36  374.97 90.08 32.61
 
-Processes: 566 total, 365 running, 2 stuck, 199 sleeping, 4894 threads 
-2024/09/11 08:57:35
-Load Avg: 307.76, 72.24, 26.04 
-CPU usage: 64.57% user, 35.42% sys, 0.0% idle 
-SharedLibs: 595M resident, 127M data, 45M linkedit.
-MemRegions: 583772 total, 6120M resident, 318M private, 2465M shared.
-PhysMem: 15G used (2430M wired, 3255M compressor), 375M unused.
-VM: 270T vsize, 4915M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 19808/15M in, 15456/9318K out.
-Disks: 313738/6136M read, 44578/498M written.
+Processes: 742 total, 269 running, 7 stuck, 466 sleeping, 6056 threads 
+2024/09/11 08:57:44
+Load Avg: 404.68, 100.97, 36.79 
+CPU usage: 36.36% user, 63.38% sys, 0.25% idle 
+SharedLibs: 433M resident, 93M data, 29M linkedit.
+MemRegions: 733830 total, 3626M resident, 230M private, 2796M shared.
+PhysMem: 15G used (2550M wired, 5723M compressor), 542M unused.
+VM: 351T vsize, 4915M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 27078/21M in, 20067/10M out.
+Disks: 357564/7123M read, 53453/591M written.
 
 COMMAND          MEM   %CPU #TH 
-Code Helper (GPU 1359M 0.0  20/4
-Code Helper (Ren 332M  0.0  28  
-Webex            323M  0.0  91/8
-Code Helper (Ren 317M  0.0  29  
-Code Helper (Ren 308M  0.0  26  
+com.apple.Virtua 1347M 0.0  39/2
+Code Helper (GPU 1157M 0.0  18/2
+Code Helper (Ren 382M  0.0  28  
+WindowServer     375M  0.0  26/5
+Code Helper (Ren 371M  0.0  25  
+Processes: 742 total, 268 running, 5 stuck, 469 sleeping, 6056 threads 
+2024/09/11 08:57:44
+Load Avg: 404.68, 100.97, 36.79 
+CPU usage: 36.46% user, 63.28% sys, 0.25% idle 
+SharedLibs: 433M resident, 93M data, 29M linkedit.
+MemRegions: 733726 total, 3626M resident, 230M private, 2796M shared.
+PhysMem: 15G used (2549M wired, 5723M compressor), 537M unused.
+VM: 351T vsize, 4915M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 27078/21M in, 20067/10M out.
+Disks: 357569/7123M read, 53461/591M written.
+
+COMMAND          MEM   %CPU #TH 
+com.apple.Virtua 1347M 0.0  39/2
+Code Helper (GPU 1157M 0.0  18/2
+Code Helper (Ren 382M  0.0  28  
+WindowServer     375M  0.0  26/5
+Code Helper (Ren 371M  0.0  25  
