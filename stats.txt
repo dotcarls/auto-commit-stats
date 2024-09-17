@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.93  213  4.14  11  6 83  3.77 2.96 2.61
+   19.90  215  4.18  11  6 83  3.34 3.45 3.37
 
-Processes: 597 total, 2 running, 595 sleeping, 5279 threads 
-2024/09/17 14:46:33
-Load Avg: 3.77, 2.96, 2.61 
-CPU usage: 5.54% user, 9.40% sys, 85.5% idle 
-SharedLibs: 408M resident, 73M data, 21M linkedit.
-MemRegions: 995298 total, 2925M resident, 123M private, 2422M shared.
-PhysMem: 15G used (2854M wired, 6750M compressor), 181M unused.
-VM: 321T vsize, 4915M framework vsize, 5686800(0) swapins, 6935903(0) swapouts.
-Networks: packets: 20205830/16G in, 13057800/4897M out.
-Disks: 96089738/1685G read, 18670632/496G written.
+Processes: 638 total, 6 running, 632 sleeping, 5335 threads 
+2024/09/17 16:29:06
+Load Avg: 3.34, 3.45, 3.37 
+CPU usage: 12.93% user, 13.54% sys, 73.52% idle 
+SharedLibs: 361M resident, 59M data, 16M linkedit.
+MemRegions: 987859 total, 2696M resident, 106M private, 2056M shared.
+PhysMem: 15G used (2825M wired, 7220M compressor), 182M unused.
+VM: 336T vsize, 4915M framework vsize, 5774689(0) swapins, 6964827(0) swapouts.
+Networks: packets: 21114659/17G in, 13431543/5001M out.
+Disks: 98266595/1723G read, 19062939/504G written.
 
-COMMAND          MEM   %CPU #TH
-com.apple.Virtua 8104M 0.0  33 
-WindowServer     1694M 0.0  23 
-Code Helper (GPU 1063M 0.0  14 
-com.apple.WebKit 975M  0.0  15 
-CharacterPalette 673M  0.0  5  
+COMMAND          MEM   %CPU #TH   
+com.apple.Virtua 8104M 0.0  34    
+WindowServer     1732M 0.0  20/1  
+Code Helper (GPU 1012M 0.0  12    
+kernel_task      728M  0.0  589/12
+CharacterPalette 673M  0.0  4     
