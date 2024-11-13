@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.11   97  1.72  10  6 84  80.90 52.05 34.53
+   18.90  124  2.28  10  6 84  6.95 4.30 3.79
 
-Processes: 615 total, 9 running, 606 sleeping, 4516 threads 
-2024/11/11 11:02:23
-Load Avg: 80.90, 52.05, 34.53 
-CPU usage: 29.20% user, 25.20% sys, 45.59% idle 
-SharedLibs: 541M resident, 99M data, 31M linkedit.
-MemRegions: 683431 total, 5334M resident, 320M private, 2352M shared.
-PhysMem: 15G used (2854M wired, 2812M compressor), 233M unused.
-VM: 296T vsize, 4915M framework vsize, 283008(0) swapins, 663996(0) swapouts.
-Networks: packets: 18002872/15G in, 11332053/4483M out.
-Disks: 76376555/1244G read, 16033187/352G written.
+Processes: 624 total, 6 running, 2 stuck, 616 sleeping, 4892 threads 
+2024/11/12 19:11:07
+Load Avg: 6.95, 4.30, 3.79 
+CPU usage: 28.61% user, 30.24% sys, 41.14% idle 
+SharedLibs: 418M resident, 80M data, 20M linkedit.
+MemRegions: 804989 total, 2815M resident, 124M private, 1602M shared.
+PhysMem: 15G used (3333M wired, 7312M compressor), 109M unused.
+VM: 309T vsize, 4915M framework vsize, 454007(0) swapins, 983016(0) swapouts.
+Networks: packets: 24028618/21G in, 14174281/5232M out.
+Disks: 110076048/1876G read, 21703098/500G written.
 
-COMMAND          MEM   %CPU #TH 
-WindowServer     1411M 0.0  21/1
-Code Helper (GPU 898M  0.0  14  
-Webex            670M  0.0  78/1
-CharacterPalette 524M  0.0  3   
-Microsoft Outloo 462M  0.0  31  
-Processes: 615 total, 11 running, 604 sleeping, 4515 threads 
-2024/11/11 11:02:24
-Load Avg: 80.90, 52.05, 34.53 
-CPU usage: 27.96% user, 25.39% sys, 46.64% idle 
-SharedLibs: 541M resident, 99M data, 31M linkedit.
-MemRegions: 683502 total, 5338M resident, 320M private, 2352M shared.
-PhysMem: 15G used (2856M wired, 2812M compressor), 225M unused.
-VM: 296T vsize, 4915M framework vsize, 283008(0) swapins, 663996(0) swapouts.
-Networks: packets: 18002890/15G in, 11332053/4483M out.
-Disks: 76377466/1244G read, 16033196/352G written.
-
-COMMAND          MEM   %CPU #TH 
-WindowServer     1411M 0.0  21/1
-Code Helper (GPU 891M  0.0  14  
-Webex            669M  0.0  77/1
-CharacterPalette 524M  0.0  3   
-Microsoft Outloo 462M  0.0  31  
+COMMAND          MEM   %CPU #TH
+WindowServer     1598M 0.0  21 
+Webex            1136M 0.0  79 
+Code Helper (GPU 1041M 0.0  15 
+CharacterPalette 781M  0.0  3  
+com.apple.WebKit 540M  0.0  9  
