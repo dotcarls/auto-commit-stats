@@ -1,21 +1,39 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   31.55  755 23.27   4  2 94  30.76 20.55 11.05
+   32.41  769 24.32   4  2 94  30.76 20.55 11.05
 
-Processes: 647 total, 27 running, 4 stuck, 616 sleeping, 4356 threads 
-2024/11/12 20:27:28
-Load Avg: 30.76, 20.55, 11.05 
-CPU usage: 63.86% user, 36.13% sys, 0.0% idle 
-SharedLibs: 663M resident, 136M data, 50M linkedit.
-MemRegions: 595660 total, 6422M resident, 178M private, 2524M shared.
-PhysMem: 15G used (2295M wired, 2352M compressor), 197M unused.
-VM: 301T vsize, 4915M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 175590/215M in, 55163/11M out.
-Disks: 969931/31G read, 133002/2526M written.
+
+Processes: 761 total, 10 running, 2 stuck, 749 sleeping, 4638 threads 
+2024/11/12 20:27:32
+Load Avg: 31.26, 20.82, 11.20 
+CPU usage: 48.33% user, 50.67% sys, 0.98% idle 
+SharedLibs: 662M resident, 136M data, 50M linkedit.
+MemRegions: 607195 total, 5595M resident, 172M private, 2581M shared.
+PhysMem: 15G used (2334M wired, 2982M compressor), 157M unused.
+VM: 344T vsize, 4915M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 176837/217M in, 55795/11M out.
+Disks: 985357/32G read, 134027/2538M written.
 
 COMMAND          MEM  %CPU #TH 
-Code Helper (GPU 974M 0.0  18  
-Code Helper (Ren 453M 0.0  27  
-terraform-ls     422M 0.0  18/1
-Webex            392M 0.0  116 
-Code Helper (Ren 372M 0.0  25  
+Code Helper (GPU 965M 0.0  17  
+Code Helper (Ren 457M 0.0  27/1
+terraform-ls     455M 0.0  18  
+WindowServer     395M 0.0  21  
+Webex            392M 0.0  115 
+Processes: 761 total, 13 running, 3 stuck, 745 sleeping, 4637 threads 
+2024/11/12 20:27:32
+Load Avg: 31.26, 20.82, 11.20 
+CPU usage: 48.28% user, 51.34% sys, 0.36% idle 
+SharedLibs: 662M resident, 136M data, 50M linkedit.
+MemRegions: 607237 total, 5497M resident, 171M private, 2660M shared.
+PhysMem: 15G used (2370M wired, 2982M compressor), 109M unused.
+VM: 344T vsize, 4915M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 176837/217M in, 55799/11M out.
+Disks: 985584/32G read, 134432/2549M written.
+
+COMMAND          MEM  %CPU #TH
+Code Helper (GPU 965M 0.0  17 
+Code Helper (Ren 457M 0.0  27 
+terraform-ls     455M 0.0  18 
+WindowServer     395M 0.0  21 
+Webex            392M 0.0  115
