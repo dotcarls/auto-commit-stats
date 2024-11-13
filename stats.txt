@@ -1,21 +1,39 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   27.20   74  1.95   9  4 87  15.43 8.40 5.25
+   27.19   74  1.96   9  4 87  31.01 11.75 6.45
 
-Processes: 649 total, 51 running, 1 stuck, 597 sleeping, 3840 threads 
-2024/11/13 08:35:19
-Load Avg: 15.43, 8.40, 5.25 
-CPU usage: 67.98% user, 32.1% sys, 0.0% idle 
-SharedLibs: 600M resident, 102M data, 39M linkedit.
-MemRegions: 391690 total, 5560M resident, 365M private, 2305M shared.
-PhysMem: 15G used (2342M wired, 1460M compressor), 133M unused.
-VM: 280T vsize, 4915M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 725504/631M in, 408649/74M out.
-Disks: 2547774/71G read, 774284/15G written.
+
+Processes: 658 total, 36 running, 3 stuck, 619 sleeping, 4064 threads 
+2024/11/13 08:35:27
+Load Avg: 37.98, 13.51, 7.10 
+CPU usage: 66.88% user, 33.11% sys, 0.0% idle 
+SharedLibs: 593M resident, 99M data, 40M linkedit.
+MemRegions: 538816 total, 6211M resident, 300M private, 2176M shared.
+PhysMem: 15G used (2265M wired, 2432M compressor), 149M unused.
+VM: 299T vsize, 4915M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 731081/636M in, 412143/76M out.
+Disks: 2563701/71G read, 777087/15G written.
 
 COMMAND          MEM   %CPU #TH
-Code Helper (GPU 1436M 0.0  15 
+Code Helper (GPU 1070M 0.0  16 
 Code Helper (Ren 317M  0.0  25 
-Code Helper (Ren 293M  0.0  24 
-Code Helper (Ren 292M  0.0  26 
-Code Helper (Ren 288M  0.0  27 
+Code Helper (Ren 308M  0.0  27 
+Code Helper (Ren 299M  0.0  25 
+Code Helper (Ren 288M  0.0  23 
+Processes: 657 total, 40 running, 617 sleeping, 4058 threads 
+2024/11/13 08:35:27
+Load Avg: 37.98, 13.51, 7.10 
+CPU usage: 66.77% user, 33.22% sys, 0.0% idle 
+SharedLibs: 593M resident, 99M data, 40M linkedit.
+MemRegions: 538745 total, 6164M resident, 284M private, 2154M shared.
+PhysMem: 15G used (2265M wired, 2432M compressor), 137M unused.
+VM: 298T vsize, 4915M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 731081/636M in, 412144/76M out.
+Disks: 2563707/71G read, 777087/15G written.
+
+COMMAND          MEM   %CPU #TH 
+Code Helper (GPU 1052M 0.0  16  
+Code Helper (Ren 317M  0.0  25  
+Code Helper (Ren 307M  0.0  27  
+Code Helper (Ren 299M  0.0  25  
+Code Helper (Ren 288M  0.0  23/1
