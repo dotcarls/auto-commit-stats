@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   27.12   75  1.98   9  4 87  40.70 14.48 7.48
+   23.34  155  3.53  12  5 83  5.83 3.44 3.05
 
-Processes: 736 total, 7 running, 3 stuck, 726 sleeping, 4603 threads 
-2024/11/13 08:35:34
-Load Avg: 40.70, 14.48, 7.48 
-CPU usage: 33.33% user, 50.44% sys, 16.22% idle 
-SharedLibs: 600M resident, 100M data, 40M linkedit.
-MemRegions: 579461 total, 5417M resident, 208M private, 2220M shared.
-PhysMem: 15G used (2109M wired, 3181M compressor), 198M unused.
-VM: 332T vsize, 4915M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 736751/642M in, 414834/77M out.
-Disks: 2603644/72G read, 788667/15G written.
+Processes: 593 total, 6 running, 2 stuck, 585 sleeping, 4532 threads 
+2024/11/13 15:20:09
+Load Avg: 5.83, 3.44, 3.05 
+CPU usage: 12.77% user, 15.0% sys, 72.22% idle 
+SharedLibs: 488M resident, 82M data, 25M linkedit.
+MemRegions: 665422 total, 2792M resident, 127M private, 2107M shared.
+PhysMem: 15G used (2542M wired, 7393M compressor), 190M unused.
+VM: 285T vsize, 4915M framework vsize, 13526(0) swapins, 86672(0) swapouts.
+Networks: packets: 2385868/1493M in, 2208316/865M out.
+Disks: 8615578/197G read, 2127417/42G written.
 
-COMMAND          MEM  %CPU #TH
-Code Helper (GPU 912M 0.0  15 
-terraform-ls     598M 0.0  17 
-Code Helper (Ren 388M 0.0  25 
-Code Helper (Ren 379M 0.0  27 
-Code Helper (Ren 348M 0.0  24 
+COMMAND          MEM   %CPU #TH
+WindowServer     1602M 0.0  20 
+Code Helper (GPU 851M  0.0  14 
+com.apple.WebKit 688M  0.0  14 
+com.apple.WebKit 681M  0.0  14 
+com.apple.WebKit 644M  0.0  14 
