@@ -1,21 +1,21 @@
-              disk0       cpu    load average
-    KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.20  190  3.38  12  6 81  4.98 3.70 3.09
+              disk0               disk4               disk5       cpu    load average
+    KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
+   22.37  156  3.41   474.09    0  0.00   290.59    0  0.00  12  6 82  3.80 4.26 4.21
 
-Processes: 642 total, 3 running, 639 sleeping, 4774 threads 
-2024/12/06 19:31:30
-Load Avg: 4.98, 3.70, 3.09 
-CPU usage: 6.32% user, 9.74% sys, 83.92% idle 
-SharedLibs: 474M resident, 106M data, 70M linkedit.
-MemRegions: 826119 total, 3673M resident, 156M private, 2247M shared.
-PhysMem: 15G used (2856M wired, 5673M compressor), 223M unused.
-VM: 315T vsize, 5430M framework vsize, 177777(0) swapins, 376388(0) swapouts.
-Networks: packets: 13171663/12G in, 6488214/2345M out.
-Disks: 41778579/704G read, 11311079/217G written.
+Processes: 753 total, 3 running, 750 sleeping, 5728 threads 
+2024/12/10 12:08:03
+Load Avg: 3.80, 4.26, 4.21 
+CPU usage: 10.99% user, 12.7% sys, 76.93% idle 
+SharedLibs: 390M resident, 80M data, 56M linkedit.
+MemRegions: 844204 total, 2559M resident, 137M private, 2098M shared.
+PhysMem: 15G used (2949M wired, 7351M compressor), 378M unused.
+VM: 357T vsize, 5430M framework vsize, 316607(0) swapins, 620152(0) swapouts.
+Networks: packets: 31106123/34G in, 14507860/4034M out.
+Disks: 75288363/1634G read, 18035815/357G written.
 
 COMMAND          MEM   %CPU #TH   
-WindowServer     1885M 0.0  23    
-Webex            1291M 0.0  121   
-Code Helper (GPU 1096M 0.0  14    
-kernel_task      911M  0.0  641/12
-com.cisco.anycon 841M  0.0  8     
+WindowServer     2097M 0.0  22    
+Webex            1818M 0.0  121   
+com.cisco.anycon 1237M 0.0  9     
+kernel_task      857M  0.0  739/12
+firefox          828M  0.0  89    
