@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.18  268  5.02  11  6 83  5.11 9.37 8.81
+   17.95  201  3.52  12  7 81  2.78 2.69 2.93
 
-Processes: 651 total, 11 running, 640 sleeping, 5359 threads 
-2024/12/13 21:01:13
-Load Avg: 5.11, 9.37, 8.81 
-CPU usage: 49.5% user, 44.60% sys, 6.33% idle 
-SharedLibs: 348M resident, 79M data, 50M linkedit.
-MemRegions: 828974 total, 2860M resident, 155M private, 1514M shared.
-PhysMem: 15G used (3099M wired, 7380M compressor), 304M unused.
-VM: 318T vsize, 5430M framework vsize, 1421363(0) swapins, 1896609(0) swapouts.
-Networks: packets: 10263722/8327M in, 7265657/3169M out.
-Disks: 35001570/582G read, 10693208/254G written.
-
-COMMAND          MEM   %CPU #TH
-com.apple.Virtua 8104M 0.0  38 
-WindowServer     1618M 0.0  23 
-Terminal         956M  0.0  10 
-Code Helper (GPU 924M  0.0  15 
-CharacterPalette 778M  0.0  7  
-Processes: 650 total, 10 running, 2 stuck, 638 sleeping, 5349 threads 
-2024/12/13 21:01:14
-Load Avg: 5.11, 9.37, 8.81 
-CPU usage: 29.73% user, 23.76% sys, 46.49% idle 
-SharedLibs: 345M resident, 79M data, 49M linkedit.
-MemRegions: 838335 total, 2602M resident, 134M private, 1802M shared.
-PhysMem: 15G used (2934M wired, 7404M compressor), 370M unused.
-VM: 319T vsize, 5430M framework vsize, 1421446(0) swapins, 1896609(0) swapouts.
-Networks: packets: 10263898/8327M in, 7265878/3169M out.
-Disks: 35002604/582G read, 10693474/254G written.
+Processes: 626 total, 2 running, 624 sleeping, 5426 threads 
+2024/12/16 15:56:29
+Load Avg: 2.78, 2.69, 2.93 
+CPU usage: 18.93% user, 17.15% sys, 63.90% idle 
+SharedLibs: 403M resident, 91M data, 60M linkedit.
+MemRegions: 1047920 total, 2886M resident, 148M private, 1837M shared.
+PhysMem: 15G used (2943M wired, 6769M compressor), 278M unused.
+VM: 330T vsize, 5430M framework vsize, 3770301(0) swapins, 4657322(0) swapouts.
+Networks: packets: 14508921/12G in, 9703309/3956M out.
+Disks: 63861996/1002G read, 18723566/412G written.
 
 COMMAND          MEM   %CPU #TH
-com.apple.Virtua 8104M 0.0  38 
-WindowServer     1617M 0.0  23 
-Code Helper (GPU 1028M 0.0  14 
-Terminal         956M  0.0  10 
-CharacterPalette 778M  0.0  7  
+node             3024M 0.0  14 
+deno             1332M 0.0  18 
+Code Helper (Plu 1308M 0.0  10 
+WindowServer     1144M 0.0  23 
+Code Helper (GPU 1046M 0.0  17 
