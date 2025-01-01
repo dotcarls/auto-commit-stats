@@ -1,21 +1,21 @@
-              disk0               disk4       cpu    load average
-    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   24.66 1432 34.49    86.53    0  0.00  26 12 62  22.51 19.41 17.28
+              disk0       cpu    load average
+    KB/t  tps  MB/s  us sy id   1m   5m   15m
+   18.22   46  0.83  16  8 76  71.17 74.58 66.21
 
-Processes: 689 total, 9 running, 680 sleeping, 5164 threads 
-2024/12/18 15:49:40
-Load Avg: 21.51, 19.25, 17.23 
-CPU usage: 33.33% user, 23.99% sys, 42.67% idle 
-SharedLibs: 403M resident, 93M data, 48M linkedit.
-MemRegions: 726699 total, 2642M resident, 223M private, 1830M shared.
-PhysMem: 15G used (2603M wired, 6864M compressor), 348M unused.
-VM: 332T vsize, 5533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 3325071/4593M in, 521332/83M out.
-Disks: 4596700/89G read, 1490582/54G written.
+Processes: 602 total, 19 running, 583 sleeping, 3799 threads 
+2025/01/01 17:54:13
+Load Avg: 71.17, 74.58, 66.21 
+CPU usage: 24.16% user, 19.16% sys, 56.66% idle 
+SharedLibs: 635M resident, 134M data, 87M linkedit.
+MemRegions: 186902 total, 3574M resident, 569M private, 1880M shared.
+PhysMem: 15G used (2110M wired, 612M compressor), 275M unused.
+VM: 241T vsize, 5533M framework vsize, 509442(0) swapins, 808015(0) swapouts.
+Networks: packets: 9616388/10G in, 4013779/1065M out.
+Disks: 39557762/699G read, 17139568/286G written.
 
-COMMAND          MEM   %CPU #TH 
-ruby             1251M 0.0  6   
-WindowServer     1048M 0.0  22/1
-Code Helper (GPU 708M  0.0  14  
-firefox          425M  0.0  72  
-Webex            420M  0.0  123 
+COMMAND       MEM  %CPU #TH  
+WindowServer  513M 0.0  21   
+Code42Service 361M 0.0  121/6
+csc_iseagentd 311M 0.0  7    
+Finder        247M 0.0  6    
+Safari        217M 0.0  11/1 
