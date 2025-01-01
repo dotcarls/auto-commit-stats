@@ -1,21 +1,39 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.22   46  0.83  16  8 76  71.17 74.58 66.21
+   18.23   47  0.83  16  8 76  78.88 75.81 66.82
 
-Processes: 602 total, 19 running, 583 sleeping, 3799 threads 
-2025/01/01 17:54:13
-Load Avg: 71.17, 74.58, 66.21 
-CPU usage: 24.16% user, 19.16% sys, 56.66% idle 
-SharedLibs: 635M resident, 134M data, 87M linkedit.
-MemRegions: 186902 total, 3574M resident, 569M private, 1880M shared.
-PhysMem: 15G used (2110M wired, 612M compressor), 275M unused.
-VM: 241T vsize, 5533M framework vsize, 509442(0) swapins, 808015(0) swapouts.
-Networks: packets: 9616388/10G in, 4013779/1065M out.
-Disks: 39557762/699G read, 17139568/286G written.
 
-COMMAND       MEM  %CPU #TH  
-WindowServer  513M 0.0  21   
-Code42Service 361M 0.0  121/6
-csc_iseagentd 311M 0.0  7    
-Finder        247M 0.0  6    
-Safari        217M 0.0  11/1 
+Processes: 636 total, 10 running, 6 stuck, 620 sleeping, 4350 threads 
+2025/01/01 17:54:35
+Load Avg: 78.88, 75.81, 66.82 
+CPU usage: 35.87% user, 32.82% sys, 31.30% idle 
+SharedLibs: 603M resident, 130M data, 84M linkedit.
+MemRegions: 409975 total, 5220M resident, 498M private, 2146M shared.
+PhysMem: 15G used (2202M wired, 862M compressor), 366M unused.
+VM: 277T vsize, 5533M framework vsize, 509763(0) swapins, 808015(0) swapouts.
+Networks: packets: 9621379/10G in, 4018375/1067M out.
+Disks: 39648141/701G read, 17174215/286G written.
+
+COMMAND          MEM  %CPU #TH 
+Code Helper (GPU 616M 0.0  15  
+WindowServer     531M 0.0  21/1
+Code42Service    378M 0.0  120 
+csc_iseagentd    312M 0.0  6   
+Code Helper (Ren 301M 0.0  24  
+Processes: 636 total, 11 running, 6 stuck, 619 sleeping, 4350 threads 
+2025/01/01 17:54:35
+Load Avg: 78.88, 75.81, 66.82 
+CPU usage: 35.87% user, 32.82% sys, 31.30% idle 
+SharedLibs: 603M resident, 130M data, 84M linkedit.
+MemRegions: 409975 total, 5220M resident, 498M private, 2146M shared.
+PhysMem: 15G used (2202M wired, 862M compressor), 365M unused.
+VM: 277T vsize, 5533M framework vsize, 509763(0) swapins, 808015(0) swapouts.
+Networks: packets: 9621379/10G in, 4018375/1067M out.
+Disks: 39648142/701G read, 17174215/286G written.
+
+COMMAND          MEM  %CPU #TH 
+Code Helper (GPU 616M 0.0  15  
+WindowServer     531M 0.0  21/1
+Code42Service    378M 0.0  120 
+csc_iseagentd    312M 0.0  6   
+Code Helper (Ren 301M 0.0  24  
