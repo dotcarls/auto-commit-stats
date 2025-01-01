@@ -1,39 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.23   47  0.83  16  8 76  78.88 75.81 66.82
+   18.24   47  0.83  16  8 76  39.90 64.30 63.20
 
+Processes: 642 total, 6 running, 636 sleeping, 4204 threads 
+2025/01/01 17:55:49
+Load Avg: 39.90, 64.30, 63.20 
+CPU usage: 24.71% user, 17.97% sys, 57.30% idle 
+SharedLibs: 599M resident, 129M data, 84M linkedit.
+MemRegions: 421044 total, 5256M resident, 490M private, 2024M shared.
+PhysMem: 15G used (2306M wired, 1012M compressor), 285M unused.
+VM: 281T vsize, 5533M framework vsize, 511295(0) swapins, 808015(0) swapouts.
+Networks: packets: 9637407/10G in, 4028471/1070M out.
+Disks: 39804784/705G read, 17311686/288G written.
 
-Processes: 636 total, 10 running, 6 stuck, 620 sleeping, 4350 threads 
-2025/01/01 17:54:35
-Load Avg: 78.88, 75.81, 66.82 
-CPU usage: 35.87% user, 32.82% sys, 31.30% idle 
-SharedLibs: 603M resident, 130M data, 84M linkedit.
-MemRegions: 409975 total, 5220M resident, 498M private, 2146M shared.
-PhysMem: 15G used (2202M wired, 862M compressor), 366M unused.
-VM: 277T vsize, 5533M framework vsize, 509763(0) swapins, 808015(0) swapouts.
-Networks: packets: 9621379/10G in, 4018375/1067M out.
-Disks: 39648141/701G read, 17174215/286G written.
-
-COMMAND          MEM  %CPU #TH 
-Code Helper (GPU 616M 0.0  15  
-WindowServer     531M 0.0  21/1
-Code42Service    378M 0.0  120 
-csc_iseagentd    312M 0.0  6   
-Code Helper (Ren 301M 0.0  24  
-Processes: 636 total, 11 running, 6 stuck, 619 sleeping, 4350 threads 
-2025/01/01 17:54:35
-Load Avg: 78.88, 75.81, 66.82 
-CPU usage: 35.87% user, 32.82% sys, 31.30% idle 
-SharedLibs: 603M resident, 130M data, 84M linkedit.
-MemRegions: 409975 total, 5220M resident, 498M private, 2146M shared.
-PhysMem: 15G used (2202M wired, 862M compressor), 365M unused.
-VM: 277T vsize, 5533M framework vsize, 509763(0) swapins, 808015(0) swapouts.
-Networks: packets: 9621379/10G in, 4018375/1067M out.
-Disks: 39648142/701G read, 17174215/286G written.
-
-COMMAND          MEM  %CPU #TH 
-Code Helper (GPU 616M 0.0  15  
-WindowServer     531M 0.0  21/1
-Code42Service    378M 0.0  120 
-csc_iseagentd    312M 0.0  6   
-Code Helper (Ren 301M 0.0  24  
+COMMAND          MEM  %CPU #TH  
+WindowServer     586M 0.0  21   
+Code Helper (GPU 466M 0.0  14   
+Code42Service    433M 0.0  118/6
+csc_iseagentd    312M 0.0  6    
+Finder           247M 0.0  6    
