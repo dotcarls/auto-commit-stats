@@ -1,21 +1,21 @@
               disk0               disk5       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.37   58  1.05   121.90    0  0.00  13  7 79  3.64 3.94 3.67
+   18.39   61  1.10   119.38    0  0.00  13  7 80  2.30 2.82 3.56
 
-Processes: 605 total, 2 running, 603 sleeping, 4703 threads 
-2025/01/04 14:21:23
-Load Avg: 3.83, 3.98, 3.69 
-CPU usage: 10.94% user, 16.78% sys, 72.26% idle 
-SharedLibs: 475M resident, 102M data, 66M linkedit.
-MemRegions: 632231 total, 2758M resident, 154M private, 1398M shared.
-PhysMem: 15G used (2341M wired, 7604M compressor), 143M unused.
-VM: 278T vsize, 5533M framework vsize, 790404(0) swapins, 1287285(0) swapouts.
-Networks: packets: 12499406/13G in, 5694876/1554M out.
-Disks: 58338921/1054G read, 27498097/460G written.
+Processes: 599 total, 4 running, 1 stuck, 594 sleeping, 4683 threads 
+2025/01/04 15:39:15
+Load Avg: 2.30, 2.82, 3.56 
+CPU usage: 8.9% user, 9.89% sys, 82.0% idle 
+SharedLibs: 459M resident, 107M data, 71M linkedit.
+MemRegions: 632774 total, 2974M resident, 197M private, 1668M shared.
+PhysMem: 15G used (2911M wired, 6815M compressor), 164M unused.
+VM: 276T vsize, 5533M framework vsize, 798793(0) swapins, 1338013(0) swapouts.
+Networks: packets: 12795792/13G in, 5966081/1604M out.
+Disks: 61967951/1116G read, 28197893/476G written.
 
 COMMAND          MEM   %CPU #TH
 node             2904M 0.0  14 
 deno             1316M 0.0  18 
 deno             1040M 0.0  18 
 Code Helper (Plu 859M  0.0  10 
-Code Helper (Plu 704M  0.0  10 
+WindowServer     713M  0.0  24 
