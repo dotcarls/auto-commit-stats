@@ -1,21 +1,21 @@
-              disk0               disk5               disk6       cpu    load average
-    KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.42   64  1.16   118.77    0  0.00   202.94    0  0.02  13  7 80  2.32 3.08 3.48
+              disk0               disk5       cpu    load average
+    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
+   18.38   65  1.17   117.82    0  0.00  13  7 81  1.75 2.26 2.43
 
-Processes: 666 total, 3 running, 1 stuck, 662 sleeping, 4905 threads 
-2025/01/04 19:56:49
-Load Avg: 2.32, 3.08, 3.48 
-CPU usage: 11.84% user, 10.43% sys, 77.71% idle 
-SharedLibs: 472M resident, 95M data, 50M linkedit.
-MemRegions: 668564 total, 3934M resident, 251M private, 2366M shared.
-PhysMem: 15G used (2912M wired, 4728M compressor), 144M unused.
-VM: 304T vsize, 5533M framework vsize, 819748(0) swapins, 1423545(0) swapouts.
-Networks: packets: 12286498/12G in, 6022614/1607M out.
-Disks: 66343356/1209G read, 29538686/506G written.
+Processes: 654 total, 2 running, 652 sleeping, 4651 threads 
+2025/01/04 20:42:22
+Load Avg: 1.75, 2.26, 2.43 
+CPU usage: 3.43% user, 8.59% sys, 87.96% idle 
+SharedLibs: 549M resident, 114M data, 71M linkedit.
+MemRegions: 626766 total, 3568M resident, 216M private, 2626M shared.
+PhysMem: 15G used (2661M wired, 3834M compressor), 108M unused.
+VM: 297T vsize, 5533M framework vsize, 831424(0) swapins, 1423545(0) swapouts.
+Networks: packets: 12623846/12G in, 6133378/1624M out.
+Disks: 67330058/1222G read, 29795405/511G written.
 
 COMMAND          MEM   %CPU #TH
 deno             1316M 0.0  18 
+WindowServer     1133M 0.0  23 
 deno             1040M 0.0  18 
-WindowServer     1020M 0.0  22 
 Code Helper (Plu 860M  0.0  10 
 Code Helper (Plu 704M  0.0  10 
