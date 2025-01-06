@@ -1,21 +1,21 @@
               disk0               disk5       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.91   68  1.26    99.93    0  0.00  12  6 82  2.79 3.67 4.47
+   22.61   74  1.64    98.21    0  0.00  12  7 82  2.75 2.95 3.13
 
-Processes: 612 total, 3 running, 609 sleeping, 4999 threads 
-2025/01/05 18:47:48
-Load Avg: 2.79, 3.67, 4.47 
-CPU usage: 12.82% user, 12.82% sys, 74.34% idle 
-SharedLibs: 405M resident, 95M data, 53M linkedit.
-MemRegions: 931393 total, 1891M resident, 144M private, 2344M shared.
-PhysMem: 15G used (3263M wired, 7441M compressor), 217M unused.
-VM: 312T vsize, 5533M framework vsize, 2154698(0) swapins, 3234809(0) swapouts.
-Networks: packets: 15586513/15G in, 7818581/1951M out.
-Disks: 74571031/1375G read, 32872846/594G written.
+Processes: 581 total, 6 running, 575 sleeping, 4837 threads 
+2025/01/06 09:17:27
+Load Avg: 2.75, 2.95, 3.13 
+CPU usage: 9.16% user, 12.51% sys, 78.32% idle 
+SharedLibs: 386M resident, 94M data, 54M linkedit.
+MemRegions: 589778 total, 2231M resident, 143M private, 2200M shared.
+PhysMem: 15G used (3384M wired, 7385M compressor), 186M unused.
+VM: 263T vsize, 5533M framework vsize, 11614553(0) swapins, 13357646(0) swapouts.
+Networks: packets: 16581759/16G in, 8498712/2167M out.
+Disks: 83712711/1759G read, 36871354/871G written.
 
 COMMAND          MEM   %CPU #TH
-com.apple.Virtua 8105M 0.0  34 
-node             1435M 0.0  14 
-deno             1343M 0.0  18 
-deno             1117M 0.0  18 
-Code Helper (Plu 1107M 0.0  10 
+com.apple.Virtua 8103M 0.0  34 
+deno             1478M 0.0  19 
+node             1411M 0.0  14 
+deno             1375M 0.0  18 
+Code Helper (Plu 1124M 0.0  10 
