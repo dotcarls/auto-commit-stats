@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   24.38  316  7.52  11  6 83  2.36 2.20 2.44
+   23.73  331  7.67  11  6 83  21.30 9.76 5.43
 
-Processes: 552 total, 8 running, 1 stuck, 543 sleeping, 5239 threads 
-2025/01/10 12:29:56
-Load Avg: 2.36, 2.20, 2.44 
-CPU usage: 31.89% user, 19.33% sys, 48.76% idle 
-SharedLibs: 491M resident, 113M data, 65M linkedit.
-MemRegions: 780157 total, 3408M resident, 200M private, 2741M shared.
-PhysMem: 15G used (2764M wired, 5179M compressor), 105M unused.
-VM: 276T vsize, 5533M framework vsize, 3235831(0) swapins, 4205575(0) swapouts.
-Networks: packets: 5038102/2791M in, 4032238/1428M out.
-Disks: 22872489/472G read, 6309590/207G written.
+Processes: 710 total, 3 running, 707 sleeping, 5797 threads 
+2025/01/10 14:30:56
+Load Avg: 21.30, 9.76, 5.43 
+CPU usage: 9.51% user, 12.61% sys, 77.86% idle 
+SharedLibs: 336M resident, 72M data, 48M linkedit.
+MemRegions: 878386 total, 2759M resident, 164M private, 1901M shared.
+PhysMem: 15G used (3139M wired, 7352M compressor), 227M unused.
+VM: 346T vsize, 5533M framework vsize, 3436105(0) swapins, 4394717(0) swapouts.
+Networks: packets: 5974137/3493M in, 4514601/1612M out.
+Disks: 26049906/528G read, 6911760/218G written.
 
-COMMAND          MEM   %CPU #TH
-com.apple.Virtua 8103M 0.0  35 
-WindowServer     1300M 0.0  23 
-com.apple.WebKit 1019M 0.0  5  
-firefox          793M  0.0  80 
-deno             782M  0.0  18 
+COMMAND          MEM   %CPU #TH   
+com.apple.Virtua 8103M 0.0  34    
+WindowServer     1369M 0.0  23    
+kernel_task      1048M 0.0  692/12
+com.apple.WebKit 1042M 0.0  5     
+deno             856M  0.0  18    
