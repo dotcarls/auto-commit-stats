@@ -1,35 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   21.16  150  3.09  12  5 83  3.44 2.92 3.22
-% sys, 52.66% idle 
-SharedLibs: 362M resident, 87M data, 49M linkedit.
-MemRegions: 1022122 total, 2854M resident, 140M private, 1823M shared.
-PhysMem: 15G used (2872M wired, 7366M compressor), 128M unused.
-VM: 345T vsize, 5533M framework vsize, 7210168(0) swapins, 8847136(0) swapouts.
-Networks: packets: 25737006/14G in, 20007106/6096M out.
-Disks: 118677833/2259G read, 36610606/875G written.
+   20.81  158  3.20  12  6 82  8.44 7.39 8.38
+
+Processes: 678 total, 8 running, 670 sleeping, 5715 threads 
+2025/01/21 14:55:15
+Load Avg: 9.13, 7.55, 8.43 
+CPU usage: 22.7% user, 21.67% sys, 56.25% idle 
+SharedLibs: 358M resident, 89M data, 62M linkedit.
+MemRegions: 1004643 total, 3531M resident, 161M private, 2081M shared.
+PhysMem: 15G used (3120M wired, 5794M compressor), 244M unused.
+VM: 338T vsize, 5533M framework vsize, 7702910(0) swapins, 9405257(0) swapouts.
+Networks: packets: 27857320/15G in, 21273267/6629M out.
+Disks: 124804864/2352G read, 40861729/936G written.
 
 COMMAND          MEM   %CPU #TH   
-WindowServer     2422M 0.0  23    
-Code Helper (Plu 1587M 0.0  25    
-kernel_task      1542M 0.0  752/13
-Webex            1388M 0.0  124   
-cpptools         1131M 0.0  21    
-
-Processes: 695 total, 2 running, 693 sleeping, 5665 threads 
-2025/01/21 10:59:06
-Load Avg: 3.44, 2.92, 3.22 
-CPU usage: 15.0% user, 27.16% sys, 57.83% idle 
-SharedLibs: 362M resident, 87M data, 49M linkedit.
-MemRegions: 1022026 total, 2860M resident, 147M private, 1704M shared.
-PhysMem: 15G used (2837M wired, 7377M compressor), 196M unused.
-VM: 346T vsize, 5533M framework vsize, 7210224(0) swapins, 8847136(0) swapouts.
-Networks: packets: 25737442/14G in, 20007575/6096M out.
-Disks: 118678077/2259G read, 36610796/875G written.
-
-COMMAND          MEM   %CPU #TH   
-WindowServer     2461M 0.0  23    
-Code Helper (Plu 1587M 0.0  25    
-kernel_task      1542M 0.0  752/13
-Webex            1388M 0.0  123   
-cpptools         1131M 0.0  21    
+WindowServer     2863M 0.0  23    
+kernel_task      1632M 0.0  776/12
+Webex            1514M 0.0  125   
+Code Helper (Plu 1508M 0.0  25    
+com.apple.WebKit 1056M 0.0  6     
