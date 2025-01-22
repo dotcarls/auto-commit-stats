@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.13  173  3.41  12  6 83  3.32 2.14 2.33
+   15.16 10905 161.43  28 17 56  137.48 32.26 11.62
 
-Processes: 620 total, 5 running, 615 sleeping, 4303 threads 
-2025/01/22 09:43:37
-Load Avg: 3.32, 2.14, 2.33 
-CPU usage: 22.98% user, 11.49% sys, 65.52% idle 
-SharedLibs: 514M resident, 114M data, 89M linkedit.
-MemRegions: 329556 total, 4464M resident, 315M private, 2015M shared.
-PhysMem: 15G used (2486M wired, 2249M compressor), 848M unused.
-VM: 258T vsize, 5533M framework vsize, 9162580(0) swapins, 11104516(0) swapouts.
-Networks: packets: 31102284/19G in, 23697701/7650M out.
-Disks: 139357941/2607G read, 54623709/1118G written.
+Processes: 508 total, 125 running, 2 stuck, 381 sleeping, 3993 threads 
+2025/01/22 10:41:53
+Load Avg: 137.48, 32.26, 11.62 
+CPU usage: 48.99% user, 19.46% sys, 31.54% idle 
+SharedLibs: 872M resident, 154M data, 150M linkedit.
+MemRegions: 116630 total, 3183M resident, 797M private, 2308M shared.
+PhysMem: 13G used (1510M wired, 0B compressor), 2819M unused.
+VM: 206T vsize, 5533M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 10570/8638K in, 8898/2690K out.
+Disks: 348247/5697M read, 92373/840M written.
 
-COMMAND          MEM  %CPU #TH 
-WindowServer     927M 0.0  24/1
-CharacterPalette 798M 0.0  6   
-Webex            433M 0.0  128 
-Code42Service    404M 0.0  115 
-csc_iseagentd    391M 0.0  6   
+COMMAND        MEM  %CPU #TH  
+Webex          303M 0.0  128/6
+WindowServer   262M 0.0  21/1 
+Podman Desktop 130M 0.0  39   
+Finder         117M 0.0  24/6 
+java           113M 0.0  40   
