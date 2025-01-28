@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   22.68  170  3.76  10  5 85  3.47 3.26 3.08
+   22.48  153  3.36  10  5 84  2.43 2.83 3.53
 
-Processes: 767 total, 4 running, 763 sleeping, 5380 threads 
-2025/01/27 18:24:40
-Load Avg: 3.47, 3.26, 3.08 
-CPU usage: 10.57% user, 12.21% sys, 77.20% idle 
-SharedLibs: 477M resident, 104M data, 60M linkedit.
-MemRegions: 762939 total, 3324M resident, 243M private, 1914M shared.
-PhysMem: 15G used (2282M wired, 5792M compressor), 377M unused.
-VM: 351T vsize, 5533M framework vsize, 3999298(0) swapins, 5346978(0) swapouts.
-Networks: packets: 9215020/5750M in, 8358046/5137M out.
-Disks: 55732434/1181G read, 22302738/507G written.
+Processes: 781 total, 3 running, 1 stuck, 777 sleeping, 5479 threads 
+2025/01/28 16:20:50
+Load Avg: 2.43, 2.83, 3.53 
+CPU usage: 11.24% user, 12.10% sys, 76.65% idle 
+SharedLibs: 428M resident, 94M data, 57M linkedit.
+MemRegions: 788128 total, 2551M resident, 182M private, 2045M shared.
+PhysMem: 15G used (2972M wired, 7239M compressor), 185M unused.
+VM: 357T vsize, 5533M framework vsize, 4015166(0) swapins, 5369298(0) swapouts.
+Networks: packets: 10178525/6469M in, 8974414/5333M out.
+Disks: 59145821/1244G read, 23387510/525G written.
 
-COMMAND          MEM   %CPU #TH 
-WindowServer     1726M 0.0  22/1
-Webex            1316M 0.0  129 
-Code Helper (GPU 702M  0.0  13  
-Code Helper (Plu 689M  0.0  23  
-Safari           666M  0.0  12  
+COMMAND          MEM   %CPU #TH
+WindowServer     1990M 0.0  22 
+Webex            1331M 0.0  122
+Code Helper (Plu 841M  0.0  23 
+Code Helper (Plu 736M  0.0  23 
+Terminal         717M  0.0  11 
