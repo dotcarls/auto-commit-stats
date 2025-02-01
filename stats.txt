@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   17.82 5548 96.58  27 13 60  49.92 38.11 16.81
+   22.43  497 10.89  17  8 75  4.07 3.81 3.46
 
-Processes: 673 total, 10 running, 3 stuck, 660 sleeping, 4135 threads 
-2025/01/31 20:03:37
-Load Avg: 49.92, 38.11, 16.81 
-CPU usage: 37.26% user, 22.87% sys, 39.85% idle 
-SharedLibs: 700M resident, 168M data, 121M linkedit.
-MemRegions: 241434 total, 4709M resident, 609M private, 2948M shared.
-PhysMem: 15G used (1775M wired, 1202M compressor), 225M unused.
-VM: 280T vsize, 5533M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 29492/18M in, 23692/6799K out.
-Disks: 688980/13G read, 136080/1501M written.
+Processes: 501 total, 6 running, 495 sleeping, 3777 threads 
+2025/01/31 23:02:41
+Load Avg: 4.07, 3.81, 3.46 
+CPU usage: 43.7% user, 23.33% sys, 33.58% idle 
+SharedLibs: 378M resident, 89M data, 72M linkedit.
+MemRegions: 332644 total, 3706M resident, 115M private, 1731M shared.
+PhysMem: 15G used (2266M wired, 6894M compressor), 274M unused.
+VM: 221T vsize, 5533M framework vsize, 54799(0) swapins, 150860(0) swapouts.
+Networks: packets: 573074/582M in, 358824/166M out.
+Disks: 4017236/76G read, 1399880/40G written.
 
-COMMAND          MEM   %CPU #TH
-com.apple.Virtua 2230M 0.0  28 
-Code Helper (Plu 373M  0.0  26 
-Code Helper (Plu 368M  0.0  24 
-Code Helper (GPU 330M  0.0  15 
-Webex            312M  0.0  118
+COMMAND          MEM   %CPU #TH 
+com.apple.Virtua 8105M 0.0  29  
+Code Helper (GPU 571M  0.0  15  
+com.apple.WebKit 453M  0.0  7   
+WindowServer     420M  0.0  22  
+deno             416M  0.0  22/1
