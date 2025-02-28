@@ -1,21 +1,38 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.64  226  4.12  10  5 84  8.30 5.63 4.09
+   17.93 8309 145.49  40 24 36  294.01 73.88 27.00
 
-Processes: 662 total, 6 running, 656 sleeping, 4335 threads 
-2025/02/26 16:24:15
-Load Avg: 8.30, 5.63, 4.09 
-CPU usage: 23.13% user, 18.54% sys, 58.32% idle 
-SharedLibs: 410M resident, 93M data, 59M linkedit.
-MemRegions: 510780 total, 3211M resident, 149M private, 1792M shared.
-PhysMem: 15G used (2929M wired, 6515M compressor), 177M unused.
-VM: 288T vsize, 5533M framework vsize, 18710627(0) swapins, 20801834(0) swapouts.
-Networks: packets: 114442814/34G in, 108975954/22G out.
-Disks: 428910661/7304G read, 76837724/1684G written.
+Processes: 708 total, 316 running, 392 sleeping, 5144 threads 
+2025/02/28 10:11:09
+Load Avg: 330.05, 85.01, 31.20 
+CPU usage: 61.9% user, 38.82% sys, 0.8% idle 
+SharedLibs: 666M resident, 136M data, 113M linkedit.
+MemRegions: 422521 total, 5061M resident, 341M private, 2715M shared.
+PhysMem: 15G used (2431M wired, 3025M compressor), 393M unused.
+VM: 311T vsize, 5536M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 53104/63M in, 27956/6355K out.
+Disks: 626755/9985M read, 117965/3072M written.
 
-COMMAND          MEM   %CPU #TH 
-com.apple.Virtua 8105M 0.0  28  
-CharacterPalette 1393M 0.0  6   
-Webex            1231M 0.0  45  
-WindowServer     1088M 0.0  22/1
-csc_iseagentd    918M  0.0  7   
+COMMAND          MEM  %CPU #TH  
+WindowServer     627M 0.0  23   
+Code Helper (GPU 625M 0.0  18/4 
+firefox          520M 0.0  101/5
+Code Helper (Plu 511M 0.0  23/4 
+Code Helper (Plu 486M 0.0  25/3 
+Processes: 707 total, 318 running, 389 sleeping, 5145 threads 
+2025/02/28 10:11:09
+Load Avg: 330.05, 85.01, 31.20 
+CPU usage: 60.44% user, 39.46% sys, 0.8% idle 
+SharedLibs: 666M resident, 136M data, 114M linkedit.
+MemRegions: 422500 total, 5061M resident, 340M private, 2718M shared.
+PhysMem: 15G used (2431M wired, 3025M compressor), 392M unused.
+VM: 311T vsize, 5536M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 53203/63M in, 27992/6380K out.
+Disks: 626794/9987M read, 117965/3072M written.
+
+COMMAND          MEM  %CPU #TH  
+WindowServer     635M 0.0  23/1 
+Code Helper (GPU 632M 0.0  18/4 
+firefox          523M 0.0  101/6
+Code Helper (Plu 511M 0.0  24/4 
+Code Helper (Plu 486M 0.0  25/3 
