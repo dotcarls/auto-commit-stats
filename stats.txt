@@ -1,21 +1,38 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   17.88  140  2.44  10  4 86  13.74 9.86 9.35
+   17.95  141  2.47  10  4 86  3.71 2.68 2.71
 
-Processes: 745 total, 8 running, 737 sleeping, 4990 threads 
-2025/04/21 10:31:09
-Load Avg: 13.74, 9.86, 9.35 
-CPU usage: 37.90% user, 21.17% sys, 40.92% idle 
-SharedLibs: 503M resident, 108M data, 62M linkedit.
-MemRegions: 527319 total, 3571M resident, 240M private, 1675M shared.
-PhysMem: 15G used (2494M wired, 6462M compressor), 209M unused.
-VM: 334T vsize, 5684M framework vsize, 57140(0) swapins, 136632(0) swapouts.
-Networks: packets: 9263418/7440M in, 4915631/1074M out.
-Disks: 37907217/614G read, 9828494/200G written.
+Processes: 581 total, 39 running, 1 stuck, 541 sleeping, 4069 threads 
+2025/04/21 13:07:40
+Load Avg: 12.54, 4.53, 3.36 
+CPU usage: 53.25% user, 45.23% sys, 1.51% idle 
+SharedLibs: 529M resident, 114M data, 60M linkedit.
+MemRegions: 336265 total, 4350M resident, 322M private, 1943M shared.
+PhysMem: 15G used (2209M wired, 4435M compressor), 241M unused.
+VM: 250T vsize, 5684M framework vsize, 59460(0) swapins, 136632(0) swapouts.
+Networks: packets: 9873869/7616M in, 5309012/1151M out.
+Disks: 39220874/640G read, 10210171/206G written.
 
-COMMAND          MEM   %CPU #TH
-com.apple.Virtua 5208M 0.0  28 
-Webex            693M  0.0  52 
-WindowServer     615M  0.0  25 
-Code Helper (Plu 613M  0.0  38 
-Code Helper (Plu 599M  0.0  36 
+COMMAND          MEM   %CPU #TH 
+com.apple.Virtua 5208M 0.0  28  
+Webex            654M  0.0  52  
+mediaanalysisd   553M  0.0  4   
+Safari           526M  0.0  13/1
+WindowServer     481M  0.0  23/2
+Processes: 582 total, 46 running, 1 stuck, 534 sleeping, 1 unknown, 4074 threads 
+2025/04/21 13:07:40
+Load Avg: 12.54, 4.53, 3.36 
+CPU usage: 53.77% user, 44.83% sys, 1.39% idle 
+SharedLibs: 529M resident, 114M data, 60M linkedit.
+MemRegions: 336243 total, 4361M resident, 322M private, 1949M shared.
+PhysMem: 15G used (2209M wired, 4435M compressor), 239M unused.
+VM: 250T vsize, 5684M framework vsize, 59460(0) swapins, 136632(0) swapouts.
+Networks: packets: 9873869/7616M in, 5309012/1151M out.
+Disks: 39220924/640G read, 10210171/206G written.
+
+COMMAND          MEM   %CPU #TH 
+com.apple.Virtua 5208M 0.0  28  
+Webex            654M  0.0  52  
+mediaanalysisd   553M  0.0  4   
+Safari           526M  0.0  13  
+WindowServer     496M  0.0  23/2
