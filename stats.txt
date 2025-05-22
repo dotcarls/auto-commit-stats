@@ -2,20 +2,20 @@
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
    18.00  596 10.47    11.92    0  0.00  11  6 83  12.74 11.97 8.37
 
-Processes: 655 total, 4 running, 651 sleeping, 3991 threads 
-2025/05/22 18:18:52
+Processes: 654 total, 4 running, 1 stuck, 649 sleeping, 4009 threads 
+2025/05/22 18:18:53
 Load Avg: 12.74, 11.97, 8.37 
-CPU usage: 32.12% user, 24.89% sys, 42.97% idle 
+CPU usage: 17.43% user, 20.64% sys, 61.92% idle 
 SharedLibs: 455M resident, 95M data, 56M linkedit.
-MemRegions: 322214 total, 3399M resident, 248M private, 2018M shared.
-PhysMem: 13G used (2608M wired, 2460M compressor), 2703M unused.
+MemRegions: 322312 total, 3396M resident, 248M private, 2070M shared.
+PhysMem: 13G used (2655M wired, 2457M compressor), 2630M unused.
 VM: 273T vsize, 5709M framework vsize, 1698718(0) swapins, 2289193(0) swapouts.
-Networks: packets: 20615979/9437M in, 16565557/3142M out.
-Disks: 93345844/1615G read, 16230393/266G written.
+Networks: packets: 20616229/9437M in, 16565903/3142M out.
+Disks: 93345870/1615G read, 16230608/266G written.
 
-COMMAND          MEM   %CPU #TH
-com.apple.Virtua 5149M 0.0  28 
-Webex            926M  0.0  50 
-WindowServer     736M  0.0  22 
-Safari           566M  0.0  12 
-Microsoft Outloo 500M  0.0  25 
+COMMAND          MEM   %CPU #TH 
+com.apple.Virtua 5149M 0.0  28  
+Webex            926M  0.0  50/1
+WindowServer     735M  0.0  22  
+Safari           566M  0.0  12  
+Microsoft Outloo 500M  0.0  25  
