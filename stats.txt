@@ -1,21 +1,21 @@
               disk0               disk6       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   28.55 10722 298.98    12.55   14  0.17  39 20 41  187.57 61.91 23.64
+   28.54 10670 297.34    12.55   13  0.16  39 20 41  176.56 61.71 23.79
 
-Processes: 589 total, 43 running, 546 sleeping, 3594 threads 
-2025/06/03 23:22:37
-Load Avg: 187.57, 61.91, 23.64 
-CPU usage: 38.62% user, 20.63% sys, 40.74% idle 
-SharedLibs: 634M resident, 121M data, 73M linkedit.
-MemRegions: 144001 total, 2279M resident, 336M private, 5564M shared.
-PhysMem: 15G used (1756M wired, 1775M compressor), 562M unused.
+Processes: 589 total, 42 running, 6 stuck, 541 sleeping, 3594 threads 
+2025/06/03 23:22:38
+Load Avg: 176.56, 61.71, 23.79 
+CPU usage: 51.32% user, 25.92% sys, 22.75% idle 
+SharedLibs: 641M resident, 122M data, 74M linkedit.
+MemRegions: 144085 total, 2312M resident, 344M private, 5576M shared.
+PhysMem: 15G used (1740M wired, 1770M compressor), 460M unused.
 VM: 239T vsize, 5709M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 187019/253M in, 36818/6167K out.
-Disks: 720838/19G read, 128799/4716M written.
+Networks: packets: 187331/253M in, 37120/6250K out.
+Disks: 723162/19G read, 129190/4721M written.
 
 COMMAND          MEM   %CPU #TH
 com.apple.Virtua 5566M 0.0  32 
-WindowServer     261M  0.0  22 
 Finder           256M  0.0  6  
+WindowServer     251M  0.0  22 
 Podman Desktop H 205M  0.0  20 
 Podman Desktop   182M  0.0  36 
