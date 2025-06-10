@@ -1,21 +1,21 @@
               disk0               disk6       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   17.43  260  4.43    10.84    0  0.00  12  5 83  4.07 3.79 3.55
+   17.21  309  5.19    10.77    0  0.00  11  5 84  9.98 3.68 2.80
 
-Processes: 771 total, 6 running, 1 stuck, 764 sleeping, 5756 threads 
-2025/06/09 19:47:53
-Load Avg: 4.07, 3.79, 3.55 
-CPU usage: 58.5% user, 21.30% sys, 20.63% idle 
-SharedLibs: 447M resident, 94M data, 56M linkedit.
-MemRegions: 469351 total, 4844M resident, 277M private, 1750M shared.
-PhysMem: 15G used (3619M wired, 2787M compressor), 191M unused.
-VM: 331T vsize, 5709M framework vsize, 776196(0) swapins, 1620217(0) swapouts.
-Networks: packets: 12365416/5480M in, 11838965/5270M out.
-Disks: 55281822/992G read, 21277796/280G written.
+Processes: 633 total, 61 running, 1 stuck, 571 sleeping, 4025 threads 
+2025/06/10 10:40:00
+Load Avg: 9.98, 3.68, 2.80 
+CPU usage: 52.58% user, 47.41% sys, 0.0% idle 
+SharedLibs: 617M resident, 116M data, 95M linkedit.
+MemRegions: 345574 total, 4419M resident, 422M private, 2170M shared.
+PhysMem: 15G used (2426M wired, 2176M compressor), 466M unused.
+VM: 269T vsize, 5709M framework vsize, 833121(0) swapins, 1662217(0) swapouts.
+Networks: packets: 16160143/7312M in, 14921132/6105M out.
+Disks: 81599137/1419G read, 25769701/344G written.
 
-COMMAND          MEM   %CPU #TH 
-WindowServer     1108M 0.0  23  
-Webex            958M  0.0  52  
-Windsurf Helper  929M  0.0  30/1
-VTDecoderXPCServ 574M  0.0  5   
-Safari           537M  0.0  16  
+COMMAND          MEM  %CPU #TH 
+mediaanalysisd   628M 0.0  7   
+WindowServer     626M 0.0  22/3
+VTDecoderXPCServ 574M 0.0  5   
+Safari           536M 0.0  17  
+Finder           380M 0.0  7   
