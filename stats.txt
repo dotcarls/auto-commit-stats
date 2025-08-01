@@ -1,21 +1,21 @@
-              disk0               disk4       cpu    load average
-    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.01  100  1.96  1085.94    0  0.00  13  6 81  29.82 11.70 7.16
+              disk0               disk4               disk5       cpu    load average
+    KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
+   20.07  117  2.30   882.08    0  0.00   563.07    0  0.00  14  7 79  6.86 8.55 8.29
 
-Processes: 747 total, 4 running, 4 stuck, 739 sleeping, 5991 threads 
-2025/07/31 11:06:13
-Load Avg: 29.82, 11.70, 7.16 
-CPU usage: 26.6% user, 20.65% sys, 53.28% idle 
-SharedLibs: 370M resident, 87M data, 59M linkedit.
-MemRegions: 995834 total, 2569M resident, 151M private, 2297M shared.
-PhysMem: 15G used (3831M wired, 6909M compressor), 253M unused.
-VM: 375T vsize, 5709M framework vsize, 3144484(0) swapins, 4360240(0) swapouts.
-Networks: packets: 34082126/20G in, 25555769/9907M out.
-Disks: 85304841/1752G read, 36520687/575G written.
+Processes: 661 total, 12 running, 649 sleeping, 5852 threads 
+2025/07/31 22:40:32
+Load Avg: 6.86, 8.55, 8.29 
+CPU usage: 15.76% user, 17.56% sys, 66.66% idle 
+SharedLibs: 372M resident, 91M data, 53M linkedit.
+MemRegions: 1196194 total, 3169M resident, 149M private, 2059M shared.
+PhysMem: 15G used (3257M wired, 6683M compressor), 154M unused.
+VM: 355T vsize, 5709M framework vsize, 4063725(0) swapins, 5491035(0) swapouts.
+Networks: packets: 41432376/22G in, 31755283/11G out.
+Disks: 105033710/2155G read, 42193601/665G written.
 
-COMMAND          MEM   %CPU #TH
-WindowServer     1367M 0.0  23 
-mediaanalysisd   1146M 0.0  9  
-Webex            1053M 0.0  57 
-Code Helper (Plu 1014M 0.0  32 
-Microsoft Outloo 715M  0.0  28 
+COMMAND          MEM   %CPU #TH 
+WindowServer     1394M 0.0  24/1
+Code Helper (Plu 1051M 0.0  33  
+Webex            872M  0.0  60  
+com.apple.WebKit 808M  0.0  7/2 
+Notion Helper (R 738M  0.0  24  
