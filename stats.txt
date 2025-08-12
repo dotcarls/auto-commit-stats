@@ -1,21 +1,21 @@
               disk0               disk4               disk5       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.31  293  5.52   295.71    0  0.00   116.02    0  0.00  12  5 82  41.26 21.27 11.69
+   19.31  293  5.52   295.71    0  0.00   116.02    0  0.00  12  5 82  16.73 18.13 11.31
 
-Processes: 714 total, 10 running, 3 stuck, 701 sleeping, 5103 threads 
-2025/08/12 16:50:25
-Load Avg: 41.26, 21.27, 11.69 
-CPU usage: 57.82% user, 32.42% sys, 9.74% idle 
-SharedLibs: 210M resident, 53M data, 43M linkedit.
-MemRegions: 636201 total, 2444M resident, 141M private, 2028M shared.
-PhysMem: 15G used (3856M wired, 7050M compressor), 251M unused.
-VM: 317T vsize, 5709M framework vsize, 6150508(0) swapins, 7639279(0) swapouts.
-Networks: packets: 95718145/42G in, 78127744/19G out.
-Disks: 520107002/9731G read, 144557702/2508G written.
+Processes: 660 total, 4 running, 656 sleeping, 4495 threads 
+2025/08/12 16:51:39
+Load Avg: 16.73, 18.13, 11.31 
+CPU usage: 15.37% user, 12.65% sys, 71.97% idle 
+SharedLibs: 384M resident, 82M data, 48M linkedit.
+MemRegions: 450509 total, 3845M resident, 245M private, 2505M shared.
+PhysMem: 15G used (3631M wired, 3200M compressor), 248M unused.
+VM: 277T vsize, 5709M framework vsize, 6156833(0) swapins, 7639279(0) swapouts.
+Networks: packets: 95891703/42G in, 78153791/19G out.
+Disks: 520373011/9736G read, 144614543/2511G written.
 
-COMMAND          MEM   %CPU #TH 
-Code Helper (Plu 1507M 0.0  32  
-WindowServer     1205M 0.0  21/1
-Webex            1109M 0.0  62  
-firefox          891M  0.0  86  
-Microsoft Outloo 864M  0.0  29  
+COMMAND          MEM   %CPU #TH
+WindowServer     1199M 0.0  23 
+Webex            1124M 0.0  66 
+firefox          883M  0.0  86 
+Microsoft Outloo 862M  0.0  28 
+plugin-container 660M  0.0  34 
