@@ -1,21 +1,56 @@
-              disk0               disk4               disk5       cpu    load average
-    KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.37  302  6.01   294.97    0  0.00   115.39    0  0.00  13  6 82  238.70 80.86 36.43
+              disk0       cpu    load average
+    KB/t  tps  MB/s  us sy id   1m   5m   15m
+   19.25 8086 152.01  33 19 48  123.83 29.50 10.68
 
-Processes: 730 total, 160 running, 5 stuck, 565 sleeping, 5729 threads 
-2025/08/12 17:57:33
-Load Avg: 238.70, 80.86, 36.43 
-CPU usage: 46.83% user, 53.11% sys, 0.5% idle 
-SharedLibs: 478M resident, 109M data, 64M linkedit.
-MemRegions: 708389 total, 3777M resident, 145M private, 2017M shared.
-PhysMem: 15G used (3774M wired, 4603M compressor), 360M unused.
-VM: 332T vsize, 5709M framework vsize, 9847419(0) swapins, 13844370(0) swapouts.
-Networks: packets: 97817317/44G in, 78974065/19G out.
-Disks: 537529002/10T read, 149682182/2659G written.
 
-COMMAND          MEM   %CPU #TH 
-WindowServer     1209M 0.0  23/2
-Webex            1075M 0.0  66  
-Code Helper (Plu 903M  0.0  32  
-firefox          867M  0.0  82  
-plugin-container 660M  0.0  34  
+Processes: 635 total, 397 running, 1 stuck, 237 sleeping, 4698 threads 
+2025/08/12 18:10:44
+Load Avg: 123.83, 29.50, 10.68 
+CPU usage: 70.48% user, 29.51% sys, 0.0% idle 
+SharedLibs: 864M resident, 174M data, 254M linkedit.
+MemRegions: 97690 total, 3335M resident, 857M private, 2512M shared.
+PhysMem: 15G used (1714M wired, 455M compressor), 293M unused.
+VM: 251T vsize, 5703M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 10370/8374K in, 7125/1872K out.
+Disks: 418551/8302M read, 150709/2994M written.
+
+COMMAND          MEM  %CPU #TH 
+Finder           347M 0.0  22/6
+WindowServer     338M 0.0  23/2
+Terminal         190M 0.0  15/4
+talagentd        118M 0.0  5/2 
+com.code42.agent 108M 0.0  64/5
+Processes: 630 total, 394 running, 2 stuck, 234 sleeping, 4653 threads 
+2025/08/12 18:10:44
+Load Avg: 191.26, 45.04, 16.28 
+CPU usage: 69.52% user, 30.47% sys, 0.0% idle 
+SharedLibs: 864M resident, 174M data, 254M linkedit.
+MemRegions: 97371 total, 3309M resident, 850M private, 2414M shared.
+PhysMem: 15G used (1715M wired, 459M compressor), 302M unused.
+VM: 250T vsize, 5703M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 10499/8558K in, 7141/1873K out.
+Disks: 420717/8329M read, 150711/2994M written.
+
+COMMAND          MEM  %CPU #TH 
+Finder           347M 0.0  22/6
+WindowServer     339M 0.0  23/2
+Terminal         190M 0.0  15/4
+talagentd        118M 0.0  5/2 
+com.code42.agent 108M 0.0  64/4
+Processes: 635 total, 394 running, 4 stuck, 237 sleeping, 4699 threads 
+2025/08/12 18:10:44
+Load Avg: 191.26, 45.04, 16.28 
+CPU usage: 65.40% user, 34.59% sys, 0.0% idle 
+SharedLibs: 864M resident, 174M data, 254M linkedit.
+MemRegions: 97963 total, 3337M resident, 857M private, 2530M shared.
+PhysMem: 15G used (1715M wired, 459M compressor), 299M unused.
+VM: 251T vsize, 5703M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 10499/8558K in, 7141/1873K out.
+Disks: 420735/8329M read, 150713/2994M written.
+
+COMMAND          MEM  %CPU #TH 
+Finder           347M 0.0  22/6
+WindowServer     338M 0.0  23/3
+Terminal         190M 0.0  15/4
+talagentd        118M 0.0  5/2 
+com.code42.agent 108M 0.0  64/4
