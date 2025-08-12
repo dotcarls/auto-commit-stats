@@ -1,39 +1,21 @@
               disk0               disk4               disk5       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.37  302  6.01   294.97    0  0.00   115.39    0  0.00  13  6 82  219.18 74.41 33.92
+   20.37  302  6.01   294.97    0  0.00   115.39    0  0.00  13  6 82  238.70 80.86 36.43
 
+Processes: 730 total, 160 running, 5 stuck, 565 sleeping, 5729 threads 
+2025/08/12 17:57:33
+Load Avg: 238.70, 80.86, 36.43 
+CPU usage: 46.83% user, 53.11% sys, 0.5% idle 
+SharedLibs: 478M resident, 109M data, 64M linkedit.
+MemRegions: 708389 total, 3777M resident, 145M private, 2017M shared.
+PhysMem: 15G used (3774M wired, 4603M compressor), 360M unused.
+VM: 332T vsize, 5709M framework vsize, 9847419(0) swapins, 13844370(0) swapouts.
+Networks: packets: 97817317/44G in, 78974065/19G out.
+Disks: 537529002/10T read, 149682182/2659G written.
 
-Processes: 691 total, 157 running, 2 stuck, 532 sleeping, 5493 threads 
-2025/08/12 17:57:27
-Load Avg: 219.18, 74.41, 33.92 
-CPU usage: 56.29% user, 43.52% sys, 0.18% idle 
-SharedLibs: 464M resident, 108M data, 66M linkedit.
-MemRegions: 662222 total, 4583M resident, 220M private, 2317M shared.
-PhysMem: 15G used (3818M wired, 3151M compressor), 239M unused.
-VM: 313T vsize, 5709M framework vsize, 9843389(0) swapins, 13844370(0) swapouts.
-Networks: packets: 97809446/44G in, 78967856/19G out.
-Disks: 537502049/10T read, 149663295/2659G written.
-
-COMMAND          MEM   %CPU #TH
-WindowServer     1199M 0.0  22 
-Webex            1072M 0.0  66 
-Code Helper (Plu 903M  0.0  31 
-firefox          876M  0.0  82 
-plugin-container 659M  0.0  34 
-Processes: 690 total, 159 running, 3 stuck, 528 sleeping, 5490 threads 
-2025/08/12 17:57:27
-Load Avg: 219.18, 74.41, 33.92 
-CPU usage: 56.42% user, 43.39% sys, 0.17% idle 
-SharedLibs: 464M resident, 108M data, 66M linkedit.
-MemRegions: 662135 total, 4526M resident, 217M private, 2322M shared.
-PhysMem: 15G used (3818M wired, 3151M compressor), 234M unused.
-VM: 312T vsize, 5709M framework vsize, 9843393(0) swapins, 13844370(0) swapouts.
-Networks: packets: 97809551/44G in, 78967976/19G out.
-Disks: 537502342/10T read, 149663324/2659G written.
-
-COMMAND          MEM   %CPU #TH
-WindowServer     1199M 0.0  22 
-Webex            1072M 0.0  66 
-Code Helper (Plu 903M  0.0  31 
-firefox          867M  0.0  82 
-plugin-container 659M  0.0  34 
+COMMAND          MEM   %CPU #TH 
+WindowServer     1209M 0.0  23/2
+Webex            1075M 0.0  66  
+Code Helper (Plu 903M  0.0  32  
+firefox          867M  0.0  82  
+plugin-container 660M  0.0  34  
