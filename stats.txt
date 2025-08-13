@@ -1,39 +1,22 @@
-              disk0       cpu    load average
-    KB/t  tps  MB/s  us sy id   1m   5m   15m
-   24.83 9367 227.11  39 21 39  342.40 90.06 33.16
+              disk0               disk4       cpu    load average
+    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
+   21.75  381  8.09  1358.09    0  0.03  11  4 86  36.72 14.39 7.43
 
 
-Processes: 709 total, 217 running, 5 stuck, 487 sleeping, 4991 threads 
-2025/08/12 18:11:08
-Load Avg: 342.40, 90.06, 33.16 
-CPU usage: 59.50% user, 37.23% sys, 3.25% idle 
-SharedLibs: 607M resident, 111M data, 129M linkedit.
-MemRegions: 283616 total, 3037M resident, 381M private, 3893M shared.
-PhysMem: 15G used (2438M wired, 2918M compressor), 499M unused.
-VM: 297T vsize, 5703M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 607864/924M in, 105988/116M out.
-Disks: 662929/16G read, 212252/5205M written.
+Processes: 938 total, 49 running, 2 stuck, 887 sleeping, 4882 threads 
+2025/08/13 10:17:26
+Load Avg: 36.72, 14.39, 7.43 
+CPU usage: 53.61% user, 45.69% sys, 0.69% idle 
+SharedLibs: 472M resident, 88M data, 58M linkedit.
+MemRegions: 441497 total, 3689M resident, 126M private, 1835M shared.
+PhysMem: 15G used (2728M wired, 5908M compressor), 310M unused.
+VM: 398T vsize, 5703M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 3970260/4886M in, 1186924/838M out.
+Disks: 15599320/359G read, 6521873/102G written.
 
-COMMAND          MEM   %CPU #TH 
-com.apple.Virtua 3296M 0.0  32/2
-Notion Helper (R 481M  0.0  28/1
-WindowServer     390M  0.0  19  
-Finder           347M  0.0  13/3
-Webex            312M  0.0  59/4
-Processes: 710 total, 226 running, 3 stuck, 481 sleeping, 5005 threads 
-2025/08/12 18:11:08
-Load Avg: 342.40, 90.06, 33.16 
-CPU usage: 61.33% user, 37.11% sys, 1.55% idle 
-SharedLibs: 607M resident, 111M data, 129M linkedit.
-MemRegions: 283860 total, 3092M resident, 401M private, 3910M shared.
-PhysMem: 15G used (2438M wired, 2918M compressor), 499M unused.
-VM: 298T vsize, 5703M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 607905/924M in, 105997/116M out.
-Disks: 662940/16G read, 212258/5205M written.
-
-COMMAND          MEM   %CPU #TH 
-com.apple.Virtua 3296M 0.0  32/4
-Notion Helper (R 482M  0.0  28/1
-WindowServer     391M  0.0  19  
-Finder           347M  0.0  13/4
-Webex            316M  0.0  59/5
+COMMAND          MEM  %CPU #TH   
+WindowServer     615M 0.0  21    
+Webex            557M 0.0  64    
+Code42Service    551M 0.0  116/10
+com.apple.WebKit 498M 0.0  2     
+Windsurf Helper  452M 0.0  17    
