@@ -2,20 +2,37 @@
     KB/t  tps  MB/s  us sy id   1m   5m   15m
    19.60  136  2.61  11  5 84  19.94 7.17 4.90
 
-Processes: 736 total, 46 running, 690 sleeping, 5026 threads 
-2025/09/25 13:53:43
+Processes: 727 total, 17 running, 1 stuck, 709 sleeping, 5057 threads 
+2025/09/25 13:53:44
 Load Avg: 19.94, 7.17, 4.90 
-CPU usage: 39.53% user, 52.90% sys, 7.55% idle 
-SharedLibs: 360M resident, 76M data, 44M linkedit.
-MemRegions: 476061 total, 2574M resident, 124M private, 1842M shared.
-PhysMem: 15G used (2890M wired, 7689M compressor), 239M unused.
-VM: 320T vsize, 5703M framework vsize, 1820276(0) swapins, 3451229(0) swapouts.
-Networks: packets: 34105783/27G in, 23451560/11G out.
-Disks: 157377802/2926G read, 37310518/714G written.
+CPU usage: 47.7% user, 42.61% sys, 10.30% idle 
+SharedLibs: 358M resident, 76M data, 43M linkedit.
+MemRegions: 475766 total, 2670M resident, 128M private, 1851M shared.
+PhysMem: 15G used (2982M wired, 7616M compressor), 254M unused.
+VM: 316T vsize, 5703M framework vsize, 1820688(0) swapins, 3457037(0) swapouts.
+Networks: packets: 34105995/27G in, 23451814/11G out.
+Disks: 157380843/2926G read, 37312616/714G written.
 
 COMMAND          MEM   %CPU #TH
 com.apple.Virtua 3463M 0.0  28 
 com.apple.WebKit 1117M 0.0  10 
-WindowServer     1007M 0.0  22 
-com.apple.WebKit 784M  0.0  12 
+WindowServer     1000M 0.0  22 
+com.apple.WebKit 888M  0.0  13 
+Webex            748M  0.0  67 
+Processes: 728 total, 18 running, 2 stuck, 708 sleeping, 5058 threads 
+2025/09/25 13:53:44
+Load Avg: 19.94, 7.17, 4.90 
+CPU usage: 47.15% user, 42.32% sys, 10.52% idle 
+SharedLibs: 358M resident, 76M data, 43M linkedit.
+MemRegions: 475819 total, 2672M resident, 129M private, 1852M shared.
+PhysMem: 15G used (2982M wired, 7622M compressor), 266M unused.
+VM: 317T vsize, 5703M framework vsize, 1820688(0) swapins, 3457037(0) swapouts.
+Networks: packets: 34105998/27G in, 23451815/11G out.
+Disks: 157380845/2926G read, 37312624/714G written.
+
+COMMAND          MEM   %CPU #TH
+com.apple.Virtua 3463M 0.0  28 
+com.apple.WebKit 1117M 0.0  10 
+WindowServer     1000M 0.0  22 
+com.apple.WebKit 888M  0.0  13 
 Webex            748M  0.0  67 
