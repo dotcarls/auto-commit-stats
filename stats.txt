@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   27.80 11214 304.40  41 23 36  358.11 100.88 37.58
+   29.54 12054 347.72  43 25 32  381.52 123.17 47.06
 
-Processes: 759 total, 281 running, 6 stuck, 472 sleeping, 5853 threads 
-2025/11/12 10:16:34
-Load Avg: 358.11, 100.88, 37.58 
-CPU usage: 37.86% user, 44.59% sys, 17.54% idle 
-SharedLibs: 323M resident, 80M data, 59M linkedit.
-MemRegions: 540376 total, 1870M resident, 211M private, 1982M shared.
-PhysMem: 15G used (2501M wired, 7882M compressor), 213M unused.
-VM: 341T vsize, 5702M framework vsize, 1729(0) swapins, 22908(0) swapouts.
-Networks: packets: 351367/470M in, 58521/13M out.
-Disks: 961431/25G read, 183640/5176M written.
+Processes: 745 total, 167 running, 7 stuck, 571 sleeping, 5379 threads 
+2025/11/12 10:16:54
+Load Avg: 381.52, 123.17, 47.06 
+CPU usage: 74.77% user, 23.54% sys, 1.68% idle 
+SharedLibs: 291M resident, 58M data, 42M linkedit.
+MemRegions: 560374 total, 1783M resident, 200M private, 2486M shared.
+PhysMem: 15G used (3425M wired, 7148M compressor), 269M unused.
+VM: 337T vsize, 5702M framework vsize, 6660(0) swapins, 107016(0) swapouts.
+Networks: packets: 642124/875M in, 93355/18M out.
+Disks: 1234866/34G read, 232911/7895M written.
 
-COMMAND          MEM   %CPU #TH 
-mds_stores       2034M 0.0  11/3
-com.apple.Virtua 1310M 0.0  32/2
-Code Helper (Plu 1123M 0.0  40/6
-mediaanalysisd   635M  0.0  9/3 
-com.apple.WebKit 591M  0.0  9/1 
+COMMAND          MEM   %CPU #TH  
+com.apple.Virtua 3121M 0.0  30/4 
+mds_stores       2215M 0.0  28/11
+Code Helper (Plu 1121M 0.0  37   
+mediaanalysisd   636M  0.0  9/3  
+com.apple.WebKit 589M  0.0  6/1  
