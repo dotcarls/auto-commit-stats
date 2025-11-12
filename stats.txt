@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   26.01 9145 232.25  38 20 42  245.76 58.05 20.99
+   27.28 11047 294.34  41 23 36  350.46 95.05 35.17
 
-Processes: 660 total, 373 running, 287 sleeping, 5093 threads 
-2025/11/12 10:16:10
-Load Avg: 245.76, 58.05, 20.99 
-CPU usage: 69.46% user, 30.53% sys, 0.0% idle 
-SharedLibs: 499M resident, 136M data, 92M linkedit.
-MemRegions: 389062 total, 5013M resident, 278M private, 2540M shared.
-PhysMem: 15G used (2128M wired, 3566M compressor), 416M unused.
-VM: 290T vsize, 5702M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 17654/13M in, 13558/4777K out.
-Disks: 557063/14G read, 152219/3695M written.
-
-COMMAND          MEM   %CPU #TH 
-mds_stores       1717M 0.0  23/4
-com.apple.WebKit 888M  0.0  16/5
-Code Helper (Plu 756M  0.0  37/6
-mediaanalysisd   610M  0.0  11/4
-Code Helper (Ren 418M  0.0  25/1
-Processes: 661 total, 386 running, 275 sleeping, 5097 threads 
-2025/11/12 10:16:10
-Load Avg: 245.76, 58.05, 20.99 
-CPU usage: 69.3% user, 30.96% sys, 0.0% idle 
-SharedLibs: 499M resident, 136M data, 92M linkedit.
-MemRegions: 389533 total, 4962M resident, 287M private, 2544M shared.
-PhysMem: 15G used (2135M wired, 3578M compressor), 419M unused.
-VM: 290T vsize, 5702M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 17687/13M in, 13612/4811K out.
-Disks: 557143/14G read, 152222/3695M written.
+Processes: 750 total, 230 running, 12 stuck, 508 sleeping, 5713 threads 
+2025/11/12 10:16:31
+Load Avg: 350.46, 95.05, 35.17 
+CPU usage: 48.10% user, 43.9% sys, 8.80% idle 
+SharedLibs: 281M resident, 60M data, 51M linkedit.
+MemRegions: 512909 total, 1940M resident, 215M private, 2189M shared.
+PhysMem: 15G used (3216M wired, 7363M compressor), 144M unused.
+VM: 335T vsize, 5702M framework vsize, 1114(0) swapins, 21164(0) swapouts.
+Networks: packets: 179447/229M in, 38751/10M out.
+Disks: 921214/24G read, 179520/4897M written.
 
 COMMAND          MEM   %CPU #TH 
-mds_stores       1719M 0.0  23/4
-com.apple.WebKit 914M  0.0  16/1
-Code Helper (Plu 714M  0.0  37/3
-mediaanalysisd   610M  0.0  11/4
-Code Helper (Ren 418M  0.0  25/1
+mds_stores       2020M 0.0  11/3
+Code Helper (Plu 1123M 0.0  40/5
+com.apple.Virtua 761M  0.0  35/2
+mediaanalysisd   635M  0.0  9/3 
+com.apple.WebKit 591M  0.0  9/1 
