@@ -1,21 +1,38 @@
-              disk0               disk4       cpu    load average
-    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.90  385  7.49    40.41    0  0.00  11  4 85  5.35 4.03 2.86
+              disk0       cpu    load average
+    KB/t  tps  MB/s  us sy id   1m   5m   15m
+   21.38 8349 174.31  35 22 43  191.42 43.97 15.80
 
-Processes: 678 total, 3 running, 2 stuck, 673 sleeping, 4418 threads 
-2026/01/07 10:32:49
-Load Avg: 5.35, 4.03, 2.86 
-CPU usage: 11.15% user, 9.96% sys, 78.88% idle 
-SharedLibs: 306M resident, 89M data, 60M linkedit.
-MemRegions: 612926 total, 3729M resident, 281M private, 1889M shared.
-PhysMem: 15G used (3420M wired, 4454M compressor), 190M unused.
-VM: 288T vsize, 5702M framework vsize, 4364643(0) swapins, 5406303(0) swapouts.
-Networks: packets: 187241647/74G in, 160938485/38G out.
-Disks: 1264726608/24T read, 359266018/6058G written.
+Processes: 587 total, 341 running, 246 sleeping, 4454 threads 
+2026/01/07 10:57:54
+Load Avg: 191.42, 43.97, 15.80 
+CPU usage: 67.44% user, 32.55% sys, 0.0% idle 
+SharedLibs: 866M resident, 178M data, 259M linkedit.
+MemRegions: 119147 total, 3126M resident, 798M private, 1842M shared.
+PhysMem: 15G used (1480M wired, 307M compressor), 255M unused.
+VM: 235T vsize, 5702M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 180227/254M in, 11010/2515K out.
+Disks: 427565/8052M read, 109145/3155M written.
 
-COMMAND          MEM   %CPU #TH
-com.apple.Virtua 6593M 0.0  28 
-acumbrellaagent  1132M 0.0  20 
-csc_iseagentd    879M  0.0  6  
-WindowServer     743M  0.0  22 
-Windsurf Helper  714M  0.0  25 
+COMMAND          MEM  %CPU #TH 
+WindowServer     207M 0.0  22/3
+com.code42.agent 135M 0.0  66/5
+Finder           111M 0.0  28/7
+Windsurf Helper  108M 0.0  13/2
+System Settings  81M  0.0  19/6
+Processes: 587 total, 341 running, 246 sleeping, 4454 threads 
+2026/01/07 10:57:54
+Load Avg: 191.42, 43.97, 15.80 
+CPU usage: 67.38% user, 32.61% sys, 0.0% idle 
+SharedLibs: 866M resident, 178M data, 259M linkedit.
+MemRegions: 119121 total, 3063M resident, 798M private, 1840M shared.
+PhysMem: 15G used (1480M wired, 307M compressor), 254M unused.
+VM: 235T vsize, 5702M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 180227/254M in, 11010/2515K out.
+Disks: 427569/8052M read, 109145/3155M written.
+
+COMMAND          MEM  %CPU #TH 
+WindowServer     207M 0.0  22/3
+com.code42.agent 135M 0.0  66/5
+Finder           111M 0.0  28/8
+Windsurf Helper  105M 0.0  13/2
+System Settings  81M  0.0  19/6
