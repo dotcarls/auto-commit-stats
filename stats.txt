@@ -1,39 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   22.47 8511 186.79  41 24 34  382.53 97.61 35.73
+   30.11 8438 248.15  55 23 22  447.90 193.32 78.77
 
+Processes: 764 total, 167 running, 1 stuck, 596 sleeping, 5226 threads 
+2026/01/07 10:59:41
+Load Avg: 447.90, 193.32, 78.77 
+CPU usage: 77.23% user, 21.13% sys, 1.62% idle 
+SharedLibs: 407M resident, 67M data, 45M linkedit.
+MemRegions: 448386 total, 2270M resident, 215M private, 3616M shared.
+PhysMem: 15G used (2246M wired, 5850M compressor), 182M unused.
+VM: 333T vsize, 5702M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 2913798/4301M in, 216142/249M out.
+Disks: 1154189/28G read, 292223/13G written.
 
-Processes: 667 total, 229 running, 4 stuck, 434 sleeping, 4785 threads 
-2026/01/07 10:58:13
-Load Avg: 382.53, 97.61, 35.73 
-CPU usage: 51.23% user, 39.42% sys, 9.33% idle 
-SharedLibs: 719M resident, 179M data, 107M linkedit.
-MemRegions: 281848 total, 5904M resident, 583M private, 2495M shared.
-PhysMem: 15G used (1786M wired, 1317M compressor), 434M unused.
-VM: 280T vsize, 5702M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 527216/744M in, 37154/11M out.
-Disks: 550556/11G read, 163338/4650M written.
-
-COMMAND          MEM  %CPU #TH 
-Slack Helper (Re 732M 0.0  21/1
-Windsurf Helper  560M 0.0  24/1
-Windsurf Helper  507M 0.0  27/3
-language_server_ 378M 0.0  14/1
-Slack Helper (GP 351M 0.0  26/2
-Processes: 667 total, 228 running, 4 stuck, 435 sleeping, 4785 threads 
-2026/01/07 10:58:13
-Load Avg: 382.53, 97.61, 35.73 
-CPU usage: 51.33% user, 39.35% sys, 9.31% idle 
-SharedLibs: 719M resident, 179M data, 107M linkedit.
-MemRegions: 281847 total, 5904M resident, 583M private, 2495M shared.
-PhysMem: 15G used (1786M wired, 1317M compressor), 438M unused.
-VM: 280T vsize, 5702M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 528059/745M in, 37176/11M out.
-Disks: 550613/11G read, 163736/4655M written.
-
-COMMAND          MEM  %CPU #TH 
-Slack Helper (Re 732M 0.0  21/1
-Windsurf Helper  560M 0.0  24/1
-Windsurf Helper  507M 0.0  27/3
-language_server_ 378M 0.0  14  
-Slack Helper (GP 351M 0.0  26/2
+COMMAND          MEM   %CPU #TH  
+com.apple.Virtua 3528M 0.0  30/12
+mediaanalysisd   634M  0.0  7/1  
+WindowServer     592M  0.0  21   
+Windsurf Helper  501M  0.0  24   
+Windsurf Helper  458M  0.0  22   
