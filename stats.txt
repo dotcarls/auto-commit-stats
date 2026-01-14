@@ -1,21 +1,21 @@
               disk0               disk5       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.44  677 12.86   951.53    0  0.03  17  6 77  3.13 2.59 2.75
+   19.44  677 12.86   951.53    0  0.03  17  6 77  5.45 3.08 2.92
 
-Processes: 752 total, 7 running, 745 sleeping, 5059 threads 
-2026/01/14 11:48:58
+Processes: 747 total, 4 running, 1 stuck, 742 sleeping, 5060 threads 
+2026/01/14 11:49:00
 Load Avg: 5.45, 3.08, 2.92 
-CPU usage: 47.42% user, 26.20% sys, 26.36% idle 
+CPU usage: 24.95% user, 19.5% sys, 55.98% idle 
 SharedLibs: 527M resident, 116M data, 73M linkedit.
-MemRegions: 567834 total, 3889M resident, 199M private, 1449M shared.
-PhysMem: 15G used (2693M wired, 5882M compressor), 115M unused.
-VM: 346T vsize, 17G framework vsize, 67679(0) swapins, 237324(0) swapouts.
-Networks: packets: 6480472/6874M in, 2579499/1133M out.
-Disks: 36220143/655G read, 16569554/326G written.
+MemRegions: 556680 total, 3794M resident, 206M private, 1385M shared.
+PhysMem: 15G used (2614M wired, 5861M compressor), 336M unused.
+VM: 343T vsize, 17G framework vsize, 67687(0) swapins, 237324(0) swapouts.
+Networks: packets: 6480714/6874M in, 2579780/1133M out.
+Disks: 36221003/655G read, 16571428/326G written.
 
 COMMAND          MEM   %CPU #TH
 com.apple.Virtua 5060M 0.0  28 
-WindowServer     1073M 0.0  23 
+WindowServer     1072M 0.0  23 
 Webex            663M  0.0  68 
 java             633M  0.0  75 
 Slack Helper (Re 601M  0.0  20 
