@@ -1,38 +1,21 @@
               disk0               disk4       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   22.82 13080 291.53  1390.29    4  4.83  39 25 37  409.65 103.89 37.97
+   21.05 1129 23.20  1524.11    0  0.55  13  5 81  7.95 3.67 3.55
 
-Processes: 745 total, 375 running, 6 stuck, 364 sleeping, 5448 threads 
-2026/02/17 16:15:49
-Load Avg: 409.65, 103.89, 37.97 
-CPU usage: 51.76% user, 31.33% sys, 16.90% idle 
-SharedLibs: 802M resident, 135M data, 121M linkedit.
-MemRegions: 228404 total, 3083M resident, 364M private, 4099M shared.
-PhysMem: 15G used (1811M wired, 2322M compressor), 607M unused.
-VM: 315T vsize, 5361M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 705305/1047M in, 112472/104M out.
-Disks: 884862/17G read, 186795/6978M written.
+Processes: 869 total, 11 running, 858 sleeping, 4601 threads 
+2026/02/17 17:28:41
+Load Avg: 7.95, 3.67, 3.55 
+CPU usage: 43.14% user, 40.74% sys, 16.11% idle 
+SharedLibs: 758M resident, 108M data, 89M linkedit.
+MemRegions: 357075 total, 4567M resident, 308M private, 2023M shared.
+PhysMem: 15G used (2306M wired, 2992M compressor), 192M unused.
+VM: 376T vsize, 17G framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 1940046/2795M in, 375130/369M out.
+Disks: 3930720/74G read, 1099069/29G written.
 
-COMMAND          MEM   %CPU #TH 
-com.apple.Virtua 3078M 0.0  34/3
-Webex            478M  0.0  69/4
-stable           361M  0.0  56/3
-WindowServer     356M  0.0  21/1
-Finder           284M  0.0  57/7
-Processes: 746 total, 386 running, 4 stuck, 356 sleeping, 5468 threads 
-2026/02/17 16:15:49
-Load Avg: 409.65, 103.89, 37.97 
-CPU usage: 50.0% user, 32.51% sys, 17.48% idle 
-SharedLibs: 803M resident, 135M data, 121M linkedit.
-MemRegions: 228790 total, 2972M resident, 363M private, 4131M shared.
-PhysMem: 15G used (1691M wired, 2317M compressor), 568M unused.
-VM: 316T vsize, 5361M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 711344/1056M in, 112748/104M out.
-Disks: 887809/17G read, 187158/6990M written.
-
-COMMAND          MEM   %CPU #TH 
-com.apple.Virtua 3083M 0.0  34/3
-stable           361M  0.0  56/4
-WindowServer     356M  0.0  21  
-Webex            348M  0.0  70/5
-Finder           284M  0.0  57/7
+COMMAND          MEM  %CPU #TH
+WindowServer     690M 0.0  22 
+com.apple.WebKit 556M 0.0  12 
+Windsurf Helper  536M 0.0  24 
+Webex            468M 0.0  74 
+Windsurf Helper  451M 0.0  23 
