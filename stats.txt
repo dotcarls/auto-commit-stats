@@ -1,38 +1,21 @@
               disk0               disk4       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.80 2614 50.56  1529.41    2  2.53  15  7 79  2.97 7.30 14.07
+   20.05 2516 49.27  1529.41    2  2.40  15  7 79  5.75 7.26 13.62
 
-Processes: 728 total, 6 running, 722 sleeping, 4052 threads 
-2026/02/19 19:32:56
-Load Avg: 2.97, 7.30, 14.07 
-CPU usage: 39.0% user, 26.20% sys, 34.80% idle 
-SharedLibs: 683M resident, 142M data, 105M linkedit.
-MemRegions: 367233 total, 5911M resident, 349M private, 2528M shared.
-PhysMem: 15G used (1964M wired, 1220M compressor), 167M unused.
-VM: 324T vsize, 17G framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 908534/1321M in, 160886/159M out.
-Disks: 2122187/38G read, 405236/12G written.
+Processes: 723 total, 3 running, 1 stuck, 719 sleeping, 4219 threads 
+2026/02/19 19:33:50
+Load Avg: 5.75, 7.26, 13.62 
+CPU usage: 8.57% user, 18.28% sys, 73.13% idle 
+SharedLibs: 555M resident, 118M data, 88M linkedit.
+MemRegions: 396385 total, 5608M resident, 234M private, 2628M shared.
+PhysMem: 15G used (2093M wired, 2556M compressor), 548M unused.
+VM: 325T vsize, 5361M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 916648/1327M in, 169240/166M out.
+Disks: 2156897/39G read, 412254/12G written.
 
-COMMAND          MEM  %CPU #TH 
-WindowServer     508M 0.0  22/1
-Windsurf Helper  473M 0.0  23  
-Windsurf Helper  470M 0.0  25  
-Windsurf Helper  467M 0.0  23  
-Windsurf Helper  422M 0.0  22  
-Processes: 732 total, 6 running, 726 sleeping, 4058 threads 
-2026/02/19 19:32:56
-Load Avg: 2.97, 7.30, 14.07 
-CPU usage: 33.41% user, 16.95% sys, 49.62% idle 
-SharedLibs: 683M resident, 142M data, 105M linkedit.
-MemRegions: 367402 total, 5920M resident, 352M private, 2525M shared.
-PhysMem: 15G used (1964M wired, 1219M compressor), 174M unused.
-VM: 326T vsize, 5361M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 908834/1321M in, 161254/160M out.
-Disks: 2122261/38G read, 405353/12G written.
-
-COMMAND          MEM  %CPU #TH
-WindowServer     505M 0.0  22 
-Windsurf Helper  475M 0.0  23 
-Windsurf Helper  472M 0.0  25 
-Windsurf Helper  468M 0.0  23 
-Windsurf Helper  422M 0.0  22 
+COMMAND          MEM   %CPU #TH
+com.apple.Virtua 1035M 0.0  29 
+WindowServer     536M  0.0  20 
+Windsurf Helper  355M  0.0  24 
+language_server_ 318M  0.0  15 
+language_server_ 314M  0.0  16 
