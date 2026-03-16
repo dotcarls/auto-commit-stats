@@ -1,21 +1,21 @@
-              disk0       cpu    load average
-    KB/t  tps  MB/s  us sy id   1m   5m   15m
-   16.14 16298 256.84  29 20 51  171.84 41.18 14.90
+              disk0               disk4               disk5       cpu    load average
+    KB/t  tps  MB/s     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
+   18.23 14193 252.69   805.16    2  1.31   837.72    2  1.54  39 20 40  249.64 67.69 25.04
 
-Processes: 614 total, 265 running, 349 sleeping, 4593 threads 
-2026/03/16 12:45:22
-Load Avg: 206.93, 50.62, 18.39 
-CPU usage: 81.39% user, 17.44% sys, 1.16% idle 
-SharedLibs: 759M resident, 171M data, 140M linkedit.
-MemRegions: 178872 total, 3532M resident, 369M private, 4029M shared.
-PhysMem: 15G used (1631M wired, 1098M compressor), 653M unused.
-VM: 259T vsize, 5361M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 475356/660M in, 56750/8397K out.
-Disks: 814224/12G read, 152028/3075M written.
+Processes: 647 total, 197 running, 5 stuck, 445 sleeping, 4615 threads 
+2026/03/16 12:45:51
+Load Avg: 291.49, 82.69, 30.86 
+CPU usage: 79.66% user, 15.86% sys, 4.46% idle 
+SharedLibs: 554M resident, 126M data, 103M linkedit.
+MemRegions: 233264 total, 3906M resident, 324M private, 4144M shared.
+PhysMem: 15G used (1911M wired, 2373M compressor), 527M unused.
+VM: 277T vsize, 5361M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 774661/1167M in, 112539/146M out.
+Disks: 949780/17G read, 200927/5816M written.
 
 COMMAND          MEM   %CPU #TH  
-com.apple.Virtua 2857M 0.0  31/12
-Spotify Helper ( 397M  0.0  26/1 
-WindowServer     350M  0.0  24/3 
-stable           345M  0.0  202/5
-Spotify Helper   278M  0.0  26/2 
+com.apple.Virtua 3256M 0.0  29/3 
+Slack Helper (Re 684M  0.0  20/1 
+com.code42.agent 656M  0.0  59/3 
+Webex            504M  0.0  112/6
+WindowServer     375M  0.0  25/2 
