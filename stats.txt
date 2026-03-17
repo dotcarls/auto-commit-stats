@@ -1,21 +1,21 @@
               disk0               disk4       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   22.92 10514 235.36  1372.15   11 14.40  56 20 23  286.74 157.96 66.94
+   26.48 3745 96.84  1286.38    4  4.46  20 11 70  156.08 41.33 15.22
 
-Processes: 666 total, 83 running, 1 stuck, 582 sleeping, 3907 threads 
-2026/03/17 13:32:40
-Load Avg: 286.74, 157.96, 66.94 
-CPU usage: 36.61% user, 30.60% sys, 32.78% idle 
-SharedLibs: 633M resident, 123M data, 86M linkedit.
-MemRegions: 116793 total, 2286M resident, 330M private, 5935M shared.
-PhysMem: 15G used (1766M wired, 1437M compressor), 382M unused.
-VM: 274T vsize, 17G framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 707067/1063M in, 116026/128M out.
-Disks: 1567912/33G read, 221254/8957M written.
+Processes: 623 total, 115 running, 5 stuck, 503 sleeping, 4092 threads 
+2026/03/17 13:44:30
+Load Avg: 156.08, 41.33, 15.22 
+CPU usage: 62.94% user, 27.41% sys, 9.64% idle 
+SharedLibs: 769M resident, 176M data, 127M linkedit.
+MemRegions: 152382 total, 2881M resident, 447M private, 5909M shared.
+PhysMem: 15G used (1585M wired, 991M compressor), 632M unused.
+VM: 261T vsize, 5363M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 471534/660M in, 45118/6763K out.
+Disks: 426386/10G read, 71318/3239M written.
 
 COMMAND          MEM   %CPU #TH 
-com.apple.Virtua 4958M 0.0  29  
-WindowServer     464M  0.0  24  
-log              235M  0.0  3/1 
-mds_stores       120M  0.0  11/3
-java             117M  0.0  36  
+com.apple.Virtua 4725M 0.0  31/3
+WindowServer     379M  0.0  22/2
+Spotlight        286M  0.0  11/2
+Docker Desktop H 126M  0.0  19  
+Podman Desktop   118M  0.0  38/3
