@@ -1,21 +1,23 @@
-              disk0               disk4       cpu    load average
-    KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.64  587 11.25   922.86    0  0.03   9  8 83  15.48 14.39 9.87
+              disk0       cpu    load average
+    KB/t  tps  MB/s  us sy id   1m   5m   15m
+   18.06 9742 171.81  31 20 49  158.69 36.20 13.00
 
-Processes: 749 total, 17 running, 732 sleeping, 5296 threads 
-2026/03/17 13:12:52
-Load Avg: 15.48, 14.39, 9.87 
-CPU usage: 26.28% user, 26.43% sys, 47.28% idle 
-SharedLibs: 421M resident, 77M data, 63M linkedit.
-MemRegions: 616432 total, 2563M resident, 165M private, 1245M shared.
-PhysMem: 15G used (3051M wired, 7146M compressor), 182M unused.
-VM: 350T vsize, 5361M framework vsize, 150195(0) swapins, 384396(0) swapouts.
-Networks: packets: 16319538/10G in, 12820377/4322M out.
-Disks: 42911137/825G read, 8774330/145G written.
 
-COMMAND          MEM   %CPU #TH 
-com.apple.Virtua 1594M 0.0  28  
-WindowServer     1080M 0.0  24  
-Safari           897M  0.0  13/1
-Webex            651M  0.0  106 
-Slack Helper (Re 539M  0.0  23  
+
+Processes: 611 total, 361 running, 2 stuck, 248 sleeping, 4800 threads 
+2026/03/17 13:27:48
+Load Avg: 158.69, 36.20, 13.00 
+CPU usage: 55.0% user, 44.0% sys, 1.0% idle 
+SharedLibs: 969M resident, 183M data, 137M linkedit.
+MemRegions: 84217 total, 3726M resident, 644M private, 1802M shared.
+PhysMem: 15G used (1566M wired, 417M compressor), 343M unused.
+VM: 248T vsize, 5363M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 11631/7391K in, 9680/3089K out.
+Disks: 487792/7222M read, 104796/3233M written.
+
+COMMAND          MEM  %CPU #TH  
+Spotlight        390M 0.0  34/9 
+WindowServer     347M 0.0  26/1 
+System Settings  251M 0.0  26/9 
+mds_stores       131M 0.0  39/11
+com.code42.agent 122M 0.0  60/5 
