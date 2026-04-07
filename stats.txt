@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.92 1503 30.70  20 11 69  6.32 7.74 6.52
+   21.46 1515 31.75  21 11 69  19.48 14.15 9.31
 
-Processes: 623 total, 4 running, 619 sleeping, 4911 threads 
-2026/04/07 16:39:54
-Load Avg: 6.32, 7.74, 6.52 
-CPU usage: 38.20% user, 23.87% sys, 37.92% idle 
-SharedLibs: 360M resident, 92M data, 72M linkedit.
-MemRegions: 642713 total, 4292M resident, 76M private, 2575M shared.
-PhysMem: 15G used (2874M wired, 4406M compressor), 189M unused.
-VM: 303T vsize, 5363M framework vsize, 1259864(0) swapins, 1753953(0) swapouts.
-Networks: packets: 3870790/3550M in, 2428060/1389M out.
-Disks: 15743083/288G read, 5154283/128G written.
+Processes: 540 total, 5 running, 535 sleeping, 4719 threads 
+2026/04/07 16:41:48
+Load Avg: 19.48, 14.15, 9.31 
+CPU usage: 33.43% user, 15.4% sys, 51.51% idle 
+SharedLibs: 305M resident, 76M data, 49M linkedit.
+MemRegions: 634748 total, 3393M resident, 58M private, 1042M shared.
+PhysMem: 15G used (2796M wired, 7747M compressor), 164M unused.
+VM: 269T vsize, 5363M framework vsize, 1433261(0) swapins, 2102125(0) swapouts.
+Networks: packets: 4005304/3777M in, 2461333/1465M out.
+Disks: 15928335/294G read, 5308924/141G written.
 
-COMMAND          MEM   %CPU #TH
-gopls            2710M 0.0  139
-com.apple.Virtua 2046M 0.0  30 
-Windsurf Helper  1644M 0.0  24 
-WindowServer     1046M 0.0  25 
-language_server_ 1007M 0.0  23 
+COMMAND          MEM   %CPU #TH 
+com.apple.Virtua 8140M 0.0  29  
+gopls            2710M 0.0  139 
+Windsurf Helper  1938M 0.0  24/1
+language_server_ 1062M 0.0  23/1
+WindowServer     1009M 0.0  23  
