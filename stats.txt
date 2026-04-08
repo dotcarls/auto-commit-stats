@@ -1,39 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   29.16 1688 48.06  13 10 77  6.09 6.16 4.79
+   29.07 1666 47.28  13 10 77  24.93 8.83 5.54
 
+Processes: 531 total, 77 running, 1 stuck, 453 sleeping, 4210 threads 
+2026/04/08 10:57:25
+Load Avg: 34.39, 11.06, 6.35 
+CPU usage: 37.39% user, 62.60% sys, 0.0% idle 
+SharedLibs: 453M resident, 102M data, 87M linkedit.
+MemRegions: 444289 total, 5964M resident, 231M private, 1815M shared.
+PhysMem: 15G used (2711M wired, 2385M compressor), 269M unused.
+VM: 249T vsize, 17G framework vsize, 70998942(0) swapins, 72086573(0) swapouts.
+Networks: packets: 24003863/42G in, 16589598/31G out.
+Disks: 100074063/2220G read, 32791536/1462G written.
 
-Processes: 655 total, 10 running, 2 stuck, 643 sleeping, 4893 threads 
-2026/04/08 10:25:24
-Load Avg: 6.09, 6.16, 4.79 
-CPU usage: 29.9% user, 38.48% sys, 32.41% idle 
-SharedLibs: 289M resident, 66M data, 60M linkedit.
-MemRegions: 647264 total, 3756M resident, 83M private, 1390M shared.
-PhysMem: 15G used (2843M wired, 6623M compressor), 187M unused.
-VM: 314T vsize, 5363M framework vsize, 70802491(0) swapins, 71979006(0) swapouts.
-Networks: packets: 23296959/41G in, 16265346/31G out.
-Disks: 98813755/2197G read, 32571290/1456G written.
-
-COMMAND          MEM   %CPU #TH
-gopls            3481M 0.0  140
-Windsurf Helper  3308M 0.0  24 
-language_server_ 1090M 0.0  25 
-com.apple.WebKit 951M  0.0  4  
-Windsurf Helper  912M  0.0  26 
-Processes: 655 total, 9 running, 2 stuck, 644 sleeping, 4893 threads 
-2026/04/08 10:25:24
-Load Avg: 6.09, 6.16, 4.79 
-CPU usage: 29.9% user, 38.48% sys, 32.41% idle 
-SharedLibs: 289M resident, 66M data, 60M linkedit.
-MemRegions: 647264 total, 3756M resident, 83M private, 1390M shared.
-PhysMem: 15G used (2843M wired, 6623M compressor), 192M unused.
-VM: 314T vsize, 5363M framework vsize, 70802491(0) swapins, 71979006(0) swapouts.
-Networks: packets: 23296959/41G in, 16265346/31G out.
-Disks: 98813765/2197G read, 32571290/1456G written.
-
-COMMAND          MEM   %CPU #TH
-gopls            3481M 0.0  140
-Windsurf Helper  3308M 0.0  24 
-language_server_ 1090M 0.0  25 
-com.apple.WebKit 951M  0.0  4  
-Windsurf Helper  912M  0.0  26 
+COMMAND          MEM  %CPU #TH 
+com.apple.WebKit 715M 0.0  10  
+WindowServer     639M 0.0  26/1
+Windsurf Helper  631M 0.0  21/2
+Windsurf Helper  518M 0.0  23/1
+Windsurf Helper  502M 0.0  23  
