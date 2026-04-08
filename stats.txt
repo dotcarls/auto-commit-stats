@@ -1,21 +1,22 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   31.42 3361 103.11  23 19 58  8.97 4.26 5.75
+   31.40 3346 102.60  23 19 58  4.00 3.91 5.31
 
-Processes: 685 total, 5 running, 680 sleeping, 4851 threads 
-2026/04/07 19:07:36
-Load Avg: 8.97, 4.26, 5.75 
-CPU usage: 31.81% user, 47.9% sys, 21.8% idle 
-SharedLibs: 304M resident, 77M data, 59M linkedit.
-MemRegions: 629608 total, 4852M resident, 75M private, 1214M shared.
-PhysMem: 15G used (2668M wired, 5784M compressor), 331M unused.
-VM: 326T vsize, 5363M framework vsize, 49078441(0) swapins, 49930850(0) swapouts.
-Networks: packets: 12536795/17G in, 7746436/9928M out.
-Disks: 54928721/1299G read, 21598162/993G written.
+
+Processes: 594 total, 6 running, 588 sleeping, 4627 threads 
+2026/04/07 19:10:34
+Load Avg: 4.00, 3.91, 5.31 
+CPU usage: 35.50% user, 41.92% sys, 22.56% idle 
+SharedLibs: 394M resident, 88M data, 64M linkedit.
+MemRegions: 620586 total, 4966M resident, 93M private, 1368M shared.
+PhysMem: 15G used (2549M wired, 5302M compressor), 189M unused.
+VM: 289T vsize, 5363M framework vsize, 49096296(0) swapins, 49930850(0) swapouts.
+Networks: packets: 12587452/17G in, 7797211/10G out.
+Disks: 55171250/1305G read, 21617826/994G written.
 
 COMMAND          MEM   %CPU #TH 
-Windsurf Helper  3875M 0.0  25/1
-gopls            3505M 0.0  140 
-language_server_ 1008M 0.0  23  
-Windsurf Helper  866M  0.0  26  
-WindowServer     711M  0.0  22  
+Windsurf Helper  3782M 0.0  25/1
+gopls            2665M 0.0  140 
+language_server_ 956M  0.0  23  
+Windsurf Helper  800M  0.0  26  
+WindowServer     712M  0.0  22  
