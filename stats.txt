@@ -1,21 +1,39 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   27.38  312  8.35  22 15 63  61.54 25.33 40.72
+   27.38  312  8.35  22 15 63  62.46 26.12 40.91
 
-Processes: 744 total, 44 running, 4 stuck, 696 sleeping, 4623 threads 
-2026/04/30 13:32:57
-Load Avg: 61.54, 25.33, 40.72 
-CPU usage: 46.50% user, 53.49% sys, 0.0% idle 
-SharedLibs: 369M resident, 74M data, 61M linkedit.
-MemRegions: 502702 total, 1277M resident, 43M private, 2646M shared.
-PhysMem: 15G used (2695M wired, 7664M compressor), 209M unused.
-VM: 337T vsize, 17G framework vsize, 281658976(0) swapins, 284512811(0) swapouts.
-Networks: packets: 63888511/63G in, 49342252/42G out.
-Disks: 471594384/10T read, 149864744/5802G written.
 
-COMMAND          MEM   %CPU #TH 
-com.apple.Virtua 8106M 0.0  28/9
-com.code42.agent 807M  0.0  56  
-Slack Helper (Re 735M  0.0  22  
-WindowServer     735M  0.0  23  
-com.apple.WebKit 604M  0.0  4   
+Processes: 741 total, 18 running, 3 stuck, 720 sleeping, 4669 threads 
+2026/04/30 13:33:02
+Load Avg: 62.46, 26.12, 40.91 
+CPU usage: 41.72% user, 57.74% sys, 0.53% idle 
+SharedLibs: 348M resident, 69M data, 59M linkedit.
+MemRegions: 503555 total, 2433M resident, 33M private, 1764M shared.
+PhysMem: 15G used (2707M wired, 7802M compressor), 293M unused.
+VM: 336T vsize, 5363M framework vsize, 281682840(0) swapins, 284578655(0) swapouts.
+Networks: packets: 63888873/63G in, 49342665/42G out.
+Disks: 471622751/10T read, 149893395/5803G written.
+
+COMMAND          MEM   %CPU #TH  
+com.apple.Virtua 8106M 0.0  28/9 
+gopls            2301M 0.0  42/12
+com.code42.agent 807M  0.0  55   
+WindowServer     769M  0.0  22   
+Slack Helper (Re 734M  0.0  22   
+Processes: 741 total, 20 running, 3 stuck, 718 sleeping, 4668 threads 
+2026/04/30 13:33:02
+Load Avg: 62.46, 26.12, 40.91 
+CPU usage: 41.69% user, 57.77% sys, 0.53% idle 
+SharedLibs: 348M resident, 69M data, 59M linkedit.
+MemRegions: 503551 total, 2434M resident, 33M private, 1869M shared.
+PhysMem: 15G used (2707M wired, 7802M compressor), 296M unused.
+VM: 336T vsize, 17G framework vsize, 281682892(0) swapins, 284578655(0) swapouts.
+Networks: packets: 63888873/63G in, 49342667/42G out.
+Disks: 471622776/10T read, 149893399/5803G written.
+
+COMMAND          MEM   %CPU #TH  
+com.apple.Virtua 8106M 0.0  28/2 
+gopls            2302M 0.0  42/10
+com.code42.agent 807M  0.0  55   
+WindowServer     769M  0.0  22   
+Slack Helper (Re 734M  0.0  22   
