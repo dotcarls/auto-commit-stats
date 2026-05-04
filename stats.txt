@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.17 1858 36.58  19 12 69  26.38 9.93 7.16
+   20.24 1863 36.83  19 12 69  21.33 10.87 7.64
 
-Processes: 663 total, 23 running, 7 stuck, 633 sleeping, 5369 threads 
-2026/05/04 15:06:10
-Load Avg: 26.38, 9.93, 7.16 
-CPU usage: 39.83% user, 60.4% sys, 0.11% idle 
-SharedLibs: 352M resident, 61M data, 55M linkedit.
-MemRegions: 538438 total, 1537M resident, 61M private, 3000M shared.
-PhysMem: 15G used (2961M wired, 7357M compressor), 300M unused.
-VM: 322T vsize, 6144M framework vsize, 66526(0) swapins, 214788(0) swapouts.
-Networks: packets: 8592954/10G in, 3382399/2666M out.
-Disks: 24151236/450G read, 11531521/236G written.
-
-COMMAND          MEM   %CPU #TH 
-com.apple.Virtua 8104M 0.0  29/3
-WindowServer     1169M 0.0  24  
-com.apple.WebKit 628M  0.0  15  
-Slack Helper (Re 494M  0.0  19  
-com.code42.agent 468M  0.0  58/1
-Processes: 660 total, 21 running, 2 stuck, 637 sleeping, 5284 threads 
-2026/05/04 15:06:10
-Load Avg: 29.71, 10.89, 7.51 
-CPU usage: 42.32% user, 57.56% sys, 0.11% idle 
-SharedLibs: 353M resident, 61M data, 55M linkedit.
-MemRegions: 536979 total, 1460M resident, 60M private, 2968M shared.
-PhysMem: 15G used (2935M wired, 7162M compressor), 368M unused.
-VM: 321T vsize, 6144M framework vsize, 67256(0) swapins, 214788(0) swapouts.
-Networks: packets: 8596172/10G in, 3382591/2666M out.
-Disks: 24152184/450G read, 11531705/236G written.
+Processes: 609 total, 10 running, 6 stuck, 593 sleeping, 4944 threads 
+2026/05/04 15:06:46
+Load Avg: 21.33, 10.87, 7.64 
+CPU usage: 31.66% user, 28.71% sys, 39.61% idle 
+SharedLibs: 368M resident, 67M data, 67M linkedit.
+MemRegions: 524013 total, 1876M resident, 115M private, 3591M shared.
+PhysMem: 15G used (2799M wired, 6176M compressor), 376M unused.
+VM: 300T vsize, 6144M framework vsize, 74973(0) swapins, 214788(0) swapouts.
+Networks: packets: 9070198/11G in, 3436724/2680M out.
+Disks: 24284545/455G read, 11576566/238G written.
 
 COMMAND          MEM   %CPU #TH 
-com.apple.Virtua 8104M 0.0  29/5
-WindowServer     1169M 0.0  23  
-com.apple.WebKit 583M  0.0  15  
+com.apple.Virtua 8104M 0.0  29  
+WindowServer     1169M 0.0  23/2
+com.code42.agent 1031M 0.0  56  
 Slack Helper (Re 494M  0.0  19  
-com.code42.agent 468M  0.0  58  
+Code42Service    467M  0.0  118 
