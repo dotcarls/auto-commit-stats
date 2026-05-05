@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   21.26 1799 37.34  20 14 66  7.64 8.26 8.31
+   21.29 1806 37.54  20 14 66  6.58 6.97 7.68
 
-Processes: 677 total, 5 running, 672 sleeping, 4994 threads 
-2026/05/04 21:43:29
-Load Avg: 7.64, 8.26, 8.31 
-CPU usage: 26.67% user, 28.74% sys, 44.57% idle 
-SharedLibs: 381M resident, 86M data, 46M linkedit.
-MemRegions: 487328 total, 1325M resident, 54M private, 3665M shared.
-PhysMem: 15G used (2962M wired, 6870M compressor), 157M unused.
-VM: 335T vsize, 6144M framework vsize, 1018869(0) swapins, 1237345(0) swapouts.
-Networks: packets: 12479208/13G in, 7745610/6881M out.
-Disks: 51241344/1045G read, 26178190/524G written.
+Processes: 727 total, 5 running, 1 stuck, 721 sleeping, 5245 threads 
+2026/05/04 21:48:15
+Load Avg: 6.58, 6.97, 7.68 
+CPU usage: 19.96% user, 29.60% sys, 50.43% idle 
+SharedLibs: 281M resident, 70M data, 40M linkedit.
+MemRegions: 495451 total, 926M resident, 68M private, 3391M shared.
+PhysMem: 15G used (3112M wired, 7156M compressor), 298M unused.
+VM: 356T vsize, 6144M framework vsize, 1030388(0) swapins, 1255665(0) swapouts.
+Networks: packets: 12530884/13G in, 7842461/6984M out.
+Disks: 51900550/1061G read, 26337359/528G written.
 
-COMMAND          MEM   %CPU #TH 
-com.apple.Virtua 8104M 0.0  28/3
-WindowServer     1218M 0.0  24/2
-Terminal         549M  0.0  12  
-Slack Helper (Re 525M  0.0  19  
-com.code42.agent 517M  0.0  55  
+COMMAND          MEM   %CPU #TH
+com.apple.Virtua 8104M 0.0  28 
+com.code42.agent 1955M 0.0  56 
+WindowServer     1180M 0.0  23 
+Slack Helper (Re 529M  0.0  19 
+Terminal         525M  0.0  11 
