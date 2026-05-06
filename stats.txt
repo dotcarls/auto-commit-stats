@@ -1,4 +1,22 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.56 1759 35.31  18 15 67  34.80 21.68 13.31
+   20.56 1760 35.34  18 15 67  39.33 23.34 14.05
 
+
+Processes: 821 total, 23 running, 7 stuck, 791 sleeping, 5749 threads 
+2026/05/06 09:53:51
+Load Avg: 39.33, 23.34, 14.05 
+CPU usage: 47.26% user, 52.73% sys, 0.0% idle 
+SharedLibs: 286M resident, 55M data, 50M linkedit.
+MemRegions: 508616 total, 971M resident, 44M private, 3063M shared.
+PhysMem: 15G used (3809M wired, 7117M compressor), 216M unused.
+VM: 516T vsize, 6144M framework vsize, 7883187(0) swapins, 8944524(0) swapouts.
+Networks: packets: 25300559/17G in, 32615160/29G out.
+Disks: 220823004/4296G read, 84095633/1684G written.
+
+COMMAND          MEM   %CPU #TH  
+com.apple.Virtua 8105M 0.0  29/12
+gopls            3576M 0.0  61   
+Windsurf Helper  1291M 0.0  24   
+WindowServer     1048M 0.0  21   
+language_server_ 1007M 0.0  19/1 
