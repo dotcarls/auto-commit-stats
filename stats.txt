@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.55 1758 35.29  18 15 67  29.51 19.74 12.41
+   20.55 1759 35.30  18 15 67  30.39 20.41 12.77
 
-Processes: 804 total, 15 running, 6 stuck, 783 sleeping, 5704 threads 
-2026/05/06 09:53:15
-Load Avg: 29.55, 19.91, 12.51 
-CPU usage: 41.43% user, 50.0% sys, 8.56% idle 
-SharedLibs: 265M resident, 60M data, 37M linkedit.
-MemRegions: 504299 total, 2032M resident, 40M private, 2608M shared.
-PhysMem: 15G used (3813M wired, 6888M compressor), 181M unused.
-VM: 508T vsize, 6144M framework vsize, 7653999(0) swapins, 8646000(0) swapouts.
-Networks: packets: 25268842/17G in, 32589094/29G out.
-Disks: 220637661/4292G read, 83969821/1679G written.
+Processes: 818 total, 23 running, 1 stuck, 794 sleeping, 5697 threads 
+2026/05/06 09:53:28
+Load Avg: 30.39, 20.41, 12.77 
+CPU usage: 45.26% user, 54.73% sys, 0.0% idle 
+SharedLibs: 261M resident, 60M data, 44M linkedit.
+MemRegions: 505623 total, 1637M resident, 43M private, 2875M shared.
+PhysMem: 15G used (3852M wired, 7116M compressor), 198M unused.
+VM: 514T vsize, 6144M framework vsize, 7679299(0) swapins, 8668752(0) swapouts.
+Networks: packets: 25282320/17G in, 32601060/29G out.
+Disks: 220679285/4292G read, 83990612/1679G written.
 
 COMMAND          MEM   %CPU #TH 
-com.apple.Virtua 8105M 0.0  29/1
+com.apple.Virtua 8105M 0.0  29/7
 gopls            3576M 0.0  61  
-WindowServer     1012M 0.0  22/1
-com.code42.agent 948M  0.0  55  
-Codex Helper (Re 877M  0.0  25/1
-Processes: 805 total, 15 running, 3 stuck, 787 sleeping, 5704 threads 
-2026/05/06 09:53:16
-Load Avg: 29.55, 19.91, 12.51 
-CPU usage: 40.71% user, 58.28% sys, 1.0% idle 
-SharedLibs: 266M resident, 61M data, 37M linkedit.
-MemRegions: 504345 total, 1393M resident, 40M private, 3011M shared.
-PhysMem: 15G used (3755M wired, 7028M compressor), 173M unused.
-VM: 509T vsize, 6144M framework vsize, 7657254(0) swapins, 8646000(0) swapouts.
-Networks: packets: 25269417/17G in, 32589559/29G out.
-Disks: 220640481/4292G read, 83969892/1679G written.
-
-COMMAND          MEM   %CPU #TH  
-com.apple.Virtua 8105M 0.0  28/13
-gopls            3576M 0.0  61   
-WindowServer     1012M 0.0  22   
-com.code42.agent 948M  0.0  55   
-Codex Helper (Re 874M  0.0  25   
+com.code42.agent 1283M 0.0  55  
+WindowServer     1018M 0.0  22/1
+Codex Helper (Re 875M  0.0  25  
