@@ -1,39 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   25.06 1273 31.16  17  9 73  9.04 6.05 5.29
+   25.04 1276 31.21  17  9 73  10.98 6.82 5.60
 
+Processes: 847 total, 4 running, 2 stuck, 841 sleeping, 6532 threads 
+2026/05/06 19:42:55
+Load Avg: 10.98, 6.82, 5.60 
+CPU usage: 20.67% user, 16.79% sys, 62.53% idle 
+SharedLibs: 278M resident, 76M data, 63M linkedit.
+MemRegions: 302808 total, 3132M resident, 77M private, 1402M shared.
+PhysMem: 15G used (3415M wired, 6960M compressor), 261M unused.
+VM: 373T vsize, 6144M framework vsize, 252524(0) swapins, 509090(0) swapouts.
+Networks: packets: 5531987/5113M in, 3794867/3560M out.
+Disks: 10840242/236G read, 4232343/124G written.
 
-Processes: 836 total, 8 running, 828 sleeping, 6355 threads 
-2026/05/06 19:42:18
-Load Avg: 9.04, 6.05, 5.29 
-CPU usage: 27.98% user, 21.91% sys, 50.9% idle 
-SharedLibs: 365M resident, 87M data, 82M linkedit.
-MemRegions: 297917 total, 2550M resident, 148M private, 1308M shared.
-PhysMem: 15G used (3360M wired, 6847M compressor), 792M unused.
-VM: 369T vsize, 6144M framework vsize, 252417(0) swapins, 509090(0) swapouts.
-Networks: packets: 5519802/5107M in, 3785872/3557M out.
-Disks: 10765780/234G read, 4223881/124G written.
-
-COMMAND          MEM  %CPU #TH 
-com.code42.agent 982M 0.0  55  
-Codex Helper (Re 709M 0.0  25/1
-WindowServer     635M 0.0  19/1
-claude.exe       471M 0.0  30  
-VTDecoderXPCServ 470M 0.0  10  
-Processes: 836 total, 8 running, 828 sleeping, 6355 threads 
-2026/05/06 19:42:18
-Load Avg: 9.04, 6.05, 5.29 
-CPU usage: 27.98% user, 21.91% sys, 50.9% idle 
-SharedLibs: 365M resident, 87M data, 82M linkedit.
-MemRegions: 297917 total, 2550M resident, 148M private, 1308M shared.
-PhysMem: 15G used (3360M wired, 6847M compressor), 797M unused.
-VM: 369T vsize, 6144M framework vsize, 252417(0) swapins, 509090(0) swapouts.
-Networks: packets: 5519802/5107M in, 3785872/3557M out.
-Disks: 10765782/234G read, 4223881/124G written.
-
-COMMAND          MEM  %CPU #TH 
-com.code42.agent 982M 0.0  55  
-Codex Helper (Re 709M 0.0  25/1
-WindowServer     635M 0.0  19/1
-claude.exe       471M 0.0  30  
-VTDecoderXPCServ 470M 0.0  10  
+COMMAND          MEM  %CPU #TH
+com.code42.agent 982M 0.0  55 
+Codex Helper (Re 749M 0.0  25 
+WindowServer     638M 0.0  20 
+claude.exe       471M 0.0  33 
+VTDecoderXPCServ 468M 0.0  10 
