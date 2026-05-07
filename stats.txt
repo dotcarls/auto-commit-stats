@@ -1,21 +1,39 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   26.18  772 19.75  12  7 81  4.65 6.25 7.72
+   26.22  772 19.78  12  7 81  5.09 5.59 7.09
 
-Processes: 643 total, 5 running, 638 sleeping, 4489 threads 
-2026/05/07 15:23:20
-Load Avg: 4.65, 6.25, 7.72 
-CPU usage: 30.14% user, 15.19% sys, 54.65% idle 
-SharedLibs: 380M resident, 76M data, 72M linkedit.
-MemRegions: 334221 total, 3544M resident, 170M private, 2229M shared.
-PhysMem: 15G used (3333M wired, 4071M compressor), 724M unused.
-VM: 340T vsize, 6144M framework vsize, 1519449(0) swapins, 2219485(0) swapouts.
-Networks: packets: 24853085/22G in, 15448037/12G out.
-Disks: 48948074/1247G read, 14866487/347G written.
+
+Processes: 646 total, 9 running, 637 sleeping, 4692 threads 
+2026/05/07 15:26:54
+Load Avg: 5.09, 5.59, 7.09 
+CPU usage: 26.30% user, 32.41% sys, 41.27% idle 
+SharedLibs: 288M resident, 64M data, 75M linkedit.
+MemRegions: 352050 total, 2351M resident, 146M private, 1695M shared.
+PhysMem: 14G used (3257M wired, 6056M compressor), 1319M unused.
+VM: 344T vsize, 6144M framework vsize, 1519595(0) swapins, 2219485(0) swapouts.
+Networks: packets: 24946800/22G in, 15523696/12G out.
+Disks: 49092401/1252G read, 14896659/349G written.
 
 COMMAND          MEM   %CPU #TH
-com.apple.Virtua 1626M 0.0  28 
-WindowServer     1140M 0.0  21 
-com.code42.agent 666M  0.0  56 
-Codex Helper     519M  0.0  21 
-Codex Helper (Re 484M  0.0  24 
+com.apple.Virtua 1721M 0.0  28 
+WindowServer     1176M 0.0  24 
+language_server_ 969M  0.0  16 
+com.code42.agent 667M  0.0  54 
+Codex Helper (Re 502M  0.0  24 
+Processes: 646 total, 9 running, 637 sleeping, 4692 threads 
+2026/05/07 15:26:54
+Load Avg: 5.09, 5.59, 7.09 
+CPU usage: 26.30% user, 32.41% sys, 41.27% idle 
+SharedLibs: 288M resident, 64M data, 75M linkedit.
+MemRegions: 352048 total, 2351M resident, 146M private, 1695M shared.
+PhysMem: 14G used (3257M wired, 6056M compressor), 1324M unused.
+VM: 344T vsize, 6144M framework vsize, 1519595(0) swapins, 2219485(0) swapouts.
+Networks: packets: 24946800/22G in, 15523696/12G out.
+Disks: 49092401/1252G read, 14896659/349G written.
+
+COMMAND          MEM   %CPU #TH
+com.apple.Virtua 1721M 0.0  28 
+WindowServer     1176M 0.0  24 
+language_server_ 969M  0.0  16 
+com.code42.agent 667M  0.0  54 
+Codex Helper (Re 502M  0.0  24 
