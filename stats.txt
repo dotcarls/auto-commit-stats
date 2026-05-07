@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   26.56  998 25.88  14  8 78  10.05 5.11 3.70
+   26.58 1001 25.98  14  8 78  11.85 5.64 3.91
 
-Processes: 1220 total, 8 running, 9 stuck, 1203 sleeping, 9829 threads 
-2026/05/06 23:24:07
-Load Avg: 10.05, 5.11, 3.70 
-CPU usage: 52.38% user, 38.51% sys, 9.10% idle 
-SharedLibs: 180M resident, 38M data, 26M linkedit.
-MemRegions: 382657 total, 2311M resident, 58M private, 1316M shared.
-PhysMem: 15G used (4812M wired, 6498M compressor), 512M unused.
-VM: 540T vsize, 6144M framework vsize, 336232(0) swapins, 1131822(0) swapouts.
-Networks: packets: 9795823/9188M in, 5465678/4337M out.
-Disks: 19181373/457G read, 5850238/177G written.
+Processes: 1256 total, 6 running, 6 stuck, 1244 sleeping, 10117 threads 
+2026/05/06 23:24:18
+Load Avg: 11.85, 5.64, 3.91 
+CPU usage: 26.2% user, 34.53% sys, 39.44% idle 
+SharedLibs: 229M resident, 51M data, 29M linkedit.
+MemRegions: 389587 total, 2305M resident, 78M private, 1367M shared.
+PhysMem: 15G used (4934M wired, 6443M compressor), 234M unused.
+VM: 554T vsize, 6144M framework vsize, 336591(0) swapins, 1178330(0) swapouts.
+Networks: packets: 9808320/9195M in, 5475356/4343M out.
+Disks: 19250588/459G read, 5868847/178G written.
 
-COMMAND          MEM   %CPU #TH 
-com.code42.agent 1619M 0.0  57  
-Codex Helper (Re 875M  0.0  25/1
-WindowServer     704M  0.0  23/1
-Codex Helper     588M  0.0  23  
-claude.exe       479M  0.0  34  
+COMMAND          MEM  %CPU #TH 
+Codex Helper (Re 907M 0.0  25  
+WindowServer     704M 0.0  22  
+com.code42.agent 660M 0.0  55  
+Codex Helper     648M 0.0  23/2
+claude.exe       539M 0.0  34  
