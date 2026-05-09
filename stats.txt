@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   25.18  951 23.37  14  8 77  9.91 14.25 13.00
+   25.19  952 23.42  14  8 77  27.95 17.13 14.14
 
-Processes: 640 total, 6 running, 1 stuck, 633 sleeping, 4739 threads 
-2026/05/09 15:46:39
-Load Avg: 9.91, 14.25, 13.00 
-CPU usage: 34.90% user, 28.77% sys, 36.32% idle 
-SharedLibs: 358M resident, 69M data, 53M linkedit.
-MemRegions: 346418 total, 4024M resident, 155M private, 2548M shared.
-PhysMem: 15G used (3962M wired, 3047M compressor), 163M unused.
-VM: 532T vsize, 6144M framework vsize, 2351699(0) swapins, 3488376(0) swapouts.
-Networks: packets: 65699838/48G in, 46226093/25G out.
-Disks: 192856719/4694G read, 51268376/1168G written.
+Processes: 666 total, 28 running, 638 sleeping, 4997 threads 
+2026/05/09 15:48:52
+Load Avg: 27.95, 17.13, 14.14 
+CPU usage: 37.71% user, 60.92% sys, 1.35% idle 
+SharedLibs: 330M resident, 53M data, 45M linkedit.
+MemRegions: 348723 total, 3792M resident, 174M private, 2319M shared.
+PhysMem: 15G used (3569M wired, 3491M compressor), 177M unused.
+VM: 544T vsize, 6144M framework vsize, 2351715(0) swapins, 3488376(0) swapouts.
+Networks: packets: 65763778/48G in, 46274964/25G out.
+Disks: 193119313/4705G read, 51509357/1172G written.
 
-COMMAND          MEM   %CPU #TH   
-com.apple.Virtua 3345M 0.0  28    
-WindowServer     1105M 0.0  23/1  
-Codex Helper     716M  0.0  20    
-Code42Service    594M  0.0  118/10
-Codex Helper (Re 564M  0.0  24    
+COMMAND          MEM   %CPU #TH 
+com.apple.Virtua 3345M 0.0  29  
+WindowServer     1072M 0.0  23  
+com.code42.agent 802M  0.0  55/1
+Codex Helper (Re 509M  0.0  24  
+language_server_ 491M  0.0  17  
