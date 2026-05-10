@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   24.79  989 23.93  15  9 77  6.21 5.23 5.97
+   24.79  988 23.92  15  9 77  4.94 5.07 5.52
 
-Processes: 624 total, 21 running, 603 sleeping, 4858 threads 
-2026/05/09 22:34:23
-Load Avg: 6.21, 5.23, 5.97 
-CPU usage: 47.80% user, 34.60% sys, 17.59% idle 
-SharedLibs: 364M resident, 71M data, 56M linkedit.
-MemRegions: 410900 total, 3294M resident, 118M private, 1690M shared.
-PhysMem: 15G used (3671M wired, 5625M compressor), 176M unused.
-VM: 588T vsize, 6144M framework vsize, 2360709(0) swapins, 3488376(0) swapouts.
-Networks: packets: 73120858/52G in, 52348528/28G out.
-Disks: 215284458/5200G read, 62819756/1374G written.
+Processes: 624 total, 11 running, 1 stuck, 612 sleeping, 4865 threads 
+2026/05/09 22:42:01
+Load Avg: 4.94, 5.07, 5.52 
+CPU usage: 39.46% user, 49.8% sys, 11.44% idle 
+SharedLibs: 308M resident, 69M data, 63M linkedit.
+MemRegions: 411051 total, 3202M resident, 118M private, 2091M shared.
+PhysMem: 15G used (3598M wired, 5391M compressor), 157M unused.
+VM: 590T vsize, 6144M framework vsize, 2360717(0) swapins, 3488376(0) swapouts.
+Networks: packets: 73238180/52G in, 52440371/28G out.
+Disks: 215515264/5205G read, 62911723/1377G written.
 
 COMMAND          MEM   %CPU #TH 
-com.apple.Virtua 3345M 0.0  28  
-Codex Helper (Re 1127M 0.0  24  
-WindowServer     1047M 0.0  25/3
-Codex            870M  0.0  53/1
-Codex Helper     771M  0.0  20  
-Processes: 622 total, 17 running, 1 stuck, 604 sleeping, 4862 threads 
-2026/05/09 22:34:24
-Load Avg: 6.21, 5.23, 5.97 
-CPU usage: 50.9% user, 34.81% sys, 15.8% idle 
-SharedLibs: 364M resident, 71M data, 56M linkedit.
-MemRegions: 410740 total, 3271M resident, 117M private, 1700M shared.
-PhysMem: 15G used (3652M wired, 5630M compressor), 175M unused.
-VM: 588T vsize, 6144M framework vsize, 2360709(0) swapins, 3488376(0) swapouts.
-Networks: packets: 73121828/52G in, 52349209/28G out.
-Disks: 215284864/5200G read, 62820114/1374G written.
-
-COMMAND          MEM   %CPU #TH
-com.apple.Virtua 3345M 0.0  28 
-Codex Helper (Re 1116M 0.0  24 
-WindowServer     1042M 0.0  25 
-Codex            875M  0.0  53 
-Codex Helper     771M  0.0  20 
+com.apple.Virtua 3345M 0.0  29  
+Codex Helper (Re 1114M 0.0  24/1
+WindowServer     1047M 0.0  24/1
+Codex            771M  0.0  52  
+com.code42.agent 684M  0.0  55  
