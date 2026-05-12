@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   24.88  972 23.61  19 10 71  5.64 4.58 5.10
+   24.91  973 23.66  19 10 71  6.97 6.29 5.63
 
-Processes: 682 total, 7 running, 675 sleeping, 5216 threads 
-2026/05/12 15:50:25
-Load Avg: 5.64, 4.58, 5.10 
-CPU usage: 30.21% user, 26.99% sys, 42.79% idle 
-SharedLibs: 265M resident, 54M data, 53M linkedit.
-MemRegions: 563725 total, 3542M resident, 144M private, 1645M shared.
-PhysMem: 15G used (2447M wired, 6101M compressor), 238M unused.
-VM: 536T vsize, 6144M framework vsize, 299287(0) swapins, 587862(0) swapouts.
-Networks: packets: 42098129/31G in, 33393053/24G out.
-Disks: 125566308/3306G read, 65716478/1233G written.
+Processes: 676 total, 4 running, 1 stuck, 671 sleeping, 5309 threads 
+2026/05/12 15:58:26
+Load Avg: 6.97, 6.29, 5.63 
+CPU usage: 11.14% user, 17.2% sys, 71.82% idle 
+SharedLibs: 411M resident, 84M data, 58M linkedit.
+MemRegions: 568741 total, 3168M resident, 124M private, 1893M shared.
+PhysMem: 15G used (2733M wired, 6544M compressor), 199M unused.
+VM: 534T vsize, 6144M framework vsize, 299430(0) swapins, 587862(0) swapouts.
+Networks: packets: 42374410/31G in, 33525009/24G out.
+Disks: 126037098/3319G read, 65940654/1241G written.
 
 COMMAND          MEM   %CPU #TH
-com.code42.agent 1234M 0.0  57 
-WindowServer     1103M 0.0  25 
+com.code42.agent 1205M 0.0  54 
+WindowServer     1125M 0.0  24 
+language_server_ 1103M 0.0  54 
 com.apple.Virtua 1068M 0.0  28 
-Codex Helper (Re 1053M 0.0  24 
-Windsurf Helper  743M  0.0  24 
-Processes: 682 total, 6 running, 676 sleeping, 5203 threads 
-2026/05/12 15:50:25
-Load Avg: 5.64, 4.58, 5.10 
-CPU usage: 24.88% user, 26.57% sys, 48.54% idle 
-SharedLibs: 265M resident, 54M data, 53M linkedit.
-MemRegions: 563675 total, 3549M resident, 144M private, 1640M shared.
-PhysMem: 15G used (2448M wired, 6097M compressor), 217M unused.
-VM: 536T vsize, 6144M framework vsize, 299287(0) swapins, 587862(0) swapouts.
-Networks: packets: 42098196/31G in, 33393094/24G out.
-Disks: 125566517/3306G read, 65716495/1233G written.
-
-COMMAND          MEM   %CPU #TH 
-com.code42.agent 1234M 0.0  57/1
-WindowServer     1103M 0.0  25  
-com.apple.Virtua 1068M 0.0  28  
-Codex Helper (Re 1053M 0.0  24  
-Windsurf Helper  743M  0.0  24  
+Codex Helper (Re 935M  0.0  24 
