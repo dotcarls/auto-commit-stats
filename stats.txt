@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.55 1109 21.18  13  7 80  3.80 4.93 4.57
+   19.67  188  3.61  12  7 81  93.36 352.10 237.55
 
-Processes: 852 total, 3 running, 849 sleeping, 4147 threads 
-2026/05/20 10:33:52
-Load Avg: 3.80, 4.93, 4.57 
-CPU usage: 10.27% user, 14.62% sys, 75.9% idle 
-SharedLibs: 855M resident, 147M data, 116M linkedit.
-MemRegions: 188165 total, 3774M resident, 384M private, 1692M shared.
-PhysMem: 15G used (2268M wired, 2312M compressor), 320M unused.
-VM: 390T vsize, 6144M framework vsize, 0(0) swapins, 0(0) swapouts.
-Networks: packets: 28185425/26G in, 22757164/16G out.
-Disks: 58104174/1150G read, 33691491/562G written.
+Processes: 830 total, 17 running, 11 stuck, 802 sleeping, 4960 threads 
+2026/05/27 13:07:12
+Load Avg: 93.36, 352.10, 237.55 
+CPU usage: 41.87% user, 21.67% sys, 36.45% idle 
+SharedLibs: 657M resident, 114M data, 76M linkedit.
+MemRegions: 307534 total, 3582M resident, 241M private, 2179M shared.
+PhysMem: 15G used (2630M wired, 3728M compressor), 434M unused.
+VM: 361T vsize, 6144M framework vsize, 175750(0) swapins, 319805(0) swapouts.
+Networks: packets: 25073321/23G in, 22377819/17G out.
+Disks: 85445162/1711G read, 45498170/746G written.
 
-COMMAND          MEM   %CPU #TH
-com.code42.agent 1674M 0.0  54 
-WindowServer     755M  0.0  22 
-Code42Service    387M  0.0  125
-com.apple.WebKit 272M  0.0  4  
-osqueryd         271M  0.0  14 
+COMMAND          MEM  %CPU #TH 
+com.code42.agent 36G  0.0  56/1
+com.apple.Virtua 931M 0.0  28  
+Webex            811M 0.0  105 
+WindowServer     758M 0.0  24  
+Slack Helper (Re 466M 0.0  20  
