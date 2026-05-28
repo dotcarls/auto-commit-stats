@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.59  243  4.88  13  7 79  16.28 6.91 5.17
+   20.75  271  5.48  13  7 80  3.51 3.04 4.34
 
-Processes: 957 total, 4 running, 953 sleeping, 4861 threads 
-2026/05/27 21:25:52
-Load Avg: 15.46, 6.89, 5.18 
-CPU usage: 12.77% user, 15.90% sys, 71.32% idle 
-SharedLibs: 552M resident, 98M data, 70M linkedit.
-MemRegions: 318983 total, 3526M resident, 267M private, 1599M shared.
-PhysMem: 15G used (2771M wired, 4126M compressor), 117M unused.
-VM: 440T vsize, 6144M framework vsize, 196296(0) swapins, 319805(0) swapouts.
-Networks: packets: 34015592/33G in, 24567947/18G out.
-Disks: 120661548/2520G read, 55561318/940G written.
+Processes: 959 total, 9 running, 1 stuck, 949 sleeping, 4905 threads 
+2026/05/28 11:23:54
+Load Avg: 3.51, 3.04, 4.34 
+CPU usage: 52.18% user, 39.8% sys, 8.73% idle 
+SharedLibs: 515M resident, 95M data, 68M linkedit.
+MemRegions: 337402 total, 4091M resident, 153M private, 1796M shared.
+PhysMem: 15G used (2947M wired, 4776M compressor), 197M unused.
+VM: 467T vsize, 6144M framework vsize, 197271(0) swapins, 319805(0) swapouts.
+Networks: packets: 36030965/35G in, 26922356/19G out.
+Disks: 143661362/3035G read, 66581693/1125G written.
 
-COMMAND          MEM   %CPU #TH
-com.code42.agent 1152M 0.0  54 
-WindowServer     921M  0.0  22 
-Terminal         582M  0.0  12 
-Webex            567M  0.0  105
-Safari           543M  0.0  14 
+COMMAND          MEM   %CPU #TH 
+com.code42.agent 3361M 0.0  55  
+WindowServer     1191M 0.0  22/1
+Terminal         651M  0.0  12  
+Safari           536M  0.0  15  
+Webex            469M  0.0  101 
