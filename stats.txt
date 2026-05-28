@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.92  294  6.02  13  7 80  4.81 5.71 6.14
+   20.92  295  6.02  13  7 80  4.42 4.97 5.74
 
-Processes: 643 total, 8 running, 635 sleeping, 4932 threads 
-2026/05/28 14:18:07
-Load Avg: 4.81, 5.71, 6.14 
-CPU usage: 31.11% user, 24.28% sys, 44.60% idle 
-SharedLibs: 441M resident, 81M data, 55M linkedit.
-MemRegions: 535263 total, 3587M resident, 130M private, 1448M shared.
-PhysMem: 15G used (3478M wired, 6399M compressor), 267M unused.
-VM: 364T vsize, 6144M framework vsize, 215299(0) swapins, 430050(0) swapouts.
-Networks: packets: 43048890/42G in, 29538383/21G out.
-Disks: 157215359/3350G read, 74647568/1275G written.
+Processes: 651 total, 6 running, 645 sleeping, 5014 threads 
+2026/05/28 14:21:14
+Load Avg: 4.42, 4.97, 5.74 
+CPU usage: 21.79% user, 15.20% sys, 63.0% idle 
+SharedLibs: 472M resident, 81M data, 66M linkedit.
+MemRegions: 538060 total, 3524M resident, 183M private, 1612M shared.
+PhysMem: 15G used (3046M wired, 5674M compressor), 451M unused.
+VM: 368T vsize, 6144M framework vsize, 216082(0) swapins, 460306(0) swapouts.
+Networks: packets: 43117865/42G in, 29576658/21G out.
+Disks: 157440848/3356G read, 74747216/1277G written.
 
-COMMAND          MEM   %CPU #TH
-com.code42.agent 2145M 0.0  54 
-WindowServer     1334M 0.0  22 
-gopls            816M  0.0  62 
-com.apple.WebKit 768M  0.0  14 
-Terminal         753M  0.0  11 
+COMMAND          MEM   %CPU #TH  
+com.code42.agent 2146M 0.0  55   
+WindowServer     1318M 0.0  23/3 
+gopls            816M  0.0  62   
+Terminal         807M  0.0  13   
+Code42Service    666M  0.0  121/1
