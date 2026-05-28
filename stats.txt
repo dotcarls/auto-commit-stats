@@ -1,38 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.83  290  5.89  13  7 80  22.55 24.16 17.18
+   20.83  291  5.92  13  7 80  4.14 8.96 12.41
 
-Processes: 645 total, 15 running, 2 stuck, 628 sleeping, 4735 threads 
-2026/05/28 13:36:49
-Load Avg: 22.55, 24.16, 17.18 
-CPU usage: 48.44% user, 43.26% sys, 8.29% idle 
-SharedLibs: 321M resident, 65M data, 52M linkedit.
-MemRegions: 532069 total, 3448M resident, 78M private, 914M shared.
-PhysMem: 15G used (3084M wired, 6520M compressor), 341M unused.
-VM: 366T vsize, 6144M framework vsize, 204758(0) swapins, 384578(0) swapouts.
-Networks: packets: 40722214/39G in, 29016210/20G out.
-Disks: 154722211/3283G read, 72663176/1235G written.
+Processes: 637 total, 3 running, 1 stuck, 633 sleeping, 4305 threads 
+2026/05/28 13:46:26
+Load Avg: 4.14, 8.96, 12.41 
+CPU usage: 14.2% user, 15.15% sys, 70.81% idle 
+SharedLibs: 610M resident, 129M data, 91M linkedit.
+MemRegions: 378393 total, 4217M resident, 312M private, 1802M shared.
+PhysMem: 15G used (2783M wired, 3658M compressor), 239M unused.
+VM: 346T vsize, 6144M framework vsize, 205542(0) swapins, 384578(0) swapouts.
+Networks: packets: 41503625/40G in, 29172566/20G out.
+Disks: 155420773/3296G read, 73306578/1248G written.
 
-COMMAND          MEM   %CPU #TH   
-gopls            2336M 0.0  42    
-com.code42.agent 2121M 0.0  56    
-WindowServer     1311M 0.0  22    
-Code42Service    776M  0.0  124/15
-Webex            714M  0.0  108   
-Processes: 645 total, 13 running, 4 stuck, 628 sleeping, 4740 threads 
-2026/05/28 13:36:49
-Load Avg: 22.55, 24.16, 17.18 
-CPU usage: 46.64% user, 43.63% sys, 9.71% idle 
-SharedLibs: 322M resident, 65M data, 52M linkedit.
-MemRegions: 532117 total, 3366M resident, 84M private, 917M shared.
-PhysMem: 15G used (3083M wired, 6498M compressor), 370M unused.
-VM: 366T vsize, 6144M framework vsize, 204758(0) swapins, 384578(0) swapouts.
-Networks: packets: 40722214/39G in, 29016210/20G out.
-Disks: 154722382/3283G read, 72663191/1235G written.
-
-COMMAND          MEM   %CPU #TH  
-gopls            2331M 0.0  42   
-com.code42.agent 2121M 0.0  56   
-WindowServer     1311M 0.0  22   
-Code42Service    776M  0.0  124/9
-Webex            714M  0.0  108/1
+COMMAND          MEM   %CPU #TH
+com.code42.agent 2128M 0.0  55 
+WindowServer     1327M 0.0  22 
+Code42Service    818M  0.0  123
+Webex            637M  0.0  108
+Safari           559M  0.0  16 
