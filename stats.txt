@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.95  300  6.13  13  7 79  18.29 19.50 17.66
+   20.96  300  6.14  13  7 79  16.43 17.94 17.26
 
-Processes: 681 total, 7 running, 2 stuck, 672 sleeping, 4976 threads 
-2026/05/28 14:57:57
-Load Avg: 18.29, 19.50, 17.66 
-CPU usage: 30.35% user, 21.24% sys, 48.40% idle 
-SharedLibs: 401M resident, 77M data, 51M linkedit.
-MemRegions: 537315 total, 3797M resident, 150M private, 1620M shared.
-PhysMem: 15G used (3148M wired, 5742M compressor), 170M unused.
-VM: 381T vsize, 6144M framework vsize, 232466(0) swapins, 461042(0) swapouts.
-Networks: packets: 43696340/42G in, 30003287/21G out.
-Disks: 160726481/3430G read, 75968185/1300G written.
+Processes: 710 total, 5 running, 705 sleeping, 5138 threads 
+2026/05/28 15:00:12
+Load Avg: 16.43, 17.94, 17.26 
+CPU usage: 31.91% user, 13.74% sys, 54.33% idle 
+SharedLibs: 432M resident, 101M data, 80M linkedit.
+MemRegions: 540802 total, 3643M resident, 143M private, 1686M shared.
+PhysMem: 15G used (2983M wired, 5901M compressor), 204M unused.
+VM: 393T vsize, 6144M framework vsize, 232690(0) swapins, 461042(0) swapouts.
+Networks: packets: 43722459/42G in, 30026786/21G out.
+Disks: 160872686/3433G read, 76020129/1301G written.
 
-COMMAND          MEM   %CPU #TH  
-com.code42.agent 1266M 0.0  55   
-Terminal         1185M 0.0  17   
-WindowServer     1170M 0.0  23/1 
-Code42Service    837M  0.0  120/5
-gopls            799M  0.0  62   
+COMMAND          MEM   %CPU #TH
+com.code42.agent 1212M 0.0  55 
+WindowServer     1191M 0.0  21 
+Terminal         1119M 0.0  17 
+gopls            799M  0.0  62 
+Code42Service    646M  0.0  122
