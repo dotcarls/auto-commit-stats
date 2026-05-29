@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   20.35  446  8.86  16  8 76  5.20 4.35 5.49
+   20.42  450  8.98  16  8 76  7.70 17.88 15.48
 
-Processes: 701 total, 6 running, 695 sleeping, 4666 threads 
-2026/05/29 17:08:24
-Load Avg: 5.11, 4.34, 5.48 
-CPU usage: 8.34% user, 11.33% sys, 80.31% idle 
-SharedLibs: 519M resident, 107M data, 70M linkedit.
-MemRegions: 420414 total, 4919M resident, 192M private, 2099M shared.
-PhysMem: 15G used (3072M wired, 3471M compressor), 104M unused.
-VM: 417T vsize, 6144M framework vsize, 835368(0) swapins, 1362700(0) swapouts.
-Networks: packets: 71163208/58G in, 51993423/32G out.
-Disks: 253075421/5288G read, 141187271/2363G written.
+Processes: 736 total, 10 running, 2 stuck, 724 sleeping, 5050 threads 
+2026/05/29 17:27:19
+Load Avg: 7.80, 17.73, 15.44 
+CPU usage: 42.44% user, 23.31% sys, 34.24% idle 
+SharedLibs: 325M resident, 76M data, 60M linkedit.
+MemRegions: 423618 total, 4510M resident, 118M private, 1638M shared.
+PhysMem: 15G used (3344M wired, 4701M compressor), 226M unused.
+VM: 434T vsize, 6144M framework vsize, 2413399(0) swapins, 3119691(0) swapouts.
+Networks: packets: 71808437/58G in, 52459854/32G out.
+Disks: 255757827/5348G read, 142751840/2415G written.
 
-COMMAND          MEM   %CPU #TH 
-WindowServer     1218M 0.0  24/1
-com.code42.agent 1059M 0.0  55  
-Terminal         812M  0.0  15/1
-Webex            699M  0.0  109 
-Slack Helper (Re 611M  0.0  19  
+COMMAND          MEM   %CPU #TH
+com.code42.agent 1357M 0.0  55 
+WindowServer     1241M 0.0  26 
+Webex            650M  0.0  110
+Slack Helper (Re 625M  0.0  19 
+Terminal         601M  0.0  13 
