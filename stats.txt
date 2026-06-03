@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.77 2240 43.25  26 12 62  8.86 12.54 14.88
+   19.72 2261 43.55  26 12 62  39.42 28.23 21.19
 
-Processes: 611 total, 6 running, 605 sleeping, 4981 threads 
-2026/06/03 15:05:12
-Load Avg: 8.86, 12.54, 14.88 
-CPU usage: 32.52% user, 13.52% sys, 53.94% idle 
-SharedLibs: 272M resident, 49M data, 54M linkedit.
-MemRegions: 582183 total, 4219M resident, 160M private, 1761M shared.
-PhysMem: 15G used (2792M wired, 4966M compressor), 346M unused.
-VM: 292T vsize, 6144M framework vsize, 4943838(0) swapins, 5982376(0) swapouts.
-Networks: packets: 33113683/28G in, 28443592/21G out.
-Disks: 246492261/4715G read, 162781386/3002G written.
+Processes: 605 total, 16 running, 2 stuck, 587 sleeping, 4935 threads 
+2026/06/03 15:19:56
+Load Avg: 39.42, 28.23, 21.19 
+CPU usage: 39.56% user, 34.85% sys, 25.58% idle 
+SharedLibs: 259M resident, 50M data, 40M linkedit.
+MemRegions: 581366 total, 3938M resident, 127M private, 1624M shared.
+PhysMem: 15G used (2740M wired, 5627M compressor), 383M unused.
+VM: 290T vsize, 6144M framework vsize, 4946454(0) swapins, 5982376(0) swapouts.
+Networks: packets: 33265878/28G in, 28598543/21G out.
+Disks: 249191737/4763G read, 165962589/3046G written.
 
-COMMAND          MEM   %CPU #TH
-com.code42.agent 1458M 0.0  55 
-Terminal         869M  0.0  14 
-Code Helper (Plu 809M  0.0  12 
-WindowServer     770M  0.0  23 
-com.cisco.endpoi 677M  0.0  3  
+COMMAND          MEM   %CPU #TH 
+com.code42.agent 1479M 0.0  55/2
+mds_stores       899M  0.0  9   
+WindowServer     772M  0.0  22/1
+Code Helper (Plu 754M  0.0  12  
+com.cisco.endpoi 751M  0.0  3/1 
