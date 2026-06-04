@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.90 3121 57.61  28 13 59  20.01 18.95 17.91
+   18.85 3133 57.68  28 13 59  34.16 23.21 19.89
 
-Processes: 660 total, 8 running, 10 stuck, 642 sleeping, 5447 threads 
-2026/06/04 13:30:55
-Load Avg: 20.01, 18.95, 17.91 
-CPU usage: 49.86% user, 29.69% sys, 20.44% idle 
-SharedLibs: 259M resident, 66M data, 53M linkedit.
-MemRegions: 524411 total, 3695M resident, 86M private, 1247M shared.
-PhysMem: 15G used (2897M wired, 6244M compressor), 316M unused.
-VM: 302T vsize, 6144M framework vsize, 5826422(0) swapins, 7121392(0) swapouts.
-Networks: packets: 51349500/40G in, 45098364/32G out.
-Disks: 530260301/9390G read, 292066095/5434G written.
+Processes: 666 total, 17 running, 7 stuck, 642 sleeping, 5644 threads 
+2026/06/04 13:35:11
+Load Avg: 34.16, 23.21, 19.89 
+CPU usage: 51.65% user, 37.98% sys, 10.36% idle 
+SharedLibs: 383M resident, 74M data, 68M linkedit.
+MemRegions: 512896 total, 5414M resident, 160M private, 1882M shared.
+PhysMem: 15G used (2957M wired, 3281M compressor), 280M unused.
+VM: 304T vsize, 6144M framework vsize, 5835013(0) swapins, 7169004(0) swapouts.
+Networks: packets: 51400047/41G in, 45139084/32G out.
+Disks: 533976857/9419G read, 292230010/5436G written.
 
 COMMAND          MEM   %CPU #TH 
-Code Helper (Plu 3137M 0.0  23/1
-WindowServer     1063M 0.0  23  
-codex-aarch64-ap 822M  0.0  27  
-Code Helper (Ren 757M  0.0  25  
-codex-aarch64-ap 723M  0.0  32/1
+com.code42.agent 2167M 0.0  56/3
+WindowServer     1008M 0.0  24  
+codex-aarch64-ap 824M  0.0  32  
+codex-aarch64-ap 725M  0.0  31  
+Code Helper (Ren 708M  0.0  25  
