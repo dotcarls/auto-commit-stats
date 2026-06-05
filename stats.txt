@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   22.51 9176 201.73  42 19 39  5.23 16.71 22.48
+   26.93 8862 233.10  38 19 43  8.00 12.50 17.29
 
-Processes: 707 total, 6 running, 701 sleeping, 4479 threads 
-2026/06/04 19:53:30
-Load Avg: 5.23, 16.71, 22.48 
-CPU usage: 30.45% user, 16.66% sys, 52.88% idle 
-SharedLibs: 513M resident, 54M data, 44M linkedit.
-MemRegions: 461600 total, 4526M resident, 98M private, 1349M shared.
-PhysMem: 15G used (2306M wired, 5965M compressor), 399M unused.
-VM: 322T vsize, 6144M framework vsize, 8(0) swapins, 32(0) swapouts.
-Networks: packets: 522675/585M in, 242106/155M out.
-Disks: 7255171/158G read, 1816968/37G written.
+Processes: 684 total, 4 running, 4 stuck, 676 sleeping, 4636 threads 
+2026/06/04 20:02:21
+Load Avg: 8.00, 12.50, 17.29 
+CPU usage: 18.10% user, 23.66% sys, 58.23% idle 
+SharedLibs: 390M resident, 78M data, 70M linkedit.
+MemRegions: 471261 total, 4565M resident, 210M private, 1677M shared.
+PhysMem: 15G used (2333M wired, 5117M compressor), 646M unused.
+VM: 314T vsize, 6144M framework vsize, 16(0) swapins, 32(0) swapouts.
+Networks: packets: 647920/658M in, 363593/223M out.
+Disks: 10713076/289G read, 2751721/57G written.
 
-COMMAND          MEM  %CPU #TH
-mds_stores       707M 0.0  6  
-Code42Service    567M 0.0  116
-WindowServer     551M 0.0  22 
-Finder           549M 0.0  5  
-com.code42.agent 527M 0.0  55 
+COMMAND          MEM   %CPU #TH 
+mds_stores       1653M 0.0  14  
+com.code42.agent 1151M 0.0  54/1
+WindowServer     563M  0.0  23  
+Finder           549M  0.0  4   
+codex-aarch64-ap 535M  0.0  36  
