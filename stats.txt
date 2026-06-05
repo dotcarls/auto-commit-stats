@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   23.73 3556 82.39  37 15 48  67.61 53.55 52.82
+   23.74 3561 82.56  37 15 48  38.65 47.64 50.57
 
-Processes: 752 total, 16 running, 15 stuck, 721 sleeping, 5640 threads 
-2026/06/05 11:37:52
-Load Avg: 67.61, 53.55, 52.82 
-CPU usage: 62.85% user, 36.59% sys, 0.54% idle 
-SharedLibs: 237M resident, 50M data, 59M linkedit.
-MemRegions: 542950 total, 2986M resident, 77M private, 1397M shared.
-PhysMem: 15G used (3075M wired, 7430M compressor), 279M unused.
-VM: 345T vsize, 6144M framework vsize, 80812(0) swapins, 388777(0) swapouts.
-Networks: packets: 17518756/10G in, 15609365/10G out.
-Disks: 149054647/3383G read, 55945862/1256G written.
+Processes: 679 total, 10 running, 6 stuck, 663 sleeping, 5164 threads 
+2026/06/05 11:40:09
+Load Avg: 38.65, 47.64, 50.57 
+CPU usage: 49.76% user, 42.72% sys, 7.52% idle 
+SharedLibs: 213M resident, 36M data, 22M linkedit.
+MemRegions: 546290 total, 3181M resident, 64M private, 1438M shared.
+PhysMem: 15G used (3064M wired, 6897M compressor), 380M unused.
+VM: 317T vsize, 6144M framework vsize, 114808(0) swapins, 457381(0) swapouts.
+Networks: packets: 17628565/10G in, 15673017/10G out.
+Disks: 149741279/3400G read, 56044489/1258G written.
 
-COMMAND          MEM   %CPU #TH  
-com.apple.WebKit 1062M 0.0  3    
-WindowServer     1058M 0.0  23   
-com.apple.WebKit 1040M 0.0  6    
-codex-aarch64-ap 943M  0.0  34   
-Code42Service    768M  0.0  119/5
+COMMAND          MEM   %CPU #TH
+WindowServer     1094M 0.0  24 
+com.apple.WebKit 1087M 0.0  3/1
+com.apple.WebKit 1015M 0.0  11 
+python3.11       958M  0.0  2/1
+codex-aarch64-ap 944M  0.0  31 
