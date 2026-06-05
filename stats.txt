@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   23.12 3806 85.95  39 16 45  35.84 39.82 40.60
+   22.98 3864 86.70  39 16 44  45.12 62.11 53.62
 
-Processes: 595 total, 20 running, 2 stuck, 573 sleeping, 4467 threads 
-2026/06/05 13:38:38
-Load Avg: 35.84, 39.82, 40.60 
-CPU usage: 51.45% user, 33.33% sys, 15.21% idle 
-SharedLibs: 403M resident, 79M data, 58M linkedit.
-MemRegions: 220945 total, 3907M resident, 184M private, 1792M shared.
-PhysMem: 15G used (2863M wired, 4341M compressor), 581M unused.
-VM: 250T vsize, 6144M framework vsize, 1203707(0) swapins, 1495940(0) swapouts.
-Networks: packets: 21290824/12G in, 18394408/11G out.
-Disks: 179175644/3945G read, 67840502/1502G written.
+Processes: 579 total, 22 running, 8 stuck, 549 sleeping, 4608 threads 
+2026/06/05 13:53:50
+Load Avg: 45.12, 62.11, 53.62 
+CPU usage: 58.6% user, 41.29% sys, 0.64% idle 
+SharedLibs: 346M resident, 44M data, 50M linkedit.
+MemRegions: 219759 total, 3602M resident, 118M private, 1527M shared.
+PhysMem: 15G used (2656M wired, 5259M compressor), 328M unused.
+VM: 244T vsize, 6144M framework vsize, 1215952(0) swapins, 1495940(0) swapouts.
+Networks: packets: 21968886/13G in, 18910865/12G out.
+Disks: 184559826/4033G read, 69701594/1538G written.
 
-COMMAND          MEM   %CPU #TH  
-Code42Service    1425M 0.0  121/6
-com.apple.WebKit 1065M 0.0  3/1  
-com.apple.WebKit 965M  0.0  8/1  
-codex-aarch64-ap 964M  0.0  34   
-com.code42.agent 859M  0.0  55   
+COMMAND          MEM   %CPU #TH   
+com.code42.agent 1762M 0.0  60    
+Code42Service    1377M 0.0  119/19
+com.apple.WebKit 1118M 0.0  3/1   
+codex-aarch64-ap 994M  0.0  61    
+com.apple.WebKit 964M  0.0  8     
