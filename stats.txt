@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   22.52 4079 89.70  41 17 42  39.02 42.54 40.37
+   21.83 1792 38.20  18  8 75  2.10 2.48 2.92
 
-Processes: 544 total, 36 running, 1 stuck, 507 sleeping, 4410 threads 
-2026/06/05 15:40:28
-Load Avg: 39.02, 42.54, 40.37 
-CPU usage: 48.82% user, 51.17% sys, 0.0% idle 
-SharedLibs: 317M resident, 78M data, 66M linkedit.
-MemRegions: 361412 total, 3881M resident, 145M private, 1570M shared.
-PhysMem: 15G used (2874M wired, 4956M compressor), 826M unused.
-VM: 248T vsize, 6144M framework vsize, 1270627(0) swapins, 1518261(0) swapouts.
-Networks: packets: 26758789/16G in, 22207500/14G out.
-Disks: 214366049/4568G read, 80154719/1757G written.
+Processes: 675 total, 4 running, 671 sleeping, 3740 threads 
+2026/06/15 14:50:16
+Load Avg: 2.10, 2.48, 2.92 
+CPU usage: 17.83% user, 14.61% sys, 67.54% idle 
+SharedLibs: 636M resident, 121M data, 85M linkedit.
+MemRegions: 241041 total, 3236M resident, 191M private, 1588M shared.
+PhysMem: 15G used (3653M wired, 4389M compressor), 201M unused.
+VM: 280T vsize, 6144M framework vsize, 1527048(0) swapins, 1825900(0) swapouts.
+Networks: packets: 41969605/27G in, 51307063/43G out.
+Disks: 815499198/15T read, 856559634/19T written.
 
-COMMAND          MEM   %CPU #TH   
-Code42Service    1686M 0.0  120/12
-com.code42.agent 1146M 0.0  56    
-WindowServer     704M  0.0  22    
-Finder           550M  0.0  7     
-Terminal         543M  0.0  12/2  
+COMMAND          MEM   %CPU #TH
+com.code42.agent 1068M 0.0  55 
+Webex            1048M 0.0  99 
+WindowServer     861M  0.0  24 
+Photos           697M  0.0  7  
+Finder           552M  0.0  8  
