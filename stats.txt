@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   21.78 1213 25.80  16  7 77  10.58 10.27 9.42
+   21.79 1213 25.81  16  7 77  4.97 8.13 8.85
 
-Processes: 548 total, 16 running, 1 stuck, 531 sleeping, 3655 threads 
-2026/06/26 18:18:58
-Load Avg: 10.58, 10.27, 9.42 
-CPU usage: 61.51% user, 28.28% sys, 10.19% idle 
-SharedLibs: 355M resident, 85M data, 63M linkedit.
-MemRegions: 208126 total, 3420M resident, 144M private, 1649M shared.
-PhysMem: 15G used (3518M wired, 5818M compressor), 169M unused.
-VM: 225T vsize, 6144M framework vsize, 1819177(0) swapins, 2335879(0) swapouts.
-Networks: packets: 84123092/51G in, 104880480/79G out.
-Disks: 1353747422/26T read, 945979477/21T written.
+Processes: 580 total, 6 running, 574 sleeping, 3733 threads 
+2026/06/26 18:23:59
+Load Avg: 4.97, 8.13, 8.85 
+CPU usage: 27.38% user, 20.6% sys, 52.54% idle 
+SharedLibs: 445M resident, 103M data, 74M linkedit.
+MemRegions: 211889 total, 2986M resident, 128M private, 1263M shared.
+PhysMem: 15G used (3534M wired, 5791M compressor), 738M unused.
+VM: 239T vsize, 6144M framework vsize, 1819189(0) swapins, 2335879(0) swapouts.
+Networks: packets: 84225386/51G in, 104996086/79G out.
+Disks: 1354321534/26T read, 946053559/21T written.
 
 COMMAND          MEM   %CPU #TH 
-fseventsd        1201M 0.0  13/1
-com.code42.agent 1189M 0.0  55/1
-com.apple.WebKit 1023M 0.0  11  
-WindowServer     787M  0.0  21/1
-com.apple.WebKit 779M  0.0  14  
+fseventsd        1211M 0.0  15/1
+WindowServer     890M  0.0  22  
+com.apple.WebKit 841M  0.0  11  
+com.apple.WebKit 760M  0.0  14  
+com.code42.agent 704M  0.0  59  
