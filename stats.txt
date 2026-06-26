@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   21.80 1224 26.06  16  7 78  5.51 5.29 5.11
+   21.79 1204 25.62  16  7 78  24.35 16.92 10.98
 
-Processes: 573 total, 19 running, 554 sleeping, 4562 threads 
-2026/06/25 17:13:38
-Load Avg: 5.51, 5.29, 5.11 
-CPU usage: 48.19% user, 47.86% sys, 3.93% idle 
-SharedLibs: 423M resident, 94M data, 70M linkedit.
-MemRegions: 518976 total, 3532M resident, 150M private, 1840M shared.
-PhysMem: 15G used (3772M wired, 4986M compressor), 247M unused.
-VM: 268T vsize, 6144M framework vsize, 1785186(0) swapins, 2311119(0) swapouts.
-Networks: packets: 70149741/40G in, 97610595/76G out.
-Disks: 1281687736/24T read, 928696689/21T written.
+Processes: 646 total, 36 running, 3 stuck, 607 sleeping, 4997 threads 
+2026/06/26 10:34:55
+Load Avg: 24.35, 16.92, 10.98 
+CPU usage: 49.14% user, 25.40% sys, 25.45% idle 
+SharedLibs: 335M resident, 62M data, 50M linkedit.
+MemRegions: 540330 total, 3034M resident, 147M private, 1508M shared.
+PhysMem: 15G used (3766M wired, 6554M compressor), 332M unused.
+VM: 298T vsize, 6144M framework vsize, 1790649(0) swapins, 2311119(0) swapouts.
+Networks: packets: 75402006/44G in, 101096959/77G out.
+Disks: 1316703055/25T read, 933221735/21T written.
 
-COMMAND      MEM  %CPU #TH 
-Webex        967M 0.0  99  
-WindowServer 903M 0.0  22/1
-Finder       568M 0.0  9   
-Safari       545M 0.0  15  
-inSync       466M 0.0  56  
+COMMAND          MEM   %CPU #TH 
+Webex            1016M 0.0  101 
+WindowServer     770M  0.0  24/1
+Finder           569M  0.0  8/1 
+Safari           562M  0.0  19  
+com.code42.agent 502M  0.0  55  
