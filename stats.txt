@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   22.47 1228 26.94  17  7 77  45.65 29.98 25.18
+    9.68 9758 92.23  12  9 78  206.06 56.39 20.93
 
-Processes: 632 total, 12 running, 2 stuck, 618 sleeping, 4577 threads 
-2026/06/29 11:54:15
-Load Avg: 42.71, 29.63, 25.08 
-CPU usage: 35.44% user, 45.20% sys, 19.34% idle 
-SharedLibs: 277M resident, 44M data, 37M linkedit.
-MemRegions: 503814 total, 2792M resident, 72M private, 1470M shared.
-PhysMem: 15G used (4121M wired, 6639M compressor), 280M unused.
-VM: 288T vsize, 6144M framework vsize, 3395990(0) swapins, 5950903(0) swapouts.
-Networks: packets: 84347207/49G in, 111175223/81G out.
-Disks: 1613985122/33T read, 1003991874/22T written.
+Processes: 638 total, 93 running, 7 stuck, 538 sleeping, 3968 threads 
+2026/06/30 10:28:19
+Load Avg: 206.06, 56.39, 20.93 
+CPU usage: 38.86% user, 25.38% sys, 35.75% idle 
+SharedLibs: 855M resident, 186M data, 139M linkedit.
+MemRegions: 138088 total, 5775M resident, 490M private, 2285M shared.
+PhysMem: 15G used (1515M wired, 749M compressor), 607M unused.
+VM: 264T vsize, 6144M framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 27957/26M in, 17049/4760K out.
+Disks: 957603/12G read, 1182337/7982M written.
 
-COMMAND          MEM  %CPU #TH 
-fseventsd        32G  0.0  18/2
-WindowServer     769M 0.0  25  
-Safari           713M 0.0  20  
-com.apple.WebKit 679M 0.0  9   
-Webex            675M 0.0  101 
+COMMAND          MEM   %CPU #TH 
+com.code42.agent 6816M 0.0  56  
+com.apple.Virtua 746M  0.0  22  
+WindowServer     359M  0.0  21  
+Spotlight        252M  0.0  10/1
+MTLCompilerServi 245M  0.0  3/1 
