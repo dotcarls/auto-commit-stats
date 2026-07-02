@@ -1,21 +1,21 @@
               disk0               disk4       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.00 2246 41.68   145.68    0  0.00  23  9 68  6.50 6.46 7.22
+   19.00 2247 41.68   145.68    0  0.00  23  9 68  6.74 6.52 7.22
 
-Processes: 767 total, 4 running, 3 stuck, 760 sleeping, 4281 threads 
-2026/07/02 10:53:08
-Load Avg: 6.21, 6.41, 7.20 
-CPU usage: 26.97% user, 14.66% sys, 58.35% idle 
-SharedLibs: 369M resident, 83M data, 68M linkedit.
-MemRegions: 254798 total, 4752M resident, 188M private, 1638M shared.
-PhysMem: 15G used (2611M wired, 4453M compressor), 252M unused.
-VM: 322T vsize, 6144M framework vsize, 212591(0) swapins, 398471(0) swapouts.
-Networks: packets: 12676300/13G in, 10625359/10G out.
-Disks: 292011645/5204G read, 99996091/1899G written.
+Processes: 772 total, 8 running, 3 stuck, 761 sleeping, 4370 threads 
+2026/07/02 10:53:28
+Load Avg: 6.74, 6.52, 7.22 
+CPU usage: 44.53% user, 24.0% sys, 31.46% idle 
+SharedLibs: 331M resident, 82M data, 61M linkedit.
+MemRegions: 256718 total, 4495M resident, 134M private, 1816M shared.
+PhysMem: 15G used (2780M wired, 4774M compressor), 202M unused.
+VM: 324T vsize, 6144M framework vsize, 212599(0) swapins, 398471(0) swapouts.
+Networks: packets: 12680251/13G in, 10630097/10G out.
+Disks: 292106598/5206G read, 100035033/1899G written.
 
 COMMAND          MEM   %CPU #TH
 python3.11       1036M 0.0  3/1
-codex-aarch64-ap 879M  0.0  28 
-python3.11       852M  0.0  1/1
-com.code42.agent 767M  0.0  55 
-WindowServer     656M  0.0  22 
+codex-aarch64-ap 882M  0.0  30 
+python3.11       861M  0.0  1/1
+com.code42.agent 788M  0.0  57 
+WindowServer     651M  0.0  23 
