@@ -1,38 +1,21 @@
               disk0               disk4       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.13 2695 47.70   140.67    0  0.00  24 10 66  6.18 9.57 14.70
+   18.03 2728 48.02   140.52    0  0.00  24 10 66  30.18 23.57 19.51
 
-Processes: 589 total, 4 running, 585 sleeping, 4131 threads 
-2026/07/02 15:53:15
-Load Avg: 6.18, 9.57, 14.70 
-CPU usage: 31.47% user, 15.0% sys, 53.52% idle 
-SharedLibs: 499M resident, 90M data, 72M linkedit.
-MemRegions: 256398 total, 4782M resident, 174M private, 1786M shared.
-PhysMem: 15G used (2696M wired, 3835M compressor), 261M unused.
-VM: 250T vsize, 6144M framework vsize, 471642(0) swapins, 863903(0) swapouts.
-Networks: packets: 16090685/17G in, 13280644/13G out.
-Disks: 369675897/6437G read, 149138737/2532G written.
+Processes: 547 total, 27 running, 5 stuck, 515 sleeping, 3846 threads 
+2026/07/02 16:01:34
+Load Avg: 30.18, 23.57, 19.51 
+CPU usage: 41.1% user, 55.69% sys, 3.29% idle 
+SharedLibs: 362M resident, 75M data, 62M linkedit.
+MemRegions: 250380 total, 4090M resident, 105M private, 1589M shared.
+PhysMem: 15G used (2692M wired, 5344M compressor), 511M unused.
+VM: 233T vsize, 6144M framework vsize, 474587(0) swapins, 889399(0) swapouts.
+Networks: packets: 16190315/17G in, 13350689/13G out.
+Disks: 372902019/6466G read, 153572974/2587G written.
 
-COMMAND          MEM   %CPU #TH
-com.code42.agent 2743M 0.0  56 
-com.cisco.endpoi 1397M 0.0  3  
-python3.11       767M  0.0  2/1
-WindowServer     734M  0.0  24 
-Webex            613M  0.0  93 
-Processes: 589 total, 5 running, 584 sleeping, 4133 threads 
-2026/07/02 15:53:15
-Load Avg: 6.18, 9.57, 14.70 
-CPU usage: 31.17% user, 17.94% sys, 50.88% idle 
-SharedLibs: 500M resident, 90M data, 72M linkedit.
-MemRegions: 256408 total, 4905M resident, 174M private, 1786M shared.
-PhysMem: 15G used (2695M wired, 3790M compressor), 206M unused.
-VM: 250T vsize, 6144M framework vsize, 471642(0) swapins, 863903(0) swapouts.
-Networks: packets: 16090794/17G in, 13280706/13G out.
-Disks: 369675993/6437G read, 149138755/2532G written.
-
-COMMAND          MEM   %CPU #TH
-com.code42.agent 2743M 0.0  56 
-com.cisco.endpoi 1397M 0.0  3  
-python3.11       771M  0.0  2/1
-WindowServer     734M  0.0  24 
-Webex            613M  0.0  93 
+COMMAND          MEM   %CPU #TH 
+com.code42.agent 1668M 0.0  57/1
+python3.11       1152M 0.0  2/1 
+com.cisco.endpoi 1008M 0.0  3/1 
+python3.11       909M  0.0  3/1 
+WindowServer     819M  0.0  23  
