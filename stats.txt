@@ -1,21 +1,21 @@
               disk0               disk4       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   17.39 3025 51.36   137.61    0  0.00  25 11 64  18.88 31.38 30.88
+   17.42 3022 51.41   137.35    0  0.00  25 11 64  6.38 11.10 12.10
 
-Processes: 573 total, 14 running, 6 stuck, 553 sleeping, 4112 threads 
-2026/07/02 18:41:53
-Load Avg: 18.88, 31.38, 30.88 
-CPU usage: 27.15% user, 35.43% sys, 37.41% idle 
-SharedLibs: 269M resident, 41M data, 41M linkedit.
-MemRegions: 223935 total, 4726M resident, 69M private, 1409M shared.
-PhysMem: 15G used (2728M wired, 5588M compressor), 403M unused.
-VM: 242T vsize, 6144M framework vsize, 1926915(0) swapins, 2934006(0) swapouts.
-Networks: packets: 20534655/19G in, 16383360/15G out.
-Disks: 428044781/7127G read, 184951801/3037G written.
+Processes: 529 total, 7 running, 522 sleeping, 4012 threads 
+2026/07/02 19:31:44
+Load Avg: 6.38, 11.10, 12.10 
+CPU usage: 30.23% user, 18.27% sys, 51.49% idle 
+SharedLibs: 273M resident, 77M data, 54M linkedit.
+MemRegions: 221014 total, 4677M resident, 70M private, 1570M shared.
+PhysMem: 15G used (2661M wired, 5477M compressor), 312M unused.
+VM: 224T vsize, 6144M framework vsize, 2525108(0) swapins, 3582726(0) swapouts.
+Networks: packets: 21243504/19G in, 16932213/15G out.
+Disks: 435311853/7258G read, 186006935/3065G written.
 
-COMMAND          MEM   %CPU #TH 
-fseventsd        15G   0.0  13/3
-com.code42.agent 1651M 0.0  56  
-mds_stores       1004M 0.0  14/3
-Terminal         616M  0.0  13/3
-WindowServer     576M  0.0  19  
+COMMAND          MEM  %CPU #TH 
+fseventsd        16G  0.0  17/1
+python3.11       803M 0.0  2/1 
+com.code42.agent 629M 0.0  54  
+WindowServer     576M 0.0  20/1
+Terminal         570M 0.0  13  
