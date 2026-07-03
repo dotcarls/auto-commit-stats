@@ -1,21 +1,21 @@
               disk0               disk4       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   17.55 2815 48.23   111.04    0  0.00  24 11 65  25.45 24.78 31.02
+   17.60 2880 49.52   110.74    0  0.00  24 12 65  112.46 36.04 20.41
 
-Processes: 632 total, 43 running, 10 stuck, 579 sleeping, 4306 threads 
-2026/07/03 13:42:13
-Load Avg: 25.45, 24.78, 31.02 
-CPU usage: 57.97% user, 42.2% sys, 0.0% idle 
-SharedLibs: 221M resident, 48M data, 31M linkedit.
-MemRegions: 189121 total, 3362M resident, 69M private, 1351M shared.
-PhysMem: 15G used (3142M wired, 7089M compressor), 408M unused.
-VM: 261T vsize, 6144M framework vsize, 19983365(0) swapins, 22620056(0) swapouts.
-Networks: packets: 31166075/25G in, 24327458/18G out.
-Disks: 537483289/9019G read, 225447308/3750G written.
+Processes: 669 total, 128 running, 4 stuck, 537 sleeping, 5210 threads 
+2026/07/03 14:40:55
+Load Avg: 112.46, 36.04, 20.41 
+CPU usage: 47.11% user, 28.67% sys, 24.21% idle 
+SharedLibs: 541M resident, 135M data, 103M linkedit.
+MemRegions: 343083 total, 5078M resident, 427M private, 1646M shared.
+PhysMem: 15G used (3123M wired, 1781M compressor), 616M unused.
+VM: 292T vsize, 6144M framework vsize, 27581065(0) swapins, 30666679(0) swapouts.
+Networks: packets: 33212996/27G in, 25274588/18G out.
+Disks: 554564487/9321G read, 236377357/3959G written.
 
 COMMAND          MEM   %CPU #TH 
-fseventsd        38G   0.0  13  
-Terminal         1301M 0.0  18/3
-codex-aarch64-ap 842M  0.0  40/1
-python3.11       707M  0.0  4/1 
-python3.11       662M  0.0  2/1 
+com.code42.agent 2904M 0.0  60/1
+Terminal         950M  0.0  15  
+codex-aarch64-ap 851M  0.0  44  
+com.cisco.endpoi 646M  0.0  3   
+WindowServer     595M  0.0  22/1
