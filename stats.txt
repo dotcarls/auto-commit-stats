@@ -1,21 +1,21 @@
               disk0               disk4       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.53 1831 33.12    85.29    0  0.00  16  8 76  6.15 7.39 7.20
+   18.54 1828 33.10    85.15    0  0.00  16  8 76  4.31 4.36 4.62
 
-Processes: 778 total, 4 running, 774 sleeping, 5411 threads 
-2026/07/06 14:02:35
-Load Avg: 6.15, 7.39, 7.20 
-CPU usage: 23.0% user, 15.42% sys, 61.56% idle 
-SharedLibs: 306M resident, 65M data, 63M linkedit.
-MemRegions: 683525 total, 3991M resident, 172M private, 1932M shared.
-PhysMem: 15G used (3109M wired, 5062M compressor), 151M unused.
-VM: 369T vsize, 6144M framework vsize, 27917913(0) swapins, 31078175(0) swapouts.
-Networks: packets: 32044549/28G in, 27220867/20G out.
-Disks: 702016793/12T read, 270874676/4526G written.
+Processes: 632 total, 4 running, 628 sleeping, 4842 threads 
+2026/07/06 14:55:37
+Load Avg: 4.31, 4.36, 4.62 
+CPU usage: 11.98% user, 16.42% sys, 71.59% idle 
+SharedLibs: 394M resident, 75M data, 78M linkedit.
+MemRegions: 579084 total, 3689M resident, 162M private, 1706M shared.
+PhysMem: 15G used (3060M wired, 5852M compressor), 251M unused.
+VM: 298T vsize, 6144M framework vsize, 27945480(0) swapins, 31078175(0) swapouts.
+Networks: packets: 33293431/29G in, 27986472/21G out.
+Disks: 705505779/12T read, 271864870/4557G written.
 
-COMMAND          MEM   %CPU #TH
-com.code42.agent 1381M 0.0  55 
-Terminal         1253M 0.0  16 
-python3.11       1080M 0.0  2/1
-WindowServer     949M  0.0  23 
-codex-aarch64-ap 538M  0.0  79 
+COMMAND          MEM   %CPU #TH 
+com.code42.agent 1036M 0.0  55  
+WindowServer     984M  0.0  23/1
+codex-aarch64-ap 849M  0.0  35  
+Terminal         844M  0.0  14  
+com.docker.backe 532M  0.0  126 
