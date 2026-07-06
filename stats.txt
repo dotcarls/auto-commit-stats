@@ -1,21 +1,21 @@
               disk0               disk4       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.52 1826 33.01    87.32    0  0.00  16  8 76  5.15 5.30 5.57
+   18.51 1828 33.04    87.20    0  0.00  16  8 76  4.58 5.46 6.32
 
-Processes: 692 total, 5 running, 687 sleeping, 4970 threads 
-2026/07/06 12:41:57
-Load Avg: 5.21, 5.31, 5.57 
-CPU usage: 20.9% user, 15.39% sys, 64.50% idle 
-SharedLibs: 386M resident, 91M data, 52M linkedit.
-MemRegions: 564480 total, 3378M resident, 181M private, 1723M shared.
-PhysMem: 15G used (3033M wired, 6010M compressor), 378M unused.
-VM: 323T vsize, 6144M framework vsize, 27887132(0) swapins, 30862463(0) swapouts.
-Networks: packets: 29375467/25G in, 25988891/20G out.
-Disks: 693930711/12T read, 267512760/4467G written.
+Processes: 692 total, 9 running, 1 stuck, 682 sleeping, 5174 threads 
+2026/07/06 13:20:17
+Load Avg: 4.58, 5.46, 6.32 
+CPU usage: 55.6% user, 40.64% sys, 4.29% idle 
+SharedLibs: 348M resident, 70M data, 59M linkedit.
+MemRegions: 660534 total, 2879M resident, 168M private, 1728M shared.
+PhysMem: 15G used (3342M wired, 6579M compressor), 249M unused.
+VM: 333T vsize, 6144M framework vsize, 27893269(0) swapins, 30893523(0) swapouts.
+Networks: packets: 30533581/26G in, 26492926/20G out.
+Disks: 696911177/12T read, 269905323/4499G written.
 
-COMMAND          MEM   %CPU #TH 
-Terminal         1146M 0.0  16  
-com.code42.agent 936M  0.0  54/1
-WindowServer     772M  0.0  23  
-com.apple.WebKit 620M  0.0  4   
-com.docker.backe 524M  0.0  126 
+COMMAND          MEM   %CPU #TH
+Terminal         1044M 0.0  15 
+WindowServer     966M  0.0  24 
+com.code42.agent 689M  0.0  57 
+com.docker.backe 527M  0.0  126
+inSync           485M  0.0  57 
