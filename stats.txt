@@ -1,21 +1,21 @@
               disk0               disk4       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.50 1825 32.97    91.30    0  0.00  16  8 76  5.90 9.09 9.26
+   18.50 1825 32.97    91.30    0  0.00  16  8 76  5.84 8.93 9.20
 
-Processes: 687 total, 5 running, 682 sleeping, 4391 threads 
-2026/07/06 12:12:25
-Load Avg: 5.90, 9.09, 9.26 
-CPU usage: 5.58% user, 11.57% sys, 82.83% idle 
-SharedLibs: 443M resident, 87M data, 69M linkedit.
-MemRegions: 475190 total, 4179M resident, 176M private, 2082M shared.
-PhysMem: 15G used (2970M wired, 4369M compressor), 286M unused.
-VM: 312T vsize, 6144M framework vsize, 27885389(0) swapins, 30862463(0) swapouts.
-Networks: packets: 28471962/24G in, 25618959/19G out.
-Disks: 691180410/12T read, 266714751/4447G written.
+Processes: 709 total, 13 running, 2 stuck, 694 sleeping, 4938 threads 
+2026/07/06 12:12:36
+Load Avg: 5.84, 8.93, 9.20 
+CPU usage: 38.79% user, 25.68% sys, 35.51% idle 
+SharedLibs: 331M resident, 65M data, 62M linkedit.
+MemRegions: 562507 total, 3591M resident, 148M private, 1947M shared.
+PhysMem: 15G used (3292M wired, 5737M compressor), 339M unused.
+VM: 330T vsize, 6144M framework vsize, 27885399(0) swapins, 30862463(0) swapouts.
+Networks: packets: 28477987/24G in, 25625399/19G out.
+Disks: 691216890/12T read, 266724416/4447G written.
 
 COMMAND          MEM   %CPU #TH 
-com.code42.agent 1084M 0.0  55/1
-Terminal         812M  0.0  13  
-WindowServer     774M  0.0  24  
+com.code42.agent 1084M 0.0  57  
+WindowServer     813M  0.0  25/1
+Terminal         761M  0.0  13  
 com.cisco.endpoi 727M  0.0  3   
-com.docker.backe 520M  0.0  126 
+com.docker.backe 520M  0.0  127 
