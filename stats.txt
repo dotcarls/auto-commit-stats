@@ -1,21 +1,21 @@
               disk0               disk4       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   18.56 1830 33.17    85.07    0  0.00  16  8 76  14.46 8.22 8.11
+   18.56 1830 33.17    85.07    0  0.00  16  8 76  5.18 6.64 7.46
 
-Processes: 731 total, 8 running, 1 stuck, 722 sleeping, 5296 threads 
-2026/07/06 15:41:07
-Load Avg: 13.95, 8.21, 8.11 
-CPU usage: 25.11% user, 15.67% sys, 59.20% idle 
-SharedLibs: 345M resident, 63M data, 44M linkedit.
-MemRegions: 593135 total, 3208M resident, 132M private, 1895M shared.
-PhysMem: 15G used (3213M wired, 6080M compressor), 280M unused.
-VM: 338T vsize, 6144M framework vsize, 27961419(0) swapins, 31126123(0) swapouts.
-Networks: packets: 35025231/30G in, 29012474/21G out.
-Disks: 710107727/13T read, 273144123/4597G written.
+Processes: 640 total, 2 running, 1 stuck, 637 sleeping, 4975 threads 
+2026/07/06 15:44:40
+Load Avg: 5.18, 6.64, 7.46 
+CPU usage: 10.98% user, 15.18% sys, 73.82% idle 
+SharedLibs: 447M resident, 93M data, 67M linkedit.
+MemRegions: 582032 total, 3139M resident, 179M private, 1708M shared.
+PhysMem: 15G used (3176M wired, 5560M compressor), 801M unused.
+VM: 301T vsize, 6144M framework vsize, 27962062(0) swapins, 31126123(0) swapouts.
+Networks: packets: 35159127/30G in, 29108532/21G out.
+Disks: 710400871/13T read, 273234973/4600G written.
 
-COMMAND          MEM  %CPU #TH 
-python3.11       964M 0.0  2/1 
-WindowServer     963M 0.0  23  
-Terminal         955M 0.0  15  
-codex-aarch64-ap 923M 0.0  36  
-com.code42.agent 723M 0.0  55/1
+COMMAND          MEM   %CPU #TH
+Terminal         1109M 0.0  15 
+WindowServer     955M  0.0  22 
+codex-aarch64-ap 924M  0.0  31 
+com.code42.agent 727M  0.0  55 
+com.apple.WebKit 545M  0.0  9  
