@@ -1,21 +1,21 @@
               disk0               disk4       cpu    load average
     KB/t  tps  MB/s     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   19.29 1665 31.37    55.38    0  0.00  15  7 77  7.26 5.60 4.37
+   19.30 1665 31.37    55.38    0  0.00  15  7 77  5.00 6.38 5.17
 
-Processes: 685 total, 11 running, 4 stuck, 670 sleeping, 4227 threads 
-2026/07/13 13:46:36
-Load Avg: 7.16, 5.60, 4.38 
-CPU usage: 29.54% user, 22.31% sys, 48.14% idle 
-SharedLibs: 345M resident, 69M data, 68M linkedit.
-MemRegions: 373378 total, 3659M resident, 121M private, 1479M shared.
-PhysMem: 15G used (2911M wired, 5917M compressor), 188M unused.
-VM: 299T vsize, 6144M framework vsize, 29926161(0) swapins, 33361392(0) swapouts.
-Networks: packets: 81371136/63G in, 68486760/43G out.
-Disks: 1450612861/27T read, 439673503/7598G written.
+Processes: 652 total, 5 running, 647 sleeping, 4150 threads 
+2026/07/13 13:50:45
+Load Avg: 5.00, 6.38, 5.17 
+CPU usage: 21.36% user, 11.26% sys, 67.37% idle 
+SharedLibs: 367M resident, 78M data, 56M linkedit.
+MemRegions: 366926 total, 3773M resident, 119M private, 1388M shared.
+PhysMem: 15G used (3048M wired, 5848M compressor), 256M unused.
+VM: 285T vsize, 6144M framework vsize, 29927246(0) swapins, 33361392(0) swapouts.
+Networks: packets: 81602695/63G in, 68525376/43G out.
+Disks: 1450925333/27T read, 439736583/7600G written.
 
 COMMAND          MEM   %CPU #TH 
-fseventsd        3173M 0.0  22/1
-WindowServer     836M  0.0  23  
-com.code42.agent 814M  0.0  56  
-Terminal         706M  0.0  13  
-inSync           662M  0.0  59  
+fseventsd        3188M 0.0  16/1
+Terminal         964M  0.0  14  
+WindowServer     869M  0.0  23  
+com.code42.agent 850M  0.0  54  
+inSync           656M  0.0  59  
