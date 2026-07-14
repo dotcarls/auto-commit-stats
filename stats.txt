@@ -1,21 +1,21 @@
               disk0       cpu    load average
     KB/t  tps  MB/s  us sy id   1m   5m   15m
-   22.41 3737 81.78  40 18 42  26.14 22.93 22.31
+   22.47 3696 81.10  41 17 42  20.47 29.51 26.30
 
-Processes: 762 total, 16 running, 1 stuck, 745 sleeping, 5309 threads 
-2026/07/14 14:35:35
-Load Avg: 26.14, 22.93, 22.31 
-CPU usage: 59.21% user, 23.82% sys, 16.95% idle 
-SharedLibs: 156M resident, 31M data, 20M linkedit.
-MemRegions: 687855 total, 2417M resident, 70M private, 2526M shared.
-PhysMem: 15G used (2768M wired, 6760M compressor), 445M unused.
-VM: 366T vsize, 6144M framework vsize, 29833(0) swapins, 190964(0) swapouts.
-Networks: packets: 4080090/4866M in, 1191570/602M out.
-Disks: 8840383/180G read, 1855854/49G written.
+Processes: 789 total, 8 running, 10 stuck, 771 sleeping, 5407 threads 
+2026/07/14 14:47:14
+Load Avg: 20.47, 29.51, 26.30 
+CPU usage: 52.99% user, 27.96% sys, 19.4% idle 
+SharedLibs: 245M resident, 49M data, 52M linkedit.
+MemRegions: 692500 total, 2499M resident, 90M private, 2534M shared.
+PhysMem: 15G used (2454M wired, 6617M compressor), 424M unused.
+VM: 377T vsize, 6144M framework vsize, 57776(0) swapins, 269512(0) swapouts.
+Networks: packets: 4298272/4953M in, 1348984/659M out.
+Disks: 11072530/227G read, 2092263/55G written.
 
 COMMAND          MEM   %CPU #TH
 com.apple.Virtua 4139M 0.0  21 
 node             1082M 0.0  44 
-codex-aarch64-ap 1018M 0.0  47 
-Terminal         888M  0.0  14 
-WindowServer     830M  0.0  20 
+Terminal         1002M 0.0  14 
+codex-aarch64-ap 997M  0.0  39 
+WindowServer     903M  0.0  23 
